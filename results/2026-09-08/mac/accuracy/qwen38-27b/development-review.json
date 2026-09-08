@@ -1,0 +1,37 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "030d2cda52e72e4991cf13f400c90604e4eb5589850f3f666c7dad288fcbfb11",
+    "development-summary": "df487f29dc1363720d8d2e8d9ab13eba12ef09fc97a86d5d128ca678d633434b"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected and two hanging survivors preserved."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correct six-day scope and reported qualification."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "contrasting Antonina’s fate with that of the Marlboroughs",
+      "judgment": "contradiction",
+      "source_pages": [
+        101
+      ],
+      "rationale": "The source contrasts her behavior with Duchess Sarah, but says the couples suffered much the same misfortune; the summary makes their fate the contrast."
+    }
+  ],
+  "summary_review": "The rest of the beginning/middle/ending retains faction alignments, troops away at war, fire, reluctant Hypatius, Theodora, attack and later unrest. Justinian’s house is a contextual dynasty paraphrase of source Justinus, not scored as a clear different dynasty. Belisarius’s command belongs on 103 rather than 102; thousands slain spans 105–106."
+}

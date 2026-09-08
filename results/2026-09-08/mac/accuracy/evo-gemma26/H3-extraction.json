@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "05b85a3eeda7b37bae9f8a3ec1925d704479ccfa2c9796cb0bedccf27d2acc34",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3369,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:07:54.350717+00:00",
+  "output": "H3-Q1: He was given this name because he was born in the Purple Chamber, which was the room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress\" [PDF p. 241].\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they did not keep it. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls\" [PDF p. 242].\n\nH3-Q3: The mob and the guards removed the sons of Romanus Lecapenus. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother\" [PDF p. 243].\n\nH3-Q4: Leo recommended caution when facing the Franks and Lombards. \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245].\n\nH3-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 3369,
+    "total_tokens": 3613,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3286,
+    "prompt_ms": 2324.447,
+    "prompt_per_token_ms": 0.7073788800973829,
+    "prompt_per_second": 1413.6695738814435,
+    "predicted_n": 244,
+    "predicted_ms": 4160.778,
+    "predicted_per_token_ms": 17.122543209876543,
+    "predicted_per_second": 58.40253914051651
+  },
+  "first_visible_seconds": 2.378705542000006,
+  "wall_seconds": 6.539818917000005,
+  "word_count": 156,
+  "finished_at": "2026-09-08T16:08:02.457088+00:00"
+}

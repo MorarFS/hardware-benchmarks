@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "fc97261fa50e4af309faf258512d7fff8415598de92c92fff6c9ffaffc5744a4",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3552,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:49:33.053888+00:00",
+  "output": "H1-Q1: The Visigoths were led by their Duke Fritigern. They fell back in dismay \"under their Duke Fritigern\" [PDF p. 61].\n\nH1-Q2: Valens required the Goths to give hostages and surrender their arms. The Goths were \"unwilling to surrender their weapons\" and instead offered bribes to retain them, which were accepted [PDF p. 63].\n\nH1-Q3: Lupicinus held back food and sold it at \"exorbitant prices\" to fill his own pockets. This \"shameless extortion\" drove the Goths to desperation and sparked a revolt [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. It \"thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 3552,
+    "total_tokens": 3766,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3469,
+    "prompt_ms": 4757.79,
+    "prompt_per_token_ms": 1.3715162871144422,
+    "prompt_per_second": 729.1200326201871,
+    "predicted_n": 214,
+    "predicted_ms": 6469.445,
+    "predicted_per_token_ms": 30.372981220657277,
+    "predicted_per_second": 32.92399889016755
+  },
+  "first_visible_seconds": 4.8331765,
+  "wall_seconds": 11.303305458,
+  "word_count": 126,
+  "finished_at": "2026-09-08T13:49:45.204372+00:00"
+}

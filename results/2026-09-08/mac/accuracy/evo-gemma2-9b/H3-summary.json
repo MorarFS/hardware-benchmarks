@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "cbb888a1d913d6073e066605243038179d9e5cb8e51fab08e71388468fb9b5d7",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3203,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:13:59.767712+00:00",
+  "output": "The eighty years following Basil the Macedonian's death were marked by the reigns of Leo the Wise and Constantine Porphyrogenitus, described by the author as \"mild, strange issue\" from Basil's lineage.  These emperors, unlike their predecessor, were not military leaders but preferred literature, leaving behind valuable works. [PDF p. 241] The author believes that if the times had been more turbulent, Leo and Constantine might not have been strong enough to protect their throne. [PDF p. 242]\n\nThe period from 880 to 960 was relatively peaceful for the Byzantine Empire. [PDF p. 242] The Caliphate was fracturing, the Bulgarians and other neighbors were converting to Christianity, and the only threats were occasional raids from Russians and Saracens. [PDF p. 242] Leo's reign was mostly uneventful, except for a failed Bulgarian invasion and a raid on Thessalonica by Saracens in 904. [PDF p. 243] The author acknowledges that the capture of Thessalonica was a disgrace for Leo's administration but notes that the city was taken by surprise. [PDF p. 243]\n\nConstantine Porphyrogenitus, Leo's son, came to power at age 40 after years under the rule of guardians and the ambitious Romanus Lecapenus. [PDF p. 243] Constantine's ascension was aided by popular unrest against Lecapenus' sons who had declared themselves emperors. [PDF p. 243] Constantine's reign was not marked by great achievements but he was not tyrannical. [PDF p. 243]\n\nBoth Leo and Constantine are praised for their literary contributions. Leo's \"Tactica\" provides valuable insights into the Byzantine army's organization, tactics, and resources. [PDF p. 244] Constantine's works include \"On the Themes,\" \"On the Administration of the Empire,\" and a biography of Basil the Macedonian. [PDF p. 246] The author concludes that the literary revival under Leo and Constantine signifies the end of a period of intellectual decline in the Byzantine Empire. [PDF p. 247] \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 468,
+    "prompt_tokens": 3203,
+    "total_tokens": 3671,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 3202,
+    "prompt_ms": 3553.842,
+    "prompt_per_token_ms": 1.1098819487820113,
+    "prompt_per_second": 900.9967241087252,
+    "predicted_n": 468,
+    "predicted_ms": 13627.789,
+    "predicted_per_token_ms": 29.18156102783726,
+    "predicted_per_second": 34.26821474855532
+  },
+  "first_visible_seconds": 3.7180692500000987,
+  "wall_seconds": 17.343789042000026,
+  "word_count": 303,
+  "finished_at": "2026-09-08T15:14:18.024002+00:00"
+}

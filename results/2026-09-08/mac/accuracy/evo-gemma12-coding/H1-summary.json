@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "ad9bdb002dddf42468a5c41c4bd2025e143878024b866afd33772656edaecd58",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3442,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:09:05.683632+00:00",
+  "output": "The author begins by characterizing the Huns as a savage horde that nearly exterminated the Alans and crushed the Ostrogoths [PDF p. 61]. The author then reports a Gothic historian’s description of the Huns as shapeless, fierce beasts [PDF p. 61]. The Visigoths, fleeing the Huns and seeking refuge from the threat of slavery, petitioned the Roman Empire for passage [PDF p. 62]. The author evaluates Emperor Valens as a stupid, cowardly, and avaricious ruler who ultimately allowed the Goths to cross the Danube in exchange for hostages and surrendered arms [PDF p. 62, 63]. After the Goths retained their weapons and were subjected to extortion by the governor Lupicinus, a skirmish at Marcianopolis led Fritigern to declare war on Rome [PDF p. 63, 64]. The author claims the Goths’ barbarian spirit was only thinly covered by a veneer of civilization [PDF p. 64]. The conflict culminated in the battle of Adrianople, where the Goths used cavalry to crush the Roman infantry [PDF p. 65, 66]. The author compares the slaughter to Cannae and concludes that Constantine’s foresight was proven when the Goths later abandoned a siege of Constantinople [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 281,
+    "prompt_tokens": 3442,
+    "total_tokens": 3723,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3359,
+    "prompt_ms": 6106.778,
+    "prompt_per_token_ms": 1.8180345340875261,
+    "prompt_per_second": 550.0445570479228,
+    "predicted_n": 281,
+    "predicted_ms": 11375.99,
+    "predicted_per_token_ms": 40.62853571428571,
+    "predicted_per_second": 24.61324245186573
+  },
+  "first_visible_seconds": 6.21976508299997,
+  "wall_seconds": 17.595923749999997,
+  "word_count": 192,
+  "finished_at": "2026-09-08T14:09:23.919312+00:00"
+}

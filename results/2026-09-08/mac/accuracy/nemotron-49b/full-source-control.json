@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "960cefec7c11acab1bf2e9e3f906927948b2047b00deaee2419f88333e09861a",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13541,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:50:55.128904+00:00",
+  "output": "\n\n**Synthesis of Discontinuous Excerpts (350–450 words)**\n\n**Paragraph 1: The Hun Invasion and Gothic Displacement (PDF p. 61-62)**\n\nAround A.D. 372, the Huns, a massive Tartar horde, invaded the lands north of the Euxine, moving westward. They devastated the Alans and then clashed with the Goths. The Ostrogoths attempted to defend the Dniester line but were overwhelmed by the Huns' ferocity. Most Ostrogoths became Hun vassals, while a remnant fled to the Wallachian shore. The Visigoths, under Duke Fritigern, were next, retreating to the Danube under Hun pressure. Facing the Roman border, they desperately sought permission to cross from Emperor Valens (p. 61-62). Valens, described as \"stupid, cowardly, and avaricious\" (p. 62), was torn between refusing entry to armed Goths or admitting them with the obligation to provide land, ultimately choosing the latter with conditions.\n\n**Paragraph 2: Gothic Uprising and Roman Response (PDF p. 63-64)**\n\nAfter crossing into Moesia, the Visigoths faced issues with Roman officials, including attempts to disarm them and exploitation by Governor Lupicinus, who hoarded food and sold it at exorbitant prices. This led to widespread hunger and desperation among the Goths. Tensions escalated when starving Goths attempted to pillage a market, leading to a clash with Roman soldiers. At a banquet in Marcianopolis, Lupicinus ordered the killing of Gothic leaders, including Fritigern, who escaped and rallied his people against Rome (p. 63-64). This marked the beginning of a year of intense fighting along the Danube and the northern Balkans.\n\n**Paragraph 3: The Battle of Adrianople and Its Aftermath (PDF p. 65-67)**\n\nIn 378 A.D., Emperor Valens personally led a large army to confront the Goths near Adrianople. Despite expectations of Roman victory, the Goths, now adept at cavalry warfare, launched a surprise flank attack, decimating the Roman forces. The battle resulted in a catastrophic defeat for Rome, with Valens and many high-ranking officials killed. The Gothic victory led to a siege of Constantinople, but the city's formidable walls and the Goths' lack of siege expertise prevented its fall. The battle marked a significant shift in the balance of power, with the Roman army in the East never fully recovering (p. 65-67).\n\n**Paragraph 4: The Decline of the Byzantine Empire (PDF p. 169, 241, 358-367)**\n\nCenturies later, the Byzantine Empire faced internal and external challenges. The Latin tongue declined significantly in the East, with Greek becoming dominant (p. 169). The empire's literary and administrative prowess was evident in the works of emperors like Leo the Wise and Constantine Porphyrogenitus, who focused on military strategy, administration, and court ceremonies (p. 241). However, by the late medieval period, the empire was in steep decline. The Paleologi emperors struggled to maintain power, with Manuel II and his successors facing continuous threats from the Ottomans. Despite temporary reprieves, like the opportunity presented by Timur's invasion, the empire's weakness and internal strife led to its gradual dissolution. By the fifteenth century, Constantinople was a shadow of its former self, with its population, military, and economy severely diminished (p. 358-367).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 753,
+    "prompt_tokens": 13541,
+    "total_tokens": 14294,
+    "prompt_tokens_details": {
+      "cached_tokens": 171
+    }
+  },
+  "timings": {
+    "cache_n": 171,
+    "prompt_n": 13370,
+    "prompt_ms": 100811.085,
+    "prompt_per_token_ms": 7.540096110695588,
+    "prompt_per_second": 132.62430416258292,
+    "predicted_n": 753,
+    "predicted_ms": 96422.712,
+    "predicted_per_token_ms": 128.2216914893617,
+    "predicted_per_second": 7.798992419960143
+  },
+  "first_visible_seconds": 100.94578637500001,
+  "wall_seconds": 197.36735591600007,
+  "word_count": 496,
+  "finished_at": "2026-09-08T14:54:13.409217+00:00"
+}

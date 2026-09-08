@@ -1,0 +1,17 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "2077ceee2a858caa8a6c7a885bef1be465f797ab5b1967495ea727a238cdf8d5",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3289,
+  "output_budget": 2048,
+  "status": "error",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:32:59.129424+00:00",
+  "error": "System swap growth exceeded 1 GiB",
+  "finished_at": "2026-09-08T14:33:41.776706+00:00"
+}

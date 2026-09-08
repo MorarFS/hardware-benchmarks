@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "d26b3997e2508680c51259344784f9c6e8dea50447057f61bcd315a1db5fcc85",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3275,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:29:04.617903+00:00",
+  "output": "The eighty years following Basil the Macedonian’s death were characterized as uneventful and dominated by the literary pursuits of Leo VI and Constantine VII. These successors are described as mild men who preferred writing to military conquest, a choice facilitated by a period of relative peace from 880 to 960. Although the empire faced minor threats from Russian pirates and Saracens, the author notes that Leo’s reign suffered a disgraceful loss when Saracen forces captured Thessalonica in 904. This event is qualified as a surprise attack from an unexpected direction, yet it remains an administrative failure. Constantine VII spent his youth under the regency of his uncle Alexander and later the usurper Romanus Lecapenus. The author attributes Constantine’s eventual accession to popular wrath against Romanus’s sons rather than his own energy. Once in power, Constantine proved weak but not tyrannical. Both emperers are credited with significant literary output, including Leo’s manual on war tactics which details a highly organized army and fleet equipped with Greek fire. Constantine’s works on administration and court ceremonies are praised for their methodical detail, though the author evaluates him as a compiler rather than an originator. These literary achievements signal the end of a long period of intellectual dearth, marking a revival of Byzantine culture after the dark age of the seventh and eighth centuries.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 282,
+    "prompt_tokens": 3275,
+    "total_tokens": 3557,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3193,
+    "prompt_ms": 6100.934,
+    "prompt_per_token_ms": 1.9107215784528657,
+    "prompt_per_second": 523.3624884320991,
+    "predicted_n": 282,
+    "predicted_ms": 8248.967,
+    "predicted_per_token_ms": 29.355754448398578,
+    "predicted_per_second": 34.0648713954123
+  },
+  "first_visible_seconds": 6.218374415999989,
+  "wall_seconds": 14.467852915999998,
+  "word_count": 220,
+  "finished_at": "2026-09-08T15:29:20.847981+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "2c85587458b98a553f0038286c27b7a1daba21f2b45e92e5ec8dedd3fa733e6e",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3262,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:50:48.085858+00:00",
+  "output": "The eighty years following Basil the Macedonian’s death were the most uneventful and monotonous in imperial history [PDF p. 241]. The author characterizes this period as being defined by the reigns of Leo the Wise and Constantine Porphyrogenitus, whom he describes as mild, inoffensive men of literature rather than military leaders [PDF p. 241]. While the author notes that a more difficult era might have prevented these men from protecting their thrones, the period from 880 to 960 was relatively peaceful [PDF p. 242]. Leo’s reign included a failed Bulgarian invasion and a disgraceful Saracen raid on Thessalonica, though the author qualifies the latter as a surprise attack that the imperial army could have repelled had it been delayed [PDF p. 242].\n\nConstantine Porphyrogenitus spent much of his youth under the guardianship of Romanus Lecapenus, who kept him in the background [PDF p. 243]. Constantine eventually took power after a popular uprising ousted the sons of Romanus, though the author describes him as somewhat weak and ineffective [PDF p. 243]. The author evaluates the literary achievements of both men as their chief contributions [PDF p. 243]. Leo produced a valuable manual on military organization and tactics, while Constantine produced methodical compilations on administration and court ceremonies [PDF p. 244, 246]. The author concludes that the literary devotion of these two successive emperors signifies the end of a long period of intellectual destitution in Byzantine history [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 336,
+    "prompt_tokens": 3262,
+    "total_tokens": 3598,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3179,
+    "prompt_ms": 4168.923,
+    "prompt_per_token_ms": 1.31139446366782,
+    "prompt_per_second": 762.5470655130833,
+    "predicted_n": 336,
+    "predicted_ms": 10188.739,
+    "predicted_per_token_ms": 30.414146268656715,
+    "predicted_per_second": 32.8794367978216
+  },
+  "first_visible_seconds": 4.246082749999999,
+  "wall_seconds": 14.435641207999993,
+  "word_count": 238,
+  "finished_at": "2026-09-08T13:51:04.302457+00:00"
+}

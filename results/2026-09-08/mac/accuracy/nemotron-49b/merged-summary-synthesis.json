@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "e470e3315dbba0442963dab5128a449333199299cc76364c70f6e9eeb7e5d162",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1928,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:49:09.870734+00:00",
+  "output": "\n\n**Synthesis: A Fragmented History of the Byzantine Empire and its Challenges (ca. A.D. 372-1453)**\n\n**Excerpt H1: The Gothic Threat and its Consequences (ca. A.D. 372-378)**  \nThe Byzantine Empire's early history was marked by significant external pressures, as exemplified by the Hunnic invasion north of the Euxine, which decimated the Alans and then targeted the Goths (PDF p. 61). The Visigoths, under Duke Fritigern, sought refuge within the Roman Empire, promising loyalty in exchange for permission to cross the Danube (PDF p. 62). However, the Roman Emperor Valens, described as \"stupid, cowardly, and avaricious\" (PDF p. 62), and his officials, including Governor Lupicinus, exploited the Goths, leading to starvation, desperation, and ultimately, a deadly affray at Marcianopolis (PDF p. 63). This sparked open rebellion, culminating in the Battle of Adrianople, where the Gothic cavalry decimated the Roman army, killing Valens and nearly 40,000 men (PDF p. 66-67). The Goths' subsequent march towards Constantinople was thwarted by the city's formidable walls (PDF p. 67), a testament to Constantine's foresight, as noted by the author (PDF p. 67).\n\n**Excerpt H2: The Decline of Latin and the Rise of Christianity (Late Antiquity, 5th-6th centuries)**  \nIn the following centuries, the Byzantine Empire underwent significant cultural and religious transformations. The prevalence of Latin in the Balkan peninsula waned, with the last Latin-speaking emperor being Justinian (PDF p. 169). As the empire grew more Christian, social practices were transformed, ending customs like infanticide (PDF p. 172) and modifying slavery (PDF p. 173). However, the rise of ascetic monasticism had detrimental effects on the state, as thousands of men retired from public life to focus on spiritual salvation (PDF p. 174). This trend, along with the ascetic attitude of many Christians towards barbarian invasions, hampered the empire's response to external threats (PDF p. 175). Despite this, the governing classes continued to uphold Roman statecraft traditions (PDF p. 176).\n\n**Excerpt H3: A Period of Literary Flourishing (A.D. 886-976)**  \nThe period following Basil the Macedonian's death was marked by relative peace and a flourishing of literature under emperors Leo the Wise and Constantine Porphyrogenitus (PDF p. 241). Unlike Basil, these emperors were literary-minded, with Leo authoring a valuable manual on the Art of War and Constantine producing extensive works on various themes (PDF p. 244). This era saw the emergence of a larger literary class and notable authors like Patriarch Photius (PDF p. 247), signifying the end of an intellectual dearth in the Byzantine Empire by the end of the ninth century (PDF p. 247).\n\n**Excerpt H4: The Final Decline of the Byzantine Empire (1370-1453)**  \nThe Byzantine Empire's last years were characterized by insignificance and a struggle for survival against the Ottomans. The Paleologi emperors prolonged the empire's life through subservience to the Turks (PDF p. 358). Manuel II briefly expanded the empire's territories during the Ottoman civil war but ultimately returned to vassalage (PDF p. 363). The empire's military and economic decline were evident in its final decades, with a significantly reduced population and territory (PDF p. 366-367). The author judges the Paleologi's subservience as prolonging the empire's life \"long after all justification for its existence had disappeared\" (PDF p. 358), highlighting missed opportunities for European intervention to alter its fate (PDF p. 362).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 834,
+    "prompt_tokens": 1928,
+    "total_tokens": 2762,
+    "prompt_tokens_details": {
+      "cached_tokens": 88
+    }
+  },
+  "timings": {
+    "cache_n": 88,
+    "prompt_n": 1840,
+    "prompt_ms": 10591.75,
+    "prompt_per_token_ms": 5.756385869565217,
+    "prompt_per_second": 173.7201123515944,
+    "predicted_n": 834,
+    "predicted_ms": 93932.347,
+    "predicted_per_token_ms": 112.76392196878751,
+    "predicted_per_second": 8.868084601356763
+  },
+  "first_visible_seconds": 10.83973658299999,
+  "wall_seconds": 104.77015370799995,
+  "word_count": 535,
+  "finished_at": "2026-09-08T14:50:55.110929+00:00"
+}

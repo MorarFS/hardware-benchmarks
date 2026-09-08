@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "35c275fc11bfbb84fcd394fe2abcd835c5a6243277027f5dc10f257dbcb4f25e",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3549,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:31:42.169908+00:00",
+  "output": "\n\n**Connected Summary (180-220 words)**\n\n**Beginning (Late Antiquity, East Roman Empire)**: The Latin language was once prevalent in the Balkan peninsula, but by the seventh century, it was rapidly vanishing (PDF p. 169). Although Roman titles and the Emperor's style initially persisted, little more than the names survived (PDF p. 169). The last emperor to speak Latin as his mother tongue was Justinian, with all his successors being more skilled in Greek (PDF p. 169). This decline was partly due to the division of the empire and the increasing predominance of Greek in the East (PDF p. 170).\n\n**Middle (5th-6th centuries, Social and Religious Shifts)**: As the empire lost its Roman character, it grew more Christian (PDF p. 171). Christianity significantly impacted social life, ending practices like infanticide (PDF p. 172) and modifying the evils of slavery (PDF p. 173). However, the rise of ascetic monasticism, which started in Egypt and spread throughout the empire, had detrimental effects on the state (PDF p. 174). Thousands of men, who should have been contributing to the state, retired into monasteries or hermit's caves, focusing solely on saving their own souls (PDF p. 174). This trend was not only unproductive but also undermined the social fabric and the empire's ability to respond to external threats.\n\n**Ending (6th century, Consequences and Legacy)**: The ascetic attitude of many Christians, who saw barbarian invasions as divine judgment rather than national calamities, hampered the empire's fight against barbarians (PDF p. 175). Despite this, the governing classes continued to uphold Roman statecraft traditions (PDF p. 176). By the end of the fifth century, paganism had practically disappeared as an active force, with Justinian formally ending the teaching of pagan philosophy in 529 (PDF p. 176). However, many in the educated classes, including authors like Procopius, remained indifferent to Christianity's influence in their daily lives (PDF p. 176). The social and religious transformations of this period reflect a complex interplay between the fading legacy of Rome and the rising dominance of Christian values, which had lasting implications for the empire's cultural and political identity.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 482,
+    "prompt_tokens": 3549,
+    "total_tokens": 4031,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3462,
+    "prompt_ms": 21266.801,
+    "prompt_per_token_ms": 6.142923454650491,
+    "prompt_per_second": 162.7889403770694,
+    "predicted_n": 482,
+    "predicted_ms": 55123.278,
+    "predicted_per_token_ms": 114.60140956340956,
+    "predicted_per_second": 8.725896163141822
+  },
+  "first_visible_seconds": 21.63559195800002,
+  "wall_seconds": 76.757726875,
+  "word_count": 344,
+  "finished_at": "2026-09-08T14:32:59.111408+00:00"
+}

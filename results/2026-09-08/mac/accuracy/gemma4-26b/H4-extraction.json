@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "9f89acab10bb58b3130fc607bc4e7b615ae90abe07b1ae4eba6b7ce90dcd0fbb",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4096,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:32:21.879704+00:00",
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm. He \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel supported two claimants named Mustapha against Murad II, which caused the Sultan to declare war and lay siege to Constantinople. This support \"drew down on the empire the fate which had been delayed since 1370\" [PDF p. 363].\n\nH4-Q3: The siege was lifted because the pretender Mustapha began causing trouble in Asia Minor. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin served to encourage the Greeks to continue their resistance. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 4096,
+    "total_tokens": 4328,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 4013,
+    "prompt_ms": 3941.455,
+    "prompt_per_token_ms": 0.9821716920009967,
+    "prompt_per_second": 1018.1519261288028,
+    "predicted_n": 232,
+    "predicted_ms": 4589.572,
+    "predicted_per_token_ms": 19.86827705627706,
+    "predicted_per_second": 50.33149060522419
+  },
+  "first_visible_seconds": 4.047240416000008,
+  "wall_seconds": 8.637658208000005,
+  "word_count": 149,
+  "finished_at": "2026-09-08T13:32:32.003368+00:00"
+}

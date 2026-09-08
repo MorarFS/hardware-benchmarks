@@ -1,5 +1,7 @@
 # Reproduce the speed baseline on Apple Silicon
 
+Subsequent measured Mac results, configuration, official prebuilt runtime setup and memory-monitoring commands are in [MAC-M5-PRO.md](MAC-M5-PRO.md). This document retains the earlier source-build and portable-runner route.
+
 Start with the official Qwen3-8B Q4_K_M baseline. It matches the Windows and Evo comparisons. This guide prepares a Mac/Metal comparison; no Mac model download, build, or inference was performed during publication.
 
 The target Mac has 48 GB unified memory. That is shared by macOS, applications, weights, KV cache, and working buffers. It is not a 48 GB model-file allowance. The Evo's exact GPT-OSS120 file alone is 63.39 GB, so it cannot fit entirely within that physical capacity. Flash Next and DeepSeek shards also require separate capacity checks. Begin with Qwen8, then test compatible smaller installed files individually. Changing quantization creates a new configuration, not a matched result.

@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "fded6d89025951826b2ddf1684465624bdd12dff59a78fc01977c4a8e9c3239b",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3642,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:09:44.223949+00:00",
+  "output": "The author begins by tracing the decline of Latin in the East, where the language became increasingly rare among educated men by the sixth century [PDF p. 169]. The author attributes this to the practical solution of the empire's division and the barbarian devastation of Latin-speaking regions, leaving only remote areas like Africa and the Italian Exarchate as holdouts [PDF p. 170]. The text then shifts to the internal transformation of the state, which the author describes as becoming more Christian at heart while retaining old official titles [PDF p. 169]. The author credits the belief in the individual human soul for improving the conditions of women, infants, and slaves, and for ending infanticide and gladiatorial shows [PDF p. 171, 173]. The passage concludes by warning that ascetic monasticism became a dangerous anti-social attitude that led many to view barbarian invasions as divine judgment rather than national calamities [PDF p. 174, 175]. The author notes that while paganism was formally ended by Justinian, a widespread indifference prevailed among the literary and official classes [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 3642,
+    "total_tokens": 3885,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3559,
+    "prompt_ms": 6336.405,
+    "prompt_per_token_ms": 1.7803891542568135,
+    "prompt_per_second": 561.6749560673601,
+    "predicted_n": 243,
+    "predicted_ms": 9790.182,
+    "predicted_per_token_ms": 40.45529752066116,
+    "predicted_per_second": 24.71864159420121
+  },
+  "first_visible_seconds": 6.445090209,
+  "wall_seconds": 16.235997666999992,
+  "word_count": 176,
+  "finished_at": "2026-09-08T14:10:02.468488+00:00"
+}

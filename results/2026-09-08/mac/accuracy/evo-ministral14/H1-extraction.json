@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "8febedffe700747a3cb7f0ca5633a6f5f609ab4b5b9f026281095a4921564a68",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3575,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:16:15.441748+00:00",
+  "output": "H1-Q1: The Visigoths were led by Duke Fritigern as they retreated toward the Danube. The passage states, \"Then the Huns fell on the Visigoths. The wave of invasion pressed on; the Bug and the Pruth proved no barrier to the swarms of nomad bowman, and the Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children, their waggons and flocks and herds, till they found themselves with their backs to the Danube.\" [PDF p. 61]\n\nH1-Q2: Valens imposed two conditions for admission: the Visigoths had to give hostages and surrender their arms. The arms condition was later disregarded when the Goths bribed Roman officials to retain their weapons. The passage notes, \"After much doubting he chose the latter alternative: if the Goths would give hostages, and surrender their arms, they should be ferried across the Danube and permitted to settle as subject-allies within the empire.\" [PDF p. 62] and \"But no sooner had they reached Moesia than troubles broke out. The Roman officials at first tried to disarm the immigrants, but the Goths were unwilling to surrender their weapons, and offered large bribes to be allowed to retain them; in strict disobedience to the Emperor's orders, the bribes were accepted and the Goths retained their arms.\" [PDF p. 63]\n\nH1-Q3: Lupicinus’s food policy contributed to revolt by withholding and overpricing grain, driving the Goths to desperation. The passage explains, \"The governor, Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices. In sheer hunger the Goths were driven to barter a slave for a single loaf of bread and ten pounds of silver for a sheep.\" [PDF p. 63]\n\nH1-Q4: The passage states that the battle at Ad Salices resulted in a significant thinning of both sides but no decisive outcome. It says, \"A desperate pitched battle at Ad Salices, near the modern Kustendje thinned the ranks of both sides, but led to no decisive result.\" [PDF p. 64]\n\nH1-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 503,
+    "prompt_tokens": 3575,
+    "total_tokens": 4078,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 3491,
+    "prompt_ms": 5604.022,
+    "prompt_per_token_ms": 1.6052769979948438,
+    "prompt_per_second": 622.9454488222923,
+    "predicted_n": 503,
+    "predicted_ms": 17523.988,
+    "predicted_per_token_ms": 34.90834262948207,
+    "predicted_per_second": 28.64644737259578
+  },
+  "first_visible_seconds": 5.649336958000049,
+  "wall_seconds": 23.173450083000034,
+  "word_count": 341,
+  "finished_at": "2026-09-08T15:16:39.777797+00:00"
+}

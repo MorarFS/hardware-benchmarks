@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "cb905850bd6dc9fe45310c1bcf9c401578246afebdb4e684e2412b40cd423109",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2366,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:23:13.455181+00:00",
+  "output": "\n\nD-Q1: Seven prisoners were selected for execution, but only four were beheaded; the remaining three were saved by the mob after the execution attempt failed. \"Seven were selected for execution, and four of them were duly beheaded... The last three rioters were to be hung, but the hangman so bungled his task that two of the criminals... fell to the ground alive.\" [PDF p. 102]  \n\nD-Q2: The passage does not attribute the 35,000 deaths solely to the Hippodrome assault; it states this number refers to the total slain during the six-day \"Sedition of Nika.\" \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]  \n\nD-Q3: Not stated in the supplied passage.",
+  "reasoning_output": "\nOkay, let's tackle these questions one by one. First, I need to make sure I only use the information provided in the source material. The user emphasized treating the text as evidence and not correcting from memory, so I have to stick strictly to what's there.\n\nStarting with D-Q1: How many prisoners were selected for execution, and did all seven die?\n\nLooking at the source, on PDF page 102, it says, \"Seven were selected for execution, and four of them were duly beheaded... The last three rioters were to be hung...\" Then it describes that two of the three fell alive when the rope slipped, and they were taken into sanctuary. So out of seven, four were beheaded, and the remaining three weren't executed because they were saved by the mob. Therefore, not all seven died. The answer should mention seven selected, four executed, three not. The quote would be from p. 102.\n\nD-Q2: Does the passage attribute 35,000 deaths solely to the Hippodrome assault?\n\nThe source mentions on p. 106 that \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" The Hippodrome assault is part of the six-day riots. However, the question is whether the 35,000 is solely from the Hippodrome. The text says the total deaths over six days were 35,000, which includes the Hippodrome but also the preceding days. The passage doesn't specify that all 35k were from the Hippodrome alone. So the answer would be no, the 35,000 is for the entire six-day period, not just the Hippodrome. The quote is from p. 106.\n\nD-Q3: What was the exact duration, in minutes, of the Hippodrome assault?\n\nThe source describes the assault on the Hippodrome happening on the sixth day. It mentions Belisarius attacking the three gates, the struggle, and the routing of the rebels. However, there's no mention of the exact duration in minutes. The text talks about the six days of riots but doesn't specify how long the Hippodrome assault itself took in minutes. So the answer here would be \"Not stated in the supplied passage.\"\n\nI need to make sure each answer is two short sentences, includes a quote with the PDF page, and doesn't infer anything beyond the text. Also, check that each question is answered independently. Let me verify each part again.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 697,
+    "prompt_tokens": 2366,
+    "total_tokens": 3063,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2366,
+    "prompt_ms": 13771.408,
+    "prompt_per_token_ms": 5.820544378698225,
+    "prompt_per_second": 171.8052358916387,
+    "predicted_n": 697,
+    "predicted_ms": 78230.616,
+    "predicted_per_token_ms": 112.40031034482757,
+    "predicted_per_second": 8.896772588368728
+  },
+  "first_visible_seconds": 72.05892266699999,
+  "wall_seconds": 92.01711708299999,
+  "word_count": 122,
+  "finished_at": "2026-09-08T14:24:46.584700+00:00"
+}

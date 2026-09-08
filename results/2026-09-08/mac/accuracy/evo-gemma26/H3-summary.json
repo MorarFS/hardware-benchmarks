@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "f9946d5215451824c3b5da72d1fe223d8ad240bdaae274c0861c346748b290e4",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3262,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:08:02.476094+00:00",
+  "output": "The eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes the era as being defined by the reigns of Leo the Wise and Constantine Porphyrogenitus, whom the author describes as mild, inoffensive men of literature [PDF p. 241]. Because the period from 880 to 960 was relatively free from foreign wars, these unenterprising emperors focused on writing rather than military conquest [PDF p. 242]. Leo's reign included an unsuccessful Bulgarian invasion and a disgraceful Saracen raid on Thessalonica in 904 [PDF p. 242]. Constantine Porphyrogenitus, who inherited the throne at age seven, spent much of his youth under the tutelage of guardians, including the usurper Romanus Lecapenus [PDF p. 243]. Constantine eventually secured his rule after a popular uprising against the sons of Romanus [PDF p. 243].\n\nThe author evaluates the emperors' literary works as their chief achievements [PDF p. 243]. Leo's military manual provides a detailed picture of a highly organized Byzantine army and fleet [PDF p. 244, 246]. Constantine's works, including treatises on administration and court ceremonies, reveal him to be a methodical compiler [PDF p. 245, 246]. The author concludes that the literary output of these two emperors signaled an end to previous intellectual destitution [PDF p. 246].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 331,
+    "prompt_tokens": 3262,
+    "total_tokens": 3593,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3179,
+    "prompt_ms": 2232.266,
+    "prompt_per_token_ms": 0.7021912551116704,
+    "prompt_per_second": 1424.113434510045,
+    "predicted_n": 331,
+    "predicted_ms": 5649.482,
+    "predicted_per_token_ms": 17.119642424242425,
+    "predicted_per_second": 58.41243498076461
+  },
+  "first_visible_seconds": 2.290364375000003,
+  "wall_seconds": 7.940027375000007,
+  "word_count": 215,
+  "finished_at": "2026-09-08T16:08:10.605364+00:00"
+}

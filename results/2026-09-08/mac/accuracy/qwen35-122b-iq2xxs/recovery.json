@@ -1,0 +1,11 @@
+{
+  "supersedes": "Original queue accuracy_exit1 corresponds to the failed default-cache32K configuration, not this completed recovery.",
+  "prior_attempts": [
+    "../../diagnostic/qwen122-context32768-memory",
+    "../../diagnostic/qwen122-context16384-memory"
+  ],
+  "actual_context": 32768,
+  "prompt_cache_ram_mib": 1024,
+  "all_requests_completed": true,
+  "source_truncated": false
+}

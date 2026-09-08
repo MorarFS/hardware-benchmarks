@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "78d89859bd6a918e5b37c6105c7129ad6205aedd26de238e7ec9dc6e8060577b",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3275,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:03:53.119868+00:00",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the most monotonous in imperial history, dominated by the literary pursuits of Leo VI and Constantine VII [PDF p. 241]. While these emperors were mild men of letters rather than warriors, the period from 880 to 960 was remarkably free from major foreign wars [PDF p. 242]. The Caliphate was fragmenting in the East, and Western powers were disintegrating, leaving only minor piratical threats from Russians and Saracens [PDF p. 242]. Although the Saracen capture of Thessalonica in 904 was disgraceful, the author notes it occurred by surprise and caused no lasting damage [PDF p. 242]. Constantine VII eventually assumed power after the fall of the Lecapenus family, ruling for twenty years as a weak but non-tyrannical monarch [PDF p. 243].\n\nThe author evaluates the emperors’ primary achievements as their literary works, particularly Leo’s manual on the Art of War [PDF p. 243]. This text reveals a highly organized Byzantine army with specialized uniforms, engineers, and medical support, reflecting confidence in its ability to defeat eastern foes [PDF p. 244]. The author praises the fleet’s use of Greek fire and its role in policing the Aegean, though it could not fully suppress piracy [PDF p. 245]. Constantine’s contributions included invaluable administrative manuals and a biography of his grandfather [PDF p. 246]. The author interprets Constantine’s elaborate focus on court ceremonies as compensation for his lack of real power during his youth [PDF p. 247]. Finally, the author argues that the literary output of these emperors signals the end of the intellectual dearth that had plagued Byzantium since the seventh century [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 410,
+    "prompt_tokens": 3275,
+    "total_tokens": 3685,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3193,
+    "prompt_ms": 2109.942,
+    "prompt_per_token_ms": 0.6608023802067021,
+    "prompt_per_second": 1513.3117403227197,
+    "predicted_n": 410,
+    "predicted_ms": 5683.114,
+    "predicted_per_token_ms": 13.895144254278728,
+    "predicted_per_second": 71.96758678428763
+  },
+  "first_visible_seconds": 2.151699999999991,
+  "wall_seconds": 7.835097958999995,
+  "word_count": 275,
+  "finished_at": "2026-09-08T16:04:01.237767+00:00"
+}

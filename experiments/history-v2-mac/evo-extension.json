@@ -1,0 +1,16 @@
+{
+  "scope_update": "User explicitly requested the same models as the other completed computers after consulting current GitHub results.",
+  "remote_commit_consulted": "97e1027",
+  "speed_source": "results/2026-09-08/evo/raw/vulkan-model-matrix/queue.json",
+  "model_manifest": "scripts/mac-extra-models.json",
+  "artifact_policy": "Each additional HF revision was checked against the published Evo SHA-256 and byte count. Separate local directories prevent same-filename/different-hash collisions with the Arc suite.",
+  "models": ["evo-gemma12-qat", "evo-gemma12-coding", "evo-ministral14", "evo-gemma2-9b", "evo-gemma31", "evo-qwen38-27b", "evo-qwen35-community", "evo-gemma26", "evo-qwen35-mtp-off"],
+  "speed_protocol": "Same b10852, five repetitions, warmup, batch512, microbatch512, ten threads, FP16KV, full offload, depth0/2048 and tg256/pp512; Metal instead of Vulkan. Match the Evo900-second deadline per depth.",
+  "history_protocol": "Use unchanged history-v2-mac-1.0 source requests and sampling. Actual context is recorded per model. Gemma2 has an8192-token trained context; retain feasible stages and explicitly exclude any complete prompt that does not fit, rather than extrapolate or truncate.",
+  "capacity_exclusions": [
+    {"evo_id": "qwen38-flash-next", "reason": "Published weights total87.25GiB, exceeding48GiB physical memory before runtime."},
+    {"evo_id": "gptoss120", "reason": "Published weights total59.03GiB, exceeding48GiB physical memory before runtime."},
+    {"evo_id": "deepseek4-flash", "reason": "Published weights total84.68GiB, exceeding48GiB physical memory before runtime."}
+  ],
+  "limits": "Evo retained loading timeouts for Ministral14 and DeepSeek4. A timeout there does not prove Mac incompatibility. GPT-OSS120 cannot be an exact-weight Mac comparison; a different lower-bit artifact would be a separate capacity experiment. Falcon180 short-context capacity is separate from the largest candidate able to run the full history battery."
+}

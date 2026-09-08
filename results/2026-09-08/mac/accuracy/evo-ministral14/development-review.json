@@ -1,0 +1,38 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "b617a5058edf2aba6fc38213f6b2011d9dbf41a36ffc3fe6a2b22f0b4c64f230",
+    "development-summary": "8cb4f2a76219236126c8a679b23ae2c358accf4df8941831dc21327b16062cf3"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "contradiction",
+      "rationale": "Claims three survivors while its own quotation correctly says two; seven selected/four beheaded alone do not make three survivors."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Preserves reported six-day scope rather than assigning the total solely to the final assault."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "rioting erupted in Constantinople, triggered by the execution of faction leaders",
+      "judgment": "ambiguous",
+      "source_pages": [
+        101,
+        102
+      ],
+      "rationale": "Initial street riots caused the execution order; bungled execution triggered the larger Nika revolt. The compressed term rioting can refer to the latter, so preserve ambiguity rather than assert a clear causal reversal."
+    }
+  ],
+  "summary_review": "Retains Antonina’s same decline as Marlboroughs, faction alignment, fire, reluctant Hypatius, Theodora’s decision, assault and later unrest. Justinian’s house is accepted as a contextual dynasty paraphrase of source Justinus. Does not transfer 35,000 to the final assault: it says thousands over six days. Exact two hanging survivors are absent; force inventory spans 102–103. No other clear material development-summary contradiction identified."
+}

@@ -1,0 +1,28 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "40cf58d43ff3212fca0d7dda213481a22496877605cd2f57a8e139498b8ecffa",
+    "development-summary": "9439418f3a880afec41c571ded63c260a5ab4fd10b830bcb32fd52cca753da9e"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "contradiction",
+      "rationale": "Seven selected is correct but the answer says three hanging survivors; supplied text identifies two."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "no_answer",
+      "rationale": "Question not answered at all; model stopped normally after D-Q1."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "no_answer",
+      "rationale": "Question not answered at all; silence is not correct abstention."
+    }
+  ],
+  "summary_flags": [],
+  "summary_review": "Development summary represents beginning, uprising, fires, Hypatius, Theodora, final assault and continued unrest. It correctly gives two survivors here, unlike its D-Q1 answer. No clear material invented event found; some precise troop inventory and religious faction alignments are omitted. Does not assign 35,000 to the final assault because the number is absent."
+}

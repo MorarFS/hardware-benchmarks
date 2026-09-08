@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "42d4e98575af0d4d34cb677634d9c1c68341040bf429ef8872b2fece3b70733b",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2387,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:08:31.216535+00:00",
+  "output": "The author describes the Blues and Greens as circus factions that grew into political parties with a rough, riotous character [PDF p. 101]. In January 532, street rioting led Justinian to order the execution of seven leaders; a botched hanging of three rebels allowed the mob to seize two survivors and declare them sanctuary [PDF p. 101-102]. This sparked six days of desperate rioting under the watchword Nika, with the mob demanding the removal of unpopular officials and the crowning of Hypatius [PDF p. 102]. The rebels set fire to the Senate House and St. Sophia, while the emperor remained in the palace [PDF p. 102-103]. On the sixth day, the mob crowned Hypatius in the Hippodrome [PDF p. 103]. While ministers urged Justinian to flee, the author highlights Empress Theodora’s bold refusal to flee and her insistence that death is better than exile [PDF p. 105]. Following her words, Belisarius routed the rebels at the Hippodrome, where thousands were slain [PDF p. 105-106]. The author notes that despite this slaughter, the factions continued rioting for fifty years [PDF p. 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 273,
+    "prompt_tokens": 2387,
+    "total_tokens": 2660,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 2304,
+    "prompt_ms": 3673.914,
+    "prompt_per_token_ms": 1.5945807291666667,
+    "prompt_per_second": 627.1240970801166,
+    "predicted_n": 273,
+    "predicted_ms": 11064.238,
+    "predicted_per_token_ms": 40.67734558823529,
+    "predicted_per_second": 24.583708340330354
+  },
+  "first_visible_seconds": 3.7534463340000457,
+  "wall_seconds": 14.81742133399996,
+  "word_count": 181,
+  "finished_at": "2026-09-08T14:08:47.411496+00:00"
+}

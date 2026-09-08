@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "e0b8daf51317f60912e7007a26b389c48ffc677cf33d91d9da8e51cc4aa4004f",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13773,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:08:53.246139+00:00",
+  "output": "Around A.D. 372, the Huns migrated westward from beyond the Don and Volga, nearly exterminating the Alans before attacking the Goths (61). The author describes the Huns as \"savages\" with \"shapeless\" faces and a \"ferocity of the wild beast\" (61). The Ostrogoths attempted to defend the Dniester but were crushed and forced into vassalage, leaving only a remnant to flee toward the Danube (61). Subsequently, the Huns attacked the Visigoths, who, under Duke Fritigern, retreated toward the Danube with their families and livestock (61). The author notes that the Visigoths found surrender more intolerable than their eastern brethren because they were more civilized and Christian (62).\n\nIn A.D. 376, the Visigoths requested permission from the Emperor to cross the Danube (62). The author characterizes the Eastern Emperor, Valens, as a \"stupid, cowardly, and avaricious prince\" who ruled while his brother, Valentinian, held the West (62). Valens eventually allowed the Goths to settle as subject-allies on the condition that they provide hostages and surrender their arms (63). However, Roman officials in Moesia accepted bribes to let the Goths retain their weapons, and the governor, Lupicinus, extorted the starving immigrants by withholding corn (63). This desperation led to a conflict at Marcianopolis, where Fritigern escaped a Roman attempt to slay him and called his followers to arms (64). Following a year of fighting, the author observes that the Goths' \"barbarian spirit\" emerged despite their Christian veneer (64).\n\nThe conflict escalated in A.D. 378 when Valens personally led 60,000 men against the Goths near Adrianople (65). While the Roman infantry was traditionally considered superior, the Goths had adopted cavalry tactics during their time in Russia (65). During the battle, a Gothic cavalry charge struck the Roman flank, causing \"hopeless confusion\" among the infantry (66). The author reports that forty thousand men fell before the survivors could flee, and the battle resulted in the deaths of the Emperor and thirty-five commanders (67). Although the Goths later approached Constantinople, they failed to attack the city due to the \"vast circuit of walls\" (67).\n\nBy the ninth century, the Byzantine Empire experienced a literary revival under the \"literary emperors\" Leo the Wise and Constantine Porphyrogenitus (241). The author describes these men as \"easy-going\" and \"inoffensive\" compared to the adventurer Basil the Macedonian (241). Leo’s *Tactica* provided a detailed account of the Byzantine army, noting its organized supply trains and specialized medical care (245). Constantine Porphyrogenitus produced works on administration and court ceremonies, which the author characterizes as the products of a \"methodical compiler\" (246). These literary achievements signaled an end to the period of intellectual destitution that had persisted since the death of Justinian (247).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 659,
+    "prompt_tokens": 13773,
+    "total_tokens": 14432,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 13690,
+    "prompt_ms": 12098.576,
+    "prompt_per_token_ms": 0.8837528122717311,
+    "prompt_per_second": 1131.538124817334,
+    "predicted_n": 659,
+    "predicted_ms": 12703.897,
+    "predicted_per_token_ms": 19.306834346504562,
+    "predicted_per_second": 51.79513026593336
+  },
+  "first_visible_seconds": 12.176242000000002,
+  "wall_seconds": 24.881714416999984,
+  "word_count": 439,
+  "finished_at": "2026-09-08T16:09:19.610230+00:00"
+}

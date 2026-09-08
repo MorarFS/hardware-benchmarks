@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "3ff518f007a8e74fc4433a7728aff46719c10050c1f8cc0d1019182a5e341e9f",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3489,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:27:55.616455+00:00",
+  "output": "The narrative begins by describing how the Huns, an enormous horde from beyond the Don and Volga, burst into lands north of the Euxine around A.D. 372 [PDF p. 61]. They almost exterminated the Alans and crushed the Ostrogoths, who were compelled to become vassals [PDF p. 61]. The Visigoths, under Duke Fritigern, retreated in dismay to the Danube, finding surrender to the Huns more dreadful than slavery to Romans because they were more civilized and Christian [PDF p. 61]. In A.D. 376, they begged Emperor Valens for permission to cross the river [PDF p. 62]. The author evaluates Valens as a stupid, cowardly, and avaricious prince who ruled the East while his brother held the West [PDF p. 62]. Valens eventually allowed the Goths to settle as subject-allies if they surrendered arms and gave hostages [PDF p. 63]. However, Roman officials accepted bribes to let the Goths keep their weapons, and Governor Lupicinus withheld food, selling it at exorbitant prices [PDF p. 63]. Driven by hunger, the Goths sold their children for slaves, leading to desperation and a violent affray that sparked a nationwide revolt [PDF p. 63]. Fighting continued until A.D. 378, when Valens attacked the Goths near Adrianople with an army of 60,000 men [PDF p. 65]. The author notes that the Goths had adopted cavalry tactics from the Ukraine, which proved decisive [PDF p. 65]. A Gothic cavalry charge overwhelmed the Roman flank, causing confusion and crushing the infantry [PDF p. 66]. Forty thousand men fell before the survivors fled, leaving the Emperor and many commanders dead [PDF p. 67]. The author calls this the most fearful defeat since Cannae, noting the Eastern army was never reorganized on old lines [PDF p. 67]. Although the Goths advanced to Constantinople, their courage failed before the vast walls, and they retreated [PDF p. 67]. Thus, Constantine's foresight in building the fortress-capital was vindicated forty years after his death [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 492,
+    "prompt_tokens": 3489,
+    "total_tokens": 3981,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3407,
+    "prompt_ms": 6059.246,
+    "prompt_per_token_ms": 1.7784696213677722,
+    "prompt_per_second": 562.2811815199449,
+    "predicted_n": 492,
+    "predicted_ms": 14459.617,
+    "predicted_per_token_ms": 29.449321792260694,
+    "predicted_per_second": 33.95663937710107
+  },
+  "first_visible_seconds": 6.126302958000004,
+  "wall_seconds": 20.585983832999993,
+  "word_count": 323,
+  "finished_at": "2026-09-08T15:28:17.912656+00:00"
+}

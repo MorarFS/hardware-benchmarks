@@ -1,0 +1,7 @@
+{
+  "status": "excluded_incomplete_speed_suite",
+  "reason": "The depth0 benchmark produced both five-sample JSON measurements and normal teardown logs, but postprocessing raised UnicodeDecodeError on an isolated vocabulary byte before recording process exit/status. Depth2048 was not run. A new full suite follows the log-decoding fix; original measurements are retained, not treated as a measured inference failure.",
+  "benchmark_exit_code": "not retained; do not infer",
+  "raw_depth0_measurements": 2,
+  "depth2048_submitted": false
+}

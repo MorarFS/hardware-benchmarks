@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "260f5151916a3017dbfb017c8a298c49a1a84f23986071da59aa41c679938bae",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3998,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:10:57.253964+00:00",
+  "output": "The author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history rather than a significant thread in the history of Christendom [PDF p. 358]. The author argues that the empire ceased to function as a bulwark against the Ottomans after 1370 and that the Paleologi prolonged the empire through base subservience [PDF p. 358]. During the reign of John Paleologus, the emperor was vexed by his children; after his eldest son was blinded, John left the throne to his second son Manuel [PDF p. 359]. Manuel later exploited a period of Ottoman civil war to regain territories, but the empire remained a vassal state [PDF p. 362]. The author describes the later years as a period of unredeemed gloom [PDF p. 365]. Under John VI, the empire was a dilapidated ruin with a shrinking population and a military of mostly foreign mercenaries [PDF p. 366]. The emperor’s attempt to win Western aid through conversion to Catholicism yielded only a small sum of money and three hundred mercenaries [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 242,
+    "prompt_tokens": 3998,
+    "total_tokens": 4240,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3915,
+    "prompt_ms": 7008.878,
+    "prompt_per_token_ms": 1.7902625798212004,
+    "prompt_per_second": 558.5772787028109,
+    "predicted_n": 242,
+    "predicted_ms": 9785.777,
+    "predicted_per_token_ms": 40.604883817427385,
+    "predicted_per_second": 24.627579394053228
+  },
+  "first_visible_seconds": 7.136776749999967,
+  "wall_seconds": 16.92338374999997,
+  "word_count": 177,
+  "finished_at": "2026-09-08T14:11:15.482223+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "f04892245ed4538abf5eb51412485079562c555f7a49d73c4846d52202d55b31",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13812,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:20:41.310500+00:00",
+  "output": "The first excerpt (PDF p. 61–67) describes the Huns’ westward advance in the late 4th century, their near-annihilation of the Alans and Goths, and the Visigoths’ desperate plea to cross the Danube into the Roman Empire. Emperor Valens, a weak ruler, allows them in under false promises, but Roman officials exploit the Goths, leading to starvation and rebellion. In 378, Valens suffers a catastrophic defeat at Adrianople, where Gothic cavalry crushes his disciplined legions, killing the emperor and devastating the Roman army. Though the Goths fail to capture Constantinople, the empire’s military strength is permanently weakened, foreshadowing its decline.\n\nThe second excerpt (PDF p. 169–176) examines the decline of Latin in the Eastern Empire, replaced by Greek, and the growing influence of Christianity on Roman society. It notes that by the 7th century, Latin was nearly extinct among educated elites, while Christianity reshaped social norms, abolishing gladiatorial games, infanticide, and harsh slavery practices. However, it also highlights the rise of ascetic monasticism, which sapped the empire’s strength by diverting men from civic duty. Paganism faded, but indifference replaced it, leaving the empire vulnerable to barbarian invasions.\n\nThe third excerpt (PDF p. 241–247) focuses on the reigns of Leo VI and Constantine VII, two literary emperors who ruled during a relatively peaceful period (880–960). Their works, including Leo’s *Tactica* and Constantine’s *On the Administration of the Empire*, reflect a well-organized but stagnant state. The Byzantine army, though still formidable, faced minor threats from Bulgarians and Saracens, while the empire’s cultural revival lagged behind its military decline. Constantine’s obsession with court ceremonies reveals a ruler more concerned with pageantry than governance.\n\nThe final excerpt (PDF p. 358–367) recounts the fall of Constantinople in 1453, marking the end of the Byzantine Empire. Emperor John VIII Paleologus, the last ruler, attempts to secure Western aid by converting to Catholicism, but his efforts fail. The empire, already in ruins, collapses under Ottoman pressure, leaving behind a shadow of its former grandeur. The narrative underscores the empire’s irrelevance by the 15th century, its military weakness, and its inability to adapt to changing geopolitical realities.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 530,
+    "prompt_tokens": 13812,
+    "total_tokens": 14342,
+    "prompt_tokens_details": {
+      "cached_tokens": 175
+    }
+  },
+  "timings": {
+    "cache_n": 175,
+    "prompt_n": 13637,
+    "prompt_ms": 30271.474,
+    "prompt_per_token_ms": 2.219804502456552,
+    "prompt_per_second": 450.4901214919366,
+    "predicted_n": 530,
+    "predicted_ms": 21527.707,
+    "predicted_per_token_ms": 40.69509829867675,
+    "predicted_per_second": 24.572984015436482
+  },
+  "first_visible_seconds": 30.33807016700007,
+  "wall_seconds": 51.866560041999946,
+  "word_count": 348,
+  "finished_at": "2026-09-08T15:21:33.946434+00:00"
+}

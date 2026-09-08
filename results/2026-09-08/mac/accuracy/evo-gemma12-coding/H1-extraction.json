@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "433db3c9dab86e8e30a117a651a62e673b3bbd1654fed12275e076be91770c8a",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3552,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:08:47.428507+00:00",
+  "output": "H1-Q1: The Visigoths were led by Duke Fritigern. \"the Visigoths, under their Duke Fritigern, fell back in dismay\" [PDF p. 61].\n\nH1-Q2: Valens required the Goths to give hostages and surrender their arms. The arms condition was later ignored when officials accepted bribes to let the Goths keep them. \"if the Goth would give hostages, and surrender their arms\" [PDF p. 63]; \"the bribes were accepted and the Goths retained their arms\" [PDF p. 63].\n\nH1-Q3: Lupicinus withheld food and sold it at high prices, which drove the Goths to desperation and a revolt. \"Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices\" [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but did not produce a decisive result. \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 272,
+    "prompt_tokens": 3552,
+    "total_tokens": 3824,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3469,
+    "prompt_ms": 6200.074,
+    "prompt_per_token_ms": 1.787279907754396,
+    "prompt_per_second": 559.5094510162298,
+    "predicted_n": 272,
+    "predicted_ms": 10965.323,
+    "predicted_per_token_ms": 40.46244649446495,
+    "predicted_per_second": 24.71427426260038
+  },
+  "first_visible_seconds": 6.29797074999999,
+  "wall_seconds": 17.263883833000023,
+  "word_count": 166,
+  "finished_at": "2026-09-08T14:09:05.664419+00:00"
+}

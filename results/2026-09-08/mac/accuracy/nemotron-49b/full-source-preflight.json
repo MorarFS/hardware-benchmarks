@@ -1,0 +1,17 @@
+{
+  "purpose": "Advance read-only full-source context preflight; no generation submitted by this check",
+  "stage": "full-source-control",
+  "prompt_tokens": 13541,
+  "output_allowance": 2048,
+  "margin": 256,
+  "context": 16384,
+  "fits": true,
+  "rendered_sha256": "429e03d5b355bbb8e8b8290de3805b7d4f54fc4e4631dd8a3836660f861996a5",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ]
+}

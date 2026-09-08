@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "3a3aa4397a4be09c6b74cd93ad3798e69d74898af6d152f568b01ec000fad9b7",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3512,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:27:49.284408+00:00",
+  "output": "\n\nHere are the answers to each question based on the provided source:\n\n**H1-Q1: Who led the Visigoths as they retreated toward the Danube?**\n\n* Answer: The Visigoths were led by their Duke Fritigern as they retreated toward the Danube.\n* Supporting Quotation: \"The Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children, their waggons and flocks and herds, till they found themselves with their backs to the Danube.\"\n* [PDF p. 61]\n\n**H1-Q2: What two conditions did Valens impose for admission, and what happened to the arms condition?**\n\n* Answer: Valens imposed two conditions for the Goths' admission: giving hostages and surrendering their arms. The arms condition was violated as Roman officials accepted bribes to allow the Goths to retain their weapons.\n* Supporting Quotation: \"if the Goth would give hostages, and surrender their arms, they should be ferried across the Danube and permitted to settle as subject-allies within the empire... the bribes were accepted and the Goths retained their arms.\"\n* [PDF p. 62] and [PDF p. 63]\n\n**H1-Q3: According to this passage, how did Lupicinus’s food policy contribute to revolt?**\n\n* Answer: Lupicinus's food policy contributed to revolt by causing extreme hunger among the Goths, leading to desperation and a chance affray that ignited the whole nation.\n* Supporting Quotation: \"The provisions of Moesia did not suffice... Lupicinus... held back the food, and doled out what he chose to give at exorbitant prices... This drove the Goths to desperation, and a chance affray set the whole nation in a blaze.\"\n* [PDF p. 63]\n\n**H1-Q4: What result does the passage give for the battle at Ad Salices?**\n\n* Answer: The battle at Ad Salices resulted in no decisive outcome, only thinning the ranks of both sides.\n* Supporting Quotation: \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result.\"\n* [PDF p. 64]\n\n**H1-Q5: What was the exact number of Roman soldiers killed at Ad Salices?**\n\n* Answer: Not stated in the supplied passage. \n\nNote: The exact number of Roman soldiers killed at Ad Salices is not provided in the given source. The passage only mentions the outcome of the battle in general terms, without specifying casualty numbers.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 538,
+    "prompt_tokens": 3512,
+    "total_tokens": 4050,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3425,
+    "prompt_ms": 19169.839,
+    "prompt_per_token_ms": 5.597033284671533,
+    "prompt_per_second": 178.6660806071454,
+    "predicted_n": 538,
+    "predicted_ms": 60522.192,
+    "predicted_per_token_ms": 112.70426815642459,
+    "predicted_per_second": 8.872778434726884
+  },
+  "first_visible_seconds": 19.232293624999997,
+  "wall_seconds": 79.753280166,
+  "word_count": 374,
+  "finished_at": "2026-09-08T14:29:10.281117+00:00"
+}

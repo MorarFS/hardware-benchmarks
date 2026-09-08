@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "2e2d019eb08bdeacca4047a5da87a3ede573cc152987e3569c438aa9f3955d6d",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3338,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:17:52.881671+00:00",
+  "output": "**H3-Q1: Why was Constantine called Porphyrogenitus?**\nConstantine was called Porphyrogenitus because he was born in the Purple Chamber, the room in the palace set aside for the Empress. This is explicitly stated in the passage.\n*Supporting quotation:* \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\n---\n\n**H3-Q2: Which city did Saracen pirates capture in 904, and did they retain it?**\nSaracen pirates captured Thessalonica in 904, but they did not retain it; they fled with their booty after taking the city.\n*Supporting quotation:* \"The capture of the second city of the empire by a fleet of African adventurers was an incident disgraceful to the administration of Leo, and caused much outcry and sensation. But it is fair to say that it was taken almost by surprise, and stormed from the side of the sea where no attack had been expected... When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" [PDF p. 242]\n\n---\n\n**H3-Q3: According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?**\nThe passage does not explicitly state who removed Romanus Lecapenus or expelled his sons. It mentions that the sons of Romanus declared themselves emperors and provoked an outburst of popular wrath, leading to their removal, but it does not name the specific individuals or groups responsible.\n*Supporting quotation:* \"But when they declared themselves emperors and made their old father abdicate, an outburst of popular wrath was provoked. The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother.\" [PDF p. 243]\n\n---\n\n**H3-Q4: Against which opponents did Leo recommend caution rather than rash general battle?**\nLeo recommended caution rather than rash general battle against the men of the West, specifically the Franks and Lombards.\n*Supporting quotation:* \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution and deprecates any rash engagement in a general action, preferring to wear the enemy down by cutting off his supplies and harassing his marches.\" [PDF p. 245]\n\n---\n\n**H3-Q5: What was the annual pay of an ordinary Byzantine cavalryman?**\nThe passage does not state the annual pay of an ordinary Byzantine cavalryman.\n*Supporting quotation:* Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 564,
+    "prompt_tokens": 3338,
+    "total_tokens": 3902,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 3254,
+    "prompt_ms": 4921.896,
+    "prompt_per_token_ms": 1.5125679164105714,
+    "prompt_per_second": 661.1273379201837,
+    "predicted_n": 564,
+    "predicted_ms": 19582.916,
+    "predicted_per_token_ms": 34.78315452930728,
+    "predicted_per_second": 28.74954884144935
+  },
+  "first_visible_seconds": 4.978839667000102,
+  "wall_seconds": 24.5619062090002,
+  "word_count": 396,
+  "finished_at": "2026-09-08T15:18:19.239014+00:00"
+}

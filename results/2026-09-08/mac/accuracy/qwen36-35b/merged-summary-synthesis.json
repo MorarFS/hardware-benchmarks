@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "0c39eb28b533ebaa34db64aec39355e79ed4d5d43a43f3c8863655afac4282f1",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1709,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:16:10.149461+00:00",
+  "output": "The author argues that Constantine’s foresight in establishing Constantinople proved vital as the Huns displaced the Goths [PDF p. 61]. After crushing the Ostrogoths, the Huns forced the Visigoths to seek refuge across the Danube in 376 [PDF p. 62]. The Eastern Emperor Valens, described by the author as stupid and cowardly, permitted their entry under strict conditions [PDF p. 63]. However, Roman officials exploited the starving immigrants through extortion, leading to a violent outbreak at Marcianopolis [PDF p. 64]. This triggered a year of fierce fighting along the Balkans [PDF p. 65]. The author notes that the Goths had adopted cavalry tactics, a significant shift from traditional infantry warfare [PDF p. 66]. At the Battle of Adrianople in 378, Valens attacked the Gothic camp with sixty thousand men [PDF p. 66]. A sudden charge by Gothic cavalry overwhelmed the Roman left flank, causing total collapse [PDF p. 67]. The author emphasizes that the Roman infantry was crushed in a dense press, unable to maneuver or fight effectively [PDF p. 67]. Forty thousand Romans died, including the Emperor and high commanders [PDF p. 67]. The author characterizes this defeat as the most fearful loss since Cannae [PDF p. 67]. The Eastern army was annihilated and never reorganized [PDF p. 67]. The victorious Goths marched toward Constantinople but abandoned the siege upon seeing its massive walls [PDF p. 67]. The author concludes that this event validated Constantine’s original strategic vision for the capital [PDF p. 67].\n\nThe author argues that Latin decayed in the East due to practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin knowledge was rare, with Justinian being the last emperor to speak it natively [PDF p. 169]. The author attributes this linguistic shift to the division of the empire and the extermination of Latin-speaking populations by Slavs [PDF p. 170]. Simultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly, accelerating under Theodosius I [PDF p. 171]. The author explicitly praises Christianity for ending infanticide and modifying slavery’s evils through moral teachings [PDF p. 173]. However, the author also evaluates the rise of monasticism as dangerous [PDF p. 174]. The author claims that ascetics neglected civic duties, interpreting barbarian invasions as divine judgments rather than national calamities [PDF p. 175]. This apathy frustrated pagans, who blamed Christianity for the state’s ruin [PDF p. 176]. The author contrasts this with governing classes who preserved Roman statecraft traditions [PDF p. 176]. The author concludes that while open paganism ended, indifference persisted among educated Christians [PDF p. 176]. The author suggests that the empire’s survival depended on officials resisting fatalistic attitudes [PDF p. 176]. The text highlights a tension between spiritual individualism and civic responsibility [PDF p. 174]. The author presents these developments as complex outcomes of religious transformation [PDF p. 171]. The summary reflects the author’s nuanced view of Christianity’s dual impact on Roman society [PDF p. 173].\n\nThe author characterizes the eighty years following Basil the Macedonian’s death as the most monotonous period in imperial history, dominated by the literary reigns of Leo VI and Constantine VII [PDF p. 241]. While these emperors were mild men of letters rather than military conquerors, the era experienced relative peace compared to other periods [PDF p. 242]. The Caliphate fragmented in the East, and northern neighbors settled down, leaving only minor piratical raids as threats [PDF p. 242]. Although the capture of Thessalonica by Saracens in 904 was disgraceful, the author notes it resulted from surprise rather than systemic failure [PDF p. 242]. Constantine VII’s rise to power was delayed by regents, including his uncle Alexander and the usurper Romanus Lecapenus [PDF p. 243]. Constantine only assumed full control after popular outrage removed the Lecapenus family, allowing him to rule for twenty years as a weak but non-tyrannical monarch [PDF p. 243]. The author explicitly praises Leo’s military manual as invaluable for detailing Byzantine organization, noting the army’s high discipline and care for wounded soldiers [PDF p. 244]. Constantine’s works, particularly his treatises on administration and court ceremonies, reveal him as a methodical compiler rather than an original thinker [PDF p. 246]. The author argues that these literary achievements signal the end of the intellectual dearth that plagued the empire from Justinian’s death through the Heraclian dynasty [PDF p. 247]. By the ninth century, a robust literary class had emerged, exemplified by the learned patriarch Photius [PDF p. 247].\n\nThe author argues that the Byzantine Empire ceased to be a vital bulwark for Christendom after 1370, asserting that its prolonged existence resulted from the Paleologi’s subservience to the Turks [PDF p. 358]. The text suggests that an earlier fall of Constantinople would have only marginally altered European history, potentially affecting Genoese and Venetian commerce or delaying the Renaissance [PDF p. 359]. Under John Paleologus, internal strife weakened the dynasty, as his son Andronicus rebelled and was blinded, leading John to bypass him in favor of Manuel II [PDF p. 359]. Manuel II demonstrated limited capacity but lacked the resources for rebellion, relying instead on the Ottoman civil war triggered by Tamerlane’s victory in 1402 [PDF p. 360]. He exploited this chaos to regain territories, yet the author notes that Europe missed a rare opportunity to expel the Ottomans due to Hungarian conflicts with the Hussites and poor relations with Serbia [PDF p. 362]. When Murad II unified the Ottoman realm, he reclaimed these lands and besieged Constantinople, forcing Manuel into renewed vassalage [PDF p. 363]. The author describes the subsequent decades as a period of unredeemed gloom, characterized by the city’s physical decay and economic dependence on Italian merchants [PDF p. 365]. John VI. maintained peace but lost Thessalonica to the Ottomans after his brother sold it to Venice [PDF p. 367]. Finally, John VIII. traveled to Italy to secure aid through religious union with Rome, but the author evaluates his efforts as futile, noting that Pope Eugenius IV. lacked the power to provide significant assistance, leaving the empire isolated and doomed [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1503,
+    "prompt_tokens": 1709,
+    "total_tokens": 3212,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 1627,
+    "prompt_ms": 1413.563,
+    "prompt_per_token_ms": 0.8688156115550093,
+    "prompt_per_second": 1150.9922090490484,
+    "predicted_n": 1503,
+    "predicted_ms": 31956.918,
+    "predicted_per_token_ms": 21.276243675099867,
+    "predicted_per_second": 47.000777734573774
+  },
+  "first_visible_seconds": 1.452481249999991,
+  "wall_seconds": 33.409061875000006,
+  "word_count": 1012,
+  "finished_at": "2026-09-08T14:16:44.684638+00:00"
+}

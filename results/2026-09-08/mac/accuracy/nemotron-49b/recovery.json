@@ -1,0 +1,9 @@
+{
+  "supersedes_queue_status": "Initial accuracy_exit -2 in original queue progress is a setup interruption, superseded by this completed native reasoning-OFF16K run.",
+  "prior_attempts": [
+    "../../diagnostic/nemotron-reasoning-setup/exclusion.json",
+    "../../diagnostic/nemotron-context32768-memory/failure.json"
+  ],
+  "all_requests_completed": true,
+  "full_source_truncated": false
+}

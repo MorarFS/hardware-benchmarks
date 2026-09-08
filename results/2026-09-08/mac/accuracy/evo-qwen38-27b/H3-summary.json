@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "4d067985fb7628930b4a37e8a7a026294949f7acd4ba83bb8186acccbb06a9ba",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3275,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:56:11.102969+00:00",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the most uneventful period in imperial history, dominated by the reigns of Leo the Wise and Constantine Porphyrogenitus [PDF p. 241]. While Basil was a capable but uneducated adventurer, his successors were mild, literary men who preferred the pen to the sword [PDF p. 241]. The author notes that the period 880–960 was relatively peaceful because the Caliphate was breaking up, the Carolingian empire had collapsed, and northern neighbors were converting to Christianity [PDF p. 242]. Consequently, Leo and Constantine remained in the palace, avoiding military campaigns despite opportunities for conquest [PDF p. 242]. Leo’s reign was marked by a failed invasion of Bulgaria and the disgraceful Saracen capture of Thessalonica in 904, which the author qualifies as a surprise attack that could have been prevented with better timing [PDF p. 242]. Constantine, who became emperor at seven, spent decades under the regency of Alexander and later Romanus Lecapenus [PDF p. 243]. He only gained full power after the popular revolt against Romanus’s sons, and the author describes him as weak but not tyrannical [PDF p. 243]. Their primary achievements were literary. Leo’s manual on the Art of War provides a detailed picture of the Byzantine army, which the author praises for its organization and care for wounded soldiers [PDF p. 244]. The author also highlights Leo’s tactical advice, noting his confidence against eastern foes but caution against western enemies [PDF p. 245]. Constantine’s works, particularly those on themes and administration, are deemed invaluable to historians [PDF p. 246]. The author concludes that these emperors’ literary output signals the end of intellectual destitution, marking a gradual recovery of Byzantine culture from the dark ages of the seventh and eighth centuries [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 430,
+    "prompt_tokens": 3275,
+    "total_tokens": 3705,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3193,
+    "prompt_ms": 9509.911,
+    "prompt_per_token_ms": 2.9783623551518947,
+    "prompt_per_second": 335.75498235472446,
+    "predicted_n": 430,
+    "predicted_ms": 29907.835,
+    "predicted_per_token_ms": 69.71523310023309,
+    "predicted_per_second": 14.344067365625095
+  },
+  "first_visible_seconds": 9.579362791999984,
+  "wall_seconds": 39.48726974999997,
+  "word_count": 295,
+  "finished_at": "2026-09-08T15:56:51.705828+00:00"
+}

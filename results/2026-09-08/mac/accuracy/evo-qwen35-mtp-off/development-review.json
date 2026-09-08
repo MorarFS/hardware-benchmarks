@@ -1,0 +1,38 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "0e766b6320ee7a18429eeb2252a376d00de5507693a6ea08f8f36021f59eecd2",
+    "development-summary": "4f4abdf759588f6822b7e25cd3add5a62f0dab79e5c4a453936619aab1f8674f"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected and two survivors stated."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Explicit rejection of sole-assault scope, with reported six-day quotation."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct absence of exact assault minutes; distinguishes six-day unrest from the last-day assault. Extra wording does not follow the exact-only abstention format."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "The rebels were trapped and slaughtered, with the author citing a death toll of thirty-five thousand",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Attaches the reported six-day death total to the trapped Hippodrome rebels; author citing also gives less precise nested testimony than it is said."
+    }
+  ],
+  "summary_review": "Main faction transformation, two survivors, unified demands, reluctant Hypatius, fires, Theodora’s decision, final assault and continuing unrest represented. By 532 for political development is compatible with its earlier growth, unlike an assertion it happened in 532. Opening Antonina comparison and faction religious alignments omitted; repeated concluding evaluation adds length but no additional clear historical error."
+}

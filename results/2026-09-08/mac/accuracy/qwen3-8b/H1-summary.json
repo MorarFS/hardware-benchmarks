@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "90448eb3a780c38e62434250e02f634588599404f5b6b90696ebd824ff2e4f27",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3440,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:09:46.209706+00:00",
+  "output": "The text begins by highlighting the prescience of Constantine in establishing Constantinople as a central military hub for the Balkans. This is followed by the arrival of the Huns in 372 CE, who began their westward advance, first defeating the Alans and then the Ostrogoths. The Ostrogoths, described as fierce and proud, were crushed and forced to become Huns' vassals, with a remnant fleeing to Wallachia. The Huns then turned on the Visigoths, forcing them to retreat to the Danube, where they sought permission to cross into Roman territory. The text attributes the Visigoths' desperation to their fear of slavery to savages, contrasting them with their eastern brethren.\n\nThe Roman Empire, divided between Valens in the East and Valentinian in the West, faced a dilemma when the Visigoths requested passage. Valens, portrayed as cowardly and avaricious, chose to allow the Goths to cross under the condition that they surrender their weapons and provide hostages. The Goths accepted, but soon disputes arose over food and land. Roman officials, including Lupicinus, exploited the situation, leading to widespread suffering and unrest among the Goths. This culminated in a clash at Marcianopolis, where Fritigern and his followers turned against Rome.\n\nThe ensuing conflict along the Danube and Balkans saw the Goths, now fighting on horseback, challenge Roman forces. Despite initial Roman successes, the Battle of Adrianople in 378 CE resulted in a catastrophic defeat for Valens, with thousands of Roman soldiers killed and key officials slain. The text attributes this defeat to the Goths' superior mobility and tactics, marking a turning point in Roman military history. The Goths then advanced toward Constantinople but failed to breach its defenses, ending the immediate threat.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 382,
+    "prompt_tokens": 3440,
+    "total_tokens": 3822,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 3355,
+    "prompt_ms": 3503.502,
+    "prompt_per_token_ms": 1.0442628912071534,
+    "prompt_per_second": 957.6132680957511,
+    "predicted_n": 382,
+    "predicted_ms": 9350.203,
+    "predicted_per_token_ms": 24.54121522309711,
+    "predicted_per_second": 40.747778417217255
+  },
+  "first_visible_seconds": 3.5865958750000004,
+  "wall_seconds": 12.940021041999998,
+  "word_count": 278,
+  "finished_at": "2026-09-08T13:10:00.390320+00:00"
+}

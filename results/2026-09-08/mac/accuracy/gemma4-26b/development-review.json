@@ -1,0 +1,38 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "efd2dfc0ad6712a1caad7221ef6b232256f3b7a8bd5e9b51b66bfc219af8836e",
+    "development-summary": "158b09695430b8fb147f09cd8bb1440712a69817ebc142a601f2afaed0340f28"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven and two surviving hangings are correct; no marked quotation."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "no_answer",
+      "rationale": "Incorrect abstention on an answerable question: the supplied passage explicitly gives the six-day scope."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct source-absent abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "resulting in the reported slaughter of 35,000 men",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Reported qualifier is preserved, but the sentence assigns all 35,000 to the Hippodrome rout rather than six days."
+    }
+  ],
+  "summary_review": "Faction character, rioting, botched execution, demands, fires, Theodora and assault are supported and mostly attributed/cited. Ending omits the factions’ subsequent 50 years of unrest."
+}

@@ -1,0 +1,38 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "de5c85a5dc1d154262a1d0eb6e05d9be06413410f5340bfa9e8f0389dad74b8a",
+    "development-summary": "c1f49a5b0e4b617d4eb3e78b0421807deef65ca998a1d798a645d3712d601141"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected, two surviving the bungled execution and sanctuary stated."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Explicitly preserves reported six-day scope and rejects assigning the total solely to the final assault."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "Belisarius routed the rebels in the Hippodrome, where it is said 35,000 men died",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Retains it is said but transfers the reported six-day total to the Hippodrome/final assault. The development extraction had correctly rejected this scope."
+    }
+  ],
+  "summary_review": "Main faction alliance, two survivors, unrest, demands, Hypatius, fires, Theodora’s intervention, final assault and later unrest are supported. Omits opening Antonina comparison, faction religious alignment and Hypatius’s reluctance; no other clear material factual error identified."
+}

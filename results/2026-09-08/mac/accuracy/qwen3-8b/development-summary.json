@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "b9d83a5992636471dfdda2a2926521e505e6c6f4ec55838439a795cd176b7f3f",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2345,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:09:23.892128+00:00",
+  "output": "The passage begins by contrasting the fate of Antonina, the wife of Theodora, with that of the great Duchess Sarah, highlighting Antonina's lack of ambition to oppose her mistress and her eventual loss of favor after Theodora's death. It then transitions to the year 532, which marks both the end of the Persian War and the rise and fall of a significant threat to Emperor Justinian's rule: the Blues and Greens, two powerful factions in Byzantine society. These factions, originally associated with the Circus, had grown into political parties, with the Blues supporting the house of Justinus and strict orthodoxy, while the Greens aligned with the late Emperor Anastasius and Monophysitism. Their influence extended into politics and religious debates, and they were known for their rough elements and tendency to riot.\n\nThe narrative then describes the outbreak of riots in January 532, sparked by the execution of seven rioters, including two who survived due to botched executions. This incident led to six days of intense rioting, during which the Blues and Greens united under the watchword \"Nika\" (conquer), demanding the removal of officials and even Justinian himself. The city was in chaos, with the Emperor relying on a small force of 4,000 Imperial Guards, German auxiliaries, and 500 Cataphracti under Belisarius. The riots culminated in the burning of the Senate House and the great cathedral of St. Sophia, with Hypatius, a rival claimant to the throne, being crowned in the Hippodrome.\n\nThe passage concludes with the intervention of Empress Theodora, who refused to flee and urged Justinian to make a final assault on the rebels. Her speech, recorded by Procopius, is praised as a bold and decisive moment. Belisarius led a successful attack, routing the rebels and resulting in the deaths of an estimated 35,000 men. Despite this, the factions continued to cause unrest for the next fifty years, though they never again threatened the course of history as they did in 532.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 437,
+    "prompt_tokens": 2345,
+    "total_tokens": 2782,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 2260,
+    "prompt_ms": 2199.161,
+    "prompt_per_token_ms": 0.9730800884955753,
+    "prompt_per_second": 1027.6646411972565,
+    "predicted_n": 437,
+    "predicted_ms": 10362.495,
+    "predicted_per_token_ms": 23.76719036697248,
+    "predicted_per_second": 42.074809203768005
+  },
+  "first_visible_seconds": 2.238089541999999,
+  "wall_seconds": 12.603731874999998,
+  "word_count": 323,
+  "finished_at": "2026-09-08T13:09:38.070601+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "ce10acfec4979f4e3ee1dc542bdbba0adbd3a83c274f34dfe6b7002073bb0e10",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4086,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:57:24.102024+00:00",
+  "output": "The author argues that the final seventy-five years of the Byzantine Empire were merely local history, no longer central to Christendom [PDF p. 358]. He asserts that the Paleologi prolonged the state’s life through subservience to the Turks, even after its justification had vanished [PDF p. 358]. The author contends that an earlier fall in 1370 would have had minimal impact, aside from straining Venetian and Genoese commerce and slightly diminishing the Renaissance [PDF p. 358-359].\n\nDuring John Paleologus’s reign, his son Andronicus rebelled, leading to a failed blinding and John’s decision to pass the throne to Manuel II [PDF p. 359]. Manuel II, though capable, lacked resources to resist the Ottomans [PDF p. 360]. However, the Tartar invasion of 1402 and the subsequent Ottoman civil war provided a rare opportunity [PDF p. 360]. Manuel sold his aid to Sultan Suleiman, gaining Thessalonica and other territories [PDF p. 361-362]. The author notes that Europe missed this chance to expel the Ottomans because King Sigismund was preoccupied with the Hussites, and Serbs and Hungarians lacked cooperation [PDF p. 362-363].\n\nWhen Mohammed I reunified the Ottoman realm in 1421, Manuel retained his gains [PDF p. 362]. However, his son Murad II later besieged Constantinople, forcing Manuel to cede most of his lands in 1422 [PDF p. 363-365]. Manuel died in 1425, leaving behind a state of exhaustion and poverty [PDF p. 365-366]. His son John VI. ruled passively, losing Thessalonica to the Ottomans in 1430 after his brother sold it to Venice [PDF p. 366-367]. John VI. then traveled to Italy, converting to Catholicism in 1439 to seek aid, but received only minor financial and military support from a discredited papacy [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 484,
+    "prompt_tokens": 4086,
+    "total_tokens": 4570,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 4004,
+    "prompt_ms": 12100.162,
+    "prompt_per_token_ms": 3.0220184815184816,
+    "prompt_per_second": 330.90466061528764,
+    "predicted_n": 484,
+    "predicted_ms": 34253.842,
+    "predicted_per_token_ms": 70.91892753623188,
+    "predicted_per_second": 14.100608042741602
+  },
+  "first_visible_seconds": 12.186679749999996,
+  "wall_seconds": 46.440546332999986,
+  "word_count": 282,
+  "finished_at": "2026-09-08T15:58:10.631081+00:00"
+}

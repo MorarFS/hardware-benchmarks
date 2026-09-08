@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "18ffef1abcd14f371ee1c997082f6aac4bff373fb35276041650c7e8181e0031",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2387,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:07:11.681110+00:00",
+  "output": "In 532, the Byzantine Circus factions, the Blues and Greens, transitioned from sporting groups into political parties that the author describes as a serious danger to the State [PDF p. 101]. The Blues acted as orthodox partisans of Justinus, while the Greens supported the house of Anastasius and Monophysitism [PDF p. 101]. Following the execution of several rioters, a botched hanging allowed two criminals to seek sanctuary, an incident the author identifies as the commencement of six days of desperate rioting [PDF p. 102]. The factions united under the cry of \"Nika\" to demand the deposition of officials and sought to install Hypatius as Caesar [PDF p. 102]. During the conflict, rebels burned the Senate House and St. Sophia [PDF p. 103]. Although Hypatius initially sought refuge with the Emperor, he was eventually crowned in the Hippodrome by his adherents [PDF p. 103]. Amidst palace dismay, the author evaluates Empress Theodora as rising to the level of the occasion when she refused to flee and urged a final assault [PDF p. 105]. Spurred by her words, Belisarius led an attack on the Hippodrome, routing the rebels and resulting in the reported slaughter of 35,000 men [PDF p. 105, 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 291,
+    "prompt_tokens": 2387,
+    "total_tokens": 2678,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 2304,
+    "prompt_ms": 1562.836,
+    "prompt_per_token_ms": 0.6783142361111111,
+    "prompt_per_second": 1474.242978789841,
+    "predicted_n": 291,
+    "predicted_ms": 4903.074,
+    "predicted_per_token_ms": 16.90715172413793,
+    "predicted_per_second": 59.1465680509819
+  },
+  "first_visible_seconds": 1.61152725,
+  "wall_seconds": 6.514893666999999,
+  "word_count": 199,
+  "finished_at": "2026-09-08T16:07:19.782390+00:00"
+}

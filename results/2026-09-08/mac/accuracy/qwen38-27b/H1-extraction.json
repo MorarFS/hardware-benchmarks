@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "aa22e242857b63c246879d22bbd209acbed97950424d6cad42b035a4d8033609",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3595,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:59:10.749835+00:00",
+  "output": "H1-Q1: The Visigoths were led by their Duke Fritigern as they retreated toward the Danube. \"the Visigoths, under their Duke Fritigern, fell back in dismay... till they found themselves with their backs to the Danube\" [PDF p. 61].\n\nH1-Q2: Valens required the Goths to give hostages and surrender their arms for admission. The arms condition was violated when Roman officials accepted bribes to allow the Goths to keep their weapons. \"if the Goth^ would give hostages, and surrender their arms... the bribes were accepted and the Goths retained their arms\" [PDF p. 63].\n\nH1-Q3: Lupicinus held back food stores and sold them at exorbitant prices, driving the Goths to desperation and revolt. \"Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices\" [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but did not lead to a decisive result. \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 288,
+    "prompt_tokens": 3595,
+    "total_tokens": 3883,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3513,
+    "prompt_ms": 10996.074,
+    "prompt_per_token_ms": 3.1301093082835183,
+    "prompt_per_second": 319.4776608451343,
+    "predicted_n": 288,
+    "predicted_ms": 20089.887,
+    "predicted_per_token_ms": 69.999606271777,
+    "predicted_per_second": 14.28579463886482
+  },
+  "first_visible_seconds": 11.083490917000006,
+  "wall_seconds": 31.17311616699999,
+  "word_count": 185,
+  "finished_at": "2026-09-08T13:59:43.166095+00:00"
+}

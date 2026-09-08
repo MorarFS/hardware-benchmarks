@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "266afa8ea18aa1e44972b1467b20744df2732789748b257b2f25a2c8539036aa",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3475,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:16:39.797217+00:00",
+  "output": "[PDF p. 61] The Huns, a large Tartar horde from beyond the Don and Volga, invaded the lands north of the Euxine around A.D. 372. They nearly exterminated the Alans and then attacked the Ostrogoths, who were described by a Gothic historian as having \"faces that can hardly be called faces rather shapeless black collops of flesh with little points instead of eyes\" and being \"little in stature, but lithe and active, skilful in riding, broad shouldered, good at the bow, stiff-necked and proud\" [PDF p. 61]. The Ostrogoths were crushed and became vassals of the Huns, except for a remnant who fled southward to the Wallachian shore. The Huns then fell on the Visigoths, who, under their Duke Fritigern, retreated to the Danube, where they asked the Roman Emperor for permission to cross [PDF p. 61-62].\n\n[PDF p. 62] The Roman Empire was divided at this time, with the East ruled by Valens, a \"stupid, cowardly, and avaricious prince\" [PDF p. 62]. Valens, faced with the desperate Visigoths, chose to allow them to cross the Danube and settle within the empire, provided they gave hostages and surrendered their arms. The Goths accepted the terms, but disputes arose when the Roman officials, including Lupicinus, extorted food and supplies from them, leading to starvation and desperation among the Goths [PDF p. 62-63].\n\n[PDF p. 63-64] A chance affray at Marcianopolis, where Lupicinus ordered the seizure and slaying of Fritigern and his nobles, sparked a year of desperate fighting along the Danube and the northern slope of the Balkans. The Goths, half-starved and enraged, showed their old barbarian spirit, sacking towns and harrying the countryside. Despite initial setbacks, the Roman armies held the Goths at bay, though the struggle was fierce and involved runaway slaves and outcasts among the provincial population [PDF p. 64].\n\n[PDF p. 65-66] The following year, Emperor Valens, driven into the field by the clamors of his subjects, led a splendid army of 60,000 men against the Goths. However, the Goths, who had adopted cavalry tactics during their sojourn in the plains of South Russia and Roumania, ambushed the Roman army at Adrianople. The Roman left flank was overwhelmed, and the infantry was pushed into hopeless confusion. The Roman cavalry fled, leaving the infantry to be cut down. Forty thousand men fell, including the Emperor, the Grand Masters of the Infantry and Cavalry, the Count of the Palace, and thirty-five commanders of different corps [PDF p. 65-67].\n\n[PDF p. 67] The battle of Adrianople was a catastrophic defeat for the Roman army, comparable to the battle of Cannae. The army of the East was almost annihilated and never reorganized on the old Roman lines. The victorious Goths, after a vain assault on Adrianople, pressed rapidly towards Constantinople but ultimately retreated, realizing the city's vast defenses were inaccessible. Thus, Constantine's foresight in building his fortress-capital was vindicated, though it faced its first attack forty years after his death [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 743,
+    "prompt_tokens": 3475,
+    "total_tokens": 4218,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 3391,
+    "prompt_ms": 5059.537,
+    "prompt_per_token_ms": 1.4920486582129167,
+    "prompt_per_second": 670.2194291691117,
+    "predicted_n": 743,
+    "predicted_ms": 25896.879,
+    "predicted_per_token_ms": 34.90145417789758,
+    "predicted_per_second": 28.652101282166086
+  },
+  "first_visible_seconds": 5.152537749999965,
+  "wall_seconds": 31.015158707999944,
+  "word_count": 492,
+  "finished_at": "2026-09-08T15:17:12.256260+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "094a34284a5e331d3bfab98abb28080f1f1fc32d35166216fb921f34bf90fa17",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3642,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:41:52.624734+00:00",
+  "output": "Latin usage in the East declined due to the empire's division and barbarian incursions that decimated Latin-speaking populations [PDF p. 170]. The author notes that while official titles and imperial greetings persisted, Latin knowledge became rare among the educated by the sixth century [PDF p. 169]. Justinian was the final emperor to speak Latin as a mother tongue [PDF p. 169].\n\nSimultaneously, the empire became more Christian. The author claims the Christian spirit fully penetrated material life forty years after Constantine [PDF p. 171]. This shift led to the abolition of gladiatorial shows following the death of the monk Telemachus in A.D. 404 [PDF p. 171] and the criminalization of infanticide [PDF p. 172]. Christianity also modified slavery by teaching that slaves possessed immortal souls [PDF p. 173].\n\nHowever, the author evaluates the rise of ascetic monasticism as positively dangerous [PDF p. 174]. He argues that thousands of citizens neglected their state duties to save their own souls, viewing barbarian invasions as divine judgments [PDF p. 174, 175]. This apathetic attitude led the surviving heathen minority to accuse Christianity of ruining the state [PDF p. 176]. By the end of the fifth century, paganism had practically disappeared [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 302,
+    "prompt_tokens": 3642,
+    "total_tokens": 3944,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3559,
+    "prompt_ms": 13332.597,
+    "prompt_per_token_ms": 3.7461638100590053,
+    "prompt_per_second": 266.93974174723803,
+    "predicted_n": 302,
+    "predicted_ms": 23968.693,
+    "predicted_per_token_ms": 79.63020930232558,
+    "predicted_per_second": 12.558048117183528
+  },
+  "first_visible_seconds": 13.530606457999966,
+  "wall_seconds": 37.49935616699997,
+  "word_count": 200,
+  "finished_at": "2026-09-08T15:42:31.070090+00:00"
+}

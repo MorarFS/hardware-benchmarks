@@ -1,0 +1,39 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human review",
+  "scope": "Development only, excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "8a7f481a30fbe51558668914f15f68fb9a27bd2df93f7d83ba39fcacb792b914",
+    "development-summary": "ba4a47971c59e1c793b3e7b9dd4f37f55fb4e5a6f729b93025b197d3a4a213a4"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected and two hanging survivors correctly preserved."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correct reported six-day death scope."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "where the rebels were trapped and slaughtered, with the author noting that 35,000 men were killed",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Assigns the six-day reported total to the Hippodrome attack. Author noting also loses the nested it-is-said qualification."
+    }
+  ],
+  "summary_review": "Main faction/revolt/fire/Hypatius/Theodora/assault/continued-unrest sequence represented. Opening Antonina comparison and specific faction allegiances are omitted. Initial two surviving hangings are correct.",
+  "reuse_provenance": "Development output bytes identical to the source-reviewed failed 16K configuration; both SHA256 values checked."
+}

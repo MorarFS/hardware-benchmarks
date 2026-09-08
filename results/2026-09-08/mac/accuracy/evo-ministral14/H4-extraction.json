@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "95480971a791364c1b4aa33928a527cff25e72ca0ed4791abd1802508d0de86e",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4110,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:18:37.533799+00:00",
+  "output": "H4-Q1: The ruler who reunited the surviving Ottoman realm after the civil wars was Mohammed, the youngest son of Bayezid. The passage states, \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained.\" [PDF p. 362]\n\nH4-Q2: Manuel’s support for the two Mustaphas led to war with Murad because Murad saw it as a threat to his rule. The passage explains, \"This drew down on the empire the fate which had been delayed since 1370: the Sultan declared war on Manuel, took one after another all the fortresses which had been recovered by the peace of 1403, and finally laid siege to Constantinople.\" [PDF p. 363]\n\nH4-Q3: The immediate development that caused Murad to lift the siege was the trouble caused by the pretender Mustapha in Asia Minor. The passage notes, \"At last the pretender Mustapha, whom Manuel had supplied with money to cause a revolt against his brother, began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him.\" [PDF p. 365]\n\nH4-Q4: The passage assigns a role of encouragement and spiritual support to the vision of the Virgin. It states, \"The report of a miraculous vision of the Virgin, who vouchsafed to reveal herself as the defender of the city, encouraged the Greeks to resist with a better spirit than might have been expected.\" [PDF p. 365]\n\nH4-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 367,
+    "prompt_tokens": 4110,
+    "total_tokens": 4477,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 4026,
+    "prompt_ms": 6194.269,
+    "prompt_per_token_ms": 1.538566567312469,
+    "prompt_per_second": 649.9556283396798,
+    "predicted_n": 367,
+    "predicted_ms": 12870.154,
+    "predicted_per_token_ms": 35.16435519125683,
+    "predicted_per_second": 28.43788815580606
+  },
+  "first_visible_seconds": 6.24802416600005,
+  "wall_seconds": 19.12134333300014,
+  "word_count": 258,
+  "finished_at": "2026-09-08T15:18:57.815277+00:00"
+}

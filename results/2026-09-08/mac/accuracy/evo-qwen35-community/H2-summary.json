@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "91e6101931df9759dc699776b91b3a9cc9d30316a73fba00a56dd43c7277db26",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3630,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:03:38.936029+00:00",
+  "output": "The author argues that Latin decayed in the East due to the practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin was vanishing, though imperial titles persisted [PDF p. 169]. Justinian was the last emperor to speak Latin as a mother tongue [PDF p. 169]. The author attributes this linguistic shift to the predominance of Greek and the decimation of Latin-speaking populations by Slavs and other groups [PDF p. 170].\n\nSimultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly, accelerating under Theodosius I [PDF p. 171]. The author explicitly praises the end of gladiatorial games and infanticide as positive outcomes of Christian morality [PDF p. 171, 173]. The teaching that slaves possessed immortal souls modified slavery’s evils, though the institution persisted [PDF p. 173]. The author traces these improvements to the belief in the individual soul’s importance [PDF p. 174].\n\nHowever, the author evaluates the rise of ascetic monasticism as harmful to the state [PDF p. 174]. The author claims monks neglected civic duties, interpreting barbarian invasions as divine judgments rather than national calamities [PDF p. 175]. This apathy angered surviving pagans, who blamed Christianity for the empire’s ruin [PDF p. 176]. The author contrasts this with governing classes who preserved Roman statecraft traditions [PDF p. 176]. Finally, the author observes that while open paganism ended, indifference prevailed among educated Christians in the sixth century [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 376,
+    "prompt_tokens": 3630,
+    "total_tokens": 4006,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3548,
+    "prompt_ms": 2304.258,
+    "prompt_per_token_ms": 0.6494526493799323,
+    "prompt_per_second": 1539.7581347227613,
+    "predicted_n": 376,
+    "predicted_ms": 5212.581,
+    "predicted_per_token_ms": 13.900216,
+    "predicted_per_second": 71.9413281059805
+  },
+  "first_visible_seconds": 2.3397841250000013,
+  "wall_seconds": 7.552642292000002,
+  "word_count": 246,
+  "finished_at": "2026-09-08T16:03:47.019165+00:00"
+}

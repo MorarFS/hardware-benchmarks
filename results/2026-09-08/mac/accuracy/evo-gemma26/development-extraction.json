@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "2801fc586bceeaa1cc1aefdb831e1ec869c84d3e9715faec940240c388015d22",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2451,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:07:07.627445+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died. Two of the criminals fell to the ground alive after the hangman bungled the task [PDF p. 102].\n\nD-Q2: The passage does not specify if the 35,000 deaths were caused solely by the Hippodrome assault. It only states, \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 2451,
+    "total_tokens": 2581,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2451,
+    "prompt_ms": 1696.872,
+    "prompt_per_token_ms": 0.6923182374541004,
+    "prompt_per_second": 1444.4224431778,
+    "predicted_n": 130,
+    "predicted_ms": 2187.237,
+    "predicted_per_token_ms": 16.95532558139535,
+    "predicted_per_second": 58.97851947456997
+  },
+  "first_visible_seconds": 1.7034188340000007,
+  "wall_seconds": 3.8949697499999996,
+  "word_count": 78,
+  "finished_at": "2026-09-08T16:07:11.668618+00:00"
+}

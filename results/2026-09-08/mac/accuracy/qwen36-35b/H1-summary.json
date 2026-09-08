@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "9d38c4ccb5d7ac37119589800de641aed47055001988dc051fdf5d71ec964557",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3489,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:14:52.911304+00:00",
+  "output": "The author argues that Constantine’s foresight in establishing Constantinople proved vital as the Huns displaced the Goths [PDF p. 61]. After crushing the Ostrogoths, the Huns forced the Visigoths to seek refuge across the Danube in 376 [PDF p. 62]. The Eastern Emperor Valens, described by the author as stupid and cowardly, permitted their entry under strict conditions [PDF p. 63]. However, Roman officials exploited the starving immigrants through extortion, leading to a violent outbreak at Marcianopolis [PDF p. 64]. This triggered a year of fierce fighting along the Balkans [PDF p. 65].\n\nThe author notes that the Goths had adopted cavalry tactics, a significant shift from traditional infantry warfare [PDF p. 66]. At the Battle of Adrianople in 378, Valens attacked the Gothic camp with sixty thousand men [PDF p. 66]. A sudden charge by Gothic cavalry overwhelmed the Roman left flank, causing total collapse [PDF p. 67]. The author emphasizes that the Roman infantry was crushed in a dense press, unable to maneuver or fight effectively [PDF p. 67]. Forty thousand Romans died, including the Emperor and high commanders [PDF p. 67].\n\nThe author characterizes this defeat as the most fearful loss since Cannae [PDF p. 67]. The Eastern army was annihilated and never reorganized [PDF p. 67]. The victorious Goths marched toward Constantinople but abandoned the siege upon seeing its massive walls [PDF p. 67]. The author concludes that this event validated Constantine’s original strategic vision for the capital [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 364,
+    "prompt_tokens": 3489,
+    "total_tokens": 3853,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3407,
+    "prompt_ms": 2753.766,
+    "prompt_per_token_ms": 0.8082670971529204,
+    "prompt_per_second": 1237.2147815028582,
+    "predicted_n": 364,
+    "predicted_ms": 7566.985,
+    "predicted_per_token_ms": 20.84568870523416,
+    "predicted_per_second": 47.97155009557968
+  },
+  "first_visible_seconds": 2.792665416999995,
+  "wall_seconds": 10.359807959000001,
+  "word_count": 245,
+  "finished_at": "2026-09-08T14:15:05.106140+00:00"
+}

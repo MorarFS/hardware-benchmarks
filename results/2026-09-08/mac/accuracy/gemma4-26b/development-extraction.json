@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "eb7906a10b10ab3d8936b6f8d4e5a84601b4ad0eb8be3e292f04eb1690949792",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2451,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:31:06.802552+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died. Two of the criminals survived after the hangman bungled the task and the rope slipped [PDF p. 102].\n\nD-Q2: Not stated in the supplied passage.\n\nD-Q3: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 2451,
+    "total_tokens": 2522,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2451,
+    "prompt_ms": 1961.251,
+    "prompt_per_token_ms": 0.8001840065279477,
+    "prompt_per_second": 1249.7125559145668,
+    "predicted_n": 71,
+    "predicted_ms": 1055.717,
+    "predicted_per_token_ms": 15.08167142857143,
+    "predicted_per_second": 66.30564819928067
+  },
+  "first_visible_seconds": 1.9670862499999995,
+  "wall_seconds": 3.023532874999999,
+  "word_count": 44,
+  "finished_at": "2026-09-08T13:31:10.857640+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "60bbb27e7352b232eef2437d536044deec49d388ca0dccaefdc5cfac8efcd3ed",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3188,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:44:46.488519+00:00",
+  "output": "\n\n**Connected Summary (180-220 words)**\n\n**Beginning (PDF p. 241)**: The eighty years following Basil the Macedonian's death (A.D. 886-976) were the most uneventful in the Byzantine Empire's history, marked by the reigns of Leo the Wise and Constantine Porphyrogenitus (PDF p. 241). Unlike Basil, an uneducated but capable adventurer, his successors were mild, literary-minded emperors who devoted themselves to writing rather than military conquest (PDF p. 241).\n\n**Middle (PDF p. 242-244)**: The period (880-960) saw minimal foreign conflicts, with only piratical raids from Russians and Saracens posing minor threats (PDF p. 242). Leo's 26-year reign was uneventful, except for a failed Bulgarian invasion and a successful Saracen raid on Thessalonica in 904, which was not entirely his administration's fault (PDF p. 242). Constantine Porphyrogenitus, who became emperor at seven, was initially under guardians and later overshadowed by Romanus Lecapenus until he finally took the throne at a mature age (PDF p. 243). Both emperors' chief achievements were their literary works: Leo's included a valuable manual on the Art of War, and Constantine's works were even more extensive and informative on themes, administration, and court ceremonies (PDF p. 244).\n\n**Ending (PDF p. 246-247)**: The emperors' literary pursuits signified the end of an intellectual dearth in the Byzantine Empire by the end of the ninth century, with a gradual improvement in literature from the rise of Leo the Isaurian onward (PDF p. 247). This period saw the emergence of a larger literary class and notable authors like Patriarch Photius (PDF p. 247).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 389,
+    "prompt_tokens": 3188,
+    "total_tokens": 3577,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3101,
+    "prompt_ms": 21453.064,
+    "prompt_per_token_ms": 6.918111576910674,
+    "prompt_per_second": 144.54811676318124,
+    "predicted_n": 389,
+    "predicted_ms": 55373.285,
+    "predicted_per_token_ms": 142.71465206185567,
+    "predicted_per_second": 7.006989020066264
+  },
+  "first_visible_seconds": 21.55555162500002,
+  "wall_seconds": 76.928054041,
+  "word_count": 249,
+  "finished_at": "2026-09-08T14:46:03.439565+00:00"
+}

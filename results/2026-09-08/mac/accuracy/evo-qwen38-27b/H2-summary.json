@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "5592b6db0f7c512f29eb5c44bb18c6f70f6b65e8627c92b05d4b5ce35d573533",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3630,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:55:00.063261+00:00",
+  "output": "The passage begins by detailing the decline of Latin in the Eastern Empire. The author notes that while a large Latin-speaking population existed east of the Adriatic, this element rapidly vanished by the seventh century [PDF p. 169]. Although Roman official titles persisted, knowledge of Latin became unusual even among educated men, with Procopius cited as an example of this ignorance [PDF p. 169]. The author attributes this shift to the practical separation of the East from the West, which began with the division of the empire and was accelerated by barbarian invasions that decimated Latin-speaking provinces [PDF p. 170]. Consequently, the Balkans became Slavonic, leaving only remote areas like Africa and the Italian Exarchate as significant Latin regions, which failed to influence the East [PDF p. 170].\n\nThe middle section examines the increasing Christianization of the state. The author argues that while Constantine’s reign saw little administrative change, the Christian spirit fully penetrated material life under Theodosius I [PDF p. 171]. This shift led to the abolition of gladiatorial shows, a change the author credits to the martyrdom of the monk Telemachus rather than state action [PDF p. 171]. Christianity also ended infanticide and improved the status of slaves, teaching that they possessed immortal souls [PDF p. 173]. Justinian’s legislation further modified slavery by permitting intermarriage and criminalizing the prostitution of slaves [PDF p. 173].\n\nThe ending focuses on the negative consequences of this religious shift. The author evaluates ascetic monasticism as dangerous to the state, arguing that it removed men from civic duties and hindered the empire’s defense against barbarians [PDF p. 174]. Many Christians viewed invasions as divine judgment rather than national crises, an attitude that maddened the pagan minority [PDF p. 175]. The author concludes that the empire survived because governing classes preserved Roman statecraft, while open paganism disappeared by the end of the fifth century, leaving behind a widespread indifference among the educated classes [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 448,
+    "prompt_tokens": 3630,
+    "total_tokens": 4078,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3548,
+    "prompt_ms": 10271.04,
+    "prompt_per_token_ms": 2.894881623449831,
+    "prompt_per_second": 345.4372682805246,
+    "predicted_n": 448,
+    "predicted_ms": 30842.275,
+    "predicted_per_token_ms": 68.99837807606265,
+    "predicted_per_second": 14.493094299950313
+  },
+  "first_visible_seconds": 10.345236375000013,
+  "wall_seconds": 41.188026416000014,
+  "word_count": 322,
+  "finished_at": "2026-09-08T15:55:42.696431+00:00"
+}

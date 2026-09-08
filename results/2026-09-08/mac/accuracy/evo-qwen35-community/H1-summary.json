@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "b7e52cad02e6fa6e76bc8c2f47bf75cd2b9dcd8a6b72a4670b1d3ce1bcf89c6a",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3489,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:03:20.683331+00:00",
+  "output": "The author argues that Constantine’s foresight in establishing Constantinople proved prescient as the Huns displaced the Goths, forcing them toward the Roman border [PDF p. 61]. The Huns crushed the Ostrogoths and drove the Visigoths, led by Fritigern, against the Danube [PDF p. 61]. Desperate, the Visigoths petitioned Emperor Valens for asylum [PDF p. 62]. The author characterizes Valens as a stupid, cowardly, and avaricious ruler who lacked the military prowess of his brother Valentinian [PDF p. 62]. Valens permitted the Goths to cross the Danube in exchange for hostages and their weapons [PDF p. 63]. However, Roman officials accepted bribes to allow the Goths to keep their arms, and Governor Lupicinus hoarded food to sell at exorbitant prices [PDF p. 63]. Starvation drove the Goths to desperation, leading to a violent clash at Marcianopolis where Lupicinus attempted to assassinate Fritigern [PDF p. 64]. This incident ignited a year of fierce fighting along the Danube [PDF p. 64]. The author notes that the Goths had adopted cavalry tactics, which proved decisive against the Roman infantry [PDF p. 65]. In 378 A.D., Valens attacked the Gothic camp near Adrianople with sixty thousand men [PDF p. 66]. A sudden charge by Gothic cavalry overwhelmed the Roman left flank, causing the entire army to collapse into a confused mass [PDF p. 66]. The author describes the battle as a fearful disaster comparable to Cannae, resulting in the death of forty thousand Romans and the Emperor himself [PDF p. 67]. Although the Goths marched on Constantinople, they abandoned the siege due to the city’s formidable walls [PDF p. 67]. The author concludes that this event marked the first attack on the capital since its founding, validating Constantine’s original strategic vision [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 439,
+    "prompt_tokens": 3489,
+    "total_tokens": 3928,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3407,
+    "prompt_ms": 2275.822,
+    "prompt_per_token_ms": 0.6679841502788377,
+    "prompt_per_second": 1497.04150851868,
+    "predicted_n": 439,
+    "predicted_ms": 6199.184,
+    "predicted_per_token_ms": 14.153388127853882,
+    "predicted_per_second": 70.65446032897232
+  },
+  "first_visible_seconds": 2.3096001249999993,
+  "wall_seconds": 8.509029292000005,
+  "word_count": 289,
+  "finished_at": "2026-09-08T16:03:30.818223+00:00"
+}

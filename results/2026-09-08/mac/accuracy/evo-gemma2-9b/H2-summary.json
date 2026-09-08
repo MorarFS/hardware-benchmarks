@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "012c1bb9c53f348b2bdd4f26405b4ab1ed03c4a146bd6c9464287ef90724d006",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3580,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:13:31.352464+00:00",
+  "output": "This passage examines the decline of Latin and the rise of Christianity in the Roman Empire.  The author states that by the seventh century, Latin was rapidly disappearing in the East, though it remained the language of the ruling class.  Ammianus Marcellinus, born in Greece, exemplifies this trend, writing in Latin despite his Greek heritage.  The author attributes this decline to the practical separation of Rome and the East after the division of the empire.  He argues that the Eastern provinces, which spoke Latin, were heavily impacted by barbarian invasions, leading to a decline in Latin speakers.  By 620, only a tenth of the population east of the Adriatic spoke Latin.  The author notes that the last notable Latin author was Flavius Corippus, an African poet who wrote in the sixth century.\n\nThe author then discusses the increasing influence of Christianity on Roman society.  He argues that Constantine's conversion marked the beginning of this shift, though the full impact was felt forty years later.  The author cites Theodosius I's crusade against immorality and the abolition of gladiatorial games as evidence of Christianity's influence.  He also notes that Christianity's emphasis on the individual soul led to a change in attitudes towards slaves, women, and infants.  The author acknowledges that this shift was not always positive, citing the rise of monasticism as an example.  He argues that the ascetic focus on individual salvation led to a neglect of civic duty, hindering the empire's ability to resist barbarian invasions.  The author concludes by stating that paganism had largely disappeared by the sixth century, replaced by a widespread indifference to religion among the educated classes. \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 339,
+    "prompt_tokens": 3580,
+    "total_tokens": 3919,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 3579,
+    "prompt_ms": 4243.508,
+    "prompt_per_token_ms": 1.185668622520257,
+    "prompt_per_second": 843.4059744909165,
+    "predicted_n": 339,
+    "predicted_ms": 9959.747,
+    "predicted_per_token_ms": 29.466707100591716,
+    "predicted_per_second": 33.9366050161716
+  },
+  "first_visible_seconds": 4.400284709000061,
+  "wall_seconds": 14.36055216700015,
+  "word_count": 271,
+  "finished_at": "2026-09-08T15:13:47.561435+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "6100ccf6f7a4cdc2bf61d415cce0693a002a5ca48f7c6136ed8a937870cbbc8c",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3262,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:10:20.736085+00:00",
+  "output": "The eighty years following Basil the Macedonian’s death were the most unevented and monotonous in imperial history [PDF p. 241]. The author characterizes the two literary emperors as mild, inoffensive men who devoted themselves to the pen rather than the sword [PDF p. 241]. Leo’s reign was only interrupted by a failed Bulgarian invasion and a disgraceful raid on Thessalonica in 904, which the author notes was a surprise attack that the army could have stopped had it lasted longer [PDF p. 242]. Constantine was kept in the background by the usurper Romanus until a popular revolt removed the usurpers and allowed him to rule for twenty years [PDF p. 243]. The author evaluates Leo’s military manual as a valuable and interesting work that provides a perfect picture of the army [PDF p. 244]. Constantine is described as a careful and methodical compiler whose works on administration and court ceremony reflect his life as a peaceful emperor [PDF p. 246, 247]. The author concludes that their literary devotion signals the end of a long period of intellectual dearth in Byzantine history [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 249,
+    "prompt_tokens": 3262,
+    "total_tokens": 3511,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3179,
+    "prompt_ms": 5409.593,
+    "prompt_per_token_ms": 1.7016649889902484,
+    "prompt_per_second": 587.6597370633983,
+    "predicted_n": 249,
+    "predicted_ms": 10068.282,
+    "predicted_per_token_ms": 40.59791129032258,
+    "predicted_per_second": 24.631809081231538
+  },
+  "first_visible_seconds": 5.513180250000005,
+  "wall_seconds": 15.58147299999996,
+  "word_count": 184,
+  "finished_at": "2026-09-08T14:10:36.951419+00:00"
+}

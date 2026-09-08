@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "812e4720c6f45928e8e4e32f2729eeffafdccd3716da6575943cbd1da6106465",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:15:02.092988+00:00",
+  "output": "The narrative begins with the Huns’ westward expansion around A.D. 372, which devastated the Alans and crushed the Ostrogoths, forcing them into vassalage (PDF p. 61). The Visigoths, led by Fritigern, retreated before this wave until they reached the Danube, where they petitioned the Eastern Emperor Valens for refuge in A.D. 376 (PDF p. 62). Valens, described as cowardly and avaricious, agreed to admit the Goths as subject-allies in exchange for hostages and their weapons, a decision driven by the fear that refusing passage was more dangerous than admitting them (PDF p. 63). However, Roman officials in Moesia, particularly Governor Lupicinus, violated the agreement by accepting bribes to let the Goths keep their arms and by hoarding food to sell at exorbitant prices (PDF p. 63). This extortion led to starvation and desperation among the immigrants, culminating in a banquet at Marcianopolis where Lupicinus attempted to assassinate Fritigern, prompting the Goths to revolt and launch a year of fierce fighting along the Danube (PDF p. 64).\n\nThe conflict escalated when Emperor Valens personally led a large army against the Goths near Adrianople in A.D. 378, expecting a traditional Roman victory (PDF p. 65). The battle resulted in a catastrophic defeat for Rome due to the emergence of Gothic cavalry, which had adopted mounted warfare during their time in the steppes (PDF p. 66). The Gothic horsemen charged the Roman flank, causing the imperial cavalry to flee and leaving the infantry trapped in a dense, suffocating mass where they were slaughtered (PDF p. 67). The army was annihilated, and Valens died on the field, marking the end of the old Roman military dominance (PDF p. 67). Although the Goths subsequently threatened Constantinople, they abandoned the siege after being intimidated by the city’s massive walls, allowing the empire to survive but leaving its eastern provinces vulnerable to further barbarian incursions (PDF p. 67).\n\nIn the centuries following these invasions, the Latin-speaking population in the Balkans rapidly declined as Greek culture and language became predominant (PDF p. 169). By the seventh century, Latin was largely unknown even among educated elites, with Justinian being the last emperor to speak it as a mother tongue (PDF p. 170). This linguistic shift was accelerated by the devastation caused by Visigoths, Ostrogoths, and later Slavs, who decimated the Romanized populations of Thrace and Illyria (PDF p. 170). Concurrently, the empire underwent a profound religious transformation under Constantine and his successors, where Christian ethics began to influence state policy (PDF p. 171). The Church abolished practices such as infanticide and gladiatorial games, and improved the legal status of slaves by recognizing their humanity and allowing intermarriage with free persons (PDF p. 173). However, the rise of ascetic monasticism also drew many men away from civic duties, creating a social apathy that some contemporaries blamed for the empire’s weakening against barbarian threats (PDF p. 174).\n\nBy the ninth century, the empire experienced a literary revival under the \"literary emperors\" Leo VI and Constantine VII, who produced significant works on military tactics and court ceremony (PDF p. 241). Leo’s *Tactica* detailed a highly organized Byzantine army and navy, reflecting a period of relative stability and intellectual activity (PDF p. 244). However, by the fourteenth century, the empire had shrunk to a rump state centered on Constantinople, relying on diplomacy and mercenary forces rather than military strength (PDF p. 358). Emperor Manuel II briefly regained territory during the Ottoman civil war following Tamerlane’s defeat of Bayezid in 1402, but these gains were lost when Murad II reasserted control (PDF p. 362). The final decades saw Constantinople in a state of extreme decay, with a depopulated countryside and a city dependent on Italian merchants (PDF p. 366). The last emperor, John VIII, sought aid from the West by converting to Catholicism at the Council of Florence, but received only minimal support, leaving the empire isolated and vulnerable to the final Ottoman conquest (PDF p. 367).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 961,
+    "prompt_tokens": 13916,
+    "total_tokens": 14877,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 11712.104,
+    "prompt_per_token_ms": 0.8466173196472458,
+    "prompt_per_second": 1181.1712054469463,
+    "predicted_n": 961,
+    "predicted_ms": 19002.505,
+    "predicted_per_token_ms": 19.794276041666667,
+    "predicted_per_second": 50.519655171778666
+  },
+  "first_visible_seconds": 11.751579082999996,
+  "wall_seconds": 30.755837541999995,
+  "word_count": 653,
+  "finished_at": "2026-09-08T16:15:34.579323+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "b3e7a6c0ea7730bdffd9572fcfc07f7befd7033de9194b8213102c30cc73713e",
+    "development-summary": "c1a50321f2296b0523e558fcaf21e40ed5344c6827c912b2315b226c0bf67ba3"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven and two survivors correctly stated."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correct reported six-day scope."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct semantic abstention but exceeds exact-phrase and two-short-sentence formatting."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "slaughtered the rebels, killing approximately 35,000 people",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Reassigns the entire reported six-day total to the final assault. Approximately changes numerical precision but does not fix event scope."
+    }
+  ],
+  "summary_review": "Main faction/revolt/fire/Hypatius/Theodora/continued-unrest sequence is supported and attributed. Installing Hypatius as emperor is on 103 rather than 102. Exact surviving-prisoner count is correct."
+}

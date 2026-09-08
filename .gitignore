@@ -9,3 +9,6 @@ local-results/
 *.msi
 *.dmp
 .env*
+
+__pycache__/
+*.pyc

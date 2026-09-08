@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "8b843b00d5081f9e1bcc4e475dee921514779cb2bdb459dcad756ccde1a636bf",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3744,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:50:03.462320+00:00",
+  "output": "H2-Q1: The monk Telemachus intervened in the games in A.D. 404. He was slain after leaping into the arena to stop the combatants. \"One day in A.D. 404 the games had begun, and the gladiators were about to engage, when the monk Telemachus leapt down into the arena and threw himself between the combatants, adjuring them not to slay their brethren.\" [PDF p. 171]\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence.\" [PDF p. 173]\n\nH2-Q3: The passage does not claim Christianity immediately ended slavery. It states that while the Church taught equality and modified the evils of the institution, slavery was not extinguished for centuries. \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].\n\nH2-Q4: Oman regarded it as dangerous because it caused men to abandon their duties as citizens and retreat from society. \"When men retire from their duties as citizens, intent on nothing but on saving their own souls, take up a position outside the State, and cease to be of the slightest use to society, the result may be harmless so long as their numbers are small.\" [PDF p. 174]\n\nH2-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 328,
+    "prompt_tokens": 3744,
+    "total_tokens": 4072,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3661,
+    "prompt_ms": 4969.013,
+    "prompt_per_token_ms": 1.3572829827915869,
+    "prompt_per_second": 736.7660338179836,
+    "predicted_n": 328,
+    "predicted_ms": 9974.373,
+    "predicted_per_token_ms": 30.50266972477064,
+    "predicted_per_second": 32.78401559676984
+  },
+  "first_visible_seconds": 5.045750291999994,
+  "wall_seconds": 15.020857999999997,
+  "word_count": 216,
+  "finished_at": "2026-09-08T13:50:19.679332+00:00"
+}

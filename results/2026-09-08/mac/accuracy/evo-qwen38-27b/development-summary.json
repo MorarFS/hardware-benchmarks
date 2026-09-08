@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "2e0265ed93ed4cbd183504f5209f826a54ac0d20d1c7981a1e9a50e3cc152b07",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2388,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:52:46.204187+00:00",
+  "output": "The passage begins by contextualizing the political factions known as the Blues and Greens, noting that by 530 they had evolved from circus groups into political parties with religious affiliations [PDF p. 101]. The author characterizes these groups as prone to rioting and a serious danger to the state [PDF p. 101]. In January 532, Justinian ordered the execution of riot leaders from both factions, but a bungled hanging allowed two prisoners to escape, triggering a mob uprising [PDF p. 102]. The author describes this incident as the commencement of six days of desperate rioting, during which the factions united to demand the removal of officials and eventually sought to depose Justinian in favor of Hypatius [PDF p. 102]. With the city nearly empty of troops, Justinian relied on Belisarius and a small guard force [PDF p. 102].\n\nThe conflict escalated as rebels set fire to the Senate House, which spread to burn St. Sophia and other buildings [PDF p. 103]. The author notes that Hypatius, who had no desire to lead, was forced into the role by his adherents after Justinian expelled him from the palace [PDF p. 103]. While ministers urged Justinian to flee by sea, the author evaluates Theodora’s subsequent speech as rising to the level of the occasion, arguing that death was preferable to exile [PDF p. 105]. Spurred by her words, Justinian ordered a final assault [PDF p. 105]. Belisarius attacked the Hippodrome, forcing rebels into the building where they were slaughtered [PDF p. 105]. The author reports that 35,000 men were slain [PDF p. 106]. Finally, the text observes that despite this massive slaughter, the factions continued to riot for fifty years, though they never again threatened to change history [PDF p. 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 420,
+    "prompt_tokens": 2388,
+    "total_tokens": 2808,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 2306,
+    "prompt_ms": 6794.357,
+    "prompt_per_token_ms": 2.946382046834345,
+    "prompt_per_second": 339.3992985649709,
+    "predicted_n": 420,
+    "predicted_ms": 28509.484,
+    "predicted_per_token_ms": 68.04172792362769,
+    "predicted_per_second": 14.696863682274993
+  },
+  "first_visible_seconds": 6.85593325,
+  "wall_seconds": 35.365626166999995,
+  "word_count": 289,
+  "finished_at": "2026-09-08T15:53:22.722242+00:00"
+}

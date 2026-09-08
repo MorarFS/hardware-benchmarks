@@ -1,0 +1,121 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Only completed requests from the failed 32768-context configuration. No full 20-question score or complete 16-unit coverage score is assigned. Development reviewed separately.",
+  "completed_output_sha256": {
+    "development-extraction": "40cf58d43ff3212fca0d7dda213481a22496877605cd2f57a8e139498b8ecffa",
+    "development-summary": "9439418f3a880afec41c571ded63c260a5ab4fd10b830bcb32fd52cca753da9e",
+    "H1-extraction": "461afa65b3092bfc260405e3c41da70d2ee17725f5d8fe69538b40a345e2ac40",
+    "H1-summary": "d045c1216bfdec47605f4f58f1321cf77855241ca4b7de9159e1e65febd9facb",
+    "H2-extraction": "84f48c9a80db1758f9370bae8b29e83ab4d72431b7fb5ada8ec79b5634d0cb4e",
+    "H2-summary": "644c2aba7da5154cf4178e4b767e1d83859635d119b9fcca5468e4982b28a65c"
+  },
+  "completed_heldout_extraction": [
+    {
+      "question_id": "H1-Q1",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H1-Q2",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H1-Q3",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H1-Q4",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H1-Q5",
+      "judgment": "correct",
+      "citation_judgment": "not_applicable",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H2-Q1",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H2-Q2",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H2-Q3",
+      "judgment": "correct",
+      "citation_judgment": "supported",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    },
+    {
+      "question_id": "H2-Q4",
+      "judgment": "partial",
+      "citation_judgment": "supported",
+      "rationale": "Correct causal account, but explicitly declines to attribute it to Oman because the excerpt does not contain his name. The question supplies author context; required attribution is missing. The literal observation about the name is not itself graded false."
+    },
+    {
+      "question_id": "H2-Q5",
+      "judgment": "correct",
+      "citation_judgment": "not_applicable",
+      "rationale": "Answer and quotation agree with supplied passage/acceptable variants; source-absent item correctly abstains."
+    }
+  ],
+  "completed_question_count": 10,
+  "categories_for_completed_questions_only": {
+    "correct": 9,
+    "partial": 1
+  },
+  "summary_flags": [
+    {
+      "stage": "H1-summary",
+      "output_anchor": "a Visigothic remnant fled to the Danube's Wallachian shore",
+      "judgment": "contradiction",
+      "source_pages": [
+        61
+      ],
+      "rationale": "The source identifies the Wallachian remnant as Ostrogoths, then separately introduces Fritigern’s Visigoths."
+    },
+    {
+      "stage": "H1-summary",
+      "output_anchor": "annihilating nearly 40,000 men",
+      "judgment": "ambiguous",
+      "source_pages": [
+        67
+      ],
+      "rationale": "Source gives forty thousand. Nearly is an imprecise rounded paraphrase; recorded separately from an invented distinct casualty total. Does not assert total destruction of the army."
+    },
+    {
+      "stage": "H1-summary",
+      "output_anchor": "abandoning their assault",
+      "judgment": "ambiguous",
+      "source_pages": [
+        67
+      ],
+      "rationale": "Could denote an abandoned planned assault. Walls deterrence is explicit; not a clear assertion that an assault occurred."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "had detrimental effects on the state",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        174,
+        175
+      ],
+      "rationale": "Presents the author’s contested causal evaluation of ascetic monasticism as direct fact without local author attribution. Source-only instructions require that distinction."
+    }
+  ],
+  "summary_citation_review": "H1’s Marcianopolis banquet/escape detail is on64 rather than its cited63. H1-Q3’s brief chance-affray quotation, however, is already on63 and is supported. H2 infanticide cites172, an illustration page, rather than171/173. Monastic withdrawal quote spans174–175. Parenthesized PDF citations are genuine page references, not absent citations.",
+  "coverage_review": "H1 represents pressure/admission, generic conditions/extortion/revolt, Adrianople and walls; arms-bribery specifics and Ad Salices are omitted. H2 represents Latin decline/explanation, social reforms and monastic criticism/statecraft; slavery persistence, later learned monasticism and Orosius are omitted. These descriptions do not manufacture coverage for uncompletedH3/H4/syntheses.",
+  "partial_H3_stream_review": "The interrupted visible fragment answersQ1 andQ2 correctly with page citations but without marked quotations. It then says the passage does not explicitly name Romanus’s removers while immediately mentioning sons making him abdicate; this is a self-conflicting fragment. The output was interrupted by the memory guard, so it is not scored as a completedH3 answer set. Raw events remain available."
+}

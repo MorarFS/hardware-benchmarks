@@ -1,0 +1,46 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "478464a0a83c47d2ee7cadec87e29c9692ba7693e08c21c0935c0a2d735271a3",
+    "development-summary": "c387e8571dbfae994c56f60965ff9283cb9e9dce3939716f859d177bba50b743"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "partial",
+      "rationale": "Seven and four beheadings are supplied, but the answer omits the two hanging survivors and leaves an ambiguous exact-death total."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correctly preserves the reported six-day total rather than assigning it solely to the final assault."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct semantic abstention, with extra text beyond the exact phrase."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "Antonina, the wife of Theodora",
+      "judgment": "unsupported",
+      "source_pages": [
+        101
+      ],
+      "rationale": "The excerpt calls Theodora Antonina’s mistress and refers to Antonina and her husband; it does not supply this spousal identity."
+    },
+    {
+      "output_anchor": "resulting in the deaths of an estimated 35,000 men",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Assigns the reported total to the successful Hippodrome attack, while the source total covers all six days."
+    }
+  ],
+  "summary_review": "Beginning, central revolt and ending are represented. Most faction alignment, troop counts, fires, Hypatius, Theodora and later unrest are supported. Summary provides no physical-page citations. Both clear flags have source anchors; no broad accuracy score includes development."
+}

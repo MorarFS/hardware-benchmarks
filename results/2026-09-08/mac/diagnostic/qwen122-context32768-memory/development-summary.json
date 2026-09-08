@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "b49a7063402761723bb803e45b6dfac3eba125a91371d75525ebcf09e4dc4cdf",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2388,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:23:53.074983+00:00",
+  "output": "The text introduces the Blues and Greens as powerful Byzantine circus factions that evolved into political parties with religious and dynastic allegiances, posing a serious danger to the state due to their riotous nature [PDF p. 101]. In January 532, Justinian ordered the execution of riot leaders from both sides, but a bungled hanging of two criminals allowed them to escape into sanctuary, sparking six days of desperate rioting [PDF p. 102]. The united factions demanded the dismissal of unpopular officials and eventually sought to crown Hypatius, nephew of the late Emperor Anastasius, as Caesar [PDF p. 102]. With the city largely devoid of troops due to the Persian War, the rebels set fire to the city, destroying the great cathedral of St. Sophia and other churches while occupying most of the capital [PDF p. 103]. Although Hypatius initially hid in the palace, he was driven out and crowned by his supporters in the Hippodrome [PDF p. 103]. Facing a crisis, ministers advised Justinian to flee, but Empress Theodora famously urged him to fight, declaring that death was preferable to exile [PDF p. 105]. Spurred by her resolve, Justinian ordered Belisarius to attack the Hippodrome, where the rebels were trapped and slaughtered, with the author noting that 35,000 men were killed [PDF p. 106]. The author observes that despite this massacre, the factions continued to riot for fifty years, though they never again threatened the empire so severely [PDF p. 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 342,
+    "prompt_tokens": 2388,
+    "total_tokens": 2730,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 2306,
+    "prompt_ms": 4437.844,
+    "prompt_per_token_ms": 1.924477016478751,
+    "prompt_per_second": 519.6216901720745,
+    "predicted_n": 342,
+    "predicted_ms": 10974.576,
+    "predicted_per_token_ms": 32.183507331378294,
+    "predicted_per_second": 31.071815439612433
+  },
+  "first_visible_seconds": 4.504308375000001,
+  "wall_seconds": 15.479044208000001,
+  "word_count": 241,
+  "finished_at": "2026-09-08T15:24:09.254539+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "c12778c2027cc80df8a37a1b3e657c6980bb1833f56409ea0b485421f52e69bb",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3642,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:07:46.240491+00:00",
+  "output": "The Latin language declined in the East as the Roman element vanished by the seventh century [PDF p. 169]. The author notes that while Roman titles survived, they became mere names [PDF p. 169]. This decay resulted from the division of the empire and the loss of Latin-speaking provinces to barbarian incursions and Slavic migrations [PDF p. 170]. By A.D. 620, less than one tenth of the inhabitants east of the Adriatic spoke Latin [PDF p. 170].\n\nSimultaneously, the empire became increasingly Christian [PDF p. 171]. The author observes that Christianity improved the conditions of vulnerable groups, such as infants and slaves, by emphasizing the importance of the individual soul [PDF p. 172, 173]. However, the author evaluates the rise of ascetic monasticism as a \"positively dangerous\" development [PDF p. 174]. This movement caused many to neglect civic duties in favor of personal salvation, which the author claims hampered the empire's defense against barbarians [PDF p. 175]. While the pagan minority accused Christianity of ruining the state, the author credits the governing classes with preserving Roman statecraft [PDF p. 175, 176]. By 529, Justinian formally ended pagan teaching by closing the schools of Athens [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 299,
+    "prompt_tokens": 3642,
+    "total_tokens": 3941,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3559,
+    "prompt_ms": 2469.594,
+    "prompt_per_token_ms": 0.6939010958134307,
+    "prompt_per_second": 1441.127569956843,
+    "predicted_n": 299,
+    "predicted_ms": 5124.604,
+    "predicted_per_token_ms": 17.196657718120807,
+    "predicted_per_second": 58.15083467912837
+  },
+  "first_visible_seconds": 2.5258474170000014,
+  "wall_seconds": 7.650726417000001,
+  "word_count": 197,
+  "finished_at": "2026-09-08T16:07:54.334869+00:00"
+}

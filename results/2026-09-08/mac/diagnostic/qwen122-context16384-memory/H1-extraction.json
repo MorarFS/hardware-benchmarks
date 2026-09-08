@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "c191fb0f17ce07dcd9d1339ad27cf351a50faac26ba15a864d10b78e2f7a0684",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3595,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:27:41.415219+00:00",
+  "output": "H1-Q1: The Visigoths retreated toward the Danube under the leadership of their Duke Fritigern. The text states they \"fell back in dismay with their wives and children... under their Duke Fritigern\" [PDF p. 61].\n\nH1-Q2: Valens imposed the conditions that the Goths must give hostages and surrender their arms. The arms condition was violated when Roman officials accepted bribes and allowed the Goths to retain their weapons [PDF p. 63].\n\nH1-Q3: Lupicinus's policy of withholding food and selling it at exorbitant prices drove the starving Goths to desperation and revolt. The passage notes that \"in sheer hunger the Goths were driven to barter a slave for a single loaf of bread\" [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The text describes it as a fight that \"thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 3595,
+    "total_tokens": 3838,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3513,
+    "prompt_ms": 6161.725,
+    "prompt_per_token_ms": 1.7539780814118988,
+    "prompt_per_second": 570.1325521668039,
+    "predicted_n": 243,
+    "predicted_ms": 7105.564,
+    "predicted_per_token_ms": 29.361834710743803,
+    "predicted_per_second": 34.05781722604989
+  },
+  "first_visible_seconds": 6.225637291000005,
+  "wall_seconds": 13.331430625000003,
+  "word_count": 162,
+  "finished_at": "2026-09-08T15:27:55.600825+00:00"
+}

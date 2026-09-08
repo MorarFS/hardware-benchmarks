@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "8f611e9b364a9a841aa1885dcdee689e0b86e38333da419cc16b568414d397bc",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:04:39.851597+00:00",
+  "output": "The narrative begins with the Huns’ westward expansion around 372, which displaced the Alans and crushed the Ostrogoths, forcing them into vassalage. This pressure drove the Visigoths under Fritigern toward the Danube. The author characterizes Emperor Valens as stupid, cowardly, and avaricious, ruling a divided empire while his brother Valentinian held the West. Valens initially refused the Visigoths’ plea for asylum but eventually permitted their crossing in 376 in exchange for hostages and disarmament. The author reports that Roman officials in Moesia violated these terms by accepting bribes to let the Goths keep their arms and by hoarding food to sell at exorbitant prices. This extortion, which forced Goths to sell their children for bread, led to a fatal affray at Marcianopolis where Count Lupicinus attempted to assassinate Fritigern. The Goths retaliated, sparking a year of desperate fighting along the Danube.\n\nThe conflict escalated when Valens, driven by public clamor, marched against the Goths with a reinforced army. The author notes that the Goths had adopted cavalry tactics influenced by their time in the Ukraine. At the Battle of Adrianople in 378, a sudden charge by Gothic cavalry overwhelmed the Roman left flank, causing the imperial infantry to collapse into a confused mass. The author describes the slaughter as a catastrophic defeat comparable to Cannae, resulting in the death of the Emperor and the annihilation of the Eastern army. Although the Goths subsequently marched on Constantinople, they abandoned the siege upon seeing its massive walls, a result the author attributes to the prescience of Constantine in building the fortress capital.\n\nThe text then shifts to the cultural and social decay of the Eastern Empire. The author argues that the Latin language rapidly vanished from the Balkans due to barbarian harassment and the predominance of Greek. Socially, Christianity transformed attitudes toward women, infants, and slaves, leading to legal protections against infanticide and the gradual modification of slavery’s evils. However, the author criticizes the rise of ascetic monasticism, describing it as a harmful withdrawal from civic duty that left the state vulnerable to barbarian invasions. The author asserts that many Christians viewed these invasions as divine judgments rather than national calamities, a sentiment that infuriated the surviving pagan minority.\n\nFinally, the synthesis covers the later Byzantine period, noting the literary achievements of Emperors Leo VI and Constantine VII, who compiled manuals on war and administration. The narrative then moves to the final decline, where the empire became a vassal of the Ottomans. The author details how Manuel II briefly regained territory during the Ottoman civil war triggered by Tamerlane’s victory at Angora in 1402. However, the empire failed to capitalize on this opportunity due to internal divisions and the lack of support from Hungary. The final reign of John VI is depicted as one of exhaustion, with Constantinople reduced to a ruinous state dependent on Italian merchants. The author concludes that John’s attempt to secure Western aid through religious union failed because the Papacy was weakened by internal schisms, leaving the empire to its inevitable fate.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 665,
+    "prompt_tokens": 13916,
+    "total_tokens": 14581,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 11967.573,
+    "prompt_per_token_ms": 0.8650840682376754,
+    "prompt_per_second": 1155.9570181857257,
+    "predicted_n": 665,
+    "predicted_ms": 10550.252,
+    "predicted_per_token_ms": 15.88893373493976,
+    "predicted_per_second": 62.93688529904309
+  },
+  "first_visible_seconds": 12.008747041999996,
+  "wall_seconds": 22.55984404200001,
+  "word_count": 504,
+  "finished_at": "2026-09-08T16:05:04.186068+00:00"
+}

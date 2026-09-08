@@ -1,0 +1,37 @@
+0.00.248.589 I load_tensors: offloaded 37/37 layers to GPU
+0.00.248.591 I load_tensors:   CPU_Mapped model buffer size =   333.84 MiB
+0.00.248.591 I load_tensors:  MTL0_Mapped model buffer size =  4789.19 MiB
+0.00.249.764 I llama_context: n_ctx                 = 4096
+0.00.249.862 I llama_context:        CPU  output buffer size =     0.58 MiB
+0.00.271.385 I llama_kv_cache:       MTL0 KV buffer size =   576.00 MiB
+0.00.296.998 I sched_reserve:       MTL0 compute buffer size =    92.01 MiB
+0.00.297.003 I sched_reserve:        CPU compute buffer size =    20.01 MiB
+0.00.370.946 I slot   load_model: id  0 | task -1 | new slot, n_ctx = 4096
+0.02.157.081 D slot handle_last_: id  0 | task 0 | slot decode token, id=19, n_ctx = 4096, n_tokens = 49, truncated = 0
+0.02.180.264 D slot handle_last_: id  0 | task 0 | slot decode token, id=17, n_ctx = 4096, n_tokens = 50, truncated = 0
+0.02.202.836 D slot handle_last_: id  0 | task 0 | slot decode token, id=13, n_ctx = 4096, n_tokens = 51, truncated = 0
+0.02.224.175 D slot handle_last_: id  0 | task 0 | slot decode token, id=12095, n_ctx = 4096, n_tokens = 52, truncated = 0
+0.02.246.812 D slot handle_last_: id  0 | task 0 | slot decode token, id=13, n_ctx = 4096, n_tokens = 53, truncated = 0
+0.02.269.369 D slot handle_last_: id  0 | task 0 | slot decode token, id=362, n_ctx = 4096, n_tokens = 54, truncated = 0
+0.02.290.561 D slot handle_last_: id  0 | task 0 | slot decode token, id=8131, n_ctx = 4096, n_tokens = 55, truncated = 0
+0.02.313.475 D slot handle_last_: id  0 | task 0 | slot decode token, id=4128, n_ctx = 4096, n_tokens = 56, truncated = 0
+0.02.336.256 D slot handle_last_: id  0 | task 0 | slot decode token, id=1614, n_ctx = 4096, n_tokens = 57, truncated = 0
+0.02.357.566 D slot handle_last_: id  0 | task 0 | slot decode token, id=702, n_ctx = 4096, n_tokens = 58, truncated = 0
+0.02.380.352 D slot handle_last_: id  0 | task 0 | slot decode token, id=803, n_ctx = 4096, n_tokens = 59, truncated = 0
+0.02.403.080 D slot handle_last_: id  0 | task 0 | slot decode token, id=5029, n_ctx = 4096, n_tokens = 60, truncated = 0
+0.02.424.403 D slot handle_last_: id  0 | task 0 | slot decode token, id=323, n_ctx = 4096, n_tokens = 61, truncated = 0
+0.02.447.364 D slot handle_last_: id  0 | task 0 | slot decode token, id=7460, n_ctx = 4096, n_tokens = 62, truncated = 0
+0.02.470.270 D slot handle_last_: id  0 | task 0 | slot decode token, id=803, n_ctx = 4096, n_tokens = 63, truncated = 0
+0.02.491.533 D slot handle_last_: id  0 | task 0 | slot decode token, id=54480, n_ctx = 4096, n_tokens = 64, truncated = 0
+0.02.514.045 D slot handle_last_: id  0 | task 0 | slot decode token, id=4963, n_ctx = 4096, n_tokens = 65, truncated = 0
+0.02.536.695 D slot handle_last_: id  0 | task 0 | slot decode token, id=11, n_ctx = 4096, n_tokens = 66, truncated = 0
+0.02.558.053 D slot handle_last_: id  0 | task 0 | slot decode token, id=6388, n_ctx = 4096, n_tokens = 67, truncated = 0
+0.02.580.524 D slot handle_last_: id  0 | task 0 | slot decode token, id=311, n_ctx = 4096, n_tokens = 68, truncated = 0
+0.02.603.086 D slot handle_last_: id  0 | task 0 | slot decode token, id=28393, n_ctx = 4096, n_tokens = 69, truncated = 0
+0.02.624.437 D slot handle_last_: id  0 | task 0 | slot decode token, id=8692, n_ctx = 4096, n_tokens = 70, truncated = 0
+0.02.647.276 D slot handle_last_: id  0 | task 0 | slot decode token, id=13, n_ctx = 4096, n_tokens = 71, truncated = 0
+0.02.669.829 I slot print_timing: id  0 | task 0 | prompt eval time =     104.89 ms /    49 tokens (    2.14 ms per token,   467.18 tokens per second)
+0.02.669.830 I slot print_timing: id  0 | task 0 |        eval time =     512.75 ms /    24 tokens (   22.29 ms per token,    44.86 tokens per second)
+0.04.080.646 D ~llama_context:       MTL0 compute buffer size is  92.0098 MiB, matches expectation of  92.0098 MiB
+0.04.080.648 D ~llama_context:        CPU compute buffer size is  20.0117 MiB, matches expectation of  20.0117 MiB
+0.04.080.649 D ~llama_context:        CPU compute buffer size is   0.0000 MiB, matches expectation of   0.0000 MiB

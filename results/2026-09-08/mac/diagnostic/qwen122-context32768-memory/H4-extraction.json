@@ -1,0 +1,17 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "373170883653330f044578c491a803a662c05e1c49056d98bf40fa327af70473",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4181,
+  "output_budget": 2048,
+  "status": "error",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:25:54.810409+00:00",
+  "error": "System swap growth exceeded 1 GiB",
+  "finished_at": "2026-09-08T15:25:56.870610+00:00"
+}

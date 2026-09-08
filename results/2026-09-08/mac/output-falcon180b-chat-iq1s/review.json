@@ -1,0 +1,10 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted inspection; no independent human review",
+  "scope": "One short arithmetic/geography/explanation smoke prompt, not the frozen history accuracy battery.",
+  "output_sha256": "585132287bfdb3920e7f326ea13c6da23fcc7abef0ac4dc7cc261ee5df32bd5a",
+  "arithmetic": "Correct42",
+  "geography": "CorrectParis",
+  "coherence": "Readable three-sentence response. More data to process is a coarse but plausible explanation of larger-model cost; not a detailed technical benchmark.",
+  "context": 2048,
+  "model_sha256": "46915ae3344efe3e8e922aa53afd10bb76c2086325c456dde5763575a15a724a"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "9857ca29aa51583103e62e4cc4772bcc5676c63bf8e33c26284f34bf6a88e3bf",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:37:39.698600+00:00",
+  "output": "The arrival of the Huns around A.D. 372 triggered a chain of events that forced the Goths westward, leading to a crisis at the Roman border. The Ostrogoths were crushed and subjugated, while the Visigoths, under Duke Fritigern, retreated to the Danube, finding surrender to the Huns more dreadful than seeking refuge within the Roman Empire (PDF p. 61). In A.D. 376, the Visigoths petitioned Emperor Valens for permission to cross the river, presenting a desperate multitude of nearly 200,000 people (PDF p. 62). Valens, described by the author as stupid and cowardly, feared admitting such a large armed force yet ultimately chose to allow them entry as subject-allies, provided they surrendered their arms and gave hostages (PDF p. 63).\n\nOnce inside the empire, the arrangement quickly deteriorated due to corruption and mismanagement by Roman officials. Although the Goths accepted the terms, local officials accepted bribes to let them keep their weapons, violating imperial orders (PDF p. 63). The situation worsened when Governor Lupicinus withheld food supplies to enrich himself, forcing starving Goths to trade slaves and children for bread and sheep. This extortion drove the nation to desperation, culminating in a violent affray at Marcianopolis where Fritigern and his nobles escaped a banquet to rally their people against Rome (PDF p. 64). The conflict escalated into a year of fighting along the Danube, characterized by raids and the involvement of runaway slaves, though Roman armies initially held the Goths at bay until a decisive battle at Ad Salices (PDF p. 64).\n\nThe conflict reached a catastrophic climax in A.D. 378 when Emperor Valens personally led an army of 60,000 men to confront the Goths near Adrianople. The author notes that the Goths had adopted cavalry tactics influenced by their time in South Russia, a development that proved fatal for the Roman infantry (PDF p. 65). During the battle, a sudden charge by Gothic cavalry on the Roman flank caused the legions to collapse into a confused mass where soldiers were crushed and stifled, unable to deploy or flee (PDF p. 66). The result was a slaughter comparable to Cannae, with 40,000 men falling and the Emperor himself killed, marking the end of the Eastern army's old organization (PDF p. 67). Despite their victory, the Goths failed to take Constantinople, deterred by the city's massive walls, thus validating Constantine's earlier foresight in fortifying the capital (PDF p. 67).\n\nCenturies later, the empire faced a different kind of decline as it transitioned from a Latin-speaking to a Greek-dominated entity, a process accelerated by barbarian invasions that decimated the Latin-speaking populations of the Balkans (PDF p. 170). By the time of the final centuries, the empire had shrunk to a vassal state, with emperors like Manuel II attempting to exploit Turkish civil wars to regain territory, only to see their gains lost when the Ottomans unified under Mohammed and later Murad II (PDF p. 362). The final emperors, including John VI, ruled over a desolate city where the population had shrunk and wealth had passed to Italian merchants, leading John to seek aid by converting to Roman Catholicism at the Council of Florence (PDF p. 366). However, this diplomatic effort yielded little, as the Pope was preoccupied with internal conflicts, leaving the empire to its inevitable fate without the military strength to resist the Ottoman siege (PDF p. 367).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 791,
+    "prompt_tokens": 13916,
+    "total_tokens": 14707,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 32688.748,
+    "prompt_per_token_ms": 2.362928148041058,
+    "prompt_per_second": 423.2037274722177,
+    "predicted_n": 791,
+    "predicted_ms": 29338.922,
+    "predicted_per_token_ms": 37.137875949367086,
+    "predicted_per_second": 26.926688035777186
+  },
+  "first_visible_seconds": 32.758059,
+  "wall_seconds": 62.09750329100001,
+  "word_count": 557,
+  "finished_at": "2026-09-08T15:38:42.415302+00:00"
+}

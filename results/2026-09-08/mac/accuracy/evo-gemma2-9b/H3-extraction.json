@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "a75b7732d8d95f53102fe52d2a02edaf304b88b2acc26bd1df43deca8f819359",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3308,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:13:47.582121+00:00",
+  "output": "H3-Q1: Why was Constantine called Porphyrogenitus?\nConstantine was called Porphyrogenitus because he was born in the Purple Chamber, the room in the palace set aside for the Empress. [PDF p. 241]\n\nH3-Q2: Which city did Saracen pirates capture in 904, and did they retain it?\nSaracen pirates captured Thessalonica in 904. They fled with their booty and did not attempt to hold the city. [PDF p. 242]\n\nH3-Q3: According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?\nThe passage states that the mob and the guards removed Romanus Lecapenus and expelled his sons. [PDF p. 243]\n\nH3-Q4: Against which opponents did Leo recommend caution rather than rash general battle?\nLeo recommended caution against the Franks and Lombards. [PDF p. 245]\n\nH3-Q5: What was the annual pay of an ordinary Byzantine cavalryman?\nNot stated in the supplied passage. \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 240,
+    "prompt_tokens": 3308,
+    "total_tokens": 3548,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 3307,
+    "prompt_ms": 3580.357,
+    "prompt_per_token_ms": 1.0826601149077715,
+    "prompt_per_second": 923.6509096718568,
+    "predicted_n": 240,
+    "predicted_ms": 6814.953,
+    "predicted_per_token_ms": 28.51444769874477,
+    "predicted_per_second": 35.06994105461916
+  },
+  "first_visible_seconds": 3.742179042000089,
+  "wall_seconds": 10.557633916999976,
+  "word_count": 142,
+  "finished_at": "2026-09-08T15:13:59.748321+00:00"
+}

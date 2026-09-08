@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "2d14cf589a37733b14619bc975ab879b0c5f985acb7e372ab7be72fe916a97d8",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3262,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:43:01.440576+00:00",
+  "output": "The author judges the eighty years following Basil the Macedonian's death as the most monotonous in imperial history [PDF p. 241]. This period was defined by the reigns of Leo the Wise and Constantine Porphyrogenitus, whom the author describes as inoffensive men of literature [PDF p. 241]. Because the empire faced few foreign wars, these unenterprising rulers remained in the palace rather than seeking conquest [PDF p. 242]. Leo's reign included a failed invasion of Bulgaria and a disgraceful Saracen raid on Thessalonica in 904 [PDF p. 242].\n\nConstantine Porphyrogenitus spent his early years under guardians and the usurper Romanus Lecapenus [PDF p. 243]. He eventually took power after a popular uprising removed the sons of Romanus [PDF p. 243]. The author evaluates Constantine as weak and ineffective but not tyrannical [PDF p. 243]. Both emperors produced significant literary works [PDF p. 243]. Leo wrote a valuable manual on the Art of War, which the author claims provides a perfect picture of the Byzantine army [PDF p. 244]. Constantine authored works on the Themes, imperial administration, and court ceremonies [PDF p. 246]. The author concludes that this literary focus signals the end of a long period of intellectual dearth [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 301,
+    "prompt_tokens": 3262,
+    "total_tokens": 3563,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3179,
+    "prompt_ms": 12226.29,
+    "prompt_per_token_ms": 3.84595470273671,
+    "prompt_per_second": 260.0134627920653,
+    "predicted_n": 301,
+    "predicted_ms": 24028.819,
+    "predicted_per_token_ms": 80.09606333333333,
+    "predicted_per_second": 12.48500810630768
+  },
+  "first_visible_seconds": 12.416955583000004,
+  "wall_seconds": 36.44585070800008,
+  "word_count": 202,
+  "finished_at": "2026-09-08T15:43:39.885506+00:00"
+}

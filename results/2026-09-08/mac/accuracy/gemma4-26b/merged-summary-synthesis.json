@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "3721a86fb658cd0abde1c59d26ad3c2a78e3f1e036b039cfa2120c73458f39fb",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1557,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:32:44.185809+00:00",
+  "output": "Around A.D. 372, the Huns moved westward, nearly exterminating the Alans and crushing the Ostrogoths [PDF p. 61]. Seeking refuge, the Visigoths reached the Danube and requested permission from the Emperor to cross the border [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. While Valens permitted the Goths to settle as subject-allies on the condition that they surrendered arms and gave hostages, Roman officials accepted bribes to allow the Goths to keep their weapons [PDF p. 63]. Additionally, the governor Lupicinus engaged in shameless extortion by withholding food [PDF p. 63]. This desperation caused a violent outbreak at Marcianopolis, leading Fritigern to lead the Goths in war against Rome [PDF p. 63]. In A.D. 378, Valens engaged the Goths near Adrianople [PDF p. 65]. Although Roman infantry was traditionally superior, the Goths had adopted horse-back fighting [PDF p. 65]. A Gothic cavalry charge crushed the Roman flanks and compressed the infantry into a suffocating mass [PDF p. 66]. The author describes this defeat, which killed Valens and forty thousand men, as a fearful event comparable to Cannae [PDF p. 66, 67]. The Goths approached Constantinople but failed to attack the city walls [PDF p. 67].\n\nThe Latin language underwent a gradual decay in the East, which the author attributes to the practical division of the empire and the decimation of Latin-speaking provinces by barbarians [PDF p. 170]. Latin-speaking populations fell from one quarter of provincials east of the Adriatic in A.D. 400 to less than a tenth by A.D. 620 [PDF p. 170]. The author notes that Justinian was the final emperor to speak Latin as a mother tongue [PDF p. 169]. Simultaneously, the empire became increasingly Christian, a shift the author evaluates as having profound social consequences [PDF p. 171]. Christianity modified the treatment of vulnerable groups, such as slaves and infants, by emphasizing the importance of the individual soul [PDF p. 172, 173]. However, the author characterizes the rise of ascetic monasticism as a positively dangerous development [PDF p. 174]. The author judges that this movement caused many to neglect civic duties for a repulsively selfish pursuit of salvation, which hampered the empire's defense against barbarians [PDF p. 175]. While paganism disappeared by the end of the fifth century, the author observes that a widespread indifference prevailed among the educated classes [PDF p. 176].\n\nThe eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes the reigns of Leo the Wise and Constantine Porphyrogenitus as being led by easy-going, unenterprising men of literature who were a strange issue from the upstart Basil [PDF p. 241]. Between 880 and 960, the empire faced few foreign wars, experiencing only non-dangerous piratical raids from Saracens and Russians [PDF p. 242]. Leo's twenty-six-year reign included a disgraceful Saracen raid on Thessalonica in 904 and an unsuccessful invasion of Bulgaria [PDF p. 242]. Constantine VII ascended the throne at age seven under various guardians, including the admiral Romanus Lecapenus, who usurped power [PDF p. 243]. Constantine eventually regained power following a popular uprising against the sons of Romanus [PDF p. 243]. The author evaluates Constantine as a somewhat weak, ineffective, but non-tyrannical ruler [PDF p. 243]. The primary achievements of both emperors were their books [PDF p. 244]. Leo produced theological works and a manual on warfare [PDF p. 244], while Constantine authored treatises on court ceremonies, themes, and administration [PDF p. 246]. The author concludes these pursuits signaled an end to previous intellectual destitution [PDF p. 247].\n\nThe author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history that no longer significantly impacted Christendom [PDF p. 358]. The period began with the reign of John Paleologus, which the author describes as a long and unhonoured period marked by the rebellions of his son Andronicus [PDF p. 359]. Following John's death in 1391, Manuel II ascended the throne [PDF p. 359]. Although Manuel showed some signs of capacity, he lacked the resources to challenge the Turks [PDF p. 360]. A temporary opportunity for liberation arose in 1402 when Timour defeated Sultan Bayezid at Angora, causing an Ottoman civil war [PDF p. 360]. Manuel exploited this by selling aid to Suleiman in exchange for significant territories [PDF p. 361]. However, the author notes that Europe failed to seize this unparalleled opportunity because of the Hungarian King Sigismund's preoccupation with the Hussites and a lack of cooperation between Magyars and Servians [PDF p. 362]. The empire's decline accelerated under Murad II, who besieged Constantinople and forced Manuel to cede most dominions [PDF p. 363]. After Manuel's death, John VI ruled an empire the author describes as being in a state of exhaustion and debility [PDF p. 365]. John VI attempted to secure Western aid by converting to Roman Catholicism at the Council of Florence, but the author evaluates this as a failure, as he received only minimal military and financial support from a discredited papacy [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1280,
+    "prompt_tokens": 1557,
+    "total_tokens": 2837,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 1474,
+    "prompt_ms": 1329.238,
+    "prompt_per_token_ms": 0.9017896879240164,
+    "prompt_per_second": 1108.906004793724,
+    "predicted_n": 1280,
+    "predicted_ms": 25116.307,
+    "predicted_per_token_ms": 19.637456606724005,
+    "predicted_per_second": 50.92309151978434
+  },
+  "first_visible_seconds": 1.455783917000005,
+  "wall_seconds": 26.574062874999996,
+  "word_count": 845,
+  "finished_at": "2026-09-08T13:33:12.556166+00:00"
+}

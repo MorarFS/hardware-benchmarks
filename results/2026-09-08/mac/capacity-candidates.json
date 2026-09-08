@@ -1,0 +1,121 @@
+{
+  "checked_date": "2026-09-08",
+  "scope": "Selected publicly downloadable GGUF candidates. Not an exhaustive search or proof of a globally largest fitting model. Preflight exclusions are estimates, not measured failures.",
+  "candidates": [
+    {
+      "repository": "unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF",
+      "revision": "6688872b7a4e5eb8a121ceea08009530a024ba1d",
+      "source_url": "https://huggingface.co/unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF/tree/6688872b7a4e5eb8a121ceea08009530a024ba1d",
+      "files": [
+        {
+          "filename": "Qwen3-Next-80B-A3B-Instruct-Q4_K_M.gguf",
+          "bytes": 48506100512,
+          "sha256": "f73551b55e3796526c37772c96227151fa11af328802b8f9865d635104e280fd"
+        }
+      ],
+      "total_file_bytes": 48506100512,
+      "status": "preflight_excluded",
+      "reason": "Official Q4_K_M weights alone are 45.17 GiB, leaving insufficient OS/runtime reserve in 48 GiB."
+    },
+    {
+      "repository": "unsloth/gpt-oss-120b-GGUF",
+      "revision": "ff1a82da6ad466e32284fa3d2b86694db3204789",
+      "source_url": "https://huggingface.co/unsloth/gpt-oss-120b-GGUF/tree/ff1a82da6ad466e32284fa3d2b86694db3204789",
+      "files": [
+        {
+          "filename": "Q2_K/gpt-oss-120b-Q2_K-00001-of-00002.gguf",
+          "bytes": 49458334592,
+          "sha256": "7a87b2db02e4cc4fefebd06abfd2e305191562fa239b2fffd1d50a06f826ac14"
+        },
+        {
+          "filename": "Q2_K/gpt-oss-120b-Q2_K-00002-of-00002.gguf",
+          "bytes": 13111922400,
+          "sha256": "d996c3bd5e7be78debadb2ec5af23d1150c58302ca9a318d96d49833698f77ef"
+        }
+      ],
+      "total_file_bytes": 62570256992,
+      "status": "preflight_excluded",
+      "reason": "Artifact is already larger than all physical memory."
+    },
+    {
+      "repository": "unsloth/Qwen3.5-122B-A10B-GGUF",
+      "revision": "51eab4d59d53f573fb9206cb3ce613f1d0aa392b",
+      "source_url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/tree/51eab4d59d53f573fb9206cb3ce613f1d0aa392b",
+      "files": [
+        {
+          "filename": "Qwen3.5-122B-A10B-UD-IQ2_XXS.gguf",
+          "bytes": 36637668544,
+          "sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c"
+        }
+      ],
+      "total_file_bytes": 36637668544,
+      "status": "queued",
+      "reason": "Modern MoE; 34.12 GiB weights before runtime/KV and OS."
+    },
+    {
+      "repository": "mradermacher/falcon-180B-chat-i1-GGUF",
+      "revision": "bc1174ce59d9b51286e204b5745216b1c1189d12",
+      "source_url": "https://huggingface.co/mradermacher/falcon-180B-chat-i1-GGUF/tree/bc1174ce59d9b51286e204b5745216b1c1189d12",
+      "files": [
+        {
+          "filename": "falcon-180B-chat.i1-IQ1_S.gguf",
+          "bytes": 38322520576,
+          "sha256": "46915ae3344efe3e8e922aa53afd10bb76c2086325c456dde5763575a15a724a"
+        }
+      ],
+      "total_file_bytes": 38322520576,
+      "status": "queued",
+      "reason": "180B dense chat model, aggressive low-bit quantization; output coherence must be checked."
+    },
+    {
+      "repository": "unsloth/Qwen3-235B-A22B-Instruct-2507-GGUF",
+      "revision": "437d6915c5c512869e4cf8b16b840bbe3fb172bc",
+      "source_url": "https://huggingface.co/unsloth/Qwen3-235B-A22B-Instruct-2507-GGUF/tree/437d6915c5c512869e4cf8b16b840bbe3fb172bc",
+      "files": [
+        {
+          "filename": "Q2_K/Qwen3-235B-A22B-Instruct-2507-Q2_K-00001-of-00002.gguf",
+          "bytes": 49906751904,
+          "sha256": "7cb5dfd9d11f6297477f359439ad906eb92d62fc96b1783871159e7204d427ff"
+        },
+        {
+          "filename": "Q2_K/Qwen3-235B-A22B-Instruct-2507-Q2_K-00002-of-00002.gguf",
+          "bytes": 35784249568,
+          "sha256": "73801de2867057497a7fb6d0f0350ef7832b98f25c264f3a9909313af785672d"
+        }
+      ],
+      "total_file_bytes": 85691001472,
+      "status": "preflight_excluded",
+      "reason": "Smallest recipe in this inspected repository exceeds physical memory."
+    },
+    {
+      "repository": "unsloth/Qwen3.5-397B-A17B-GGUF",
+      "revision": "da33c16fa4440f831149fcf53b98a22bc07785e5",
+      "source_url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/tree/da33c16fa4440f831149fcf53b98a22bc07785e5",
+      "files": [
+        {
+          "filename": "UD-IQ1_M/Qwen3.5-397B-A17B-UD-IQ1_M-00001-of-00004.gguf",
+          "bytes": 10943552,
+          "sha256": "19bb2dc33582a81373f61ba7c98708ce4d1ed7b5847d97ee75f549c74b537f15"
+        },
+        {
+          "filename": "UD-IQ1_M/Qwen3.5-397B-A17B-UD-IQ1_M-00002-of-00004.gguf",
+          "bytes": 49897900576,
+          "sha256": "b91d0daad21e4134e4061c261180c988c0c0334fdddc9c3972496ba3a41fe9ff"
+        },
+        {
+          "filename": "UD-IQ1_M/Qwen3.5-397B-A17B-UD-IQ1_M-00003-of-00004.gguf",
+          "bytes": 49924410496,
+          "sha256": "ecbcb88aad6f35acc5b01bddfc554c0f01d18d50c1aa7825f8aa224c8cba17bb"
+        },
+        {
+          "filename": "UD-IQ1_M/Qwen3.5-397B-A17B-UD-IQ1_M-00004-of-00004.gguf",
+          "bytes": 6986622432,
+          "sha256": "48654392c8f05da71eb6f79d25654ba4a480fe0c97b0489ea78aea2f993d5d0b"
+        }
+      ],
+      "total_file_bytes": 106819877056,
+      "status": "preflight_excluded",
+      "reason": "Even the inspected IQ1 recipe exceeds physical memory."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "4b0ca8be549cee55ebc1da35b9292bd0635649f656d4f6b2431f322bc49dbacb",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2451,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:08:21.076936+00:00",
+  "output": "D-Q1: Seven prisoners were selected, but only four were beheaded while two others survived a botched hanging. \"Seven were selected for execution, and four of them were duly beheaded\" [PDF p. 102].\n\nD-Q2: The passage attributes the 35,000 deaths to the entire six-day \"Sedition of Nika\" rather than only the Hippodrome assault. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]\n\nD-Q3: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 2451,
+    "total_tokens": 2591,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2451,
+    "prompt_ms": 3822.174,
+    "prompt_per_token_ms": 1.5594345165238679,
+    "prompt_per_second": 641.2580902910229,
+    "predicted_n": 140,
+    "predicted_ms": 5368.221,
+    "predicted_per_token_ms": 38.62029496402877,
+    "predicted_per_second": 25.89312176231195
+  },
+  "first_visible_seconds": 3.828054915999928,
+  "wall_seconds": 9.19649037499994,
+  "word_count": 80,
+  "finished_at": "2026-09-08T14:08:31.202553+00:00"
+}

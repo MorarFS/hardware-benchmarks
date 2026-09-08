@@ -1,0 +1,101 @@
+{
+  "evo-gemma26": {
+    "name": "Gemma4 26B A4B UD-Q4_K_M",
+    "repository": "unsloth/gemma-4-26B-A4B-it-GGUF",
+    "revision": "c099eb48e663fd284577b04978a94ffccb261841",
+    "filename": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "local_path": "evo-gemma26/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f",
+    "file_size_bytes": 16947541728,
+    "evo_matrix_id": "gemma26",
+    "context_for_accuracy": 32768
+  },
+  "evo-qwen35-mtp-off": {
+    "name": "Qwen3.6 35B A3B UD-Q4_K_M, MTP OFF",
+    "repository": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+    "revision": "5bc3e238d916f48a861bac2f8a1990a0e9b7e98d",
+    "filename": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+    "local_path": "evo-qwen35-mtp-off/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+    "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b",
+    "file_size_bytes": 22663387424,
+    "evo_matrix_id": "qwen35-mtp-off",
+    "context_for_accuracy": 32768
+  },
+  "evo-gemma31": {
+    "name": "Gemma4 31B Q4_K_M",
+    "repository": "lmstudio-community/gemma-4-31B-it-GGUF",
+    "revision": "67a72ce462184ca84e9531dfe657ee73b4ecc89d",
+    "filename": "gemma-4-31B-it-Q4_K_M.gguf",
+    "local_path": "evo-gemma31/gemma-4-31B-it-Q4_K_M.gguf",
+    "sha256": "8f3479643461601703f717931e399cc440dbd5ada598c025d6296c8165d94be9",
+    "file_size_bytes": 18687063904,
+    "evo_matrix_id": "gemma31",
+    "context_for_accuracy": 32768
+  },
+  "evo-qwen38-27b": {
+    "name": "Qwen3.8 27B Q4_K_M",
+    "repository": "lmstudio-community/Qwen3.8-27B-GGUF",
+    "revision": "5a7da681f60570ab5b439a587e912d2e5eddb582",
+    "filename": "Qwen3.8-27B-Q4_K_M.gguf",
+    "local_path": "evo-qwen38-27b/Qwen3.8-27B-Q4_K_M.gguf",
+    "sha256": "e00082f779fa385cee8c68a3ec8833a75778cc87272240b942f74e0b8243e520",
+    "file_size_bytes": 16810714336,
+    "evo_matrix_id": "qwen38-27b",
+    "context_for_accuracy": 32768
+  },
+  "evo-qwen35-community": {
+    "name": "Qwen3.6 35B A3B community Q4_K_M, speculation OFF",
+    "repository": "lmstudio-community/Qwen3.6-35B-A3B-GGUF",
+    "revision": "68a34855558af61cbef0324d31f411be8a506b08",
+    "filename": "Qwen3.6-35B-A3B-Q4_K_M.gguf",
+    "local_path": "evo-qwen35-community/Qwen3.6-35B-A3B-Q4_K_M.gguf",
+    "sha256": "4ac6a06bce551257267f49ad2226f8671a22519ccc1a4dde9d5b433d1f2a410d",
+    "file_size_bytes": 21166757728,
+    "evo_matrix_id": "qwen35-community",
+    "context_for_accuracy": 32768
+  },
+  "evo-gemma12-qat": {
+    "name": "Gemma4 12B QAT Q4_0",
+    "repository": "lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+    "revision": "aaec3dd9d1012557147a627142759994d1fd8d37",
+    "filename": "gemma-4-12B-it-QAT-Q4_0.gguf",
+    "local_path": "evo-gemma12-qat/gemma-4-12B-it-QAT-Q4_0.gguf",
+    "sha256": "f568ac5de71c8fcac5d5794494388ad94db9e18b4368ca897e21b30d2448eeec",
+    "file_size_bytes": 6975879008,
+    "evo_matrix_id": "gemma12-qat",
+    "context_for_accuracy": 32768
+  },
+  "evo-ministral14": {
+    "name": "Ministral3 14B Reasoning Q4_K_M",
+    "repository": "lmstudio-community/Ministral-3-14B-Reasoning-2512-GGUF",
+    "revision": "5a7eddeccc65cb59551db79d0d0bc32312c5ea8d",
+    "filename": "Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf",
+    "local_path": "evo-ministral14/Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf",
+    "sha256": "4477e334330e7a6dcc827025eb6a18b6b97ea84e70dc6998cf1fbda04c483dff",
+    "file_size_bytes": 8239066144,
+    "evo_matrix_id": "ministral14",
+    "context_for_accuracy": 32768
+  },
+  "evo-gemma12-coding": {
+    "name": "Gemma4 Coding 12B Q4_K_M",
+    "repository": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "revision": "1380be1796e559fca96b4107599285cab3ddbb92",
+    "filename": "gemma4-coding-Q4_K_M.gguf",
+    "local_path": "evo-gemma12-coding/gemma4-coding-Q4_K_M.gguf",
+    "sha256": "1fe90b72e105d7bc71650aa59883edece3e84751af489075217a7ae717b1fe8d",
+    "file_size_bytes": 7381381664,
+    "evo_matrix_id": "gemma12-coding",
+    "context_for_accuracy": 32768
+  },
+  "evo-gemma2-9b": {
+    "name": "Gemma2 9B IT Q4_K_M",
+    "repository": "bartowski/gemma-2-9b-it-GGUF",
+    "revision": "d731033f3dc4018261fd39896e50984d398b4ac5",
+    "filename": "gemma-2-9b-it-Q4_K_M.gguf",
+    "local_path": "evo-gemma2-9b/gemma-2-9b-it-Q4_K_M.gguf",
+    "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+    "file_size_bytes": 5761057728,
+    "evo_matrix_id": "gemma2-9b",
+    "context_for_accuracy": 8192
+  }
+}

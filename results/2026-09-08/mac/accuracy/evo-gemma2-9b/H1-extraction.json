@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "0b80a9080a97d8bcf566eb2715f77e361586690630bcd47b364b1cb118f44e33",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3504,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:12:52.777367+00:00",
+  "output": "H1-Q1: Who led the Visigoths as they retreated toward the Danube?\nFritigern led the Visigoths. [PDF p. 62]\n\nH1-Q2: What two conditions did Valens impose for admission, and what happened to the arms condition?\nValens required the Goths to give hostages and surrender their arms. The Goths were allowed to keep their arms after bribing Roman officials. [PDF p. 63]\n\nH1-Q3: According to this passage, how did Lupicinus’s food policy contribute to revolt?\nLupicinus withheld food from the Goths, selling it at exorbitant prices, which drove them to desperation. [PDF p. 63]\n\nH1-Q4: What result does the passage give for the battle at Ad Salices?\nThe battle at Ad Salices was a desperate fight with no decisive result. [PDF p. 64]\n\nH1-Q5: What was the exact number of Roman soldiers killed at Ad Salices?\nThe passage states that forty thousand Roman soldiers were killed at Adrianople, not Ad Salices. [PDF p. 66] \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 3504,
+    "total_tokens": 3757,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 3503,
+    "prompt_ms": 4382.501,
+    "prompt_per_token_ms": 1.251070796460177,
+    "prompt_per_second": 799.3152768248085,
+    "predicted_n": 253,
+    "predicted_ms": 7353.592,
+    "predicted_per_token_ms": 29.180920634920632,
+    "predicted_per_second": 34.26896678521191
+  },
+  "first_visible_seconds": 4.49003170900005,
+  "wall_seconds": 11.843830542000205,
+  "word_count": 152,
+  "finished_at": "2026-09-08T15:13:04.944877+00:00"
+}

@@ -1,0 +1,676 @@
+{
+  "version": 1,
+  "model_id": "evo-gemma26",
+  "evaluator": "Codex (GPT-6), AI-assisted source adjudication; no independent human review",
+  "source": "Frozen supplied OCR and gold acceptable variants; not independently established historical truth",
+  "policy": "experiments/history-v2-mac/README.md",
+  "extraction": [
+    {
+      "question_id": "H1-Q1",
+      "output": "The Visigoths were led by their Duke, Fritigern. \"the Visigoths, under their Duke Fritigern, fell back in dismay\" [PDF p. 61].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        61
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H1-Q2",
+      "output": "Valens required the Goths to provide hostages and surrender their arms. \"if the Goth would give hostages, and surrender their arms, they should be ferried across the Danube\" [PDF p. 63]. The arms condition was not met because Roman officials accepted bribes to allow the Goths to keep their weapons. \"the bribes were accepted and the Goths retained their arms\" [PDF p. 63].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        63
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H1-Q3",
+      "output": "Lupicinus withheld food to increase his own wealth and sold provisions at very high prices. \"the governor, Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices\" [PDF p. 63].",
+      "judgment": "partial",
+      "answerability": "stated",
+      "source_pages": [
+        63,
+        64
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Correctly describes withholding and high prices, but stops at the governor’s enrichment motive. Neither answer nor quotation explains the resulting hunger/desperation and connection to revolt asked for in the question."
+    },
+    {
+      "question_id": "H1-Q4",
+      "output": "The battle resulted in the thinning of the ranks for both sides but did not produce a decisive outcome. \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        64
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H1-Q5",
+      "output": "Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct semantic abstention; final punctuation accepted."
+    },
+    {
+      "question_id": "H2-Q1",
+      "output": "The monk Telemachus intervened in the games in A.D. 404 and was slain during an angry scuffle. \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... There was an angry scuffle, and the good monk was slain\" [PDF p. 171].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        171
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H2-Q2",
+      "output": "Valentinian I. made infanticide a capital offence in 374. \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        173
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H2-Q3",
+      "output": "No, the passage states that slavery was not extinguished for centuries. \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        173,
+        174
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H2-Q4",
+      "output": "Oman regarded ascetic monasticism as dangerous because it caused men to retire from their duties as citizens to focus solely on saving their own souls. \"When men retire from their duties as citizens, intent on nothing but on saving their own souls, take up a position outside the State, and cease to be of the slightest use to society, the result may be harmless so long as their numbers are small\" [PDF p. 174].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        174,
+        175
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H2-Q5",
+      "output": "Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct semantic abstention; final punctuation accepted."
+    },
+    {
+      "question_id": "H3-Q1",
+      "output": "He was given this name because he was born in the Purple Chamber, which was the room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress\" [PDF p. 241].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        241
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H3-Q2",
+      "output": "Saracen pirates captured Thessalonica in 904, but they did not keep it. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls\" [PDF p. 242].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        242
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H3-Q3",
+      "output": "The mob and the guards removed the sons of Romanus Lecapenus. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother\" [PDF p. 243].",
+      "judgment": "partial",
+      "answerability": "stated",
+      "source_pages": [
+        243
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Gives mob and guards expelling the sons, but omits the sons forcing Romanus to abdicate."
+    },
+    {
+      "question_id": "H3-Q4",
+      "output": "Leo recommended caution when facing the Franks and Lombards. \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        245
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H3-Q5",
+      "output": "Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct semantic abstention; final punctuation accepted."
+    },
+    {
+      "question_id": "H4-Q1",
+      "output": "Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm. He \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        362,
+        363
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H4-Q2",
+      "output": "Manuel supported two claimants named Mustapha against Murad II, which resulted in the Sultan declaring war on him. This support \"drew down on the empire the fate which had been delayed since 1370\" [PDF p. 363].",
+      "judgment": "partial",
+      "answerability": "stated",
+      "source_pages": [
+        363
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Correctly links supported claimants to war, but omits the uncle/brother relationships required by the frozen acceptable variant."
+    },
+    {
+      "question_id": "H4-Q3",
+      "output": "The siege was lifted because the pretender Mustapha began causing trouble in Asia Minor. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        365
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Answer and supporting quotation agree with supplied source and acceptable variants."
+    },
+    {
+      "question_id": "H4-Q4",
+      "output": "The vision of the Virgin served to encourage the Greeks to continue their resistance. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        365
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Correct encouragement role and explicit report of the vision; no verified supernatural intervention is asserted."
+    },
+    {
+      "question_id": "H4-Q5",
+      "output": "Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct semantic abstention; final punctuation accepted."
+    }
+  ],
+  "claims": [
+    {
+      "id": "H2-summary-F1",
+      "stage": "H2-summary",
+      "output_anchor": "Roman element vanished",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Turns rapidly vanishing into completed disappearance by the seventh century.",
+      "error_family": "EG26-Latin-vanished",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "merged-summary-synthesis-F1",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Roman element vanished",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Turns rapidly vanishing into completed disappearance by the seventh century.",
+      "error_family": "EG26-Latin-vanished",
+      "origin": "propagated"
+    },
+    {
+      "id": "H4-summary-F1",
+      "stage": "H4-summary",
+      "output_anchor": "era began with the reign of John Paleologus",
+      "judgment": "ambiguous",
+      "source_pages": [
+        358,
+        359
+      ],
+      "rationale": "Can refer to the narrative opening during John’s reign, rather than dating his accession to the final seventy-five-year period. Source says his reign lasted more than half a century; an exact accession date is not supplied here."
+    },
+    {
+      "id": "merged-summary-synthesis-F2",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "era began with the reign of John Paleologus",
+      "judgment": "ambiguous",
+      "source_pages": [
+        358,
+        359
+      ],
+      "rationale": "Can refer to the narrative opening during John’s reign, rather than dating his accession to the final seventy-five-year period. Source says his reign lasted more than half a century; an exact accession date is not supplied here."
+    },
+    {
+      "id": "full-source-control-F1",
+      "stage": "full-source-control",
+      "output_anchor": "leaving only a remnant to flee toward the Danube",
+      "judgment": "unsupported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source locates the Ostrogothic remnant in wild Wallachian woods; the explicit retreat toward the Danube is the separate Visigothic sequence. It does not give this flight direction for the remnant.",
+      "error_family": "EG26-control-remnant-route",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-F2",
+      "stage": "full-source-control",
+      "output_anchor": "By the ninth century, the Byzantine Empire experienced a literary revival",
+      "judgment": "ambiguous",
+      "source_pages": [
+        241,
+        242,
+        247
+      ],
+      "rationale": "The paragraph then groups Leo and Constantine, whose source period spans 880–960. By the ninth century can mark the onset rather than place every later achievement inside that century, so avoid a definite chronology-error assertion. Earlier recovery is separately lost in the closing sentence."
+    },
+    {
+      "id": "full-source-control-F3",
+      "stage": "full-source-control",
+      "output_anchor": "intellectual destitution that had persisted since the death of Justinian",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        247
+      ],
+      "rationale": "Flattens continuing improvement from Leo the Isaurian and increasing writers by the late eighth century into uninterrupted destitution ending with the literary emperors.",
+      "error_family": "EG26-control-literary-recovery",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-F4",
+      "stage": "full-source-control",
+      "output_anchor": "more civilized and Christian",
+      "judgment": "ambiguous",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Source explicitly compares civilization and says most Visigoths were Christians. The comparative Christian wording may overstate the contrast; source attribution remains."
+    }
+  ],
+  "coverage": [
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C1",
+      "judgment": "partial",
+      "rationale": "Hunnic pressure and Visigothic admission present; Fritigern only named at the later revolt."
+    },
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C2",
+      "judgment": "covered",
+      "rationale": "Conditions, bribery, food extortion and revolt present."
+    },
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople present; Ad Salices absent."
+    },
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C4",
+      "judgment": "partial",
+      "rationale": "Approach, failure to attack walls and retreat present, but the deterrent effect of the visible defenses is not explained."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C1",
+      "judgment": "partial",
+      "rationale": "Hunnic pressure and Visigothic admission present; Fritigern only named at the later revolt."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C2",
+      "judgment": "covered",
+      "rationale": "Conditions, bribery, food extortion and revolt present."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople present; Ad Salices absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C4",
+      "judgment": "partial",
+      "rationale": "Approach, failure to attack walls and retreat present, but the deterrent effect of the visible defenses is not explained."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Latin decline and division/invasion explanation present, with a separately lost qualification."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Christian improvement of infants/slaves present; continuing slavery absent."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Attributed ascetic criticism present; later learned monasticism absent."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C4",
+      "judgment": "partial",
+      "rationale": "Pagan criticism and statecraft present; Orosius absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Latin decline and division/invasion explanation present, with a separately lost qualification."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Christian improvement of infants/slaves present; continuing slavery absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Attributed ascetic criticism present; later learned monasticism absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C4",
+      "judgment": "partial",
+      "rationale": "Pagan criticism and statecraft present; Orosius absent."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary rulers and favorable quiet period present."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C2",
+      "judgment": "partial",
+      "rationale": "Raid and succession present; transient occupation and first removal stage absent."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Organized army/fleet present; Western caution and naval limits absent."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C4",
+      "judgment": "partial",
+      "rationale": "Books and end of intellectual dearth present; longer earlier recovery arc absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary rulers and favorable quiet period present."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C2",
+      "judgment": "partial",
+      "rationale": "Raid and succession present; transient occupation and first removal stage absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Organized army/fleet present; Western caution and naval limits absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C4",
+      "judgment": "partial",
+      "rationale": "Books and end of intellectual dearth present; longer earlier recovery arc absent."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C1",
+      "judgment": "partial",
+      "rationale": "Critical historical-role interpretation present; Manuel’s limited inheritance absent."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C2",
+      "judgment": "covered",
+      "rationale": "Timur’s defeat of Bayezid, civil war and temporary recovery present."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C3",
+      "judgment": "partial",
+      "rationale": "Pretenders and siege present; reported vision and withdrawal revolt absent."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C4",
+      "judgment": "partial",
+      "rationale": "Vassalage and poor Western-aid return present; specific urban decline and Thessalonica absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C1",
+      "judgment": "partial",
+      "rationale": "Critical historical-role interpretation present; Manuel’s limited inheritance absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C2",
+      "judgment": "covered",
+      "rationale": "Timur’s defeat of Bayezid, civil war and temporary recovery present."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C3",
+      "judgment": "partial",
+      "rationale": "Pretenders and siege present; reported vision and withdrawal revolt absent."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C4",
+      "judgment": "partial",
+      "rationale": "Vassalage and poor Western-aid return present; specific urban decline and Thessalonica absent."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C1",
+      "judgment": "covered",
+      "rationale": "Huns, Fritigern and admission present; separate Ostrogothic route claim unsupported."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C2",
+      "judgment": "covered",
+      "rationale": "Conditions, bribery, food extortion and revolt present."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople present; Ad Salices absent."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C4",
+      "judgment": "covered",
+      "rationale": "Walls explicitly cause the failed attack."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C1",
+      "judgment": "omitted",
+      "rationale": "Entire H2 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C2",
+      "judgment": "omitted",
+      "rationale": "Entire H2 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C3",
+      "judgment": "omitted",
+      "rationale": "Entire H2 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C4",
+      "judgment": "omitted",
+      "rationale": "Entire H2 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C1",
+      "judgment": "partial",
+      "rationale": "Literary rulers present; favorable political conditions absent."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C2",
+      "judgment": "omitted",
+      "rationale": "Thessalonica capture and accession sequence absent."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Organization, supplies and medical care present; caution and naval limits absent."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C4",
+      "judgment": "partial",
+      "rationale": "Books and end of dearth present; prior gradual recovery replaced by a flattened trajectory."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C1",
+      "judgment": "omitted",
+      "rationale": "Entire H4 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C2",
+      "judgment": "omitted",
+      "rationale": "Entire H4 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C3",
+      "judgment": "omitted",
+      "rationale": "Entire H4 passage omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C4",
+      "judgment": "omitted",
+      "rationale": "Entire H4 passage omitted."
+    }
+  ],
+  "ledger_scope": "Flagged material claims and ambiguities, after reading all six held-out summary/synthesis outputs against supplied sources. Supported content is described through coverage and review notes; not an exhaustive standardized atomic-claim denominator.",
+  "annotation_limits": "Qualification loss, event contradiction, citation drift, attribution and ambiguity remain distinct. Flag counts are not independent false-fact totals or comparable precision percentages.",
+  "configuration_review": "All 12 requests completed normally at 32768 context. Full-source prompt 13773 tokens and output 659 tokens; synthesis output 1273 tokens. Neither hit the 2048-token cap.",
+  "citation_review": "All 16 stated extraction page sets support the supplied claims/fragments, despite three incomplete answers. All 16 include marked quotations. H1 revolt on 64 rather than 63, deaths on 67 rather than 66. H2 social reform cites illustration 172 with 173 while the individual-soul explanation continues 174. H3 methodical compiler and intellectual-dearth discussion belongs on 247 rather than 245/246. H4 gain sequence spans 360–362, Murad accession/pretender war 363, vassalage 365 rather than 363. Full control uses parenthesized physical pages, so zero literal PDF markers is not no citations.",
+  "supported_content_review": "H1 preserves nearly exterminated Alans, conditional admission, correct food direction and cavalry/infantry mechanism. H2 keeps less than one tenth and limits the formal 529 action to teaching, not abolition of all paganism. H3 popular uprising removes sons only, without inventing popular removal of Romanus himself. H4 preserves source JohnVI and poor return rather than false total failure of Western aid. Full-control Russia is supported by the source’s South Russia/Roumania and Ukraine wording. The Hun physical description is from a Gothic historian quoted by the source; author describes is less precise attribution than naming that quoted voice.",
+  "synthesis_review": "Merged synthesis closely follows all four parents, preserves the single clear direct error family, and retains their partial coverage. Full control spends three paragraphs on H1 and one on H3, omitting H2/H4 entirely despite receiving all four complete passages. Its nine omitted units and separate source errors remain distinct from extraction correctness. The opening monotony judgment in direct/merged H3 is not separately tagged in that sentence, though nearby author-characterization wording supplies paragraph-level attribution.",
+  "summary": {
+    "extraction_categories": {
+      "correct": 17,
+      "partial": 3
+    },
+    "source_absent_correct": 4,
+    "source_absent_total": 4,
+    "stated_answer_citation_categories": {
+      "supported": 16
+    },
+    "unique_clear_error_families": 3,
+    "clear_error_manifestations": 4,
+    "coverage_by_stage": {
+      "H1-summary": {
+        "partial": 3,
+        "covered": 1
+      },
+      "H2-summary": {
+        "covered": 1,
+        "partial": 3
+      },
+      "H3-summary": {
+        "covered": 1,
+        "partial": 3
+      },
+      "H4-summary": {
+        "partial": 3,
+        "covered": 1
+      },
+      "merged-summary-synthesis": {
+        "partial": 12,
+        "covered": 4
+      },
+      "full-source-control": {
+        "covered": 3,
+        "partial": 4,
+        "omitted": 9
+      }
+    }
+  }
+}

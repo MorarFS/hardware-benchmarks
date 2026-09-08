@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "dedc85af5771693cad63a83631b1e4f7f866f72d3f448eedf2137d0a310f7191",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3998,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:44:16.354209+00:00",
+  "output": "The author evaluates the final seventy-five years of the Byzantine Empire as a piece of local history [PDF p. 358]. He judges that the Paleologi protracted the empire's life through base subservience to the Turks [PDF p. 358]. During the reign of John Paleologus, his son Andronicus rebelled twice, once allying with Saoudji [PDF p. 359]. Consequently, John left the throne to his second son, Manuel II, in 1391 [PDF p. 359].\n\nManuel II initially lacked the resources to rebel [PDF p. 360]. However, after Timour defeated Sultan Bayezid in 1402, Manuel exploited the resulting Ottoman civil war to recover territories, including Thessalonica and Black Sea seaports [PDF p. 360-361]. The author notes that Europe failed to use this opportunity to expel the Ottomans because King Sigismund was occupied with the Hussites and Hungarian-Serbian tensions persisted [PDF p. 362-363]. By 1421, Mohammed the Unifier consolidated Ottoman power [PDF p. 362]. Manuel's subsequent support of Ottoman claimants led Murad II to besiege Constantinople [PDF p. 363]. Though the city resisted, Manuel eventually accepted vassalage in 1422 [PDF p. 363-365].\n\nManuel's successor, John VI, ruled a state of exhaustion and debility [PDF p. 365-366]. After Thessalonica was annexed by the Ottomans in 1430, John VI converted to Roman Catholicism in 1439 to seek aid [PDF p. 367]. The author judges this a poor return, as Pope Eugenius IV provided only money and three hundred mercenaries [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 409,
+    "prompt_tokens": 3998,
+    "total_tokens": 4407,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3915,
+    "prompt_ms": 15319.513,
+    "prompt_per_token_ms": 3.913030140485313,
+    "prompt_per_second": 255.55642663053325,
+    "predicted_n": 409,
+    "predicted_ms": 32816.194,
+    "predicted_per_token_ms": 80.4318480392157,
+    "predicted_per_second": 12.432886031817095
+  },
+  "first_visible_seconds": 15.523508917000072,
+  "wall_seconds": 48.34021683399999,
+  "word_count": 236,
+  "finished_at": "2026-09-08T15:45:04.908763+00:00"
+}

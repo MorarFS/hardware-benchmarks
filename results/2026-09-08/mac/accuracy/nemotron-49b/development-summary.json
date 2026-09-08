@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "da6caf0d304b9a0d44dead5d07ee17635e448a6998c7b274110e71bf2332063d",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2311,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:35:49.588535+00:00",
+  "output": "\n\nHere is a connected summary of 180-220 words, covering the beginning, middle, and ending of the passage, with attributed evaluations and PDF page citations:\n\n**Beginning**: In 532 AD, the same year the Persian War ended, a more threatening danger to Emperor Justinian's life and power emerged ([PDF p. 101]). The Byzantine Circus factions, \"Blues\" and \"Greens,\" had grown into quasi-political parties, often rioting and causing mischief. In January, serious rioting broke out in the streets, prompting Justinian to order the execution of leaders from both factions ([PDF p. 101]).\n\n**Middle**: The execution of seven rioters went awry when two survived and sought sanctuary, sparking six days of desperate rioting ([PDF p. 102]). The Blues and Greens united, demanding the deposition of unpopular officials and, eventually, Justinian himself. They proclaimed Hypatius, nephew of the late Emperor Anastasius, as their leader. The emperor's guard, led by Belisarius, attempted to quell the riots, but the insurgents gained control of most of the city, setting fire to several buildings, including the great cathedral of St. Sophia ([PDF p. 103]). The author notes that the emperor was \"weak enough\" to initially promise concessions, but the mob's demands escalated ([PDF p. 102]).\n\n**Ending**: As the rebels closed in, Justinian's council advised escape, but Empress Theodora urged a final assault, famously declaring, \"Empire is the best winding-sheet\" ([PDF p. 105]). Inspired, Justinian ordered a last attack, and Belisarius's forces routed the rebels in the Hippodrome, killing thousands. The author describes the aftermath as \"this awful slaughter\" and notes that while the factions continued to riot for fifty years, they never again threatened the empire as they did in 532 ([PDF p. 106]). The event marked a pivotal moment in Justinian's reign, highlighting both the volatility of the Byzantine factions and the decisive leadership of Theodora.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 429,
+    "prompt_tokens": 2311,
+    "total_tokens": 2740,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 2224,
+    "prompt_ms": 15896.977,
+    "prompt_per_token_ms": 7.147921312949641,
+    "prompt_per_second": 139.9008125884563,
+    "predicted_n": 429,
+    "predicted_ms": 63177.307,
+    "predicted_per_token_ms": 147.61053037383178,
+    "predicted_per_second": 6.774584424752388
+  },
+  "first_visible_seconds": 15.943302958000004,
+  "wall_seconds": 79.119639458,
+  "word_count": 298,
+  "finished_at": "2026-09-08T14:37:10.716864+00:00"
+}

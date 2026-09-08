@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "d383cef2f48357cfb3b1dd1d0973fa68333db2b806a457e32be573a3abf5c6f4",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2422,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:12:32.489535+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, and four were beheaded.  \"Seven were selected for execution, and four of them were duly beheaded in the presence of a great and angry mob, in front of the monastery of St. Conon.\" [PDF p. 102]\nD-Q2: The passage attributes 35,000 deaths to the six days of rioting, not solely to the Hippodrome assault. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]\nD-Q3: Not stated in the supplied passage. \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 2422,
+    "total_tokens": 2572,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2422,
+    "prompt_ms": 2701.302,
+    "prompt_per_token_ms": 1.115318744838976,
+    "prompt_per_second": 896.6046743385226,
+    "predicted_n": 150,
+    "predicted_ms": 3860.83,
+    "predicted_per_token_ms": 25.911610738255032,
+    "predicted_per_second": 38.59273783098453
+  },
+  "first_visible_seconds": 2.70934433299999,
+  "wall_seconds": 6.575338040999895,
+  "word_count": 89,
+  "finished_at": "2026-09-08T15:12:40.585704+00:00"
+}

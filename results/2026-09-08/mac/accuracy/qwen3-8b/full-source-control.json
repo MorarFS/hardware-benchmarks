@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "79d9b89455660b9bd8f324b8ae1df41fa9b004fbe4031bb274453173e851150b",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13738,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:12:00.156231+00:00",
+  "output": "The Huns, an enormous Tartar horde from beyond the Don and Volga, burst into the lands north of the Euxine around A.D. 372, marking the beginning of a series of invasions that would reshape the Balkans. The Huns first attacked the Alans, nearly exterminating them, and then turned their attention to the Ostrogoths. The Ostrogoths, despite their efforts to defend the Dniester, were crushed and forced to become vassals of the Huns, with a remnant fleeing south to the Danube. The Huns then moved against the Visigoths, pushing them back against the Danube. The Visigoths, more civilized and Christian, feared slavery to the Huns more than the threat of the enemy. They sought permission to cross the Danube, and their plea was accepted by Emperor Valens, who allowed them to settle within the empire. However, tensions arose as the Goths refused to surrender their weapons, and Roman officials accepted bribes to allow them to retain them. The Goths soon faced food shortages, leading to desperate measures and a revolt that culminated in a battle where Fritigern and his followers turned against Rome.\n\nThe following year, Valens, an unwarlike emperor, took the field with reinforcements from Asia Minor, while his nephew Gratian aided the Lower Danube. Valens' campaign ended in disaster at Adrianople in 378 A.D., where the Gothic cavalry, having learned to fight on horseback, overwhelmed the Roman legions. The battle resulted in the death of Valens and many Roman commanders, marking a significant defeat for the empire. The Goths, now emboldened, pressed toward Constantinople, but their siege failed due to the city's formidable defenses. The battle of Adrianople is noted as one of the most devastating defeats for the Roman army since Cannae, with the Eastern Roman army nearly annihilated.\n\nThe decline of the Latin tongue in the East is another significant development. By the seventh century, Latin had largely been replaced by Greek, especially in the Balkans, where the Latin-speaking population was decimated by barbarian invasions and Slavic migrations. The Latin element in the East, cut off from the Latin-speaking West, gradually disappeared, with only a few regions like Africa and the Italian Exarchate retaining Latin. The last notable Latin-speaking author was Flavius Corippus, an African. The empire's growing Christian character also influenced social and religious life, leading to changes in practices such as infanticide and slavery. Christianity promoted the idea of the individual soul, leading to a more humane treatment of slaves and other marginalized groups. However, this shift also led to the rise of ascetic monasticism, which, while beneficial in some ways, contributed to the empire's decline by diverting attention from civic duties.\n\nThe reigns of Leo the Wise and Constantine Porphyrogenitus, the literary emperors of the ninth century, marked a period of relative peace and cultural flourishing. These emperors, unlike their predecessors, focused on literary and administrative works rather than military campaigns. Leo's \"Tactica\" provided a detailed account of Byzantine military organization and tactics, while Constantine's writings on themes, administration, and court ceremonies reflected the empire's bureaucratic complexity. The period saw a revival of intellectual activity, with the end of the ninth century signaling the end of a long period of intellectual stagnation. The Byzantine Empire, however, continued to face external threats, and by the late fourteenth century, the empire was in a state of decline, with its capital, Constantinople, increasingly vulnerable to Ottoman expansion. The final years of the empire were marked by internal strife, economic hardship, and the eventual fall of Constantinople in 1453, which marked the end of a long and complex history.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 794,
+    "prompt_tokens": 13738,
+    "total_tokens": 14532,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 13565,
+    "prompt_ms": 24203.391,
+    "prompt_per_token_ms": 1.784252930335422,
+    "prompt_per_second": 560.4586563924038,
+    "predicted_n": 794,
+    "predicted_ms": 25795.347,
+    "predicted_per_token_ms": 32.52881084489282,
+    "predicted_per_second": 30.74197838858302
+  },
+  "first_visible_seconds": 24.286562250000003,
+  "wall_seconds": 50.08320204200001,
+  "word_count": 591,
+  "finished_at": "2026-09-08T13:12:50.735123+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "98d2a8365729c8f0abc26a969ac54b8d19d412542c62e0072c58f3b59ebe3985",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2356,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:12:40.602449+00:00",
+  "output": "The excerpt details the Nika riots of 532 AD, a major threat to Emperor Justinian's rule.  The riots were sparked by the execution of seven rioters, four Blues and three Greens, who had been involved in street disturbances. [PDF p. 102] The bungled executions led to a six-day uprising, with the Blues and Greens uniting against the government. [PDF p. 102] The rioters demanded the removal of unpopular officials and even sought to replace Justinian with Hypatius, a relative of the previous emperor. [PDF p. 103]\n\nThe city was largely undefended, as the garrison had been sent to fight the Persian War. [PDF p. 103]  The rioters set fire to several important buildings, including the Senate House and St. Sophia Cathedral. [PDF p. 103]  The rioters installed Hypatius as their leader, crowning him in the Hippodrome. [PDF p. 104]\n\nJustinian's advisors urged him to flee, but Empress Theodora convinced him to fight. [PDF p. 105]  She famously declared, \"Empire is the best winding-sheet,\" arguing that death in battle was preferable to losing his throne. [PDF p. 105]  General Belisarius led a successful counterattack, routing the rebels and killing an estimated 35,000 of them. [PDF p. 106]  Despite this victory, the Blues and Greens continued to riot sporadically for the next fifty years. [PDF p. 106] \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 348,
+    "prompt_tokens": 2356,
+    "total_tokens": 2704,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 2355,
+    "prompt_ms": 2459.96,
+    "prompt_per_token_ms": 1.0445690021231422,
+    "prompt_per_second": 957.3326395551147,
+    "predicted_n": 348,
+    "predicted_ms": 9268.442,
+    "predicted_per_token_ms": 26.710207492795387,
+    "predicted_per_second": 37.43887052430171
+  },
+  "first_visible_seconds": 2.56345745800013,
+  "wall_seconds": 11.832091708000007,
+  "word_count": 215,
+  "finished_at": "2026-09-08T15:12:52.755919+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "71b25135e855290389db1ce238a929a363dcc2ba93cf11987ae5eaf6af30fe3c",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3241,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:18:19.256970+00:00",
+  "output": "The eighty years following Basil the Macedonian’s death (A.D. 880–960) were marked by the uneventful reigns of Leo the Wise and his grandson Constantine Porphyrogenitus, both of whom were described by the author as mild, unenterprising men of literature rather than strong rulers [PDF p. 241]. The period was relatively peaceful, with the empire facing only minor threats such as Russian and Saracen pirate raids, rather than large-scale foreign wars [PDF p. 242]. Leo’s reign was notable for a failed Bulgarian invasion and the Saracen capture of Thessalonica in 904, though the author suggests the city’s fall was due to surprise rather than the empire’s weakness [PDF p. 242]. Constantine, who inherited the throne at age seven, faced prolonged guardianship and later a usurpation by Romanus Lecapenus, whose sons were overthrown by popular unrest, allowing Constantine to rule for twenty years [PDF p. 243].\n\nBoth emperors left significant literary works. Leo’s *Tactica* provided detailed military organization, tactics, and strategy, reflecting the Byzantine army’s strength and discipline, particularly against non-Western enemies [PDF p. 244–245]. Constantine’s works, including *On the Themes* and *On the Administration of the Empire*, offered valuable historical and administrative insights, though the author notes his preference for ceremonial and detail over originality [PDF p. 246–247]. The author also credits them with revitalizing Byzantine literature, which had declined during the earlier Isaurian dynasty but flourished under their rule [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 361,
+    "prompt_tokens": 3241,
+    "total_tokens": 3602,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 3157,
+    "prompt_ms": 4499.105,
+    "prompt_per_token_ms": 1.4251203674374404,
+    "prompt_per_second": 701.6951149173003,
+    "predicted_n": 361,
+    "predicted_ms": 12439.786,
+    "predicted_per_token_ms": 34.55496111111111,
+    "predicted_per_second": 28.939404584612628
+  },
+  "first_visible_seconds": 4.5521620419999635,
+  "wall_seconds": 16.992462999999816,
+  "word_count": 232,
+  "finished_at": "2026-09-08T15:18:37.512993+00:00"
+}

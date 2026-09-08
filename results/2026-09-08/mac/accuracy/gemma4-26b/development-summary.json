@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "4ea1c3618cf5af438a79482afc7c30bd0bff223825b0b45f7522de4cf7e0ae59",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2387,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:31:10.874637+00:00",
+  "output": "The Byzantine Circus factions, the Blues and Greens, had grown from sporting groups into political parties that interfered in politics and religion [PDF p. 101]. The author characterizes the Greens as Monophysite partisans of the late Emperor Anastasius and the Blues as orthodox partisans of Justinus [PDF p. 101]. The author further describes these groups as being dominated by rougher elements prone to mischief and a serious danger to the State [PDF p. 101].\n\nIn January 532, rioting began after Justinian ordered the execution of rioters from both sides [PDF p. 101]. Following a botched execution where criminals survived hanging, a mob broke loose and the city entered six days of desperate rioting [PDF p. 102]. The factions united under the watchword \"Nika\" to demand the deposition of officials and eventually sought to install Hypatius as Caesar [PDF p. 102]. During the conflict, fires destroyed the Senate House and St. Sophia [PDF p. 103]. While ministers urged Justinian to flee by sea, the author notes that Empress Theodora rose to the occasion by refusing to leave and urging a final assault [PDF p. 105]. Belisarius subsequently routed the rebels in the Hippodrome, resulting in the reported slaughter of 35,000 men [PDF p. 105, 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 300,
+    "prompt_tokens": 2387,
+    "total_tokens": 2687,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 2304,
+    "prompt_ms": 1595.45,
+    "prompt_per_token_ms": 0.6924696180555556,
+    "prompt_per_second": 1444.106678366605,
+    "predicted_n": 300,
+    "predicted_ms": 5364.72,
+    "predicted_per_token_ms": 17.942207357859534,
+    "predicted_per_second": 55.73450245306372
+  },
+  "first_visible_seconds": 1.661382541,
+  "wall_seconds": 7.027012832999999,
+  "word_count": 204,
+  "finished_at": "2026-09-08T13:31:19.000651+00:00"
+}

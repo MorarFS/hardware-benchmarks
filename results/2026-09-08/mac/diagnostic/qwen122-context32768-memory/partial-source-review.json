@@ -1,0 +1,222 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human review",
+  "scope": "Only completed requests in this failed configuration. No full-battery score or unsubmitted-stage omission score.",
+  "complete_extraction_questions": 15,
+  "extraction_categories": {
+    "correct": 13,
+    "unsupported": 1,
+    "partial": 1
+  },
+  "extraction": [
+    {
+      "question_id": "H1-Q1",
+      "output": "The Visigoths retreated toward the Danube under the leadership of their Duke Fritigern. The text states they \"fell back in dismay with their wives and children... under their Duke Fritigern\" [PDF p. 61].",
+      "judgment": "correct",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain.",
+      "quotation_note": "Marked quotation moves the earlier under their Duke Fritigern phrase after the later fell back phrase. Identity/page correct; the quote is reordered, not a verbatim linear excerpt."
+    },
+    {
+      "question_id": "H1-Q2",
+      "output": "Valens imposed the conditions that the Goths must give hostages and surrender their arms. The arms condition was violated when Roman officials accepted bribes and allowed the Goths to retain their weapons [PDF p. 63].",
+      "judgment": "correct",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H1-Q3",
+      "output": "Lupicinus's policy of withholding food and selling it at exorbitant prices drove the starving Goths to desperation and revolt. The passage notes that \"in sheer hunger the Goths were driven to barter a slave for a single loaf of bread\" [PDF p. 63].",
+      "judgment": "correct",
+      "source_pages": [
+        63,
+        64
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H1-Q4",
+      "output": "The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The text describes it as a fight that \"thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].",
+      "judgment": "correct",
+      "source_pages": [
+        64
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H1-Q5",
+      "output": "Not stated in the supplied passage",
+      "judgment": "correct",
+      "source_pages": [],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H2-Q1",
+      "output": "A monk named Telemachus intervened in the games in A.D. 404 and was slain by the crowd. The text states that \"the good monk was slain\" after he leapt into the arena to stop the combatants [PDF p. 171].",
+      "judgment": "unsupported",
+      "source_pages": [
+        171
+      ],
+      "rationale": "Correct monk/year/death, but adds killed by the crowd. Source says an angry scuffle and that the monk was slain; it does not identify the killer. The supporting quote likewise omits that agent."
+    },
+    {
+      "question_id": "H2-Q2",
+      "output": "Valentinian I made infanticide a capital offence in the year 374. The passage records that he \"assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].",
+      "judgment": "correct",
+      "source_pages": [
+        173
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H2-Q3",
+      "output": "The passage explicitly states that Christianity did not immediately end slavery. It qualifies this by noting that \"slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].",
+      "judgment": "correct",
+      "source_pages": [
+        173,
+        174
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H2-Q4",
+      "output": "Oman regarded widespread ascetic monasticism as politically dangerous because it led men to neglect their civic duties while the empire faced barbarian invasions. The author argues that when men \"retire from their duties as citizens... the result may be harmless so long as their numbers are small,\" but the scale was then \"positively dangerous\" [PDF p. 174].",
+      "judgment": "correct",
+      "source_pages": [
+        174,
+        175
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H2-Q5",
+      "output": "Not stated in the supplied passage",
+      "judgment": "correct",
+      "source_pages": [],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H3-Q1",
+      "output": "Constantine was called Porphyrogenitus because he was born in the Purple Chamber, the room in the palace set aside for the Empress. [PDF p. 241]",
+      "judgment": "correct",
+      "source_pages": [
+        241
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H3-Q2",
+      "output": "Saracen pirates captured Thessalonica in 904, but they did not retain it as they fled with their booty and made no attempt to hold its walls. [PDF p. 242]",
+      "judgment": "correct",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H3-Q3",
+      "output": "An outburst of popular wrath involving the mob and the guards removed Romanus Lecapenus's sons, who had declared themselves emperors. [PDF p. 243]",
+      "judgment": "partial",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Gives popular removal of Romanus’s sons but omits sons making the father abdicate."
+    },
+    {
+      "question_id": "H3-Q4",
+      "output": "Leo recommended caution rather than rash general battle against the men of the West, specifically the Franks and Lombards. [PDF p. 245]",
+      "judgment": "correct",
+      "source_pages": [
+        245
+      ],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    },
+    {
+      "question_id": "H3-Q5",
+      "output": "Not stated in the supplied passage",
+      "judgment": "correct",
+      "source_pages": [],
+      "rationale": "Source-supported answer; absent questions explicitly abstain."
+    }
+  ],
+  "summary_flags": [
+    {
+      "stage": "H1-summary",
+      "output_anchor": "more dreadful than slavery to Romans",
+      "judgment": "contradiction",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Source compares Visigothic dread of surrender to the Huns with that of their eastern Gothic brethren, not with slavery to Romans."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "this Roman element vanished",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Source says rapidly vanishing, not completed disappearance."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "as emperors adopted Greek titles",
+      "judgment": "contradiction",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Attached to by the seventh century; source says the old Latin style remained until about 800. Procopius’s Latin ignorance was already a sixth-century example."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "the last native Latin author",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Drops notable and being a subject of the empire, turning a bounded literary claim into a universal last-author assertion."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "open paganism ended with Justinian closing the schools of Athens in 529",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        176
+      ],
+      "rationale": "Compresses practical decline of open paganism with the precisely dated formal end of philosophers’ teaching. The supplied formal action is not a general abolition of paganism."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "retained pagan lifestyles",
+      "judgment": "unsupported",
+      "source_pages": [
+        176
+      ],
+      "rationale": "Source says nominal Christians were little affected by Christianity in daily life; it does not specify continued pagan lifestyles."
+    },
+    {
+      "stage": "H2-summary",
+      "output_anchor": "the empire's collapse",
+      "judgment": "ambiguous",
+      "source_pages": [
+        176
+      ],
+      "rationale": "The attributed pagan accusation of ruin may be figurative. Collapse risks implying an accomplished terminal event, but this is not graded as an unequivocal independent collapse assertion."
+    }
+  ],
+  "summary_review": "H1 otherwise preserves Huns geography, Fritigern, conditions/bribery/food/revolt, army 60,000/deaths 40,000, old Roman lines and walls; Ad Salices absent. H2 correctly separates political division, preserves monastic attribution and Pagan/Orosius exchange; continued slavery, later learned monasticism and statecraft are omitted. H3 summary is materially supported: it retains Thessalonica’s administrative disgrace and surprise qualification, regencies, books, army/fleet and broad literary recovery. It omits transient capture, first removal stage, Western caution/naval limits and physical-page citations. No H4 summary, merged synthesis or full-source control was completed.",
+  "output_sha256": {
+    "H2-summary": "6af2ca088ba33a6a2b760756e74053b93d9b5fc1cc3c51c359fc92b96f5e6b4b",
+    "H3-extraction": "f05042d6275a00621dd86fa228ddb3007fc86eba528890712b46aa4fc1ed2411",
+    "development-summary": "ba4a47971c59e1c793b3e7b9dd4f37f55fb4e5a6f729b93025b197d3a4a213a4",
+    "H3-summary": "edc0cdc5396c9ba79ccba1202960ccc08bbc2e23a271ea12a72dfc1f199dd2e5",
+    "H2-extraction": "f67794722ed68548c9f4e71fb430c4f3a0d8ee58b05907573c3fca920709878c",
+    "H1-extraction": "82c7dc7c8ca29f16fac35c1e262d598596c06d046a6e7f1980deff67516a77ed",
+    "H1-summary": "5cf21bc3be01155e5b75b20d8def4b849166839657d59fd56596acd98d3e821e",
+    "development-extraction": "8a7f481a30fbe51558668914f15f68fb9a27bd2df93f7d83ba39fcacb792b914"
+  }
+}

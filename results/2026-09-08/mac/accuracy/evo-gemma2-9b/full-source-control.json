@@ -1,0 +1,20 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "3ebcd28515afdb452f6642518cc7d40dae363ebfe95f35f30cd81a3b5e3c6b8c",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13573,
+  "output_budget": 2048,
+  "status": "context_excluded",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:15:35.340876+00:00",
+  "submitted": false,
+  "reason": "Complete prompt plus output allowance and margin exceeds actual context; no truncation or extrapolation",
+  "finished_at": "2026-09-08T15:15:35.340886+00:00"
+}

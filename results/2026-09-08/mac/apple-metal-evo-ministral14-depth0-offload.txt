@@ -1,0 +1,23 @@
+ggml_metal_device_init: recommendedMaxWorkingSetSize  = 40200.90 MB
+llama_prepare_model_devices: using device MTL0 (Apple M5 Pro) (unknown id) - 38337 MiB free
+load_tensors: offloaded 41/41 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   360.00 MiB
+load_tensors:  MTL0_Mapped model buffer size =  7849.86 MiB
+llama_context: n_ctx                 = 512
+llama_context:        CPU  output buffer size =     0.50 MiB
+llama_kv_cache:       MTL0 KV buffer size =    80.00 MiB
+sched_reserve:       MTL0 compute buffer size =   266.00 MiB
+sched_reserve:        CPU compute buffer size =    20.52 MiB
+llama_perf_context_print:        load time =    1079.39 ms
+~llama_context:       MTL0 compute buffer size is 266.0000 MiB, matches expectation of 266.0000 MiB
+~llama_context:        CPU compute buffer size is  20.5156 MiB, matches expectation of  20.5156 MiB
+~llama_context:        CPU compute buffer size is   0.0000 MiB, matches expectation of   0.0000 MiB
+llama_context: n_ctx                 = 256
+llama_context:        CPU  output buffer size =     0.50 MiB
+llama_kv_cache:       MTL0 KV buffer size =    40.00 MiB
+sched_reserve:       MTL0 compute buffer size =   133.00 MiB
+sched_reserve:        CPU compute buffer size =    10.13 MiB
+llama_perf_context_print:        load time =    4658.87 ms
+~llama_context:       MTL0 compute buffer size is 133.0000 MiB, matches expectation of 133.0000 MiB
+~llama_context:        CPU compute buffer size is  10.1328 MiB, matches expectation of  10.1328 MiB
+~llama_context:        CPU compute buffer size is   0.0000 MiB, matches expectation of   0.0000 MiB

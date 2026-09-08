@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "48e0a81c8fb6dfb4d5bbb5ba77dd3fde6fd77c112779e061b0191df775a68c32",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3611,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:17:32.588001+00:00",
+  "output": "The decline of Latin as a dominant language in the Eastern Roman Empire is evident from the seventh century onward, marking a shift from the language of the ruling race to Greek. This transition is illustrated by figures like Ammianus Marcellinus, who, despite being born in Greece, wrote in Latin, the language of the ruling race. By the sixth century, Latin proficiency had become rare even among educated men, with Johannes Lydus attributing his career advancement to his rare skill in Latin, while Procopius, a notable writer, struggled with the language. The last emperor to speak Latin as his mother tongue was Justinian, with his successors being more fluent in Greek [PDF p. 169-170].\n\nThe decline of Latin was accelerated by the division of the empire and the barbarian invasions, which decimated Latin-speaking populations in the Balkans. By A.D. 620, only a tenth of the population east of the Adriatic spoke Latin, with the remaining Latin speakers concentrated in Africa and the Italian Exarchate. The last notable Latin author was Flavius Corippus, an African, who wrote a panegyric to Justinus II [PDF p. 170].\n\nSimultaneously, the empire became more Christian, with the state assuming a more active role in suppressing moral and legal crimes. The practice of infanticide was criminalized, and slavery was reformed, with Justinian's legislation reflecting a more humane approach. However, the rise of ascetic monasticism, which spread rapidly, had negative consequences for the state, as it led to a neglect of civic duties and an apathetic attitude towards national calamities. This was contrasted by the heathen minority, which accused Christianity of being anti-social. Despite this, the governing classes continued to uphold Roman traditions, fighting against barbarian invasions, famine, and pestilence [PDF p. 171-176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 399,
+    "prompt_tokens": 3611,
+    "total_tokens": 4010,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 3527,
+    "prompt_ms": 5360.827,
+    "prompt_per_token_ms": 1.519939608732634,
+    "prompt_per_second": 657.9208767602462,
+    "predicted_n": 399,
+    "predicted_ms": 13904.54,
+    "predicted_per_token_ms": 34.93603015075377,
+    "predicted_per_second": 28.623744474826204
+  },
+  "first_visible_seconds": 5.417038041000069,
+  "wall_seconds": 19.32450341599997,
+  "word_count": 286,
+  "finished_at": "2026-09-08T15:17:52.862492+00:00"
+}

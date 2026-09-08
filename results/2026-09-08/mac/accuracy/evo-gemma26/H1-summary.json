@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "61863b459e69f8bff7f7cae933ba05d1a7a44e9a50fff87229f4aa36e9a74f09",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3442,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:07:27.940994+00:00",
+  "output": "Around A.D. 372, the Huns, described as an enormous Tartar horde, moved westward, nearly exterminating the Alans and crushing the Ostrogoths [PDF p. 61]. The Visigoths, fleeing the Huns, reached the Danube and requested permission from the Roman Emperor to cross [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. Valens permitted the Goths to settle as subject-allies provided they surrendered their arms and gave hostages [PDF p. 63]. However, Roman officials accepted bribes to allow the Goths to keep their weapons, and the governor, Lupicinus, engaged in shameless extortion by withholding food [PDF p. 63]. This desperation led to a conflict at Marcianopolis, after which Fritigern led the Goths in a year of fighting against Rome [PDF p. 63].\n\nIn A.D. 378, Valens personally led 60,000 men against the Goths near Adrianople [PDF p. 65]. The author notes that the Goths had adopted fighting on horseback, a new development in the art of war [PDF p. 65]. During the battle, a Gothic cavalry charge crushed the Roman flank and infantry, creating a press so tight that soldiers could not raise their arms [PDF p. 66]. The battle resulted in the death of Valens and forty thousand men [PDF p. 66]. The author describes this as the most fearful Roman defeat since Cannae [PDF p. 67]. Although the Goths approached Constantinople, they failed to attack the city walls and retreated [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 376,
+    "prompt_tokens": 3442,
+    "total_tokens": 3818,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3359,
+    "prompt_ms": 2321.129,
+    "prompt_per_token_ms": 0.6910178624590652,
+    "prompt_per_second": 1447.140594081587,
+    "predicted_n": 376,
+    "predicted_ms": 6420.794,
+    "predicted_per_token_ms": 17.122117333333332,
+    "predicted_per_second": 58.40399178045582
+  },
+  "first_visible_seconds": 2.378323250000001,
+  "wall_seconds": 8.799398292000003,
+  "word_count": 244,
+  "finished_at": "2026-09-08T16:07:38.080521+00:00"
+}

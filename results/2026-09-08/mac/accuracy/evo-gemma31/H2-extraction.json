@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "2422cf2ab90bb7eee072b4b9e5ef058bcf2603d7a2cf6e15d50c3eb8548ddc9e",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3744,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:41:22.245076+00:00",
+  "output": "H2-Q1: In AD 404, the monk Telemachus intervened by leaping into the arena to adjure combatants not to slay their brethren. He was slain during an \"angry scuffle\" [PDF p. 171].\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374 [PDF p. 173].\n\nH2-Q3: No, the passage states that \"slavery was not extinguished for centuries\" [PDF p. 173].\n\nH2-Q4: Oman suggests it was dangerous because men \"cease to be of the slightest use to society\" and \"retire from their duties as citizens\" to focus exclusively on saving their own souls [PDF p. 174].\n\nH2-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 3744,
+    "total_tokens": 3928,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3661,
+    "prompt_ms": 13856.412,
+    "prompt_per_token_ms": 3.7848708003277793,
+    "prompt_per_second": 264.20981131334725,
+    "predicted_n": 184,
+    "predicted_ms": 14481.406,
+    "predicted_per_token_ms": 79.13336612021858,
+    "predicted_per_second": 12.636894511485968
+  },
+  "first_visible_seconds": 14.052921374999983,
+  "wall_seconds": 28.53729445800002,
+  "word_count": 101,
+  "finished_at": "2026-09-08T15:41:52.604611+00:00"
+}

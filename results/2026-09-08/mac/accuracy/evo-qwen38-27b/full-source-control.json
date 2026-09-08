@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "9899c6d60ae3f3de10f9c5385563ad49b5cc7b2973232720c32ca10ea6d6a978",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:00:20.220630+00:00",
+  "output": "The narrative begins with the arrival of the Huns in A.D. 372, a Tartar horde that displaced the Alans and forced the Ostrogoths into vassalage. The Visigoths, led by Duke Fritigern, retreated to the Danube, where they requested permission to cross into the Roman Empire to escape slavery. The author characterizes the Eastern Emperor Valens as stupid and cowardly, noting that he accepted the Goths as subject-allies after they surrendered hostages and weapons (PDF p. 61). However, Roman officials in Moesia violated the terms by accepting bribes to allow the Goths to keep their arms. Governor Lupicinus further exacerbated tensions by hoarding food and selling it at exorbitant prices, driving the Goths to desperation and eventually leading to a violent affray at Marcianopolis where Fritigern was nearly killed (PDF p. 62).\n\nFollowing this incident, a year of desperate fighting ensued along the Danube. The author observes that the Goths, having acquired cavalry skills in the Ukraine, challenged the traditional Roman infantry dominance. In A.D. 378, Valens engaged the Goths near Adrianople with an army of 60,000 men. The battle resulted in a catastrophic defeat for Rome, as Gothic cavalry charged the Roman flank, causing the infantry to collapse into a confused mass where soldiers were cut down or stifled. The author describes this as the most fearful defeat since Cannae, noting that the Emperor and thirty-five commanders were killed, and the Eastern army was never reorganized on old Roman lines (PDF p. 65).\n\nThe text later shifts to the linguistic and social decay of the Eastern Empire. The author argues that the Latin element in the East vanished by the seventh century, largely because the provinces that spoke Latin suffered the most from barbarian invasions. While Justinian was the last emperor to speak Latin as a mother tongue, the author notes that the Church’s influence improved the status of slaves and infants, yet also introduced harmful asceticism. This monasticism, which spread rapidly, is judged by the author to be dangerous to the state because it encouraged citizens to neglect their civic duties in favor of saving their own souls, viewing barbarian invasions as divine judgment rather than national calamities (PDF p. 170).\n\nFinally, the synthesis concludes with the final decades of the Byzantine Empire. The author asserts that after 1370, the empire ceased to be a bulwark of Christendom, a role taken over by the Servians and Hungarians. Manuel II Paleologus briefly expanded his territory during the Ottoman civil war following the defeat of Bayezid by Tamerlane in 1402. However, the author states that Europe failed to capitalize on this opportunity to expel the Ottomans due to internal conflicts like the Hussite wars. By the time of John VI, the empire was in a state of exhaustion, with Constantinople reduced to a small, impoverished city controlled by Italian merchants. The author concludes that the Paleologi’s subservience to the Turks prolonged the empire’s life long after its justification for existence had disappeared (PDF p. 358).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 672,
+    "prompt_tokens": 13916,
+    "total_tokens": 14588,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 46289.321,
+    "prompt_per_token_ms": 3.346054720254446,
+    "prompt_per_second": 298.859428074134,
+    "predicted_n": 672,
+    "predicted_ms": 49699.85,
+    "predicted_per_token_ms": 74.06833084947839,
+    "predicted_per_second": 13.501046783843414
+  },
+  "first_visible_seconds": 46.37441074999998,
+  "wall_seconds": 96.07483525000004,
+  "word_count": 494,
+  "finished_at": "2026-09-08T16:01:57.349242+00:00"
+}

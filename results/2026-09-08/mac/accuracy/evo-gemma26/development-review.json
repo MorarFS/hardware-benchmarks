@@ -1,0 +1,46 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "99f3f9cfb172b970ef04ca75465d2083aa3e134bda7b50077f077788079f7828",
+    "development-summary": "b0ba4ad2bb49e20bc9e077360fca8eadd9087d1d40792477db31aae61fb14e66"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected and two hanging survivors correctly stated; no marked quotation."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "partial",
+      "rationale": "Quotes the correct reported six-day scope but does not clearly answer No to sole attribution; instead says the source does not specify whether the deaths were caused solely by the assault. Distinguishes the quoted fact from an incomplete response to the attribution question."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "In 532, the Byzantine Circus factions, the Blues and Greens, transitioned from sporting groups into political parties",
+      "judgment": "unsupported",
+      "source_pages": [
+        101
+      ],
+      "rationale": "Dates the transition to 532, whereas source describes growth throughout the fifth century and political/religious affiliations already in 530."
+    },
+    {
+      "output_anchor": "routing the rebels and resulting in the reported slaughter of 35,000 men",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Retains reported but assigns the six-day total to the Hippodrome assault, matching the same scope error in the other Gemma 26 artifact."
+    }
+  ],
+  "summary_review": "Main faction affiliations, two survivors, demands, reluctant/refuged Hypatius, fires, Theodora and final assault represented. Omits opening Antonina comparison, the troops’ details and the final fifty years of continued faction unrest."
+}

@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "a835951d9871d3dba80d73a9b884dc515290c389a35e95e35c96b6f80905a6a8",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4047,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:46:03.447530+00:00",
+  "output": "\n\nHere are the answers to each question based on the provided source material:\n\n**H4-Q1: Which ruler reunited the surviving Ottoman realm after the civil wars?**\n\n* Answer: Mohammed, the youngest of the sons of Bayezid, reunited the Ottoman realm.\n* Quotation: \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained.\"\n* [PDF p. 360]\n\n**H4-Q2: Why did Manuel’s support for the two Mustaphas lead to war with Murad?**\n\n* Answer: Manuel's support for the two Mustaphas (claimants to the Ottoman Sultanate) against Murad drew down war, as Murad declared war in response to this challenge to his authority.\n* Quotation: \"He tried to make trouble for Murad, by supporting against him two claimants to the Ottoman Sultanate, each named Mustapha... This drew down on the empire the fate which had been delayed since 1370: the Sultan declared war on Manuel...\"\n* [PDF p. 363]\n\n**H4-Q3: What immediate development caused Murad to lift the siege?**\n\n* Answer: The pretender Mustapha, whom Manuel had supplied with money, began to stir up trouble in Asia Minor, prompting Murad to lift the siege of Constantinople to address this new threat.\n* Quotation: \"At last the pretender Mustapha, whom Manuel had supplied with money to cause a revolt against his brother, began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him.\"\n* [PDF p. 365]\n\n**H4-Q4: What role does the passage assign to the vision of the Virgin?**\n\n* Answer: The vision of the Virgin is described as encouraging the Greeks to resist with a better spirit than might have been expected during the siege of Constantinople.\n* Quotation: \"The report of a miraculous vision of the Virgin, who vouchsafed to reveal herself as the defender of the city, encouraged the Greeks to resist with a better spirit than might have been expected.\"\n* [PDF p. 364]\n\n**H4-Q5: What was the exact number of soldiers killed during this siege?**\n\n* Answer: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 494,
+    "prompt_tokens": 4047,
+    "total_tokens": 4541,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3960,
+    "prompt_ms": 27821.994,
+    "prompt_per_token_ms": 7.02575606060606,
+    "prompt_per_second": 142.333435914047,
+    "predicted_n": 494,
+    "predicted_ms": 71261.353,
+    "predicted_per_token_ms": 144.54635496957405,
+    "predicted_per_second": 6.918195897852233
+  },
+  "first_visible_seconds": 27.891737041000056,
+  "wall_seconds": 99.15190508300009,
+  "word_count": 356,
+  "finished_at": "2026-09-08T14:47:42.705714+00:00"
+}

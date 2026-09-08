@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "373170883653330f044578c491a803a662c05e1c49056d98bf40fa327af70473",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4181,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:29:20.863816+00:00",
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm after the civil wars. The text states he \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel's support for the two Mustaphas led to war because he tried to make trouble for Murad by backing claimants against the new ruler. This action \"drew down on the empire the fate which had been delayed since 1370: the Sultan declared war on Manuel\" [PDF p. 363].\n\nH4-Q3: Murad lifted the siege because the pretender Mustapha, whom Manuel had funded, began causing significant trouble in Asia Minor. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin served to encourage the Greeks to resist the siege with greater spirit than expected. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 4181,
+    "total_tokens": 4445,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 4099,
+    "prompt_ms": 7680.022,
+    "prompt_per_token_ms": 1.8736330812393267,
+    "prompt_per_second": 533.7224294409574,
+    "predicted_n": 264,
+    "predicted_ms": 7820.583,
+    "predicted_per_token_ms": 29.73605703422053,
+    "predicted_per_second": 33.62920641594111
+  },
+  "first_visible_seconds": 8.349739583000002,
+  "wall_seconds": 16.170733916000017,
+  "word_count": 175,
+  "finished_at": "2026-09-08T15:29:37.057334+00:00"
+}

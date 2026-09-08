@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "e7a18501df3402b3f9cb4adbeb5b886f28905d3f82eb92e0c5853a4faadb9bf2",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4181,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:04:01.251448+00:00",
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the surviving Ottoman realm after the civil wars. He triumphed over his brothers and united the remnants of the empire by A.D. 1421. [PDF p. 362]\n\nH4-Q2: Manuel’s support for two claimants named Mustapha drew down war because it allowed the Sultan to recover fortresses and lay siege to Constantinople. The text states this action \"drew down on the empire the fate which had been delayed since 1370.\" [PDF p. 363]\n\nH4-Q3: The pretender Mustapha began to stir up trouble in Asia Minor, forcing the Sultan to raise the siege to march against him. The Sultan determined to leave Constantinople to address this internal revolt. [PDF p. 365]\n\nH4-Q4: The vision of the Virgin encouraged the Greeks to resist with better spirit by revealing herself as the defender of the city. The report of this miraculous vision boosted the morale of the defenders. [PDF p. 365]\n\nH4-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 246,
+    "prompt_tokens": 4181,
+    "total_tokens": 4427,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 4099,
+    "prompt_ms": 2815.955,
+    "prompt_per_token_ms": 0.6869858502073677,
+    "prompt_per_second": 1455.6340566521837,
+    "predicted_n": 246,
+    "predicted_ms": 3438.227,
+    "predicted_per_token_ms": 14.033579591836734,
+    "predicted_per_second": 71.25765692608428
+  },
+  "first_visible_seconds": 2.8579981249999946,
+  "wall_seconds": 6.296503250000001,
+  "word_count": 161,
+  "finished_at": "2026-09-08T16:04:09.367378+00:00"
+}

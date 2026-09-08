@@ -1,0 +1,11 @@
+{
+  "status": "failed_accuracy_memory_configuration",
+  "model_id": "nemotron-49b",
+  "context": 32768,
+  "next_configuration_context": 16384,
+  "reason": "System swap growth exceeded1GiB during the correctly disabled-reasoning history battery. No complete-battery accuracy score. Separate16,384-context run tests complete untruncated prompts with the same2048-token output allowance and256-token margin.",
+  "recovery_changes": [
+    "Explicit context reduction from32768 to16384, recorded in a new receipt and output directory"
+  ],
+  "frozen_task_changed": false
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "07fee3502c08bee05b04f1fa5ec14cee9e3256c5cf02837f1b2fb57173190aaf",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3630,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:28:34.176219+00:00",
+  "output": "The text begins by documenting the decay of the Latin tongue in the Eastern Roman Empire, noting that Ammianus Marcellinus wrote in the ruling language despite his Greek origins [PDF p. 169]. By the seventh century, this Roman element vanished as emperors adopted Greek titles and officials like Procopius became ignorant of Latin [PDF p. 169]. The author attributes this linguistic shift to the political division of the empire and the devastation of Latin-speaking Balkan provinces by Goths and Slavs [PDF p. 170]. Consequently, the last native Latin author was the African poet Flavius Corippus [PDF p. 170].\n\nThe narrative then transitions to the growing Christian influence on social life, observing that while Constantine's reign left administration largely pagan, Theodosius I later initiated state suppression of moral sins [PDF p. 171]. The author credits the monk Telemachus with ending gladiatorial games in A.D. 404 through his martyrdom [PDF p. 171]. Christianity also abolished infanticide and improved the status of slaves by recognizing their souls, leading to legislation by Justinian that protected mixed marriages and criminalized slave prostitution [PDF p. 173].\n\nHowever, the author evaluates the rise of ascetic monasticism as a dangerous development that weakened the state by encouraging citizens to neglect civic duties [PDF p. 174]. This apathy led pagans to blame Christianity for the empire's collapse, prompting Orosius to defend the faith [PDF p. 176]. The text concludes by noting that while open paganism ended with Justinian closing the schools of Athens in 529, many educated men remained indifferent Christians who retained pagan lifestyles [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 379,
+    "prompt_tokens": 3630,
+    "total_tokens": 4009,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3548,
+    "prompt_ms": 6423.319,
+    "prompt_per_token_ms": 1.8104055806087938,
+    "prompt_per_second": 552.362415754223,
+    "predicted_n": 379,
+    "predicted_ms": 11120.233,
+    "predicted_per_token_ms": 29.41860582010582,
+    "predicted_per_second": 33.99209351099029
+  },
+  "first_visible_seconds": 6.496081791999998,
+  "wall_seconds": 17.616477500000002,
+  "word_count": 259,
+  "finished_at": "2026-09-08T15:28:52.435681+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "76491eb13a1f7f9f69c6a2e01eb141a801ae06a23c777648ca88c9a9906f078d",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4181,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:02:55.777065+00:00",
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the Ottoman realm after the civil wars. The text states he \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm\" [PDF p. 362].\n\nH4-Q2: Manuel’s support for the two Mustaphas led to war because it drew down the fate of the empire, prompting the Sultan to declare war. The passage notes this action caused \"the Sultan [to] declare war on Manuel\" [PDF p. 363].\n\nH4-Q3: Murad lifted the siege because the pretender Mustapha began stirring up trouble in Asia Minor. The text explains that \"the Sultan determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin served to encourage the Greeks to resist with better spirit. The source says the report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 242,
+    "prompt_tokens": 4181,
+    "total_tokens": 4423,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 4099,
+    "prompt_ms": 12532.403,
+    "prompt_per_token_ms": 3.0574293730178095,
+    "prompt_per_second": 327.0721504886174,
+    "predicted_n": 242,
+    "predicted_ms": 17192.302,
+    "predicted_per_token_ms": 71.33735269709544,
+    "predicted_per_second": 14.017901732996547
+  },
+  "first_visible_seconds": 12.623366291999957,
+  "wall_seconds": 29.81612929199997,
+  "word_count": 161,
+  "finished_at": "2026-09-08T14:03:26.126410+00:00"
+}

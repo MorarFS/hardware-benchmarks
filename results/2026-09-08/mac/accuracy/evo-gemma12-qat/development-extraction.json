@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "4d84ade3293699e26b5929ab9980dd4df032ba952b863eb44c55f8cb36534107",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2451,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:49:12.748093+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, but only four died because the remaining three were saved by a bungled hanging. \"Seven were selected for execution, and four of them were duly beheaded... The last three rioters were to be hung, but the hang-man so bungled his task that two of the criminals... fell to the ground alive\" [PDF p. 102].\n\nD-Q2: Not stated in the supplied passage.\n\nD-Q3: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 2451,
+    "total_tokens": 2563,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2451,
+    "prompt_ms": 3163.196,
+    "prompt_per_token_ms": 1.2905736434108526,
+    "prompt_per_second": 774.8492347612985,
+    "predicted_n": 112,
+    "predicted_ms": 3301.065,
+    "predicted_per_token_ms": 29.739324324324325,
+    "predicted_per_second": 33.62551176665712
+  },
+  "first_visible_seconds": 3.170457208,
+  "wall_seconds": 6.472292041000001,
+  "word_count": 75,
+  "finished_at": "2026-09-08T13:49:20.852400+00:00"
+}

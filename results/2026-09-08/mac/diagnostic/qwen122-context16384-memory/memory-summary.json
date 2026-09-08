@@ -1,0 +1,36 @@
+{
+  "before": {
+    "swap_used_bytes": 2212558274.56,
+    "pages_free_bytes": 77643776,
+    "pages_active_bytes": 1486405632,
+    "pages_inactive_bytes": 45350600704,
+    "pages_speculative_bytes": 280788992,
+    "pages_wired_down_bytes": 2109472768,
+    "pages_occupied_by_compressor_bytes": 705937408,
+    "pageins_bytes": 559609495552,
+    "pageouts_bytes": 506445824,
+    "swapins_bytes": 330121216,
+    "swapouts_bytes": 3395092480,
+    "process_rss_bytes": 0,
+    "ac_connected": true
+  },
+  "after": {
+    "swap_used_bytes": 3474393661.44,
+    "pages_free_bytes": 6646808576,
+    "pages_active_bytes": 2461302784,
+    "pages_inactive_bytes": 37668339712,
+    "pages_speculative_bytes": 29392896,
+    "pages_wired_down_bytes": 2103640064,
+    "pages_occupied_by_compressor_bytes": 723320832,
+    "pageins_bytes": 578470084608,
+    "pageouts_bytes": 518488064,
+    "swapins_bytes": 460390400,
+    "swapouts_bytes": 5749276672,
+    "process_rss_bytes": 0,
+    "ac_connected": true
+  },
+  "peak_process_rss_bytes": 43181817856,
+  "peak_swap_used_bytes": 3895984128.0,
+  "sample_interval_seconds": 2,
+  "server_returncode_after_cleanup": -9
+}

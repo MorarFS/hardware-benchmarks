@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "586730df3a090649577c4c5c981f548a28509a6f05df258da303496f58d2e40e",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3369,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:10:02.486381+00:00",
+  "output": "H3-Q1: He received the name because he was born in the palace room reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress\" [PDF p. 241].\n\nH3-Q2: Saracen pirates captured Thessalonica in 904 but fled with their booty and made no attempt to hold the city. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls\" [PDF p. 242].\n\nH3-Q3: The mob and the guards removed the usurper Romanus Lecapenus and his sons. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother\" [PDF p. 243].\n\nH3-Q4: Leo recommended caution and avoiding rash engagement against the Franks and Lombards of the West. \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution and deprecates any rash engagement in a general action\" [PDF p. 245].\n\nH3-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 260,
+    "prompt_tokens": 3369,
+    "total_tokens": 3629,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3286,
+    "prompt_ms": 5614.337,
+    "prompt_per_token_ms": 1.7085626902008522,
+    "prompt_per_second": 585.2872743477991,
+    "predicted_n": 260,
+    "predicted_ms": 10570.802,
+    "predicted_per_token_ms": 40.81390733590734,
+    "predicted_per_second": 24.501452207694367
+  },
+  "first_visible_seconds": 5.717553541999905,
+  "wall_seconds": 16.291352374999974,
+  "word_count": 172,
+  "finished_at": "2026-09-08T14:10:20.716223+00:00"
+}

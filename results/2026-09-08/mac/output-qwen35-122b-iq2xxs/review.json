@@ -1,0 +1,10 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted inspection; no independent human review",
+  "scope": "One short arithmetic/geography/explanation smoke prompt, not the frozen history accuracy battery.",
+  "output_sha256": "366bbb1e611fca14199200dce2132d74897447acc642703e90ed835d40e30cd6",
+  "arithmetic": "Correct42",
+  "geography": "CorrectParis",
+  "coherence": "Readable three-sentence response; correctly connects larger parameter count with memory and computation requirements. This prompt does not establish historical-source accuracy.",
+  "context": 4096,
+  "model_sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c"
+}

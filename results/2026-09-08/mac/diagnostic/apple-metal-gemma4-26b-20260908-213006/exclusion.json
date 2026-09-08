@@ -1,0 +1,6 @@
+{
+  "status": "excluded_from_matched_results",
+  "reason": "Repository checkout and a newly resumed Falcon model download overlapped this first Gemma speed attempt. The downloader was launched after the speed runner initial pause snapshot. Preserve measurements as diagnostic; repeat with download workers paused and new worker launch gated by the shared GPU lock.",
+  "replacement": "A separate full five-repetition Gemma session, after this attempt and its watcher cleanup.",
+  "inference_failure": false
+}

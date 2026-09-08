@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "4cf1fd64bd412ac8773c85e365ead53ea83b843475166e34f4816652a5b46ff3",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2388,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:58:30.247507+00:00",
+  "output": "The passage begins by contrasting Antonina’s fate with that of the Marlboroughs, noting that after Theodora’s death, the couple lost imperial favor [PDF p. 101]. The author then identifies the Circus factions, the Blues and Greens, as a greater threat to Justinian than the Persian War [PDF p. 101]. By 530, these groups had evolved from sporting clubs into political parties, with the Greens supporting the late Emperor Anastasius and Monophysitism, while the Blues backed Justinian’s house and orthodoxy [PDF p. 101]. The author judges that despite their political growth, they retained violent, low origins that posed a serious danger to the state [PDF p. 101].\n\nIn January 532, Justinian ordered the execution of riot leaders from both factions [PDF p. 101]. A bungled hanging allowed two prisoners to escape, triggering a mob uprising [PDF p. 102]. The author describes Justinian as weak when he initially promised to dismiss unpopular officials, but the mob escalated its demands to depose the Emperor and install Hypatius [PDF p. 102]. With troops away at war, Belisarius commanded the remaining forces against the rioters [PDF p. 102]. Fighting around the Augustaeum caused a fire that destroyed St. Sophia [PDF p. 103]. The rebels crowned Hypatius, who had taken refuge in the palace, only after Justinian forced him out [PDF p. 103].\n\nMinisters urged Justinian to flee by sea, but Theodora refused, arguing that empire was a better shroud than exile [PDF p. 105]. Inspired by her speech, Justinian ordered a final assault [PDF p. 105]. Belisarius forced the Hippodrome’s side gates, trapping the rebels and killing thousands [PDF p. 105]. The author reports that 35,000 men died in the Nika Sedition [PDF p. 106]. Despite this slaughter, the factions continued rioting for fifty years, though they never again threatened to change history’s course [PDF p. 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 474,
+    "prompt_tokens": 2388,
+    "total_tokens": 2862,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 2306,
+    "prompt_ms": 7213.886,
+    "prompt_per_token_ms": 3.1283113616652214,
+    "prompt_per_second": 319.66127549007564,
+    "predicted_n": 474,
+    "predicted_ms": 32907.253,
+    "predicted_per_token_ms": 69.57135940803381,
+    "predicted_per_second": 14.373730921873062
+  },
+  "first_visible_seconds": 7.281891749999986,
+  "wall_seconds": 40.188380957999996,
+  "word_count": 302,
+  "finished_at": "2026-09-08T13:59:10.732753+00:00"
+}

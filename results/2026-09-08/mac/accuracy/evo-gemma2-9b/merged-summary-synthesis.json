@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "658264b4eb712886d915fffa630e24bc6f80dc9e64b67df2f47d7c303e22ee7d",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1755,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:14:52.576779+00:00",
+  "output": "The author of this historical work describes the events leading up to and including the Battle of Adrianople in 378 AD.  Constantine, recognizing the strategic importance of his Balkan fortress-capital, had foreseen the potential threat posed by the Huns. Around 372 AD, the Huns, a powerful Tartar horde, invaded the region, devastating the Alans and forcing the Ostrogoths into servitude. The Huns then attacked the Visigoths, who fled westward, eventually reaching the Roman border. Facing the threat of the Huns and desperate for refuge, the Visigoths appealed to Emperor Valens for permission to cross the Danube. Valens, fearing both the Goths' potential rebellion and the Huns' advance, allowed them to enter the empire on the condition that they surrender their weapons and accept Roman rule. However, Roman officials in Moesia, instead of providing the promised aid, extorted the Goths, leading to widespread starvation and resentment. This culminated in a violent clash between the Goths and Roman soldiers at Marcianopolis, where the Goths, led by Fritigern, were attacked by Roman officials. This incident sparked open war between the Goths and the Roman Empire. The author describes the Battle of Adrianople as a decisive Gothic victory, where the Roman army, despite its reputation for invincibility, was decimated by the Goths' superior cavalry tactics. The author compares the defeat to the Roman loss at Cannae. The Goths, after their victory, attempted to attack Constantinople but were ultimately deterred by the city's formidable defenses.\n\nThe author then examines the decline of Latin and the rise of Christianity in the Roman Empire.  By the seventh century, Latin was rapidly disappearing in the East, though it remained the language of the ruling class. Ammianus Marcellinus, born in Greece, exemplifies this trend, writing in Latin despite his Greek heritage. The author attributes this decline to the practical separation of Rome and the East after the division of the empire. He argues that the Eastern provinces, which spoke Latin, were heavily impacted by barbarian invasions, leading to a decline in Latin speakers. By 620, only a tenth of the population east of the Adriatic spoke Latin. The author notes that the last notable Latin author was Flavius Corippus, an African poet who wrote in the sixth century. The author then discusses the increasing influence of Christianity on Roman society. He argues that Constantine's conversion marked the beginning of this shift, though the full impact was felt forty years later. The author cites Theodosius I's crusade against immorality and the abolition of gladiatorial games as evidence of Christianity's influence. He also notes that Christianity's emphasis on the individual soul led to a change in attitudes towards slaves, women, and infants. The author acknowledges that this shift was not always positive, citing the rise of monasticism as an example. He argues that the ascetic focus on individual salvation led to a neglect of civic duty, hindering the empire's ability to resist barbarian invasions. The author concludes by stating that paganism had largely disappeared by the sixth century, replaced by a widespread indifference to religion among the educated classes. \n\nThe eighty years following Basil the Macedonian's death were marked by the reigns of Leo the Wise and Constantine Porphyrogenitus, described by the author as \"mild, strange issue\" from Basil's lineage. These emperors, unlike their predecessor, were not military leaders but preferred literature, leaving behind valuable works. The author believes that if the times had been more turbulent, Leo and Constantine might not have been strong enough to protect their throne. The period from 880 to 960 was relatively peaceful for the Byzantine Empire. The Caliphate was fracturing, the Bulgarians and other neighbors were converting to Christianity, and the only threats were occasional raids from Russians and Saracens. Leo's reign was mostly uneventful, except for a failed Bulgarian invasion and a raid on Thessalonica by Saracens in 904. The author acknowledges that the capture of Thessalonica was a disgrace for Leo's administration but notes that the city was taken by surprise. Constantine Porphyrogenitus, Leo's son, came to power at age 40 after years under the rule of guardians and the ambitious Romanus Lecapenus. Constantine's ascension was aided by popular unrest against Lecapenus' sons who had declared themselves emperors. Constantine's reign was not marked by great achievements but he was not tyrannical. Both Leo and Constantine are praised for their literary contributions. Leo's \"Tactica\" provides valuable insights into the Byzantine army's organization, tactics, and resources. Constantine's works include \"On the Themes,\" \"On the Administration of the Empire,\" and a biography of Basil the Macedonian. The author concludes that the literary revival under Leo and Constantine signifies the end of a period of intellectual decline in the Byzantine Empire. \n\nThe author argues that the Byzantine Empire's decline after 1370 was inevitable.  Murad I's failure to capture Constantinople in 1370 did not significantly alter the course of events in Eastern Europe because the empire had already lost its function as a bulwark against the Ottomans. The author states that the Paleologi emperors, through their subservience to the Turks, prolonged the empire's existence beyond its natural lifespan. John Paleologus' reign was marked by his son Andronicus's rebellion and the subsequent blinding of the son. John's later years were spent trying to secure his succession, ultimately choosing his second son Manuel over Andronicus. Manuel, despite his limited resources, saw an opportunity to regain lost territory during the Ottoman civil war following Timur's defeat of Bayezid I in 1402. Manuel allied with Suleiman, one of Bayezid's sons, and regained control of Thessalonica and other territories. However, this success was short-lived. The author notes that Europe missed a chance to expel the Ottomans during this period of instability.  Sigismund of Hungary, who could have led a crusade, was preoccupied with the Hussite Wars in Bohemia.  By 1421, Mohammed, Bayezid's youngest son, had unified the Ottoman Empire and turned his attention back to Constantinople.  Manuel's attempt to support rival claimants to the Ottoman throne against Mohammed backfired, leading to a siege of Constantinople in 1422.  The city was saved, but Manuel was forced to cede most of his remaining territories. John VI, Manuel's successor, reigned peacefully but ineffectually.  He attempted to secure aid from the West by converting to Roman Catholicism and attending the Councils of Ferrara and Florence.  However, the papacy was weak and unable to offer meaningful assistance.  The author concludes that John VI's reign was marked by the loss of Thessalonica to the Ottomans in 1430, highlighting the empire's continued decline. \n\n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1421,
+    "prompt_tokens": 1755,
+    "total_tokens": 3176,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 1754,
+    "prompt_ms": 1977.417,
+    "prompt_per_token_ms": 1.1273757126567845,
+    "prompt_per_second": 887.0157382079753,
+    "predicted_n": 1421,
+    "predicted_ms": 39079.384,
+    "predicted_per_token_ms": 27.520692957746476,
+    "predicted_per_second": 36.336294348959036
+  },
+  "first_visible_seconds": 2.1605065000001105,
+  "wall_seconds": 41.24019654200015,
+  "word_count": 1074,
+  "finished_at": "2026-09-08T15:15:35.304979+00:00"
+}

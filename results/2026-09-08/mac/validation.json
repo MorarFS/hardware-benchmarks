@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "accepted_artifacts": 16,
+  "accepted_speed_measurements": 51,
+  "within_run_timed_samples": 255,
+  "accepted_depth_processes": 34,
+  "history_artifacts_reviewed": 15,
+  "history_requests_submitted": 179,
+  "development_requests_included_in_179": 30,
+  "heldout_requests": 149,
+  "history_stage_statuses": {
+    "ok": 178,
+    "context_excluded": 1,
+    "capped": 1
+  },
+  "extraction_answers_adjudicated": 300,
+  "coverage_annotations": 704,
+  "all_accepted_offload_and_ac_checks_passed": true,
+  "all_frozen_payload_and_stream_validations_passed": true,
+  "all_development_output_hashes_verified": true,
+  "all_visible_token_output_hashes_and_rates_verified": true,
+  "windows_summary_prefix_sha256": "5a9fe7ebb145fabd13ab980e079965b9954285f512ab004d508d36889dbebcfa",
+  "main_summary_rows": 79,
+  "original_windows_rows": 28,
+  "markdown_files_link_checked": 211,
+  "artifact_text_files_privacy_checked": 1290,
+  "pipeline_tests_passed": {
+    "speed": 7,
+    "history": 10
+  },
+  "frozen_fixture_hashes_passed": 17,
+  "upstream_base": "f15a5e3",
+  "quality_review": "Codex (GPT-6), AI-assisted source adjudication; these mechanical checks do not establish correctness of the manual judgments.",
+  "above40_visible_phase": [
+    "evo-gemma26",
+    "evo-qwen35-community",
+    "evo-qwen35-mtp-off",
+    "gemma4-26b",
+    "qwen36-35b"
+  ],
+  "above40_request_wall": [
+    "evo-qwen35-community",
+    "evo-qwen35-mtp-off"
+  ]
+}

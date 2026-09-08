@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "fef50a405df3aed32db7e4cd443d2153e1f66296e2baec2b57b2f90703b1170a",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3408,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:38:58.275569+00:00",
+  "output": "\n\n**Connected Summary (180-220 words)**\n\n**Beginning (ca. A.D. 372-376)**: The Huns, a massive Tartar horde, invaded lands north of the Euxine, decimating the Alans and then targeting the Goths [PDF p. 61]. The Ostrogoths were crushed, becoming Hun vassals, while a Visigothic remnant fled to the Danube's Wallachian shore [PDF p. 61]. Pressed by the Huns, the Visigoths, under Duke Fritigern, sought permission from the Roman Emperor Valens to cross the Danube, promising loyalty in exchange for refuge [PDF p. 62].\n\n**Middle (A.D. 376)**: Valens, described as \"stupid, cowardly, and avaricious\" [PDF p. 62], reluctantly agreed, demanding hostages and disarmament. However, Roman officials, notably Governor Lupicinus, exploited the Goths, leading to starvation and desperation [PDF p. 63]. Tensions escalated, culminating in a deadly affray at Marcianopolis, where Goths, including Fritigern, fought back, sparking open rebellion [PDF p. 63].\n\n**Ending (A.D. 378)**: The ensuing war saw the Goths, now mounted warriors, clash with Roman armies along the Danube and Balkans [PDF p. 64-65]. Valens's personal intervention ended in disaster at the Battle of Adrianople, where Gothic cavalry decimated the Roman army, killing Valens and annihilating nearly 40,000 men [PDF p. 66-67]. The Goths then marched towards Constantinople but were awed by its formidable walls, abandoning their assault [PDF p. 67]. The author evaluates this sequence as a testament to Constantine's foresight in building the fortified capital, which withstood the Goths' advance [PDF p. 67]. This defeat marked a significant blow to Roman military prestige and highlighted the growing challenge posed by barbarian groups.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 428,
+    "prompt_tokens": 3408,
+    "total_tokens": 3836,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3321,
+    "prompt_ms": 23003.823,
+    "prompt_per_token_ms": 6.926775971093044,
+    "prompt_per_second": 144.36730799050227,
+    "predicted_n": 428,
+    "predicted_ms": 61379.871,
+    "predicted_per_token_ms": 143.7467704918033,
+    "predicted_per_second": 6.956678028860634
+  },
+  "first_visible_seconds": 23.09031245899999,
+  "wall_seconds": 84.480725917,
+  "word_count": 251,
+  "finished_at": "2026-09-08T14:40:23.238857+00:00"
+}

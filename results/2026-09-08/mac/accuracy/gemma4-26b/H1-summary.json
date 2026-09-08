@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "00e01cdcf1b7eb396a707849014878e4a968fddbf960188cb7ecf72788466e1d",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3442,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:31:29.160848+00:00",
+  "output": "Around A.D. 372, the Huns moved westward, nearly exterminating the Alans and crushing the Ostrogoths [PDF p. 61]. The Visigoths, fleeing the Huns, reached the Danube and requested permission from the Emperor to cross the border [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. Valens permitted the Goths to settle as subject-allies provided they surrendered their arms and gave hostages [PDF p. 63]. However, Roman officials accepted bribes to allow the Goths to keep their weapons, and the governor Lupicinus engaged in shameless extortion by withholding food [PDF p. 63]. This desperation led to a violent outbreak at Marcianopolis, prompting Fritigern to lead the Goths in war against Rome [PDF p. 63].\n\nIn A.D. 378, Valens engaged the Goths near Adrianople [PDF p. 65]. While the Roman infantry was traditionally considered superior, the Goths had adopted horse-back fighting [PDF p. 65]. A Gothic cavalry charge crushed the Roman flanks and compressed the infantry into a helpless, suffocating mass [PDF p. 66]. The battle resulted in the death of Valens and forty thousand men, an event the author describes as a fearful defeat comparable to Cannae [PDF p. 66, 67]. Although the Goths approached Constantinople, they failed to attack the city walls [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 338,
+    "prompt_tokens": 3442,
+    "total_tokens": 3780,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3359,
+    "prompt_ms": 2830.537,
+    "prompt_per_token_ms": 0.8426725215838047,
+    "prompt_per_second": 1186.7006154662524,
+    "predicted_n": 338,
+    "predicted_ms": 6355.787,
+    "predicted_per_token_ms": 18.859902077151336,
+    "predicted_per_second": 53.022544651040064
+  },
+  "first_visible_seconds": 2.9032460410000027,
+  "wall_seconds": 9.259737958000002,
+  "word_count": 216,
+  "finished_at": "2026-09-08T13:31:39.291612+00:00"
+}

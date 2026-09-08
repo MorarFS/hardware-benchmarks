@@ -1,0 +1,6 @@
+{
+  "failure": "16K context also exceeded fixed1GiB swap-growth guard, at H4-summary. Nine completed requests retained.",
+  "next_configuration": "Same32K context and frozen requests with explicit1024MiB RAM prompt-cache limit; runtime default was8192MiB. No source truncation or KV quantization.",
+  "reason": "RAM prompt cache had accumulated severalGiB across independent tasks; limiting retained old prompt states targets that observed memory overhead.",
+  "no_full_battery_accuracy_score": true
+}

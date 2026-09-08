@@ -1,0 +1,310 @@
+[
+  {
+    "evo_id": "gemma26",
+    "label": "Gemma4 26B A4B UD-Q4_K_M",
+    "repository": "unsloth/gemma-4-26B-A4B-it-GGUF",
+    "files": [
+      {
+        "file": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+        "bytes": 16947541728,
+        "sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f"
+      }
+    ],
+    "file_size_bytes": 16947541728,
+    "status": "verified_matching_source",
+    "revision": "c099eb48e663fd284577b04978a94ffccb261841",
+    "selected_hf_files": [
+      {
+        "rfilename": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+        "blobId": "f5c4a0fda98ac1b2d4a4d0133995b50fc871e5a3",
+        "size": 16947541728,
+        "lfs": {
+          "sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f",
+          "size": 16947541728,
+          "pointerSize": 136
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "qwen35-mtp-off",
+    "label": "Qwen3.6 35B A3B UD-Q4_K_M, MTP OFF",
+    "repository": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+    "files": [
+      {
+        "file": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+        "bytes": 22663387424,
+        "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b"
+      }
+    ],
+    "file_size_bytes": 22663387424,
+    "status": "verified_matching_source",
+    "revision": "5bc3e238d916f48a861bac2f8a1990a0e9b7e98d",
+    "selected_hf_files": [
+      {
+        "rfilename": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+        "blobId": "b15d02d422205af4a836134ee8ff16e7d8226113",
+        "size": 22663387424,
+        "lfs": {
+          "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b",
+          "size": 22663387424,
+          "pointerSize": 136
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "qwen38-flash-next",
+    "label": "Qwen3.8 Flash Next UD-IQ4_XS, MTP OFF",
+    "repository": "unsloth/Qwen3.8-Flash-Next-GGUF",
+    "files": [
+      {
+        "file": "Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+        "bytes": 10946624,
+        "sha256": "5ce89370720f8bf90890f439361282104c1aa1482d4013bb9a50923e758e71a4"
+      },
+      {
+        "file": "Qwen3.8-Flash-Next-UD-IQ4_XS-00002-of-00003.gguf",
+        "bytes": 49835229856,
+        "sha256": "577a38a2392b40ca2193cea502e1d92f60b8cd370675d308e0ec21885d9daaa7"
+      },
+      {
+        "file": "Qwen3.8-Flash-Next-UD-IQ4_XS-00003-of-00003.gguf",
+        "bytes": 43836407744,
+        "sha256": "d4634e6d84f0ebb0940be15c90d3790bf6464e3dea3a1cddc567dc0e83ad8833"
+      }
+    ],
+    "file_size_bytes": 93682584224,
+    "status": "preflight_excluded",
+    "reason": "Published weight files alone exceed 38 GiB, leaving inadequate OS/runtime reserve on 48 GiB with a 37.4 GiB Metal recommended working set."
+  },
+  {
+    "evo_id": "gptoss120",
+    "label": "GPT-OSS120 MXFP4",
+    "repository": "ggml-org/gpt-oss-120b-GGUF",
+    "files": [
+      {
+        "file": "gpt-oss-120b-MXFP4.gguf",
+        "bytes": 63387346208,
+        "sha256": "582bd40f6886200101f4c4ed9f25f3fe80cc14c86e9e2b37746cd8904a0c622d"
+      }
+    ],
+    "file_size_bytes": 63387346208,
+    "status": "preflight_excluded",
+    "reason": "Published weight files alone exceed 38 GiB, leaving inadequate OS/runtime reserve on 48 GiB with a 37.4 GiB Metal recommended working set."
+  },
+  {
+    "evo_id": "gemma31",
+    "label": "Gemma4 31B Q4_K_M",
+    "repository": "lmstudio-community/gemma-4-31B-it-GGUF",
+    "files": [
+      {
+        "file": "gemma-4-31B-it-Q4_K_M.gguf",
+        "bytes": 18687063904,
+        "sha256": "8f3479643461601703f717931e399cc440dbd5ada598c025d6296c8165d94be9"
+      }
+    ],
+    "file_size_bytes": 18687063904,
+    "status": "verified_matching_source",
+    "revision": "67a72ce462184ca84e9531dfe657ee73b4ecc89d",
+    "selected_hf_files": [
+      {
+        "rfilename": "gemma-4-31B-it-Q4_K_M.gguf",
+        "blobId": "e6a85f2a2cc6760bc8fa93cc2aa6d936cdc514d3",
+        "size": 18687063904,
+        "lfs": {
+          "sha256": "8f3479643461601703f717931e399cc440dbd5ada598c025d6296c8165d94be9",
+          "size": 18687063904,
+          "pointerSize": 136
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "qwen38-27b",
+    "label": "Qwen3.8 27B Q4_K_M",
+    "repository": "lmstudio-community/Qwen3.8-27B-GGUF",
+    "files": [
+      {
+        "file": "Qwen3.8-27B-Q4_K_M.gguf",
+        "bytes": 16810714336,
+        "sha256": "e00082f779fa385cee8c68a3ec8833a75778cc87272240b942f74e0b8243e520"
+      }
+    ],
+    "file_size_bytes": 16810714336,
+    "status": "verified_matching_source",
+    "revision": "5a7da681f60570ab5b439a587e912d2e5eddb582",
+    "selected_hf_files": [
+      {
+        "rfilename": "Qwen3.8-27B-Q4_K_M.gguf",
+        "blobId": "9d18594302c795620949fac9fe03b68faef925d9",
+        "size": 16810714336,
+        "lfs": {
+          "sha256": "e00082f779fa385cee8c68a3ec8833a75778cc87272240b942f74e0b8243e520",
+          "size": 16810714336,
+          "pointerSize": 136
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "qwen35-community",
+    "label": "Qwen3.6 35B A3B community Q4_K_M, speculation OFF",
+    "repository": "lmstudio-community/Qwen3.6-35B-A3B-GGUF",
+    "files": [
+      {
+        "file": "Qwen3.6-35B-A3B-Q4_K_M.gguf",
+        "bytes": 21166757728,
+        "sha256": "4ac6a06bce551257267f49ad2226f8671a22519ccc1a4dde9d5b433d1f2a410d"
+      }
+    ],
+    "file_size_bytes": 21166757728,
+    "status": "verified_matching_source",
+    "revision": "68a34855558af61cbef0324d31f411be8a506b08",
+    "selected_hf_files": [
+      {
+        "rfilename": "Qwen3.6-35B-A3B-Q4_K_M.gguf",
+        "blobId": "ec153829879bfa964b689306f4e3de042f4c2037",
+        "size": 21166757728,
+        "lfs": {
+          "sha256": "4ac6a06bce551257267f49ad2226f8671a22519ccc1a4dde9d5b433d1f2a410d",
+          "size": 21166757728,
+          "pointerSize": 136
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "gemma12-qat",
+    "label": "Gemma4 12B QAT Q4_0",
+    "repository": "lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+    "files": [
+      {
+        "file": "gemma-4-12B-it-QAT-Q4_0.gguf",
+        "bytes": 6975879008,
+        "sha256": "f568ac5de71c8fcac5d5794494388ad94db9e18b4368ca897e21b30d2448eeec"
+      }
+    ],
+    "file_size_bytes": 6975879008,
+    "status": "verified_matching_source",
+    "revision": "aaec3dd9d1012557147a627142759994d1fd8d37",
+    "selected_hf_files": [
+      {
+        "rfilename": "gemma-4-12B-it-QAT-Q4_0.gguf",
+        "blobId": "01e97ac6aa548d894f07a1b77725603c1d6fae40",
+        "size": 6975879008,
+        "lfs": {
+          "sha256": "f568ac5de71c8fcac5d5794494388ad94db9e18b4368ca897e21b30d2448eeec",
+          "size": 6975879008,
+          "pointerSize": 135
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "ministral14",
+    "label": "Ministral3 14B Reasoning Q4_K_M",
+    "repository": "lmstudio-community/Ministral-3-14B-Reasoning-2512-GGUF",
+    "files": [
+      {
+        "file": "Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf",
+        "bytes": 8239066144,
+        "sha256": "4477e334330e7a6dcc827025eb6a18b6b97ea84e70dc6998cf1fbda04c483dff"
+      }
+    ],
+    "file_size_bytes": 8239066144,
+    "status": "verified_matching_source",
+    "revision": "5a7eddeccc65cb59551db79d0d0bc32312c5ea8d",
+    "selected_hf_files": [
+      {
+        "rfilename": "Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf",
+        "blobId": "52601314a55d4296790b899982d97a1f21432d3b",
+        "size": 8239066144,
+        "lfs": {
+          "sha256": "4477e334330e7a6dcc827025eb6a18b6b97ea84e70dc6998cf1fbda04c483dff",
+          "size": 8239066144,
+          "pointerSize": 135
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "deepseek4-flash",
+    "label": "DeepSeek V4 Flash 0731 UD-IQ2_M",
+    "repository": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+    "files": [
+      {
+        "file": "DeepSeek-V4-Flash-0731-UD-IQ2_M-00001-of-00003.gguf",
+        "bytes": 5257664,
+        "sha256": "057a3aacf912e079f22d07b94bc3b4ef46c6632476bc0bd1761347eb08edb2aa"
+      },
+      {
+        "file": "DeepSeek-V4-Flash-0731-UD-IQ2_M-00002-of-00003.gguf",
+        "bytes": 49956780160,
+        "sha256": "700405274473b58fa26be4f14e4a194c2e7554fa3a052f62a0c50c568e89fc1f"
+      },
+      {
+        "file": "DeepSeek-V4-Flash-0731-UD-IQ2_M-00003-of-00003.gguf",
+        "bytes": 40964890464,
+        "sha256": "a69102ddfaf4a84426e11fdb66716654f4260dc3a1de3ade9fd50e006b8691d3"
+      }
+    ],
+    "file_size_bytes": 90926928288,
+    "status": "preflight_excluded",
+    "reason": "Published weight files alone exceed 38 GiB, leaving inadequate OS/runtime reserve on 48 GiB with a 37.4 GiB Metal recommended working set."
+  },
+  {
+    "evo_id": "gemma12-coding",
+    "label": "Gemma4 Coding 12B Q4_K_M",
+    "repository": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "files": [
+      {
+        "file": "gemma4-coding-Q4_K_M.gguf",
+        "bytes": 7381381664,
+        "sha256": "1fe90b72e105d7bc71650aa59883edece3e84751af489075217a7ae717b1fe8d"
+      }
+    ],
+    "file_size_bytes": 7381381664,
+    "status": "verified_matching_source",
+    "revision": "1380be1796e559fca96b4107599285cab3ddbb92",
+    "selected_hf_files": [
+      {
+        "rfilename": "gemma4-coding-Q4_K_M.gguf",
+        "blobId": "3a31b40dc84d1b3b439b132d7cb85333a85f5aab",
+        "size": 7381381664,
+        "lfs": {
+          "sha256": "1fe90b72e105d7bc71650aa59883edece3e84751af489075217a7ae717b1fe8d",
+          "size": 7381381664,
+          "pointerSize": 135
+        }
+      }
+    ]
+  },
+  {
+    "evo_id": "gemma2-9b",
+    "label": "Gemma2 9B IT Q4_K_M",
+    "repository": "bartowski/gemma-2-9b-it-GGUF",
+    "files": [
+      {
+        "file": "gemma-2-9b-it-Q4_K_M.gguf",
+        "bytes": 5761057728,
+        "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe"
+      }
+    ],
+    "file_size_bytes": 5761057728,
+    "status": "verified_matching_source",
+    "revision": "d731033f3dc4018261fd39896e50984d398b4ac5",
+    "selected_hf_files": [
+      {
+        "rfilename": "gemma-2-9b-it-Q4_K_M.gguf",
+        "blobId": "da83fd72165a1b61ea40d5926059192334208f5c",
+        "size": 5761057728,
+        "lfs": {
+          "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+          "size": 5761057728,
+          "pointerSize": 135
+        }
+      }
+    ]
+  }
+]

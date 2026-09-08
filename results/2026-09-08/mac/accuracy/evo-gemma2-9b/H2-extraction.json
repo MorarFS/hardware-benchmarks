@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "3e67f2b91ec9bc48871d927772e77bbe5624edd34521167c248bc92605f1fb2e",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3681,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:13:19.169329+00:00",
+  "output": "H2-Q1: Who intervened in the gladiatorial games, in what year, and what happened to him?\nThe monk Telemachus intervened in the gladiatorial games in AD 404. He was slain during an angry scuffle. [PDF p. 172]\n\nH2-Q2: Who made infanticide a capital offence, and when?\nValentinian I made infanticide a capital offence in 374. [PDF p. 173]\n\nH2-Q3: Did the passage claim Christianity immediately ended slavery? State its qualification.\nNo, the passage states that Christianity did not immediately end slavery, but it \"immensely modified\" its evils. [PDF p. 173]\n\nH2-Q4: Why did Oman regard widespread ascetic monasticism as politically dangerous?\nOman believed widespread ascetic monasticism was politically dangerous because it led men to neglect their duties as citizens. [PDF p. 175]\n\nH2-Q5: How many monasteries existed in the empire in AD 404?\nNot stated in the supplied passage. \n\n\n",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 238,
+    "prompt_tokens": 3681,
+    "total_tokens": 3919,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    }
+  },
+  "timings": {
+    "cache_n": 1,
+    "prompt_n": 3680,
+    "prompt_ms": 4467.507,
+    "prompt_per_token_ms": 1.2139964673913042,
+    "prompt_per_second": 823.7256259475364,
+    "predicted_n": 238,
+    "predicted_ms": 6998.329,
+    "predicted_per_token_ms": 29.52881434599156,
+    "predicted_per_second": 33.8652269706097
+  },
+  "first_visible_seconds": 4.618037374999858,
+  "wall_seconds": 11.616695374999836,
+  "word_count": 138,
+  "finished_at": "2026-09-08T15:13:31.340598+00:00"
+}

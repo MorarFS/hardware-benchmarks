@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "4c2bb0db97b383d60cd0036f5903123c4b0f19b99012b442a75f82503b22a653",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2388,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:13:18.481221+00:00",
+  "output": "The author describes the Blues and Greens as factions that evolved from circus groups into dangerous political parties by 532 [PDF p. 101]. Justinian ordered the execution of riot leaders, but a botched hanging allowed two criminals to escape into sanctuary, sparking six days of rioting [PDF p. 102]. The factions united under the slogan \"Nika,\" demanding the dismissal of unpopular ministers and the deposition of Justinian [PDF p. 102]. With the city largely undefended, the mob burned key structures, including St. Sophia, and installed Hypatius as emperor [PDF p. 103]. The author notes that Hypatius was reluctant and had initially sought refuge with Justinian before being forced into the role [PDF p. 103]. Ministers urged the Emperor to flee, but Empress Theodora refused, arguing that imperial dignity outweighed life [PDF p. 105]. She famously declared that empire is the best winding sheet, persuading Justinian to fight [PDF p. 105]. Belisarius led the Imperial Guard in a final assault on the Hippodrome [PDF p. 105]. The rebels were trapped and slaughtered, with the author citing a death toll of thirty-five thousand [PDF p. 106]. The author observes that while the factions continued to riot for fifty years, they never again threatened the regime so severely [PDF p. 106]. This assessment highlights the unique historical significance of the Nika Riot compared to subsequent disturbances [PDF p. 106]. The narrative concludes by emphasizing the decisive nature of Theodora’s intervention and the brutal suppression of the uprising [PDF p. 105]. The text preserves the tension between the Emperor’s initial weakness and the Empress’s decisive courage [PDF p. 105].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 389,
+    "prompt_tokens": 2388,
+    "total_tokens": 2777,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 2306,
+    "prompt_ms": 1521.121,
+    "prompt_per_token_ms": 0.6596361665221162,
+    "prompt_per_second": 1515.987222581241,
+    "predicted_n": 389,
+    "predicted_ms": 6373.118,
+    "predicted_per_token_ms": 16.425561855670104,
+    "predicted_per_second": 60.88071804099658
+  },
+  "first_visible_seconds": 1.5530160839999994,
+  "wall_seconds": 7.926574374999998,
+  "word_count": 265,
+  "finished_at": "2026-09-08T16:13:26.599702+00:00"
+}

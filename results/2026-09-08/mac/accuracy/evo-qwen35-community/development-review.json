@@ -1,0 +1,38 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "b656f04bb954b25b432723e92e0cd600ca4a71f8d82eddfec907ee7e3ae439f1",
+    "development-summary": "27eb8d5c381200aa7b1c5d3e28d44ac7da5ffbf95b4ff60023d8dcccf125568d"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected and two survivors correctly stated, although the marked quotation supports selection rather than the full survivor explanation."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Explicitly preserves reported six-day scope."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correctly says the exact minutes are absent; extra six-day context and quotation do not follow the exact-only abstention format. It does not explicitly assert a six-day final assault."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "riots erupted after an execution botch",
+      "judgment": "ambiguous",
+      "source_pages": [
+        101,
+        102
+      ],
+      "rationale": "Initial January street riots preceded the execution order; the larger Nika uprising followed the botched hanging. The later sentence makes the six-day referent plausible, so this is event-compression ambiguity."
+    }
+  ],
+  "summary_review": "Main faction/revolt/demands/Hypatius/fire/Theodora/assault/continued-unrest sequence is source-supported. Says 35,000 in this sedition, without restricting it to the final assault. Author states approximately is less precise about the nested it-is-said testimony, but remains attributed. Omits opening Antonina comparison and precise religious faction allegiances. Rebels setting fire to Senate House and St. Sophia compresses spreading fire from the adjacent Brazen Porch, rather than asserting separate intentional ignitions."
+}

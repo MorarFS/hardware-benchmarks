@@ -2,6 +2,8 @@
 
 **History source-fidelity on Arc:** [SYCL results and source adjudication](results/2026-09-08/arc-history-v2/README.md), using the frozen Evo history-v2 suite. Runtime, weight and grading differences are documented.
 
+The [Apple M5 Pro report](MAC-M5-PRO.md) adds measured Metal speed and historical source-fidelity accuracy. The MacBook Pro has 18 CPU cores, 20 GPU cores and 48 GiB unified memory, running macOS 26.5.1 on AC in Automatic mode. See the [matched speed comparison](results/2026-09-08/mac/matched-speed-comparison.md) and [accuracy scoreboard](results/2026-09-08/mac/accuracy/scoreboard.md) for completed results and per-model status. The campaign covers the original five Arc artifacts, nine feasible exact Evo artifacts, and separate 122B/180B capacity candidates; weight and context exclusions are explicit.
+
 Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model, followed by a Nemotron 49B capacity test and three newer-model tests on the Intel GPU. These measure this complete machine and software configuration, including the external GPU connection.
 
 **8B comparison completed:** Intel Vulkan and SYCL were repeated at depth 0; initial and repeat results are retained separately. SYCL produced the highest measured generation throughput among the working backends in these tests. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
@@ -86,7 +88,7 @@ Inspect local logs for actual GPU offload and fallback before sharing results. R
 
 ## Limits
 
-One laptop, five four-bit model artifacts, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. No energy, quality, tokenization, sampling, application latency or concurrency benchmark was performed.
+The Windows laptop's five four-bit model artifacts, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. Those synthetic runs did not measure energy, quality, tokenization, sampling, application latency or concurrency; the separately documented Mac accuracy battery does not change their scope.
 
 OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
@@ -117,7 +119,7 @@ Both logs report a **28,244.70 MiB SYCL0 model buffer** and a **563.62 MiB CPU_M
 
 These are Windows **GPU Process Memory** samples taken approximately every six seconds, including model loading and inference. The selected counter instance is the process adapter with the largest dedicated-memory sample. Each column is its own sampled maximum and need not occur at the same instant; the short run also includes prompt processing. These counters are not an exact sum of llama.cpp's buffer reports, can miss brief peaks, and do not prove that paging never occurred. The small measured shared-memory use is retained explicitly. There is no zero-CPU or zero-paging claim.
 
-Sanitized benchmark JSON, offload excerpts, memory time series and `capacity-fit-summary.json` are in `results/2026-09-08/capacity/`. CSV adapter names are `primary-benchmark-adapter` for the peak-dedicated instance and `other-adapter-N` for the remaining instances; process IDs and adapter LUIDs are removed. The primary label follows the counter-selection rule, not an independently verified LUID-to-device mapping. Original values and elapsed times are retained. `results/summary.csv` contains **28 measurements**: the original 19 plus nine completed newer-model follow-up rows; the original 16-row 8B summary is preserved.
+Sanitized benchmark JSON, offload excerpts, memory time series and `capacity-fit-summary.json` are in `results/2026-09-08/capacity/`. CSV adapter names are `primary-benchmark-adapter` for the peak-dedicated instance and `other-adapter-N` for the remaining instances; process IDs and adapter LUIDs are removed. The primary label follows the counter-selection rule, not an independently verified LUID-to-device mapping. Original values and elapsed times are retained. `results/summary.csv` preserves **28 original Windows measurements**: the original 19 plus nine completed newer-model follow-up rows. New Mac measurements are appended; the original 16-row 8B summary is also preserved.
 
 The raw runtime `model_type` remains `deci 70B Q4_K - Medium`; this is a heuristic label, not the artifact's actual size. The verified model identity is Nemotron Super 49B v1.5, and JSON reports **49,867,145,280 parameters**. The GGUF file has 30,215,579,136 bytes; llama-bench reports 30,207,721,728 bytes of model tensors.
 
@@ -141,11 +143,11 @@ The download and benchmark scripts use the pinned manifest in `scripts/models.js
 
 ## Separated history accuracy pilot
 
-The [frozen history-v2 package](experiments/history-v2/USAGE.md) provides fixed source passages, 20 questions, evaluator references, and a portable Python runner for LM Studio. It separates extraction, direct summaries, merged summaries, and a full-source control. It includes no completed accuracy scores. See the [method notes](experiments/history-v2/METHOD-NOTES.md) for the seed limitation, API compatibility, and Codex-assisted evaluator identity.
+The [frozen history-v2 package](experiments/history-v2/USAGE.md) provides fixed source passages, 20 questions, evaluator references, and a portable Python runner for LM Studio. It separates extraction, direct summaries, merged summaries, and a full-source control. The original fixture package includes no scores; the new [Mac adaptation and completed results](results/2026-09-08/mac/accuracy/README.md) retain its inputs and rubric, with the changed runtime and configuration made explicit. See the [method notes](experiments/history-v2/METHOD-NOTES.md) for the original seed limitation, API compatibility, and Codex-assisted evaluator identity.
 
 ## Evo X3 and Mac reproduction
 
-The [completed Evo speed package](results/2026-09-08/evo/README.md) includes the twelve-model Vulkan matrix, every measured repetition, two retained loading timeouts, exact model hashes, matched Qwen8 backend comparisons, and separate prose/ROCm repair evidence. Use the [Mac/Metal guide](MAC-BENCHMARK.md) to prepare the same Qwen8 synthetic baseline on Apple Silicon. No Mac inference was run during publication.
+The [completed Evo speed package](results/2026-09-08/evo/README.md) includes the twelve-model Vulkan matrix, every measured repetition, two retained loading timeouts, exact model hashes, matched Qwen8 backend comparisons, and separate prose/ROCm repair evidence. The [measured M5 Pro report](MAC-M5-PRO.md) now provides the Apple Silicon results and reproduction commands. The earlier [Mac/Metal preparation guide](MAC-BENCHMARK.md) is retained. Cross-computer matched comparisons require identical model hashes; the original Arc Qwen artifacts differ from the Evo files, which were also tested separately on the Mac.
 
 ## Historical source evaluation
 

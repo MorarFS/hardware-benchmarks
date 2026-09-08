@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "571453847c171e27250cbcedc26cc999a4cb60cb5e8af658d916a8a9c6d306ab",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2405,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:09:17.807161+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, and four of them died. \"Seven were selected for execution, and four of them were duly beheaded\" [PDF p. 102].\n\nD-Q2: The passage does not attribute 35,000 deaths solely to the Hippodrome assault. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: The exact duration of the Hippodrome assault is not stated in the supplied passage. Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2405,
+    "total_tokens": 2540,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2405,
+    "prompt_ms": 2325.156,
+    "prompt_per_token_ms": 0.9668008316008316,
+    "prompt_per_second": 1034.3392013267066,
+    "predicted_n": 135,
+    "predicted_ms": 3177.106,
+    "predicted_per_token_ms": 23.70974626865672,
+    "predicted_per_second": 42.17674827342871
+  },
+  "first_visible_seconds": 2.3335152089999998,
+  "wall_seconds": 5.513918749999999,
+  "word_count": 82,
+  "finished_at": "2026-09-08T13:09:23.875725+00:00"
+}

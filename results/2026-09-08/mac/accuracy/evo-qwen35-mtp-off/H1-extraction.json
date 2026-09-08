@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "0b49b636a99f3c3060b96a439577d40281470aa6a21ac967979280454ad1ae46",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3595,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:13:26.616067+00:00",
+  "output": "H1-Q1: Duke Fritigern led the Visigoths as they retreated toward the Danube. The text states, \"the Visigoths, under their Duke Fritigern, fell back in dismay... till they found themselves with their backs to the Danube\" [PDF p. 61].\n\nH1-Q2: Valens imposed the conditions that the Goths give hostages and surrender their arms. The arms condition was ignored because officials accepted bribes, allowing the Goths to retain their weapons [PDF p. 63].\n\nH1-Q3: Lupicinus withheld food and sold it at exorbitant prices, causing the Goths to sell their children for slaves to avoid starvation. This extortion drove the Goths to desperation and sparked the revolt [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The passage notes it \"led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 227,
+    "prompt_tokens": 3595,
+    "total_tokens": 3822,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3513,
+    "prompt_ms": 2355.333,
+    "prompt_per_token_ms": 0.6704619982920581,
+    "prompt_per_second": 1491.5088439723809,
+    "predicted_n": 227,
+    "predicted_ms": 3730.459,
+    "predicted_per_token_ms": 16.50645575221239,
+    "predicted_per_second": 60.58235729168985
+  },
+  "first_visible_seconds": 2.3910045409999974,
+  "wall_seconds": 6.121914790999998,
+  "word_count": 144,
+  "finished_at": "2026-09-08T16:13:34.730988+00:00"
+}

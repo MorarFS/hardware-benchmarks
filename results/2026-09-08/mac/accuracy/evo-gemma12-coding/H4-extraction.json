@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "a7d11d881f22148158cd419d8555a9d983134ff9a2d7c9900a9ebebe13d39df2",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4096,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:10:36.972244+00:00",
+  "output": "H4-Q1: Mohammed united the remnants of the Ottoman realm in 1421. \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel supported two claimants named Mustapha, which the Sultan declared a provocation. \"He tried to make trouble for Murad, by supporting against him two claimants to the Ottoman Sultanate, each named Mustapha\" [PDF p. 363].\n\nH4-Q3: The pretender Mustapha began stirring up trouble in Asia Minor, forcing the Sultan to lift the siege. \"At last the pretender Mustapha... began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision encouraged the Greeks to resist the siege with greater spirit. \"The report of a miraculous vision of the Virgin... encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 267,
+    "prompt_tokens": 4096,
+    "total_tokens": 4363,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 4013,
+    "prompt_ms": 7562.931,
+    "prompt_per_token_ms": 1.8846077747321206,
+    "prompt_per_second": 530.614387464331,
+    "predicted_n": 267,
+    "predicted_ms": 10765.695,
+    "predicted_per_token_ms": 40.47253759398496,
+    "predicted_per_second": 24.708112202695695
+  },
+  "first_visible_seconds": 7.653033290999929,
+  "wall_seconds": 18.41928304099997,
+  "word_count": 175,
+  "finished_at": "2026-09-08T14:10:57.234547+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "f0638d3888cce0237315ee0f9a0c91e45076510e7dfc5ef34cef1f2c422179fb",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4096,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:51:04.320763+00:00",
+  "output": "H4-Q1: Mohammed, the youngest of the sons of Bayezid, united the remnants of the Ottoman realm. He is described as \"a man of genius\" who \"united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel supported two claimants named Mustapha, who were the uncle and brother of the new ruler Murad H. This action \"drew down on the empire the fate which had been delayed since 1370\" [PDF p. 363].\n\nH4-Q3: The Sultan decided to lift the siege because the pretender Mustapha began stirring up trouble in Asia Minor. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin is reported to have encouraged the Greeks to resist the Ottoman assault with more spirit. The vision \"vouchsafed to reveal herself as the defender of the city\" [PDF p. 364].\n\nH4-Q5: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 4096,
+    "total_tokens": 4332,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 4013,
+    "prompt_ms": 5374.938,
+    "prompt_per_token_ms": 1.3393815100922004,
+    "prompt_per_second": 746.613263259967,
+    "predicted_n": 236,
+    "predicted_ms": 7264.799,
+    "predicted_per_token_ms": 30.91403829787234,
+    "predicted_per_second": 32.34776351004343
+  },
+  "first_visible_seconds": 5.464912374999997,
+  "wall_seconds": 12.733008790999989,
+  "word_count": 151,
+  "finished_at": "2026-09-08T13:51:18.493325+00:00"
+}

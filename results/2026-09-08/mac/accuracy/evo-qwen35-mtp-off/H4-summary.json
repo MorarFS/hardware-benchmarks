@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "1a3f0857268b843c5a546d24a01672d01443ddfae506298bdc046dfa52f52fb0",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4086,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:14:25.535068+00:00",
+  "output": "The author argues that the Byzantine Empire ceased to be a vital bulwark for Christendom after 1370, asserting that its prolonged existence resulted from the Paleologi’s subservience to the Turks [PDF p. 358]. The text suggests that an earlier fall of Constantinople would have only marginally altered European history, potentially affecting Genoese and Venetian commerce or delaying the Renaissance [PDF p. 359]. During the reign of John Paleologus, internal strife weakened the state, as his son Andronicus rebelled and was blinded, leading John to bypass him in favor of Manuel II [PDF p. 359]. Although Manuel II displayed some capacity, he lacked the resources to resist Ottoman dominance until the Tartar invasion of 1402 disrupted Turkish power [PDF p. 360]. The author notes that this civil war among Ottoman princes offered a rare opportunity for liberation, yet European powers like Hungary failed to act due to internal conflicts with the Hussites [PDF p. 362]. Manuel II capitalized on this division to regain territories, but after the Ottoman unification under Mohammed I, he was forced to return to vassalage [PDF p. 363]. The author describes the subsequent decades as a period of unredeemed gloom, characterized by the physical decay of Constantinople and the loss of Thessalonica to the Ottomans [PDF p. 365]. The final emperor, John VI, attempted to secure Western aid by converting to Roman Catholicism, but the author evaluates this effort as futile because the Papacy was too weakened by internal schisms to provide meaningful support [PDF p. 366]. Consequently, the empire remained in a state of exhaustion and debility until its final collapse [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 382,
+    "prompt_tokens": 4086,
+    "total_tokens": 4468,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 4004,
+    "prompt_ms": 2726.555,
+    "prompt_per_token_ms": 0.6809577922077922,
+    "prompt_per_second": 1468.519798793716,
+    "predicted_n": 382,
+    "predicted_ms": 6335.793,
+    "predicted_per_token_ms": 16.629377952755906,
+    "predicted_per_second": 60.134540380343864
+  },
+  "first_visible_seconds": 2.7657158330000016,
+  "wall_seconds": 9.102053458,
+  "word_count": 268,
+  "finished_at": "2026-09-08T16:14:35.665675+00:00"
+}

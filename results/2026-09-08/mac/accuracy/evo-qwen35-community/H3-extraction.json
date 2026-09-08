@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "90f529358d447e001edff6ff26a2c31f8ed160334220bd06a43dfe14cc4ae77a",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3379,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:03:47.033652+00:00",
+  "output": "H3-Q1: Constantine was called Porphyrogenitus because he was born in the Purple Chamber, which was set aside for the Empress [PDF p. 241].\n\nH3-Q2: Saracen pirates captured Thessalonica in 904 and did not retain it because they fled with their booty without attempting to hold the walls [PDF p. 242].\n\nH3-Q3: The mob and guards removed Stephen Lecapenus and his brother, after which Constantine emerged to administer the empire [PDF p. 243].\n\nH3-Q4: Leo recommended caution against the Franks and Lombards, who are described as the men of the West [PDF p. 245].\n\nH3-Q5: The passage does not state the annual pay of an ordinary Byzantine cavalryman [PDF p. 244].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 3379,
+    "total_tokens": 3566,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3297,
+    "prompt_ms": 2231.273,
+    "prompt_per_token_ms": 0.6767585683955111,
+    "prompt_per_second": 1477.6318272125372,
+    "predicted_n": 187,
+    "predicted_ms": 2592.688,
+    "predicted_per_token_ms": 13.939182795698926,
+    "predicted_per_second": 71.74021710286775
+  },
+  "first_visible_seconds": 2.267182875000003,
+  "wall_seconds": 4.860163249999999,
+  "word_count": 110,
+  "finished_at": "2026-09-08T16:03:53.104189+00:00"
+}

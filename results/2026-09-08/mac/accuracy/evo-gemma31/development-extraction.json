@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "8d10a8fc3ce53c697e3887f910e663e6c2d774dcaea6dfb1188a0441bd91b7f0",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2451,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:39:16.699999+00:00",
+  "output": "D-Q1: Seven prisoners were selected, but not all died because two survived after the hangman bungled the task and they were \"thrust into sanctuary\" [PDF p. 102]. \"Seven were selected for execution, and four of them were duly beheaded\" [PDF p. 102].\n\nD-Q2: No, the text states the 35,000 slain occurred \"in the six days of this great 'Sedition of Nika'\" [PDF p. 106]. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 2451,
+    "total_tokens": 2615,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2451,
+    "prompt_ms": 9453.2,
+    "prompt_per_token_ms": 3.8568747450020404,
+    "prompt_per_second": 259.27728176702067,
+    "predicted_n": 164,
+    "predicted_ms": 12695.02,
+    "predicted_per_token_ms": 77.8835582822086,
+    "predicted_per_second": 12.83968044162199
+  },
+  "first_visible_seconds": 9.462767083000017,
+  "wall_seconds": 22.159559333000004,
+  "word_count": 92,
+  "finished_at": "2026-09-08T15:39:38.960835+00:00"
+}

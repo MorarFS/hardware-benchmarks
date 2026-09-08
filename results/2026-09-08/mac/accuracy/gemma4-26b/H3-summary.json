@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "496b660708847180a1f32832f6ca712afbba4beb843cee7b0cf31d177a57cbe1",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3262,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:32:09.717704+00:00",
+  "output": "The eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes the era by the reigns of Leo the Wise and Constantine Porphyrogenitus, describing them as easy-going, unenterprising men of literature who were a \"strange issue\" from the \"upstart\" Basil [PDF p. 241]. During the period of 880–960, the empire faced few foreign wars, experiencing only vexatious but non-dangerous piratical raids from Russians and Saracens [PDF p. 242]. Leo's twenty-six-year reign included an unsuccessful invasion of Bulgaria and a \"disgraceful\" Saracen raid on Thessalonica in 904 [PDF p. 242].\n\nConstantine VII ascended the throne at age seven under various guardians, including the admiral Romanus Lecapenus, who usurped power and kept the rightful heir in the background [PDF p. 243]. Constantine eventually regained power after a popular uprising against the sons of Romanus [PDF p. 243]. The author evaluates Constantine as a somewhat weak, ineffective, but non-tyrannical ruler [PDF p. 243]. Both emperors' primary achievements were their books [PDF p. 244]. Leo produced a valuable manual on warfare and theological works [PDF p. 244], while Constantine authored detailed treatises on administration, themes, and court ceremonies [PDF p. 246]. The author concludes that these literary pursuits signaled an end to previous intellectual destitution [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 351,
+    "prompt_tokens": 3262,
+    "total_tokens": 3613,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3179,
+    "prompt_ms": 3129.909,
+    "prompt_per_token_ms": 0.9845577225542623,
+    "prompt_per_second": 1015.6844815616045,
+    "predicted_n": 351,
+    "predicted_ms": 6903.259,
+    "predicted_per_token_ms": 19.723597142857145,
+    "predicted_per_second": 50.70069078966905
+  },
+  "first_visible_seconds": 3.2408968329999936,
+  "wall_seconds": 10.144948999999997,
+  "word_count": 217,
+  "finished_at": "2026-09-08T13:32:21.869055+00:00"
+}

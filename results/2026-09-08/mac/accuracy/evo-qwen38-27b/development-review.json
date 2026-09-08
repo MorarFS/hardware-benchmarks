@@ -1,0 +1,46 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "efffdb8774be6c3631e01ae7119b5b8fd9c9c144afab4258039a640b5652875a",
+    "development-summary": "97e67f3422fdc5d269a0950a07af77045673e1c0d76a1aa8c01b22052c9afbdc"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Seven selected and two survivors preserved."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correctly retains reported six-day total, rejecting its restriction to the final assault."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention; terminal punctuation is not required for semantic correctness."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "forcing rebels into the building where they were slaughtered",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Rebels were already assembled inside the Hippodrome. The soldiers forced the side entrances, rather than forcing rebels into the building."
+    },
+    {
+      "output_anchor": "The author reports that 35,000 men were slain",
+      "judgment": "ambiguous",
+      "source_pages": [
+        106
+      ],
+      "rationale": "The number follows the final assault, creating possible scope ambiguity, but this separate sentence does not explicitly restrict the count to that assault. Earlier prose names the six-day unrest; distinct from an explicit where-35,000-died assertion."
+    }
+  ],
+  "summary_review": "Main faction transformation, bungled hangings, demands, reluctant Hypatius, fires, Theodora, final assault and continuing unrest are represented. Opening Antonina comparison omitted. The fire-location wording compresses the Brazen Porch/Senate House sequence; no separate clear event error is assigned for that adjacent causal compression."
+}

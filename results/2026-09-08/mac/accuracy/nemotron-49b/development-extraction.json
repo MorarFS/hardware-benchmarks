@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "ac5b7b0e5501f0fc70ad941d9f959ccec32ec36ff1815bee4963cdbe4e70350c",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2372,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:35:13.112361+00:00",
+  "output": "\n\nHere are the answers to each question independently, based on the supplied passage:\n\n**D-Q1: How many prisoners were selected for execution, and did all seven die?**\n\nSeven prisoners were selected for execution. Not all seven died as stated; four were beheaded, and three were initially hung but survived due to a bungled execution. \nQuotation: \"Seven were selected for execution, and four of them were duly beheaded... The last three rioters were to be hung, but the hang-man so bungled his task that two of the criminals... fell to the ground alive.\" [PDF p. 102]",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 2372,
+    "total_tokens": 2501,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2372,
+    "prompt_ms": 16992.916,
+    "prompt_per_token_ms": 7.163961214165262,
+    "prompt_per_second": 139.587578729866,
+    "predicted_n": 129,
+    "predicted_ms": 18860.289,
+    "predicted_per_token_ms": 147.3460078125,
+    "predicted_per_second": 6.786746480926141
+  },
+  "first_visible_seconds": 16.998226000000003,
+  "wall_seconds": 35.858601792,
+  "word_count": 94,
+  "finished_at": "2026-09-08T14:35:49.577486+00:00"
+}

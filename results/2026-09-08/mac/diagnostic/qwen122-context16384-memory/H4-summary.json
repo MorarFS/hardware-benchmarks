@@ -1,0 +1,16 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "bae7428109f2f7ce688ccb494c33aab9e5c358d38209e2ee451a235c598190d2",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4086,
+  "output_budget": 2048,
+  "status": "error",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:29:37.071901+00:00",
+  "error": "System swap growth exceeded 1 GiB",
+  "finished_at": "2026-09-08T15:29:37.097217+00:00"
+}

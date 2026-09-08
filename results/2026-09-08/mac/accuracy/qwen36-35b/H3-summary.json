@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "e17ce90bdc4e64e815ea2878774d252dc436dbd0c8a5592a4eaac294c4266fbe",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3275,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:15:35.612498+00:00",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the most monotonous period in imperial history, dominated by the literary reigns of Leo VI and Constantine VII [PDF p. 241]. While these emperors were mild men of letters rather than military conquerors, the era experienced relative peace compared to other periods [PDF p. 242]. The Caliphate fragmented in the East, and northern neighbors settled down, leaving only minor piratical raids as threats [PDF p. 242]. Although the capture of Thessalonica by Saracens in 904 was disgraceful, the author notes it resulted from surprise rather than systemic failure [PDF p. 242]. Constantine VII’s rise to power was delayed by regents, including his uncle Alexander and the usurper Romanus Lecapenus [PDF p. 243]. Constantine only assumed full control after popular outrage removed the Lecapenus family, allowing him to rule for twenty years as a weak but non-tyrannical monarch [PDF p. 243]. The author explicitly praises Leo’s military manual as invaluable for detailing Byzantine organization, noting the army’s high discipline and care for wounded soldiers [PDF p. 244]. Constantine’s works, particularly his treatises on administration and court ceremonies, reveal him as a methodical compiler rather than an original thinker [PDF p. 246]. The author argues that these literary achievements signal the end of the intellectual dearth that plagued the empire from Justinian’s death through the Heraclian dynasty [PDF p. 247]. By the ninth century, a robust literary class had emerged, exemplified by the learned patriarch Photius [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 373,
+    "prompt_tokens": 3275,
+    "total_tokens": 3648,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3193,
+    "prompt_ms": 2554.969,
+    "prompt_per_token_ms": 0.8001782023175698,
+    "prompt_per_second": 1249.721620888551,
+    "predicted_n": 373,
+    "predicted_ms": 7704.907,
+    "predicted_per_token_ms": 20.71211559139785,
+    "predicted_per_second": 48.28092019799849
+  },
+  "first_visible_seconds": 2.5875453329999942,
+  "wall_seconds": 10.292776666999998,
+  "word_count": 249,
+  "finished_at": "2026-09-08T14:15:47.790464+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "qwen35-122b-iq2xxs": {
+    "model_sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "metadata": {
+      "general.architecture": "qwen35moe",
+      "general.name": "Qwen3.5-122B-A10B",
+      "qwen35moe.block_count": 48,
+      "qwen35moe.context_length": 262144,
+      "qwen35moe.attention.head_count": 32,
+      "qwen35moe.attention.head_count_kv": 2,
+      "qwen35moe.attention.key_length": 256,
+      "qwen35moe.attention.value_length": 256,
+      "qwen35moe.full_attention_interval": 4
+    },
+    "source": "Selected GGUF header fields, after verified full-file download. Runtime memory and usability are separate measurements."
+  },
+  "falcon180b-chat-iq1s": {
+    "model_sha256": "46915ae3344efe3e8e922aa53afd10bb76c2086325c456dde5763575a15a724a",
+    "metadata": {
+      "general.architecture": "falcon",
+      "general.name": "Falcon 180B Chat",
+      "falcon.context_length": 2048,
+      "falcon.block_count": 80,
+      "falcon.attention.head_count": 232,
+      "falcon.attention.head_count_kv": 8
+    },
+    "source": "Selected GGUF header fields, after verified full-file download. Runtime memory and usability are separate measurements."
+  }
+}

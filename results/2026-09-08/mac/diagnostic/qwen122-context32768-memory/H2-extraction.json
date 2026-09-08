@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "7ebd7d6e0c2dc6d43c6d48aa88d8b960254480e7acc1b828e525a7252913c035",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3733,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:24:47.822648+00:00",
+  "output": "H2-Q1: A monk named Telemachus intervened in the games in A.D. 404 and was slain by the crowd. The text states that \"the good monk was slain\" after he leapt into the arena to stop the combatants [PDF p. 171].\n\nH2-Q2: Valentinian I made infanticide a capital offence in the year 374. The passage records that he \"assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].\n\nH2-Q3: The passage explicitly states that Christianity did not immediately end slavery. It qualifies this by noting that \"slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].\n\nH2-Q4: Oman regarded widespread ascetic monasticism as politically dangerous because it led men to neglect their civic duties while the empire faced barbarian invasions. The author argues that when men \"retire from their duties as citizens... the result may be harmless so long as their numbers are small,\" but the scale was then \"positively dangerous\" [PDF p. 174].\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 265,
+    "prompt_tokens": 3733,
+    "total_tokens": 3998,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3651,
+    "prompt_ms": 7145.626,
+    "prompt_per_token_ms": 1.957169542591071,
+    "prompt_per_second": 510.9419384669727,
+    "predicted_n": 265,
+    "predicted_ms": 8504.386,
+    "predicted_per_token_ms": 32.21358333333333,
+    "predicted_per_second": 31.04280544180379
+  },
+  "first_visible_seconds": 7.521514792000005,
+  "wall_seconds": 16.026214624999994,
+  "word_count": 170,
+  "finished_at": "2026-09-08T15:25:04.051359+00:00"
+}

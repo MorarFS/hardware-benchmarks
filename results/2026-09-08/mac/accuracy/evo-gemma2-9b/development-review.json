@@ -1,0 +1,54 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only, excluded from held-out counts.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "99c84410cc0c4e50903b0d9df1ebec1524d6c5a83084f38bb19a14744ed39be9",
+    "development-summary": "f254e3b317929bd8a70b95336d7ea303fa6a7fdfc588af8399fbc0b67ec744e9"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "partial",
+      "rationale": "Seven selected/four beheaded correct, but omits the two hanging survivors."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correct reported six-day death scope."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "four Blues and three Greens",
+      "judgment": "unsupported",
+      "source_pages": [
+        102
+      ],
+      "rationale": "Invents a faction split for all seven; source supplies four beheadings and three scheduled hangings, with one surviving Blue and one Green."
+    },
+    {
+      "output_anchor": "execution of seven rioters",
+      "judgment": "ambiguous",
+      "source_pages": [
+        102
+      ],
+      "rationale": "Execution can name the attempted procedure; later bungled wording does not explicitly say all seven died, but survivors are omitted."
+    },
+    {
+      "output_anchor": "routing the rebels and killing an estimated 35,000 of them",
+      "judgment": "contradiction",
+      "source_pages": [
+        105,
+        106
+      ],
+      "rationale": "Assigns the reported six-day total to the final counterattack."
+    }
+  ],
+  "summary_review": "Main uprising/fire/Hypatius/Theodora/assault and continued 50 years are represented. Faction religious/political alignments and reluctant Hypatius are omitted. Crowning is on 103, not illustration 104; garrison shortage and initial resignation demands are on 102. No development score enters the held-out table."
+}

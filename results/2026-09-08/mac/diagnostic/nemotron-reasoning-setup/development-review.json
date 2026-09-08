@@ -1,0 +1,23 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Excluded reasoning-enabled development setup only; no held-out requests were submitted and this is not a profile accuracy score.",
+  "completed_output_sha256": "2fbb43f97b4037994c9226e9ce4bea312f3e090a5db0a54942395ba5ba088652",
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "contradiction",
+      "rationale": "Says three remaining prisoners were saved; source identifies two hanging survivors."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Preserves the reported six-day total rather than assigning it solely to the Hippodrome assault."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct source-absent abstention."
+    }
+  ],
+  "development_summary": "Interrupted during setup; no completed final summary to score. Raw stream events are preserved."
+}

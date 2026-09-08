@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "9d6994144c6782fbb653dea8cf18205e3ce364ab3dd1a558e590198b510fc6a1",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3379,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:01:40.811703+00:00",
+  "output": "H3-Q1: Constantine was called Porphyrogenitus because he was born in the Purple Chamber, a room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they fled with their booty and made no attempt to hold its walls. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" [PDF p. 242]\n\nH3-Q3: The mob and the guards removed the sons of Romanus Lecapenus, who had previously forced their father to abdicate. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother.\" [PDF p. 243]\n\nH3-Q4: Leo recommended caution against the men of the West, specifically the Franks and Lombards. \"It is only when dealing v/ith the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245]\n\nH3-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 272,
+    "prompt_tokens": 3379,
+    "total_tokens": 3651,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3297,
+    "prompt_ms": 10701.693,
+    "prompt_per_token_ms": 3.245888080072793,
+    "prompt_per_second": 308.0820950479518,
+    "predicted_n": 272,
+    "predicted_ms": 19066.713,
+    "predicted_per_token_ms": 70.35687453874539,
+    "predicted_per_second": 14.213252174089996
+  },
+  "first_visible_seconds": 10.873992291999969,
+  "wall_seconds": 29.94042695899998,
+  "word_count": 174,
+  "finished_at": "2026-09-08T14:02:11.196715+00:00"
+}

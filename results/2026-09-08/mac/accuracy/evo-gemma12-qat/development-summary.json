@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "6576443a8cbb32b06e756c51b7f901dc0ce7d337edfd5105bcb62d7fff1e88a7",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2387,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:49:20.867438+00:00",
+  "output": "In 532, the Byzantine Empire faced a severe threat from the \"Blues\" and \"Greens,\" which the author describes as circus factions that had evolved into political parties [PDF p. 101]. The author notes that these groups were prone to mischief and posed a serious danger to the State [PDF p. 101]. Rioting began in January when Justinian ordered the execution of several leaders, but a bungled hanging of three rioters caused a mob to break loose and seize the criminals [PDF p. 102]. This sparked six days of desperate rioting where the factions united under the watchword \"Nika\" to demand the deposition of the finance minister and the city prefect [PDF p. 102]. The author reports that the rebels sought to crown Hypatius as Caesar [PDF p. 102]. While ministers urged Justinian to flee by sea, Empress Theodora refused and argued that death was better than exile [PDF p. 105]. Spurred by her words, Justinian ordered a final assault by Belisarius [PDF p. 105]. The rebels were routed in the Hippodrome and slaughtered in thousands [PDF p. 105]. The author observes that while 35,000 men were slain, the factions continued to riot for fifty years [PDF p. 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 289,
+    "prompt_tokens": 2387,
+    "total_tokens": 2676,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 2304,
+    "prompt_ms": 2894.92,
+    "prompt_per_token_ms": 1.2564756944444444,
+    "prompt_per_second": 795.8769154242605,
+    "predicted_n": 289,
+    "predicted_ms": 8586.513,
+    "predicted_per_token_ms": 29.814281250000004,
+    "predicted_per_second": 33.54097291880883
+  },
+  "first_visible_seconds": 2.970069125,
+  "wall_seconds": 11.557145209,
+  "word_count": 198,
+  "finished_at": "2026-09-08T13:49:33.033556+00:00"
+}

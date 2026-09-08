@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "35898c74242a8e7953e654793ed9f3aec38760232df1285d937f676d46c9d4d9",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3733,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:03:30.831039+00:00",
+  "output": "H2-Q1: The monk Telemachus intervened in the gladiatorial games in A.D. 404 and was slain during the resulting scuffle. The text states, \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... the good monk was slain\" [PDF p. 171].\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. The passage notes that \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].\n\nH2-Q3: The passage claims Christianity did not immediately end slavery, stating it was \"not extinguished for centuries.\" It qualifies this by noting that \"its evils were immensely modified\" and public opinion eventually condemned ancient slavery's characteristic evils [PDF p. 173].\n\nH2-Q4: Oman regarded widespread ascetic monasticism as politically dangerous because it removed men from their civic duties and left the state vulnerable to barbarian invasions. He argued that when men \"cease to be of the slightest use to society,\" the result is \"positively dangerous\" when occurring on a large scale [PDF p. 174].\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 294,
+    "prompt_tokens": 3733,
+    "total_tokens": 4027,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3651,
+    "prompt_ms": 2441.484,
+    "prompt_per_token_ms": 0.6687165160230074,
+    "prompt_per_second": 1495.4019768304852,
+    "predicted_n": 294,
+    "predicted_ms": 4084.583,
+    "predicted_per_token_ms": 13.940556313993174,
+    "predicted_per_second": 71.73314876940927
+  },
+  "first_visible_seconds": 2.4748833749999974,
+  "wall_seconds": 6.559779208000002,
+  "word_count": 182,
+  "finished_at": "2026-09-08T16:03:38.921904+00:00"
+}

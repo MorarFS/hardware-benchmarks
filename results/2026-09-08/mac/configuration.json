@@ -1,0 +1,33 @@
+{
+  "computer": "MacBook Pro",
+  "model_identifier": "Mac17,9",
+  "soc": "Apple M5 Pro",
+  "cpu_cores": 18,
+  "cpu_super_cores": 6,
+  "cpu_performance_cores": 12,
+  "gpu_cores": 20,
+  "unified_memory_bytes": 51539607552,
+  "marketed_memory": "48 GB",
+  "macos_version": "26.5.1",
+  "macos_build": "25F80",
+  "metal_support": "Metal 4",
+  "power_mode": "Automatic (powermode 0; High/Low Power disabled)",
+  "ac_connected_before_benchmarks": true,
+  "available_storage_before_downloads": "approximately 1.8 TiB",
+  "display_resolution": "3024 x 1964 built-in",
+  "runtime": "official llama.cpp b10852 macos-arm64 release",
+  "build_commit": "050dde50c",
+  "runtime_archive_sha256": "0a1bd66656354e43bc90fb7d7ce5a56c5683f338706e5d59fd4e38e7f44c4008",
+  "metal_device": "MTL0",
+  "metal_recommended_working_set_reported_MB": 40200.9,
+  "metal_enumerated_memory_MiB": 38338,
+  "thermal_warning_before_runs": "No thermal or performance warning recorded",
+  "configuration_sources": [
+    "system_profiler SPHardwareDataType SPDisplaysDataType SPPowerDataType (selected fields only)",
+    "sysctl hw.memsize hw.physicalcpu hw.logicalcpu hw.model hw.perflevel0.physicalcpu hw.perflevel1.physicalcpu",
+    "sw_vers",
+    "pmset -g custom; pmset -g batt; pmset -g therm",
+    "df -h .",
+    "llama-bench --list-devices"
+  ]
+}

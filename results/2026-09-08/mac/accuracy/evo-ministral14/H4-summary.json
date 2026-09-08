@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "9c62d34faa80195840d37ef7cf772f8715aa7e69a881f05bda64b1ea2e414231",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4021,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:18:57.833998+00:00",
+  "output": "The final decades of the Byzantine Empire, from 1370 to 1453, marked a period of decline and irrelevance in the broader history of Christendom, according to the author. The empire, once a bulwark against the Ottoman advance, had lost its strategic significance by 1370, with its survival prolonged only by the subservience of the Paleologi dynasty to the Turks [PDF p. 358]. John Paleologus, the aging emperor, faced internal strife from his son Andronicus, who rebelled twice and was blinded—though not effectively—by his father, following the example set by the Ottoman Sultan Murad I [PDF p. 359]. John’s death in 1391 passed the throne to his second son, Manuel II, who ruled over a diminished empire of Constantinople, Thessalonica, and the Peloponnesus, lacking the resources to resist Ottoman dominance [PDF p. 360].\n\nA brief opportunity arose in 1402 when the Ottoman Empire fractured due to civil wars following the defeat of Sultan Bayezid by Tamerlane. Manuel exploited this chaos, selling his military support to Suleiman, an Ottoman pretender, in exchange for territorial gains, including Thessalonica and Black Sea ports [PDF p. 361]. However, Mohammed, the youngest son of Bayezid, reunified the Ottomans by 1421, leaving Manuel’s empire once again in a state of vassalage [PDF p. 362]. The author notes that Europe missed a critical chance to expel the Ottomans, as Hungary’s focus on the Hussite Wars prevented a coordinated effort [PDF p. 363].\n\nManuel’s later years saw renewed Ottoman aggression under Murad II, culminating in a failed siege of Constantinople in 1422, where the city’s walls held despite advanced Ottoman weaponry [PDF p. 364]. Manuel died in 1425, leaving his son John VI to rule over a further weakened empire. John’s reign was marked by stagnation, with Constantinople in ruins, its population impoverished, and its military strength reduced to mercenaries [PDF p. 366]. The empire’s final humiliation came in 1430 when John’s brother Andronicus sold Thessalonica to the Venetians, leading to its annexation by the Ottomans [PDF p. 367]. John’s desperate attempt to secure Western aid by converting to Catholicism in 1439 yielded little, as the papacy was weakened and unable to support the empire meaningfully [PDF p. 367]. The author concludes that the empire’s last thirty years were a period of \"unredeemed gloom,\" with John VI’s reign characterized by passive endurance rather than resistance [PDF p. 365].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 598,
+    "prompt_tokens": 4021,
+    "total_tokens": 4619,
+    "prompt_tokens_details": {
+      "cached_tokens": 84
+    }
+  },
+  "timings": {
+    "cache_n": 84,
+    "prompt_n": 3937,
+    "prompt_ms": 6007.003,
+    "prompt_per_token_ms": 1.525781813563627,
+    "prompt_per_second": 655.4017036448959,
+    "predicted_n": 598,
+    "predicted_ms": 21043.022,
+    "predicted_per_token_ms": 35.24794304857622,
+    "predicted_per_second": 28.370449833678833
+  },
+  "first_visible_seconds": 6.068863958000065,
+  "wall_seconds": 27.11210508299996,
+  "word_count": 389,
+  "finished_at": "2026-09-08T15:19:26.209591+00:00"
+}

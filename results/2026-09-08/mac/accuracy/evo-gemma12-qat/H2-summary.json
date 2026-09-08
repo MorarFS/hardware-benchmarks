@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "268a0354e0fe0e95dbeca9e2263d2a4ba4c4691098453bb594223f009aa942dc",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3642,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T13:50:19.699377+00:00",
+  "output": "The author observes that the Latin tongue began to decay as the Roman element in the East rapidly vanished by the seventh century [PDF p. 169]. This decline originated from the practical solution of maintaining continuity between Rome and the East following the empire's division, which caused the Latin element to yield to Greek [PDF p. 170]. The process accelerated because the Latin-speaking Eastern provinces suffered most from barbarian decimation, leaving only remote districts like Africa and the Italian Exarchate with considerable Latin-speaking populations [PDF p. 170].\n\nSimultaneously, the empire grew more Christian, with the Christian spirit fully penetrating the material sphere forty years after Constantine's death [PDF p. 171]. The author notes that Christianity modified social life by ending infanticide and altering the status of slaves, who were now regarded as moral beings with immortal souls [PDF p. 171, 173]. However, the author evaluates the rise of ascetic monasticism as positively dangerous [PDF p. 174]. He argues that this movement caused many citizens to neglect their duties to the State, leading to an apathetic attitude toward barbarian invasions [PDF p. 175].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 254,
+    "prompt_tokens": 3642,
+    "total_tokens": 3896,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3559,
+    "prompt_ms": 4745.763,
+    "prompt_per_token_ms": 1.3334540601292497,
+    "prompt_per_second": 749.9320973255512,
+    "predicted_n": 254,
+    "predicted_ms": 7688.889,
+    "predicted_per_token_ms": 30.390865612648224,
+    "predicted_per_second": 32.904623801956305
+  },
+  "first_visible_seconds": 4.829584250000011,
+  "wall_seconds": 12.519351208000003,
+  "word_count": 182,
+  "finished_at": "2026-09-08T13:50:33.860040+00:00"
+}

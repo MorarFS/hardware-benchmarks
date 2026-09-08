@@ -1,0 +1,827 @@
+[
+  {
+    "model_id": "evo-gemma12-coding",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "1fe90b72e105d7bc71650aa59883edece3e84751af489075217a7ae717b1fe8d",
+    "values": {
+      "pp512": {
+        "mean": 907.055251,
+        "sd": 0.746045,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma12-coding-depth0.json"
+      },
+      "tg0": {
+        "mean": 31.387826,
+        "sd": 0.550911,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma12-coding-depth0.json"
+      },
+      "tg2048": {
+        "mean": 29.740367,
+        "sd": 0.298014,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma12-coding-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-gemma12-qat",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "f568ac5de71c8fcac5d5794494388ad94db9e18b4368ca897e21b30d2448eeec",
+    "values": {
+      "pp512": {
+        "mean": 972.908038,
+        "sd": 0.425738,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma12-qat-depth0.json"
+      },
+      "tg0": {
+        "mean": 36.042896,
+        "sd": 0.068767,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma12-qat-depth0.json"
+      },
+      "tg2048": {
+        "mean": 34.04149,
+        "sd": 0.189065,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma12-qat-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-gemma2-9b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+    "values": {
+      "pp512": {
+        "mean": 1177.710364,
+        "sd": 0.270591,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma2-9b-depth0.json"
+      },
+      "tg0": {
+        "mean": 40.667421,
+        "sd": 1.328924,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma2-9b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 34.642635,
+        "sd": 2.914333,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma2-9b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-gemma26",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f",
+    "values": {
+      "pp512": {
+        "mean": 1798.965474,
+        "sd": 6.022584,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma26-depth0.json"
+      },
+      "tg0": {
+        "mean": 63.6287,
+        "sd": 0.075379,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma26-depth0.json"
+      },
+      "tg2048": {
+        "mean": 60.192095,
+        "sd": 0.108326,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma26-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-gemma31",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "8f3479643461601703f717931e399cc440dbd5ada598c025d6296c8165d94be9",
+    "values": {
+      "pp512": {
+        "mean": 318.524754,
+        "sd": 1.787384,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma31-depth0.json"
+      },
+      "tg0": {
+        "mean": 13.643589,
+        "sd": 0.081522,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma31-depth0.json"
+      },
+      "tg2048": {
+        "mean": 12.740949,
+        "sd": 0.065676,
+        "source": "results/2026-09-08/mac/apple-metal-evo-gemma31-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-ministral14",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "4477e334330e7a6dcc827025eb6a18b6b97ea84e70dc6998cf1fbda04c483dff",
+    "values": {
+      "pp512": {
+        "mean": 724.519626,
+        "sd": 2.543096,
+        "source": "results/2026-09-08/mac/apple-metal-evo-ministral14-depth0.json"
+      },
+      "tg0": {
+        "mean": 25.262758,
+        "sd": 0.140237,
+        "source": "results/2026-09-08/mac/apple-metal-evo-ministral14-depth0.json"
+      },
+      "tg2048": {
+        "mean": 24.223786,
+        "sd": 0.145519,
+        "source": "results/2026-09-08/mac/apple-metal-evo-ministral14-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-qwen35-community",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "4ac6a06bce551257267f49ad2226f8671a22519ccc1a4dde9d5b433d1f2a410d",
+    "values": {
+      "pp512": {
+        "mean": 1573.626212,
+        "sd": 102.190291,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen35-community-depth0.json"
+      },
+      "tg0": {
+        "mean": 68.638222,
+        "sd": 0.672324,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen35-community-depth0.json"
+      },
+      "tg2048": {
+        "mean": 68.697055,
+        "sd": 3.042585,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen35-community-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-qwen35-mtp-off",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b",
+    "values": {
+      "pp512": {
+        "mean": 1674.94542,
+        "sd": 8.596447,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen35-mtp-off-depth0.json"
+      },
+      "tg0": {
+        "mean": 62.821375,
+        "sd": 0.044592,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen35-mtp-off-depth0.json"
+      },
+      "tg2048": {
+        "mean": 61.573702,
+        "sd": 0.228781,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen35-mtp-off-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "evo-qwen38-27b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "e00082f779fa385cee8c68a3ec8833a75778cc87272240b942f74e0b8243e520",
+    "values": {
+      "pp512": {
+        "mean": 339.28616,
+        "sd": 4.702484,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen38-27b-depth0.json"
+      },
+      "tg0": {
+        "mean": 14.558331,
+        "sd": 0.020762,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen38-27b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 14.387542,
+        "sd": 0.069688,
+        "source": "results/2026-09-08/mac/apple-metal-evo-qwen38-27b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "falcon180b-chat-iq1s",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "46915ae3344efe3e8e922aa53afd10bb76c2086325c456dde5763575a15a724a",
+    "values": {
+      "pp512": {
+        "mean": 48.317642,
+        "sd": 0.599868,
+        "source": "results/2026-09-08/mac/apple-metal-falcon180b-chat-iq1s-depth0.json"
+      },
+      "tg0": {
+        "mean": 3.077959,
+        "sd": 0.074609,
+        "source": "results/2026-09-08/mac/apple-metal-falcon180b-chat-iq1s-depth0.json"
+      },
+      "tg1792": {
+        "mean": 3.594621,
+        "sd": 0.033181,
+        "source": "results/2026-09-08/mac/apple-metal-falcon180b-chat-iq1s-depth1792.json"
+      }
+    },
+    "note": "Longer generation uses depth1792 within supported 2048 context; not depth2048."
+  },
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1414.080456,
+        "sd": 8.602482,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-depth0.json"
+      },
+      "tg0": {
+        "mean": 54.736053,
+        "sd": 3.076835,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 47.205022,
+        "sd": 2.011871,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-depth2048.json"
+      }
+    },
+    "note": "Clean run following history accuracy workload; declining samples retained. Separate first attempt excluded for overlapping I/O."
+  },
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "M5 Pro / Metal (delayed repeat)",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1764.372955,
+        "sd": 4.892074,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-delayed-repeat-depth0.json"
+      },
+      "tg0": {
+        "mean": 72.611689,
+        "sd": 0.106968,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-delayed-repeat-depth0.json"
+      },
+      "tg2048": {
+        "mean": 67.658812,
+        "sd": 0.081838,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-delayed-repeat-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "nemotron-49b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "values": {
+      "pp512": {
+        "mean": 165.656109,
+        "sd": 4.045348,
+        "source": "results/2026-09-08/mac/apple-metal-nemotron-49b-depth0.json"
+      },
+      "tg0": {
+        "mean": 8.690453,
+        "sd": 0.711342,
+        "source": "results/2026-09-08/mac/apple-metal-nemotron-49b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 8.894352,
+        "sd": 0.01072,
+        "source": "results/2026-09-08/mac/apple-metal-nemotron-49b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1223.444555,
+        "sd": 1.048758,
+        "source": "results/2026-09-08/mac/apple-metal-qwen3-8b-depth0.json"
+      },
+      "tg0": {
+        "mean": 45.428603,
+        "sd": 0.0482,
+        "source": "results/2026-09-08/mac/apple-metal-qwen3-8b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 42.70936,
+        "sd": 0.171612,
+        "source": "results/2026-09-08/mac/apple-metal-qwen3-8b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen35-122b-iq2xxs",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "values": {
+      "pp512": {
+        "mean": 527.590117,
+        "sd": 2.889007,
+        "source": "results/2026-09-08/mac/apple-metal-qwen35-122b-iq2xxs-depth0.json"
+      },
+      "tg0": {
+        "mean": 31.051621,
+        "sd": 0.069013,
+        "source": "results/2026-09-08/mac/apple-metal-qwen35-122b-iq2xxs-depth0.json"
+      },
+      "tg2048": {
+        "mean": 30.901703,
+        "sd": 0.998582,
+        "source": "results/2026-09-08/mac/apple-metal-qwen35-122b-iq2xxs-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen36-35b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "values": {
+      "pp512": {
+        "mean": 1212.618464,
+        "sd": 136.282529,
+        "source": "results/2026-09-08/mac/apple-metal-qwen36-35b-depth0.json"
+      },
+      "tg0": {
+        "mean": 47.917768,
+        "sd": 0.374821,
+        "source": "results/2026-09-08/mac/apple-metal-qwen36-35b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 48.351859,
+        "sd": 1.296602,
+        "source": "results/2026-09-08/mac/apple-metal-qwen36-35b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen38-27b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "values": {
+      "pp512": {
+        "mean": 377.789322,
+        "sd": 0.116908,
+        "source": "results/2026-09-08/mac/apple-metal-qwen38-27b-depth0.json"
+      },
+      "tg0": {
+        "mean": 14.641073,
+        "sd": 0.285981,
+        "source": "results/2026-09-08/mac/apple-metal-qwen38-27b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 14.270027,
+        "sd": 0.008937,
+        "source": "results/2026-09-08/mac/apple-metal-qwen38-27b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1089.895706,
+        "sd": 96.083135,
+        "source": "results/2026-09-08/modern/intel-sycl-gemma4-26b-depth0.json"
+      },
+      "tg0": {
+        "mean": 64.27429,
+        "sd": 0.174561,
+        "source": "results/2026-09-08/modern/intel-sycl-gemma4-26b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 56.677035,
+        "sd": 0.041391,
+        "source": "results/2026-09-08/modern/intel-sycl-gemma4-26b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen36-35b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "values": {
+      "pp512": {
+        "mean": 882.535001,
+        "sd": 145.248203,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen36-35b-depth0.json"
+      },
+      "tg0": {
+        "mean": 73.334245,
+        "sd": 0.169815,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen36-35b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 71.525257,
+        "sd": 0.889735,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen36-35b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen38-27b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "values": {
+      "pp512": {
+        "mean": 308.945183,
+        "sd": 1.890944,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen38-27b-depth0.json"
+      },
+      "tg0": {
+        "mean": 20.922442,
+        "sd": 0.017169,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen38-27b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 20.418157,
+        "sd": 0.039988,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen38-27b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "nemotron-49b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "values": {
+      "pp512": {
+        "mean": 185.733742,
+        "sd": 0.182183,
+        "source": "results/2026-09-08/capacity/intel-sycl-49b-depth0.json"
+      },
+      "tg0": {
+        "mean": 15.988204,
+        "sd": 0.038298,
+        "source": "results/2026-09-08/capacity/intel-sycl-49b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 15.547394,
+        "sd": 0.014298,
+        "source": "results/2026-09-08/capacity/intel-sycl-49b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / SYCL, initial",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1172.082569,
+        "sd": 47.775965,
+        "source": "results/2026-09-08/intel-sycl-depth0.json"
+      },
+      "tg0": {
+        "mean": 77.695988,
+        "sd": 10.265358,
+        "source": "results/2026-09-08/intel-sycl-depth0.json"
+      },
+      "tg2048": {
+        "mean": 72.83892,
+        "sd": 0.27241,
+        "source": "results/2026-09-08/intel-sycl-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / SYCL, repeat",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1252.820604,
+        "sd": 3.004581,
+        "source": "results/2026-09-08/intel-sycl-repeat-depth0.json"
+      },
+      "tg0": {
+        "mean": 83.505046,
+        "sd": 0.270528,
+        "source": "results/2026-09-08/intel-sycl-repeat-depth0.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / Vulkan, initial",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2548.869875,
+        "sd": 223.324914,
+        "source": "results/2026-09-08/intel-vulkan-depth0.json"
+      },
+      "tg0": {
+        "mean": 20.229451,
+        "sd": 0.169184,
+        "source": "results/2026-09-08/intel-vulkan-depth0.json"
+      },
+      "tg2048": {
+        "mean": 45.68641,
+        "sd": 0.089258,
+        "source": "results/2026-09-08/intel-vulkan-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / Vulkan, repeat",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2945.253634,
+        "sd": 46.040867,
+        "source": "results/2026-09-08/intel-vulkan-repeat-depth0.json"
+      },
+      "tg0": {
+        "mean": 20.430074,
+        "sd": 0.1271,
+        "source": "results/2026-09-08/intel-vulkan-repeat-depth0.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "RTX5060 Laptop / CUDA",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2499.242882,
+        "sd": 198.10784,
+        "source": "results/2026-09-08/nvidia-cuda-depth0.json"
+      },
+      "tg0": {
+        "mean": 67.091562,
+        "sd": 0.795381,
+        "source": "results/2026-09-08/nvidia-cuda-depth0.json"
+      },
+      "tg2048": {
+        "mean": 62.005866,
+        "sd": 1.415181,
+        "source": "results/2026-09-08/nvidia-cuda-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "RTX5060 Laptop / Vulkan",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2219.146074,
+        "sd": 162.16902,
+        "source": "results/2026-09-08/nvidia-vulkan-depth0.json"
+      },
+      "tg0": {
+        "mean": 64.397618,
+        "sd": 1.155568,
+        "source": "results/2026-09-08/nvidia-vulkan-depth0.json"
+      },
+      "tg2048": {
+        "mean": 60.081314,
+        "sd": 0.145006,
+        "source": "results/2026-09-08/nvidia-vulkan-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1237.734864,
+        "sd": 5.215876,
+        "source": "results/2026-09-08/evo/raw/synthetic-qwen8/vulkan/depth0.json"
+      },
+      "tg0": {
+        "mean": 43.624392,
+        "sd": 0.049044,
+        "source": "results/2026-09-08/evo/raw/synthetic-qwen8/vulkan/depth0.json"
+      },
+      "tg2048": {
+        "mean": 40.895875,
+        "sd": 0.083883,
+        "source": "results/2026-09-08/evo/raw/synthetic-qwen8/vulkan/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-gemma26",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f",
+    "values": {
+      "pp512": {
+        "mean": 1277.59886,
+        "sd": 8.546352,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma26/depth0.json"
+      },
+      "tg0": {
+        "mean": 51.998733,
+        "sd": 0.244263,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma26/depth0.json"
+      },
+      "tg2048": {
+        "mean": 47.365957,
+        "sd": 0.10846,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma26/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-qwen35-mtp-off",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b",
+    "values": {
+      "pp512": {
+        "mean": 1120.508749,
+        "sd": 9.74755,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen35-mtp-off/depth0.json"
+      },
+      "tg0": {
+        "mean": 60.813969,
+        "sd": 0.409434,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen35-mtp-off/depth0.json"
+      },
+      "tg2048": {
+        "mean": 59.602701,
+        "sd": 0.084101,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen35-mtp-off/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-gemma31",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "8f3479643461601703f717931e399cc440dbd5ada598c025d6296c8165d94be9",
+    "values": {
+      "pp512": {
+        "mean": 292.119738,
+        "sd": 5.654088,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma31/depth0.json"
+      },
+      "tg0": {
+        "mean": 11.32875,
+        "sd": 0.017589,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma31/depth0.json"
+      },
+      "tg2048": {
+        "mean": 10.556881,
+        "sd": 0.015289,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma31/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-qwen38-27b",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "e00082f779fa385cee8c68a3ec8833a75778cc87272240b942f74e0b8243e520",
+    "values": {
+      "pp512": {
+        "mean": 351.792075,
+        "sd": 1.186886,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen38-27b/depth0.json"
+      },
+      "tg0": {
+        "mean": 12.769032,
+        "sd": 0.030813,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen38-27b/depth0.json"
+      },
+      "tg2048": {
+        "mean": 12.57772,
+        "sd": 0.020078,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen38-27b/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-qwen35-community",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "4ac6a06bce551257267f49ad2226f8671a22519ccc1a4dde9d5b433d1f2a410d",
+    "values": {
+      "pp512": {
+        "mean": 1126.140768,
+        "sd": 9.426877,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen35-community/depth0.json"
+      },
+      "tg0": {
+        "mean": 71.48654,
+        "sd": 0.481564,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen35-community/depth0.json"
+      },
+      "tg2048": {
+        "mean": 69.433176,
+        "sd": 0.131481,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/qwen35-community/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-gemma12-qat",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "f568ac5de71c8fcac5d5794494388ad94db9e18b4368ca897e21b30d2448eeec",
+    "values": {
+      "pp512": {
+        "mean": 732.462498,
+        "sd": 8.781511,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma12-qat/depth0.json"
+      },
+      "tg0": {
+        "mean": 28.569744,
+        "sd": 0.131158,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma12-qat/depth0.json"
+      },
+      "tg2048": {
+        "mean": 26.661045,
+        "sd": 0.066301,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma12-qat/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-ministral14",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "4477e334330e7a6dcc827025eb6a18b6b97ea84e70dc6998cf1fbda04c483dff",
+    "values": {},
+    "note": "Loading timeout before measured inference"
+  },
+  {
+    "model_id": "evo-gemma12-coding",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "1fe90b72e105d7bc71650aa59883edece3e84751af489075217a7ae717b1fe8d",
+    "values": {
+      "pp512": {
+        "mean": 802.303233,
+        "sd": 4.907484,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma12-coding/depth0.json"
+      },
+      "tg0": {
+        "mean": 27.20662,
+        "sd": 0.028802,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma12-coding/depth0.json"
+      },
+      "tg2048": {
+        "mean": 25.370074,
+        "sd": 0.064151,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma12-coding/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "evo-gemma2-9b",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+    "values": {
+      "pp512": {
+        "mean": 1000.479371,
+        "sd": 3.085832,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma2-9b/depth0.json"
+      },
+      "tg0": {
+        "mean": 34.518525,
+        "sd": 0.03513,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma2-9b/depth0.json"
+      },
+      "tg2048": {
+        "mean": 29.57465,
+        "sd": 0.012783,
+        "source": "results/2026-09-08/evo/raw/vulkan-model-matrix/gemma2-9b/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "91ece77e21b9f001795e8b4b7358a2e521c357e58f832912705fd594f43cdc7f",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1825,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T15:36:44.968288+00:00",
+  "output": "The narrative opens with the arrival of the Huns around A.D. 372, an enormous horde that devastated the Alans and forced the Ostrogoths into vassalage [PDF p. 61]. Frightened Visigoths under Duke Fritigern fled to the Danube, preferring Roman slavery to Hunnic rule because they were more civilized and Christian [PDF p. 61]. Emperor Valens, whom the author judges as stupid, cowardly, and avaricious, permitted their settlement in A.D. 376 only if they surrendered arms and gave hostages [PDF p. 62]. Corruption among Roman officials allowed the Goths to keep weapons while Governor Lupicinus withheld food, selling it at exorbitant prices [PDF p. 63]. This hunger drove the Goths to sell their children into slavery, sparking a violent revolt that escalated into a nationwide war [PDF p. 63]. By A.D. 378, Valens attacked with 60,000 men near Adrianople, but the Goths utilized cavalry tactics adopted from the Ukraine to overwhelm the Roman flank [PDF p. 65]. The resulting defeat saw 40,000 men fall and the Emperor killed, marking the most fearful loss since Cannae and ending the old Eastern army organization [PDF p. 67]. Although the Goths advanced toward Constantinople, they retreated before the city walls, vindicating Constantine's foresight in building the fortress-capital [PDF p. 67].\n\nThe text subsequently documents the linguistic decay of the Eastern Roman Empire, noting that Ammianus Marcellinus wrote in Latin despite his Greek origins [PDF p. 169]. By the seventh century, the Roman element vanished as emperors adopted Greek titles and officials like Procopius became ignorant of Latin [PDF p. 169]. The author attributes this shift to political division and the devastation of Latin-speaking Balkan provinces by Goths and Slavs [PDF p. 170]. Concurrently, Christian influence grew, with Theodosius I initiating state suppression of moral sins after Constantine's largely pagan administration [PDF p. 171]. The monk Telemachus is credited with ending gladiatorial games in A.D. 404 through his martyrdom [PDF p. 171]. Christianity also abolished infanticide and improved slave status, leading to Justinian's legislation protecting mixed marriages and criminalizing slave prostitution [PDF p. 173]. However, the author evaluates the rise of ascetic monasticism as dangerous because it weakened the state by encouraging citizens to neglect civic duties [PDF p. 174]. This apathy led pagans to blame Christianity for the collapse, prompting Orosius to defend the faith [PDF p. 176]. While open paganism ended with Justinian closing the schools of Athens in 529, many educated men remained indifferent Christians who retained pagan lifestyles [PDF p. 176].\n\nFollowing the death of Basil the Macedonian, the eighty-year period was characterized as uneventful and dominated by the literary pursuits of Leo VI and Constantine VII [PDF p. 169]. These successors are described as mild men who preferred writing to military conquest, a choice facilitated by relative peace from 880 to 960 [PDF p. 169]. Despite minor threats from Russian pirates and Saracens, Leo's reign suffered a disgraceful loss when Saracen forces captured Thessalonica in 904 [PDF p. 169]. This event is qualified as a surprise attack from an unexpected direction, yet it remains an administrative failure [PDF p. 169]. Constantine VII spent his youth under the regency of his uncle Alexander and later the usurper Romanus Lecapenus [PDF p. 169]. The author attributes Constantine's eventual accession to popular wrath against Romanus's sons rather than his own energy [PDF p. 169]. Once in power, Constantine proved weak but not tyrannical [PDF p. 169]. Both emperors are credited with significant literary output, including Leo's manual on war tactics which details a highly organized army and fleet equipped with Greek fire [PDF p. 169]. Constantine's works on administration and court ceremonies are praised for their methodical detail, though the author evaluates him as a compiler rather than an originator [PDF p. 169]. These literary achievements signal the end of a long period of intellectual dearth, marking a revival of Byzantine culture after the dark age of the seventh and eighth centuries [PDF p. 169].\n\nThe author argues that the Byzantine Empire ceased to be a vital bulwark for Christendom after 1370, a duty that shifted to Servians and Hungarians [PDF p. 358]. The Paleologi family prolonged the empire's existence through base subservience to the Turks [PDF p. 358]. Emperor John Paleologus faced internal strife when his son Andronicus rebelled and allied with Murad I's son, leading to Andronicus being blinded before he rebelled again [PDF p. 359]. Upon John's death in 1391, the throne passed to his second son, Manuel II, who possessed limited dominions and resources [PDF p. 359]. A brief opportunity for liberation arose in 1402 when Tamerlane defeated Sultan Bayezid, causing Ottoman civil war [PDF p. 360]. Manuel capitalized on this by selling aid to pretenders, regaining territories like Thessalonica and Black Sea ports [PDF p. 361]. However, Mohammed the Unifier eventually reunited the Ottoman realm by 1421, and Manuel's alliance with him preserved his gains temporarily [PDF p. 362]. Europe failed to exploit the Ottoman weakness because Sigismund of Hungary was distracted by Hussite wars, and no crusade was formed due to Serb-Magyar animosity [PDF p. 362]. When Murad II attacked in 1422, Manuel's support for pretenders failed, and the city survived only due to a miraculous vision and internal Ottoman trouble [PDF p. 363]. Manuel died in 1425, leaving a gloomy legacy to his son John VI, who ruled a depleted empire where commerce belonged to Italians and walls were in ruins [PDF p. 365]. John VI lost Thessalonica to the Ottomans in 1430 after his brother sold it to Venice [PDF p. 366]. Finally, John traveled to Florence in 1438 to seek aid by converting to Catholicism, but received only minimal military support because Pope Eugenius IV was politically weak [PDF p. 366].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1462,
+    "prompt_tokens": 1825,
+    "total_tokens": 3287,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 1743,
+    "prompt_ms": 3486.507,
+    "prompt_per_token_ms": 2.000290877796902,
+    "prompt_per_second": 499.9272911254731,
+    "predicted_n": 1462,
+    "predicted_ms": 49363.191,
+    "predicted_per_token_ms": 33.78726283367556,
+    "predicted_per_second": 29.596952109518206
+  },
+  "first_visible_seconds": 3.544720791999964,
+  "wall_seconds": 52.90744799999999,
+  "word_count": 947,
+  "finished_at": "2026-09-08T15:37:39.664292+00:00"
+}

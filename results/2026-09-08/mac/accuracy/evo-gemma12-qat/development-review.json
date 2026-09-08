@@ -1,0 +1,45 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "68188d30bda04f297f91392eda53bdaebf003110748269712fe76107faff002f",
+    "development-summary": "741a1f03608a57330792449bd4db74874344709179b1365847321163d52f4852"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "contradiction",
+      "rationale": "Explicitly says only four died and the remaining three were saved; source identifies two hanging survivors."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "no_answer",
+      "rationale": "Incorrect abstention; source explicitly says 35,000 over six days."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct source-absent abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "a bungled hanging of three rioters",
+      "judgment": "ambiguous",
+      "source_pages": [
+        102
+      ],
+      "rationale": "Three were scheduled to hang but only two are described as surviving; compressed wording risks implying all three survived, without explicitly saying so here."
+    },
+    {
+      "output_anchor": "while 35,000 men were slain",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        106
+      ],
+      "rationale": "Author observes does not preserve the nested it-is-said qualification. Six-day scope is not restated; unlike other summaries the clause does not clearly restrict the total to the final assault."
+    }
+  ],
+  "summary_review": "Major uprising, demands, Theodora and continued faction unrest are represented; the fire and reluctant Hypatius sequence is omitted. Slaughter citation 105 spans into 106. This review separates ambiguity from clear contradiction in D-Q1."
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "34cda6e7e91f09310d3429d71fb003d30d34b0916d097f5bd2c2ee704c38bfa0",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3998,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T16:08:18.738956+00:00",
+  "output": "The author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history that no longer serves as an important thread in Christendom [PDF p. 358]. The era began with the reign of John Paleologus, whose long life was vexed by the rebellion of his son, Andronicus [PDF p. 359]. Following John's death in 1391, Manuel II ascended the throne [PDF p. 359]. Manuel briefly expanded his influence during the Ottoman civil wars following Timour's defeat of Sultan Bayezid in 1402 [PDF p. 360]. However, the author notes that Europe failed to seize this opportunity to expel the Ottomans because King Sigismund of Hungary was preoccupied with the Hussite wars [PDF p. 362].\n\nAfter the unification of the Ottoman realm by Mohammed, Manuel faced the ambitious Murad II [PDF p. 362]. Although Manuel attempted to support Ottoman pretenders, Murad II besieged Constantinople and eventually forced Manuel to cede most dominions, returning the empire to vassalage in 1422 [PDF p. 363]. The author describes the subsequent reign of John VI as a period of unredeemed gloom [PDF p. 365]. Despite John's attempt to secure Western aid through conversion to Roman Catholicism at the Council of Florence, the author evaluates his efforts as yielding only a poor return [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 315,
+    "prompt_tokens": 3998,
+    "total_tokens": 4313,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3915,
+    "prompt_ms": 2808.038,
+    "prompt_per_token_ms": 0.717251085568327,
+    "prompt_per_second": 1394.211901690789,
+    "predicted_n": 315,
+    "predicted_ms": 5412.326,
+    "predicted_per_token_ms": 17.23670700636943,
+    "predicted_per_second": 58.0157218911056
+  },
+  "first_visible_seconds": 2.8742220419999995,
+  "wall_seconds": 8.28690433300001,
+  "word_count": 214,
+  "finished_at": "2026-09-08T16:08:28.872246+00:00"
+}

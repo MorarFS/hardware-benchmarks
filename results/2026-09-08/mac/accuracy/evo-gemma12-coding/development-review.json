@@ -1,0 +1,37 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted source review; no independent human adjudication",
+  "scope": "Development only; excluded from the 20-question held-out score and 16-unit coverage totals. Source fidelity, not modern historical truth.",
+  "source": "experiments/history-v2/inputs/development.txt and gold/development.json",
+  "output_sha256": {
+    "development-extraction": "f5009017fa00617105060737fcaa03859f0bf691f100590da611454efe3472d7",
+    "development-summary": "63ee72893fa8925daec9418518761464b4ebdd35584d5558504d44dd4125cb5e"
+  },
+  "extraction": [
+    {
+      "question_id": "D-Q1",
+      "judgment": "correct",
+      "rationale": "Correct seven selected, four beheaded and two survivors; does not assert only four total deaths."
+    },
+    {
+      "question_id": "D-Q2",
+      "judgment": "correct",
+      "rationale": "Correct reported six-day scope."
+    },
+    {
+      "question_id": "D-Q3",
+      "judgment": "correct",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "summary_flags": [
+    {
+      "output_anchor": "declare them sanctuary",
+      "judgment": "ambiguous",
+      "source_pages": [
+        102
+      ],
+      "rationale": "Awkward wording for thrusting the survivors into sanctuary at the adjacent monastery; location and action are compressed, not a clearly invented event."
+    }
+  ],
+  "summary_review": "Beginning, uprising, fires, Hypatius, Theodora, final assault and continued unrest are source-supported. It avoids reassigning the 35,000 total by omitting that number. Faction religious alignments and the force inventory are omitted; no material clear contradiction found in this development summary."
+}

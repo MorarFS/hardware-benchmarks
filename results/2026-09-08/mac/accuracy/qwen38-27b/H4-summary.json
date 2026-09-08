@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "8ea5b60c04b1444e284a181e44b2e2e0c0d4808994268944e8ba68da740edd6c",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4086,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-08T14:03:26.135244+00:00",
+  "output": "The author argues that the Byzantine Empire’s final decades constitute mere local history, as its role as a \"bulwark of Christendom\" shifted to the Servians and Hungarians after 1370 [PDF p. 358]. He contends that the Paleologi protracted the empire’s life through subservience to the Turks, even after justification for its existence had vanished [PDF p. 358]. The author suggests that an earlier fall in 1370 would have only modestly altered European history, primarily affecting Venetian and Genoese commerce and the timing of the Renaissance [PDF p. 358-359].\n\nJohn Paleologus’s reign was marked by rebellion from his son Andronicus, who was blinded but retained enough sight to rebel again, leading John to pass the throne to Manuel II in 1391 [PDF p. 359]. Manuel II, though capable, lacked resources to resist the Ottomans until Tamerlane’s defeat of Sultan Bayezid in 1402 created a power vacuum [PDF p. 360]. Manuel exploited this civil war to recover territories like Thessalonica, but the opportunity for European liberation was squandered due to Hungarian preoccupation with Hussites and Serb-Hungarian hostility [PDF p. 360-363]. When Mohammed II reunified the Ottoman realm in 1421, his son Murad II later besieged Constantinople, forcing Manuel to cede most territories in 1422 [PDF p. 362-365].\n\nManuel’s successor, John VI, ruled a depleted state where the population had shrunk to one hundred thousand and commerce was dominated by Italians [PDF p. 365-366]. His brother sold Thessalonica to Venice, prompting Ottoman annexation in 1430 [PDF p. 367]. Finally, John VI traveled to Italy in 1438 to seek aid, converting to Roman Catholicism at Florence in 1439 [PDF p. 367]. The author notes that Pope Eugenius IV, weakened by the Council of Basel, could offer only minor financial and military support, rendering the conversion a poor return [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 491,
+    "prompt_tokens": 4086,
+    "total_tokens": 4577,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 4004,
+    "prompt_ms": 13325.899,
+    "prompt_per_token_ms": 3.328146603396603,
+    "prompt_per_second": 300.4675331848156,
+    "predicted_n": 491,
+    "predicted_ms": 34655.079,
+    "predicted_per_token_ms": 70.72465102040816,
+    "predicted_per_second": 14.139341595498887
+  },
+  "first_visible_seconds": 13.432440124999971,
+  "wall_seconds": 48.086870084,
+  "word_count": 297,
+  "finished_at": "2026-09-08T14:04:14.747511+00:00"
+}
