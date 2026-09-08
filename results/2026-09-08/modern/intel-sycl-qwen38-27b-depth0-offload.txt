@@ -1,0 +1,15 @@
+load_tensors: offloading output layer to GPU
+load_tensors: offloading 64 repeating layers to GPU
+load_tensors: offloaded 66/66 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   682.03 MiB
+load_tensors:        SYCL0 model buffer size = 14674.45 MiB
+llama_kv_cache:      SYCL0 KV buffer size =    32.00 MiB
+sched_reserve:      SYCL0 compute buffer size =   505.52 MiB
+sched_reserve:  SYCL_Host compute buffer size =    20.52 MiB
+~llama_context:      SYCL0 compute buffer size is 505.5177 MiB, matches expectation of 505.5177 MiB
+~llama_context:  SYCL_Host compute buffer size is  20.5196 MiB, matches expectation of  20.5196 MiB
+llama_kv_cache:      SYCL0 KV buffer size =    16.00 MiB
+sched_reserve:      SYCL0 compute buffer size =   252.63 MiB
+sched_reserve:  SYCL_Host compute buffer size =    10.13 MiB
+~llama_context:      SYCL0 compute buffer size is 252.6339 MiB, matches expectation of 252.6339 MiB
+~llama_context:  SYCL_Host compute buffer size is  10.1348 MiB, matches expectation of  10.1348 MiB

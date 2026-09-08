@@ -6,7 +6,15 @@ Windows laptop measurements from September 8, 2026, comparing an external Intel 
 
 ## Newer-model follow-up
 
-A separate [three-model comparison](MODERN-MODELS.md) targets approximately 40 generated tokens/s. Gemma 4 26B-A4B completed at 64.274290 tokens/s at depth 0 and 56.677035 at depth 2,048; Qwen3.6 completed at 73.334245 and 71.525257 tokens/s at those depths; Qwen3.8 remains pending. The follow-up uses different four-bit recipes and does not assess answer quality.
+The completed [three-model comparison](MODERN-MODELS.md) tested the approximately 40 generated-token/s goal. **Qwen3.6 35B-A3B was the fastest measured candidate**, Gemma 4 26B-A4B also exceeded the target, and Qwen3.8 27B fell below it.
+
+| Candidate | Depth 0 generation (tokens/s) | Depth 2,048 generation (tokens/s) | Target result |
+| --- | ---: | ---: | --- |
+| Qwen3.6 35B-A3B UD-Q4_K_M | 73.334245 | 71.525257 | Exceeded; fastest measured |
+| Gemma 4 26B-A4B Instruct Q4_K_M | 64.274290 | 56.677035 | Exceeded |
+| Qwen3.8 27B UD-Q4_K_M | 20.922442 | 20.418157 | Below |
+
+All three completed with all layers offloaded. These text-only tests use different bartowski Q4_K_M and Unsloth UD-Q4_K_M recipes; they do not establish an answer-quality winner or multimodal/application performance. The linked report includes standard deviations, all nine modern measurements and memory evidence.
 
 ## Hardware and setup
 
@@ -107,7 +115,7 @@ Both logs report a **28,244.70 MiB SYCL0 model buffer** and a **563.62 MiB CPU_M
 
 These are Windows **GPU Process Memory** samples taken approximately every six seconds, including model loading and inference. The selected counter instance is the process adapter with the largest dedicated-memory sample. Each column is its own sampled maximum and need not occur at the same instant; the short run also includes prompt processing. These counters are not an exact sum of llama.cpp's buffer reports, can miss brief peaks, and do not prove that paging never occurred. The small measured shared-memory use is retained explicitly. There is no zero-CPU or zero-paging claim.
 
-Sanitized benchmark JSON, offload excerpts, memory time series and `capacity-fit-summary.json` are in `results/2026-09-08/capacity/`. CSV adapter names are `primary-benchmark-adapter` for the peak-dedicated instance and `other-adapter-N` for the remaining instances; process IDs and adapter LUIDs are removed. The primary label follows the counter-selection rule, not an independently verified LUID-to-device mapping. Original values and elapsed times are retained. `results/summary.csv` combines the original **19 measurements** and completed newer-model follow-up rows; the original 16-row 8B summary is preserved.
+Sanitized benchmark JSON, offload excerpts, memory time series and `capacity-fit-summary.json` are in `results/2026-09-08/capacity/`. CSV adapter names are `primary-benchmark-adapter` for the peak-dedicated instance and `other-adapter-N` for the remaining instances; process IDs and adapter LUIDs are removed. The primary label follows the counter-selection rule, not an independently verified LUID-to-device mapping. Original values and elapsed times are retained. `results/summary.csv` contains **28 measurements**: the original 19 plus nine completed newer-model follow-up rows; the original 16-row 8B summary is preserved.
 
 The raw runtime `model_type` remains `deci 70B Q4_K - Medium`; this is a heuristic label, not the artifact's actual size. The verified model identity is Nemotron Super 49B v1.5, and JSON reports **49,867,145,280 parameters**. The GGUF file has 30,215,579,136 bytes; llama-bench reports 30,207,721,728 bytes of model tensors.
 
@@ -127,6 +135,4 @@ The download and benchmark scripts use the pinned manifest in `scripts/models.js
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
-
-
 
