@@ -1,0 +1,17 @@
+model,profile,interval,samples,cpu_tctl_peak_C,gpu_edge_peak_C,driver_PPT_mean_W,driver_PPT_peak_W,gpu_sclk_mean_MHz,governor,EPP
+qwen8,balanced,depth0-power,33,57.625,58.0,72.8941212121212,89.041,2751.6969696969695,powersave,balance_performance
+qwen8,balanced,depth2048-power,35,64.5,64.0,75.57005714285714,84.044,2774.3714285714286,powersave,balance_performance
+qwen8,balanced,prose-1-power,14,69.875,69.0,77.98671428571429,95.076,2650.714285714286,powersave,balance_performance
+qwen8,balanced,prose-2-power,14,70.5,72.0,85.39657142857143,92.037,2728.0,powersave,balance_performance
+qwen8,performance,depth0-power,32,72.875,74.0,84.2651875,91.038,2833.0,performance,performance
+qwen8,performance,depth2048-power,35,75.5,76.0,83.53254285714286,95.0,2778.0857142857144,performance,performance
+qwen8,performance,prose-1-power,14,78.125,78.0,83.391,93.036,2591.3571428571427,performance,performance
+qwen8,performance,prose-2-power,14,76.625,76.0,84.47628571428571,85.008,2655.5714285714284,performance,performance
+gemma26,balanced,depth0-power,37,70.875,72.0,61.99113513513513,90.034,2730.7837837837837,powersave,balance_performance
+gemma26,balanced,depth2048-power,40,70.875,72.0,60.080475,84.01,2764.725,powersave,balance_performance
+gemma26,balanced,prose-1-power,11,73.125,74.0,65.78054545454545,89.091,2289.7272727272725,powersave,balance_performance
+gemma26,balanced,prose-2-power,12,75.125,76.0,76.81041666666667,96.059,2462.0833333333335,powersave,balance_performance
+gemma26,performance,depth0-power,37,73.375,74.0,72.04943243243243,93.018,2799.4324324324325,performance,performance
+gemma26,performance,depth2048-power,33,75.375,77.0,79.40415151515151,90.062,2777.4545454545455,performance,performance
+gemma26,performance,prose-1-power,11,74.0,75.0,72.41327272727273,90.012,2269.909090909091,performance,performance
+gemma26,performance,prose-2-power,11,76.125,76.0,80.49309090909091,95.045,2417.181818181818,performance,performance

@@ -1,0 +1,54 @@
+{
+  "trial": 2,
+  "wall_seconds": 13.876655897998717,
+  "first_visible_seconds": 3.325605429999996,
+  "visible_tokens": 400,
+  "visible_phase_tps": 37.9109171369427,
+  "visible_total_wall_tps": 28.82538869164348,
+  "finish_reason": "stop",
+  "output_limit_reached": false,
+  "reasoning_text": "",
+  "output": "The passage begins by highlighting the prescience of Emperor Constantine in establishing Constantinople as a central military stronghold for the Balkans. This foresight became evident when the Huns, a massive Tartar horde, began their westward invasion around 372 AD. The Huns first confronted the Alans, nearly exterminating them, then turned on the Ostrogoths, who were crushed and forced to become Huns' vassals. A remnant of the Ostrogoths fled south to the Danube region, while the Huns continued their advance, pressing against the Visigoths under Duke Fritigern. The Visigoths, fearing enslavement by the Huns, sought refuge within the Roman Empire.\n\nThe text then shifts to the Roman Empire's internal divisions, with Emperor Valens ruling the East and his nephew Gratian in the West. Valens, described as cowardly and avaricious, hesitated to allow the Visigoths to cross the Danube, fearing both the threat of the Huns and the burden of accommodating them. Eventually, he permitted the Goths to enter, but tensions quickly arose due to food shortages and corruption. Roman officials, including Lupicinus, exploited the situation, leading to widespread suffering and unrest among the Goths. This culminated in a violent clash at Marcianopolis, where Fritigern and his followers turned against Rome.\n\nThe passage concludes with the Battle of Adrianople in 378 AD, where the Roman army, despite its reputation, was decisively defeated by the Goths. The battle, described as one of the most devastating for the Roman legions since Cannae, resulted in the death of Emperor Valens and many high-ranking officials. The Goths, though victorious, failed to capture Constantinople, retreating to Thrace after realizing the city's formidable defenses. This event marked a turning point in the decline of Roman military dominance in the region.",
+  "last_event": {
+    "choices": [],
+    "created": 1788873156,
+    "id": "chatcmpl-1v4EO4q65Xq6TZZt28eOY2BstOU0W3lx",
+    "model": "<HOME>/.lmstudio/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion.chunk",
+    "usage": {
+      "completion_tokens": 401,
+      "prompt_tokens": 3318,
+      "total_tokens": 3719,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 3318,
+      "prompt_ms": 3297.913,
+      "prompt_per_token_ms": 0.9939460518384569,
+      "prompt_per_second": 1006.0908216802566,
+      "predicted_n": 401,
+      "predicted_ms": 10549.551,
+      "predicted_per_token_ms": 26.3738775,
+      "predicted_per_second": 37.91630563234398
+    }
+  },
+  "peak_memory": {
+    "runtime_total_pss_bytes": 274737152,
+    "swap_used_bytes": 3857195008,
+    "llama_server_process_count": 1,
+    "system_used_excluding_available_bytes": 4914421760,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 27817705472,
+    "card1_gtt_used_bytes": 550178816,
+    "runtime_largest_process_rss_bytes": 163700736,
+    "card1_vram_used_bytes": 7903084544,
+    "cpu_percent": 2.1
+  },
+  "quality": "Pending readable/source check; not a new accuracy benchmark"
+}

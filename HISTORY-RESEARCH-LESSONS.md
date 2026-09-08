@@ -62,3 +62,7 @@ A proposed synthesis instruction is:
 Neither proposed prompt has been tested as a new experiment. Check the resulting text rather than treating these instructions as safeguards that guarantee correctness.
 
 The broader [research notes](https://github.com/MorarFS/hardware-benchmarks/blob/main/RESEARCH-NOTES.md) retain runtime findings and relevant humanities resources. The [frozen test package](https://github.com/MorarFS/hardware-benchmarks/blob/main/experiments/history-v2/USAGE.md) supports reproduction on another machine.
+
+## Final supported-profile check
+
+The bounded Qwen8/Gemma26 comparison found no meaningful overall gain from performance mode. Gemma prose averaged 45.43 tokens/s on balanced and 45.72 on performance. Qwen8 averaged 38.48 and 38.03 respectively. Fixed order and small samples limit causal interpretation. Balanced mode was restored. This is separate from the three-model accuracy pilot and its LM Studio settings. [Power-profile evidence](https://github.com/MorarFS/hardware-benchmarks/blob/main/results/2026-09-08/power-profiles/README.md).

@@ -1,0 +1,54 @@
+{
+  "trial": 2,
+  "wall_seconds": 11.244041812999058,
+  "first_visible_seconds": 4.96783808300097,
+  "visible_tokens": 284,
+  "visible_phase_tps": 45.250283804934185,
+  "visible_total_wall_tps": 25.257821406504565,
+  "finish_reason": "stop",
+  "output_limit_reached": false,
+  "reasoning_text": "",
+  "output": "Around A.D. 372, a massive Hunnic horde moved westward, nearly exterminating the Alans and crushing the Ostrogoths (61). The Visigoths, described by the author as more civilized and Christian than their eastern brethren, were eventually driven to the Danube (61-62). Desperate to avoid slavery, they requested permission from the Roman Emperor Valens to cross the border (62). The author characterizes Valens as a stupid, cowardly, and avaricious prince who ruled the East with sloth and timidity (62).\n\nAlthough the Goths initially entered as subject-allies, they retained their arms through bribery (63). Tensions escalated when the governor, Lupicinus, engaged in shameless extortion by withholding food to profit from exorbitant prices (63). This desperation led to a violent outbreak of war (64). In A.D. 378, Valens attempted to confront the Goths near Adrianople, but the Roman infantry was overwhelmed by Gothic cavalry (65-66). The resulting slaughter was the most fearful defeat for Rome since Cannae (67). While the victorious Goths eventually approached Constantinople, they lacked the courage to assault its massive walls (67). Ultimately, the author concludes that Constantine’s decision to build a fortress-capital proved prescient (61, 67).",
+  "last_event": {
+    "choices": [],
+    "created": 1788873277,
+    "id": "chatcmpl-Pbtytgyx78iNH8pGLYGfujSVGaB5awNp",
+    "model": "<HOME>/.lmstudio/models/unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion.chunk",
+    "usage": {
+      "completion_tokens": 285,
+      "prompt_tokens": 3318,
+      "total_tokens": 3603,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 3318,
+      "prompt_ms": 4954.208,
+      "prompt_per_token_ms": 1.4931308016877636,
+      "prompt_per_second": 669.7336890174979,
+      "predicted_n": 285,
+      "predicted_ms": 6275.817,
+      "predicted_per_token_ms": 22.09794718309859,
+      "predicted_per_second": 45.25307222948024
+    }
+  },
+  "peak_memory": {
+    "runtime_total_pss_bytes": 756912128,
+    "swap_used_bytes": 3849703424,
+    "llama_server_process_count": 1,
+    "system_used_excluding_available_bytes": 5840842752,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 27319271424,
+    "card1_gtt_used_bytes": 987230208,
+    "runtime_largest_process_rss_bytes": 659865600,
+    "card1_vram_used_bytes": 19444756480,
+    "cpu_percent": 2.8
+  },
+  "quality": "Pending readable/source check; not a new accuracy benchmark"
+}

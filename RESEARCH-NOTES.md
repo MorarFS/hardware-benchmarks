@@ -94,3 +94,7 @@ The Qwen long checks processed 15,819 prompt tokens across many microbatches. Na
 ## Evaluation identity and current boundary
 
 The source audits use Codex-assisted text comparison, including a second Codex review. They are not independent human adjudication or PDF-image verification. The user examined selected earlier examples. Partial answers, ambiguous wording, citation defects, coverage omissions, and direct contradictions remain distinct. The [completed separated pilot](results/2026-09-08/history-v2/README.md) now supplies extraction, summary, coverage, and timing results. [Historical-research lessons](HISTORY-RESEARCH-LESSONS.md) distinguish tested findings from proposed prompting changes.
+
+## Completed supported-profile check
+
+The [bounded Qwen8/Gemma26 profile comparison](results/2026-09-08/power-profiles/README.md) found no meaningful overall gain from performance mode. It retained pinned Vulkan binaries and identical weights. Balanced mode and both serving routes were restored. Fixed order and limited repetitions prevent a universal performance claim.

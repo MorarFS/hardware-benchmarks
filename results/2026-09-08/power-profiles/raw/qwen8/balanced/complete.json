@@ -1,0 +1,27 @@
+{
+  "time": "2026-09-08T13:10:59.504557+00:00",
+  "after": {
+    "time": "2026-09-08T13:10:59.504587+00:00",
+    "monotonic": 36688.548400974,
+    "mt7925_phy0/temp1_input": "36000",
+    "k10temp/temp1_label": "Tctl",
+    "k10temp/temp1_input": "69750",
+    "acpitz/temp1_input": "70000",
+    "amdgpu/freq1_label": "sclk",
+    "amdgpu/power1_label": "PPT",
+    "amdgpu/temp1_label": "edge",
+    "amdgpu/power1_average": "78092000",
+    "amdgpu/freq1_input": "2689000000",
+    "amdgpu/power1_input": "78092000",
+    "amdgpu/temp1_input": "62000",
+    "r8169_0_6100:00/temp1_input": "53000",
+    "nvme/temp3_input": "66850",
+    "nvme/temp1_label": "Composite",
+    "nvme/temp1_input": "34850",
+    "nvme/temp3_label": "Sensor 2",
+    "scaling_governor": "powersave",
+    "energy_performance_preference": "balance_performance",
+    "scaling_min_freq": "2000000",
+    "scaling_max_freq": "5187500"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model_file": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "model_sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f",
+  "bytes": 16947541728,
+  "profile": "balanced",
+  "before": {
+    "time": "2026-09-08T13:12:52.971149+00:00",
+    "monotonic": 36802.014981169,
+    "mt7925_phy0/temp1_input": "40000",
+    "k10temp/temp1_label": "Tctl",
+    "k10temp/temp1_input": "68000",
+    "acpitz/temp1_input": "67000",
+    "amdgpu/freq1_label": "sclk",
+    "amdgpu/power1_label": "PPT",
+    "amdgpu/temp1_label": "edge",
+    "amdgpu/power1_average": "21095000",
+    "amdgpu/freq1_input": "615000000",
+    "amdgpu/power1_input": "21095000",
+    "amdgpu/temp1_input": "58000",
+    "r8169_0_6100:00/temp1_input": "60000",
+    "nvme/temp3_input": "66850",
+    "nvme/temp1_label": "Composite",
+    "nvme/temp1_input": "38850",
+    "nvme/temp3_label": "Sensor 2",
+    "scaling_governor": "powersave",
+    "energy_performance_preference": "balance_performance",
+    "scaling_min_freq": "2000000",
+    "scaling_max_freq": "5187500"
+  }
+}

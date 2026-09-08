@@ -1,0 +1,30 @@
+{
+  "model_file": "Qwen3-8B-Q4_K_M.gguf",
+  "model_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+  "bytes": 5027783488,
+  "profile": "balanced",
+  "before": {
+    "time": "2026-09-08T13:09:21.654525+00:00",
+    "monotonic": 36590.698354856,
+    "mt7925_phy0/temp1_input": "35000",
+    "k10temp/temp1_label": "Tctl",
+    "k10temp/temp1_input": "38375",
+    "acpitz/temp1_input": "38000",
+    "amdgpu/freq1_label": "sclk",
+    "amdgpu/power1_label": "PPT",
+    "amdgpu/temp1_label": "edge",
+    "amdgpu/power1_average": "12029000",
+    "amdgpu/freq1_input": "607000000",
+    "amdgpu/power1_input": "12029000",
+    "amdgpu/temp1_input": "37000",
+    "r8169_0_6100:00/temp1_input": "40000",
+    "nvme/temp3_input": "66850",
+    "nvme/temp1_label": "Composite",
+    "nvme/temp1_input": "33850",
+    "nvme/temp3_label": "Sensor 2",
+    "scaling_governor": "powersave",
+    "energy_performance_preference": "balance_performance",
+    "scaling_min_freq": "2000000",
+    "scaling_max_freq": "5187500"
+  }
+}

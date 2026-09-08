@@ -1,0 +1,54 @@
+{
+  "trial": 1,
+  "wall_seconds": 13.426289021997945,
+  "first_visible_seconds": 3.092232521994447,
+  "visible_tokens": 404,
+  "visible_phase_tps": 39.094038241407254,
+  "visible_total_wall_tps": 30.09022071088124,
+  "finish_reason": "stop",
+  "output_limit_reached": false,
+  "reasoning_text": "",
+  "output": "The passage begins by highlighting the prescience of Emperor Constantine in establishing Constantinople as a central military stronghold for the Balkans. This foresight became evident when the Huns, a massive Tartar horde, began their westward invasion around 372 AD. The Huns first confronted the Alans, nearly exterminating them, then turned on the Ostrogoths, who were crushed and forced to become Huns' vassals. A remnant of the Ostrogoths fled south to Wallachia, while the Huns continued their advance, pressing against the Visigoths under Duke Fritigern. The Visigoths, fearing enslavement by the Huns, sought refuge within the Roman Empire.\n\nThe text then shifts to the Roman Empire's internal divisions, with Emperor Valens ruling the East, described as \"stupid, cowardly, and avaricious.\" The Goths' request to cross the Danube was met with hesitation, but Valens eventually allowed them to enter, provided they surrendered their weapons and gave hostages. However, the Goths refused to disarm, and Roman officials, including Lupicinus, accepted bribes to allow them to retain their arms. Tensions escalated due to food shortages and exploitation, leading to a revolt when Goths were denied sustenance. A clash at Marcianopolis led to the Goths declaring war on Rome.\n\nThe narrative continues with a year of brutal conflict along the Danube and Balkans, where the Goths, now experienced in mounted warfare, proved formidable. Despite initial Roman successes, the Goths eventually breached the Balkans, leading to the catastrophic Battle of Adrianople in 378 AD. The Roman army, once considered invincible, was decimated by the Gothic cavalry, resulting in the death of Emperor Valens and many high-ranking officials. This defeat marked a turning point, signaling the decline of Roman military dominance and the beginning of a new era in the region's history.",
+  "last_event": {
+    "choices": [],
+    "created": 1788873045,
+    "id": "chatcmpl-piAzAlMACqAdqs88QkM9rcOPHug5e5gI",
+    "model": "<HOME>/.lmstudio/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion.chunk",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 3318,
+      "total_tokens": 3723,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 3318,
+      "prompt_ms": 3077.012,
+      "prompt_per_token_ms": 0.9273694996986137,
+      "prompt_per_second": 1078.3188365856226,
+      "predicted_n": 405,
+      "predicted_ms": 10333.602,
+      "predicted_per_token_ms": 25.57822277227723,
+      "predicted_per_second": 39.095757703848086
+    }
+  },
+  "peak_memory": {
+    "runtime_total_pss_bytes": 278295552,
+    "swap_used_bytes": 3882815488,
+    "llama_server_process_count": 1,
+    "system_used_excluding_available_bytes": 4787425280,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 27944755200,
+    "card1_gtt_used_bytes": 544542720,
+    "runtime_largest_process_rss_bytes": 167350272,
+    "card1_vram_used_bytes": 7896858624,
+    "cpu_percent": 1.9
+  },
+  "quality": "Pending readable/source check; not a new accuracy benchmark"
+}

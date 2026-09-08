@@ -1,0 +1,23 @@
+{
+  "started": "2026-09-08T13:09:13.790029+00:00",
+  "original_profile": "balanced",
+  "available_profiles": "  performance:\n    CpuDriver:\tamd_pstate\n    Degraded:   no\n\n* balanced:\n    CpuDriver:\tamd_pstate\n    PlatformDriver:\tplaceholder\n\n  power-saver:\n    CpuDriver:\tamd_pstate\n    PlatformDriver:\tplaceholder\n",
+  "models": [
+    [
+      "qwen8",
+      "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+      "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+    ],
+    [
+      "gemma26",
+      "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+      "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f"
+    ]
+  ],
+  "synthetic": "Pinned b10852/050dde50c Vulkan, pp512, tg256 depths0/2048, five reps, default warmup, F16 cache, batch512, threads10, full GPU, speculation off",
+  "prose": "Two H1 summaries per model/profile, own pinned server, context8192 parallel1 reasoningoff seed42 greedy, cache_prompt false, max1024",
+  "order": "qwen8 balanced, qwen8 performance, gemma26 balanced, gemma26 performance; fixed order, no randomized thermal crossover",
+  "cache": "No OS cache flush. Synthetic warmup default. Prose first and second separately retained.",
+  "power_note": "Sysfs sensors overlap on this APU; no additive CPU/GPU or UMA memory totals. No wall meter.",
+  "restore": "Original supported profile and previously idle serving models; no system-driver/BIOS changes"
+}

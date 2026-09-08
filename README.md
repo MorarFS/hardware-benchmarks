@@ -152,3 +152,5 @@ The [corrected original history audit](results/2026-09-08/history/README.md) inc
 ## Completed history accuracy pilot
 
 The [frozen pilot results](results/2026-09-08/history-v2/README.md) separate extraction, synthesis, citations, coverage, and latency. The [historical-research lessons](HISTORY-RESEARCH-LESSONS.md) summarize findings and proposed prompting improvements.
+
+The [completed supported power-profile comparison](results/2026-09-08/power-profiles/README.md) found no meaningful overall benefit from performance mode. Balanced mode and serving services were restored.
