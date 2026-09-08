@@ -1,12 +1,16 @@
-param([string]$Destination = (Join-Path $PSScriptRoot '../work'))
+param(
+    [ValidateSet('qwen3-8b','nemotron-49b')][string]$ModelId = 'qwen3-8b',
+    [string]$Destination = (Join-Path $PSScriptRoot '../work')
+)
 $ErrorActionPreference = 'Stop'
-$revision = '7c41481f57cb95916b40956ab2f0b139b296d974'
-$name = 'Qwen3-8B-Q4_K_M.gguf'
-$expected = 'd98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785'
+$spec = (Get-Content (Join-Path $PSScriptRoot 'models.json') -Raw | ConvertFrom-Json).$ModelId
+$revision = $spec.revision
+$name = $spec.filename
+$expected = $spec.sha256
 New-Item -ItemType Directory -Path $Destination -Force | Out-Null
 $target = Join-Path $Destination $name
 if (!(Test-Path -LiteralPath $target)) {
-    Invoke-WebRequest "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/$revision/$name" -OutFile ($target + '.partial')
+    Invoke-WebRequest "https://huggingface.co/$($spec.repository)/resolve/$revision/$name" -OutFile ($target + '.partial')
     if ((Get-FileHash -LiteralPath ($target + '.partial') -Algorithm SHA256).Hash -ne $expected) { throw 'Downloaded model SHA-256 mismatch.' }
     Move-Item -LiteralPath ($target + '.partial') -Destination $target
 }

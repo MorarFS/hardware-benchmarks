@@ -57,7 +57,7 @@ Machine-readable JSON in `results/2026-09-08/` retains original measured values 
 Use PowerShell on Windows with compatible, healthy GPU drivers and AC power. Device IDs can differ between machines and backend packages.
 
 1. Run `./scripts/Get-Model.ps1` to download the pinned official model and verify its SHA-256.
-2. Download the Windows Vulkan, SYCL and CUDA 13 packages from the [b10852 release](https://github.com/ggml-org/llama.cpp/releases/tag/b10852). Extract into separate `work/llama-vulkan` `work/llama-cuda` and `work/llama-sycl` directories. Add the release's CUDA 13.3 DLL package to the CUDA directory if needed. Preserve the accompanying DLLs.
+2. Download the Windows Vulkan, SYCL and CUDA 13 packages from the [b10852 release](https://github.com/ggml-org/llama.cpp/releases/tag/b10852). Extract into separate `work/llama-vulkan`, `work/llama-cuda` and `work/llama-sycl` directories. Add the release's CUDA 13.3 DLL package to the CUDA directory if needed. Preserve the accompanying DLLs.
 3. Run each executable with `--list-devices`. Select the intended physical GPU explicitly. The script accepts configurable executable, model, device and output paths.
 4. Run these commands sequentially, replacing device IDs with your enumeration:
 
@@ -76,7 +76,22 @@ One laptop, one model/quantization, one session and short generation tests canno
 
 OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
-A separate **Qwen3-32B Q4_K_M capacity baseline** is being downloaded to explore the Arc's 32 GB VRAM. Additional work will investigate the largest model that can fit fully on this GPU with SYCL, with quantization and usable context stated explicitly. Qwen3-32B is not claimed to be the largest fitting model. No larger-model fit or throughput result has been established. Additional completed runs and repeats will be labeled separately rather than silently replacing these observations.
+## Pending 49B capacity test
+
+The candidate is **Llama 3.3 Nemotron Super 49B v1.5, Q4_K_M**, quantized by **bartowski**, with a GGUF file of **30,215,579,136 bytes (30.22 GB; about 28.14 GiB)**. It supersedes the planned Qwen3-32B baseline; the 32B download was stopped and its partial file retained locally. Keeping Q4_K_M preserves the earlier quantization choice while exploring a model closer to the Arc's 32 GB memory limit. This is not proof of the largest fitting model across all architectures or quantization levels, nor a direct speed comparison with the 8B model.
+
+**Download and capacity testing are pending. No 49B full-GPU fit or throughput result has been established.** Weight-file size alone does not establish fit: KV cache, compute buffers and runtime allocations also need memory. Report the actual context, cache type and layer-offload evidence with any successful measurement.
+
+Pinned source: [bartowski GGUF revision](https://huggingface.co/bartowski/nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/tree/98fc9722ebffe74e41685c477cf2982012d3f0ad), revision `98fc9722ebffe74e41685c477cf2982012d3f0ad`, filename `nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_M.gguf`. Expected SHA-256: `eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01`. This third-party quantization is distinct from the official Qwen 8B model used above.
+
+The following commands request the same depth-0/2,048, FP16 KV, five-repetition protocol on a single SYCL GPU. Confirm the Arc's current device ID first. They are prepared reproduction commands, not evidence that this model fits:
+
+```powershell
+./scripts/Get-Model.ps1 -ModelId nemotron-49b
+./scripts/Run-Benchmark.ps1 -Executable ./work/llama-sycl/llama-bench.exe -Device SYCL0 -RunName intel-sycl-nemotron49b -ModelId nemotron-49b
+```
+
+Both scripts use the pinned manifest in `scripts/models.json`. The benchmark requests all layers on the GPU and rejects a 49B run if its log does not confirm all layers offloaded. Also inspect device allocation and cache placement in the local log before claiming fully GPU-resident inference. Failure to fit is a valid capacity-test outcome; do not silently reduce offload and present it as the same test. These script additions were syntax-checked without downloading the 49B model or running GPU work in the publishing task. Completed capacity runs will be documented separately from the 8B measurements.
 
 ## Sources
 
@@ -84,9 +99,4 @@ A separate **Qwen3-32B Q4_K_M capacity baseline** is being downloaded to explore
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
-
-
-
-
-
 
