@@ -158,3 +158,7 @@ The [frozen pilot results](results/2026-09-08/history-v2/README.md) separate ext
 The [completed supported power-profile comparison](results/2026-09-08/power-profiles/README.md) found no meaningful overall benefit from performance mode. The test restored balanced mode and serving services. The user subsequently chose performance as the daily profile, saved through the enabled system daemon.
 
 The [Mac handoff](MAC-HANDOFF.md) records the user’s requested next comparisons for the separate running Mac task.
+
+## Presentation
+
+[Six-slide Evo X3 / Windows Arc comparison](presentations/2026-09-08/evo-arc/README.md), with editable tables, visible reasoning settings, an accessible companion, and build sources.
