@@ -1,0 +1,60 @@
+{
+  "variant": "no-host",
+  "kind": "long",
+  "trial": 1,
+  "wall_seconds": 34.93925924699943,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The shelf code is LARCH-92.  The record codes are LARCH-92 and LARCH-92.  The source-grounded summary is about 120 words.  The author's opinions are distinguished.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated. "
+        }
+      }
+    ],
+    "created": 1788858776,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 15819,
+      "total_tokens": 16331,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-Cb48td4mzM0Vk6Qm5IOBEl7q2nOJrhaj",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 15819,
+      "prompt_ms": 17469.536,
+      "prompt_per_token_ms": 1.1043388330488653,
+      "prompt_per_second": 905.5191849400007,
+      "predicted_n": 512,
+      "predicted_ms": 17428.349,
+      "predicted_per_token_ms": 34.10635812133072,
+      "predicted_per_second": 29.320046322230525
+    }
+  },
+  "output": "The shelf code is LARCH-92.  The record codes are LARCH-92 and LARCH-92.  The source-grounded summary is about 120 words.  The author's opinions are distinguished.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated.  The text is not repeated. ",
+  "record_codes_correct": false,
+  "capped": true,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 7.4,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 5473042432,
+    "runtime_largest_process_rss_bytes": 861999104,
+    "runtime_total_pss_bytes": 1257158656,
+    "card1_vram_used_bytes": 11950895104,
+    "swap_used_bytes": 3725869056,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 138469376,
+    "system_available_bytes": 27273621504,
+    "llama_server_process_count": 1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

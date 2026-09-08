@@ -1,0 +1,85 @@
+{
+  "wall_seconds": 3.2928140980002354,
+  "requested": {
+    "contextLength": 65536,
+    "gpu": {
+      "ratio": 1.0
+    },
+    "offloadKVCacheToGpu": true,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16",
+    "seed": 42
+  },
+  "sdk_config": {
+    "gpu": {
+      "ratio": 1.0,
+      "splitStrategy": "evenly",
+      "disabledGpus": []
+    },
+    "offloadKVCacheToGpu": true,
+    "contextLength": 65536,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "seed": 42,
+    "numExperts": 8,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16"
+  },
+  "native_config": {
+    "id": "evo-amd-gemma26-vulkan",
+    "config": {
+      "context_length": 65536,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 4,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": false,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 8,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "libraries": [
+    {
+      "pid": 106768,
+      "libraries": [
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-base.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-cpu.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-vulkan.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml_llamacpp.so",
+        "<LM_STUDIO_HOME>/extensions/backends/vendor/linux-llama-vulkan-vendor-v1/libvulkan.so.1.3.204",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_asahi.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_gfxstream.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_intel.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_intel_hasvk.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_lvp.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_nouveau.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_radeon.so",
+        "/usr/lib/x86_64-linux-gnu/libvulkan_virtio.so"
+      ]
+    }
+  ],
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 4409073664,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 18849234944,
+    "cpu_percent": 3.6,
+    "system_available_bytes": 28479479808,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 132091904,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 17279159296,
+    "swap_used_bytes": 3942633472,
+    "runtime_largest_process_rss_bytes": 17170362368
+  }
+}

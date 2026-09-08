@@ -1,0 +1,60 @@
+{
+  "variant": "amd-fixed",
+  "kind": "short",
+  "trial": 2,
+  "wall_seconds": 5.558870108001429,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Record A: CEDAR-47  \nRecord B: LARCH-92  \n\nThe text discusses the political and social unrest in Byzantium during the reign of Emperor Justinian, focusing on the rivalry between the Blues and Greens, two major factions in the Circus. These factions, originally associated with chariot racing, had evolved into powerful political entities by the 6th century. The text describes a riot in 532 AD, where the execution of rioters led to widespread chaos, with the mobs eventually demanding the removal of Justinian and his officials. The unrest was fueled by the partisans of the late Emperor Anastasius, who sought to replace Justinian with Hypatius. The text highlights the instability of the empire during this period, citing events from pages 101-102 of the PDF. The author presents these events as a significant threat to Justinian's rule, emphasizing the growing influence of the factions and the vulnerability of the state."
+        }
+      }
+    ],
+    "created": 1788858385,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10606-03d2068a1",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 200,
+      "prompt_tokens": 1085,
+      "total_tokens": 1285,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-mLDLUIgI3iasUdJB9PWjAcykljMmpxVY",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 1085,
+      "prompt_ms": 781.858,
+      "prompt_per_token_ms": 0.7206064516129032,
+      "prompt_per_second": 1387.7200207710353,
+      "predicted_n": 200,
+      "predicted_ms": 4767.389,
+      "predicted_per_token_ms": 23.95672864321608,
+      "predicted_per_second": 41.74192624096754
+    }
+  },
+  "output": "Record A: CEDAR-47  \nRecord B: LARCH-92  \n\nThe text discusses the political and social unrest in Byzantium during the reign of Emperor Justinian, focusing on the rivalry between the Blues and Greens, two major factions in the Circus. These factions, originally associated with chariot racing, had evolved into powerful political entities by the 6th century. The text describes a riot in 532 AD, where the execution of rioters led to widespread chaos, with the mobs eventually demanding the removal of Justinian and his officials. The unrest was fueled by the partisans of the late Emperor Anastasius, who sought to replace Justinian with Hypatius. The text highlights the instability of the empire during this period, citing events from pages 101-102 of the PDF. The author presents these events as a significant threat to Justinian's rule, emphasizing the growing influence of the factions and the vulnerability of the state.",
+  "record_codes_correct": true,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_vram_used_bytes": 12022358016,
+    "system_available_bytes": 27293577216,
+    "runtime_total_pss_bytes": 1445426176,
+    "card1_gtt_used_bytes": 138481664,
+    "system_used_excluding_available_bytes": 5437841408,
+    "swap_used_bytes": 3789180928,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 1049067520,
+    "card1_vram_total_bytes": 103079215104,
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 18.1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

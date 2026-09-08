@@ -1,0 +1,11 @@
+{
+  "command": [
+    "<LM_STUDIO_HOME>/bin/lms",
+    "runtime",
+    "select",
+    "llama.cpp-linux-x86_64-amd-rocm-avx2@2.33.0"
+  ],
+  "returncode": 0,
+  "output": "Selected llama.cpp-linux-x86_64-amd-rocm-avx2@2.33.0 for GGUF\n",
+  "wall_seconds": 0.2245535940019181
+}

@@ -140,3 +140,7 @@ The download and benchmark scripts use the pinned manifest in `scripts/models.js
 ## Separated history accuracy pilot
 
 The [frozen history-v2 package](experiments/history-v2/USAGE.md) provides fixed source passages, 20 questions, evaluator references, and a portable Python runner for LM Studio. It separates extraction, direct summaries, merged summaries, and a full-source control. It includes no completed accuracy scores. See the [method notes](experiments/history-v2/METHOD-NOTES.md) for the seed limitation, API compatibility, and Codex-assisted evaluator identity.
+
+## Evo X3 and Mac reproduction
+
+The [completed Evo speed package](results/2026-09-08/evo/README.md) includes the twelve-model Vulkan matrix, every measured repetition, two retained loading timeouts, exact model hashes, matched Qwen8 backend comparisons, and separate prose/ROCm repair evidence. Use the [Mac/Metal guide](MAC-BENCHMARK.md) to prepare the same Qwen8 synthetic baseline on Apple Silicon. No Mac inference was run during publication.

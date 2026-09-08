@@ -1,0 +1,4 @@
+{
+  "error": "Startup timeout",
+  "traceback": "Traceback (most recent call last):\n  File \"<BENCHMARK_ROOT>/rocm_diagnostic.py\", line 43, in <module>\n    run('no-pinned',True,'on',[('tiny',1),('short',1),('short',2),('long',1),('long',2)])\n  File \"<BENCHMARK_ROOT>/rocm_diagnostic.py\", line 22, in run\n    if not ready:raise RuntimeError('Startup timeout')\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Startup timeout\n"
+}

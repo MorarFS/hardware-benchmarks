@@ -1,0 +1,60 @@
+{
+  "variant": "baseline",
+  "kind": "short",
+  "trial": 1,
+  "wall_seconds": 4.340713427001901,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "CEDAR-47 and LARCH-92 are the two record codes provided. CEDAR-47 refers to an event involving seven individuals, two of whom survived a hanging and entered sanctuary. The source describes a chaotic incident where a mob disrupted an execution, leading to the survival of two criminals who were later taken into sanctuary. The narrative includes details about the executioners, the mob, and the political unrest that followed. LARCH-92 provides a shelf code but no further context. The summary is based on the given text, with no additional information or citations to physical pages. The account reflects the author’s narrative of the event, with no explicit opinions or uncertainties stated."
+        }
+      }
+    ],
+    "created": 1788857787,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 141,
+      "prompt_tokens": 1085,
+      "total_tokens": 1226,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-wWVVqHALYRSxEiNpVHU8C0dtN69r3JM6",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 1085,
+      "prompt_ms": 921.808,
+      "prompt_per_token_ms": 0.8495926267281106,
+      "prompt_per_second": 1177.0346970301841,
+      "predicted_n": 141,
+      "predicted_ms": 3411.703,
+      "predicted_per_token_ms": 24.369307142857142,
+      "predicted_per_second": 41.035224930188825
+    }
+  },
+  "output": "CEDAR-47 and LARCH-92 are the two record codes provided. CEDAR-47 refers to an event involving seven individuals, two of whom survived a hanging and entered sanctuary. The source describes a chaotic incident where a mob disrupted an execution, leading to the survival of two criminals who were later taken into sanctuary. The narrative includes details about the executioners, the mob, and the political unrest that followed. LARCH-92 provides a shelf code but no further context. The summary is based on the given text, with no additional information or citations to physical pages. The account reflects the author’s narrative of the event, with no explicit opinions or uncertainties stated.",
+  "record_codes_correct": true,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_used_bytes": 138469376,
+    "system_used_excluding_available_bytes": 5293588480,
+    "runtime_total_pss_bytes": 1241926656,
+    "card1_vram_total_bytes": 103079215104,
+    "system_available_bytes": 27456397312,
+    "runtime_largest_process_rss_bytes": 847884288,
+    "swap_used_bytes": 3843006464,
+    "cpu_percent": 7.8,
+    "system_total_bytes": 32721723392,
+    "card1_vram_used_bytes": 11954475008,
+    "card1_gtt_total_bytes": 16360861696,
+    "llama_server_process_count": 1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "rocm-short-2",
+  "backend": "rocm",
+  "kind": "short",
+  "trial": 2,
+  "model_resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 1067,
+    "total_output_tokens": 493,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 43.95327552405571,
+    "time_to_first_token_seconds": 0.953975
+  },
+  "wall_seconds": 12.27167672699943,
+  "first_visible_seconds": 1.0772190099996806,
+  "visible_tokens": 492,
+  "visible_phase_tps": 43.95032009928052,
+  "visible_total_wall_tps": 40.09232079244152,
+  "prompt_processing_seconds": 0.9533827740015113,
+  "prompt_processing_tps": 1119.1727279921554,
+  "stream_timing": {
+    "prompt_processing.start": 0.1235423729995091,
+    "prompt_processing.end": 1.0769251470010204,
+    "first_visible_seconds": 1.0772190099996806,
+    "last_visible_delta_seconds": 12.24672101500255,
+    "message.end": 12.271550340999966
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "Following the death of Theodora, Antonina and her husband lost imperial favor, experiencing a misfortune in their declining years similar to that of the Marlboroughs [p. 101]. \n\nThe year 532, which marked the end of the Persian War, also saw the rise of a significant danger to the Emperor’s power: the \"Blues\" and \"Greens.\" These Byzantine Circus factions had grown increasingly powerful throughout the fifth century, interfering in politics and religious controversies [p. 101]. By 530, the \"Greens\" were partisans of the late Emperor Anastasius and Monophysites, while the \"Blues\" posed as supporters of the house of Justinus and held strictly orthodox ecclesiastical views [p. 101]. Although they had evolved into political parties, the author notes they retained \"traces of their low sporting origin,\" characterized by rougher elements prone to riot and mischief [p. 101].\n\nIn January 532, serious rioting broke out. Although Justinian typically favored the Blue faction, he ordered the execution of leaders from both sides [p. 101]. During the execution of seven selected rioters, four were beheaded before a mob at the monastery of St. Conon [p. 102]. The remaining three were to be hanged, but the executioner's bungling allowed two men—one Blue and one Green—to fall to the ground alive [p. 102]. Following a second failed attempt to hang them, the mob overwhelmed the guards, and the criminals sought sanctuary in a nearby monastery [p. 102].\n\nThis incident triggered six days of desperate rioting. The Blues and Greens united under the watchword *\"Nika!\"* (\"conquer\"), demanding the deposition of the unpopular finance minister, John of Cappadocia, and the city prefect, Eudemius [p. 102]. While Justinian promised to dismiss these officials, the mob grew more radical, with partisans of the late emperor calling for Justinian’s deposition in favor of Hypatius [p. 102]. Because the garrison had been sent to the Persian War, the city was nearly empty of troops, leaving the Emperor to rely on only 4,000 Imperial Guards, some German auxiliaries, and a regiment [p. 102].",
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 5066608640,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 21602168832,
+    "cpu_percent": 24.5,
+    "system_available_bytes": 28257177600,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 138469376,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 2515769344,
+    "swap_used_bytes": 4271947776,
+    "runtime_largest_process_rss_bytes": 2431340544
+  },
+  "response": {
+    "model_instance_id": "evo-amd-gemma26-rocm",
+    "output": [
+      {
+        "type": "message",
+        "content": "Following the death of Theodora, Antonina and her husband lost imperial favor, experiencing a misfortune in their declining years similar to that of the Marlboroughs [p. 101]. \n\nThe year 532, which marked the end of the Persian War, also saw the rise of a significant danger to the Emperor’s power: the \"Blues\" and \"Greens.\" These Byzantine Circus factions had grown increasingly powerful throughout the fifth century, interfering in politics and religious controversies [p. 101]. By 530, the \"Greens\" were partisans of the late Emperor Anastasius and Monophysites, while the \"Blues\" posed as supporters of the house of Justinus and held strictly orthodox ecclesiastical views [p. 101]. Although they had evolved into political parties, the author notes they retained \"traces of their low sporting origin,\" characterized by rougher elements prone to riot and mischief [p. 101].\n\nIn January 532, serious rioting broke out. Although Justinian typically favored the Blue faction, he ordered the execution of leaders from both sides [p. 101]. During the execution of seven selected rioters, four were beheaded before a mob at the monastery of St. Conon [p. 102]. The remaining three were to be hanged, but the executioner's bungling allowed two men—one Blue and one Green—to fall to the ground alive [p. 102]. Following a second failed attempt to hang them, the mob overwhelmed the guards, and the criminals sought sanctuary in a nearby monastery [p. 102].\n\nThis incident triggered six days of desperate rioting. The Blues and Greens united under the watchword *\"Nika!\"* (\"conquer\"), demanding the deposition of the unpopular finance minister, John of Cappadocia, and the city prefect, Eudemius [p. 102]. While Justinian promised to dismiss these officials, the mob grew more radical, with partisans of the late emperor calling for Justinian’s deposition in favor of Hypatius [p. 102]. Because the garrison had been sent to the Persian War, the city was nearly empty of troops, leaving the Emperor to rely on only 4,000 Imperial Guards, some German auxiliaries, and a regiment [p. 102]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 1067,
+      "total_output_tokens": 493,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 43.95327552405571,
+      "time_to_first_token_seconds": 0.953975
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "created": "2026-09-08T09:20:49.319272+00:00",
+  "models": [
+    {
+      "id": "gemma26",
+      "label": "Gemma4 26B A4B UD-Q4_K_M",
+      "relative_model_file": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf"
+    },
+    {
+      "id": "qwen35-mtp-off",
+      "label": "Qwen3.6 35B A3B UD-Q4_K_M, MTP OFF",
+      "relative_model_file": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf"
+    },
+    {
+      "id": "qwen38-flash-next",
+      "label": "Qwen3.8 Flash Next UD-IQ4_XS, MTP OFF",
+      "relative_model_file": "unsloth/Qwen3.8-Flash-Next-GGUF/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+    },
+    {
+      "id": "gptoss120",
+      "label": "GPT-OSS120 MXFP4",
+      "relative_model_file": "ggml-org/gpt-oss-120b-GGUF/gpt-oss-120b-MXFP4.gguf"
+    },
+    {
+      "id": "gemma31",
+      "label": "Gemma4 31B Q4_K_M",
+      "relative_model_file": "lmstudio-community/gemma-4-31B-it-GGUF/gemma-4-31B-it-Q4_K_M.gguf"
+    },
+    {
+      "id": "qwen38-27b",
+      "label": "Qwen3.8 27B Q4_K_M",
+      "relative_model_file": "lmstudio-community/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q4_K_M.gguf"
+    },
+    {
+      "id": "qwen35-community",
+      "label": "Qwen3.6 35B A3B community Q4_K_M, speculation OFF",
+      "relative_model_file": "lmstudio-community/Qwen3.6-35B-A3B-GGUF/Qwen3.6-35B-A3B-Q4_K_M.gguf"
+    },
+    {
+      "id": "gemma12-qat",
+      "label": "Gemma4 12B QAT Q4_0",
+      "relative_model_file": "lmstudio-community/gemma-4-12B-it-QAT-GGUF/gemma-4-12B-it-QAT-Q4_0.gguf"
+    },
+    {
+      "id": "ministral14",
+      "label": "Ministral3 14B Reasoning Q4_K_M",
+      "relative_model_file": "lmstudio-community/Ministral-3-14B-Reasoning-2512-GGUF/Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf"
+    },
+    {
+      "id": "deepseek4-flash",
+      "label": "DeepSeek V4 Flash 0731 UD-IQ2_M",
+      "relative_model_file": "unsloth/DeepSeek-V4-Flash-0731-GGUF/DeepSeek-V4-Flash-0731-UD-IQ2_M-00001-of-00003.gguf"
+    },
+    {
+      "id": "gemma12-coding",
+      "label": "Gemma4 Coding 12B Q4_K_M",
+      "relative_model_file": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF/gemma4-coding-Q4_K_M.gguf"
+    },
+    {
+      "id": "gemma2-9b",
+      "label": "Gemma2 9B IT Q4_K_M",
+      "relative_model_file": "bartowski/gemma-2-9b-it-GGUF/gemma-2-9b-it-Q4_K_M.gguf"
+    }
+  ],
+  "runtime": "b10852 050dde50c Vulkan",
+  "no_model_downloads": true,
+  "max_seconds_per_depth": 900,
+  "policy": "Sequential, full GPU; unsupported/OOM stops only that model; no silent fallback",
+  "reference": "synthetic-qwen8/vulkan"
+}

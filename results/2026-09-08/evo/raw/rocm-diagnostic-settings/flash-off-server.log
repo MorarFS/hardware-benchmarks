@@ -1,0 +1,55 @@
+0.00.176.199 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.176.454 W srv  llama_server: -----------------
+0.00.176.454 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.176.454 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.176.455 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.176.455 W srv  llama_server: -----------------
+0.00.177.657 I srv    load_model: loading model '<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf'
+0.00.395.060 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.693.903 I cmn          init: llama threadpool init, n_threads = 10
+0.00.861.834 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 32768, kv_unified = 'false'
+0.00.861.891 W srv          init: --cache-idle-slots requires --cache-ram, disabling
+0.00.866.420 I srv  llama_server: model loaded
+0.00.866.424 I srv  llama_server: listening on http://127.0.0.1:1235
+0.01.008.018 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.01.008.130 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.05.281.891 I slot print_timing: id  0 | task 0 | n_gen =    100, tg =  31.40 t/s, tg_3s =  31.72 t/s
+0.08.312.672 I slot print_timing: id  0 | task 0 | n_gen =    195, tg =  31.37 t/s, tg_3s =  31.35 t/s
+0.10.013.829 I slot print_timing: id  0 | task 0 | prompt eval time =    1121.12 ms /  1085 tokens (    1.03 ms per token,   967.78 tokens per second)
+0.10.013.833 I slot print_timing: id  0 | task 0 |        eval time =    7884.55 ms /   246 tokens (   32.18 ms per token,    31.07 tokens per second)
+0.10.013.834 I slot print_timing: id  0 | task 0 |       total time =    9005.66 ms /  1331 tokens
+0.10.013.841 I slot print_timing: id  0 | task 0 |    graphs reused =        244
+0.10.013.949 I slot      release: id  0 | task 0 | stop processing: n_tokens = 1330, truncated = 0
+0.10.039.192 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 21730861969
+0.10.039.309 I slot launch_slot_: id  0 | task 249 | processing task, is_child = 0
+0.13.351.627 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =   7680, progress = 0.49, t =   3.31 s / 2318.65 tokens per second
+0.14.243.344 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =   8192, progress = 0.52, t =   4.20 s / 1948.62 tokens per second
+0.14.723.119 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =   8704, progress = 0.55, t =   4.68 s / 1858.33 tokens per second
+0.15.722.879 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =   9216, progress = 0.58, t =   5.68 s / 1621.54 tokens per second
+0.16.797.638 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =   9728, progress = 0.61, t =   6.76 s / 1439.42 tokens per second
+0.17.372.329 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  10240, progress = 0.65, t =   7.33 s / 1396.43 tokens per second
+0.18.589.214 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  10752, progress = 0.68, t =   8.55 s / 1257.57 tokens per second
+0.19.904.363 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  11264, progress = 0.71, t =   9.87 s / 1141.81 tokens per second
+0.20.622.601 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  11776, progress = 0.74, t =  10.58 s / 1112.70 tokens per second
+0.22.114.274 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  12288, progress = 0.78, t =  12.07 s / 1017.65 tokens per second
+0.22.917.510 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  12800, progress = 0.81, t =  12.88 s / 993.93 tokens per second
+0.24.604.376 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  13312, progress = 0.84, t =  14.57 s / 913.97 tokens per second
+0.26.356.395 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  13824, progress = 0.87, t =  16.32 s / 847.21 tokens per second
+0.27.266.301 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  14336, progress = 0.91, t =  17.23 s / 832.18 tokens per second
+0.29.183.452 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  14848, progress = 0.94, t =  19.14 s / 775.59 tokens per second
+0.31.176.065 I slot print_timing: id  0 | task 249 | prompt processing, n_tokens =  15360, progress = 0.97, t =  21.14 s / 726.70 tokens per second
+1.01.962.376 I slot print_timing: id  0 | task 249 | n_gen =    100, tg =   8.96 t/s, tg_3s =   9.05 t/s
+1.04.997.625 I slot print_timing: id  0 | task 249 | n_gen =    127, tg =   8.95 t/s, tg_3s =   8.90 t/s
+1.08.036.031 I slot print_timing: id  0 | task 249 | n_gen =    154, tg =   8.94 t/s, tg_3s =   8.89 t/s
+1.11.072.482 I slot print_timing: id  0 | task 249 | n_gen =    181, tg =   8.93 t/s, tg_3s =   8.89 t/s
+1.14.105.452 I slot print_timing: id  0 | task 249 | n_gen =    208, tg =   8.93 t/s, tg_3s =   8.90 t/s
+1.17.138.928 I slot print_timing: id  0 | task 249 | n_gen =    235, tg =   8.92 t/s, tg_3s =   8.90 t/s
+1.20.172.664 I slot print_timing: id  0 | task 249 | n_gen =    262, tg =   8.92 t/s, tg_3s =   8.90 t/s
+1.23.207.665 I slot print_timing: id  0 | task 249 | n_gen =    289, tg =   8.92 t/s, tg_3s =   8.90 t/s
+1.26.253.987 I slot print_timing: id  0 | task 249 | n_gen =    316, tg =   8.91 t/s, tg_3s =   8.86 t/s
+1.29.342.057 I slot print_timing: id  0 | task 249 | n_gen =    343, tg =   8.90 t/s, tg_3s =   8.74 t/s
+1.32.432.412 I slot print_timing: id  0 | task 249 | n_gen =    370, tg =   8.89 t/s, tg_3s =   8.74 t/s
+1.35.524.681 I slot print_timing: id  0 | task 249 | n_gen =    397, tg =   8.88 t/s, tg_3s =   8.73 t/s
+1.38.614.249 I slot print_timing: id  0 | task 249 | n_gen =    424, tg =   8.87 t/s, tg_3s =   8.74 t/s
+1.40.047.635 W srv          stop: cancel task, id_task = 249
+1.40.099.069 I srv    operator(): operator(): cleaning up before exit...

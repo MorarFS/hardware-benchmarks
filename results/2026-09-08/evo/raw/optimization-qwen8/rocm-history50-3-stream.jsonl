@@ -1,0 +1,2086 @@
+{"elapsed_seconds": 0.002367747001699172, "event": {"type": "chat.start", "model_instance_id": "evo-amd-qwen8-rocm"}}
+{"elapsed_seconds": 0.4270515579992207, "event": {"type": "prompt_processing.start"}}
+{"elapsed_seconds": 0.4271727640007157, "event": {"type": "prompt_processing.progress", "progress": 0}}
+{"elapsed_seconds": 0.429972063000605, "event": {"type": "prompt_processing.progress", "progress": 0.03242969343805422}}
+{"elapsed_seconds": 0.43488967699886416, "event": {"type": "prompt_processing.progress", "progress": 0.06485938687610844}}
+{"elapsed_seconds": 0.43917348900140496, "event": {"type": "prompt_processing.progress", "progress": 0.09728908031416265}}
+{"elapsed_seconds": 0.4434148690015718, "event": {"type": "prompt_processing.progress", "progress": 0.12971877375221688}}
+{"elapsed_seconds": 0.4472660300016287, "event": {"type": "prompt_processing.progress", "progress": 0.1621484671902711}}
+{"elapsed_seconds": 0.4517281619991991, "event": {"type": "prompt_processing.progress", "progress": 0.1945781606283253}}
+{"elapsed_seconds": 0.4556076139997458, "event": {"type": "prompt_processing.progress", "progress": 0.22700785406637952}}
+{"elapsed_seconds": 0.4597907210008998, "event": {"type": "prompt_processing.progress", "progress": 0.25943754750443376}}
+{"elapsed_seconds": 0.4639285560006101, "event": {"type": "prompt_processing.progress", "progress": 0.29186724094248795}}
+{"elapsed_seconds": 0.46835950600143406, "event": {"type": "prompt_processing.progress", "progress": 0.3242969343805422}}
+{"elapsed_seconds": 0.47225298899866175, "event": {"type": "prompt_processing.progress", "progress": 0.3567266278185964}}
+{"elapsed_seconds": 0.47650064900153666, "event": {"type": "prompt_processing.progress", "progress": 0.3891563212566506}}
+{"elapsed_seconds": 0.7753687139993417, "event": {"type": "prompt_processing.progress", "progress": 0.42158601469470486}}
+{"elapsed_seconds": 1.1264581879986508, "event": {"type": "prompt_processing.progress", "progress": 0.45401570813275904}}
+{"elapsed_seconds": 1.4725542529995437, "event": {"type": "prompt_processing.progress", "progress": 0.4864454015708133}}
+{"elapsed_seconds": 2.1824589429998014, "event": {"type": "prompt_processing.progress", "progress": 0.5188750950088675}}
+{"elapsed_seconds": 2.55438869900172, "event": {"type": "prompt_processing.progress", "progress": 0.5513047884469218}}
+{"elapsed_seconds": 2.9352513090016146, "event": {"type": "prompt_processing.progress", "progress": 0.5837344818849759}}
+{"elapsed_seconds": 3.3252475510016666, "event": {"type": "prompt_processing.progress", "progress": 0.6161641753230301}}
+{"elapsed_seconds": 4.1155102240009, "event": {"type": "prompt_processing.progress", "progress": 0.6485938687610844}}
+{"elapsed_seconds": 4.525989370999014, "event": {"type": "prompt_processing.progress", "progress": 0.6810235621991386}}
+{"elapsed_seconds": 4.940704577998986, "event": {"type": "prompt_processing.progress", "progress": 0.7134532556371928}}
+{"elapsed_seconds": 5.365200330001244, "event": {"type": "prompt_processing.progress", "progress": 0.745882949075247}}
+{"elapsed_seconds": 6.220917517999624, "event": {"type": "prompt_processing.progress", "progress": 0.7783126425133012}}
+{"elapsed_seconds": 6.6673232360008114, "event": {"type": "prompt_processing.progress", "progress": 0.8107423359513555}}
+{"elapsed_seconds": 7.114800426999864, "event": {"type": "prompt_processing.progress", "progress": 0.8431720293894097}}
+{"elapsed_seconds": 7.577686561999144, "event": {"type": "prompt_processing.progress", "progress": 0.8756017228274638}}
+{"elapsed_seconds": 8.514590033999411, "event": {"type": "prompt_processing.progress", "progress": 0.9080314162655181}}
+{"elapsed_seconds": 9.005912848999287, "event": {"type": "prompt_processing.progress", "progress": 0.9404611097035723}}
+{"elapsed_seconds": 9.496554879999167, "event": {"type": "prompt_processing.progress", "progress": 0.9728908031416266}}
+{"elapsed_seconds": 18.91299982900091, "event": {"type": "prompt_processing.progress", "progress": 1}}
+{"elapsed_seconds": 18.913096714000858, "event": {"type": "prompt_processing.end"}}
+{"elapsed_seconds": 18.91336244700142, "event": {"type": "message.start"}}
+{"elapsed_seconds": 18.913400748999265, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 18.948907968999265, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 18.989560104000702, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.025017701998877, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.06081964600162, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 19.09507651400054, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 19.130213886001002, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.165097715002048, "event": {"type": "message.delta", "content": " century"}}
+{"elapsed_seconds": 19.200472369000636, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.23488762499983, "event": {"type": "message.delta", "content": " A"}}
+{"elapsed_seconds": 19.269922731000406, "event": {"type": "message.delta", "content": ".D"}}
+{"elapsed_seconds": 19.304531756999495, "event": {"type": "message.delta", "content": ".,"}}
+{"elapsed_seconds": 19.339432546999888, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 19.374004771001637, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.408948323001823, "event": {"type": "message.delta", "content": " is"}}
+{"elapsed_seconds": 19.44352003699896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.478325661999406, "event": {"type": "message.delta", "content": " now"}}
+{"elapsed_seconds": 19.513076964998618, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.548064159000205, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 19.58253272699949, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.617318841999804, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.651713357001427, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 19.686430047000613, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 19.72110758599956, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 19.75574060299914, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.790212652002083, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 19.825281059998815, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.859773979998863, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 19.894522463000612, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 19.929098327000247, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 19.963722713000607, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 19.998204922001605, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 20.03315720500177, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.067637044001458, "event": {"type": "message.delta", "content": " century"}}
+{"elapsed_seconds": 20.10239374700177, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 20.13713141900007, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 20.17327419999856, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.20826064400171, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 20.24206630000117, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 20.27613720899899, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 20.31110393199924, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.34547878599915, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 20.38018267699954, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.41457106099915, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 20.449078511999687, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.48382588399909, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.5184558309993, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 20.55294563999996, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 20.58750662300008, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 20.621986203001143, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.65671881399976, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 20.691113398999732, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.72587093200127, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 20.760423635001644, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.795148526001867, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 20.829432136000833, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 20.864128725999763, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 20.89855923199866, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 20.933028111001477, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 20.967437586001324, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.002178598999308, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 21.036566302998835, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.07127026300077, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 21.105691579999984, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 21.140364858001703, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 21.174871789000463, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.20950358600021, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 21.2441039309997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.278735967000102, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 21.31356871400203, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.3494189310004, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 21.383946592999564, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 21.418159429002117, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 21.452623137000046, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.487144548002107, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 21.521598515999358, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.556278085001395, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 21.590721632001078, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.625439122999524, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 21.659836597998947, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 21.694586790999892, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 21.7291950559993, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.764230993001547, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 21.79866766000123, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.833382091001113, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 21.869278350000968, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 21.908941675999813, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 21.94352976099981, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 21.978334745999746, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 22.013470508001774, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.048514444999455, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 22.083451777001756, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.118194008999126, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 22.152869188001205, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.187595619001513, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 22.22223768600088, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 22.258379298000364, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 22.292821114999242, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.327471433000028, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 22.362657126999693, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.39666967299854, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 22.4319282510005, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.46658411899989, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 22.502326459998585, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 22.537491212999157, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 22.572577982999064, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.60720101900006, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 22.64190420900195, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.676247651001177, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 22.710683408000477, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.745182859001943, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 22.779824696001015, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 22.81414593700174, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 22.848674068998662, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.88315216800038, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 22.91764111700104, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 22.95378224900196, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 22.98679635499866, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.02117491900208, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 23.055766754001525, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 23.090344547999848, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 23.125174065000465, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.160005681002076, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 23.1947091309994, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.229476774999057, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 23.26426812900172, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.299446393000835, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 23.333956163998664, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 23.36860181100201, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 23.40334091299883, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.438005942000018, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 23.47260164600084, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.50713230800102, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 23.541752574001293, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.57627885599868, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 23.611010226999497, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 23.646880464999413, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 23.681205007000244, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.71570766700097, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 23.75057791600193, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.78504981399965, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 23.81963659900066, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.8551916610013, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 23.888838188999216, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 23.923519317999308, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 23.958350205000897, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 23.993025163999846, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 24.027530243998626, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.062451295001665, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 24.0971933969995, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.131838075001724, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 24.16653736399894, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 24.20124189499984, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 24.23679760700179, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.27064449500176, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 24.305296733000432, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.339756991001195, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 24.374249011001666, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.40945095600182, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 24.443875672001013, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 24.478548251001484, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 24.51299311800176, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.547608754000976, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 24.582210649001354, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.616944330999104, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 24.651368537000963, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.68597880300149, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 24.720673353000166, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 24.755408224998973, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 24.79048491299909, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.82626449700183, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 24.860095703999832, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.894638106001366, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 24.929106384999614, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 24.963709439998638, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 24.998169728001812, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 25.032751081998867, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 25.06737531899853, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.102042087000882, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 25.136635702001513, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.171381124000618, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 25.20584667300136, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.240505920999567, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 25.274930546998803, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 25.309570194000116, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 25.34401584200168, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.379181194999546, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 25.41319800099882, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.447772845000145, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 25.482340488000773, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.51685483899928, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 25.55137403000117, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 25.586061959998915, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 25.6205974120021, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.65526097000111, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 25.690730917998735, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.72445438000068, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 25.75890567800161, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.793488062001416, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 25.827920879000885, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 25.862481981999736, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 25.897439734999352, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 25.93295010500151, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 25.9679233679999, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.003152705001412, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 26.03698662199895, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.071560886000952, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 26.106006983001862, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 26.140541274999123, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 26.174992663000012, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.209585587999754, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 26.24476451100054, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.27874459600207, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 26.31330781900033, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.347865952000575, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 26.382412825001666, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 26.416808660000243, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 26.451262857000984, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.48604246100149, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 26.520401245001267, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.55506065300142, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 26.589663737999217, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.624450631999935, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 26.65911472999869, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 26.693657643001643, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 26.729131721000158, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.762931187000504, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 26.797489290001977, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.832025851999788, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 26.866506050999305, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 26.901099835999048, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 26.935563994000404, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 26.970179899999494, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 27.004687450000347, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.03943097299998, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 27.073883839999326, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.11407824300113, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 27.144466459001706, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.179250343000604, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 27.213805006002076, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 27.248149349001324, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 27.282708482001908, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.317125577999832, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 27.351643459001934, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.386261464998825, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 27.42078164600025, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.455329749001976, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 27.489855190000526, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 27.524592212001153, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 27.559065370998724, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.59367218600164, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 27.62815942599991, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.663054475000536, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 27.698484011998517, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.732244794999133, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 27.76681727899995, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 27.80142543400143, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 27.835983007000323, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.87063339499946, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 27.90517932700095, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 27.93988772800003, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 27.974420120001014, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.00915452100162, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 28.04371814499973, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 28.07831656000053, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 28.114993528000923, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.14802207500179, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 28.182263102000434, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.218443006000598, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 28.251746246998664, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.28825147599855, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 28.321697243998642, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 28.358020345000114, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 28.392692912999337, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.427107778999925, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 28.46016865799902, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.49624589599989, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 28.529233951001515, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.565439845999208, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 28.598397890000342, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 28.634581352998794, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 28.667759928001033, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.703744821999862, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 28.73690966600043, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.772998364998784, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 28.805991159999394, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.842387354001403, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 28.875259314001596, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 28.909973275000084, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 28.944512987000053, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 28.981289499999548, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 29.013779500000965, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.04937762500049, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 29.082920367000042, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.117862510000123, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 29.152380371000618, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 29.186945453999215, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 29.221667804999015, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.2562343790014, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 29.290953230000014, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.325652020001144, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 29.36008469599983, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.395031339001434, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 29.429661354999553, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 29.464792537000903, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 29.499670846002118, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.534371746001852, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 29.568951280001784, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.60372012299922, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 29.63820844300062, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.673137813999347, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 29.70751964900046, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 29.74219134699888, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 29.776768030998937, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.811405317999743, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 29.84590676800144, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.880524504002096, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 29.915108078999765, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 29.94982182899912, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 29.98440593399937, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 30.01904144099899, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 30.05377940299877, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.08835008599999, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 30.1228896979992, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.15753577600117, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 30.192084557998896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.228514024001925, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 30.261452646998805, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 30.297595007999917, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 30.330537761001324, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.366658721999556, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 30.39963944700139, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.43589453399909, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 30.468778184000257, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.50526814299883, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 30.53798036399894, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 30.57317083900125, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 30.609205335000297, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.642923486000655, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 30.677312160998554, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.711930827001197, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 30.749049507001473, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.78874618500049, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 30.823487547000695, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 30.858526072999666, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 30.893399212000077, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.928412738001498, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 30.963320178001595, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 30.99830893300168, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 31.033153439999296, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.068223308000597, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 31.103037384000345, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 31.137909331999253, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 31.17271172799883, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.207658949999313, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 31.242340538999997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.27728143100103, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 31.3120500240002, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.346823987998505, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 31.382376200999715, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 31.416948054000386, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 31.45115934000205, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.485817278000468, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 31.520449535000807, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.55517707599938, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 31.589895827000873, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.624712152999564, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 31.65935712999999, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 31.69464250999954, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 31.730950848999782, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.766213416998653, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 31.800106696999137, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.83472254300068, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 31.86941770300109, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 31.90440377699997, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 31.93908704700152, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 31.973895891998836, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 32.008573620998504, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.04333391399996, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 32.078032813999016, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.11286123999889, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 32.14755267000146, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.182352495001396, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 32.21703239400085, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 32.251756065001246, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 32.28643767500034, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.32121723900127, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 32.35593837000124, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.39073855500101, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 32.42550655800005, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.46027668199895, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 32.49610555799882, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 32.53007160099878, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 32.56497159100036, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.599608238000656, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 32.634369071001856, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.66942363899943, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 32.70397051100008, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.73884331999943, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 32.773584311999, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 32.80855227600114, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 32.84334613000101, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.879522094001004, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 32.91463652400125, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 32.94894694500181, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 32.98356042100204, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.01832241400189, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 33.05332748900037, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 33.087848650000524, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 33.122556050999265, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.15720806800164, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 33.191968580998946, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.22669341300207, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 33.261404183002014, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.296282912000606, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 33.33104146500045, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 33.36577017699892, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 33.40043390500068, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.43541480899876, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 33.470128649998514, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.50505809099923, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 33.53956706200188, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.574325274999865, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 33.60903420500108, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 33.64388466300079, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 33.67849315800049, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.71338325800025, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 33.74826112699884, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.78302908000114, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 33.81783915499909, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.85250754400113, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 33.887255196001206, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 33.92198551800175, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 33.956721390000894, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 33.99154441599967, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 34.02671486899999, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.062576626998634, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 34.097334120000596, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.13161070899878, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 34.16637071199875, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 34.2011025339998, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 34.23583575500015, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.27073192500029, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 34.30555112100046, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.34045405100187, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 34.37521601399931, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.41000415899907, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 34.44539221300147, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 34.47972474500057, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 34.514455206001, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.54926943200189, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 34.58405778700035, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.61880138899869, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 34.65368378800122, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.690011539001716, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 34.723192293000466, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 34.75955329600038, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 34.79274198100029, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.82901697900161, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 34.862391403999936, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.89865806099988, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 34.93203820599956, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 34.96873392500129, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 35.00148724799874, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 35.03796689700175, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 35.07120194399977, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.10747542199897, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 35.140831916000025, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.1767125740007, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 35.21285825599989, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.24785932099985, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 35.28120640400084, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 35.31764710000061, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 35.350543311000365, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.386961256001086, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 35.42016148200128, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.45645249100198, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 35.48975206099931, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.52628483200169, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 35.559326200000214, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 35.595962776002125, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 35.62898744300037, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.663884222998604, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 35.69849276899913, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.73324215100001, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 35.76811607000127, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.802949246000935, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 35.83768580800097, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 35.87404734099982, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 35.9072222850009, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 35.94181794000178, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 35.97654848200182, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.01139145900015, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 36.047052417001396, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.080909634998534, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 36.11576861299909, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 36.15031556499889, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 36.18494987200029, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.21975714799919, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 36.2543993649997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.28957386800175, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 36.325570533001155, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.3637956570019, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 36.39473111099869, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 36.429480593000335, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 36.464288868999574, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.49897110800157, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 36.53391257000112, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.568631901001936, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 36.60325220700179, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.63802014099929, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 36.67308302899983, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 36.70767090300069, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 36.74235644299915, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.777153717001056, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 36.81182455599992, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.84660086000076, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 36.88128674900145, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 36.916103374998784, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 36.95080803499877, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 36.985661532999075, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 37.02039055500063, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.05525078299979, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 37.08994730199993, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.12477050899906, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 37.159443437001755, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.19423203200131, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 37.22897243400075, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 37.263911366000684, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 37.29857888400147, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.33351791599853, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 37.36835821299974, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.40339709000182, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 37.43864263700016, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.47501401000045, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 37.509282318998885, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 37.543473683999764, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 37.57835004200024, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.6129807790021, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 37.647792675001256, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.6828096499994, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 37.717484109001816, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.752294724999956, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 37.78707493899856, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 37.82186542300042, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 37.856729932002054, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.892301414998656, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 37.9288545269992, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 37.96328665400142, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 37.998251846998755, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.03299418900133, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 38.06791863000035, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 38.102933696001855, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 38.137873047999165, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.17292516499947, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 38.208560462000605, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.242833921001875, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 38.277865276999364, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.31246790200021, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 38.347246746001474, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 38.38204091100124, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 38.416788743001234, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.45177507799963, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 38.48654315100066, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.52132025500032, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 38.556740051000816, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.59148139299941, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 38.62666682700001, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 38.661802558999625, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 38.69658693300153, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.73121997999988, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 38.766219295001065, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.80223268999907, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 38.83589195799868, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 38.87055606600188, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 38.90545368599851, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 38.94012547500097, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 38.97497480200036, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.00994841600186, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 39.04462817500098, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.07936443699873, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 39.11408587800179, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.14880319900112, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 39.18347462800011, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 39.218238761000976, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 39.25286861800123, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.287813499999174, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 39.32251318999988, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.35729667399937, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 39.39204765700197, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.426816170001985, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 39.46150768000007, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 39.49630880499899, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 39.53100681499927, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.56581631000154, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 39.60048802900201, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.63527860400063, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 39.67153722100193, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.71203124800013, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 39.74766751399875, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 39.783149442999274, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 39.81790259600166, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.853245768001216, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 39.88819847099876, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.923274469001626, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 39.95820084099978, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 39.99325208799928, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 40.02811475600174, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 40.06305929800146, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 40.097892814999796, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.13287171900083, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 40.16780615099924, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.20267325900204, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 40.23750303500128, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.27239359500163, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 40.30722507199971, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 40.34216921400002, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 40.37707472400143, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.41238090399929, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 40.44722948100025, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.48281426500034, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 40.51716701799887, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.55215551299989, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 40.58713394699953, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 40.622168833000615, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 40.65799148899896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.69240566499866, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 40.72722173100192, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.76220086399917, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 40.79719213900171, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.83246253700054, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 40.86813660600092, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 40.90452097900197, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 40.93853067500095, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 40.973353510999004, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 41.00847009200152, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.04328857799919, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 41.07820195900058, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.11319577299946, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 41.148092932999134, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 41.183054426001036, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 41.21786942200197, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.25281375399936, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 41.28761387900158, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.32258391299911, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 41.35739647800074, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.39253210999959, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 41.42723711999861, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 41.46220539299975, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 41.49704945100166, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.53198383199924, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 41.56689931300207, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.601868165998894, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 41.6368851820007, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.67169705800188, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 41.70652665400121, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 41.74142921400198, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 41.77626579099888, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.81126019600197, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 41.846097353001824, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.88121928400142, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 41.91612793400054, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 41.95136782099871, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 41.986426209001365, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 42.02299809200122, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 42.05756885500159, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.09280152200154, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 42.12732126300034, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.16240688200196, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 42.197222597998916, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.23229665599865, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 42.26716345499881, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 42.30225161400085, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 42.337113542002044, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.372032252998906, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 42.40690428200105, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.441892036000354, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 42.47676676500123, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.51182128200162, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 42.5466665999993, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 42.581541698000365, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 42.61659375599993, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.65146416399875, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 42.68656537399875, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.721370520001074, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 42.75643227800174, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.791306195998914, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 42.8262541289987, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 42.861119076998875, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 42.895988734999264, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 42.930862474000605, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 42.965797265998845, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.000815211999, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 43.03559203500117, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.07042657200145, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 43.10548251, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 43.14068251500066, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 43.17645657799949, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.21255999799905, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 43.24630939100098, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.28134664699974, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 43.31617814399942, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.35111647600206, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 43.385947112001304, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 43.42090977599946, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 43.455953433000104, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.49159528900054, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 43.52589992999856, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.56079657000009, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 43.59566414800065, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.63054112700047, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 43.665467138001986, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 43.700412199999846, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 43.73525860800146, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.770211260001815, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 43.80506613800026, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.840023991000635, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 43.874866678001126, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 43.910025880999456, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 43.945039385998825, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 43.979720816001645, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 44.01467050800056, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.04950131499936, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 44.084344252001756, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.11943885100118, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 44.15439124399927, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.18942095999955, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 44.22436784299862, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 44.25967026299986, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 44.2948689770019, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.33142335899902, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 44.36607610699866, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.40104128999883, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 44.435643196000456, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.4705546260011, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 44.50544074500067, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 44.540461281001626, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 44.57532459900176, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 44.61030038299941, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.64527348699994, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 44.680276661998505, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.716152209999564, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 44.75022337900009, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.78496569100025, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 44.81988590200126, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 44.85488460700071, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 44.88986800099883, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 44.924778481999965, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 44.95980084799885, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 44.99464856499981, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.0299472250008, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 45.06465002500045, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.09965455999918, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 45.134459355002036, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 45.16949179199946, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 45.20540497199909, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 45.2394478899987, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.27425304500139, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 45.30928935200063, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.34413073900214, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 45.379068291000294, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.414171070999146, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 45.449360834998515, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 45.48482521299957, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 45.52057358499951, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 45.55469831600203, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.58976236500166, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 45.62472895799874, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.65961001699907, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 45.69452686799923, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.730982774999575, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 45.76483982300124, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 45.79971865200059, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 45.834677375001775, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 45.86963002799894, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.904621181998664, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 45.939702861000114, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 45.97459227099898, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 46.00967019900054, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.04461468199952, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 46.079688429999806, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 46.114628502000414, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 46.149743473000854, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 46.18465774300057, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.21971093100001, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 46.25469820500075, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.28970483000012, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 46.32469190499978, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.3597209010004, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 46.394691685, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 46.42972255100176, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 46.46466554300059, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 46.5003466119997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.53576686800079, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 46.56998769400161, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.60514719699859, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 46.6416004040002, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.676138916001946, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 46.71128525799941, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 46.74591422500089, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 46.781049966000865, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 46.815807088998554, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.85071677000087, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 46.88552706500195, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.92061286399985, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 46.95564949099935, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 46.99067314700005, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 47.02569095299987, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 47.060969432001, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 47.095734704998904, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 47.13079291300164, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.16577594699993, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 47.20080535300076, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.235825358999136, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 47.270789922000404, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.305692132998956, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 47.34079640300115, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 47.37559924800007, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 47.41051456900095, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 47.44532443400021, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.48028521800006, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 47.5151862169987, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.550159531001555, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 47.58508634200189, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.62006471600034, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 47.654995458000485, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 47.69005731600191, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 47.72502912900018, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 47.76028604699968, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.795781966000504, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 47.83110628800205, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.866039438998996, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 47.901089297, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 47.935917703001905, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 47.970917048001866, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.005780186002085, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.040867924999475, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 48.075680240999645, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.11072220799906, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 48.14579815700199, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.180666085001576, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 48.21559992699986, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.25044079399959, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.28537073500047, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.32023089300128, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 48.35510336199877, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 48.39000695199866, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.424860129998706, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 48.45986294500108, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.494699221999326, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 48.529596992000734, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.56451539200134, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.59946802500053, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.636237206999795, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 48.67655049599853, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 48.71192335900196, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.74716300599903, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 48.78238168200187, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.817648250002094, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 48.85291969800164, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 48.8883672760021, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.923863175001316, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 48.9598909209999, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 48.99549305600158, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 49.030856708999636, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.06598481000037, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 49.10120096600076, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.136316145999444, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 49.17148653000186, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.20654090700191, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 49.241700359998504, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 49.276722966002126, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 49.311846057000366, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 49.34685164199982, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.38212648099943, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 49.41817465799977, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.452470997999626, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 49.487427831001696, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.522943570998905, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 49.55749652400118, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 49.59250438900199, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 49.62749102399903, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 49.66294319100052, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.697829799999454, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 49.73286873699908, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.767906624001625, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 49.80316225199931, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 49.838128215000324, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 49.87333452999883, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 49.90867915199851, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 49.94391951899888, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 49.978908443001274, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.01389176700104, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 50.04894460500145, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.08565093400102, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 50.12131853200117, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.156495105999056, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 50.19071766200068, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 50.225866374999896, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 50.260856028999115, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 50.29593527800171, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.33093642300082, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 50.366194100999564, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.40132831200026, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 50.43641941199894, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.471393355001055, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 50.506469774001744, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 50.5414116360007, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 50.576474554000015, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 50.61146521900082, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.6467117760003, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 50.681817476001015, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.71676479799862, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 50.752984684000694, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.78712381600053, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 50.82187556899953, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 50.85709267399943, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 50.89213186100096, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 50.92736304800201, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 50.96236973299892, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 50.99741582000206, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.032406164998974, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 51.06743676100086, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.102420405000885, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 51.137493964000896, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 51.17255129200203, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 51.2081382159995, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 51.24440345300172, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.27994692499851, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 51.31475923100152, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.34933322500001, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 51.384306308002124, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.41939897799966, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 51.45435965100114, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 51.48951966399909, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 51.524482046999765, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 51.55947965100131, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.59446927599856, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 51.62953278400164, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.66554204899876, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 51.700037119000626, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.73488744600036, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 51.77006751999943, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 51.80502618299943, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 51.8403522539993, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 51.875420341999416, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.9104033069998, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 51.94534971900066, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 51.98039974600033, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 52.01538242999959, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.050442298001144, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 52.08538888100156, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 52.120430907998525, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 52.1553745300007, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 52.190446767999674, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.22539640100149, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 52.26048598000125, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.29542871200101, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 52.33076166400133, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.36701423100021, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 52.40283191599883, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 52.43742202100111, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 52.4724662180015, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 52.507445711999026, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.54316625199863, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 52.577580588000274, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.612645846002124, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 52.647727874998964, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.68276308200075, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 52.71770552399903, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 52.75292098999853, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 52.788568467000005, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 52.82297327199922, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.85795452599996, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 52.89305108600092, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.9281076039988, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 52.96327575699979, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 52.99829182300164, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 53.0334025129996, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 53.06838049699945, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 53.10341709400018, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 53.138403498000116, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.17345756600116, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 53.20843363899985, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.24350139799935, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 53.278458720000344, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.31350500800181, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 53.348511522999615, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 53.383595441999205, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 53.41857069600155, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 53.4537754410012, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.48899141700167, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 53.525861554000585, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.560312151999824, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 53.59531666700059, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.630344862998754, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 53.66548069499913, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 53.700624517001415, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 53.73559969100097, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 53.770620627001335, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.80566282400105, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 53.84062517699931, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.875705696002115, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 53.91066622899962, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 53.945725597001, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 53.98066044799998, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 54.015737647001515, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 54.050758422999934, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 54.085813531000895, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.120862338000734, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 54.155865533000906, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.19083163599862, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 54.225883623999835, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.26093829200181, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 54.29611170499993, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 54.331140521000634, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 54.36622245000035, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 54.40116972300166, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.43625304200032, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 54.47133754099923, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.50653089499974, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 54.54170226900169, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.5767916879995, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 54.61173413000142, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 54.64755040599994, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 54.683207303001836, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 54.7191109330015, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.75344430499899, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 54.78886824100118, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.82373359900157, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 54.85893048399885, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 54.89390958800141, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 54.928990586999134, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 54.96493906899923, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 54.99934714399933, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 55.03429862700068, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.0693880559993, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 55.1044071719989, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.13960185700125, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 55.174595271000726, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.20976148399859, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 55.24477562999891, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 55.279785425002046, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 55.314767740001116, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 55.34984972800157, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.384839762999036, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 55.41994907299886, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.45495422800013, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 55.48999664499934, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.524940287999925, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 55.56058675500026, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 55.59508210399872, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 55.630145212999196, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 55.66523373200107, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.70022565600084, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 55.73520373000065, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.770559503002005, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 55.80603485100073, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 55.84144210600061, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 55.876993769001274, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 55.91220752400113, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 55.94711886499863, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 55.98219856400101, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.0172081089986, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 56.05237136199867, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.08732590499858, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 56.12238935300047, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.1574904529989, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 56.19273895000151, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 56.22882146900156, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 56.262968360999366, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 56.2980565809994, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.33308732699879, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 56.368135614000494, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.40318283200031, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 56.43826520099901, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.47335934000148, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 56.508425727999565, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 56.54348341600053, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 56.57871185299882, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 56.61385924500064, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.64935831399998, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 56.68420200200126, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.71915230400191, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 56.75575036800001, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.78924303900203, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 56.82586940400142, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 56.859337272999255, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 56.89595809800085, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 56.92950557099903, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 56.96840059900205, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 57.0017042799991, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.03717837899967, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 57.070942641999864, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.10753667600147, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 57.14112296100211, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 57.1776090400017, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 57.211291789000825, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 57.247876893001376, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.28134169199984, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 57.31766070199956, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.35156417300095, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 57.38812103500095, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.421729150999454, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 57.45673216599971, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 57.491830405000655, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 57.52904059000139, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 57.56218207300117, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.59821600899886, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 57.63331336899864, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.675036697000905, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 57.708836352001526, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.74419886499891, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 57.78053602699947, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 57.81490219999978, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 57.85030133500186, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 57.885478317999514, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.920620920001966, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 57.956005134001316, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 57.991128546000255, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 58.02635559199916, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.0617990690007, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 58.09687874800147, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 58.13258959800078, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 58.16818532199977, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 58.20344235000084, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.238613933001034, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 58.27407283100183, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.30927793600131, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 58.34444487899964, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.37970886699986, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 58.41503823899984, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 58.450259363999066, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 58.485596165999596, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 58.52073998800188, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.555979674998525, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 58.59178569999858, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.62645472800068, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 58.6616094710007, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.6969478630017, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 58.73221326099883, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 58.76737748400046, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 58.80263904200183, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 58.83789192900076, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.873328066001704, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 58.909565731999464, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 58.943764096999075, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 58.9786718280011, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.01373782600058, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 59.04899111299892, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 59.08414810600152, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 59.11915750100161, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 59.15434660599931, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.18945482599884, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 59.22485482100092, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.26014221999867, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 59.29696586499995, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.33195234999948, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 59.36651325300045, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 59.40153792899946, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 59.43668791100208, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 59.47192287800135, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.507187626000814, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 59.54224788400097, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.577375734999805, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 59.612455353999394, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.64760299599948, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 59.6826562440001, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 59.717831967001985, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 59.75288196499969, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 59.78814220300046, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.82418998999856, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 59.85948657900008, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.89458714899956, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 59.92989217899958, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 59.96509420399889, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 60.000325560999045, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 60.03546596199885, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 60.07070863899935, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 60.105770377002045, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.14116940199892, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 60.17613062500095, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.211341730999266, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 60.24649924299956, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.28174261000095, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 60.316965046000405, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 60.352483077000215, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 60.3877480150004, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 60.42482400299923, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.459416017001786, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 60.494593101000646, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.529894260998844, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 60.564999190999515, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.60035472399977, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 60.63571568599946, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 60.67091675100164, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 60.70631213600063, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 60.74149993000174, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.77674121699965, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 60.81181656600165, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.8470503919998, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 60.88239649400202, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.91749056399931, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 60.95362974499949, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 60.98799726899961, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 61.02324254600171, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 61.058632809999835, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.09362842500195, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 61.12877243700132, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.16399414300031, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.199257371001295, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.23435636100112, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 61.269578987001296, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 61.30478958200183, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 61.34005081000214, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 61.37521527300123, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.41028231200107, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 61.445359940000344, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.4805234029991, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.51578818100097, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.55113219299892, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 61.58700711200072, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 61.62385230799919, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 61.658858003000205, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 61.69322313700104, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.728081314999145, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 61.763329231998796, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.7984407920012, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.8336871399988, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.868714595999336, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 61.90433370100072, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 61.939853242001846, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 61.975108570000884, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 62.01028868399953, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.0454728980003, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 62.08065736199933, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.1159031390016, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 62.15104367100139, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.18640669399974, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 62.22151758399923, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 62.25673405999987, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 62.291935575001844, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 62.32718975199896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.36238448700169, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 62.39757607100182, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.432790516999376, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 62.468008302999806, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.50422563800021, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 62.5385882010014, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 62.57370447200083, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 62.60890626699984, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 62.64414077300171, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.67958147000172, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 62.71488814999975, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.751792700000806, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 62.787003155001, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.82207549300074, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 62.85714060200189, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 62.89219472900004, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 62.92828979800106, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 62.962899744001334, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.99795942199853, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 63.03314506600145, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.06854103099977, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 63.10380278899902, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.13898974300173, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 63.17426990199965, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 63.209495608, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 63.24474381500113, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 63.27990137799861, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.315133013999, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 63.350245284000266, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.38550722199943, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 63.42067612599931, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.456029667999246, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 63.49204442300106, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 63.526583304999804, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 63.56172067700027, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 63.59693362300095, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.63215485800174, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 63.667610526001226, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.70274760800021, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 63.73792584200055, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.77302487099951, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 63.80822831600017, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 63.84347450399946, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 63.87891883100019, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 63.91434832700179, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.95011344999875, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 63.98542932000055, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.02059319299951, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 64.05582332999984, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.09108430700144, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 64.12624404999951, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 64.16126446600174, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 64.19652864399905, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 64.23158135199992, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.26686254100059, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 64.3019725209997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.33719346699945, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 64.37230825799998, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.40740953800196, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 64.44266123499983, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 64.47786384999927, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 64.51300716200058, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 64.54809797100097, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.58328327599884, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 64.61838041499868, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.65422543200111, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 64.68897488500079, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.72404900300171, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 64.75920333600152, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 64.79437898900142, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 64.82947896900077, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 64.86470828600068, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.89990235000005, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 64.93539203899854, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.97047574799944, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 65.00613473599878, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.04163818600136, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 65.07876798600046, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 65.11422553400189, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 65.1489363949986, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 65.18344536500081, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.21869762300048, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 65.25383674499972, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.28902560899951, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 65.32418456199957, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.35939443700045, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 65.39462644300147, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 65.42976701500083, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 65.46507042500161, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 65.50016075500025, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.53730682600144, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 65.57289261000187, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.6084232409994, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 65.64430897000057, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.6795509170006, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 65.71481993500129, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 65.75004104099935, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 65.78534617100013, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 65.82056226699933, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.85742556400146, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 65.89118946799863, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.9263343599996, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 65.9614898530017, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.99680557299871, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 66.03180444800091, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 66.067057106, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 66.10216352600037, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 66.13747774600051, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.1725656660019, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 66.20839813199927, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.24444267800209, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 66.27993228800187, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.31531688199902, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 66.35040423100145, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 66.385636736999, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 66.420919365999, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 66.45601501599958, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.49123937200056, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 66.52646274799918, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.56189261400141, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 66.59704495700134, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.63245375200131, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 66.66973940000025, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 66.71024635800131, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 66.74605225300184, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 66.78175823299898, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.81744868199894, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 66.85310220899919, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.88863623100042, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 66.92418623300182, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.95960143900083, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 66.99522053400142, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 67.03054282499943, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 67.06600943300145, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 67.10141236799973, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.13697348099959, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 67.17258399600178, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.20804714399856, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 67.24329909100197, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.27861023199875, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 67.31405287899906, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 67.34999836000134, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 67.38603073600098, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 67.42131985599917, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.45684913700097, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 67.49229146400103, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.52784629600137, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 67.56328550300168, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.59878308300176, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 67.63430297300147, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 67.67031184799998, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 67.70545029999994, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 67.7408958470005, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.77652992300136, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 67.81215220900049, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.8476624089999, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 67.88307780499963, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.91878552500202, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 67.95412025699989, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 67.98981560600078, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 68.02520152999932, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 68.06071949000034, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.09612987600121, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 68.13165749700056, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.16706059200078, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 68.20260013400184, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.23815201600155, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 68.27359547300148, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 68.30917355600104, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 68.34468577699954, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 68.38020197700098, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.4174388829997, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 68.45140265699956, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.48756743899867, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 68.52304930800165, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.55835968799875, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 68.59367823900175, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 68.6290676130011, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 68.6643839540011, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 68.69975160700051, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.7350277459991, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 68.77201884900205, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.80600650400083, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 68.84126604199992, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.87647511700197, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 68.9117982179996, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 68.94708525700116, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 68.98248606199923, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 69.01802102399961, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.05325450999953, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 69.08883321400208, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.12411418299962, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 69.15943469299964, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.19471683200027, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 69.23017850000178, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 69.26548021000053, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 69.30171113599863, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 69.33630921100121, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.37176657899909, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 69.40730595000059, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.4427928490004, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 69.47830732000148, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.51381640999898, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 69.54935005100197, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 69.58515975599948, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 69.62156309100101, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 69.65711486299915, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.69270872800189, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 69.72843911900054, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.76385651400051, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 69.79927010000029, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.83484462300112, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 69.87028389999978, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 69.90617102900069, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 69.94144917800077, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 69.97713925700009, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.01252170099906, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 70.04808321300152, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.08354997100105, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 70.12074245500116, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.1545597209988, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 70.18996911700015, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 70.22525523600052, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 70.2622713410019, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 70.29629973700139, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.33317411499957, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 70.3669886409989, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.40394763299992, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 70.4377579489992, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.473084690002, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 70.50842016200113, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 70.54532043099971, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 70.5791539080019, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 70.61613029100045, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.65001968100114, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 70.68603343599898, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.72137453799951, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 70.75857215200085, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.79348448300152, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 70.82847334699909, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 70.864793697001, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 70.89986766600123, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 70.93548496099902, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 70.97093117899931, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 71.00632636299997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.04187592499875, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 71.07755683399955, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.1130269919995, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 71.14888742000039, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 71.18433275699863, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 71.21970756999872, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 71.25522880100107, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.29043620599987, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 71.32601547000013, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.3617627019994, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 71.39917659600178, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.4334239939999, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 71.4685839470003, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 71.50390416799928, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 71.54126609000014, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 71.57514067900047, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.61233458300194, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 71.64628362499934, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.68338222400052, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 71.71724745300162, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.75465726699986, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 71.78850884500207, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 71.82367746900127, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 71.86050333399908, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 71.8962120340002, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.93091641499996, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 71.96820913299962, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.00190178300181, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 72.03719806300069, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.07259048700143, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 72.10991295699932, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 72.14373682400037, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 72.17901460299981, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 72.21448402100214, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.24986031400113, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 72.28553005299909, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.32085044300038, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 72.35642895699857, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.39178093900045, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 72.4272323969999, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 72.46258442899853, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 72.49805019699852, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 72.53345513200111, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.56894329100032, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 72.60438637799962, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.6398427460008, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 72.67551217399887, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.71113595000134, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 72.74811504299942, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 72.78203938400111, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 72.81744431900006, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 72.85291556800075, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.88827851099995, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 72.92387803499878, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.96050145100162, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 72.99518150999938, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.03129678999903, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 73.06686545300181, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 73.10238055399896, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 73.13780762999886, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 73.17303345600158, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.20867066199935, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 73.24402952500168, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.27958821799984, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 73.31504959499944, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.3506014980012, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 73.38631787800114, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 73.42178697599957, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 73.45723492300021, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 73.49269680100042, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.52807900500193, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 73.56361408700104, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.59914238800047, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 73.63464658800149, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.67013358700206, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 73.7061199810014, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 73.7413154249989, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 73.77663857600055, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 73.81208031300048, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.84761296400029, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 73.88297181700182, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.91856299099891, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 73.95419375799975, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.98948172699966, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 74.02546165999956, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 74.06086808500186, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 74.09678398599863, "event": {"type": "message.delta", "content": "rd"}}
+{"elapsed_seconds": 74.13301111100009, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.16925727800117, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 74.20435559800171, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.23963369700141, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 74.27505172200108, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.31066380799894, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 74.34596800800136, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 74.38154609100093, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 74.41711980499895, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 74.45274966099896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.48817470699942, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 74.52380156300205, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.55897797600119, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 74.59478519099866, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.63014965399998, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 74.66569736699967, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 74.70085487899996, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 74.73625585400077, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 74.77179226600128, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.80730758600112, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 74.8426073260016, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.87819813000169, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 74.91357064399926, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.94922494099956, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 74.98454852199939, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 75.01998107799955, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 75.05537549300061, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 75.09108588299932, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.12652616999912, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 75.1620710520001, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.19735871100056, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 75.23331124299875, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.26862999399964, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 75.30606026900205, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 75.34134437800094, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 75.37723124699914, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 75.41251218600155, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.44794673200158, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 75.48337400799937, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.51919582399933, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 75.55445819200031, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.59016625200093, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 75.62541252899973, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 75.66091378900092, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 75.69629926299967, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 75.73189897799966, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.76934459399854, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 75.81059276800079, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.84640831399884, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 75.88256844599891, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.91845636500148, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 75.95469084100114, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 75.99043646300197, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 76.02647010900182, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 76.06243813200126, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.09848775900173, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 76.1346990839993, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.17018843400001, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 76.20601576899935, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.24170202800087, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 76.27739364800073, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 76.31316796100145, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 76.34876107500168, "event": {"type": "message.delta", "content": "th"}}
+{"elapsed_seconds": 76.38472938799896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.420287981, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 76.45658791000096, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.49388908900073, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 76.52917258800153, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.56421583500196, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 76.60025005200077, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 76.63600220399894, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 76.67169797300085, "event": {"type": "message.delta", "content": "st"}}
+{"elapsed_seconds": 76.70778539200182, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.74341131799883, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 76.77906822500154, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.81479993700123, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 76.85033571800159, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.88809901000059, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 76.92199708000044, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 76.95764373700149, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 76.99363422100214, "event": {"type": "message.delta", "content": "nd"}}
+{"elapsed_seconds": 77.02978849400097, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.06601985900124, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 77.10214654000083, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.13646796200192, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 77.17221809400144, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.2078780510019, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 77.24369405700054, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.27961345700169, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.315310476999, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 77.35183672700077, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 77.38690856600078, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 77.4224543579985, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.45818511900143, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.49399833400093, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 77.52951158499855, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 77.56535707100193, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 77.60112115399897, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.63734118999855, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.6736507200003, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 77.70952036800008, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 77.74657184399985, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 77.78180780099865, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.81642541700057, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.85220417999881, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 77.88774746199852, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 77.92327648300125, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 77.95880029399996, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.99450192400036, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.02995859099974, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 78.06542010900012, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 78.10117763200105, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 78.13673376400038, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 78.17217934099972, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.20790098200087, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 78.24335264899855, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 78.27882669799874, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 78.31422169199868, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 78.34972530199957, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.38516541900026, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 78.420715070999, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 78.45607910400213, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 78.49156360300185, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 78.52716138799951, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.56265230699864, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 78.59815845699995, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 78.63367104699864, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 78.66935905599894, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 78.70497866200094, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.7420629900007, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 78.77787221499966, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 78.81322328800161, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 78.84830608700213, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 78.88381703699997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.91929779600105, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 78.95481107600062, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 78.99033439699997, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 79.02579007399981, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.06125445200087, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.09680438500072, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 79.13231373500093, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 79.17005848600093, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 79.20468186200014, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.24246704500183, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.27626017999864, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 79.31204040400189, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 79.34776564500135, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 79.38338469000155, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.41912747199967, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.45711032500185, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 79.49116850300197, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 79.52855768600057, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 79.56266522700025, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.59823689000041, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.6337713819994, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 79.66925207000168, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 79.70471955800167, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 79.74212746299963, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.7758868359997, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.8112959909995, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 79.84706405399993, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 79.88383867700031, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 79.92060128999947, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.95549930000197, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.99101105999944, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.0265743730015, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 80.0621217150001, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 80.09765938599958, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.13331406400175, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 80.16891410799872, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.20459697700062, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 80.24031036700035, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 80.27618571600033, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.31165676399905, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 80.34750396100208, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.38306500399995, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.41851894100182, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 80.45400883000184, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.48955860299975, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 80.52510016399901, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.5606115949995, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.59611259400117, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 80.63165705600113, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.66752578399974, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 80.70318535200204, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.73871038300058, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.77417829100159, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.80969075100074, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.84531931799938, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 80.88188331000129, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.91637836000154, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 80.95199546499862, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 80.98743428200032, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.02426043800006, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.06042057000013, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.09595506099868, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.13125989100081, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 81.16670347800027, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.20238432699989, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.23792751899964, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.27347213100074, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.30902439300189, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 81.34448130099918, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.37999221100108, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.41548564000186, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.45101773200076, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.48681654599932, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 81.522416101001, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.55777247399965, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.59345496199967, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.62892008999916, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.66453151599853, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 81.69996375200208, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.73553009500029, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.77104829499876, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.80660986799921, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.84198988199933, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 81.87770882300174, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.91334117899896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.94876754500001, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 81.98416839000129, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.01965533900147, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 82.05513635800162, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.09057325400136, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 82.12625307300186, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.16286132800087, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 82.19853410599899, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 82.23576992200105, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.26996065600179, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 82.30757006099884, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.34123044900116, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 82.37870389700038, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 82.41246924000006, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.44982353199885, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 82.48371806200157, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.52152521600146, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 82.55526630900204, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.59289405399977, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.62666637800066, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 82.66463398999986, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.69833588099937, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 82.7363671560015, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 82.77137981200212, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.80542606900053, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 82.8415605299997, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 82.87885876899963, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 82.91284925400032, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 82.95038422500147, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.98442170199996, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.02151025000057, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 83.05557255900203, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 83.09288441800163, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 83.12689537400001, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.16255418199944, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.1981500360016, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 83.23548798699994, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 83.26969302300131, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 83.30640194200168, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.3421877360015, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.37973044699902, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 83.41350252100165, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 83.44911967699954, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 83.48467556900141, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.52251034499932, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.55593912200129, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 83.59311371500007, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 83.62703347600109, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 83.66413369500151, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.69830012899911, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.73545093000212, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 83.76984241500031, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 83.80527707100191, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 83.84063402399988, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.87609793199954, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.91185501400105, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 83.94934631300202, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 83.98338062000039, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 84.02056181300213, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.05462803200135, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 84.09173881099923, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 84.12599073900128, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 84.16323364500204, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 84.19728349300203, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.23436087099981, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 84.26843089999966, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 84.30563787400024, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 84.33976302600058, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 84.37523521399999, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.41105176899873, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 84.44919354000012, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 84.48331385100028, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 84.52060282000093, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 84.55467473899989, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.5918406210003, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 84.62603928599856, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 84.66337093699985, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 84.69734574099857, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 84.734524563999, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.76855546099978, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 84.8057247329998, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 84.8398072630007, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 84.87689141100054, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 84.91236374900109, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.95501073299965, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 84.98957798700212, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 85.02718202100004, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 85.06145699999979, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 85.09948144400187, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 85.13341926700014, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 85.17082435100019, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 85.20508318900102, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 85.24265983200166, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 85.276993124, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 85.31422309900154, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 85.34825754600024, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 85.38552954400075, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 85.41977014100121, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 85.45727981000164, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 85.49120753199895, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 85.52702828800102, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 85.56292940699859, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 85.60071583000172, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 85.6356896239995, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 85.67290267900171, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 85.70743642100206, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 85.74478757199904, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 85.78039430699937, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 85.81614859000183, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 85.8504154680013, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 85.88736500999948, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 85.9218828109988, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 85.95930417600175, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 85.99355742400076, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 86.03084448200025, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 86.0651561529994, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.10240891899957, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 86.13665960700018, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.17408045200136, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 86.20809794800152, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 86.24530998300179, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.27951156800191, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 86.31689844200082, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 86.35118313099883, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 86.38829483100199, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 86.4225037460019, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.45974082199973, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 86.49419562999901, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 86.53147968800113, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 86.56560746000105, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 86.60270195900011, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.63710522399924, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 86.67438671199852, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 86.70879468800194, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 86.7461975820006, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 86.78110238199952, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.81873514700055, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 86.85312199200052, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 86.89040765000027, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 86.92434250199949, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 86.96152001500013, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 86.99587326799883, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 87.0330349600008, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 87.06735139100056, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 87.1043625860002, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 87.13870560800206, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 87.17572641299921, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 87.21005169500131, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 87.24764845800019, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 87.28141559199867, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 87.318628377001, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 87.3529485379986, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 87.39057481300188, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 87.42422319099933, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 87.46159137400173, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 87.49595528699865, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 87.53356183100186, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 87.56758088700008, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 87.6045900220015, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 87.63895338500151, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 87.67647800499981, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 87.71051289200113, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 87.74766898400048, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 87.78194183300002, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 87.81952582600206, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 87.85332245099926, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 87.89083956100148, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 87.92556721300207, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 87.96248406200175, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 87.997577852002, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 88.03420718800044, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 88.06907028600108, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.10640060600053, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 88.14054921899879, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 88.17776798400155, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 88.21198644000106, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 88.24948958900131, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.28333170699989, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 88.3206718879992, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 88.35492095500013, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 88.39264413500132, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 88.42637269700208, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.46372270899883, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 88.49795796599938, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 88.53557468000145, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 88.56941190799989, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 88.60505722499875, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.64087775000007, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.67651549700167, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 88.71221319599863, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 88.7479134560017, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 88.78513065100196, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.82073235500138, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 88.85516916300185, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 88.89078089800023, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 88.9266594260007, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 88.9622524410006, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 88.99785455500023, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 89.03355568500047, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 89.07071918699876, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 89.10711443100081, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 89.14200193099896, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 89.17763251699944, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 89.21324934199947, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 89.2491133399999, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 89.28463104099865, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 89.32227062699894, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 89.3563952580007, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 89.39228115700098, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 89.42794537499867, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 89.46349929699863, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 89.49925461000021, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 89.53484490399933, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 89.57090765099929, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 89.60643293199973, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 89.64214252199963, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 89.67788342399945, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 89.71340879499985, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 89.74908636400141, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 89.7849739029989, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 89.82060482900124, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 89.85632021900165, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 89.89196325599914, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 89.92792962900057, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 89.96352801299872, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 89.99918756099942, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 90.03489426099986, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.07047534500089, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 90.10631759099851, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 90.14259641999888, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 90.17888190799931, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 90.2163900279993, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.25134317999982, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 90.28691623399936, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 90.32260121199943, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 90.35835561500062, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 90.39422945299884, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.43047060000026, "event": {"type": "message.delta", "content": "6"}}
+{"elapsed_seconds": 90.4659703590005, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 90.50171965100162, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 90.5374459420018, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 90.57302411600176, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.60864161100108, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.64449010799945, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 90.68002969000008, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 90.71642709400112, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 90.7521719360011, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.78786593499899, "event": {"type": "message.delta", "content": "8"}}
+{"elapsed_seconds": 90.8236153580001, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 90.85955191900212, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 90.89511674200185, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 90.93077423900104, "event": {"type": "message.delta", "content": "7"}}
+{"elapsed_seconds": 90.96639856500042, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 91.00354241600144, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 91.00538993800001, "event": {"type": "message.end"}}
+{"elapsed_seconds": 91.00545479100037, "event": {"type": "chat.end", "result": {"model_instance_id": "evo-amd-qwen8-rocm", "output": [{"type": "message", "content": "  the  2nd  century  A.D., and  is  now  the  14th  of  the 12th  century, the 13th  of  the  14th  of  the 15th  of  the 16th  of  the 17th  of  the 18th  of  the 19th  of  the 20th  of  the 21st  of  the 22nd  of  the 23rd  of  the 24th  of  the 25th  of  the 26th  of  the 27th  of  the 28th  of  the 29th  of  the 30th  of  the 31st  of  the 32nd  of  the 33rd  of  the 34th  of  the 35th  of  the 36th  of  the 37th  of  the 38th  of  the 39th  of  the 40th  of  the 41st  of  the 42nd  of  the 43rd  of  the 44th  of  the 45th  of  the 46th  of  the 47th  of  the 48th  of  the 49th  of  the 50th  of  the 51st  of  the 52nd  of  the 53rd  of  the 54th  of  the 55th  of  the 56th  of  the 57th  of  the 58th  of  the 59th  of  the 60th  of  the 61st  of  the 62nd  of  the 63rd  of  the 64th  of  the 65th  of  the 66th  of  the 67th  of  the 68th  of  the 69th  of  the 70th  of  the 71st  of  the 72nd  of  the 73rd  of  the 74th  of  the 75th  of  the 76th  of  the 77th  of  the 78th  of  the 79th  of  the 80th  of  the 81st  of  the 82nd  of  the 83rd  of  the 84th  of  the 85th  of  the 86th  of  the 87th  of  the 88th  of  the 89th  of  the 90th  of  the 91st  of  the 92nd  of  the 93rd  of  the 94th  of  the 95th  of  the 96th  of  the 97th  of  the 98th  of  the 99th  of  the 100th  of  the 101st  of  the 102nd  of  the 103rd  of  the 104th  of  the 105th  of  the 106th  of  the 107th  of  the 108th  of  the 109th  of  the 110th  of  the 111th  of  the 112th  of  the 113th  of  the 114th  of  the 115th  of  the 116th  of  the 117th  of  the 118th  of  the 119th  of  the 120th  of  the 121st  of  the 122nd  of  the 123rd  of  the 124th  of  the 125th  of  the 126th  of  the 127th  of  the 128th  of  the 129th  of  the 130th  of  the 131st  of  the 132nd  of  the 133rd  of  the 134th  of  the 135th  of  the 136th  of  the 137th  of  the 138th  of  the 139th  of  the 140th  of  the 141st  of  the 142nd  of  the 143rd  of  the 144th  of  the 145th  of  the 146th  of  the 147th  of  the 148th  of  the 149th  of  the 150th  of  the 151st  of  the 152nd  of  the 153rd  of  the 154th  of  the 155th  of  the 156th  of  the 157th  of  the 158th  of  the 159th  of  the 160th  of  the 161st  of  the 162nd  of  the 163rd  of  the 164th  of  the 165th  of  the 166th  of  the 167th  of  the 168th  of  the 169th  of  the 170th  of  the 171st  of  the 172nd  of  the 173rd  of  the 174th  of  the 175th  of  the 176th  of  the 177th  of  the 178th  of  the 179th  of  the 180th  of  the 181st  of  the 182nd  of  the 183rd  of  the 184th  of  the 185th  of  the 186th  of  the 187th  of  the 188th  of  the 189th  of  the 190th  of  the 191st  of  the 192nd  of  the 193rd  of  the 194th  of  the 195th  of  the 196th  of  the 197th  of  the 198th  of  the 199th  of  the 200th  of  the 201st  of  the 202nd  of  the 2. 203. 204. 205. 206. 207. 208. 209. 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223. 224. 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237. 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251. 252. 253. 254. 255. 256. 257. 258. 259. 260. 261. 262. 263. 264. 265. 266. 267. 268. 269. 270. 271. 272. 273. 274. 275. 276. 277. 278. 279."}], "stats": {"input_tokens": 15788, "total_output_tokens": 2048, "reasoning_output_tokens": 0, "tokens_per_second": 28.39504794247915, "time_to_first_token_seconds": 18.487068999999998}}}}

@@ -1,0 +1,62 @@
+{
+  "name": "vulkan-short-3",
+  "backend": "vulkan",
+  "kind": "short",
+  "trial": 3,
+  "model_resource": "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 1052,
+    "total_output_tokens": 334,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 40.34791779299555,
+    "time_to_first_token_seconds": 0.97482
+  },
+  "wall_seconds": 10.226004568001372,
+  "first_visible_seconds": 1.9706551550007134,
+  "visible_tokens": 333,
+  "visible_phase_tps": 40.33748098845897,
+  "visible_total_wall_tps": 32.564037868905764,
+  "prompt_processing_seconds": 0.9739283470007649,
+  "prompt_processing_tps": 1080.161598375957,
+  "stream_timing": {
+    "prompt_processing.start": 0.9965552190005837,
+    "prompt_processing.end": 1.9704835660013487,
+    "first_visible_seconds": 1.9706551550007134,
+    "last_visible_delta_seconds": 10.1993423060012,
+    "message.end": 10.225718384001084
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "The passage on pages 101–102 of the text discusses the political and social unrest in Byzantium during the year 532, focusing on the rise and fall of the Blues and Greens, two powerful factions within the Byzantine Circus. These factions, originally associated with chariot racing, had evolved into significant political forces by the fifth century, influencing both secular and religious affairs. The Blues were associated with the house of Justinus and orthodox Christianity, while the Greens aligned with the late Emperor Anastasius and Monophysitism. Their growing influence made them a serious threat to the Emperor’s power.\n\nThe year 532 saw intense riots in Constantinople, sparked by the execution of seven riot leaders, including two Blues and two Greens. The botched executions, which resulted in the survivors being half-hung and later thrust into sanctuary, incited widespread outrage. Over the next six days, the Blues and Greens united under the slogan “Nzka” (“Conquer”), leading to widespread destruction and calls for the deposition of the Emperor’s officials. The mob, fueled by the partisans of the late Emperor Anastasius, began to demand the removal of Justinian himself and the installation of Hypatius, his nephew, as Caesar. The city, weakened by the absence of troops sent to the Persian War, was left vulnerable, with Justinian relying on only 4,000 Imperial Guards, a few German auxiliaries, and a regiment of mercenaries to quell the unrest. The passage ends with the Emperor’s desperate situation, highlighting the fragility of his rule in the face of popular revolt.",
+  "peak_metrics": {
+    "system_available_bytes": 27648696320,
+    "system_used_excluding_available_bytes": 5289521152,
+    "card1_gtt_used_bytes": 228085760,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 1041453056,
+    "swap_used_bytes": 3845996544,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 3.1,
+    "runtime_total_pss_bytes": 1436250112,
+    "llama_server_process_count": 1,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 11548065792
+  },
+  "response": {
+    "model_instance_id": "evo-amd-qwen8-vulkan",
+    "output": [
+      {
+        "type": "message",
+        "content": "The passage on pages 101–102 of the text discusses the political and social unrest in Byzantium during the year 532, focusing on the rise and fall of the Blues and Greens, two powerful factions within the Byzantine Circus. These factions, originally associated with chariot racing, had evolved into significant political forces by the fifth century, influencing both secular and religious affairs. The Blues were associated with the house of Justinus and orthodox Christianity, while the Greens aligned with the late Emperor Anastasius and Monophysitism. Their growing influence made them a serious threat to the Emperor’s power.\n\nThe year 532 saw intense riots in Constantinople, sparked by the execution of seven riot leaders, including two Blues and two Greens. The botched executions, which resulted in the survivors being half-hung and later thrust into sanctuary, incited widespread outrage. Over the next six days, the Blues and Greens united under the slogan “Nzka” (“Conquer”), leading to widespread destruction and calls for the deposition of the Emperor’s officials. The mob, fueled by the partisans of the late Emperor Anastasius, began to demand the removal of Justinian himself and the installation of Hypatius, his nephew, as Caesar. The city, weakened by the absence of troops sent to the Persian War, was left vulnerable, with Justinian relying on only 4,000 Imperial Guards, a few German auxiliaries, and a regiment of mercenaries to quell the unrest. The passage ends with the Emperor’s desperate situation, highlighting the fragility of his rule in the face of popular revolt."
+      }
+    ],
+    "stats": {
+      "input_tokens": 1052,
+      "total_output_tokens": 334,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 40.34791779299555,
+      "time_to_first_token_seconds": 0.97482
+    }
+  }
+}

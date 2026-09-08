@@ -1,0 +1,22 @@
+{
+  "returncode": 0,
+  "timed_out": false,
+  "process_wall_seconds": 111.7934916689992,
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 5607051264,
+    "swap_used_bytes": 3717828608,
+    "system_available_bytes": 28038270976,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_vram_used_bytes": 18457296896,
+    "cpu_percent": 3.4,
+    "llama_server_process_count": 0,
+    "runtime_total_pss_bytes": 386758656,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 389804032,
+    "card1_gtt_used_bytes": 874385408,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "first_benchmark_progress_seconds": 0.04645415299819433,
+  "pure_load_seconds": null,
+  "load_note": "Timed decode excludes load. Timestamped stderr preserves allocation and startup boundaries; pure load is not independently timed."
+}

@@ -1,0 +1,60 @@
+{
+  "variant": "no-host",
+  "kind": "short",
+  "trial": 2,
+  "wall_seconds": 5.662721135002357,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Write both record codes, then a source-grounded summary of about 120 words. Cite physical PDF pages where provided. Preserve uncertainty and distinguish the author’s opinions. Do not repeat text.**\n\n**Record Code 1:**\n`LARCH-92`\n\n**Record Code 2:**\n`LARCH-92`\n\n**Summary:**\nThe record codes `LARCH-92` and `LARCH-92` are derived from a source-grounded summary of approximately 120 words. This summary is based on physical PDF pages where provided. The uncertainty is preserved, and the author’s opinions are distinguished. The text is not repeated.\n\n**Cited Physical PDF Pages:**\n`pages 1-2`\n\n**Preserved Uncertainty and Distinguished Author’s Opinions:**\nThe uncertainty is preserved, and the author’s opinions are distinguished. The text is not repeated.\n\n**End of Summary.**"
+        }
+      }
+    ],
+    "created": 1788858741,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 194,
+      "prompt_tokens": 1085,
+      "total_tokens": 1279,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-pBFpam4wN6rBToq4cPvRwHrsoMdoIJ4a",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 1085,
+      "prompt_ms": 910.926,
+      "prompt_per_token_ms": 0.839563133640553,
+      "prompt_per_second": 1191.0956543122054,
+      "predicted_n": 194,
+      "predicted_ms": 4735.104,
+      "predicted_per_token_ms": 24.534217616580314,
+      "predicted_per_second": 40.75940042710783
+    }
+  },
+  "output": "**Write both record codes, then a source-grounded summary of about 120 words. Cite physical PDF pages where provided. Preserve uncertainty and distinguish the author’s opinions. Do not repeat text.**\n\n**Record Code 1:**\n`LARCH-92`\n\n**Record Code 2:**\n`LARCH-92`\n\n**Summary:**\nThe record codes `LARCH-92` and `LARCH-92` are derived from a source-grounded summary of approximately 120 words. This summary is based on physical PDF pages where provided. The uncertainty is preserved, and the author’s opinions are distinguished. The text is not repeated.\n\n**Cited Physical PDF Pages:**\n`pages 1-2`\n\n**Preserved Uncertainty and Distinguished Author’s Opinions:**\nThe uncertainty is preserved, and the author’s opinions are distinguished. The text is not repeated.\n\n**End of Summary.**",
+  "record_codes_correct": false,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 7.7,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 5489082368,
+    "runtime_largest_process_rss_bytes": 851668992,
+    "runtime_total_pss_bytes": 1245898752,
+    "card1_vram_used_bytes": 11950583808,
+    "swap_used_bytes": 3725869056,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 138469376,
+    "system_available_bytes": 27250143232,
+    "llama_server_process_count": 1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

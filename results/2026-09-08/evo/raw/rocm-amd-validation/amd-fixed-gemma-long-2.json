@@ -1,0 +1,60 @@
+{
+  "variant": "amd-fixed-gemma",
+  "kind": "long",
+  "trial": 2,
+  "wall_seconds": 17.99295187900134,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "RECORD A: CEDAR-47\nRECORD B: LARCH-92\n\nC. W. C. Oman’s history of the Byzantine Empire explores the city's origins and its evolution into a major imperial capital. Founded by Greek colonists from Megara on the Bosphorus [PDF p. 27], Byzantium's strategic location provided both military defense and commercial dominance over Black Sea trade [PDF p. 30]. After centuries of shifting control between Persians, Athenians, and Romans, Constantine the Great selected the site for his new capital, Constantinople, between A.D. 328 and 330 [PDF p. 15, 39]. The author describes Constantine's energetic planning, which included establishing the Milion, an imperial palace, and the Augustaeum [PDF p. 44-45]. The city's social life was notably defined by the intense rivalry between the \"Blues\" and \"Greens\" within the Hippodrome [PDF p. 48]."
+        }
+      }
+    ],
+    "created": 1788858495,
+    "model": "<LM_STUDIO_HOME>/models/unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "system_fingerprint": "b10606-03d2068a1",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 216,
+      "prompt_tokens": 15836,
+      "total_tokens": 16052,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-DpS0WZbsfWn6ccXJMD3yNl63mjCXy10U",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 15836,
+      "prompt_ms": 12649.019,
+      "prompt_per_token_ms": 0.7987508840616317,
+      "prompt_per_second": 1251.9547958620349,
+      "predicted_n": 216,
+      "predicted_ms": 5300.29,
+      "predicted_per_token_ms": 24.652511627906975,
+      "predicted_per_second": 40.56381820617363
+    }
+  },
+  "output": "RECORD A: CEDAR-47\nRECORD B: LARCH-92\n\nC. W. C. Oman’s history of the Byzantine Empire explores the city's origins and its evolution into a major imperial capital. Founded by Greek colonists from Megara on the Bosphorus [PDF p. 27], Byzantium's strategic location provided both military defense and commercial dominance over Black Sea trade [PDF p. 30]. After centuries of shifting control between Persians, Athenians, and Romans, Constantine the Great selected the site for his new capital, Constantinople, between A.D. 328 and 330 [PDF p. 15, 39]. The author describes Constantine's energetic planning, which included establishing the Milion, an imperial palace, and the Augustaeum [PDF p. 44-45]. The city's social life was notably defined by the intense rivalry between the \"Blues\" and \"Greens\" within the Hippodrome [PDF p. 48].",
+  "record_codes_correct": true,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_vram_used_bytes": 20483100672,
+    "system_available_bytes": 26803740672,
+    "runtime_total_pss_bytes": 2379346944,
+    "card1_gtt_used_bytes": 138481664,
+    "system_used_excluding_available_bytes": 6353649664,
+    "swap_used_bytes": 3787476992,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 1982869504,
+    "card1_vram_total_bytes": 103079215104,
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 20.6
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

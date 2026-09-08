@@ -1,0 +1,17 @@
+load_backend: loaded RPC backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-rpc.so
+ggml_vulkan: Found 1 Vulkan devices:
+ggml_vulkan: 0 = Radeon 8060S Graphics (RADV STRIX_HALO) (radv) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 1 | matrix cores: KHR_coopmat
+load_backend: loaded Vulkan backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-vulkan.so
+load_backend: loaded CPU backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-cpu-zen4.so
+llama-bench: benchmark 1/1: starting
+llama-bench: benchmark 1/1: warmup generation run
+llama-bench: benchmark 1/1: depth run 1/5
+llama-bench: benchmark 1/1: generation run 1/5
+llama-bench: benchmark 1/1: depth run 2/5 (cached)
+llama-bench: benchmark 1/1: generation run 2/5
+llama-bench: benchmark 1/1: depth run 3/5 (cached)
+llama-bench: benchmark 1/1: generation run 3/5
+llama-bench: benchmark 1/1: depth run 4/5 (cached)
+llama-bench: benchmark 1/1: generation run 4/5
+llama-bench: benchmark 1/1: depth run 5/5 (cached)
+llama-bench: benchmark 1/1: generation run 5/5

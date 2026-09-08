@@ -1,0 +1,60 @@
+{
+  "variant": "amd-fixed-gemma",
+  "kind": "short",
+  "trial": 2,
+  "wall_seconds": 5.495519078998768,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "RECORD A: CEDAR-47\nRECORD B: LARCH-92\n\nIn 532 A.D., the Byzantine Circus factions, the \"Blues\" and \"Greens,\" evolved from sporting groups into dangerous political entities [p. 101]. The Greens were identified as Monophysites and supporters of the late Emperor Anastasius, while the Blues aligned with Justinus and orthodox ecclesiastical views [p. 101]. Following the execution of rioters in January, a botched hanging attempt led to six days of violent unrest [p. 102]. The factions united under the cry \"Nika,\" demanding the removal of officials John of Cappadocia and Eudemius [p. 102]. The author notes that the mob became uncontrollable, with some partisans even seeking to replace Justinian with Hypatius [p. 102]. Justinian's defense was limited as most troops were away at the Persian War [p. 102]."
+        }
+      }
+    ],
+    "created": 1788858459,
+    "model": "<LM_STUDIO_HOME>/models/unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "system_fingerprint": "b10606-03d2068a1",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 1101,
+      "total_tokens": 1306,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-3vriv0VV4ljN5xRTXyhlzgE086W5f1sD",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 1101,
+      "prompt_ms": 969.024,
+      "prompt_per_token_ms": 0.8801307901907357,
+      "prompt_per_second": 1136.194769169804,
+      "predicted_n": 205,
+      "predicted_ms": 4519.072,
+      "predicted_per_token_ms": 22.152313725490195,
+      "predicted_per_second": 45.14201145721954
+    }
+  },
+  "output": "RECORD A: CEDAR-47\nRECORD B: LARCH-92\n\nIn 532 A.D., the Byzantine Circus factions, the \"Blues\" and \"Greens,\" evolved from sporting groups into dangerous political entities [p. 101]. The Greens were identified as Monophysites and supporters of the late Emperor Anastasius, while the Blues aligned with Justinus and orthodox ecclesiastical views [p. 101]. Following the execution of rioters in January, a botched hanging attempt led to six days of violent unrest [p. 102]. The factions united under the cry \"Nika,\" demanding the removal of officials John of Cappadocia and Eudemius [p. 102]. The author notes that the mob became uncontrollable, with some partisans even seeking to replace Justinian with Hypatius [p. 102]. Justinian's defense was limited as most troops were away at the Persian War [p. 102].",
+  "record_codes_correct": true,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_vram_used_bytes": 20432662528,
+    "system_available_bytes": 26567946240,
+    "runtime_total_pss_bytes": 2281994240,
+    "card1_gtt_used_bytes": 138481664,
+    "system_used_excluding_available_bytes": 6195412992,
+    "swap_used_bytes": 3789090816,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 1886146560,
+    "card1_vram_total_bytes": 103079215104,
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 17.8
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

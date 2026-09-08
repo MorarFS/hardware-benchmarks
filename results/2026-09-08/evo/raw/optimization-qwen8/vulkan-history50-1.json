@@ -1,0 +1,62 @@
+{
+  "name": "vulkan-history50-1",
+  "backend": "vulkan",
+  "kind": "history50",
+  "trial": 1,
+  "model_resource": "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 15788,
+    "total_output_tokens": 397,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 29.08698381713337,
+    "time_to_first_token_seconds": 27.273317
+  },
+  "wall_seconds": 41.93499735000296,
+  "first_visible_seconds": 28.317705120000028,
+  "visible_tokens": 396,
+  "visible_phase_tps": 29.080671348705774,
+  "visible_total_wall_tps": 9.443186479656998,
+  "prompt_processing_seconds": 27.272583284000575,
+  "prompt_processing_tps": 578.8963896669813,
+  "stream_timing": {
+    "prompt_processing.start": 1.0448879440009478,
+    "prompt_processing.end": 28.317471228001523,
+    "first_visible_seconds": 28.317705120000028,
+    "last_visible_delta_seconds": 41.898047409002174,
+    "message.end": 41.934750868000265
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "**Summary of the Passage:**\n\nThe passage provides an overview of the historical development of the Byzantine Empire, starting with the founding of Byzantium, a Greek colony established around 657 BCE on the European shore of the Bosphorus. The city, known for its strategic location, became a vital hub for trade and military operations, serving as a key point in the Black Sea region. It was repeatedly conquered and re-conquered by various empires, including the Persians, Macedonians, and Romans, before becoming the capital of the Eastern Roman Empire under Emperor Constantine the Great in 330 CE.\n\nConstantine chose Byzantium as the new capital of the Roman Empire, renaming it Constantinople, due to its advantageous position for both military and commercial purposes. The text highlights the city's transformation into a major administrative and cultural center, with detailed descriptions of its topography, including the Hippodrome, the Senate House, and the imperial palace. The passage also delves into the social and religious life of the city, the rise of the Byzantine Empire under Justinian, and the challenges it faced, including invasions by the Goths and the Slavs.\n\nThe author, C. W. C. Oman, acknowledges the contributions of historians such as Finlay and Bury, who helped shift the perception of the Byzantine Empire from a decadent relic to a significant historical force. The book aims to present the Byzantine Empire's role in defending against the Saracens and preserving knowledge during the Dark Ages, emphasizing its enduring legacy. The text is structured with a detailed table of contents and illustrations, reflecting the comprehensive nature of the work. The author also notes the importance of Byzantine art and literature, as well as the empire's military achievements and the eventual decline due to external pressures and internal strife. The passage ends with the fall of Constantinople in 1453, marking the end of the Byzantine Empire.",
+  "peak_metrics": {
+    "system_available_bytes": 27439972352,
+    "system_used_excluding_available_bytes": 5885431808,
+    "card1_gtt_used_bytes": 228085760,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 1248460800,
+    "swap_used_bytes": 3845992448,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 5.2,
+    "runtime_total_pss_bytes": 1643257856,
+    "llama_server_process_count": 1,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 11601498112
+  },
+  "response": {
+    "model_instance_id": "evo-amd-qwen8-vulkan",
+    "output": [
+      {
+        "type": "message",
+        "content": "**Summary of the Passage:**\n\nThe passage provides an overview of the historical development of the Byzantine Empire, starting with the founding of Byzantium, a Greek colony established around 657 BCE on the European shore of the Bosphorus. The city, known for its strategic location, became a vital hub for trade and military operations, serving as a key point in the Black Sea region. It was repeatedly conquered and re-conquered by various empires, including the Persians, Macedonians, and Romans, before becoming the capital of the Eastern Roman Empire under Emperor Constantine the Great in 330 CE.\n\nConstantine chose Byzantium as the new capital of the Roman Empire, renaming it Constantinople, due to its advantageous position for both military and commercial purposes. The text highlights the city's transformation into a major administrative and cultural center, with detailed descriptions of its topography, including the Hippodrome, the Senate House, and the imperial palace. The passage also delves into the social and religious life of the city, the rise of the Byzantine Empire under Justinian, and the challenges it faced, including invasions by the Goths and the Slavs.\n\nThe author, C. W. C. Oman, acknowledges the contributions of historians such as Finlay and Bury, who helped shift the perception of the Byzantine Empire from a decadent relic to a significant historical force. The book aims to present the Byzantine Empire's role in defending against the Saracens and preserving knowledge during the Dark Ages, emphasizing its enduring legacy. The text is structured with a detailed table of contents and illustrations, reflecting the comprehensive nature of the work. The author also notes the importance of Byzantine art and literature, as well as the empire's military achievements and the eventual decline due to external pressures and internal strife. The passage ends with the fall of Constantinople in 1453, marking the end of the Byzantine Empire."
+      }
+    ],
+    "stats": {
+      "input_tokens": 15788,
+      "total_output_tokens": 397,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 29.08698381713337,
+      "time_to_first_token_seconds": 27.273317
+    }
+  }
+}

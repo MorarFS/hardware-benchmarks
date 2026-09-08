@@ -1,0 +1,34 @@
+{
+  "model_resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "load_config": {
+    "contextLength": 65536,
+    "gpu": {
+      "ratio": 1.0
+    },
+    "offloadKVCacheToGpu": true,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16",
+    "seed": 42
+  },
+  "reasoning": "off",
+  "output_budget": 2048,
+  "repeats": 3,
+  "short_pages": [
+    101,
+    102
+  ],
+  "history_pages": [
+    1,
+    50
+  ],
+  "order": [
+    "rocm",
+    "vulkan"
+  ],
+  "cache_policy": "Fresh trial marker at start of system prompt; unloaded across backends; measured prompt events retained",
+  "power": "unchanged balanced",
+  "comparison": "New explicitly matched pair; historical baseline preserved",
+  "stop": "One backend load attempt; three requests per context; no output-cap retry"
+}

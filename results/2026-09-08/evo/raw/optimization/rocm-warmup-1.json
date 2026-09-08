@@ -1,0 +1,62 @@
+{
+  "name": "rocm-warmup-1",
+  "backend": "rocm",
+  "kind": "warmup",
+  "trial": 1,
+  "model_resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 563,
+    "total_output_tokens": 87,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.38974751161265,
+    "time_to_first_token_seconds": 0.608231
+  },
+  "wall_seconds": 2.8792096469987882,
+  "first_visible_seconds": 0.9574609159972169,
+  "visible_tokens": 86,
+  "visible_phase_tps": 44.75090765647535,
+  "visible_total_wall_tps": 29.869308089337682,
+  "prompt_processing_seconds": 0.5999146749963984,
+  "prompt_processing_tps": 938.4667911372229,
+  "stream_timing": {
+    "prompt_processing.start": 0.3540086520006298,
+    "prompt_processing.end": 0.9539233269970282,
+    "first_visible_seconds": 0.9574609159972169,
+    "last_visible_delta_seconds": 2.8271394459989097,
+    "message.end": 2.879112301998248
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "By 530, the \"Greens\" functioned as Monophysite partisans of the late Emperor Anastasius's house, while the \"Blues\" identified as strictly orthodox supporters of the house of Justinus [p. 101]. Although these groups originated as circus factions, they had evolved into political parties prone to riot and mischief that posed a serious danger to the State [p. 101].",
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 3917799424,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 21599854592,
+    "cpu_percent": 23.3,
+    "system_available_bytes": 29033283584,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 138469376,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 1437044736,
+    "swap_used_bytes": 4284248064,
+    "runtime_largest_process_rss_bytes": 1359249408
+  },
+  "response": {
+    "model_instance_id": "evo-amd-gemma26-rocm",
+    "output": [
+      {
+        "type": "message",
+        "content": "By 530, the \"Greens\" functioned as Monophysite partisans of the late Emperor Anastasius's house, while the \"Blues\" identified as strictly orthodox supporters of the house of Justinus [p. 101]. Although these groups originated as circus factions, they had evolved into political parties prone to riot and mischief that posed a serious danger to the State [p. 101]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 563,
+      "total_output_tokens": 87,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.38974751161265,
+      "time_to_first_token_seconds": 0.608231
+    }
+  }
+}

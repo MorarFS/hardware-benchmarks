@@ -1,0 +1,154 @@
+[
+  {
+    "elapsed_seconds": 0.005960644000879256,
+    "line": "load_backend: loaded RPC backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-rpc.so"
+  },
+  {
+    "elapsed_seconds": 0.03592583499994362,
+    "line": "ggml_vulkan: Found 1 Vulkan devices:"
+  },
+  {
+    "elapsed_seconds": 0.036025199999130564,
+    "line": "ggml_vulkan: 0 = Radeon 8060S Graphics (RADV STRIX_HALO) (radv) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 1 | matrix cores: KHR_coopmat"
+  },
+  {
+    "elapsed_seconds": 0.036028949998581083,
+    "line": "load_backend: loaded Vulkan backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-vulkan.so"
+  },
+  {
+    "elapsed_seconds": 0.04034658100135857,
+    "line": "load_backend: loaded CPU backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-cpu-zen4.so"
+  },
+  {
+    "elapsed_seconds": 0.04074012099954416,
+    "line": "llama-bench: benchmark 1/2: starting"
+  },
+  {
+    "elapsed_seconds": 0.07443020199934836,
+    "line": "llama_model_loader: loaded meta data with 42 key-value pairs and 363 tensors from <LM_STUDIO_HOME>/models/lmstudio-community/Ministral-3-14B-Reasoning-2512-GGUF/Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf (version GGUF V3 (latest))"
+  },
+  {
+    "elapsed_seconds": 0.07443462199807982,
+    "line": "llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output."
+  },
+  {
+    "elapsed_seconds": 0.07443693299865117,
+    "line": "llama_model_loader: - kv   0:                       general.architecture str              = mistral3"
+  },
+  {
+    "elapsed_seconds": 0.07444025299992063,
+    "line": "llama_model_loader: - kv   1:                               general.type str              = model"
+  },
+  {
+    "elapsed_seconds": 0.07444138299979386,
+    "line": "llama_model_loader: - kv   2:                               general.name str              = mistralai_Ministral 3 14B Reasoning 2512"
+  },
+  {
+    "elapsed_seconds": 0.07444241299890564,
+    "line": "llama_model_loader: - kv   3:                            general.version str              = 2512"
+  },
+  {
+    "elapsed_seconds": 0.07444391299941344,
+    "line": "llama_model_loader: - kv   4:                           general.finetune str              = Reasoning"
+  },
+  {
+    "elapsed_seconds": 0.07444695300000603,
+    "line": "llama_model_loader: - kv   5:                           general.basename str              = mistralai_Ministral-3"
+  },
+  {
+    "elapsed_seconds": 0.07444801300152903,
+    "line": "llama_model_loader: - kv   6:                         general.size_label str              = 14B"
+  },
+  {
+    "elapsed_seconds": 0.07444916299937177,
+    "line": "llama_model_loader: - kv   7:                       mistral3.block_count u32              = 40"
+  },
+  {
+    "elapsed_seconds": 0.07445011299932958,
+    "line": "llama_model_loader: - kv   8:                    mistral3.context_length u32              = 262144"
+  },
+  {
+    "elapsed_seconds": 0.07445140300114872,
+    "line": "llama_model_loader: - kv   9:                  mistral3.embedding_length u32              = 5120"
+  },
+  {
+    "elapsed_seconds": 0.07445257300059893,
+    "line": "llama_model_loader: - kv  10:               mistral3.feed_forward_length u32              = 16384"
+  },
+  {
+    "elapsed_seconds": 0.07445488300072611,
+    "line": "llama_model_loader: - kv  11:              mistral3.attention.head_count u32              = 32"
+  },
+  {
+    "elapsed_seconds": 0.07445593399825157,
+    "line": "llama_model_loader: - kv  12:           mistral3.attention.head_count_kv u32              = 8"
+  },
+  {
+    "elapsed_seconds": 0.07445683400146663,
+    "line": "llama_model_loader: - kv  13:  mistral3.attention.layer_norm_rms_epsilon f32              = 0.000010"
+  },
+  {
+    "elapsed_seconds": 0.07445939399985946,
+    "line": "llama_model_loader: - kv  14:              mistral3.attention.key_length u32              = 128"
+  },
+  {
+    "elapsed_seconds": 0.07446049400095944,
+    "line": "llama_model_loader: - kv  15:            mistral3.attention.value_length u32              = 128"
+  },
+  {
+    "elapsed_seconds": 0.07446170399998664,
+    "line": "llama_model_loader: - kv  16:                        mistral3.vocab_size u32              = 131072"
+  },
+  {
+    "elapsed_seconds": 0.07446313399850624,
+    "line": "llama_model_loader: - kv  17:              mistral3.rope.dimension_count u32              = 128"
+  },
+  {
+    "elapsed_seconds": 0.074464164001256,
+    "line": "llama_model_loader: - kv  18:                 mistral3.rope.scaling.type str              = yarn"
+  },
+  {
+    "elapsed_seconds": 0.07446531399909873,
+    "line": "llama_model_loader: - kv  19:               mistral3.rope.scaling.factor f32              = 16.000000"
+  },
+  {
+    "elapsed_seconds": 0.07446801400146796,
+    "line": "llama_model_loader: - kv  20:       mistral3.rope.scaling.yarn_beta_fast f32              = 32.000000"
+  },
+  {
+    "elapsed_seconds": 0.07446890400024131,
+    "line": "llama_model_loader: - kv  21:       mistral3.rope.scaling.yarn_beta_slow f32              = 1.000000"
+  },
+  {
+    "elapsed_seconds": 0.07446994400015683,
+    "line": "llama_model_loader: - kv  22:  mistral3.rope.scaling.yarn_log_multiplier f32              = 1.000000"
+  },
+  {
+    "elapsed_seconds": 0.07447096399846487,
+    "line": "llama_model_loader: - kv  23: mistral3.rope.scaling.original_context_length u32              = 16384"
+  },
+  {
+    "elapsed_seconds": 0.0744721839982958,
+    "line": "llama_model_loader: - kv  24:                    mistral3.rope.freq_base f32              = 1000000000.000000"
+  },
+  {
+    "elapsed_seconds": 0.07447363399842288,
+    "line": "llama_model_loader: - kv  25:       mistral3.attention.temperature_scale f32              = 0.100000"
+  },
+  {
+    "elapsed_seconds": 0.07447479400070733,
+    "line": "llama_model_loader: - kv  26:                       tokenizer.ggml.model str              = gpt2"
+  },
+  {
+    "elapsed_seconds": 0.0744759349981905,
+    "line": "llama_model_loader: - kv  27:                         tokenizer.ggml.pre str              = tekken"
+  },
+  {
+    "elapsed_seconds": 0.08558438199906959,
+    "line": "llama_model_loader: - kv  28:                      tokenizer.ggml.tokens arr[str,131072]  = [\"<unk>\", \"<s>\", \"</s>\", \"[INST]\", \"[..."
+  },
+  {
+    "elapsed_seconds": 0.08801457599838614,
+    "line": "llama_model_loader: - kv  29:                  tokenizer.ggml.token_type arr[i32,131072]  = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, ..."
+  }
+]

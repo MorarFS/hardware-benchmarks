@@ -1,0 +1,62 @@
+{
+  "name": "vulkan-history50-3",
+  "backend": "vulkan",
+  "kind": "history50",
+  "trial": 3,
+  "model_resource": "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 15788,
+    "total_output_tokens": 464,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 28.986704931621425,
+    "time_to_first_token_seconds": 26.928579000000003
+  },
+  "wall_seconds": 55.63288305600145,
+  "first_visible_seconds": 39.65715523600011,
+  "visible_tokens": 463,
+  "visible_phase_tps": 28.98146520876075,
+  "visible_total_wall_tps": 8.322416070616594,
+  "prompt_processing_seconds": 26.928002177999588,
+  "prompt_processing_tps": 586.3041712355079,
+  "stream_timing": {
+    "prompt_processing.start": 12.728871374001756,
+    "prompt_processing.end": 39.65687355200134,
+    "first_visible_seconds": 39.65715523600011,
+    "last_visible_delta_seconds": 55.594681062000745,
+    "message.end": 55.632620543001394
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "**Summary of the Passage:**\n\nThe passage provides an overview of the historical development of the Byzantine Empire, starting with the founding of Byzantium, a Greek city located at the strategic crossroads of Europe and Asia. The city, originally named Byzantium, was established by Greek colonists from Megara around 660 BCE. It was strategically positioned on the Bosphorus, controlling trade routes across the Black Sea and serving as a key military outpost. Over the centuries, Byzantium changed hands multiple times, falling under the control of various empires, including the Persians, the Macedonian and Roman empires, and later the Goths. Despite its frequent conquests, Byzantium remained a vital commercial and military hub, and its resilience and strategic location ensured its continued importance.\n\nThe text also discusses the establishment of Constantinople, the renamed and expanded version of Byzantium, under Emperor Constantine the Great in the late 4th century CE. Constantine chose the site for its strategic advantages, including its access to both land and sea, its defensibility, and its central location within the empire. He redeveloped the city, constructing monumental structures such as the Hippodrome, the Senate House, and the Imperial Palace. The city became the administrative, cultural, and religious center of the Eastern Roman Empire, later known as the Byzantine Empire.\n\nThe passage highlights the political and social dynamics of the city, including the rivalry between the \"Blues\" and \"Greens\" factions, which played a significant role in the city's public life. It also touches on the broader historical context, including the rise and fall of various emperors, military campaigns, and the eventual transformation of Byzantium into Constantinople, a city that would shape the course of history for centuries. The text reflects on the enduring legacy of the Byzantine Empire, emphasizing its contributions to the preservation of Roman culture, the spread of Christianity, and its role in resisting external threats, particularly from the Saracens and later the Ottoman Turks. The author, C. W. C. Oman, presents the history with a focus on the strategic and cultural significance of the city, drawing on the works of earlier historians like Finlay and Bury to provide a more nuanced and comprehensive account of Byzantine history.",
+  "peak_metrics": {
+    "system_available_bytes": 24777109504,
+    "system_used_excluding_available_bytes": 10343313408,
+    "card1_gtt_used_bytes": 228085760,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 6029897728,
+    "swap_used_bytes": 3845267456,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 3.9,
+    "runtime_total_pss_bytes": 6425199616,
+    "llama_server_process_count": 1,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 11548065792
+  },
+  "response": {
+    "model_instance_id": "evo-amd-qwen8-vulkan",
+    "output": [
+      {
+        "type": "message",
+        "content": "**Summary of the Passage:**\n\nThe passage provides an overview of the historical development of the Byzantine Empire, starting with the founding of Byzantium, a Greek city located at the strategic crossroads of Europe and Asia. The city, originally named Byzantium, was established by Greek colonists from Megara around 660 BCE. It was strategically positioned on the Bosphorus, controlling trade routes across the Black Sea and serving as a key military outpost. Over the centuries, Byzantium changed hands multiple times, falling under the control of various empires, including the Persians, the Macedonian and Roman empires, and later the Goths. Despite its frequent conquests, Byzantium remained a vital commercial and military hub, and its resilience and strategic location ensured its continued importance.\n\nThe text also discusses the establishment of Constantinople, the renamed and expanded version of Byzantium, under Emperor Constantine the Great in the late 4th century CE. Constantine chose the site for its strategic advantages, including its access to both land and sea, its defensibility, and its central location within the empire. He redeveloped the city, constructing monumental structures such as the Hippodrome, the Senate House, and the Imperial Palace. The city became the administrative, cultural, and religious center of the Eastern Roman Empire, later known as the Byzantine Empire.\n\nThe passage highlights the political and social dynamics of the city, including the rivalry between the \"Blues\" and \"Greens\" factions, which played a significant role in the city's public life. It also touches on the broader historical context, including the rise and fall of various emperors, military campaigns, and the eventual transformation of Byzantium into Constantinople, a city that would shape the course of history for centuries. The text reflects on the enduring legacy of the Byzantine Empire, emphasizing its contributions to the preservation of Roman culture, the spread of Christianity, and its role in resisting external threats, particularly from the Saracens and later the Ottoman Turks. The author, C. W. C. Oman, presents the history with a focus on the strategic and cultural significance of the city, drawing on the works of earlier historians like Finlay and Bury to provide a more nuanced and comprehensive account of Byzantine history."
+      }
+    ],
+    "stats": {
+      "input_tokens": 15788,
+      "total_output_tokens": 464,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 28.986704931621425,
+      "time_to_first_token_seconds": 26.928579000000003
+    }
+  }
+}

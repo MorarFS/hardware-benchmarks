@@ -1,0 +1,60 @@
+{
+  "variant": "no-host",
+  "kind": "short",
+  "trial": 1,
+  "wall_seconds": 13.504984876999515,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Write both record codes, then a source-grounded summary of about 120 words. Cite physical PDF pages where provided. Preserve uncertainty and distinguish the author’s opinions. Do not repeat text.**\n\n**Record Code 1:**\n`LARCH-92`\n\n**Record Code 2:**\n`LARCH-92`\n\n**Source-Grounded Summary (120 words):**\nThe shelf code is LARCH-92. This code represents a physical PDF page where provided. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the"
+        }
+      }
+    ],
+    "created": 1788858736,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 1085,
+      "total_tokens": 1597,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-4eJK7UbaSZWcLvM3qEkEhJaYQOnl6uOD",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 1085,
+      "prompt_ms": 954.535,
+      "prompt_per_token_ms": 0.8797557603686635,
+      "prompt_per_second": 1136.6791160093658,
+      "predicted_n": 512,
+      "predicted_ms": 12541.735,
+      "predicted_per_token_ms": 24.543512720156556,
+      "predicted_per_second": 40.743964052820445
+    }
+  },
+  "output": "**Write both record codes, then a source-grounded summary of about 120 words. Cite physical PDF pages where provided. Preserve uncertainty and distinguish the author’s opinions. Do not repeat text.**\n\n**Record Code 1:**\n`LARCH-92`\n\n**Record Code 2:**\n`LARCH-92`\n\n**Source-Grounded Summary (120 words):**\nThe shelf code is LARCH-92. This code represents a physical PDF page where provided. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the author’s opinions. The code is not repeated text. The code is preserved with uncertainty and distinguished the",
+  "record_codes_correct": false,
+  "capped": true,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 6.9,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 5542637568,
+    "runtime_largest_process_rss_bytes": 851394560,
+    "runtime_total_pss_bytes": 1246559232,
+    "card1_vram_used_bytes": 11950272512,
+    "swap_used_bytes": 3725873152,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 138469376,
+    "system_available_bytes": 27240738816,
+    "llama_server_process_count": 1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "vulkan-warmup-1",
+  "backend": "vulkan",
+  "kind": "warmup",
+  "trial": 1,
+  "model_resource": "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 554,
+    "total_output_tokens": 89,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 41.357056618280474,
+    "time_to_first_token_seconds": 0.524419
+  },
+  "wall_seconds": 2.6648636179997993,
+  "first_visible_seconds": 0.5351006349992531,
+  "visible_tokens": 88,
+  "visible_phase_tps": 41.31915180346499,
+  "visible_total_wall_tps": 33.022327824060014,
+  "prompt_processing_seconds": 0.5249119899999641,
+  "prompt_processing_tps": 1055.4150230023092,
+  "stream_timing": {
+    "prompt_processing.start": 0.010108490998391062,
+    "prompt_processing.end": 0.5350204809983552,
+    "first_visible_seconds": 0.5351006349992531,
+    "last_visible_delta_seconds": 2.63919350499782,
+    "message.end": 2.6646642479972797
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "In the year 532, the Byzantine Empire faced a significant threat from the rival factions of the Blues and Greens, which had evolved from Circus factions into powerful political entities with strong religious affiliations. The Blues, associated with the house of Justinus and orthodoxy, and the Greens, linked to the late Emperor Anastasius and Monophysitism, played a critical role in the political and religious turmoil of the time.",
+  "peak_metrics": {
+    "system_available_bytes": 27994550272,
+    "system_used_excluding_available_bytes": 4765409280,
+    "card1_gtt_used_bytes": 223563776,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 512167936,
+    "swap_used_bytes": 3846115328,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 3.0,
+    "runtime_total_pss_bytes": 906014720,
+    "llama_server_process_count": 1,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 11548020736
+  },
+  "response": {
+    "model_instance_id": "evo-amd-qwen8-vulkan",
+    "output": [
+      {
+        "type": "message",
+        "content": "In the year 532, the Byzantine Empire faced a significant threat from the rival factions of the Blues and Greens, which had evolved from Circus factions into powerful political entities with strong religious affiliations. The Blues, associated with the house of Justinus and orthodoxy, and the Greens, linked to the late Emperor Anastasius and Monophysitism, played a critical role in the political and religious turmoil of the time."
+      }
+    ],
+    "stats": {
+      "input_tokens": 554,
+      "total_output_tokens": 89,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 41.357056618280474,
+      "time_to_first_token_seconds": 0.524419
+    }
+  }
+}

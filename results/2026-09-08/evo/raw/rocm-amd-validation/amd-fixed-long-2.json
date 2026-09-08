@@ -1,0 +1,60 @@
+{
+  "variant": "amd-fixed",
+  "kind": "long",
+  "trial": 2,
+  "wall_seconds": 25.206414120999398,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Record A: CEDAR-47  \nRecord B: LARCH-92  \n\nThe text describes the historical and geographical background of Byzantium, its founding by Megarian colonists, and its evolution into Constantinople under Emperor Constantine. It outlines the city's strategic location, its role in trade and military affairs, and its transformation into a major imperial capital. The narrative includes details about the city's topography, key structures like the Hippodrome and St. Sophia, and the political and social dynamics of the time. The text also touches on the Byzantine Empire's significance in resisting the Saracens and preserving knowledge during the Dark Ages. The summary is grounded in the physical pages of the PDF, with references to specific sections discussing the city's founding, its development under Constantine, and its cultural and political importance. The author presents a scholarly account, acknowledging the contributions of historians like Finlay and Bury, while distinguishing their views from those of Gibbon."
+        }
+      }
+    ],
+    "created": 1788858435,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10606-03d2068a1",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 199,
+      "prompt_tokens": 15819,
+      "total_tokens": 16018,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-S6WLd7W22GvNsMPGrAZeg7443y7wbbqr",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 15819,
+      "prompt_ms": 17602.176,
+      "prompt_per_token_ms": 1.11272368670586,
+      "prompt_per_second": 898.6957067126247,
+      "predicted_n": 199,
+      "predicted_ms": 7572.647,
+      "predicted_per_token_ms": 38.24569191919192,
+      "predicted_per_second": 26.14673574511
+    }
+  },
+  "output": "Record A: CEDAR-47  \nRecord B: LARCH-92  \n\nThe text describes the historical and geographical background of Byzantium, its founding by Megarian colonists, and its evolution into Constantinople under Emperor Constantine. It outlines the city's strategic location, its role in trade and military affairs, and its transformation into a major imperial capital. The narrative includes details about the city's topography, key structures like the Hippodrome and St. Sophia, and the political and social dynamics of the time. The text also touches on the Byzantine Empire's significance in resisting the Saracens and preserving knowledge during the Dark Ages. The summary is grounded in the physical pages of the PDF, with references to specific sections discussing the city's founding, its development under Constantine, and its cultural and political importance. The author presents a scholarly account, acknowledging the contributions of historians like Finlay and Bury, while distinguishing their views from those of Gibbon.",
+  "record_codes_correct": true,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_vram_used_bytes": 12023439360,
+    "system_available_bytes": 27330002944,
+    "runtime_total_pss_bytes": 1452336128,
+    "card1_gtt_used_bytes": 138481664,
+    "system_used_excluding_available_bytes": 5402632192,
+    "swap_used_bytes": 3789127680,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 1055977472,
+    "card1_vram_total_bytes": 103079215104,
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 19.6
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

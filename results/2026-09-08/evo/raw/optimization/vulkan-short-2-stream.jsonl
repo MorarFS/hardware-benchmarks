@@ -1,0 +1,506 @@
+{"elapsed_seconds": 0.002163907000067411, "event": {"type": "chat.start", "model_instance_id": "evo-amd-gemma26-vulkan"}}
+{"elapsed_seconds": 1.2844564450024336, "event": {"type": "prompt_processing.start"}}
+{"elapsed_seconds": 1.2845468590021483, "event": {"type": "prompt_processing.progress", "progress": 0}}
+{"elapsed_seconds": 1.3927801230020123, "event": {"type": "prompt_processing.progress", "progress": 0.03655107778819119}}
+{"elapsed_seconds": 1.7305787370023609, "event": {"type": "prompt_processing.progress", "progress": 0.5164011246485474}}
+{"elapsed_seconds": 2.4439279710022674, "event": {"type": "prompt_processing.progress", "progress": 0.9962511715089035}}
+{"elapsed_seconds": 3.9039267870030017, "event": {"type": "prompt_processing.progress", "progress": 1}}
+{"elapsed_seconds": 3.9040233210034785, "event": {"type": "prompt_processing.end"}}
+{"elapsed_seconds": 3.9040590830009023, "event": {"type": "message.start"}}
+{"elapsed_seconds": 3.9040867740004614, "event": {"type": "message.delta", "content": "Following"}}
+{"elapsed_seconds": 3.927928466000594, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 3.94895814100164, "event": {"type": "message.delta", "content": " death"}}
+{"elapsed_seconds": 3.969920963001641, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 3.99099279100119, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 4.011934902002395, "event": {"type": "message.delta", "content": "odora"}}
+{"elapsed_seconds": 4.031677339000453, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 4.053275109999959, "event": {"type": "message.delta", "content": " Anton"}}
+{"elapsed_seconds": 4.075914178003586, "event": {"type": "message.delta", "content": "ina"}}
+{"elapsed_seconds": 4.097900025000854, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 4.119945986003586, "event": {"type": "message.delta", "content": " her"}}
+{"elapsed_seconds": 4.140457978002814, "event": {"type": "message.delta", "content": " husband"}}
+{"elapsed_seconds": 4.163617040001554, "event": {"type": "message.delta", "content": " lost"}}
+{"elapsed_seconds": 4.184446036000736, "event": {"type": "message.delta", "content": " imperial"}}
+{"elapsed_seconds": 4.205185398001049, "event": {"type": "message.delta", "content": " favor"}}
+{"elapsed_seconds": 4.225891389000026, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 4.248058235003555, "event": {"type": "message.delta", "content": " experiencing"}}
+{"elapsed_seconds": 4.269569512001908, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 4.290733543002716, "event": {"type": "message.delta", "content": " misfortune"}}
+{"elapsed_seconds": 4.311979518002772, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 4.3329849720030325, "event": {"type": "message.delta", "content": " their"}}
+{"elapsed_seconds": 4.354654586000834, "event": {"type": "message.delta", "content": " declining"}}
+{"elapsed_seconds": 4.3766783760002, "event": {"type": "message.delta", "content": " years"}}
+{"elapsed_seconds": 4.397902460001205, "event": {"type": "message.delta", "content": " similar"}}
+{"elapsed_seconds": 4.421312662001583, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 4.443877127003361, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 4.46558021200326, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 4.48838977700143, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 4.509847082001215, "event": {"type": "message.delta", "content": " Marlborough"}}
+{"elapsed_seconds": 4.532783533002657, "event": {"type": "message.delta", "content": "s"}}
+{"elapsed_seconds": 4.5542175360023975, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 4.5771750190033345, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 4.598513998000271, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 4.621267180002178, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 4.6431949060024635, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 4.664300344000367, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 4.68593121700178, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 4.707113879001554, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 4.728645797000354, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 4.750047949000873, "event": {"type": "message.delta", "content": "\n\n"}}
+{"elapsed_seconds": 4.771908572001848, "event": {"type": "message.delta", "content": "The"}}
+{"elapsed_seconds": 4.794213294000656, "event": {"type": "message.delta", "content": " year"}}
+{"elapsed_seconds": 4.815806685001007, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 4.838171870000224, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 4.859752130003471, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 4.882229680002638, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 4.903790959000617, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 4.9261763650029025, "event": {"type": "message.delta", "content": " which"}}
+{"elapsed_seconds": 4.947765416000038, "event": {"type": "message.delta", "content": " marked"}}
+{"elapsed_seconds": 4.970102550003503, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 4.991511302003346, "event": {"type": "message.delta", "content": " end"}}
+{"elapsed_seconds": 5.013161256003514, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 5.034764307001751, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 5.057213626001612, "event": {"type": "message.delta", "content": " Persian"}}
+{"elapsed_seconds": 5.078823907002516, "event": {"type": "message.delta", "content": " War"}}
+{"elapsed_seconds": 5.101214014001016, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 5.122897768000257, "event": {"type": "message.delta", "content": " also"}}
+{"elapsed_seconds": 5.145191220002744, "event": {"type": "message.delta", "content": " saw"}}
+{"elapsed_seconds": 5.166757209000934, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 5.1890764130002935, "event": {"type": "message.delta", "content": " rise"}}
+{"elapsed_seconds": 5.2106063310020545, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 5.232529426000838, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 5.253590123000322, "event": {"type": "message.delta", "content": " significant"}}
+{"elapsed_seconds": 5.2754688860004535, "event": {"type": "message.delta", "content": " danger"}}
+{"elapsed_seconds": 5.297382791002747, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 5.317843181001081, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 5.339232392001577, "event": {"type": "message.delta", "content": " Emperor"}}
+{"elapsed_seconds": 5.360852184003306, "event": {"type": "message.delta", "content": "\u2019"}}
+{"elapsed_seconds": 5.383142156002577, "event": {"type": "message.delta", "content": "s"}}
+{"elapsed_seconds": 5.4043712000020605, "event": {"type": "message.delta", "content": " power"}}
+{"elapsed_seconds": 5.427212937000149, "event": {"type": "message.delta", "content": ":"}}
+{"elapsed_seconds": 5.447865255002398, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 5.469279958000698, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 5.49054817400247, "event": {"type": "message.delta", "content": "Blues"}}
+{"elapsed_seconds": 5.511912914000277, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 5.534236917003, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 5.554886565001652, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 5.5758808690006845, "event": {"type": "message.delta", "content": "Gre"}}
+{"elapsed_seconds": 5.596910664000461, "event": {"type": "message.delta", "content": "ens"}}
+{"elapsed_seconds": 5.619629325003189, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 5.639978400002292, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 5.662007200000517, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 5.683798440000828, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 5.7052164420019835, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 5.725835309000104, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 5.746803142003046, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 5.768088548000378, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 5.789412827001797, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 5.812113947002217, "event": {"type": "message.delta", "content": " While"}}
+{"elapsed_seconds": 5.832476812000095, "event": {"type": "message.delta", "content": " these"}}
+{"elapsed_seconds": 5.855070368001179, "event": {"type": "message.delta", "content": " groups"}}
+{"elapsed_seconds": 5.876819496003009, "event": {"type": "message.delta", "content": " originated"}}
+{"elapsed_seconds": 5.89753354700224, "event": {"type": "message.delta", "content": " as"}}
+{"elapsed_seconds": 5.920961290001287, "event": {"type": "message.delta", "content": " circus"}}
+{"elapsed_seconds": 5.942232866000268, "event": {"type": "message.delta", "content": " factions"}}
+{"elapsed_seconds": 5.964304698001797, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 5.98509466300311, "event": {"type": "message.delta", "content": " they"}}
+{"elapsed_seconds": 6.00726539900279, "event": {"type": "message.delta", "content": " had"}}
+{"elapsed_seconds": 6.028095786001359, "event": {"type": "message.delta", "content": " grown"}}
+{"elapsed_seconds": 6.048807627001224, "event": {"type": "message.delta", "content": " into"}}
+{"elapsed_seconds": 6.071014595003362, "event": {"type": "message.delta", "content": " political"}}
+{"elapsed_seconds": 6.091729166000732, "event": {"type": "message.delta", "content": " parties"}}
+{"elapsed_seconds": 6.112897747003444, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 6.133964554002887, "event": {"type": "message.delta", "content": " interfered"}}
+{"elapsed_seconds": 6.156158692003373, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 6.176433423002891, "event": {"type": "message.delta", "content": " politics"}}
+{"elapsed_seconds": 6.1973599740013015, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 6.219202176002, "event": {"type": "message.delta", "content": " religious"}}
+{"elapsed_seconds": 6.240619608000998, "event": {"type": "message.delta", "content": " controversies"}}
+{"elapsed_seconds": 6.260601136000332, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 6.281599450001522, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 6.304854016001627, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 6.326012567002181, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 6.349050052001985, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 6.370730867001839, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 6.391788243003248, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 6.414324346002104, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 6.43545795600221, "event": {"type": "message.delta", "content": " By"}}
+{"elapsed_seconds": 6.45656237500225, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 6.478083152000181, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 6.49882723400151, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 6.521120896002685, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 6.54301469100028, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 6.563630617001763, "event": {"type": "message.delta", "content": " being"}}
+{"elapsed_seconds": 6.584847740999976, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 6.607668837001256, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 6.629570771001454, "event": {"type": "message.delta", "content": "Green"}}
+{"elapsed_seconds": 6.651368631002697, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 6.67236754500118, "event": {"type": "message.delta", "content": " implied"}}
+{"elapsed_seconds": 6.694656516003306, "event": {"type": "message.delta", "content": " being"}}
+{"elapsed_seconds": 6.717338966001989, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 6.737696481002786, "event": {"type": "message.delta", "content": " Mon"}}
+{"elapsed_seconds": 6.759738222001033, "event": {"type": "message.delta", "content": "ophys"}}
+{"elapsed_seconds": 6.7820968570013065, "event": {"type": "message.delta", "content": "ite"}}
+{"elapsed_seconds": 6.804017912003474, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 6.826048542003264, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 6.848315213002934, "event": {"type": "message.delta", "content": " partisan"}}
+{"elapsed_seconds": 6.868938420000632, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 6.891246293002041, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 6.912992941000994, "event": {"type": "message.delta", "content": " late"}}
+{"elapsed_seconds": 6.9351082050015975, "event": {"type": "message.delta", "content": " Emperor"}}
+{"elapsed_seconds": 6.957273721000092, "event": {"type": "message.delta", "content": " Anast"}}
+{"elapsed_seconds": 6.977891858001385, "event": {"type": "message.delta", "content": "asius"}}
+{"elapsed_seconds": 6.999957300002279, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 7.0220723540005565, "event": {"type": "message.delta", "content": " whereas"}}
+{"elapsed_seconds": 7.04432144400198, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 7.0661395540009835, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 7.088181695002277, "event": {"type": "message.delta", "content": "Blues"}}
+{"elapsed_seconds": 7.109765775003325, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 7.1320289360010065, "event": {"type": "message.delta", "content": " posed"}}
+{"elapsed_seconds": 7.154277516001457, "event": {"type": "message.delta", "content": " as"}}
+{"elapsed_seconds": 7.1763230270007625, "event": {"type": "message.delta", "content": " orthodox"}}
+{"elapsed_seconds": 7.197623524003575, "event": {"type": "message.delta", "content": " partisans"}}
+{"elapsed_seconds": 7.2190134760021465, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 7.240637298000365, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 7.262653967001825, "event": {"type": "message.delta", "content": " house"}}
+{"elapsed_seconds": 7.28497710100055, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 7.306425295002555, "event": {"type": "message.delta", "content": " Justin"}}
+{"elapsed_seconds": 7.328868664000765, "event": {"type": "message.delta", "content": "us"}}
+{"elapsed_seconds": 7.350290127000335, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 7.371665547001612, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 7.3933118200002355, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 7.414975614003197, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 7.436553844003356, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 7.458350673001405, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 7.480185885000537, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 7.50147969200043, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 7.522831862002931, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 7.544988587000262, "event": {"type": "message.delta", "content": " author"}}
+{"elapsed_seconds": 7.565990401002637, "event": {"type": "message.delta", "content": " notes"}}
+{"elapsed_seconds": 7.5879785800025275, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 7.610366656001133, "event": {"type": "message.delta", "content": " these"}}
+{"elapsed_seconds": 7.632134545001463, "event": {"type": "message.delta", "content": " groups"}}
+{"elapsed_seconds": 7.653279575002671, "event": {"type": "message.delta", "content": " retained"}}
+{"elapsed_seconds": 7.675133177002863, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 7.697030052000628, "event": {"type": "message.delta", "content": "low"}}
+{"elapsed_seconds": 7.717982953003229, "event": {"type": "message.delta", "content": " sporting"}}
+{"elapsed_seconds": 7.739714630002709, "event": {"type": "message.delta", "content": " origin"}}
+{"elapsed_seconds": 7.760059205000289, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 7.780895061001502, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 7.803092519003258, "event": {"type": "message.delta", "content": " were"}}
+{"elapsed_seconds": 7.824391326001205, "event": {"type": "message.delta", "content": " dominated"}}
+{"elapsed_seconds": 7.846224108001479, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 7.866311521000171, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 7.888941188000899, "event": {"type": "message.delta", "content": "rough"}}
+{"elapsed_seconds": 7.9105205180021585, "event": {"type": "message.delta", "content": "er"}}
+{"elapsed_seconds": 7.931085672000336, "event": {"type": "message.delta", "content": " elements"}}
+{"elapsed_seconds": 7.953922399003204, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 7.975116971003445, "event": {"type": "message.delta", "content": " prone"}}
+{"elapsed_seconds": 7.995887105000293, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 8.017477835001046, "event": {"type": "message.delta", "content": " mischief"}}
+{"elapsed_seconds": 8.038104643001134, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 8.060120162001112, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 8.081335266000679, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 8.101880009002343, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 8.122820951000904, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 8.145506570002908, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 8.167531580002105, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 8.187678316000529, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 8.209767519001616, "event": {"type": "message.delta", "content": "\n\n"}}
+{"elapsed_seconds": 8.22975002700332, "event": {"type": "message.delta", "content": "In"}}
+{"elapsed_seconds": 8.25198158600324, "event": {"type": "message.delta", "content": " January"}}
+{"elapsed_seconds": 8.273412119000568, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 8.294853323001007, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 8.316353990001517, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 8.338069056000677, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 8.359560982000403, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 8.381334930003504, "event": {"type": "message.delta", "content": " serious"}}
+{"elapsed_seconds": 8.40209744400272, "event": {"type": "message.delta", "content": " ri"}}
+{"elapsed_seconds": 8.424190517001989, "event": {"type": "message.delta", "content": "oting"}}
+{"elapsed_seconds": 8.446578293001949, "event": {"type": "message.delta", "content": " broke"}}
+{"elapsed_seconds": 8.468210175000422, "event": {"type": "message.delta", "content": " out"}}
+{"elapsed_seconds": 8.489250861002802, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 8.510051986002509, "event": {"type": "message.delta", "content": " Although"}}
+{"elapsed_seconds": 8.534157850001066, "event": {"type": "message.delta", "content": " Justin"}}
+{"elapsed_seconds": 8.55632465600138, "event": {"type": "message.delta", "content": "ian"}}
+{"elapsed_seconds": 8.57833461500195, "event": {"type": "message.delta", "content": " typically"}}
+{"elapsed_seconds": 8.600574345000496, "event": {"type": "message.delta", "content": " favored"}}
+{"elapsed_seconds": 8.620884498002852, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 8.64335600800041, "event": {"type": "message.delta", "content": " Blues"}}
+{"elapsed_seconds": 8.66500679100136, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 8.686906415001431, "event": {"type": "message.delta", "content": " he"}}
+{"elapsed_seconds": 8.709178856002836, "event": {"type": "message.delta", "content": " ordered"}}
+{"elapsed_seconds": 8.73095026500232, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 8.75249369300218, "event": {"type": "message.delta", "content": " execution"}}
+{"elapsed_seconds": 8.774173978003091, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 8.79519680300291, "event": {"type": "message.delta", "content": " leaders"}}
+{"elapsed_seconds": 8.818076351002674, "event": {"type": "message.delta", "content": " from"}}
+{"elapsed_seconds": 8.839727244001551, "event": {"type": "message.delta", "content": " both"}}
+{"elapsed_seconds": 8.860993060003238, "event": {"type": "message.delta", "content": " factions"}}
+{"elapsed_seconds": 8.882853943003283, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 8.903031600002578, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 8.92501773800177, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 8.946682302001136, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 8.968039652001607, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 8.990658538001298, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 9.012407706002705, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 9.03417234400331, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 9.056522999002482, "event": {"type": "message.delta", "content": " After"}}
+{"elapsed_seconds": 9.07697717800329, "event": {"type": "message.delta", "content": " four"}}
+{"elapsed_seconds": 9.098166611001943, "event": {"type": "message.delta", "content": " ri"}}
+{"elapsed_seconds": 9.119089811003505, "event": {"type": "message.delta", "content": "oters"}}
+{"elapsed_seconds": 9.141515569001058, "event": {"type": "message.delta", "content": " were"}}
+{"elapsed_seconds": 9.162731063002866, "event": {"type": "message.delta", "content": " be"}}
+{"elapsed_seconds": 9.18433752400233, "event": {"type": "message.delta", "content": "headed"}}
+{"elapsed_seconds": 9.205952135002008, "event": {"type": "message.delta", "content": " before"}}
+{"elapsed_seconds": 9.227386699003546, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 9.247529684002075, "event": {"type": "message.delta", "content": " mob"}}
+{"elapsed_seconds": 9.268346290002228, "event": {"type": "message.delta", "content": " at"}}
+{"elapsed_seconds": 9.28950562099999, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 9.310500985000544, "event": {"type": "message.delta", "content": " monastery"}}
+{"elapsed_seconds": 9.331498849001946, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 9.353053938000812, "event": {"type": "message.delta", "content": " St"}}
+{"elapsed_seconds": 9.374092093003128, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 9.395440683001652, "event": {"type": "message.delta", "content": " Con"}}
+{"elapsed_seconds": 9.41754139600016, "event": {"type": "message.delta", "content": "on"}}
+{"elapsed_seconds": 9.437988205001602, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 9.458927956002299, "event": {"type": "message.delta", "content": " an"}}
+{"elapsed_seconds": 9.48053475800043, "event": {"type": "message.delta", "content": " attempt"}}
+{"elapsed_seconds": 9.502982037000038, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 9.52552702000321, "event": {"type": "message.delta", "content": " hang"}}
+{"elapsed_seconds": 9.54730223900333, "event": {"type": "message.delta", "content": " three"}}
+{"elapsed_seconds": 9.5679257160009, "event": {"type": "message.delta", "content": " others"}}
+{"elapsed_seconds": 9.590316482001072, "event": {"type": "message.delta", "content": " failed"}}
+{"elapsed_seconds": 9.612385594002262, "event": {"type": "message.delta", "content": " twice"}}
+{"elapsed_seconds": 9.634220335003192, "event": {"type": "message.delta", "content": " due"}}
+{"elapsed_seconds": 9.655970712999988, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 9.677252140001656, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 9.699663007002528, "event": {"type": "message.delta", "content": " bung"}}
+{"elapsed_seconds": 9.72182140300356, "event": {"type": "message.delta", "content": "ling"}}
+{"elapsed_seconds": 9.743176803000097, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 9.764860467003018, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 9.786420607000764, "event": {"type": "message.delta", "content": " execution"}}
+{"elapsed_seconds": 9.808677377001004, "event": {"type": "message.delta", "content": "ers"}}
+{"elapsed_seconds": 9.830419704001542, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 9.851984373002779, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 9.873577854003088, "event": {"type": "message.delta", "content": " men"}}
+{"elapsed_seconds": 9.894935414002248, "event": {"type": "message.delta", "content": "aces"}}
+{"elapsed_seconds": 9.918154848000995, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 9.938849238002149, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 9.960204528000759, "event": {"type": "message.delta", "content": " crowd"}}
+{"elapsed_seconds": 9.981207922002795, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 10.004749960000481, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 10.026492047003558, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 10.048267506001139, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 10.070097057003295, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 10.092058335001639, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 10.114400469003158, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 10.13622322000083, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 10.157258605002426, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 10.179212592000113, "event": {"type": "message.delta", "content": " criminals"}}
+{"elapsed_seconds": 10.200670326001273, "event": {"type": "message.delta", "content": " eventually"}}
+{"elapsed_seconds": 10.222380262002844, "event": {"type": "message.delta", "content": " sought"}}
+{"elapsed_seconds": 10.243987584002753, "event": {"type": "message.delta", "content": " sanctuary"}}
+{"elapsed_seconds": 10.26613321900004, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 10.28768148800009, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 10.309722488000261, "event": {"type": "message.delta", "content": " monastery"}}
+{"elapsed_seconds": 10.32995417800339, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 10.352316473003157, "event": {"type": "message.delta", "content": " an"}}
+{"elapsed_seconds": 10.374955170002067, "event": {"type": "message.delta", "content": " incident"}}
+{"elapsed_seconds": 10.396507189001568, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 10.418990980000672, "event": {"type": "message.delta", "content": " triggered"}}
+{"elapsed_seconds": 10.44155442400006, "event": {"type": "message.delta", "content": " six"}}
+{"elapsed_seconds": 10.463389785003528, "event": {"type": "message.delta", "content": " days"}}
+{"elapsed_seconds": 10.485620275001565, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 10.507369892002316, "event": {"type": "message.delta", "content": " desperate"}}
+{"elapsed_seconds": 10.52945772500243, "event": {"type": "message.delta", "content": " ri"}}
+{"elapsed_seconds": 10.551025655000558, "event": {"type": "message.delta", "content": "oting"}}
+{"elapsed_seconds": 10.573086356002023, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 10.595040523003263, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 10.617072353001276, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 10.639594806001696, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 10.661357114000566, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 10.683605284000805, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 10.705446695003047, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 10.727860183000303, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 10.749609631002386, "event": {"type": "message.delta", "content": "\n\n"}}
+{"elapsed_seconds": 10.769697843003087, "event": {"type": "message.delta", "content": "During"}}
+{"elapsed_seconds": 10.79053481000301, "event": {"type": "message.delta", "content": " this"}}
+{"elapsed_seconds": 10.81327192200115, "event": {"type": "message.delta", "content": " period"}}
+{"elapsed_seconds": 10.834202403002564, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 10.855748941001366, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 10.877756620000582, "event": {"type": "message.delta", "content": " Blues"}}
+{"elapsed_seconds": 10.899093629002891, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 10.920458690001396, "event": {"type": "message.delta", "content": " Greens"}}
+{"elapsed_seconds": 10.942915359002654, "event": {"type": "message.delta", "content": " united"}}
+{"elapsed_seconds": 10.965141258002404, "event": {"type": "message.delta", "content": " under"}}
+{"elapsed_seconds": 10.986107420001645, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 11.007235720000608, "event": {"type": "message.delta", "content": " watch"}}
+{"elapsed_seconds": 11.028965887002414, "event": {"type": "message.delta", "content": "word"}}
+{"elapsed_seconds": 11.05075265600317, "event": {"type": "message.delta", "content": " *\""}}
+{"elapsed_seconds": 11.071642455000983, "event": {"type": "message.delta", "content": "N"}}
+{"elapsed_seconds": 11.092527254000743, "event": {"type": "message.delta", "content": "ika"}}
+{"elapsed_seconds": 11.113964077001583, "event": {"type": "message.delta", "content": "!\""}}
+{"elapsed_seconds": 11.135129849000805, "event": {"type": "message.delta", "content": "*"}}
+{"elapsed_seconds": 11.158281699001236, "event": {"type": "message.delta", "content": " (\""}}
+{"elapsed_seconds": 11.180280188000324, "event": {"type": "message.delta", "content": "con"}}
+{"elapsed_seconds": 11.201742333003494, "event": {"type": "message.delta", "content": "quer"}}
+{"elapsed_seconds": 11.222083956999995, "event": {"type": "message.delta", "content": "\")"}}
+{"elapsed_seconds": 11.243103642002097, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 11.264263013003074, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 11.286007230002724, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 11.306957372002216, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 11.329284846000519, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 11.351251663003495, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 11.37314656700255, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 11.394699866003066, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 11.416040945001441, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 11.437235178000265, "event": {"type": "message.delta", "content": " mob"}}
+{"elapsed_seconds": 11.458392679000099, "event": {"type": "message.delta", "content": " demanded"}}
+{"elapsed_seconds": 11.48081228600131, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 11.501221254002303, "event": {"type": "message.delta", "content": " deposition"}}
+{"elapsed_seconds": 11.52349104500172, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 11.545707383000263, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 11.567560696003056, "event": {"type": "message.delta", "content": " unpopular"}}
+{"elapsed_seconds": 11.589415288002783, "event": {"type": "message.delta", "content": " finance"}}
+{"elapsed_seconds": 11.611736901002587, "event": {"type": "message.delta", "content": " minister"}}
+{"elapsed_seconds": 11.633420896003372, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 11.656348427000921, "event": {"type": "message.delta", "content": " John"}}
+{"elapsed_seconds": 11.678346186003182, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 11.700011499000539, "event": {"type": "message.delta", "content": " Cappadocia"}}
+{"elapsed_seconds": 11.721364299002744, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 11.742707828001585, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 11.764986190002674, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 11.787361816001066, "event": {"type": "message.delta", "content": " city"}}
+{"elapsed_seconds": 11.808239224003046, "event": {"type": "message.delta", "content": " prefect"}}
+{"elapsed_seconds": 11.829680788003316, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 11.852146778001043, "event": {"type": "message.delta", "content": " E"}}
+{"elapsed_seconds": 11.872794206003164, "event": {"type": "message.delta", "content": "udem"}}
+{"elapsed_seconds": 11.89409829300348, "event": {"type": "message.delta", "content": "ius"}}
+{"elapsed_seconds": 11.916778473001614, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 11.93705487400075, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 11.959517634000804, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 11.98125640100261, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 12.00422120300209, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 12.025391515002411, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 12.047844544002146, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 12.068083144000411, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 12.089216184001998, "event": {"type": "message.delta", "content": " Justin"}}
+{"elapsed_seconds": 12.111264655002742, "event": {"type": "message.delta", "content": "ian"}}
+{"elapsed_seconds": 12.133845819000271, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 12.156337061001977, "event": {"type": "message.delta", "content": " described"}}
+{"elapsed_seconds": 12.178722177002783, "event": {"type": "message.delta", "content": " as"}}
+{"elapsed_seconds": 12.199858697000309, "event": {"type": "message.delta", "content": " \""}}
+{"elapsed_seconds": 12.220845580002788, "event": {"type": "message.delta", "content": "weak"}}
+{"elapsed_seconds": 12.242422760002228, "event": {"type": "message.delta", "content": " enough"}}
+{"elapsed_seconds": 12.262690931001998, "event": {"type": "message.delta", "content": "\""}}
+{"elapsed_seconds": 12.284353335002379, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 12.305098767003074, "event": {"type": "message.delta", "content": " promise"}}
+{"elapsed_seconds": 12.325821589001862, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 12.346654725002736, "event": {"type": "message.delta", "content": " dismissal"}}
+{"elapsed_seconds": 12.367815046000032, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 12.388678504001291, "event": {"type": "message.delta", "content": " these"}}
+{"elapsed_seconds": 12.409435417001077, "event": {"type": "message.delta", "content": " officials"}}
+{"elapsed_seconds": 12.430285594000452, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 12.450979924000421, "event": {"type": "message.delta", "content": " found"}}
+{"elapsed_seconds": 12.471866973002761, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 12.492758632000914, "event": {"type": "message.delta", "content": " mob"}}
+{"elapsed_seconds": 12.515503015001741, "event": {"type": "message.delta", "content": " refused"}}
+{"elapsed_seconds": 12.536798782002734, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 12.55851567800346, "event": {"type": "message.delta", "content": " disperse"}}
+{"elapsed_seconds": 12.579641387001175, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 12.600223873003415, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 12.621070930003043, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 12.642370147001202, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 12.664800905000448, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 12.685484705001727, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 12.707117887002823, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 12.728209585002332, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 12.75094363700191, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 12.772991198002273, "event": {"type": "message.delta", "content": " unrest"}}
+{"elapsed_seconds": 12.793551483002375, "event": {"type": "message.delta", "content": " was"}}
+{"elapsed_seconds": 12.815140593000251, "event": {"type": "message.delta", "content": " further"}}
+{"elapsed_seconds": 12.838160978000815, "event": {"type": "message.delta", "content": " fom"}}
+{"elapsed_seconds": 12.858536854000704, "event": {"type": "message.delta", "content": "ented"}}
+{"elapsed_seconds": 12.87995442600004, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 12.901155459003348, "event": {"type": "message.delta", "content": " partisans"}}
+{"elapsed_seconds": 12.924687247003021, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 12.944624803003535, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 12.966539468001429, "event": {"type": "message.delta", "content": " late"}}
+{"elapsed_seconds": 12.98720713700095, "event": {"type": "message.delta", "content": " emperor"}}
+{"elapsed_seconds": 13.008272374001535, "event": {"type": "message.delta", "content": " who"}}
+{"elapsed_seconds": 13.031273478001822, "event": {"type": "message.delta", "content": " sought"}}
+{"elapsed_seconds": 13.051808501000778, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 13.073061366001639, "event": {"type": "message.delta", "content": " replace"}}
+{"elapsed_seconds": 13.09607845100254, "event": {"type": "message.delta", "content": " Justin"}}
+{"elapsed_seconds": 13.11830559000009, "event": {"type": "message.delta", "content": "ian"}}
+{"elapsed_seconds": 13.138949688000139, "event": {"type": "message.delta", "content": " with"}}
+{"elapsed_seconds": 13.16022886400242, "event": {"type": "message.delta", "content": " Hyp"}}
+{"elapsed_seconds": 13.182764797002164, "event": {"type": "message.delta", "content": "atius"}}
+{"elapsed_seconds": 13.203643886001373, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 13.224745424002322, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 13.246167677003541, "event": {"type": "message.delta", "content": " nephew"}}
+{"elapsed_seconds": 13.26733012800105, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 13.288168155002495, "event": {"type": "message.delta", "content": " Anast"}}
+{"elapsed_seconds": 13.311481993001507, "event": {"type": "message.delta", "content": "asius"}}
+{"elapsed_seconds": 13.332056527000532, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 13.353159016001882, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 13.374924064002698, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 13.397104141000455, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 13.419445226001699, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 13.442309263002244, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 13.464716541002417, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 13.48643631700179, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 13.508520980001776, "event": {"type": "message.delta", "content": " Because"}}
+{"elapsed_seconds": 13.528917566000018, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 13.550328999001067, "event": {"type": "message.delta", "content": " garrison"}}
+{"elapsed_seconds": 13.572164850000263, "event": {"type": "message.delta", "content": " had"}}
+{"elapsed_seconds": 13.593195026001922, "event": {"type": "message.delta", "content": " been"}}
+{"elapsed_seconds": 13.614618379000603, "event": {"type": "message.delta", "content": " sent"}}
+{"elapsed_seconds": 13.637320939000347, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 13.657742987001257, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 13.678929219000565, "event": {"type": "message.delta", "content": " Persian"}}
+{"elapsed_seconds": 13.70149818400023, "event": {"type": "message.delta", "content": " War"}}
+{"elapsed_seconds": 13.722108960002515, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 13.743354485002783, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 13.76513442400028, "event": {"type": "message.delta", "content": " city"}}
+{"elapsed_seconds": 13.786791188002098, "event": {"type": "message.delta", "content": " was"}}
+{"elapsed_seconds": 13.809282959002303, "event": {"type": "message.delta", "content": " nearly"}}
+{"elapsed_seconds": 13.82996939900113, "event": {"type": "message.delta", "content": " empty"}}
+{"elapsed_seconds": 13.85069336000015, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 13.871778058000928, "event": {"type": "message.delta", "content": " troops"}}
+{"elapsed_seconds": 13.892678957003227, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 13.913805027001217, "event": {"type": "message.delta", "content": " leaving"}}
+{"elapsed_seconds": 13.936476986000343, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 13.957341714001814, "event": {"type": "message.delta", "content": " Emperor"}}
+{"elapsed_seconds": 13.980086426003254, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 14.001619024002139, "event": {"type": "message.delta", "content": " rely"}}
+{"elapsed_seconds": 14.023389943002257, "event": {"type": "message.delta", "content": " on"}}
+{"elapsed_seconds": 14.043756648003182, "event": {"type": "message.delta", "content": " only"}}
+{"elapsed_seconds": 14.06802656900254, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 14.090443476001383, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 14.111832588001562, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 14.13218129300003, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 14.153316403000645, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 14.174824219000584, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 14.196054684001865, "event": {"type": "message.delta", "content": " Imperial"}}
+{"elapsed_seconds": 14.217310389001796, "event": {"type": "message.delta", "content": " Guards"}}
+{"elapsed_seconds": 14.239578370001254, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 14.261035814000934, "event": {"type": "message.delta", "content": " some"}}
+{"elapsed_seconds": 14.282623895000143, "event": {"type": "message.delta", "content": " German"}}
+{"elapsed_seconds": 14.303016921003291, "event": {"type": "message.delta", "content": " auxili"}}
+{"elapsed_seconds": 14.324270157001592, "event": {"type": "message.delta", "content": "aries"}}
+{"elapsed_seconds": 14.346492926000792, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 14.368430052003532, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 14.389380153003003, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 14.411093990001973, "event": {"type": "message.delta", "content": " regiment"}}
+{"elapsed_seconds": 14.432016310001927, "event": {"type": "message.delta", "content": " ["}}
+{"elapsed_seconds": 14.453299367, "event": {"type": "message.delta", "content": "p"}}
+{"elapsed_seconds": 14.474616305000382, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 14.495827698003268, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 14.516993569002807, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 14.53837409100015, "event": {"type": "message.delta", "content": "0"}}
+{"elapsed_seconds": 14.559418437002023, "event": {"type": "message.delta", "content": "2"}}
+{"elapsed_seconds": 14.582076435002818, "event": {"type": "message.delta", "content": "]."}}
+{"elapsed_seconds": 14.604935032002686, "event": {"type": "message.end"}}
+{"elapsed_seconds": 14.605030227001407, "event": {"type": "chat.end", "result": {"model_instance_id": "evo-amd-gemma26-vulkan", "output": [{"type": "message", "content": "Following the death of Theodora, Antonina and her husband lost imperial favor, experiencing a misfortune in their declining years similar to that of the Marlboroughs [p. 101]. \n\nThe year 532, which marked the end of the Persian War, also saw the rise of a significant danger to the Emperor\u2019s power: the \"Blues\" and \"Greens\" [p. 101]. While these groups originated as circus factions, they had grown into political parties that interfered in politics and religious controversies [p. 101]. By 530, being a \"Green\" implied being a Monophysite and a partisan of the late Emperor Anastasius, whereas the \"Blues\" posed as orthodox partisans of the house of Justinus [p. 101]. The author notes that these groups retained \"low sporting origin\" and were dominated by \"rougher elements\" prone to mischief [p. 101].\n\nIn January 532, serious rioting broke out. Although Justinian typically favored the Blues, he ordered the execution of leaders from both factions [p. 101]. After four rioters were beheaded before a mob at the monastery of St. Conon, an attempt to hang three others failed twice due to the bungling of the executioners and the menaces of the crowd [p. 102]. The criminals eventually sought sanctuary in the monastery, an incident that triggered six days of desperate rioting [p. 102].\n\nDuring this period, the Blues and Greens united under the watchword *\"Nika!\"* (\"conquer\") [p. 102]. The mob demanded the deposition of the unpopular finance minister, John of Cappadocia, and the city prefect, Eudemius [p. 102]. Justinian, described as \"weak enough\" to promise the dismissal of these officials, found the mob refused to disperse [p. 102]. The unrest was further fomented by partisans of the late emperor who sought to replace Justinian with Hypatius, the nephew of Anastasius [p. 102]. Because the garrison had been sent to the Persian War, the city was nearly empty of troops, leaving the Emperor to rely on only 4,000 Imperial Guards, some German auxiliaries, and a regiment [p. 102]."}], "stats": {"input_tokens": 1067, "total_output_tokens": 496, "reasoning_output_tokens": 0, "tokens_per_second": 46.25812425829303, "time_to_first_token_seconds": 2.619411}}}}

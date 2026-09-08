@@ -1,0 +1,60 @@
+{
+  "variant": "no-op-offload",
+  "kind": "long",
+  "trial": 1,
+  "wall_seconds": 34.51724257499882,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The 120-word summary of the 1 200-word text is as follows:\n\nThe text is a 120-word summary of the 1200-word text. It provides a concise overview of the 1200-word text, highlighting the main points and key ideas. It includes the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 120"
+        }
+      }
+    ],
+    "created": 1788858056,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 15819,
+      "total_tokens": 16331,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-1DF1J6MJA92rca9Sf08nvyZ0JTxyLOIM",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 15819,
+      "prompt_ms": 17215.278,
+      "prompt_per_token_ms": 1.0882658827991654,
+      "prompt_per_second": 918.8930901958133,
+      "predicted_n": 512,
+      "predicted_ms": 17276.322,
+      "predicted_per_token_ms": 33.80884931506849,
+      "predicted_per_second": 29.57805486607624
+    }
+  },
+  "output": "The 120-word summary of the 1 200-word text is as follows:\n\nThe text is a 120-word summary of the 1200-word text. It provides a concise overview of the 1200-word text, highlighting the main points and key ideas. It includes the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 1200-word text, the 120",
+  "record_codes_correct": false,
+  "capped": true,
+  "peak_metrics": {
+    "runtime_total_pss_bytes": 1250777088,
+    "card1_gtt_used_bytes": 138469376,
+    "swap_used_bytes": 3832774656,
+    "cpu_percent": 6.9,
+    "runtime_largest_process_rss_bytes": 855781376,
+    "card1_vram_used_bytes": 11950907392,
+    "card1_gtt_total_bytes": 16360861696,
+    "llama_server_process_count": 1,
+    "system_used_excluding_available_bytes": 5330391040,
+    "system_available_bytes": 27431628800,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

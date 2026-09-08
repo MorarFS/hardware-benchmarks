@@ -1,0 +1,76 @@
+{
+  "wall_seconds": 1.0745473790011602,
+  "requested": {
+    "contextLength": 32768,
+    "gpu": {
+      "ratio": 1.0
+    },
+    "offloadKVCacheToGpu": true,
+    "evalBatchSize": 512,
+    "flashAttention": true,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16",
+    "seed": 42
+  },
+  "sdk_config": {
+    "gpu": {
+      "ratio": 1.0,
+      "splitStrategy": "evenly",
+      "disabledGpus": []
+    },
+    "offloadKVCacheToGpu": true,
+    "contextLength": 32768,
+    "evalBatchSize": 512,
+    "flashAttention": true,
+    "seed": 42,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16"
+  },
+  "native_config": {
+    "id": "evo-amd-qwen8-rocm",
+    "config": {
+      "context_length": 32768,
+      "eval_batch_size": 512,
+      "physical_batch_size": 512,
+      "parallel": 4,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": false,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "libraries": [
+    {
+      "pid": 109446,
+      "libraries": [
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml-base.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml-cpu.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml-hip.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml_llamacpp.so",
+        "<LM_STUDIO_HOME>/extensions/backends/vendor/linux-llama-rocm-vendor-v4/libamdhip64.so.7.2.70204",
+        "<LM_STUDIO_HOME>/extensions/backends/vendor/linux-llama-rocm-vendor-v4/librocblas.so.5.2.70204"
+      ]
+    }
+  ],
+  "peak_metrics": {
+    "system_available_bytes": 28096630784,
+    "system_used_excluding_available_bytes": 4625092608,
+    "card1_gtt_used_bytes": 132083712,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 413405184,
+    "swap_used_bytes": 3853676544,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 0.0,
+    "runtime_total_pss_bytes": 410337280,
+    "llama_server_process_count": 0,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 1917321216
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "variant": "baseline",
+  "kind": "tiny",
+  "trial": 1,
+  "wall_seconds": 3.266687568000634,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "CEDAR-47 and LARCH-92 are the two record codes provided. The first record, CEDAR-47, references an event involving seven people, two of whom survived a hanging and entered sanctuary. The second record, LARCH-92, provides a shelf code, but no additional context is given. The source does not elaborate on the connection between the two records or the nature of the sanctuary. The information is limited to what is explicitly stated, with no further details or citations to physical pages in the provided source. The summary is based solely on the given text, with no assumptions made beyond the stated facts."
+        }
+      }
+    ],
+    "created": 1788857782,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 132,
+      "total_tokens": 263,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-XAdQyNNydI7UYCy2a0AV27XwhajLBUCe",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 132,
+      "prompt_ms": 144.456,
+      "prompt_per_token_ms": 1.0943636363636362,
+      "prompt_per_second": 913.7730520019937,
+      "predicted_n": 131,
+      "predicted_ms": 3115.722,
+      "predicted_per_token_ms": 23.967092307692308,
+      "predicted_per_second": 41.723876520434104
+    }
+  },
+  "output": "CEDAR-47 and LARCH-92 are the two record codes provided. The first record, CEDAR-47, references an event involving seven people, two of whom survived a hanging and entered sanctuary. The second record, LARCH-92, provides a shelf code, but no additional context is given. The source does not elaborate on the connection between the two records or the nature of the sanctuary. The information is limited to what is explicitly stated, with no further details or citations to physical pages in the provided source. The summary is based solely on the given text, with no assumptions made beyond the stated facts.",
+  "record_codes_correct": true,
+  "capped": false,
+  "peak_metrics": {
+    "card1_gtt_used_bytes": 138469376,
+    "system_used_excluding_available_bytes": 5265326080,
+    "runtime_total_pss_bytes": 1216262144,
+    "card1_vram_total_bytes": 103079215104,
+    "system_available_bytes": 27468361728,
+    "runtime_largest_process_rss_bytes": 821284864,
+    "swap_used_bytes": 3843018752,
+    "cpu_percent": 6.7,
+    "system_total_bytes": 32721723392,
+    "card1_vram_used_bytes": 11773730816,
+    "card1_gtt_total_bytes": 16360861696,
+    "llama_server_process_count": 1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

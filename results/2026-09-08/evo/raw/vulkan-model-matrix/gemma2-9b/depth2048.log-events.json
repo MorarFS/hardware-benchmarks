@@ -1,0 +1,6262 @@
+[
+  {
+    "elapsed_seconds": 0.006155904997285688,
+    "line": "load_backend: loaded RPC backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-rpc.so"
+  },
+  {
+    "elapsed_seconds": 0.03603969299729215,
+    "line": "ggml_vulkan: Found 1 Vulkan devices:"
+  },
+  {
+    "elapsed_seconds": 0.03607494400057476,
+    "line": "ggml_vulkan: 0 = Radeon 8060S Graphics (RADV STRIX_HALO) (radv) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 1 | matrix cores: KHR_coopmat"
+  },
+  {
+    "elapsed_seconds": 0.03607968500000425,
+    "line": "load_backend: loaded Vulkan backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-vulkan.so"
+  },
+  {
+    "elapsed_seconds": 0.04046240900061093,
+    "line": "load_backend: loaded CPU backend from <BENCHMARK_ROOT>/upstream-b10852/vulkan/llama-b10852/libggml-cpu-zen4.so"
+  },
+  {
+    "elapsed_seconds": 0.04085100899828831,
+    "line": "llama-bench: benchmark 1/1: starting"
+  },
+  {
+    "elapsed_seconds": 0.07023199999821372,
+    "line": "llama_model_loader: loaded meta data with 33 key-value pairs and 464 tensors from <LM_STUDIO_HOME>/models/bartowski/gemma-2-9b-it-GGUF/gemma-2-9b-it-Q4_K_M.gguf (version GGUF V3 (latest))"
+  },
+  {
+    "elapsed_seconds": 0.07023613099954673,
+    "line": "llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output."
+  },
+  {
+    "elapsed_seconds": 0.07024242099942057,
+    "line": "llama_model_loader: - kv   0:                       general.architecture str              = gemma2"
+  },
+  {
+    "elapsed_seconds": 0.07024465100039379,
+    "line": "llama_model_loader: - kv   1:                               general.name str              = gemma-2-9b-it"
+  },
+  {
+    "elapsed_seconds": 0.07024653099870193,
+    "line": "llama_model_loader: - kv   2:                      gemma2.context_length u32              = 8192"
+  },
+  {
+    "elapsed_seconds": 0.07024856099815224,
+    "line": "llama_model_loader: - kv   3:                    gemma2.embedding_length u32              = 3584"
+  },
+  {
+    "elapsed_seconds": 0.07025034099933691,
+    "line": "llama_model_loader: - kv   4:                         gemma2.block_count u32              = 42"
+  },
+  {
+    "elapsed_seconds": 0.07025217099726433,
+    "line": "llama_model_loader: - kv   5:                 gemma2.feed_forward_length u32              = 14336"
+  },
+  {
+    "elapsed_seconds": 0.0702540019992739,
+    "line": "llama_model_loader: - kv   6:                gemma2.attention.head_count u32              = 16"
+  },
+  {
+    "elapsed_seconds": 0.07025588199758204,
+    "line": "llama_model_loader: - kv   7:             gemma2.attention.head_count_kv u32              = 8"
+  },
+  {
+    "elapsed_seconds": 0.07025764199715923,
+    "line": "llama_model_loader: - kv   8:    gemma2.attention.layer_norm_rms_epsilon f32              = 0.000001"
+  },
+  {
+    "elapsed_seconds": 0.07025996199809015,
+    "line": "llama_model_loader: - kv   9:                gemma2.attention.key_length u32              = 256"
+  },
+  {
+    "elapsed_seconds": 0.07026186199800577,
+    "line": "llama_model_loader: - kv  10:              gemma2.attention.value_length u32              = 256"
+  },
+  {
+    "elapsed_seconds": 0.07026372199834441,
+    "line": "llama_model_loader: - kv  11:                          general.file_type u32              = 15"
+  },
+  {
+    "elapsed_seconds": 0.0702682819974143,
+    "line": "llama_model_loader: - kv  12:              gemma2.attn_logit_softcapping f32              = 50.000000"
+  },
+  {
+    "elapsed_seconds": 0.07027025199931813,
+    "line": "llama_model_loader: - kv  13:             gemma2.final_logit_softcapping f32              = 30.000000"
+  },
+  {
+    "elapsed_seconds": 0.07027214299887419,
+    "line": "llama_model_loader: - kv  14:            gemma2.attention.sliding_window u32              = 4096"
+  },
+  {
+    "elapsed_seconds": 0.07027376299811294,
+    "line": "llama_model_loader: - kv  15:                       tokenizer.ggml.model str              = llama"
+  },
+  {
+    "elapsed_seconds": 0.07027546300014365,
+    "line": "llama_model_loader: - kv  16:                         tokenizer.ggml.pre str              = default"
+  },
+  {
+    "elapsed_seconds": 0.09013917799893534,
+    "line": "llama_model_loader: - kv  17:                      tokenizer.ggml.tokens arr[str,256000]  = [\"<pad>\", \"<eos>\", \"<bos>\", \"<unk>\", ..."
+  },
+  {
+    "elapsed_seconds": 0.13647732699973858,
+    "line": "llama_model_loader: - kv  18:                      tokenizer.ggml.scores arr[f32,256000]  = [-1000.000000, -1000.000000, -1000.00..."
+  },
+  {
+    "elapsed_seconds": 0.14138477799860993,
+    "line": "llama_model_loader: - kv  19:                  tokenizer.ggml.token_type arr[i32,256000]  = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, ..."
+  },
+  {
+    "elapsed_seconds": 0.14138779799759504,
+    "line": "llama_model_loader: - kv  20:                tokenizer.ggml.bos_token_id u32              = 2"
+  },
+  {
+    "elapsed_seconds": 0.14138965799793368,
+    "line": "llama_model_loader: - kv  21:                tokenizer.ggml.eos_token_id u32              = 1"
+  },
+  {
+    "elapsed_seconds": 0.14139156799865304,
+    "line": "llama_model_loader: - kv  22:            tokenizer.ggml.unknown_token_id u32              = 3"
+  },
+  {
+    "elapsed_seconds": 0.1413934079973842,
+    "line": "llama_model_loader: - kv  23:            tokenizer.ggml.padding_token_id u32              = 0"
+  },
+  {
+    "elapsed_seconds": 0.14139506799983792,
+    "line": "llama_model_loader: - kv  24:               tokenizer.ggml.add_bos_token bool             = true"
+  },
+  {
+    "elapsed_seconds": 0.14139694799814606,
+    "line": "llama_model_loader: - kv  25:               tokenizer.ggml.add_eos_token bool             = false"
+  },
+  {
+    "elapsed_seconds": 0.14139894799882313,
+    "line": "llama_model_loader: - kv  26:                    tokenizer.chat_template str              = {{ bos_token }}{% if messages[0]['rol..."
+  },
+  {
+    "elapsed_seconds": 0.14140055799725815,
+    "line": "llama_model_loader: - kv  27:            tokenizer.ggml.add_space_prefix bool             = false"
+  },
+  {
+    "elapsed_seconds": 0.14140218899774482,
+    "line": "llama_model_loader: - kv  28:               general.quantization_version u32              = 2"
+  },
+  {
+    "elapsed_seconds": 0.1414041889984219,
+    "line": "llama_model_loader: - kv  29:                      quantize.imatrix.file str              = /models_out/gemma-2-9b-it-GGUF/gemma-..."
+  },
+  {
+    "elapsed_seconds": 0.14141479899990372,
+    "line": "llama_model_loader: - kv  30:                   quantize.imatrix.dataset str              = /training_dir/calibration_datav3.txt"
+  },
+  {
+    "elapsed_seconds": 0.1414167789989733,
+    "line": "llama_model_loader: - kv  31:             quantize.imatrix.entries_count i32              = 294"
+  },
+  {
+    "elapsed_seconds": 0.14141912899867748,
+    "line": "llama_model_loader: - kv  32:              quantize.imatrix.chunks_count i32              = 128"
+  },
+  {
+    "elapsed_seconds": 0.14142134999929112,
+    "line": "llama_model_loader: - type  f32:  169 tensors"
+  },
+  {
+    "elapsed_seconds": 0.14142322999759926,
+    "line": "llama_model_loader: - type q4_K:  252 tensors"
+  },
+  {
+    "elapsed_seconds": 0.14142509999874164,
+    "line": "llama_model_loader: - type q6_K:   43 tensors"
+  },
+  {
+    "elapsed_seconds": 0.14142698999785352,
+    "line": "print_info: file format = GGUF V3 (latest)"
+  },
+  {
+    "elapsed_seconds": 0.1414287699990382,
+    "line": "print_info: file type   = Q4_K - Medium"
+  },
+  {
+    "elapsed_seconds": 0.14143076999971527,
+    "line": "print_info: file size   = 5.36 GiB (4.98 BPW)"
+  },
+  {
+    "elapsed_seconds": 0.14153993599757086,
+    "line": "llama_prepare_model_devices: using device Vulkan0 (Radeon 8060S Graphics (RADV STRIX_HALO)) (0000:66:00.0) - 111956 MiB free"
+  },
+  {
+    "elapsed_seconds": 0.17702674999964074,
+    "line": "init_tokenizer: initializing tokenizer for type 1"
+  },
+  {
+    "elapsed_seconds": 0.2386058869997214,
+    "line": "load: 99 unused tokens"
+  },
+  {
+    "elapsed_seconds": 0.2555663139974058,
+    "line": "load: control-looking token:    213 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden"
+  },
+  {
+    "elapsed_seconds": 0.25587545999951544,
+    "line": "load: control token:    106 '<start_of_turn>' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.2566940420001629,
+    "line": "load: control token:      5 '<2mass>' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.2575446849987202,
+    "line": "load: control token:      2 '<bos>' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.2597944400004053,
+    "line": "load: control token:      6 '[@BOS@]' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.26038623099884717,
+    "line": "load: control token:      0 '<pad>' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.26394129199979943,
+    "line": "load: control token:      3 '<unk>' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.2746299389982596,
+    "line": "load: control token:      4 '<mask>' is not marked as EOG"
+  },
+  {
+    "elapsed_seconds": 0.2943977789982455,
+    "line": "load: printing all EOG tokens:"
+  },
+  {
+    "elapsed_seconds": 0.2944010889987112,
+    "line": "load:   - 1 ('<eos>')"
+  },
+  {
+    "elapsed_seconds": 0.2944034499996633,
+    "line": "load:   - 107 ('<end_of_turn>')"
+  },
+  {
+    "elapsed_seconds": 0.29440550999788684,
+    "line": "load:   - 213 ('</s>')"
+  },
+  {
+    "elapsed_seconds": 0.29460516999824904,
+    "line": "load: special tokens cache size = 217"
+  },
+  {
+    "elapsed_seconds": 0.3106154479974066,
+    "line": "load: token to piece cache size = 1.6014 MB"
+  },
+  {
+    "elapsed_seconds": 0.31062238899903605,
+    "line": "print_info: arch                  = gemma2"
+  },
+  {
+    "elapsed_seconds": 0.3106260089989519,
+    "line": "print_info: vocab_only            = 0"
+  },
+  {
+    "elapsed_seconds": 0.3106282189983176,
+    "line": "print_info: no_alloc              = 0"
+  },
+  {
+    "elapsed_seconds": 0.3106300689978525,
+    "line": "print_info: n_ctx_train           = 8192"
+  },
+  {
+    "elapsed_seconds": 0.3106320789993333,
+    "line": "print_info: n_embd_inp            = 3584"
+  },
+  {
+    "elapsed_seconds": 0.31063390899726073,
+    "line": "print_info: n_embd                = 3584"
+  },
+  {
+    "elapsed_seconds": 0.31063604899827624,
+    "line": "print_info: n_embd_out            = 3584"
+  },
+  {
+    "elapsed_seconds": 0.3106380289973458,
+    "line": "print_info: n_layer               = 42"
+  },
+  {
+    "elapsed_seconds": 0.3106399699972826,
+    "line": "print_info: n_layer_all           = 42"
+  },
+  {
+    "elapsed_seconds": 0.31065368999770726,
+    "line": "print_info: n_head                = 16"
+  },
+  {
+    "elapsed_seconds": 0.31065586999829975,
+    "line": "print_info: n_head_kv             = 8"
+  },
+  {
+    "elapsed_seconds": 0.31065804999889224,
+    "line": "print_info: n_rot                 = 256"
+  },
+  {
+    "elapsed_seconds": 0.31066009099959047,
+    "line": "print_info: n_swa                 = 4096"
+  },
+  {
+    "elapsed_seconds": 0.3106662509999296,
+    "line": "print_info: is_swa_any            = 1"
+  },
+  {
+    "elapsed_seconds": 0.3106684909980686,
+    "line": "print_info: non_causal_type       = 0"
+  },
+  {
+    "elapsed_seconds": 0.3106704709971382,
+    "line": "print_info: n_embd_head_k         = 256"
+  },
+  {
+    "elapsed_seconds": 0.3106727909980691,
+    "line": "print_info: n_embd_head_v         = 256"
+  },
+  {
+    "elapsed_seconds": 0.3106751009981963,
+    "line": "print_info: n_gqa                 = 2"
+  },
+  {
+    "elapsed_seconds": 0.31067712100048084,
+    "line": "print_info: n_embd_k_gqa          = 2048"
+  },
+  {
+    "elapsed_seconds": 0.31067939199783723,
+    "line": "print_info: n_embd_v_gqa          = 2048"
+  },
+  {
+    "elapsed_seconds": 0.3106827219999104,
+    "line": "print_info: f_norm_eps            = 0.0e+00"
+  },
+  {
+    "elapsed_seconds": 0.3106875819976267,
+    "line": "print_info: f_norm_rms_eps        = 1.0e-06"
+  },
+  {
+    "elapsed_seconds": 0.3106897719990229,
+    "line": "print_info: f_clamp_kqv           = 0.0e+00"
+  },
+  {
+    "elapsed_seconds": 0.3106917519980925,
+    "line": "print_info: f_max_alibi_bias      = 0.0e+00"
+  },
+  {
+    "elapsed_seconds": 0.3106937619995733,
+    "line": "print_info: f_logit_scale         = 0.0e+00"
+  },
+  {
+    "elapsed_seconds": 0.3106958219977969,
+    "line": "print_info: f_attn_scale          = 6.2e-02"
+  },
+  {
+    "elapsed_seconds": 0.31069793200003915,
+    "line": "print_info: f_attn_value_scale    = 0.0000"
+  },
+  {
+    "elapsed_seconds": 0.31069996299993363,
+    "line": "print_info: n_ff                  = 14336"
+  },
+  {
+    "elapsed_seconds": 0.3107018029986648,
+    "line": "print_info: n_expert              = 0"
+  },
+  {
+    "elapsed_seconds": 0.3107042730007379,
+    "line": "print_info: n_expert_used         = 0"
+  },
+  {
+    "elapsed_seconds": 0.31070620299942675,
+    "line": "print_info: n_expert_groups       = 0"
+  },
+  {
+    "elapsed_seconds": 0.31070803299735417,
+    "line": "print_info: n_group_used          = 0"
+  },
+  {
+    "elapsed_seconds": 0.310710042998835,
+    "line": "print_info: causal attn           = 1"
+  },
+  {
+    "elapsed_seconds": 0.3107117629988352,
+    "line": "print_info: pooling type          = -1"
+  },
+  {
+    "elapsed_seconds": 0.3107137429979048,
+    "line": "print_info: rope type             = 2"
+  },
+  {
+    "elapsed_seconds": 0.3107156629994279,
+    "line": "print_info: rope scaling          = linear"
+  },
+  {
+    "elapsed_seconds": 0.3107176739977149,
+    "line": "print_info: freq_base_train       = 10000.0"
+  },
+  {
+    "elapsed_seconds": 0.3107196040000417,
+    "line": "print_info: freq_scale_train      = 1"
+  },
+  {
+    "elapsed_seconds": 0.31072161399788456,
+    "line": "print_info: freq_base_swa         = 10000.0"
+  },
+  {
+    "elapsed_seconds": 0.31072355399737717,
+    "line": "print_info: freq_scale_swa        = 1"
+  },
+  {
+    "elapsed_seconds": 0.310725444000127,
+    "line": "print_info: n_embd_head_k_swa     = 256"
+  },
+  {
+    "elapsed_seconds": 0.31072747399957734,
+    "line": "print_info: n_embd_head_v_swa     = 256"
+  },
+  {
+    "elapsed_seconds": 0.3107296839989431,
+    "line": "print_info: n_rot_swa             = 256"
+  },
+  {
+    "elapsed_seconds": 0.31073161399763194,
+    "line": "print_info: n_ctx_orig_yarn       = 8192"
+  },
+  {
+    "elapsed_seconds": 0.31073340399962035,
+    "line": "print_info: rope_yarn_log_mul     = 0.0000"
+  },
+  {
+    "elapsed_seconds": 0.3107363939998322,
+    "line": "print_info: rope_finetuned        = unknown"
+  },
+  {
+    "elapsed_seconds": 0.3107385149996844,
+    "line": "print_info: model type            = 9B"
+  },
+  {
+    "elapsed_seconds": 0.31074035499841557,
+    "line": "print_info: model params          = 9.24 B"
+  },
+  {
+    "elapsed_seconds": 0.3107424949994311,
+    "line": "print_info: general.name          = gemma-2-9b-it"
+  },
+  {
+    "elapsed_seconds": 0.31074440500015044,
+    "line": "print_info: vocab type            = SPM"
+  },
+  {
+    "elapsed_seconds": 0.3107465949979087,
+    "line": "print_info: n_vocab               = 256000"
+  },
+  {
+    "elapsed_seconds": 0.3107484949978243,
+    "line": "print_info: n_merges              = 0"
+  },
+  {
+    "elapsed_seconds": 0.3107534249975288,
+    "line": "print_info: BOS token             = 2 '<bos>'"
+  },
+  {
+    "elapsed_seconds": 0.3107552149995172,
+    "line": "print_info: EOS token             = 1 '<eos>'"
+  },
+  {
+    "elapsed_seconds": 0.31075715599945397,
+    "line": "print_info: EOT token             = 107 '<end_of_turn>'"
+  },
+  {
+    "elapsed_seconds": 0.3107588559978467,
+    "line": "print_info: UNK token             = 3 '<unk>'"
+  },
+  {
+    "elapsed_seconds": 0.3107606159974239,
+    "line": "print_info: PAD token             = 0 '<pad>'"
+  },
+  {
+    "elapsed_seconds": 0.31076243599818554,
+    "line": "print_info: LF token              = 227 '<0x0A>'"
+  },
+  {
+    "elapsed_seconds": 0.310764145997382,
+    "line": "print_info: EOG token             = 1 '<eos>'"
+  },
+  {
+    "elapsed_seconds": 0.31076574599865125,
+    "line": "print_info: EOG token             = 107 '<end_of_turn>'"
+  },
+  {
+    "elapsed_seconds": 0.31076748600025894,
+    "line": "print_info: EOG token             = 213 '</s>'"
+  },
+  {
+    "elapsed_seconds": 0.3107692759986094,
+    "line": "print_info: max token length      = 48"
+  },
+  {
+    "elapsed_seconds": 0.31093423499987694,
+    "line": "load_tensors: loading model tensors, this can take a while... (load_mode = none)"
+  },
+  {
+    "elapsed_seconds": 0.31288677399788867,
+    "line": "load_tensors: layer   0 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31288835399755044,
+    "line": "load_tensors: layer   1 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3128900749979948,
+    "line": "load_tensors: layer   2 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31289142499736045,
+    "line": "load_tensors: layer   3 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3128926949975721,
+    "line": "load_tensors: layer   4 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3128941350005334,
+    "line": "load_tensors: layer   5 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.312895564999053,
+    "line": "load_tensors: layer   6 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3128965350006183,
+    "line": "load_tensors: layer   7 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31289772499803803,
+    "line": "load_tensors: layer   8 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3128988850003225,
+    "line": "load_tensors: layer   9 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31290017499850364,
+    "line": "load_tensors: layer  10 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129014249971078,
+    "line": "load_tensors: layer  11 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31290257499858853,
+    "line": "load_tensors: layer  12 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129039749983349,
+    "line": "load_tensors: layer  13 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31290522500057705,
+    "line": "load_tensors: layer  14 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31290623499808135,
+    "line": "load_tensors: layer  15 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31290764499863144,
+    "line": "load_tensors: layer  16 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31290868499854696,
+    "line": "load_tensors: layer  17 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3129100059995835,
+    "line": "load_tensors: layer  18 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129110560003028,
+    "line": "load_tensors: layer  19 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31291256599797634,
+    "line": "load_tensors: layer  20 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129136860006838,
+    "line": "load_tensors: layer  21 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3129146959981881,
+    "line": "load_tensors: layer  22 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31291853599759634,
+    "line": "load_tensors: layer  23 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3129195459987386,
+    "line": "load_tensors: layer  24 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129207059973851,
+    "line": "load_tensors: layer  25 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31292180599848507,
+    "line": "load_tensors: layer  26 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.312923025998316,
+    "line": "load_tensors: layer  27 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.312924165998993,
+    "line": "load_tensors: layer  28 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31292552599916235,
+    "line": "load_tensors: layer  29 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31292676600060076,
+    "line": "load_tensors: layer  30 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31292788599967025,
+    "line": "load_tensors: layer  31 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31292891599878203,
+    "line": "load_tensors: layer  32 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129300670007069,
+    "line": "load_tensors: layer  33 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31293106699740747,
+    "line": "load_tensors: layer  34 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129322269996919,
+    "line": "load_tensors: layer  35 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3129334069999459,
+    "line": "load_tensors: layer  36 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129344070002844,
+    "line": "load_tensors: layer  37 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.3129355669989309,
+    "line": "load_tensors: layer  38 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.31293674699918483,
+    "line": "load_tensors: layer  39 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31293804699816974,
+    "line": "load_tensors: layer  40 assigned to device Vulkan0, is_swa = 1"
+  },
+  {
+    "elapsed_seconds": 0.3129394069983391,
+    "line": "load_tensors: layer  41 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31294047700066585,
+    "line": "load_tensors: layer  42 assigned to device Vulkan0, is_swa = 0"
+  },
+  {
+    "elapsed_seconds": 0.31294329699812806,
+    "line": "create_tensor: loading tensor token_embd.weight"
+  },
+  {
+    "elapsed_seconds": 0.31296760799887124,
+    "line": "create_tensor: loading tensor output_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3129687489999924,
+    "line": "create_tensor: loading tensor token_embd.weight"
+  },
+  {
+    "elapsed_seconds": 0.31297131899918895,
+    "line": "create_tensor: loading tensor blk.0.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31297999899834394,
+    "line": "create_tensor: loading tensor blk.0.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3129821990005439,
+    "line": "create_tensor: loading tensor blk.0.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3129844889990636,
+    "line": "create_tensor: loading tensor blk.0.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31298621899986756,
+    "line": "create_tensor: loading tensor blk.0.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3129879099979007,
+    "line": "create_tensor: loading tensor blk.0.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31299000999933924,
+    "line": "create_tensor: loading tensor blk.0.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.312992099999974,
+    "line": "create_tensor: loading tensor blk.0.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31299410999781685,
+    "line": "create_tensor: loading tensor blk.0.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3129959299985785,
+    "line": "create_tensor: loading tensor blk.0.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130005299972254,
+    "line": "create_tensor: loading tensor blk.0.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31300247999752173,
+    "line": "create_tensor: loading tensor blk.0.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130177309976716,
+    "line": "create_tensor: loading tensor blk.0.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130192909993639,
+    "line": "create_tensor: loading tensor blk.0.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130204609988141,
+    "line": "create_tensor: loading tensor blk.0.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31302160099949106,
+    "line": "create_tensor: loading tensor blk.1.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130226709981798,
+    "line": "create_tensor: loading tensor blk.1.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130259909994493,
+    "line": "create_tensor: loading tensor blk.1.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130270119982015,
+    "line": "create_tensor: loading tensor blk.1.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130281119993015,
+    "line": "create_tensor: loading tensor blk.1.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31302912200044375,
+    "line": "create_tensor: loading tensor blk.1.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31303216199739836,
+    "line": "create_tensor: loading tensor blk.1.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.313035552000656,
+    "line": "create_tensor: loading tensor blk.1.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3130366419973143,
+    "line": "create_tensor: loading tensor blk.1.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130378120004025,
+    "line": "create_tensor: loading tensor blk.1.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130401519993029,
+    "line": "create_tensor: loading tensor blk.1.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130412919999799,
+    "line": "create_tensor: loading tensor blk.1.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130424419978226,
+    "line": "create_tensor: loading tensor blk.1.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31304364199968404,
+    "line": "create_tensor: loading tensor blk.1.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31304655299754813,
+    "line": "create_tensor: loading tensor blk.1.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130477630002133,
+    "line": "create_tensor: loading tensor blk.2.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31304891299805604,
+    "line": "create_tensor: loading tensor blk.2.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31305160299962154,
+    "line": "create_tensor: loading tensor blk.2.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130526229979296,
+    "line": "create_tensor: loading tensor blk.2.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31305475299814134,
+    "line": "create_tensor: loading tensor blk.2.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130556329997489,
+    "line": "create_tensor: loading tensor blk.2.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31305766299919924,
+    "line": "create_tensor: loading tensor blk.2.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31305843299924163,
+    "line": "create_tensor: loading tensor blk.2.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3130606029990304,
+    "line": "create_tensor: loading tensor blk.2.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31306161300017266,
+    "line": "create_tensor: loading tensor blk.2.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31306403299822705,
+    "line": "create_tensor: loading tensor blk.2.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31306595299975015,
+    "line": "create_tensor: loading tensor blk.2.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130676239998138,
+    "line": "create_tensor: loading tensor blk.2.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31306950399812195,
+    "line": "create_tensor: loading tensor blk.2.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130712839993066,
+    "line": "create_tensor: loading tensor blk.2.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31307338399710716,
+    "line": "create_tensor: loading tensor blk.3.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130782839980384,
+    "line": "create_tensor: loading tensor blk.3.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130794739990961,
+    "line": "create_tensor: loading tensor blk.3.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31308143400019617,
+    "line": "create_tensor: loading tensor blk.3.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130830939990119,
+    "line": "create_tensor: loading tensor blk.3.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130849640001543,
+    "line": "create_tensor: loading tensor blk.3.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31308692499806057,
+    "line": "create_tensor: loading tensor blk.3.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3130880149983568,
+    "line": "create_tensor: loading tensor blk.3.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3130903050005145,
+    "line": "create_tensor: loading tensor blk.3.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31309119499928784,
+    "line": "create_tensor: loading tensor blk.3.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3130931449995842,
+    "line": "create_tensor: loading tensor blk.3.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31309503499869606,
+    "line": "create_tensor: loading tensor blk.3.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31309862499983865,
+    "line": "create_tensor: loading tensor blk.3.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31310031499742763,
+    "line": "create_tensor: loading tensor blk.3.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31310217499776627,
+    "line": "create_tensor: loading tensor blk.3.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31310415500047384,
+    "line": "create_tensor: loading tensor blk.4.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31310561599821085,
+    "line": "create_tensor: loading tensor blk.4.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131096659999457,
+    "line": "create_tensor: loading tensor blk.4.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131113359995652,
+    "line": "create_tensor: loading tensor blk.4.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31311310599994613,
+    "line": "create_tensor: loading tensor blk.4.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131145560000732,
+    "line": "create_tensor: loading tensor blk.4.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3131165759987198,
+    "line": "create_tensor: loading tensor blk.4.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31311833599829697,
+    "line": "create_tensor: loading tensor blk.4.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31312009599787416,
+    "line": "create_tensor: loading tensor blk.4.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131219959977898,
+    "line": "create_tensor: loading tensor blk.4.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131242759991437,
+    "line": "create_tensor: loading tensor blk.4.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131258469984459,
+    "line": "create_tensor: loading tensor blk.4.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131278670007305,
+    "line": "create_tensor: loading tensor blk.4.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31312957699992694,
+    "line": "create_tensor: loading tensor blk.4.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31313136699827737,
+    "line": "create_tensor: loading tensor blk.4.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31313310699988506,
+    "line": "create_tensor: loading tensor blk.5.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131556480002473,
+    "line": "create_tensor: loading tensor blk.5.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31315675799851306,
+    "line": "create_tensor: loading tensor blk.5.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31315770799847087,
+    "line": "create_tensor: loading tensor blk.5.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31315886799711734,
+    "line": "create_tensor: loading tensor blk.5.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131598679974559,
+    "line": "create_tensor: loading tensor blk.5.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31316074799906346,
+    "line": "create_tensor: loading tensor blk.5.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31316147799952887,
+    "line": "create_tensor: loading tensor blk.5.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3131624279994867,
+    "line": "create_tensor: loading tensor blk.5.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131633379998675,
+    "line": "create_tensor: loading tensor blk.5.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31316447899735067,
+    "line": "create_tensor: loading tensor blk.5.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131655189972662,
+    "line": "create_tensor: loading tensor blk.5.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131684689979011,
+    "line": "create_tensor: loading tensor blk.5.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131693789982819,
+    "line": "create_tensor: loading tensor blk.5.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131703990002279,
+    "line": "create_tensor: loading tensor blk.5.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131714289993397,
+    "line": "create_tensor: loading tensor blk.6.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31317247900005896,
+    "line": "create_tensor: loading tensor blk.6.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31317350899917074,
+    "line": "create_tensor: loading tensor blk.6.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131764789977751,
+    "line": "create_tensor: loading tensor blk.6.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131773789973522,
+    "line": "create_tensor: loading tensor blk.6.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31317855899760616,
+    "line": "create_tensor: loading tensor blk.6.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31317983899862156,
+    "line": "create_tensor: loading tensor blk.6.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31318086899773334,
+    "line": "create_tensor: loading tensor blk.6.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31318291899879114,
+    "line": "create_tensor: loading tensor blk.6.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131837999972049,
+    "line": "create_tensor: loading tensor blk.6.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31318470999758574,
+    "line": "create_tensor: loading tensor blk.6.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31318779999855906,
+    "line": "create_tensor: loading tensor blk.6.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31318886000008206,
+    "line": "create_tensor: loading tensor blk.6.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131910899974173,
+    "line": "create_tensor: loading tensor blk.6.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31319195999822114,
+    "line": "create_tensor: loading tensor blk.6.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131939099985175,
+    "line": "create_tensor: loading tensor blk.7.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3131955200005905,
+    "line": "create_tensor: loading tensor blk.7.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31319740999970236,
+    "line": "create_tensor: loading tensor blk.7.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31319900999733363,
+    "line": "create_tensor: loading tensor blk.7.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31320055999822216,
+    "line": "create_tensor: loading tensor blk.7.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31320413099820144,
+    "line": "create_tensor: loading tensor blk.7.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3132056510003167,
+    "line": "create_tensor: loading tensor blk.7.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3132071010004438,
+    "line": "create_tensor: loading tensor blk.7.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3132087509984558,
+    "line": "create_tensor: loading tensor blk.7.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132106209995982,
+    "line": "create_tensor: loading tensor blk.7.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132125209995138,
+    "line": "create_tensor: loading tensor blk.7.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132141109999793,
+    "line": "create_tensor: loading tensor blk.7.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132178909982031,
+    "line": "create_tensor: loading tensor blk.7.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132199110004876,
+    "line": "create_tensor: loading tensor blk.7.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132246919994941,
+    "line": "create_tensor: loading tensor blk.7.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132257020006364,
+    "line": "create_tensor: loading tensor blk.8.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31322798199835233,
+    "line": "create_tensor: loading tensor blk.8.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31322911199822556,
+    "line": "create_tensor: loading tensor blk.8.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132311219997064,
+    "line": "create_tensor: loading tensor blk.8.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132327719977184,
+    "line": "create_tensor: loading tensor blk.8.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31323460199928377,
+    "line": "create_tensor: loading tensor blk.8.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31323636199886096,
+    "line": "create_tensor: loading tensor blk.8.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3132382219991996,
+    "line": "create_tensor: loading tensor blk.8.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31324001199755,
+    "line": "create_tensor: loading tensor blk.8.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31324189199949615,
+    "line": "create_tensor: loading tensor blk.8.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31324397299977136,
+    "line": "create_tensor: loading tensor blk.8.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31324584299727576,
+    "line": "create_tensor: loading tensor blk.8.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132477029976144,
+    "line": "create_tensor: loading tensor blk.8.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31325113300044904,
+    "line": "create_tensor: loading tensor blk.8.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31325291299799574,
+    "line": "create_tensor: loading tensor blk.8.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.313254983000661,
+    "line": "create_tensor: loading tensor blk.9.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132572229988,
+    "line": "create_tensor: loading tensor blk.9.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31325906299753115,
+    "line": "create_tensor: loading tensor blk.9.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31326082299710833,
+    "line": "create_tensor: loading tensor blk.9.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31326462399738375,
+    "line": "create_tensor: loading tensor blk.9.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31326656400051434,
+    "line": "create_tensor: loading tensor blk.9.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.313268383997638,
+    "line": "create_tensor: loading tensor blk.9.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31327028399755363,
+    "line": "create_tensor: loading tensor blk.9.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3132720439971308,
+    "line": "create_tensor: loading tensor blk.9.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132739339998807,
+    "line": "create_tensor: loading tensor blk.9.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132775239973853,
+    "line": "create_tensor: loading tensor blk.9.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31327950400009286,
+    "line": "create_tensor: loading tensor blk.9.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132813949996489,
+    "line": "create_tensor: loading tensor blk.9.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31328579500041087,
+    "line": "create_tensor: loading tensor blk.9.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132875849987613,
+    "line": "create_tensor: loading tensor blk.9.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132895050002844,
+    "line": "create_tensor: loading tensor blk.10.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132913150002423,
+    "line": "create_tensor: loading tensor blk.10.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31329308500062325,
+    "line": "create_tensor: loading tensor blk.10.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132964649994392,
+    "line": "create_tensor: loading tensor blk.10.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3132980349982972,
+    "line": "create_tensor: loading tensor blk.10.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133022660003917,
+    "line": "create_tensor: loading tensor blk.10.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3133035259997996,
+    "line": "create_tensor: loading tensor blk.10.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3133054659992922,
+    "line": "create_tensor: loading tensor blk.10.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3133065660003922,
+    "line": "create_tensor: loading tensor blk.10.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133088359973044,
+    "line": "create_tensor: loading tensor blk.10.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.313310816000012,
+    "line": "create_tensor: loading tensor blk.10.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31331299600060447,
+    "line": "create_tensor: loading tensor blk.10.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133166160005203,
+    "line": "create_tensor: loading tensor blk.10.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31332010599726345,
+    "line": "create_tensor: loading tensor blk.10.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133217069989769,
+    "line": "create_tensor: loading tensor blk.10.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31332363699766574,
+    "line": "create_tensor: loading tensor blk.11.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31332689699775074,
+    "line": "create_tensor: loading tensor blk.11.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.313328456999443,
+    "line": "create_tensor: loading tensor blk.11.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133301369998662,
+    "line": "create_tensor: loading tensor blk.11.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31333377699775156,
+    "line": "create_tensor: loading tensor blk.11.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31333551699935924,
+    "line": "create_tensor: loading tensor blk.11.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3133372470001632,
+    "line": "create_tensor: loading tensor blk.11.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31333906699728686,
+    "line": "create_tensor: loading tensor blk.11.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31334090800010017,
+    "line": "create_tensor: loading tensor blk.11.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133428080000158,
+    "line": "create_tensor: loading tensor blk.11.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31334462799713947,
+    "line": "create_tensor: loading tensor blk.11.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133464679995086,
+    "line": "create_tensor: loading tensor blk.11.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133483579986205,
+    "line": "create_tensor: loading tensor blk.11.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133520480005245,
+    "line": "create_tensor: loading tensor blk.11.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31335650799883297,
+    "line": "create_tensor: loading tensor blk.11.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133587480006099,
+    "line": "create_tensor: loading tensor blk.12.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133599190005043,
+    "line": "create_tensor: loading tensor blk.12.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133615890001238,
+    "line": "create_tensor: loading tensor blk.12.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31336342899885494,
+    "line": "create_tensor: loading tensor blk.12.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31336512899724767,
+    "line": "create_tensor: loading tensor blk.12.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133685590000823,
+    "line": "create_tensor: loading tensor blk.12.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31337038899800973,
+    "line": "create_tensor: loading tensor blk.12.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3133720389996597,
+    "line": "create_tensor: loading tensor blk.12.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31337303899999824,
+    "line": "create_tensor: loading tensor blk.12.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133749689986871,
+    "line": "create_tensor: loading tensor blk.12.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133766889986873,
+    "line": "create_tensor: loading tensor blk.12.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133803700002318,
+    "line": "create_tensor: loading tensor blk.12.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.313382050000655,
+    "line": "create_tensor: loading tensor blk.12.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133854199986672,
+    "line": "create_tensor: loading tensor blk.12.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133907899973565,
+    "line": "create_tensor: loading tensor blk.12.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133919899992179,
+    "line": "create_tensor: loading tensor blk.13.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31339381999714533,
+    "line": "create_tensor: loading tensor blk.13.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133948600006988,
+    "line": "create_tensor: loading tensor blk.13.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133966799978225,
+    "line": "create_tensor: loading tensor blk.13.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3133983299994725,
+    "line": "create_tensor: loading tensor blk.13.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31340005099991686,
+    "line": "create_tensor: loading tensor blk.13.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3134021309997479,
+    "line": "create_tensor: loading tensor blk.13.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31340401099805604,
+    "line": "create_tensor: loading tensor blk.13.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31340574099886,
+    "line": "create_tensor: loading tensor blk.13.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134076409987756,
+    "line": "create_tensor: loading tensor blk.13.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31340935099797207,
+    "line": "create_tensor: loading tensor blk.13.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134109409984376,
+    "line": "create_tensor: loading tensor blk.13.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31341272099962225,
+    "line": "create_tensor: loading tensor blk.13.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31341604099725373,
+    "line": "create_tensor: loading tensor blk.13.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31341940199854434,
+    "line": "create_tensor: loading tensor blk.13.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134210919997713,
+    "line": "create_tensor: loading tensor blk.14.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31342443199901027,
+    "line": "create_tensor: loading tensor blk.14.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134259119979106,
+    "line": "create_tensor: loading tensor blk.14.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31342764199871453,
+    "line": "create_tensor: loading tensor blk.14.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134328119995189,
+    "line": "create_tensor: loading tensor blk.14.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134337219998997,
+    "line": "create_tensor: loading tensor blk.14.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31343540200032294,
+    "line": "create_tensor: loading tensor blk.14.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31343641199782724,
+    "line": "create_tensor: loading tensor blk.14.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31343809299869463,
+    "line": "create_tensor: loading tensor blk.14.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134395829983987,
+    "line": "create_tensor: loading tensor blk.14.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134413029983989,
+    "line": "create_tensor: loading tensor blk.14.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31344314299713005,
+    "line": "create_tensor: loading tensor blk.14.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31344836299831513,
+    "line": "create_tensor: loading tensor blk.14.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134494330006419,
+    "line": "create_tensor: loading tensor blk.14.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134512430005998,
+    "line": "create_tensor: loading tensor blk.14.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134528730006423,
+    "line": "create_tensor: loading tensor blk.15.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31345480299933115,
+    "line": "create_tensor: loading tensor blk.15.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31345807400066406,
+    "line": "create_tensor: loading tensor blk.15.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31346023399964906,
+    "line": "create_tensor: loading tensor blk.15.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31346532399766147,
+    "line": "create_tensor: loading tensor blk.15.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31346681399736553,
+    "line": "create_tensor: loading tensor blk.15.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3134685039985925,
+    "line": "create_tensor: loading tensor blk.15.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3134693639985926,
+    "line": "create_tensor: loading tensor blk.15.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31347162399833906,
+    "line": "create_tensor: loading tensor blk.15.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31347272399943904,
+    "line": "create_tensor: loading tensor blk.15.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134745639981702,
+    "line": "create_tensor: loading tensor blk.15.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134761939982127,
+    "line": "create_tensor: loading tensor blk.15.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134776650003914,
+    "line": "create_tensor: loading tensor blk.15.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134810049996304,
+    "line": "create_tensor: loading tensor blk.15.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31348705499840435,
+    "line": "create_tensor: loading tensor blk.15.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134886949992506,
+    "line": "create_tensor: loading tensor blk.16.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134901949997584,
+    "line": "create_tensor: loading tensor blk.16.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134916550006892,
+    "line": "create_tensor: loading tensor blk.16.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134932649991242,
+    "line": "create_tensor: loading tensor blk.16.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3134949849991244,
+    "line": "create_tensor: loading tensor blk.16.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31349812599728466,
+    "line": "create_tensor: loading tensor blk.16.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31349960599982296,
+    "line": "create_tensor: loading tensor blk.16.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.313501175998681,
+    "line": "create_tensor: loading tensor blk.16.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31350290599948494,
+    "line": "create_tensor: loading tensor blk.16.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31350449599995045,
+    "line": "create_tensor: loading tensor blk.16.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135060959975817,
+    "line": "create_tensor: loading tensor blk.16.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31350947600003565,
+    "line": "create_tensor: loading tensor blk.16.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135109359973285,
+    "line": "create_tensor: loading tensor blk.16.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31351284599804785,
+    "line": "create_tensor: loading tensor blk.16.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135167869986617,
+    "line": "create_tensor: loading tensor blk.16.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135182469995925,
+    "line": "create_tensor: loading tensor blk.17.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135230070001853,
+    "line": "create_tensor: loading tensor blk.17.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31352475699895876,
+    "line": "create_tensor: loading tensor blk.17.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135261969982821,
+    "line": "create_tensor: loading tensor blk.17.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31352776699714013,
+    "line": "create_tensor: loading tensor blk.17.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135293470004399,
+    "line": "create_tensor: loading tensor blk.17.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3135310069992556,
+    "line": "create_tensor: loading tensor blk.17.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31353244699857896,
+    "line": "create_tensor: loading tensor blk.17.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3135340369990445,
+    "line": "create_tensor: loading tensor blk.17.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135360479973315,
+    "line": "create_tensor: loading tensor blk.17.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135378579972894,
+    "line": "create_tensor: loading tensor blk.17.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31354115800058935,
+    "line": "create_tensor: loading tensor blk.17.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31354284799817833,
+    "line": "create_tensor: loading tensor blk.17.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31354428799750167,
+    "line": "create_tensor: loading tensor blk.17.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135481079989404,
+    "line": "create_tensor: loading tensor blk.17.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135498079973331,
+    "line": "create_tensor: loading tensor blk.18.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135529379978834,
+    "line": "create_tensor: loading tensor blk.18.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31355450800037943,
+    "line": "create_tensor: loading tensor blk.18.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135578289984551,
+    "line": "create_tensor: loading tensor blk.18.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31355942899972433,
+    "line": "create_tensor: loading tensor blk.18.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135626789990056,
+    "line": "create_tensor: loading tensor blk.18.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31356423900069785,
+    "line": "create_tensor: loading tensor blk.18.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3135659489998943,
+    "line": "create_tensor: loading tensor blk.18.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31356764899828704,
+    "line": "create_tensor: loading tensor blk.18.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135697389989218,
+    "line": "create_tensor: loading tensor blk.18.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31357150899930275,
+    "line": "create_tensor: loading tensor blk.18.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31357313899934525,
+    "line": "create_tensor: loading tensor blk.18.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31357663000017055,
+    "line": "create_tensor: loading tensor blk.18.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135782899989863,
+    "line": "create_tensor: loading tensor blk.18.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135825399986061,
+    "line": "create_tensor: loading tensor blk.18.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.313584309998987,
+    "line": "create_tensor: loading tensor blk.19.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135861999980989,
+    "line": "create_tensor: loading tensor blk.19.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31358806999924127,
+    "line": "create_tensor: loading tensor blk.19.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135899299995799,
+    "line": "create_tensor: loading tensor blk.19.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135935200007225,
+    "line": "create_tensor: loading tensor blk.19.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3135951109979942,
+    "line": "create_tensor: loading tensor blk.19.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3135968110000249,
+    "line": "create_tensor: loading tensor blk.19.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31359843099926366,
+    "line": "create_tensor: loading tensor blk.19.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3136001809980371,
+    "line": "create_tensor: loading tensor blk.19.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136017609976989,
+    "line": "create_tensor: loading tensor blk.19.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136051809997298,
+    "line": "create_tensor: loading tensor blk.19.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136071409971919,
+    "line": "create_tensor: loading tensor blk.19.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136088809987996,
+    "line": "create_tensor: loading tensor blk.19.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31361412099795416,
+    "line": "create_tensor: loading tensor blk.19.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31361505200038664,
+    "line": "create_tensor: loading tensor blk.19.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31361692199789104,
+    "line": "create_tensor: loading tensor blk.20.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31362001199886436,
+    "line": "create_tensor: loading tensor blk.20.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136218519975955,
+    "line": "create_tensor: loading tensor blk.20.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136236319987802,
+    "line": "create_tensor: loading tensor blk.20.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136254819983151,
+    "line": "create_tensor: loading tensor blk.20.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136287919987808,
+    "line": "create_tensor: loading tensor blk.20.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3136306619999232,
+    "line": "create_tensor: loading tensor blk.20.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3136325319974276,
+    "line": "create_tensor: loading tensor blk.20.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3136335319977661,
+    "line": "create_tensor: loading tensor blk.20.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136353029985912,
+    "line": "create_tensor: loading tensor blk.20.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136371929977031,
+    "line": "create_tensor: loading tensor blk.20.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136425029988459,
+    "line": "create_tensor: loading tensor blk.20.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136437229986768,
+    "line": "create_tensor: loading tensor blk.20.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31364589299846557,
+    "line": "create_tensor: loading tensor blk.20.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31364767299965024,
+    "line": "create_tensor: loading tensor blk.20.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31364944300003117,
+    "line": "create_tensor: loading tensor blk.21.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136528830000316,
+    "line": "create_tensor: loading tensor blk.21.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31365477399958763,
+    "line": "create_tensor: loading tensor blk.21.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31365826399996877,
+    "line": "create_tensor: loading tensor blk.21.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31366004399751546,
+    "line": "create_tensor: loading tensor blk.21.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31366178399912314,
+    "line": "create_tensor: loading tensor blk.21.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3136635139999271,
+    "line": "create_tensor: loading tensor blk.21.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31366535399865825,
+    "line": "create_tensor: loading tensor blk.21.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31366746399726253,
+    "line": "create_tensor: loading tensor blk.21.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31366954400073155,
+    "line": "create_tensor: loading tensor blk.21.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31367143399984343,
+    "line": "create_tensor: loading tensor blk.21.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31367479499749606,
+    "line": "create_tensor: loading tensor blk.21.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136767049982154,
+    "line": "create_tensor: loading tensor blk.21.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31367856499855407,
+    "line": "create_tensor: loading tensor blk.21.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31368048500007717,
+    "line": "create_tensor: loading tensor blk.21.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136858849975397,
+    "line": "create_tensor: loading tensor blk.22.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136876449971169,
+    "line": "create_tensor: loading tensor blk.22.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31368956499864,
+    "line": "create_tensor: loading tensor blk.22.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31369143499978236,
+    "line": "create_tensor: loading tensor blk.22.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136944260004384,
+    "line": "create_tensor: loading tensor blk.22.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3136960960000579,
+    "line": "create_tensor: loading tensor blk.22.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3136981059979007,
+    "line": "create_tensor: loading tensor blk.22.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31369987599828164,
+    "line": "create_tensor: loading tensor blk.22.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31370185599735123,
+    "line": "create_tensor: loading tensor blk.22.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31370384599722456,
+    "line": "create_tensor: loading tensor blk.22.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31370598599824007,
+    "line": "create_tensor: loading tensor blk.22.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.313707715999044,
+    "line": "create_tensor: loading tensor blk.22.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31371120599942515,
+    "line": "create_tensor: loading tensor blk.22.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31371306700020796,
+    "line": "create_tensor: loading tensor blk.22.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137148969981354,
+    "line": "create_tensor: loading tensor blk.22.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137204969971208,
+    "line": "create_tensor: loading tensor blk.23.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137224870006321,
+    "line": "create_tensor: loading tensor blk.23.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31372350699894014,
+    "line": "create_tensor: loading tensor blk.23.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.313725986998179,
+    "line": "create_tensor: loading tensor blk.23.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137279469992791,
+    "line": "create_tensor: loading tensor blk.23.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137299970003369,
+    "line": "create_tensor: loading tensor blk.23.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31373184800031595,
+    "line": "create_tensor: loading tensor blk.23.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3137339479981165,
+    "line": "create_tensor: loading tensor blk.23.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.313734987998032,
+    "line": "create_tensor: loading tensor blk.23.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137371279990475,
+    "line": "create_tensor: loading tensor blk.23.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137390179981594,
+    "line": "create_tensor: loading tensor blk.23.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137407379981596,
+    "line": "create_tensor: loading tensor blk.23.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137426779976522,
+    "line": "create_tensor: loading tensor blk.23.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137451279981178,
+    "line": "create_tensor: loading tensor blk.23.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137486479972722,
+    "line": "create_tensor: loading tensor blk.23.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31375218899847823,
+    "line": "create_tensor: loading tensor blk.24.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137539389972517,
+    "line": "create_tensor: loading tensor blk.24.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137557789996208,
+    "line": "create_tensor: loading tensor blk.24.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137592589991982,
+    "line": "create_tensor: loading tensor blk.24.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137609689983947,
+    "line": "create_tensor: loading tensor blk.24.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31376422899847967,
+    "line": "create_tensor: loading tensor blk.24.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3137659789972531,
+    "line": "create_tensor: loading tensor blk.24.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3137679190003837,
+    "line": "create_tensor: loading tensor blk.24.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3137700089973805,
+    "line": "create_tensor: loading tensor blk.24.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137717099998554,
+    "line": "create_tensor: loading tensor blk.24.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.313773570000194,
+    "line": "create_tensor: loading tensor blk.24.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137751499998558,
+    "line": "create_tensor: loading tensor blk.24.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31377837999752956,
+    "line": "create_tensor: loading tensor blk.24.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31378009999752976,
+    "line": "create_tensor: loading tensor blk.24.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137819000003219,
+    "line": "create_tensor: loading tensor blk.24.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137877400004072,
+    "line": "create_tensor: loading tensor blk.25.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137896999978693,
+    "line": "create_tensor: loading tensor blk.25.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137908909993712,
+    "line": "create_tensor: loading tensor blk.25.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.313792941000429,
+    "line": "create_tensor: loading tensor blk.25.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137947709983564,
+    "line": "create_tensor: loading tensor blk.25.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3137966209978913,
+    "line": "create_tensor: loading tensor blk.25.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3137983009983145,
+    "line": "create_tensor: loading tensor blk.25.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31380064099721494,
+    "line": "create_tensor: loading tensor blk.25.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31430820699824835,
+    "line": "create_tensor: loading tensor blk.25.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143149669995182,
+    "line": "create_tensor: loading tensor blk.25.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143166569971072,
+    "line": "create_tensor: loading tensor blk.25.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31431823799721315,
+    "line": "create_tensor: loading tensor blk.25.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143199279984401,
+    "line": "create_tensor: loading tensor blk.25.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31432152799970936,
+    "line": "create_tensor: loading tensor blk.25.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31432332799886353,
+    "line": "create_tensor: loading tensor blk.25.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143251980000059,
+    "line": "create_tensor: loading tensor blk.26.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143269279971719,
+    "line": "create_tensor: loading tensor blk.26.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143287179991603,
+    "line": "create_tensor: loading tensor blk.26.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31433038799877977,
+    "line": "create_tensor: loading tensor blk.26.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31433194800047204,
+    "line": "create_tensor: loading tensor blk.26.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143336279972573,
+    "line": "create_tensor: loading tensor blk.26.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.314335327999288,
+    "line": "create_tensor: loading tensor blk.26.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3143369579993305,
+    "line": "create_tensor: loading tensor blk.26.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.314338909000071,
+    "line": "create_tensor: loading tensor blk.26.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143405390001135,
+    "line": "create_tensor: loading tensor blk.26.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31434219899892923,
+    "line": "create_tensor: loading tensor blk.26.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143439589985064,
+    "line": "create_tensor: loading tensor blk.26.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143458089980413,
+    "line": "create_tensor: loading tensor blk.26.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143475189972378,
+    "line": "create_tensor: loading tensor blk.26.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31434918900049524,
+    "line": "create_tensor: loading tensor blk.26.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.314350769000157,
+    "line": "create_tensor: loading tensor blk.27.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143522789978306,
+    "line": "create_tensor: loading tensor blk.27.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31435414899897296,
+    "line": "create_tensor: loading tensor blk.27.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143558089977887,
+    "line": "create_tensor: loading tensor blk.27.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31435742000030586,
+    "line": "create_tensor: loading tensor blk.27.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143589899991639,
+    "line": "create_tensor: loading tensor blk.27.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3143626700002642,
+    "line": "create_tensor: loading tensor blk.27.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3143642399991222,
+    "line": "create_tensor: loading tensor blk.27.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3143657999971765,
+    "line": "create_tensor: loading tensor blk.27.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31436754999958794,
+    "line": "create_tensor: loading tensor blk.27.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143692599987844,
+    "line": "create_tensor: loading tensor blk.27.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31437080999967293,
+    "line": "create_tensor: loading tensor blk.27.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143725599984464,
+    "line": "create_tensor: loading tensor blk.27.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31437426999764284,
+    "line": "create_tensor: loading tensor blk.27.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31437596999967354,
+    "line": "create_tensor: loading tensor blk.27.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143780609971145,
+    "line": "create_tensor: loading tensor blk.28.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143798210003297,
+    "line": "create_tensor: loading tensor blk.28.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143813909991877,
+    "line": "create_tensor: loading tensor blk.28.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143829809996532,
+    "line": "create_tensor: loading tensor blk.28.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143845409977075,
+    "line": "create_tensor: loading tensor blk.28.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143863009972847,
+    "line": "create_tensor: loading tensor blk.28.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3143878709997807,
+    "line": "create_tensor: loading tensor blk.28.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31438962099855416,
+    "line": "create_tensor: loading tensor blk.28.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31439105100071174,
+    "line": "create_tensor: loading tensor blk.28.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143926009979623,
+    "line": "create_tensor: loading tensor blk.28.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143941909984278,
+    "line": "create_tensor: loading tensor blk.28.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31439597200005664,
+    "line": "create_tensor: loading tensor blk.28.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143977219988301,
+    "line": "create_tensor: loading tensor blk.28.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3143991519973497,
+    "line": "create_tensor: loading tensor blk.28.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31440091200056486,
+    "line": "create_tensor: loading tensor blk.28.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31440243199904216,
+    "line": "create_tensor: loading tensor blk.29.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31440439200014225,
+    "line": "create_tensor: loading tensor blk.29.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31440617199768894,
+    "line": "create_tensor: loading tensor blk.29.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31440800199925434,
+    "line": "create_tensor: loading tensor blk.29.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31440970199764706,
+    "line": "create_tensor: loading tensor blk.29.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144116319999739,
+    "line": "create_tensor: loading tensor blk.29.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144133519999741,
+    "line": "create_tensor: loading tensor blk.29.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31441539300067234,
+    "line": "create_tensor: loading tensor blk.29.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144171429994458,
+    "line": "create_tensor: loading tensor blk.29.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31441883300067275,
+    "line": "create_tensor: loading tensor blk.29.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144204029995308,
+    "line": "create_tensor: loading tensor blk.29.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31442198299919255,
+    "line": "create_tensor: loading tensor blk.29.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31442344300012337,
+    "line": "create_tensor: loading tensor blk.29.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31442491299821995,
+    "line": "create_tensor: loading tensor blk.29.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144264629991085,
+    "line": "create_tensor: loading tensor blk.29.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31442802299716277,
+    "line": "create_tensor: loading tensor blk.30.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31442954299927806,
+    "line": "create_tensor: loading tensor blk.30.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.314431273000082,
+    "line": "create_tensor: loading tensor blk.30.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.314432882998517,
+    "line": "create_tensor: loading tensor blk.30.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31443452299936325,
+    "line": "create_tensor: loading tensor blk.30.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31443631399815786,
+    "line": "create_tensor: loading tensor blk.30.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144378739998501,
+    "line": "create_tensor: loading tensor blk.30.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144394939990889,
+    "line": "create_tensor: loading tensor blk.30.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31444124399786233,
+    "line": "create_tensor: loading tensor blk.30.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144427139995969,
+    "line": "create_tensor: loading tensor blk.30.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31444424399887794,
+    "line": "create_tensor: loading tensor blk.30.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31444583399934345,
+    "line": "create_tensor: loading tensor blk.30.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31444751399976667,
+    "line": "create_tensor: loading tensor blk.30.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144491040002322,
+    "line": "create_tensor: loading tensor blk.30.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31445055400035926,
+    "line": "create_tensor: loading tensor blk.30.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31445211399841355,
+    "line": "create_tensor: loading tensor blk.31.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144537539992598,
+    "line": "create_tensor: loading tensor blk.31.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144553450001695,
+    "line": "create_tensor: loading tensor blk.31.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31445692499983124,
+    "line": "create_tensor: loading tensor blk.31.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31445855499987374,
+    "line": "create_tensor: loading tensor blk.31.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31446038499780116,
+    "line": "create_tensor: loading tensor blk.31.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31446210499780136,
+    "line": "create_tensor: loading tensor blk.31.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144635749995359,
+    "line": "create_tensor: loading tensor blk.31.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144650049980555,
+    "line": "create_tensor: loading tensor blk.31.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144665049985633,
+    "line": "create_tensor: loading tensor blk.31.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144681150006363,
+    "line": "create_tensor: loading tensor blk.31.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31446959499953664,
+    "line": "create_tensor: loading tensor blk.31.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31447105500046746,
+    "line": "create_tensor: loading tensor blk.31.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.314472604997718,
+    "line": "create_tensor: loading tensor blk.31.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144740459974855,
+    "line": "create_tensor: loading tensor blk.31.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31447550599841634,
+    "line": "create_tensor: loading tensor blk.32.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31447709599888185,
+    "line": "create_tensor: loading tensor blk.32.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144785359982052,
+    "line": "create_tensor: loading tensor blk.32.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.314479995999136,
+    "line": "create_tensor: loading tensor blk.32.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31448145600006683,
+    "line": "create_tensor: loading tensor blk.32.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144830059973174,
+    "line": "create_tensor: loading tensor blk.32.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144845559982059,
+    "line": "create_tensor: loading tensor blk.32.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3144861359978677,
+    "line": "create_tensor: loading tensor blk.32.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31448760599960224,
+    "line": "create_tensor: loading tensor blk.32.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144911259987566,
+    "line": "create_tensor: loading tensor blk.32.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31449256599807995,
+    "line": "create_tensor: loading tensor blk.32.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144941669997934,
+    "line": "create_tensor: loading tensor blk.32.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31449576699742465,
+    "line": "create_tensor: loading tensor blk.32.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31449724699996295,
+    "line": "create_tensor: loading tensor blk.32.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3144988269996247,
+    "line": "create_tensor: loading tensor blk.32.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145004069992865,
+    "line": "create_tensor: loading tensor blk.33.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31450198699894827,
+    "line": "create_tensor: loading tensor blk.33.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145035369998368,
+    "line": "create_tensor: loading tensor blk.33.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31450502699954086,
+    "line": "create_tensor: loading tensor blk.33.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31450665699958336,
+    "line": "create_tensor: loading tensor blk.33.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31450854699869524,
+    "line": "create_tensor: loading tensor blk.33.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31451011699755327,
+    "line": "create_tensor: loading tensor blk.33.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145117069980188,
+    "line": "create_tensor: loading tensor blk.33.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145134379992669,
+    "line": "create_tensor: loading tensor blk.33.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145151179996901,
+    "line": "create_tensor: loading tensor blk.33.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31451668799854815,
+    "line": "create_tensor: loading tensor blk.33.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31451838800057885,
+    "line": "create_tensor: loading tensor blk.33.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31451985799867543,
+    "line": "create_tensor: loading tensor blk.33.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145215179974912,
+    "line": "create_tensor: loading tensor blk.33.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31452316799914115,
+    "line": "create_tensor: loading tensor blk.33.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145246780004527,
+    "line": "create_tensor: loading tensor blk.34.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.314526237998507,
+    "line": "create_tensor: loading tensor blk.34.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31452779800019925,
+    "line": "create_tensor: loading tensor blk.34.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31452929800070706,
+    "line": "create_tensor: loading tensor blk.34.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.31453085799876135,
+    "line": "create_tensor: loading tensor blk.34.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31453262899958645,
+    "line": "create_tensor: loading tensor blk.34.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31453430900000967,
+    "line": "create_tensor: loading tensor blk.34.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31453595899802167,
+    "line": "create_tensor: loading tensor blk.34.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145376389984449,
+    "line": "create_tensor: loading tensor blk.34.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31453914899975643,
+    "line": "create_tensor: loading tensor blk.34.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31454079899776843,
+    "line": "create_tensor: loading tensor blk.34.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145427089984878,
+    "line": "create_tensor: loading tensor blk.34.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.314544428998488,
+    "line": "create_tensor: loading tensor blk.34.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145460589985305,
+    "line": "create_tensor: loading tensor blk.34.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31454772899815,
+    "line": "create_tensor: loading tensor blk.34.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145493589981925,
+    "line": "create_tensor: loading tensor blk.35.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31455096900026547,
+    "line": "create_tensor: loading tensor blk.35.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145525899999484,
+    "line": "create_tensor: loading tensor blk.35.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31455420999918715,
+    "line": "create_tensor: loading tensor blk.35.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145559199983836,
+    "line": "create_tensor: loading tensor blk.35.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145575099988491,
+    "line": "create_tensor: loading tensor blk.35.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145590700005414,
+    "line": "create_tensor: loading tensor blk.35.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145607000005839,
+    "line": "create_tensor: loading tensor blk.35.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145622599986382,
+    "line": "create_tensor: loading tensor blk.35.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145637399975385,
+    "line": "create_tensor: loading tensor blk.35.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31456548999994993,
+    "line": "create_tensor: loading tensor blk.35.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145672199971159,
+    "line": "create_tensor: loading tensor blk.35.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31456871000045794,
+    "line": "create_tensor: loading tensor blk.35.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145766609995917,
+    "line": "create_tensor: loading tensor blk.35.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145783309992112,
+    "line": "create_tensor: loading tensor blk.35.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145798109981115,
+    "line": "create_tensor: loading tensor blk.36.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145814909985347,
+    "line": "create_tensor: loading tensor blk.36.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31458293099785806,
+    "line": "create_tensor: loading tensor blk.36.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145844209975621,
+    "line": "create_tensor: loading tensor blk.36.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145858909992967,
+    "line": "create_tensor: loading tensor blk.36.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31458747099895845,
+    "line": "create_tensor: loading tensor blk.36.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145890509986202,
+    "line": "create_tensor: loading tensor blk.36.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31459060099950875,
+    "line": "create_tensor: loading tensor blk.36.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3145922319999954,
+    "line": "create_tensor: loading tensor blk.36.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.31459411199830356,
+    "line": "create_tensor: loading tensor blk.36.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3145957719971193,
+    "line": "create_tensor: loading tensor blk.36.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31459759199788095,
+    "line": "create_tensor: loading tensor blk.36.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.31459920199995395,
+    "line": "create_tensor: loading tensor blk.36.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146008019975852,
+    "line": "create_tensor: loading tensor blk.36.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31460270199750084,
+    "line": "create_tensor: loading tensor blk.36.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31460445199991227,
+    "line": "create_tensor: loading tensor blk.37.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31460625199906644,
+    "line": "create_tensor: loading tensor blk.37.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146081119994051,
+    "line": "create_tensor: loading tensor blk.37.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31460986199817853,
+    "line": "create_tensor: loading tensor blk.37.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146116729985806,
+    "line": "create_tensor: loading tensor blk.37.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.31461315299748094,
+    "line": "create_tensor: loading tensor blk.37.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3146148429987079,
+    "line": "create_tensor: loading tensor blk.37.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31461648299955414,
+    "line": "create_tensor: loading tensor blk.37.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3146180429976084,
+    "line": "create_tensor: loading tensor blk.37.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146196229972702,
+    "line": "create_tensor: loading tensor blk.37.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31462118299896247,
+    "line": "create_tensor: loading tensor blk.37.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31464086399864755,
+    "line": "create_tensor: loading tensor blk.37.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.314642533998267,
+    "line": "create_tensor: loading tensor blk.37.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31464414400034,
+    "line": "create_tensor: loading tensor blk.37.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.314645873997506,
+    "line": "create_tensor: loading tensor blk.37.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.314647483999579,
+    "line": "create_tensor: loading tensor blk.38.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146491640000022,
+    "line": "create_tensor: loading tensor blk.38.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.31465074500010815,
+    "line": "create_tensor: loading tensor blk.38.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.31465237500015064,
+    "line": "create_tensor: loading tensor blk.38.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146539249974012,
+    "line": "create_tensor: loading tensor blk.38.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146555849998549,
+    "line": "create_tensor: loading tensor blk.38.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.3146571449979092,
+    "line": "create_tensor: loading tensor blk.38.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3146587549999822,
+    "line": "create_tensor: loading tensor blk.38.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3146603249988402,
+    "line": "create_tensor: loading tensor blk.38.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.314661944998079,
+    "line": "create_tensor: loading tensor blk.38.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31466352499774075,
+    "line": "create_tensor: loading tensor blk.38.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31466522499977145,
+    "line": "create_tensor: loading tensor blk.38.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146668849985872,
+    "line": "create_tensor: loading tensor blk.38.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31466844500027946,
+    "line": "create_tensor: loading tensor blk.38.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146700859979319,
+    "line": "create_tensor: loading tensor blk.38.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146716759983974,
+    "line": "create_tensor: loading tensor blk.39.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146732559980592,
+    "line": "create_tensor: loading tensor blk.39.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146750259984401,
+    "line": "create_tensor: loading tensor blk.39.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146769859995402,
+    "line": "create_tensor: loading tensor blk.39.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.314678525999625,
+    "line": "create_tensor: loading tensor blk.39.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146799860005558,
+    "line": "create_tensor: loading tensor blk.39.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31468153599780635,
+    "line": "create_tensor: loading tensor blk.39.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31468303599831415,
+    "line": "create_tensor: loading tensor blk.39.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.31468473600034486,
+    "line": "create_tensor: loading tensor blk.39.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146864659975108,
+    "line": "create_tensor: loading tensor blk.39.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146879460000491,
+    "line": "create_tensor: loading tensor blk.39.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31468949699774384,
+    "line": "create_tensor: loading tensor blk.39.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146910469986324,
+    "line": "create_tensor: loading tensor blk.39.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.31469265700070537,
+    "line": "create_tensor: loading tensor blk.39.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.31469412699880195,
+    "line": "create_tensor: loading tensor blk.39.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146958170000289,
+    "line": "create_tensor: loading tensor blk.40.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146973969996907,
+    "line": "create_tensor: loading tensor blk.40.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3146990069981257,
+    "line": "create_tensor: loading tensor blk.40.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147005069986335,
+    "line": "create_tensor: loading tensor blk.40.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147023870005796,
+    "line": "create_tensor: loading tensor blk.40.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147039670002414,
+    "line": "create_tensor: loading tensor blk.40.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31470569699740736,
+    "line": "create_tensor: loading tensor blk.40.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.3147072770007071,
+    "line": "create_tensor: loading tensor blk.40.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3147087379984441,
+    "line": "create_tensor: loading tensor blk.40.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147102779985289,
+    "line": "create_tensor: loading tensor blk.40.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31471175799742923,
+    "line": "create_tensor: loading tensor blk.40.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147132079975563,
+    "line": "create_tensor: loading tensor blk.40.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147146880000946,
+    "line": "create_tensor: loading tensor blk.40.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147162979985296,
+    "line": "create_tensor: loading tensor blk.40.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147177680002642,
+    "line": "create_tensor: loading tensor blk.40.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31471921800039127,
+    "line": "create_tensor: loading tensor blk.41.attn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147208279988263,
+    "line": "create_tensor: loading tensor blk.41.attn_qkv.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147224679996725,
+    "line": "create_tensor: loading tensor blk.41.attn_q.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147240279977268,
+    "line": "create_tensor: loading tensor blk.41.attn_k.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147255479998421,
+    "line": "create_tensor: loading tensor blk.41.attn_v.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147272280002653,
+    "line": "create_tensor: loading tensor blk.41.attn_q.bias"
+  },
+  {
+    "elapsed_seconds": 0.31472891899829847,
+    "line": "create_tensor: loading tensor blk.41.attn_k.bias"
+  },
+  {
+    "elapsed_seconds": 0.31473054899834096,
+    "line": "create_tensor: loading tensor blk.41.attn_v.bias"
+  },
+  {
+    "elapsed_seconds": 0.3147322289987642,
+    "line": "create_tensor: loading tensor blk.41.attn_output.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147337789996527,
+    "line": "create_tensor: loading tensor blk.41.post_attention_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147354889988492,
+    "line": "create_tensor: loading tensor blk.41.ffn_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147370789993147,
+    "line": "create_tensor: loading tensor blk.41.ffn_gate.weight"
+  },
+  {
+    "elapsed_seconds": 0.3147386889977497,
+    "line": "create_tensor: loading tensor blk.41.ffn_up.weight"
+  },
+  {
+    "elapsed_seconds": 0.314740169000288,
+    "line": "create_tensor: loading tensor blk.41.ffn_down.weight"
+  },
+  {
+    "elapsed_seconds": 0.314741778998723,
+    "line": "create_tensor: loading tensor blk.41.post_ffw_norm.weight"
+  },
+  {
+    "elapsed_seconds": 0.31474367899863864,
+    "line": "create_tensor: loading tensor blk.0.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31474528900071164,
+    "line": "create_tensor: loading tensor blk.0.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147469399991678,
+    "line": "create_tensor: loading tensor blk.0.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31474859999798355,
+    "line": "create_tensor: loading tensor blk.0.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147501099992951,
+    "line": "create_tensor: loading tensor blk.0.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31475190999844926,
+    "line": "create_tensor: loading tensor blk.0.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31475352000052226,
+    "line": "create_tensor: loading tensor blk.0.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31475519000014174,
+    "line": "create_tensor: loading tensor blk.0.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31475688999853446,
+    "line": "create_tensor: loading tensor blk.0.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3147584899998037,
+    "line": "create_tensor: loading tensor blk.0.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3147602299977734,
+    "line": "create_tensor: loading tensor blk.0.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.314761699999508,
+    "line": "create_tensor: loading tensor blk.0.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31476320999718155,
+    "line": "create_tensor: loading tensor blk.0.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31476666099842987,
+    "line": "create_tensor: loading tensor blk.0.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31476835099965683,
+    "line": "create_tensor: loading tensor blk.1.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31476996099809185,
+    "line": "create_tensor: loading tensor blk.1.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147715209997841,
+    "line": "create_tensor: loading tensor blk.1.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147730409982614,
+    "line": "create_tensor: loading tensor blk.1.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147746009999537,
+    "line": "create_tensor: loading tensor blk.1.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31477618099961546,
+    "line": "create_tensor: loading tensor blk.1.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31477792099758517,
+    "line": "create_tensor: loading tensor blk.1.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.314779420998093,
+    "line": "create_tensor: loading tensor blk.1.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.314780991000589,
+    "line": "create_tensor: loading tensor blk.1.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3147825809974165,
+    "line": "create_tensor: loading tensor blk.1.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31478459099889733,
+    "line": "create_tensor: loading tensor blk.1.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3147863519989187,
+    "line": "create_tensor: loading tensor blk.1.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31478793199858046,
+    "line": "create_tensor: loading tensor blk.1.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31478951199824223,
+    "line": "create_tensor: loading tensor blk.1.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3147911220003152,
+    "line": "create_tensor: loading tensor blk.2.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147927219979465,
+    "line": "create_tensor: loading tensor blk.2.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31479454199870816,
+    "line": "create_tensor: loading tensor blk.2.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147960120004427,
+    "line": "create_tensor: loading tensor blk.2.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3147977019980317,
+    "line": "create_tensor: loading tensor blk.2.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31479926199972397,
+    "line": "create_tensor: loading tensor blk.2.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148010119984974,
+    "line": "create_tensor: loading tensor blk.2.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148028020004858,
+    "line": "create_tensor: loading tensor blk.2.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148046719979902,
+    "line": "create_tensor: loading tensor blk.2.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31480624299729243,
+    "line": "create_tensor: loading tensor blk.2.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31480772299983073,
+    "line": "create_tensor: loading tensor blk.2.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31480931300029624,
+    "line": "create_tensor: loading tensor blk.2.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.314810892999958,
+    "line": "create_tensor: loading tensor blk.2.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31481254299797,
+    "line": "create_tensor: loading tensor blk.2.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148141329984355,
+    "line": "create_tensor: loading tensor blk.3.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.314815842997632,
+    "line": "create_tensor: loading tensor blk.3.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148175930000434,
+    "line": "create_tensor: loading tensor blk.3.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31481929299843614,
+    "line": "create_tensor: loading tensor blk.3.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148209129976749,
+    "line": "create_tensor: loading tensor blk.3.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31482264299847884,
+    "line": "create_tensor: loading tensor blk.3.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148242629977176,
+    "line": "create_tensor: loading tensor blk.3.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148258839974005,
+    "line": "create_tensor: loading tensor blk.3.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31482752399824676,
+    "line": "create_tensor: loading tensor blk.3.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148292539990507,
+    "line": "create_tensor: loading tensor blk.3.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148308439995162,
+    "line": "create_tensor: loading tensor blk.3.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31483254399790894,
+    "line": "create_tensor: loading tensor blk.3.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148342739987129,
+    "line": "create_tensor: loading tensor blk.3.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148358639991784,
+    "line": "create_tensor: loading tensor blk.3.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31483755400040536,
+    "line": "create_tensor: loading tensor blk.4.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31483920399841736,
+    "line": "create_tensor: loading tensor blk.4.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.314841103998333,
+    "line": "create_tensor: loading tensor blk.4.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148427439991792,
+    "line": "create_tensor: loading tensor blk.4.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31484431399803725,
+    "line": "create_tensor: loading tensor blk.4.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148459149997507,
+    "line": "create_tensor: loading tensor blk.4.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148514249987784,
+    "line": "create_tensor: loading tensor blk.4.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148528849997092,
+    "line": "create_tensor: loading tensor blk.4.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148546249976789,
+    "line": "create_tensor: loading tensor blk.4.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148563249997096,
+    "line": "create_tensor: loading tensor blk.4.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148579249973409,
+    "line": "create_tensor: loading tensor blk.4.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31485950500064064,
+    "line": "create_tensor: loading tensor blk.4.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31486129499899107,
+    "line": "create_tensor: loading tensor blk.4.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31486305499856826,
+    "line": "create_tensor: loading tensor blk.4.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148647659982089,
+    "line": "create_tensor: loading tensor blk.5.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31486645599943586,
+    "line": "create_tensor: loading tensor blk.5.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148681159982516,
+    "line": "create_tensor: loading tensor blk.5.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148699259982095,
+    "line": "create_tensor: loading tensor blk.5.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148716859977867,
+    "line": "create_tensor: loading tensor blk.5.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31487330600066343,
+    "line": "create_tensor: loading tensor blk.5.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148750660002406,
+    "line": "create_tensor: loading tensor blk.5.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31487665600070613,
+    "line": "create_tensor: loading tensor blk.5.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148784259974491,
+    "line": "create_tensor: loading tensor blk.5.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148800159979146,
+    "line": "create_tensor: loading tensor blk.5.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148816659995646,
+    "line": "create_tensor: loading tensor blk.5.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31488322599761887,
+    "line": "create_tensor: loading tensor blk.5.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148846969997976,
+    "line": "create_tensor: loading tensor blk.5.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148863770002208,
+    "line": "create_tensor: loading tensor blk.5.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3148881169981905,
+    "line": "create_tensor: loading tensor blk.6.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31488986700060195,
+    "line": "create_tensor: loading tensor blk.6.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148915969977679,
+    "line": "create_tensor: loading tensor blk.6.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31489332699857187,
+    "line": "create_tensor: loading tensor blk.6.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31489495699861436,
+    "line": "create_tensor: loading tensor blk.6.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148965969994606,
+    "line": "create_tensor: loading tensor blk.6.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3148999869990803,
+    "line": "create_tensor: loading tensor blk.6.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31490173699785373,
+    "line": "create_tensor: loading tensor blk.6.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31490330799715593,
+    "line": "create_tensor: loading tensor blk.6.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149050479987636,
+    "line": "create_tensor: loading tensor blk.6.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149066679980024,
+    "line": "create_tensor: loading tensor blk.6.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31490835799922934,
+    "line": "create_tensor: loading tensor blk.6.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31491009799719905,
+    "line": "create_tensor: loading tensor blk.6.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31491177799762227,
+    "line": "create_tensor: loading tensor blk.6.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149133779988915,
+    "line": "create_tensor: loading tensor blk.7.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149149780001608,
+    "line": "create_tensor: loading tensor blk.7.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149245290005638,
+    "line": "create_tensor: loading tensor blk.7.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149262289989565,
+    "line": "create_tensor: loading tensor blk.7.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31492788899777224,
+    "line": "create_tensor: loading tensor blk.7.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.314929468997434,
+    "line": "create_tensor: loading tensor blk.7.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149311689994647,
+    "line": "create_tensor: loading tensor blk.7.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31493289900026866,
+    "line": "create_tensor: loading tensor blk.7.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31493458899785765,
+    "line": "create_tensor: loading tensor blk.7.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149365589997615,
+    "line": "create_tensor: loading tensor blk.7.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31493844899887335,
+    "line": "create_tensor: loading tensor blk.7.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149401289992966,
+    "line": "create_tensor: loading tensor blk.7.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31494168899735087,
+    "line": "create_tensor: loading tensor blk.7.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31494340999779524,
+    "line": "create_tensor: loading tensor blk.7.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149450099990645,
+    "line": "create_tensor: loading tensor blk.8.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149464899979648,
+    "line": "create_tensor: loading tensor blk.8.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149482299995725,
+    "line": "create_tensor: loading tensor blk.8.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149499099999957,
+    "line": "create_tensor: loading tensor blk.8.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149516599987692,
+    "line": "create_tensor: loading tensor blk.8.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149531799972465,
+    "line": "create_tensor: loading tensor blk.8.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149548000001232,
+    "line": "create_tensor: loading tensor blk.8.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31495641999936197,
+    "line": "create_tensor: loading tensor blk.8.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149580399986007,
+    "line": "create_tensor: loading tensor blk.8.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31495962999906624,
+    "line": "create_tensor: loading tensor blk.8.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31496119999792427,
+    "line": "create_tensor: loading tensor blk.8.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149630609987071,
+    "line": "create_tensor: loading tensor blk.8.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31496464099836885,
+    "line": "create_tensor: loading tensor blk.8.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149661509996804,
+    "line": "create_tensor: loading tensor blk.8.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149677410001459,
+    "line": "create_tensor: loading tensor blk.9.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149694109997654,
+    "line": "create_tensor: loading tensor blk.9.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149711509977351,
+    "line": "create_tensor: loading tensor blk.9.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31497284099896206,
+    "line": "create_tensor: loading tensor blk.9.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149744209986238,
+    "line": "create_tensor: loading tensor blk.9.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31497630100056995,
+    "line": "create_tensor: loading tensor blk.9.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31497791099900496,
+    "line": "create_tensor: loading tensor blk.9.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149795509998512,
+    "line": "create_tensor: loading tensor blk.9.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31498122199991485,
+    "line": "create_tensor: loading tensor blk.9.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149830119982653,
+    "line": "create_tensor: loading tensor blk.9.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149845819971233,
+    "line": "create_tensor: loading tensor blk.9.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.314986281999154,
+    "line": "create_tensor: loading tensor blk.9.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149877819996618,
+    "line": "create_tensor: loading tensor blk.9.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31498924200059264,
+    "line": "create_tensor: loading tensor blk.9.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3149908319974202,
+    "line": "create_tensor: loading tensor blk.10.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31499248199907015,
+    "line": "create_tensor: loading tensor blk.10.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31499413200072013,
+    "line": "create_tensor: loading tensor blk.10.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31499565199919743,
+    "line": "create_tensor: loading tensor blk.10.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31499728199923993,
+    "line": "create_tensor: loading tensor blk.10.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3149988619989017,
+    "line": "create_tensor: loading tensor blk.10.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31500037200021325,
+    "line": "create_tensor: loading tensor blk.10.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150018229971465,
+    "line": "create_tensor: loading tensor blk.10.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31500328299807734,
+    "line": "create_tensor: loading tensor blk.10.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150049029973161,
+    "line": "create_tensor: loading tensor blk.10.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150066229973163,
+    "line": "create_tensor: loading tensor blk.10.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150082729989663,
+    "line": "create_tensor: loading tensor blk.10.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31501010300053167,
+    "line": "create_tensor: loading tensor blk.10.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150118230005319,
+    "line": "create_tensor: loading tensor blk.10.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150134530005744,
+    "line": "create_tensor: loading tensor blk.11.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150151329973596,
+    "line": "create_tensor: loading tensor blk.11.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31501673299862887,
+    "line": "create_tensor: loading tensor blk.11.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150184529986291,
+    "line": "create_tensor: loading tensor blk.11.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31502016299782554,
+    "line": "create_tensor: loading tensor blk.11.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150218240007234,
+    "line": "create_tensor: loading tensor blk.11.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150234940003429,
+    "line": "create_tensor: loading tensor blk.11.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31502520399953937,
+    "line": "create_tensor: loading tensor blk.11.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150269539983128,
+    "line": "create_tensor: loading tensor blk.11.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150284439980169,
+    "line": "create_tensor: loading tensor blk.11.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31502996400013217,
+    "line": "create_tensor: loading tensor blk.11.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150315540005977,
+    "line": "create_tensor: loading tensor blk.11.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31503485400025966,
+    "line": "create_tensor: loading tensor blk.11.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150367540001753,
+    "line": "create_tensor: loading tensor blk.11.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31503829400026007,
+    "line": "create_tensor: loading tensor blk.12.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31503992499710876,
+    "line": "create_tensor: loading tensor blk.12.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31504186500023934,
+    "line": "create_tensor: loading tensor blk.12.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150433249975322,
+    "line": "create_tensor: loading tensor blk.12.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150448050000705,
+    "line": "create_tensor: loading tensor blk.12.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150462849989708,
+    "line": "create_tensor: loading tensor blk.12.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.315048044998548,
+    "line": "create_tensor: loading tensor blk.12.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31504969500019797,
+    "line": "create_tensor: loading tensor blk.12.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31505140499939444,
+    "line": "create_tensor: loading tensor blk.12.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150529349986755,
+    "line": "create_tensor: loading tensor blk.12.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31505440500041004,
+    "line": "create_tensor: loading tensor blk.12.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31505612500041025,
+    "line": "create_tensor: loading tensor blk.12.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150582249982108,
+    "line": "create_tensor: loading tensor blk.12.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31506005600022036,
+    "line": "create_tensor: loading tensor blk.12.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31506194599933224,
+    "line": "create_tensor: loading tensor blk.13.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.315063525998994,
+    "line": "create_tensor: loading tensor blk.13.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31506525599979796,
+    "line": "create_tensor: loading tensor blk.13.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150667659974715,
+    "line": "create_tensor: loading tensor blk.13.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150684159991215,
+    "line": "create_tensor: loading tensor blk.13.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150701159975142,
+    "line": "create_tensor: loading tensor blk.13.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.315071655997599,
+    "line": "create_tensor: loading tensor blk.13.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31507329599844525,
+    "line": "create_tensor: loading tensor blk.13.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150750059976417,
+    "line": "create_tensor: loading tensor blk.13.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150764959973458,
+    "line": "create_tensor: loading tensor blk.13.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150780859978113,
+    "line": "create_tensor: loading tensor blk.13.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31507980699825566,
+    "line": "create_tensor: loading tensor blk.13.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150816669985943,
+    "line": "create_tensor: loading tensor blk.13.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150832469982561,
+    "line": "create_tensor: loading tensor blk.13.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150848469995253,
+    "line": "create_tensor: loading tensor blk.14.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150864669987641,
+    "line": "create_tensor: loading tensor blk.14.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31508793700049864,
+    "line": "create_tensor: loading tensor blk.14.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150895969993144,
+    "line": "create_tensor: loading tensor blk.14.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3150911269985954,
+    "line": "create_tensor: loading tensor blk.14.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31509260699749575,
+    "line": "create_tensor: loading tensor blk.14.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.315094206998765,
+    "line": "create_tensor: loading tensor blk.14.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31509582699800376,
+    "line": "create_tensor: loading tensor blk.14.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3150974469972425,
+    "line": "create_tensor: loading tensor blk.14.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31509924800047884,
+    "line": "create_tensor: loading tensor blk.14.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151008280001406,
+    "line": "create_tensor: loading tensor blk.14.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31510261799849104,
+    "line": "create_tensor: loading tensor blk.14.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151040679986181,
+    "line": "create_tensor: loading tensor blk.14.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151056280003104,
+    "line": "create_tensor: loading tensor blk.14.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151071279971802,
+    "line": "create_tensor: loading tensor blk.15.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.315108627997688,
+    "line": "create_tensor: loading tensor blk.15.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.315110277999338,
+    "line": "create_tensor: loading tensor blk.15.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31511187800060725,
+    "line": "create_tensor: loading tensor blk.15.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151133779974771,
+    "line": "create_tensor: loading tensor blk.15.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31511838900041766,
+    "line": "create_tensor: loading tensor blk.15.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151199189996987,
+    "line": "create_tensor: loading tensor blk.15.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151214190002065,
+    "line": "create_tensor: loading tensor blk.15.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31512289899910684,
+    "line": "create_tensor: loading tensor blk.15.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31512448899957235,
+    "line": "create_tensor: loading tensor blk.15.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31512595899766893,
+    "line": "create_tensor: loading tensor blk.15.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151275889977114,
+    "line": "create_tensor: loading tensor blk.15.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31512908899821923,
+    "line": "create_tensor: loading tensor blk.15.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31513074900067295,
+    "line": "create_tensor: loading tensor blk.15.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31513226899915026,
+    "line": "create_tensor: loading tensor blk.16.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151340389995312,
+    "line": "create_tensor: loading tensor blk.16.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151355189984315,
+    "line": "create_tensor: loading tensor blk.16.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.315137108998897,
+    "line": "create_tensor: loading tensor blk.16.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.315138649999426,
+    "line": "create_tensor: loading tensor blk.16.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31514025000069523,
+    "line": "create_tensor: loading tensor blk.16.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31514183999752277,
+    "line": "create_tensor: loading tensor blk.16.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31514332000006107,
+    "line": "create_tensor: loading tensor blk.16.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151447799973539,
+    "line": "create_tensor: loading tensor blk.16.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31514637999862316,
+    "line": "create_tensor: loading tensor blk.16.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151479099979042,
+    "line": "create_tensor: loading tensor blk.16.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151495599995542,
+    "line": "create_tensor: loading tensor blk.16.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151511899995967,
+    "line": "create_tensor: loading tensor blk.16.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151526900001045,
+    "line": "create_tensor: loading tensor blk.16.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31515415999820107,
+    "line": "create_tensor: loading tensor blk.17.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31515565999870887,
+    "line": "create_tensor: loading tensor blk.17.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31515710999883595,
+    "line": "create_tensor: loading tensor blk.17.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151585809973767,
+    "line": "create_tensor: loading tensor blk.17.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151616009999998,
+    "line": "create_tensor: loading tensor blk.17.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31516305100012687,
+    "line": "create_tensor: loading tensor blk.17.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31516469099733513,
+    "line": "create_tensor: loading tensor blk.17.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31516628099780064,
+    "line": "create_tensor: loading tensor blk.17.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151677509995352,
+    "line": "create_tensor: loading tensor blk.17.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31516924099923926,
+    "line": "create_tensor: loading tensor blk.17.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31517082099890104,
+    "line": "create_tensor: loading tensor blk.17.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151723609989858,
+    "line": "create_tensor: loading tensor blk.17.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31517402099780156,
+    "line": "create_tensor: loading tensor blk.17.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31517550100033986,
+    "line": "create_tensor: loading tensor blk.17.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31517711199921905,
+    "line": "create_tensor: loading tensor blk.18.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31517874199926155,
+    "line": "create_tensor: loading tensor blk.18.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151804320004885,
+    "line": "create_tensor: loading tensor blk.18.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151821920000657,
+    "line": "create_tensor: loading tensor blk.18.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31518381199930445,
+    "line": "create_tensor: loading tensor blk.18.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151853819981625,
+    "line": "create_tensor: loading tensor blk.18.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151870219990087,
+    "line": "create_tensor: loading tensor blk.18.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3151886019986705,
+    "line": "create_tensor: loading tensor blk.18.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315190191999136,
+    "line": "create_tensor: loading tensor blk.18.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31519196199951693,
+    "line": "create_tensor: loading tensor blk.18.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31519366199790966,
+    "line": "create_tensor: loading tensor blk.18.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151952619991789,
+    "line": "create_tensor: loading tensor blk.18.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3151968530000886,
+    "line": "create_tensor: loading tensor blk.18.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31519865299924277,
+    "line": "create_tensor: loading tensor blk.18.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315200332999666,
+    "line": "create_tensor: loading tensor blk.19.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31520195299890474,
+    "line": "create_tensor: loading tensor blk.19.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31520369300051243,
+    "line": "create_tensor: loading tensor blk.19.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31520543299848214,
+    "line": "create_tensor: loading tensor blk.19.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152071730000898,
+    "line": "create_tensor: loading tensor blk.19.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31520891299805953,
+    "line": "create_tensor: loading tensor blk.19.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.315210622997256,
+    "line": "create_tensor: loading tensor blk.19.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31521242300004815,
+    "line": "create_tensor: loading tensor blk.19.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152141729988216,
+    "line": "create_tensor: loading tensor blk.19.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31521588299801806,
+    "line": "create_tensor: loading tensor blk.19.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31521756399888545,
+    "line": "create_tensor: loading tensor blk.19.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152192239977012,
+    "line": "create_tensor: loading tensor blk.19.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31522104399846285,
+    "line": "create_tensor: loading tensor blk.19.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31522285399842076,
+    "line": "create_tensor: loading tensor blk.19.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152246639983787,
+    "line": "create_tensor: loading tensor blk.20.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152264739983366,
+    "line": "create_tensor: loading tensor blk.20.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.315228303999902,
+    "line": "create_tensor: loading tensor blk.20.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31522999399749096,
+    "line": "create_tensor: loading tensor blk.20.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31523169399952167,
+    "line": "create_tensor: loading tensor blk.20.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31523349399867584,
+    "line": "create_tensor: loading tensor blk.20.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31523519400070654,
+    "line": "create_tensor: loading tensor blk.20.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31523707499945886,
+    "line": "create_tensor: loading tensor blk.20.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152388550006435,
+    "line": "create_tensor: loading tensor blk.20.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31524053499742877,
+    "line": "create_tensor: loading tensor blk.20.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152423249994172,
+    "line": "create_tensor: loading tensor blk.20.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31524408499899437,
+    "line": "create_tensor: loading tensor blk.20.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31524580499899457,
+    "line": "create_tensor: loading tensor blk.20.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315247594997345,
+    "line": "create_tensor: loading tensor blk.20.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31524928499857197,
+    "line": "create_tensor: loading tensor blk.21.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31525117499768385,
+    "line": "create_tensor: loading tensor blk.21.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152528649989108,
+    "line": "create_tensor: loading tensor blk.21.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.315254584998911,
+    "line": "create_tensor: loading tensor blk.21.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31525645600049756,
+    "line": "create_tensor: loading tensor blk.21.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31525803600015934,
+    "line": "create_tensor: loading tensor blk.21.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152597459993558,
+    "line": "create_tensor: loading tensor blk.21.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31526145599855226,
+    "line": "create_tensor: loading tensor blk.21.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152631359989755,
+    "line": "create_tensor: loading tensor blk.21.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31526491600016016,
+    "line": "create_tensor: loading tensor blk.21.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31526667599973734,
+    "line": "create_tensor: loading tensor blk.21.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31526835600016057,
+    "line": "create_tensor: loading tensor blk.21.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315270105998934,
+    "line": "create_tensor: loading tensor blk.21.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315271796000161,
+    "line": "create_tensor: loading tensor blk.21.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152735660005419,
+    "line": "create_tensor: loading tensor blk.22.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152752269998018,
+    "line": "create_tensor: loading tensor blk.22.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31527688699861756,
+    "line": "create_tensor: loading tensor blk.22.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31527862700022524,
+    "line": "create_tensor: loading tensor blk.22.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31528034700022545,
+    "line": "create_tensor: loading tensor blk.22.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152821469993796,
+    "line": "create_tensor: loading tensor blk.22.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152839969989145,
+    "line": "create_tensor: loading tensor blk.22.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3152857169989147,
+    "line": "create_tensor: loading tensor blk.22.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152874269981112,
+    "line": "create_tensor: loading tensor blk.22.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152908470001421,
+    "line": "create_tensor: loading tensor blk.22.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31529239699739264,
+    "line": "create_tensor: loading tensor blk.22.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31529409699942335,
+    "line": "create_tensor: loading tensor blk.22.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3152958579994447,
+    "line": "create_tensor: loading tensor blk.22.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31529760799821815,
+    "line": "create_tensor: loading tensor blk.22.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31529921800029115,
+    "line": "create_tensor: loading tensor blk.23.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31530093800029135,
+    "line": "create_tensor: loading tensor blk.23.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153027279986418,
+    "line": "create_tensor: loading tensor blk.23.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153048479980498,
+    "line": "create_tensor: loading tensor blk.23.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31530670799838845,
+    "line": "create_tensor: loading tensor blk.23.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31530859799750033,
+    "line": "create_tensor: loading tensor blk.23.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153104480006732,
+    "line": "create_tensor: loading tensor blk.23.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31531221799741616,
+    "line": "create_tensor: loading tensor blk.23.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153142390001449,
+    "line": "create_tensor: loading tensor blk.23.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31531596899731085,
+    "line": "create_tensor: loading tensor blk.23.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31531775899929926,
+    "line": "create_tensor: loading tensor blk.23.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153196189996379,
+    "line": "create_tensor: loading tensor blk.23.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31532143900039955,
+    "line": "create_tensor: loading tensor blk.23.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31532326899832697,
+    "line": "create_tensor: loading tensor blk.23.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31532511899786186,
+    "line": "create_tensor: loading tensor blk.24.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.315326998999808,
+    "line": "create_tensor: loading tensor blk.24.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31532872900061193,
+    "line": "create_tensor: loading tensor blk.24.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153305289997661,
+    "line": "create_tensor: loading tensor blk.24.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31533229900014703,
+    "line": "create_tensor: loading tensor blk.24.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153341699980956,
+    "line": "create_tensor: loading tensor blk.24.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153358499985188,
+    "line": "create_tensor: loading tensor blk.24.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153376999980537,
+    "line": "create_tensor: loading tensor blk.24.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153394000000844,
+    "line": "create_tensor: loading tensor blk.24.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153412199972081,
+    "line": "create_tensor: loading tensor blk.24.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31534305999957724,
+    "line": "create_tensor: loading tensor blk.24.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153450099998736,
+    "line": "create_tensor: loading tensor blk.24.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31534675999864703,
+    "line": "create_tensor: loading tensor blk.24.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31534847999864724,
+    "line": "create_tensor: loading tensor blk.24.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153501499982667,
+    "line": "create_tensor: loading tensor blk.25.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153518699982669,
+    "line": "create_tensor: loading tensor blk.25.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31535340099799214,
+    "line": "create_tensor: loading tensor blk.25.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153551309987961,
+    "line": "create_tensor: loading tensor blk.25.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.315356980998331,
+    "line": "create_tensor: loading tensor blk.25.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31535873099710443,
+    "line": "create_tensor: loading tensor blk.25.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31536041099752765,
+    "line": "create_tensor: loading tensor blk.25.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31536200099799316,
+    "line": "create_tensor: loading tensor blk.25.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153635509988817,
+    "line": "create_tensor: loading tensor blk.25.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153652309993049,
+    "line": "create_tensor: loading tensor blk.25.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153669509993051,
+    "line": "create_tensor: loading tensor blk.25.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153686709993053,
+    "line": "create_tensor: loading tensor blk.25.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153702710005746,
+    "line": "create_tensor: loading tensor blk.25.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31537191099778283,
+    "line": "create_tensor: loading tensor blk.25.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31537368199860794,
+    "line": "create_tensor: loading tensor blk.26.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31538301199907437,
+    "line": "create_tensor: loading tensor blk.26.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31538448199717095,
+    "line": "create_tensor: loading tensor blk.26.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31538618199920165,
+    "line": "create_tensor: loading tensor blk.26.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153878220000479,
+    "line": "create_tensor: loading tensor blk.26.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31538964199717157,
+    "line": "create_tensor: loading tensor blk.26.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31539151199831394,
+    "line": "create_tensor: loading tensor blk.26.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3153930730004504,
+    "line": "create_tensor: loading tensor blk.26.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3153946429993084,
+    "line": "create_tensor: loading tensor blk.26.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31539623299977393,
+    "line": "create_tensor: loading tensor blk.26.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31539780299863196,
+    "line": "create_tensor: loading tensor blk.26.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31539965299816686,
+    "line": "create_tensor: loading tensor blk.26.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31540146299812477,
+    "line": "create_tensor: loading tensor blk.26.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31540335299723665,
+    "line": "create_tensor: loading tensor blk.26.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154053529979137,
+    "line": "create_tensor: loading tensor blk.27.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154071530007059,
+    "line": "create_tensor: loading tensor blk.27.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31540893299825257,
+    "line": "create_tensor: loading tensor blk.27.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31541049299994484,
+    "line": "create_tensor: loading tensor blk.27.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154122939995432,
+    "line": "create_tensor: loading tensor blk.27.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154139739999664,
+    "line": "create_tensor: loading tensor blk.27.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.315415953999036,
+    "line": "create_tensor: loading tensor blk.27.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154177840006014,
+    "line": "create_tensor: loading tensor blk.27.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315419763999671,
+    "line": "create_tensor: loading tensor blk.27.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154215939975984,
+    "line": "create_tensor: loading tensor blk.27.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154233440000098,
+    "line": "create_tensor: loading tensor blk.27.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154249639992486,
+    "line": "create_tensor: loading tensor blk.27.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31542654399891035,
+    "line": "create_tensor: loading tensor blk.27.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154281940005603,
+    "line": "create_tensor: loading tensor blk.27.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31543159499778994,
+    "line": "create_tensor: loading tensor blk.28.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154334649989323,
+    "line": "create_tensor: loading tensor blk.28.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31543523499931325,
+    "line": "create_tensor: loading tensor blk.28.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154368750001595,
+    "line": "create_tensor: loading tensor blk.28.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154387449976639,
+    "line": "create_tensor: loading tensor blk.28.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154405149980448,
+    "line": "create_tensor: loading tensor blk.28.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31544239499999094,
+    "line": "create_tensor: loading tensor blk.28.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31544409499838366,
+    "line": "create_tensor: loading tensor blk.28.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31544604499868,
+    "line": "create_tensor: loading tensor blk.28.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31544764499994926,
+    "line": "create_tensor: loading tensor blk.28.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315449304998765,
+    "line": "create_tensor: loading tensor blk.28.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154508949992305,
+    "line": "create_tensor: loading tensor blk.28.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154524860001402,
+    "line": "create_tensor: loading tensor blk.28.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31545399599781376,
+    "line": "create_tensor: loading tensor blk.28.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31545575599739095,
+    "line": "create_tensor: loading tensor blk.29.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31545738599743345,
+    "line": "create_tensor: loading tensor blk.29.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154590960002679,
+    "line": "create_tensor: loading tensor blk.29.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31546080599946436,
+    "line": "create_tensor: loading tensor blk.29.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154624259987031,
+    "line": "create_tensor: loading tensor blk.29.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154641660003108,
+    "line": "create_tensor: loading tensor blk.29.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154659059982805,
+    "line": "create_tensor: loading tensor blk.29.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.315467495998746,
+    "line": "create_tensor: loading tensor blk.29.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154691259987885,
+    "line": "create_tensor: loading tensor blk.29.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154706969980907,
+    "line": "create_tensor: loading tensor blk.29.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31547233699893695,
+    "line": "create_tensor: loading tensor blk.29.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31547385699741426,
+    "line": "create_tensor: loading tensor blk.29.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31547544699787977,
+    "line": "create_tensor: loading tensor blk.29.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154767769992759,
+    "line": "create_tensor: loading tensor blk.29.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154777870004182,
+    "line": "create_tensor: loading tensor blk.30.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31547896700067213,
+    "line": "create_tensor: loading tensor blk.30.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31547984699864173,
+    "line": "create_tensor: loading tensor blk.30.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154807270002493,
+    "line": "create_tensor: loading tensor blk.30.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31548174699855736,
+    "line": "create_tensor: loading tensor blk.30.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154824869998265,
+    "line": "create_tensor: loading tensor blk.30.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154834769993613,
+    "line": "create_tensor: loading tensor blk.30.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31548423699859995,
+    "line": "create_tensor: loading tensor blk.30.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154849769998691,
+    "line": "create_tensor: loading tensor blk.30.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154858769994462,
+    "line": "create_tensor: loading tensor blk.30.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31548679700063076,
+    "line": "create_tensor: loading tensor blk.30.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31548789699809276,
+    "line": "create_tensor: loading tensor blk.30.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31548881699927733,
+    "line": "create_tensor: loading tensor blk.30.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31548976699923514,
+    "line": "create_tensor: loading tensor blk.30.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31549051799811423,
+    "line": "create_tensor: loading tensor blk.31.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31549140800052555,
+    "line": "create_tensor: loading tensor blk.31.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31549228799849516,
+    "line": "create_tensor: loading tensor blk.31.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154930079981568,
+    "line": "create_tensor: loading tensor blk.31.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154938579973532,
+    "line": "create_tensor: loading tensor blk.31.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31549472799815703,
+    "line": "create_tensor: loading tensor blk.31.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3154956079997646,
+    "line": "create_tensor: loading tensor blk.31.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31549649799853796,
+    "line": "create_tensor: loading tensor blk.31.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31549750799968024,
+    "line": "create_tensor: loading tensor blk.31.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31549823800014565,
+    "line": "create_tensor: loading tensor blk.31.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315499087999342,
+    "line": "create_tensor: loading tensor blk.31.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3154998179998074,
+    "line": "create_tensor: loading tensor blk.31.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315500737997354,
+    "line": "create_tensor: loading tensor blk.31.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31550147799862316,
+    "line": "create_tensor: loading tensor blk.31.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155023679973965,
+    "line": "create_tensor: loading tensor blk.32.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155030979978619,
+    "line": "create_tensor: loading tensor blk.32.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31550385800073855,
+    "line": "create_tensor: loading tensor blk.32.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155047879990889,
+    "line": "create_tensor: loading tensor blk.32.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155058079973969,
+    "line": "create_tensor: loading tensor blk.32.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155068679989199,
+    "line": "create_tensor: loading tensor blk.32.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31550762799815857,
+    "line": "create_tensor: loading tensor blk.32.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155086480001046,
+    "line": "create_tensor: loading tensor blk.32.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155096379996394,
+    "line": "create_tensor: loading tensor blk.32.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31551036900054896,
+    "line": "create_tensor: loading tensor blk.32.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31551110899818013,
+    "line": "create_tensor: loading tensor blk.32.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31551196899818024,
+    "line": "create_tensor: loading tensor blk.32.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155128689977573,
+    "line": "create_tensor: loading tensor blk.32.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155136189998302,
+    "line": "create_tensor: loading tensor blk.32.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155144689990266,
+    "line": "create_tensor: loading tensor blk.33.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155153389998304,
+    "line": "create_tensor: loading tensor blk.33.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31551606900029583,
+    "line": "create_tensor: loading tensor blk.33.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.31551694899826543,
+    "line": "create_tensor: loading tensor blk.33.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155178189990693,
+    "line": "create_tensor: loading tensor blk.33.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31551866899826564,
+    "line": "create_tensor: loading tensor blk.33.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31552069899771595,
+    "line": "create_tensor: loading tensor blk.33.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155216089980968,
+    "line": "create_tensor: loading tensor blk.33.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31552274899877375,
+    "line": "create_tensor: loading tensor blk.33.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31552351899881614,
+    "line": "create_tensor: loading tensor blk.33.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155245289999584,
+    "line": "create_tensor: loading tensor blk.33.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31552527899839333,
+    "line": "create_tensor: loading tensor blk.33.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315526038997632,
+    "line": "create_tensor: loading tensor blk.33.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155267689980974,
+    "line": "create_tensor: loading tensor blk.33.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155275190001703,
+    "line": "create_tensor: loading tensor blk.34.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31552827899940894,
+    "line": "create_tensor: loading tensor blk.34.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155290190006781,
+    "line": "create_tensor: loading tensor blk.34.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155297800003609,
+    "line": "create_tensor: loading tensor blk.34.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.315530679999938,
+    "line": "create_tensor: loading tensor blk.34.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155314100004034,
+    "line": "create_tensor: loading tensor blk.34.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155323099999805,
+    "line": "create_tensor: loading tensor blk.34.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155330599984154,
+    "line": "create_tensor: loading tensor blk.34.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155338100004883,
+    "line": "create_tensor: loading tensor blk.34.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155345499981195,
+    "line": "create_tensor: loading tensor blk.34.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31553539999731584,
+    "line": "create_tensor: loading tensor blk.34.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155365200000233,
+    "line": "create_tensor: loading tensor blk.34.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155372500004887,
+    "line": "create_tensor: loading tensor blk.34.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155379999989236,
+    "line": "create_tensor: loading tensor blk.34.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315538769998966,
+    "line": "create_tensor: loading tensor blk.35.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31553960999735864,
+    "line": "create_tensor: loading tensor blk.35.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31554035999943153,
+    "line": "create_tensor: loading tensor blk.35.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155411000007007,
+    "line": "create_tensor: loading tensor blk.35.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31554183999833185,
+    "line": "create_tensor: loading tensor blk.35.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31554259000040474,
+    "line": "create_tensor: loading tensor blk.35.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155434399996011,
+    "line": "create_tensor: loading tensor blk.35.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155441700000665,
+    "line": "create_tensor: loading tensor blk.35.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31554492999930517,
+    "line": "create_tensor: loading tensor blk.35.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155456599997706,
+    "line": "create_tensor: loading tensor blk.35.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155464099982055,
+    "line": "create_tensor: loading tensor blk.35.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31554714999947464,
+    "line": "create_tensor: loading tensor blk.35.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31554789999790955,
+    "line": "create_tensor: loading tensor blk.35.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155486399991787,
+    "line": "create_tensor: loading tensor blk.35.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155495309983962,
+    "line": "create_tensor: loading tensor blk.36.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155503809975926,
+    "line": "create_tensor: loading tensor blk.36.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155511309996655,
+    "line": "create_tensor: loading tensor blk.36.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155518610001309,
+    "line": "create_tensor: loading tensor blk.36.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31555260099776206,
+    "line": "create_tensor: loading tensor blk.36.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31555344099979266,
+    "line": "create_tensor: loading tensor blk.36.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31555434099936974,
+    "line": "create_tensor: loading tensor blk.36.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.315555391000089,
+    "line": "create_tensor: loading tensor blk.36.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155564310000045,
+    "line": "create_tensor: loading tensor blk.36.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31555749099788954,
+    "line": "create_tensor: loading tensor blk.36.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31555835099788965,
+    "line": "create_tensor: loading tensor blk.36.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31555925099746673,
+    "line": "create_tensor: loading tensor blk.36.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31556223100051284,
+    "line": "create_tensor: loading tensor blk.36.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31556324099801714,
+    "line": "create_tensor: loading tensor blk.36.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155642509991594,
+    "line": "create_tensor: loading tensor blk.37.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31556527099746745,
+    "line": "create_tensor: loading tensor blk.37.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155663010002172,
+    "line": "create_tensor: loading tensor blk.37.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155673509972985,
+    "line": "create_tensor: loading tensor blk.37.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31556840099801775,
+    "line": "create_tensor: loading tensor blk.37.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155694519991812,
+    "line": "create_tensor: loading tensor blk.37.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31557046200032346,
+    "line": "create_tensor: loading tensor blk.37.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155716420005774,
+    "line": "create_tensor: loading tensor blk.37.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315572521998547,
+    "line": "create_tensor: loading tensor blk.37.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31557350199727807,
+    "line": "create_tensor: loading tensor blk.37.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155745219992241,
+    "line": "create_tensor: loading tensor blk.37.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31557559199791285,
+    "line": "create_tensor: loading tensor blk.37.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31557660199905513,
+    "line": "create_tensor: loading tensor blk.37.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155776120001974,
+    "line": "create_tensor: loading tensor blk.37.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315578491998167,
+    "line": "create_tensor: loading tensor blk.38.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31557945199892856,
+    "line": "create_tensor: loading tensor blk.38.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155804019988864,
+    "line": "create_tensor: loading tensor blk.38.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.315581161998125,
+    "line": "create_tensor: loading tensor blk.38.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31558207199850585,
+    "line": "create_tensor: loading tensor blk.38.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155829419993097,
+    "line": "create_tensor: loading tensor blk.38.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31558405199757544,
+    "line": "create_tensor: loading tensor blk.38.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31558515199867543,
+    "line": "create_tensor: loading tensor blk.38.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315586032000283,
+    "line": "create_tensor: loading tensor blk.38.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31558716200015624,
+    "line": "create_tensor: loading tensor blk.38.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31558814299933147,
+    "line": "create_tensor: loading tensor blk.38.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3155906129977666,
+    "line": "create_tensor: loading tensor blk.38.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31559135299903573,
+    "line": "create_tensor: loading tensor blk.38.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31559230299899355,
+    "line": "create_tensor: loading tensor blk.38.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31559334299890907,
+    "line": "create_tensor: loading tensor blk.39.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155941429977247,
+    "line": "create_tensor: loading tensor blk.39.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31559505299810553,
+    "line": "create_tensor: loading tensor blk.39.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155960629992478,
+    "line": "create_tensor: loading tensor blk.39.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155969830004324,
+    "line": "create_tensor: loading tensor blk.39.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3155979529983597,
+    "line": "create_tensor: loading tensor blk.39.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.31559889299751376,
+    "line": "create_tensor: loading tensor blk.39.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31559982299950207,
+    "line": "create_tensor: loading tensor blk.39.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156007729994599,
+    "line": "create_tensor: loading tensor blk.39.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31560163299946,
+    "line": "create_tensor: loading tensor blk.39.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156028729972604,
+    "line": "create_tensor: loading tensor blk.39.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156037329972605,
+    "line": "create_tensor: loading tensor blk.39.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31560488299874123,
+    "line": "create_tensor: loading tensor blk.39.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.315605912997853,
+    "line": "create_tensor: loading tensor blk.39.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156067130003066,
+    "line": "create_tensor: loading tensor blk.40.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156077239982551,
+    "line": "create_tensor: loading tensor blk.40.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156085839982552,
+    "line": "create_tensor: loading tensor blk.40.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156095939993975,
+    "line": "create_tensor: loading tensor blk.40.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156103740002436,
+    "line": "create_tensor: loading tensor blk.40.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.31561122399943997,
+    "line": "create_tensor: loading tensor blk.40.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156122239997785,
+    "line": "create_tensor: loading tensor blk.40.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156130839997786,
+    "line": "create_tensor: loading tensor blk.40.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31561413400049787,
+    "line": "create_tensor: loading tensor blk.40.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31561500399766373,
+    "line": "create_tensor: loading tensor blk.40.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156159239988483,
+    "line": "create_tensor: loading tensor blk.40.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31561685399719863,
+    "line": "create_tensor: loading tensor blk.40.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156177239980025,
+    "line": "create_tensor: loading tensor blk.40.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156186739979603,
+    "line": "create_tensor: loading tensor blk.40.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156195339979604,
+    "line": "create_tensor: loading tensor blk.41.attn_q.scale"
+  },
+  {
+    "elapsed_seconds": 0.31562049399872194,
+    "line": "create_tensor: loading tensor blk.41.attn_k.scale"
+  },
+  {
+    "elapsed_seconds": 0.31562140399910277,
+    "line": "create_tensor: loading tensor blk.41.attn_v.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156222039979184,
+    "line": "create_tensor: loading tensor blk.41.attn_output.scale"
+  },
+  {
+    "elapsed_seconds": 0.31562303399914526,
+    "line": "create_tensor: loading tensor blk.41.ffn_gate.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156239239979186,
+    "line": "create_tensor: loading tensor blk.41.ffn_down.scale"
+  },
+  {
+    "elapsed_seconds": 0.3156248739978764,
+    "line": "create_tensor: loading tensor blk.41.ffn_up.scale"
+  },
+  {
+    "elapsed_seconds": 0.31562589399982244,
+    "line": "create_tensor: loading tensor blk.41.attn_q.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31562677399779204,
+    "line": "create_tensor: loading tensor blk.41.attn_k.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156277149973903,
+    "line": "create_tensor: loading tensor blk.41.attn_v.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156285650002246,
+    "line": "create_tensor: loading tensor blk.41.attn_output.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3156294649998017,
+    "line": "create_tensor: loading tensor blk.41.ffn_gate.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31563048499810975,
+    "line": "create_tensor: loading tensor blk.41.ffn_down.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.31563143499806756,
+    "line": "create_tensor: loading tensor blk.41.ffn_up.input_scale"
+  },
+  {
+    "elapsed_seconds": 0.3508218629976909,
+    "line": "load_tensors: offloading output layer to GPU"
+  },
+  {
+    "elapsed_seconds": 0.35082983399843215,
+    "line": "load_tensors: offloading 41 repeating layers to GPU"
+  },
+  {
+    "elapsed_seconds": 0.3508320039982209,
+    "line": "load_tensors: offloaded 43/43 layers to GPU"
+  },
+  {
+    "elapsed_seconds": 0.3508342339991941,
+    "line": "load_tensors:      Vulkan0 model buffer size =  5488.40 MiB"
+  },
+  {
+    "elapsed_seconds": 0.35083631399902515,
+    "line": "load_tensors:  Vulkan_Host model buffer size =   717.77 MiB"
+  },
+  {
+    "elapsed_seconds": 0.35144532499907655,
+    "line": "load_all_data: using async uploads for device Vulkan0, buffer type Vulkan0, backend Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.7197057800003677,
+    "line": "..............................................................................load_all_data: buffer type Vulkan_Host is not the default buffer type for device Vulkan0 for async uploads"
+  },
+  {
+    "elapsed_seconds": 0.8097081310006615,
+    "line": "."
+  },
+  {
+    "elapsed_seconds": 0.8107036509973113,
+    "line": "llama_context: constructing llama_context"
+  },
+  {
+    "elapsed_seconds": 0.8107067119999556,
+    "line": "llama_context: n_seq_max             = 1"
+  },
+  {
+    "elapsed_seconds": 0.8107090220000828,
+    "line": "llama_context: n_ctx                 = 2304"
+  },
+  {
+    "elapsed_seconds": 0.8107113519981795,
+    "line": "llama_context: n_ctx_seq             = 2304"
+  },
+  {
+    "elapsed_seconds": 0.8107134319980105,
+    "line": "llama_context: n_batch               = 512"
+  },
+  {
+    "elapsed_seconds": 0.8107154819990683,
+    "line": "llama_context: n_ubatch              = 512"
+  },
+  {
+    "elapsed_seconds": 0.8107193519972498,
+    "line": "llama_context: causal_attn           = 1"
+  },
+  {
+    "elapsed_seconds": 0.8107214819974615,
+    "line": "llama_context: flash_attn            = enabled"
+  },
+  {
+    "elapsed_seconds": 0.8107236819996615,
+    "line": "llama_context: kv_unified            = false"
+  },
+  {
+    "elapsed_seconds": 0.8107256929979485,
+    "line": "llama_context: freq_base             = 10000.0"
+  },
+  {
+    "elapsed_seconds": 0.810727713000233,
+    "line": "llama_context: freq_scale            = 1"
+  },
+  {
+    "elapsed_seconds": 0.8107297229980759,
+    "line": "llama_context: n_rs_seq              = 0"
+  },
+  {
+    "elapsed_seconds": 0.8107316729983722,
+    "line": "llama_context: n_outputs_max         = 512"
+  },
+  {
+    "elapsed_seconds": 0.8107336529974418,
+    "line": "llama_context: n_outputs_max_per_seq = 1"
+  },
+  {
+    "elapsed_seconds": 0.8107369529971038,
+    "line": "llama_context: n_ctx_seq (2304) < n_ctx_train (8192) -- the full capacity of the model will not be utilized"
+  },
+  {
+    "elapsed_seconds": 0.8107423929977813,
+    "line": "set_abort_callback: call"
+  },
+  {
+    "elapsed_seconds": 0.810992365997663,
+    "line": "llama_context: Vulkan_Host  output buffer size =     0.98 MiB"
+  },
+  {
+    "elapsed_seconds": 0.8109954259998631,
+    "line": "llama_kv_cache_iswa: creating non-SWA KV cache, size = 2304 cells"
+  },
+  {
+    "elapsed_seconds": 0.8110250479985552,
+    "line": "llama_kv_cache: layer   0: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110272479971172,
+    "line": "llama_kv_cache: layer   1: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110532989994681,
+    "line": "llama_kv_cache: layer   2: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110554289996799,
+    "line": "llama_kv_cache: layer   3: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110573699996166,
+    "line": "llama_kv_cache: layer   4: filtered"
+  },
+  {
+    "elapsed_seconds": 0.811059319999913,
+    "line": "llama_kv_cache: layer   5: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110612399977981,
+    "line": "llama_kv_cache: layer   6: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110810010002751,
+    "line": "llama_kv_cache: layer   7: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110863910005719,
+    "line": "llama_kv_cache: layer   8: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110881409993453,
+    "line": "llama_kv_cache: layer   9: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110900110004877,
+    "line": "llama_kv_cache: layer  10: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110919209975691,
+    "line": "llama_kv_cache: layer  11: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110938809986692,
+    "line": "llama_kv_cache: layer  12: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110958020006365,
+    "line": "llama_kv_cache: layer  13: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8110975919989869,
+    "line": "llama_kv_cache: layer  14: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8110993819973373,
+    "line": "llama_kv_cache: layer  15: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111014319983951,
+    "line": "llama_kv_cache: layer  16: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111033519999182,
+    "line": "llama_kv_cache: layer  17: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111051220002992,
+    "line": "llama_kv_cache: layer  18: filtered"
+  },
+  {
+    "elapsed_seconds": 0.811107051998988,
+    "line": "llama_kv_cache: layer  19: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111089619997074,
+    "line": "llama_kv_cache: layer  20: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111109519995807,
+    "line": "llama_kv_cache: layer  21: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111127619995386,
+    "line": "llama_kv_cache: layer  22: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111144819995388,
+    "line": "llama_kv_cache: layer  23: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111164729998563,
+    "line": "llama_kv_cache: layer  24: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111183830005757,
+    "line": "llama_kv_cache: layer  25: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111204229971918,
+    "line": "llama_kv_cache: layer  26: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111224429994763,
+    "line": "llama_kv_cache: layer  27: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111242929990112,
+    "line": "llama_kv_cache: layer  28: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111262029997306,
+    "line": "llama_kv_cache: layer  29: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111281429992232,
+    "line": "llama_kv_cache: layer  30: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111299829979544,
+    "line": "llama_kv_cache: layer  31: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111321329997736,
+    "line": "llama_kv_cache: layer  32: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111338429989701,
+    "line": "llama_kv_cache: layer  33: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111356640001759,
+    "line": "llama_kv_cache: layer  34: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111374839972996,
+    "line": "llama_kv_cache: layer  35: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111392139981035,
+    "line": "llama_kv_cache: layer  36: filtered"
+  },
+  {
+    "elapsed_seconds": 0.811141313999542,
+    "line": "llama_kv_cache: layer  37: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.811143473998527,
+    "line": "llama_kv_cache: layer  38: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111453540004732,
+    "line": "llama_kv_cache: layer  39: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111475139994582,
+    "line": "llama_kv_cache: layer  40: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8111493539981893,
+    "line": "llama_kv_cache: layer  41: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8111537539989513,
+    "line": "llama_kv_cache:    Vulkan0 KV buffer size =   378.00 MiB"
+  },
+  {
+    "elapsed_seconds": 0.842605771998933,
+    "line": "llama_kv_cache: size =  378.00 MiB (  2304 cells,  21 layers,  1/1 seqs), K (f16):  189.00 MiB, V (f16):  189.00 MiB"
+  },
+  {
+    "elapsed_seconds": 0.8426087019979605,
+    "line": "llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 256"
+  },
+  {
+    "elapsed_seconds": 0.8426106619990605,
+    "line": "llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 256"
+  },
+  {
+    "elapsed_seconds": 0.8426125229998433,
+    "line": "llama_kv_cache_iswa: creating     SWA KV cache, size = 2304 cells"
+  },
+  {
+    "elapsed_seconds": 0.842614343000605,
+    "line": "llama_kv_cache: layer   0: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426163829972211,
+    "line": "llama_kv_cache: layer   1: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426182229995902,
+    "line": "llama_kv_cache: layer   2: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426198630004365,
+    "line": "llama_kv_cache: layer   3: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426217329979409,
+    "line": "llama_kv_cache: layer   4: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426234129983641,
+    "line": "llama_kv_cache: layer   5: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426252429999295,
+    "line": "llama_kv_cache: layer   6: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426271629978146,
+    "line": "llama_kv_cache: layer   7: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426290530005645,
+    "line": "llama_kv_cache: layer   8: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426344139988942,
+    "line": "llama_kv_cache: layer   9: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426360439989367,
+    "line": "llama_kv_cache: layer  10: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426376339994022,
+    "line": "llama_kv_cache: layer  11: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426393240006291,
+    "line": "llama_kv_cache: layer  12: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426409739986411,
+    "line": "llama_kv_cache: layer  13: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426427140002488,
+    "line": "llama_kv_cache: layer  14: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.842644394000672,
+    "line": "llama_kv_cache: layer  15: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426462339994032,
+    "line": "llama_kv_cache: layer  16: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426484039991919,
+    "line": "llama_kv_cache: layer  17: filtered"
+  },
+  {
+    "elapsed_seconds": 0.842650443999446,
+    "line": "llama_kv_cache: layer  18: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426523550006095,
+    "line": "llama_kv_cache: layer  19: filtered"
+  },
+  {
+    "elapsed_seconds": 0.842654184998537,
+    "line": "llama_kv_cache: layer  20: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426562349995947,
+    "line": "llama_kv_cache: layer  21: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426581349995104,
+    "line": "llama_kv_cache: layer  22: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426601049977762,
+    "line": "llama_kv_cache: layer  23: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426619649981149,
+    "line": "llama_kv_cache: layer  24: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426639549979882,
+    "line": "llama_kv_cache: layer  25: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426658049975231,
+    "line": "llama_kv_cache: layer  26: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426678849973541,
+    "line": "llama_kv_cache: layer  27: filtered"
+  },
+  {
+    "elapsed_seconds": 0.842669854999258,
+    "line": "llama_kv_cache: layer  28: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426718059999985,
+    "line": "llama_kv_cache: layer  29: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426736859983066,
+    "line": "llama_kv_cache: layer  30: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426756059998297,
+    "line": "llama_kv_cache: layer  31: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426773459977994,
+    "line": "llama_kv_cache: layer  32: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426793859980535,
+    "line": "llama_kv_cache: layer  33: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426812459983921,
+    "line": "llama_kv_cache: layer  34: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426831260003382,
+    "line": "llama_kv_cache: layer  35: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426851160002116,
+    "line": "llama_kv_cache: layer  36: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426869260001695,
+    "line": "llama_kv_cache: layer  37: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426888760004658,
+    "line": "llama_kv_cache: layer  38: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426906869972299,
+    "line": "llama_kv_cache: layer  39: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426925370004028,
+    "line": "llama_kv_cache: layer  40: dev = Vulkan0"
+  },
+  {
+    "elapsed_seconds": 0.8426942869991763,
+    "line": "llama_kv_cache: layer  41: filtered"
+  },
+  {
+    "elapsed_seconds": 0.8426984869984153,
+    "line": "llama_kv_cache:    Vulkan0 KV buffer size =   378.00 MiB"
+  },
+  {
+    "elapsed_seconds": 0.8748887820001983,
+    "line": "llama_kv_cache: size =  378.00 MiB (  2304 cells,  21 layers,  1/1 seqs), K (f16):  189.00 MiB, V (f16):  189.00 MiB"
+  },
+  {
+    "elapsed_seconds": 0.8748964429978514,
+    "line": "llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 256"
+  },
+  {
+    "elapsed_seconds": 0.8748980929995014,
+    "line": "llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 256"
+  },
+  {
+    "elapsed_seconds": 0.8749009729981481,
+    "line": "llama_context: enumerating backends"
+  },
+  {
+    "elapsed_seconds": 0.8749104239977896,
+    "line": "llama_context: backend_ptrs.size() = 2"
+  },
+  {
+    "elapsed_seconds": 0.8749124440000742,
+    "line": "sched_reserve: reserving ..."
+  },
+  {
+    "elapsed_seconds": 0.8749143839995668,
+    "line": "sched_reserve: max_nodes = 3720"
+  },
+  {
+    "elapsed_seconds": 0.8754819229980058,
+    "line": "sched_reserve: reserving full memory module"
+  },
+  {
+    "elapsed_seconds": 0.8755015040005674,
+    "line": "sched_reserve: worst-case: n_tokens = 512, n_seqs = 1, n_outputs = 1"
+  },
+  {
+    "elapsed_seconds": 0.8755053439999756,
+    "line": "resolve_fused_ops: resolving fused DeepSeek V4 HC support:"
+  },
+  {
+    "elapsed_seconds": 0.8755075739973108,
+    "line": "graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1"
+  },
+  {
+    "elapsed_seconds": 0.8773089860005712,
+    "line": "resolve_fused_ops: fused DeepSeek V4 HC pre enabled"
+  },
+  {
+    "elapsed_seconds": 0.87732757699996,
+    "line": "graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1"
+  },
+  {
+    "elapsed_seconds": 0.878704407998157,
+    "line": "resolve_fused_ops: fused DeepSeek V4 HC comb enabled"
+  },
+  {
+    "elapsed_seconds": 0.8787057779991301,
+    "line": "graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1"
+  },
+  {
+    "elapsed_seconds": 0.8800844779980252,
+    "line": "resolve_fused_ops: fused DeepSeek V4 HC post enabled"
+  },
+  {
+    "elapsed_seconds": 0.8800859879993368,
+    "line": "graph_reserve: reserving a graph for ubatch with n_tokens =  512, n_seqs =  1, n_outputs =  512"
+  },
+  {
+    "elapsed_seconds": 0.8828142079983081,
+    "line": "graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1"
+  },
+  {
+    "elapsed_seconds": 0.8843844080001872,
+    "line": "graph_reserve: reserving a graph for ubatch with n_tokens =  512, n_seqs =  1, n_outputs =  512"
+  },
+  {
+    "elapsed_seconds": 0.8858947249973426,
+    "line": "sched_reserve:    Vulkan0 compute buffer size =   507.00 MiB"
+  },
+  {
+    "elapsed_seconds": 0.8858960849975119,
+    "line": "sched_reserve: Vulkan_Host compute buffer size =    18.53 MiB"
+  },
+  {
+    "elapsed_seconds": 0.8858991950000927,
+    "line": "sched_reserve: graph nodes  = 1522"
+  },
+  {
+    "elapsed_seconds": 0.8859003750003467,
+    "line": "sched_reserve: graph splits = 2"
+  },
+  {
+    "elapsed_seconds": 0.8859016549977241,
+    "line": "sched_reserve: reserve took 11.04 ms, sched copies = 1"
+  },
+  {
+    "elapsed_seconds": 0.8863012159999926,
+    "line": "attach_threadpool: call"
+  },
+  {
+    "elapsed_seconds": 0.886302925999189,
+    "line": "llama-bench: benchmark 1/1: warmup generation run"
+  },
+  {
+    "elapsed_seconds": 0.8863052859996969,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 0.9205275649983378,
+    "line": "llama-bench: benchmark 1/1: depth run 1/5"
+  },
+  {
+    "elapsed_seconds": 0.9205329859978519,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 6.464121600998624,
+    "line": "llama-bench: benchmark 1/1: generation run 1/5"
+  },
+  {
+    "elapsed_seconds": 6.464128390998667,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 15.116645694997715,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 15.116816003999702,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 15.140197508997517,
+    "line": "llama-bench: benchmark 1/1: depth run 2/5 (cached)"
+  },
+  {
+    "elapsed_seconds": 15.140203708997433,
+    "line": "llama-bench: benchmark 1/1: generation run 2/5"
+  },
+  {
+    "elapsed_seconds": 15.140206128999125,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 23.800170676000562,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 23.80032222400041,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 23.824104798997723,
+    "line": "llama-bench: benchmark 1/1: depth run 3/5 (cached)"
+  },
+  {
+    "elapsed_seconds": 23.824122559999523,
+    "line": "llama-bench: benchmark 1/1: generation run 3/5"
+  },
+  {
+    "elapsed_seconds": 23.82413002099929,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 32.48125265099952,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 32.48144587099887,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 32.50352974999987,
+    "line": "llama-bench: benchmark 1/1: depth run 4/5 (cached)"
+  },
+  {
+    "elapsed_seconds": 32.503536580999935,
+    "line": "llama-bench: benchmark 1/1: generation run 4/5"
+  },
+  {
+    "elapsed_seconds": 32.50353933099905,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 41.16448049799874,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 41.164645106000535,
+    "line": "state_read_meta: cell_count = 2048, dest_seq_id = 0"
+  },
+  {
+    "elapsed_seconds": 41.188561177998054,
+    "line": "llama-bench: benchmark 1/1: depth run 5/5 (cached)"
+  },
+  {
+    "elapsed_seconds": 41.1885712689982,
+    "line": "llama-bench: benchmark 1/1: generation run 5/5"
+  },
+  {
+    "elapsed_seconds": 41.188574138999684,
+    "line": "set_n_threads: n_threads = 10, n_threads_batch = 10"
+  },
+  {
+    "elapsed_seconds": 49.841552574998786,
+    "line": "llama_perf_context_print:        load time =     778.93 ms"
+  },
+  {
+    "elapsed_seconds": 49.841564034999465,
+    "line": "llama_perf_context_print: prompt eval time =       0.00 ms /  2048 tokens (    0.00 ms per token,      inf tokens per second)"
+  },
+  {
+    "elapsed_seconds": 49.84156684499976,
+    "line": "llama_perf_context_print:        eval time =       0.00 ms /  1281 runs   (    0.00 ms per token,      inf tokens per second)"
+  },
+  {
+    "elapsed_seconds": 49.84156976599843,
+    "line": "llama_perf_context_print:       total time =   49699.91 ms /  3329 tokens"
+  },
+  {
+    "elapsed_seconds": 49.841572475997964,
+    "line": "llama_perf_context_print:    graphs reused =       1279"
+  },
+  {
+    "elapsed_seconds": 49.84157616599987,
+    "line": "~llama_context:    Vulkan0 compute buffer size is 507.0000 MiB, matches expectation of 507.0000 MiB"
+  },
+  {
+    "elapsed_seconds": 49.84157889599737,
+    "line": "~llama_context: Vulkan_Host compute buffer size is  18.5274 MiB, matches expectation of  18.5274 MiB"
+  }
+]

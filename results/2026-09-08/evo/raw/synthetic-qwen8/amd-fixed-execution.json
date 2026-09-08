@@ -1,0 +1,19 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "peak_metrics": {
+    "swap_used_bytes": 3785904128,
+    "cpu_percent": 21.9,
+    "system_used_excluding_available_bytes": 5893386240,
+    "runtime_total_pss_bytes": 399764480,
+    "card1_gtt_used_bytes": 138481664,
+    "card1_vram_used_bytes": 7750873088,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_largest_process_rss_bytes": 402812928,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 28105961472,
+    "llama_server_process_count": 0,
+    "system_total_bytes": 32721723392
+  }
+}

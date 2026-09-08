@@ -1,0 +1,62 @@
+{
+  "name": "vulkan-warmup-1",
+  "backend": "vulkan",
+  "kind": "warmup",
+  "trial": 1,
+  "model_resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 563,
+    "total_output_tokens": 104,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 47.888556355299606,
+    "time_to_first_token_seconds": 1.350851
+  },
+  "wall_seconds": 3.5138031910028076,
+  "first_visible_seconds": 1.3602401110001665,
+  "visible_tokens": 103,
+  "visible_phase_tps": 47.82771443122701,
+  "visible_total_wall_tps": 29.312967858795965,
+  "prompt_processing_seconds": 1.3502147699982743,
+  "prompt_processing_tps": 416.9707016319482,
+  "stream_timing": {
+    "prompt_processing.start": 0.009980869002902182,
+    "prompt_processing.end": 1.3601956390011765,
+    "first_visible_seconds": 1.3602401110001665,
+    "last_visible_delta_seconds": 3.48884174900013,
+    "message.end": 3.5134677960013505
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "Throughout the fifth century, the \"Blues\" and \"Greens\" grew into political parties that interfered in politics and religious controversies, though they retained traces of their low sporting origins and were prone to riot [p. 101]. In 530, being a \"Green\" meant being a Monophysite and a partisan of the late Emperor Anastasius's house, whereas the \"Blues\" posed as strictly orthodox and partisans of the house of Justinus [p. 101].",
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 4683268096,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 21310439424,
+    "cpu_percent": 3.4,
+    "system_available_bytes": 28215328768,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 256008192,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 1261075456,
+    "swap_used_bytes": 3939344384,
+    "runtime_largest_process_rss_bytes": 1151758336
+  },
+  "response": {
+    "model_instance_id": "evo-amd-gemma26-vulkan",
+    "output": [
+      {
+        "type": "message",
+        "content": "Throughout the fifth century, the \"Blues\" and \"Greens\" grew into political parties that interfered in politics and religious controversies, though they retained traces of their low sporting origins and were prone to riot [p. 101]. In 530, being a \"Green\" meant being a Monophysite and a partisan of the late Emperor Anastasius's house, whereas the \"Blues\" posed as strictly orthodox and partisans of the house of Justinus [p. 101]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 563,
+      "total_output_tokens": 104,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 47.888556355299606,
+      "time_to_first_token_seconds": 1.350851
+    }
+  }
+}

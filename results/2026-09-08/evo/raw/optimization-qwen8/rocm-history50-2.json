@@ -1,0 +1,62 @@
+{
+  "name": "rocm-history50-2",
+  "backend": "rocm",
+  "kind": "history50",
+  "trial": 2,
+  "model_resource": "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 15788,
+    "total_output_tokens": 2048,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 28.389292113763926,
+    "time_to_first_token_seconds": 18.458226
+  },
+  "wall_seconds": 91.01599668400013,
+  "first_visible_seconds": 18.90740740199908,
+  "visible_tokens": 2049,
+  "visible_phase_tps": 28.415477551319242,
+  "visible_total_wall_tps": 22.51252609048446,
+  "prompt_processing_seconds": 18.45704719800051,
+  "prompt_processing_tps": 855.3914302018119,
+  "stream_timing": {
+    "prompt_processing.start": 0.45008759099800955,
+    "prompt_processing.end": 18.90713478899852,
+    "first_visible_seconds": 18.90740740199908,
+    "last_visible_delta_seconds": 91.0118106359987,
+    "message.end": 91.0157693029978
+  },
+  "output_cap": true,
+  "actual_context_ok": true,
+  "output": "  the  great  central  tnrone  of  the  Kathisma  was  the  place  in  which  the  emperor  showed  himself  most  frequently  to  his  subjects,  and  many  strange  scenes  were  enacted.  It was on  this  throne  that  the  1023, which  was  the  year  of  the  death  of  the  last  of  the  Western  11.  The  1023, which  was  the  year  of  the  death  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the ",
+  "peak_metrics": {
+    "system_available_bytes": 26361679872,
+    "system_used_excluding_available_bytes": 9032642560,
+    "card1_gtt_used_bytes": 138469376,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 4976668672,
+    "swap_used_bytes": 3849883648,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 24.9,
+    "runtime_total_pss_bytes": 5386109952,
+    "llama_server_process_count": 1,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 11993321472
+  },
+  "response": {
+    "model_instance_id": "evo-amd-qwen8-rocm",
+    "output": [
+      {
+        "type": "message",
+        "content": "  the  great  central  tnrone  of  the  Kathisma  was  the  place  in  which  the  emperor  showed  himself  most  frequently  to  his  subjects,  and  many  strange  scenes  were  enacted.  It was on  this  throne  that  the  1023, which  was  the  year  of  the  death  of  the  last  of  the  Western  11.  The  1023, which  was  the  year  of  the  death  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the  last  of  the "
+      }
+    ],
+    "stats": {
+      "input_tokens": 15788,
+      "total_output_tokens": 2048,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 28.389292113763926,
+      "time_to_first_token_seconds": 18.458226
+    }
+  }
+}

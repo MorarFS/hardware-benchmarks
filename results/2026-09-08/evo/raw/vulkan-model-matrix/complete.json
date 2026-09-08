@@ -1,0 +1,17 @@
+{
+  "time": "2026-09-08T10:20:37.051381+00:00",
+  "errors": [
+    {
+      "model": "ministral14",
+      "error": "depth 0: exit -15, timeout=True; inspect preserved stderr",
+      "traceback": "Traceback (most recent call last):\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 107, in <module>\n    state('measuring',model=name,depth=depth,repetitions=5,backend='Vulkan',speculation='OFF');measure(name,model,depth,folder)\n                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 76, in measure\n    if code or timed_out:raise RuntimeError(f'depth {depth}: exit {code}, timeout={timed_out}; inspect preserved stderr')\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: depth 0: exit -15, timeout=True; inspect preserved stderr\n",
+      "time": "2026-09-08T10:00:01.570043+00:00"
+    },
+    {
+      "model": "deepseek4-flash",
+      "error": "depth 0: exit -15, timeout=True; inspect preserved stderr",
+      "traceback": "Traceback (most recent call last):\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 107, in <module>\n    state('measuring',model=name,depth=depth,repetitions=5,backend='Vulkan',speculation='OFF');measure(name,model,depth,folder)\n                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 76, in measure\n    if code or timed_out:raise RuntimeError(f'depth {depth}: exit {code}, timeout={timed_out}; inspect preserved stderr')\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: depth 0: exit -15, timeout=True; inspect preserved stderr\n",
+      "time": "2026-09-08T10:16:57.359918+00:00"
+    }
+  ]
+}

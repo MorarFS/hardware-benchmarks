@@ -1,0 +1,17 @@
+ggml_cuda_init: found 1 ROCm devices (Total VRAM: 98304 MiB):
+  Device 0: Radeon 8060S Graphics, gfx1151 (0x1151), VMM: no, Wave Size: 32, VRAM: 98304 MiB
+load_backend: loaded ROCm backend from <BENCHMARK_ROOT>/upstream-b10852/rocm/llama-b10852/libggml-hip.so
+load_backend: loaded RPC backend from <BENCHMARK_ROOT>/upstream-b10852/rocm/llama-b10852/libggml-rpc.so
+load_backend: loaded CPU backend from <BENCHMARK_ROOT>/upstream-b10852/rocm/llama-b10852/libggml-cpu-zen4.so
+llama-bench: benchmark 1/1: starting
+llama-bench: benchmark 1/1: warmup generation run
+llama-bench: benchmark 1/1: depth run 1/5
+llama-bench: benchmark 1/1: generation run 1/5
+llama-bench: benchmark 1/1: depth run 2/5 (cached)
+llama-bench: benchmark 1/1: generation run 2/5
+llama-bench: benchmark 1/1: depth run 3/5 (cached)
+llama-bench: benchmark 1/1: generation run 3/5
+llama-bench: benchmark 1/1: depth run 4/5 (cached)
+llama-bench: benchmark 1/1: generation run 4/5
+llama-bench: benchmark 1/1: depth run 5/5 (cached)
+llama-bench: benchmark 1/1: generation run 5/5

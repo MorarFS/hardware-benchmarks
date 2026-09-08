@@ -31,3 +31,7 @@ No keyword score is presented as factual accuracy. Extraction needs source-backe
 Direct summaries and syntheses need claim ledgers and coverage review. Synthesis errors should distinguish new errors, inherited errors, and repeated manifestations. Unique error families are separate from total flagged claims. Coverage omissions do not automatically become factual contradictions.
 
 This small, deliberately selected pilot cannot establish whole-model research accuracy. Source matching does not certify historical truth. Generation completion is not a passing score. Accuracy results and final source adjudication are not included in this initial reusable package.
+
+## Subsequent Evo load-control resolution
+
+Before any held-out generation, the Evo wrapper resolved the CLI metadata gap. It applies explicit SDK seed42 and F16 settings. The server's observed raw load-config keys preserve parallel capacity1 and the configured MTP setting. Post-load SDK and native checks verify these values before requests. Earlier pre-inference failures are preserved. This changes implementation, not frozen inputs, prompts, references, or sampling. The portable API runner still relies on separately loaded settings and retains its documented verification limits.

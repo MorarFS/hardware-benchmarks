@@ -1,0 +1,1 @@
+By 530, the "Greens" functioned as Monophysite partisans of the late Emperor Anastasius's house, while the "Blues" identified as strictly orthodox supporters of the house of Justinus [p. 101]. Although these groups originated as circus factions, they had evolved into political parties prone to riot and mischief that posed a serious danger to the State [p. 101].

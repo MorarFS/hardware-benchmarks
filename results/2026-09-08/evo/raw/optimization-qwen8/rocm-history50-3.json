@@ -1,0 +1,62 @@
+{
+  "name": "rocm-history50-3",
+  "backend": "rocm",
+  "kind": "history50",
+  "trial": 3,
+  "model_resource": "Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 15788,
+    "total_output_tokens": 2048,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 28.39504794247915,
+    "time_to_first_token_seconds": 18.487068999999998
+  },
+  "wall_seconds": 91.0056087289995,
+  "first_visible_seconds": 18.913400748999265,
+  "visible_tokens": 2048,
+  "visible_phase_tps": 28.408063192739977,
+  "visible_total_wall_tps": 22.50410747867886,
+  "prompt_processing_seconds": 18.486045156001637,
+  "prompt_processing_tps": 854.0496286126568,
+  "stream_timing": {
+    "prompt_processing.start": 0.4270515579992207,
+    "prompt_processing.end": 18.913096714000858,
+    "first_visible_seconds": 18.913400748999265,
+    "last_visible_delta_seconds": 91.00354241600144,
+    "message.end": 91.00538993800001
+  },
+  "output_cap": true,
+  "actual_context_ok": true,
+  "output": "  the  2nd  century  A.D., and  is  now  the  14th  of  the 12th  century, the 13th  of  the  14th  of  the 15th  of  the 16th  of  the 17th  of  the 18th  of  the 19th  of  the 20th  of  the 21st  of  the 22nd  of  the 23rd  of  the 24th  of  the 25th  of  the 26th  of  the 27th  of  the 28th  of  the 29th  of  the 30th  of  the 31st  of  the 32nd  of  the 33rd  of  the 34th  of  the 35th  of  the 36th  of  the 37th  of  the 38th  of  the 39th  of  the 40th  of  the 41st  of  the 42nd  of  the 43rd  of  the 44th  of  the 45th  of  the 46th  of  the 47th  of  the 48th  of  the 49th  of  the 50th  of  the 51st  of  the 52nd  of  the 53rd  of  the 54th  of  the 55th  of  the 56th  of  the 57th  of  the 58th  of  the 59th  of  the 60th  of  the 61st  of  the 62nd  of  the 63rd  of  the 64th  of  the 65th  of  the 66th  of  the 67th  of  the 68th  of  the 69th  of  the 70th  of  the 71st  of  the 72nd  of  the 73rd  of  the 74th  of  the 75th  of  the 76th  of  the 77th  of  the 78th  of  the 79th  of  the 80th  of  the 81st  of  the 82nd  of  the 83rd  of  the 84th  of  the 85th  of  the 86th  of  the 87th  of  the 88th  of  the 89th  of  the 90th  of  the 91st  of  the 92nd  of  the 93rd  of  the 94th  of  the 95th  of  the 96th  of  the 97th  of  the 98th  of  the 99th  of  the 100th  of  the 101st  of  the 102nd  of  the 103rd  of  the 104th  of  the 105th  of  the 106th  of  the 107th  of  the 108th  of  the 109th  of  the 110th  of  the 111th  of  the 112th  of  the 113th  of  the 114th  of  the 115th  of  the 116th  of  the 117th  of  the 118th  of  the 119th  of  the 120th  of  the 121st  of  the 122nd  of  the 123rd  of  the 124th  of  the 125th  of  the 126th  of  the 127th  of  the 128th  of  the 129th  of  the 130th  of  the 131st  of  the 132nd  of  the 133rd  of  the 134th  of  the 135th  of  the 136th  of  the 137th  of  the 138th  of  the 139th  of  the 140th  of  the 141st  of  the 142nd  of  the 143rd  of  the 144th  of  the 145th  of  the 146th  of  the 147th  of  the 148th  of  the 149th  of  the 150th  of  the 151st  of  the 152nd  of  the 153rd  of  the 154th  of  the 155th  of  the 156th  of  the 157th  of  the 158th  of  the 159th  of  the 160th  of  the 161st  of  the 162nd  of  the 163rd  of  the 164th  of  the 165th  of  the 166th  of  the 167th  of  the 168th  of  the 169th  of  the 170th  of  the 171st  of  the 172nd  of  the 173rd  of  the 174th  of  the 175th  of  the 176th  of  the 177th  of  the 178th  of  the 179th  of  the 180th  of  the 181st  of  the 182nd  of  the 183rd  of  the 184th  of  the 185th  of  the 186th  of  the 187th  of  the 188th  of  the 189th  of  the 190th  of  the 191st  of  the 192nd  of  the 193rd  of  the 194th  of  the 195th  of  the 196th  of  the 197th  of  the 198th  of  the 199th  of  the 200th  of  the 201st  of  the 202nd  of  the 2. 203. 204. 205. 206. 207. 208. 209. 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223. 224. 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237. 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251. 252. 253. 254. 255. 256. 257. 258. 259. 260. 261. 262. 263. 264. 265. 266. 267. 268. 269. 270. 271. 272. 273. 274. 275. 276. 277. 278. 279.",
+  "peak_metrics": {
+    "system_available_bytes": 23694143488,
+    "system_used_excluding_available_bytes": 11692228608,
+    "card1_gtt_used_bytes": 138469376,
+    "system_total_bytes": 32721723392,
+    "runtime_largest_process_rss_bytes": 7609561088,
+    "swap_used_bytes": 3849592832,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 32.0,
+    "runtime_total_pss_bytes": 8019018752,
+    "llama_server_process_count": 1,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 12000960512
+  },
+  "response": {
+    "model_instance_id": "evo-amd-qwen8-rocm",
+    "output": [
+      {
+        "type": "message",
+        "content": "  the  2nd  century  A.D., and  is  now  the  14th  of  the 12th  century, the 13th  of  the  14th  of  the 15th  of  the 16th  of  the 17th  of  the 18th  of  the 19th  of  the 20th  of  the 21st  of  the 22nd  of  the 23rd  of  the 24th  of  the 25th  of  the 26th  of  the 27th  of  the 28th  of  the 29th  of  the 30th  of  the 31st  of  the 32nd  of  the 33rd  of  the 34th  of  the 35th  of  the 36th  of  the 37th  of  the 38th  of  the 39th  of  the 40th  of  the 41st  of  the 42nd  of  the 43rd  of  the 44th  of  the 45th  of  the 46th  of  the 47th  of  the 48th  of  the 49th  of  the 50th  of  the 51st  of  the 52nd  of  the 53rd  of  the 54th  of  the 55th  of  the 56th  of  the 57th  of  the 58th  of  the 59th  of  the 60th  of  the 61st  of  the 62nd  of  the 63rd  of  the 64th  of  the 65th  of  the 66th  of  the 67th  of  the 68th  of  the 69th  of  the 70th  of  the 71st  of  the 72nd  of  the 73rd  of  the 74th  of  the 75th  of  the 76th  of  the 77th  of  the 78th  of  the 79th  of  the 80th  of  the 81st  of  the 82nd  of  the 83rd  of  the 84th  of  the 85th  of  the 86th  of  the 87th  of  the 88th  of  the 89th  of  the 90th  of  the 91st  of  the 92nd  of  the 93rd  of  the 94th  of  the 95th  of  the 96th  of  the 97th  of  the 98th  of  the 99th  of  the 100th  of  the 101st  of  the 102nd  of  the 103rd  of  the 104th  of  the 105th  of  the 106th  of  the 107th  of  the 108th  of  the 109th  of  the 110th  of  the 111th  of  the 112th  of  the 113th  of  the 114th  of  the 115th  of  the 116th  of  the 117th  of  the 118th  of  the 119th  of  the 120th  of  the 121st  of  the 122nd  of  the 123rd  of  the 124th  of  the 125th  of  the 126th  of  the 127th  of  the 128th  of  the 129th  of  the 130th  of  the 131st  of  the 132nd  of  the 133rd  of  the 134th  of  the 135th  of  the 136th  of  the 137th  of  the 138th  of  the 139th  of  the 140th  of  the 141st  of  the 142nd  of  the 143rd  of  the 144th  of  the 145th  of  the 146th  of  the 147th  of  the 148th  of  the 149th  of  the 150th  of  the 151st  of  the 152nd  of  the 153rd  of  the 154th  of  the 155th  of  the 156th  of  the 157th  of  the 158th  of  the 159th  of  the 160th  of  the 161st  of  the 162nd  of  the 163rd  of  the 164th  of  the 165th  of  the 166th  of  the 167th  of  the 168th  of  the 169th  of  the 170th  of  the 171st  of  the 172nd  of  the 173rd  of  the 174th  of  the 175th  of  the 176th  of  the 177th  of  the 178th  of  the 179th  of  the 180th  of  the 181st  of  the 182nd  of  the 183rd  of  the 184th  of  the 185th  of  the 186th  of  the 187th  of  the 188th  of  the 189th  of  the 190th  of  the 191st  of  the 192nd  of  the 193rd  of  the 194th  of  the 195th  of  the 196th  of  the 197th  of  the 198th  of  the 199th  of  the 200th  of  the 201st  of  the 202nd  of  the 2. 203. 204. 205. 206. 207. 208. 209. 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223. 224. 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237. 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251. 252. 253. 254. 255. 256. 257. 258. 259. 260. 261. 262. 263. 264. 265. 266. 267. 268. 269. 270. 271. 272. 273. 274. 275. 276. 277. 278. 279."
+      }
+    ],
+    "stats": {
+      "input_tokens": 15788,
+      "total_output_tokens": 2048,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 28.39504794247915,
+      "time_to_first_token_seconds": 18.487068999999998
+    }
+  }
+}

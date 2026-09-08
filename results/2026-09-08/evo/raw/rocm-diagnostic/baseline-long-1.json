@@ -1,0 +1,60 @@
+{
+  "variant": "baseline",
+  "kind": "long",
+  "trial": 1,
+  "wall_seconds": 34.55275045599774,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "CEDAR-47 and LARCH-47 are the two record codes provided. CEDAR-47 refers to an event involving seven individuals, two of whom survived a hanging and entered sanctuary. The second record, LARCH-47, provides a shelf code but no further context. The source describes a chaotic incident where a mob disrupted an execution, leading to the survival of two criminals who were later taken into sanctuary at the adjacent monastery. The 120-word summary is based on the given text, with no additional information or citations to the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the"
+        }
+      }
+    ],
+    "created": 1788857821,
+    "model": "<LM_STUDIO_HOME>/models/Qwen/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+    "system_fingerprint": "b10852-050dde50c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 15819,
+      "total_tokens": 16331,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-iuNle82IDpqMrnkdLKbBJmWZ46JyqdUj",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 15819,
+      "prompt_ms": 17235.339,
+      "prompt_per_token_ms": 1.0895340413426893,
+      "prompt_per_second": 917.8235484663226,
+      "predicted_n": 512,
+      "predicted_ms": 17291.906,
+      "predicted_per_token_ms": 33.83934637964775,
+      "predicted_per_second": 29.551398209081174
+    }
+  },
+  "output": "CEDAR-47 and LARCH-47 are the two record codes provided. CEDAR-47 refers to an event involving seven individuals, two of whom survived a hanging and entered sanctuary. The second record, LARCH-47, provides a shelf code but no further context. The source describes a chaotic incident where a mob disrupted an execution, leading to the survival of two criminals who were later taken into sanctuary at the adjacent monastery. The 120-word summary is based on the given text, with no additional information or citations to the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the  the",
+  "record_codes_correct": false,
+  "capped": true,
+  "peak_metrics": {
+    "card1_gtt_used_bytes": 138469376,
+    "system_used_excluding_available_bytes": 5299851264,
+    "runtime_total_pss_bytes": 1250842624,
+    "card1_vram_total_bytes": 103079215104,
+    "system_available_bytes": 27432648704,
+    "runtime_largest_process_rss_bytes": 855871488,
+    "swap_used_bytes": 3843002368,
+    "cpu_percent": 7.9,
+    "system_total_bytes": 32721723392,
+    "card1_vram_used_bytes": 11955101696,
+    "card1_gtt_total_bytes": 16360861696,
+    "llama_server_process_count": 1
+  },
+  "quality": "Requires manual prose/source check; code extraction alone does not establish correctness"
+}

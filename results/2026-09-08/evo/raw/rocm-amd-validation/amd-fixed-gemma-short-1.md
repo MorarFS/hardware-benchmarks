@@ -1,0 +1,4 @@
+RECORD A: CEDAR-47
+RECORD B: LARCH-92
+
+In 532 A.D., the Byzantine Circus factions, the "Blues" and "Greens," evolved from sporting groups into dangerous political entities [p. 101]. The Greens were identified as Monophysites and supporters of the late Emperor Anastasius, while the Blues aligned with Justinus and orthodox ecclesiastical views [p. 101]. Following the execution of rioters in January, a botched hanging attempt led to six days of violent unrest [p. 102]. The factions united under the cry "Nika!" to demand the removal of officials John of Cappadocia and Eudemius [p. 102]. The author notes that the mob became uncontrollable, with some partisans even seeking to replace Justinian with Hypatius [p. 102]. Justinian's defense was limited as most troops were away at the Persian War [p. 102].

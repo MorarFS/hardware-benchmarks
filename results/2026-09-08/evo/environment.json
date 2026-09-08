@@ -1,0 +1,21 @@
+{
+  "os": {
+    "system": "Linux",
+    "release": "7.0.0-31-generic",
+    "architecture": "x86_64"
+  },
+  "vulkaninfo": {
+    "error": "[Errno 2] No such file or directory: 'vulkaninfo'"
+  },
+  "power": {
+    "returncode": 0,
+    "stdout": "balanced\n",
+    "stderr": ""
+  },
+  "mesa_packages": {
+    "returncode": 0,
+    "stdout": "libvulkan1:amd64\t1.4.341.0-1\nmesa-vulkan-drivers:amd64\t26.0.3-1ubuntu1\n",
+    "stderr": ""
+  },
+  "measurement_note": "Read-only environment receipt after the completed speed queue; no power/driver changes were made during this session."
+}

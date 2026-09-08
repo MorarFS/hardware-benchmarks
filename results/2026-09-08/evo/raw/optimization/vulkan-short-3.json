@@ -1,0 +1,62 @@
+{
+  "name": "vulkan-short-3",
+  "backend": "vulkan",
+  "kind": "short",
+  "trial": 3,
+  "model_resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "status": "ok",
+  "stats": {
+    "input_tokens": 1067,
+    "total_output_tokens": 486,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.94657427078998,
+    "time_to_first_token_seconds": 2.624182
+  },
+  "wall_seconds": 14.45313281899871,
+  "first_visible_seconds": 3.8950641589981387,
+  "visible_tokens": 485,
+  "visible_phase_tps": 45.93643171098432,
+  "visible_total_wall_tps": 33.55673860289066,
+  "prompt_processing_seconds": 2.623815047001699,
+  "prompt_processing_tps": 406.6597610297602,
+  "stream_timing": {
+    "prompt_processing.start": 1.271139486998436,
+    "prompt_processing.end": 3.894954534000135,
+    "first_visible_seconds": 3.8950641589981387,
+    "last_visible_delta_seconds": 14.42887160799728,
+    "message.end": 14.452839284997026
+  },
+  "output_cap": false,
+  "actual_context_ok": true,
+  "output": "Following the death of Theodora, Antonina and her husband lost imperial favor, experiencing a misfortune in their declining years similar to that of the Marlboroughs [p. 101]. \n\nThe year 532, which marked the end of the Persian War, also saw the rise of a significant danger to the Emperor’s power: the \"Blues\" and \"Greens\" [p. 101]. While these groups originated as circus factions, they had grown into political parties that interfered in politics and religious controversies [p. 101]. By 530, being a \"Green\" implied being a Monophysite and a partisan of the late Emperor Anastasius, whereas the \"Blues\" posed as orthodox partisans of the house of Justinus [p. 101]. The author notes that these factions were dominated by \"rougher elements\" prone to mischief and represented a \"serious danger to the State\" [p. 101].\n\nIn January 532, serious rioting broke out. Although Justinian typically favored the Blues, he ordered the execution of leaders from both sides [p. 101]. During the execution of seven selected rioters, four were beheaded before a mob at the monastery of St. Conon [p. 102]. An attempt to hang the remaining three failed twice—once due to a bungled task and once because the rope slipped under the pressure of the mob—allowing the half-hung criminals to seek sanctuary in the monastery [p. 102].\n\nThis incident triggered six days of desperate rioting. The Blues and Greens united under the watchword *\"Nika!\"* (\"conquer\"), demanding the deposition of the unpopular finance minister, John of Cappadocia, and the city prefect, Eudemius [p. 102]. Justinian promised to dismiss the officials, but the mob remained uncontrolled. The unrest was further fomented by partisans of the late emperor who called for Justinian’s deposition in favor of Hypatius, the nephew of Anastasius [p. 102]. Because the garrison had been sent to the Persian War, the city was nearly empty of troops, leaving the Emperor to rely on only 4,000 Imperial Guards, some German auxiliaries, and a regiment [p. 102].",
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 6332956672,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 21310443520,
+    "cpu_percent": 3.5,
+    "system_available_bytes": 26960908288,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 256008192,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 2898821120,
+    "swap_used_bytes": 3938516992,
+    "runtime_largest_process_rss_bytes": 2787115008
+  },
+  "response": {
+    "model_instance_id": "evo-amd-gemma26-vulkan",
+    "output": [
+      {
+        "type": "message",
+        "content": "Following the death of Theodora, Antonina and her husband lost imperial favor, experiencing a misfortune in their declining years similar to that of the Marlboroughs [p. 101]. \n\nThe year 532, which marked the end of the Persian War, also saw the rise of a significant danger to the Emperor’s power: the \"Blues\" and \"Greens\" [p. 101]. While these groups originated as circus factions, they had grown into political parties that interfered in politics and religious controversies [p. 101]. By 530, being a \"Green\" implied being a Monophysite and a partisan of the late Emperor Anastasius, whereas the \"Blues\" posed as orthodox partisans of the house of Justinus [p. 101]. The author notes that these factions were dominated by \"rougher elements\" prone to mischief and represented a \"serious danger to the State\" [p. 101].\n\nIn January 532, serious rioting broke out. Although Justinian typically favored the Blues, he ordered the execution of leaders from both sides [p. 101]. During the execution of seven selected rioters, four were beheaded before a mob at the monastery of St. Conon [p. 102]. An attempt to hang the remaining three failed twice—once due to a bungled task and once because the rope slipped under the pressure of the mob—allowing the half-hung criminals to seek sanctuary in the monastery [p. 102].\n\nThis incident triggered six days of desperate rioting. The Blues and Greens united under the watchword *\"Nika!\"* (\"conquer\"), demanding the deposition of the unpopular finance minister, John of Cappadocia, and the city prefect, Eudemius [p. 102]. Justinian promised to dismiss the officials, but the mob remained uncontrolled. The unrest was further fomented by partisans of the late emperor who called for Justinian’s deposition in favor of Hypatius, the nephew of Anastasius [p. 102]. Because the garrison had been sent to the Persian War, the city was nearly empty of troops, leaving the Emperor to rely on only 4,000 Imperial Guards, some German auxiliaries, and a regiment [p. 102]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 1067,
+      "total_output_tokens": 486,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.94657427078998,
+      "time_to_first_token_seconds": 2.624182
+    }
+  }
+}

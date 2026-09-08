@@ -1,0 +1,78 @@
+{
+  "wall_seconds": 9.900879701999656,
+  "requested": {
+    "contextLength": 65536,
+    "gpu": {
+      "ratio": 1.0
+    },
+    "offloadKVCacheToGpu": true,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16",
+    "seed": 42
+  },
+  "sdk_config": {
+    "gpu": {
+      "ratio": 1.0,
+      "splitStrategy": "evenly",
+      "disabledGpus": []
+    },
+    "offloadKVCacheToGpu": true,
+    "contextLength": 65536,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "seed": 42,
+    "numExperts": 8,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16"
+  },
+  "native_config": {
+    "id": "evo-amd-gemma26-rocm",
+    "config": {
+      "context_length": 65536,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 4,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": false,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 8,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "libraries": [
+    {
+      "pid": 105576,
+      "libraries": [
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml-base.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml-cpu.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml-hip.so",
+        "<LM_STUDIO_HOME>/extensions/backends/llama.cpp-linux-x86_64-amd-rocm-avx2-2.33.0/libggml_llamacpp.so",
+        "<LM_STUDIO_HOME>/extensions/backends/vendor/linux-llama-rocm-vendor-v4/libamdhip64.so.7.2.70204",
+        "<LM_STUDIO_HOME>/extensions/backends/vendor/linux-llama-rocm-vendor-v4/librocblas.so.5.2.70204"
+      ]
+    }
+  ],
+  "peak_metrics": {
+    "system_used_excluding_available_bytes": 3850137600,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 2102718464,
+    "cpu_percent": 5.9,
+    "system_available_bytes": 29397016576,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 138436608,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 16670367744,
+    "swap_used_bytes": 4298981376,
+    "runtime_largest_process_rss_bytes": 16437415936
+  }
+}

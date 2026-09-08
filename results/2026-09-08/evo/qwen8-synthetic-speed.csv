@@ -1,0 +1,10 @@
+backend,build,build_number,test,depth,mean_tps,stddev_tps,repetitions,gpu,status
+vulkan,050dde50c,10852,pp512,0,1237.734864,5.215876,5,Radeon 8060S Graphics (RADV STRIX_HALO),Reference build; raw compute only
+vulkan,050dde50c,10852,tg256,0,43.624392,0.049044,5,Radeon 8060S Graphics (RADV STRIX_HALO),Reference build; raw compute only
+vulkan,050dde50c,10852,tg256,2048,40.895875,0.083883,5,Radeon 8060S Graphics (RADV STRIX_HALO),Reference build; raw compute only
+rocm,050dde50c,10852,pp512,0,1218.518122,30.652105,5,Radeon 8060S Graphics,Raw compute only; this backend failed prose validation
+rocm,050dde50c,10852,tg256,0,42.703797,0.130322,5,Radeon 8060S Graphics,Raw compute only; this backend failed prose validation
+rocm,050dde50c,10852,tg256,2048,40.212562,0.099494,5,Radeon 8060S Graphics,Raw compute only; this backend failed prose validation
+amd-fixed,03d2068a1,10606,pp512,0,1376.085674,50.71676,5,AMD Radeon 8060S Graphics,Prose corruption resolved in separate bounded validation; different source build
+amd-fixed,03d2068a1,10606,tg256,0,43.509786,0.101203,5,AMD Radeon 8060S Graphics,Prose corruption resolved in separate bounded validation; different source build
+amd-fixed,03d2068a1,10606,tg256,2048,40.197259,0.39253,5,AMD Radeon 8060S Graphics,Prose corruption resolved in separate bounded validation; different source build
