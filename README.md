@@ -2,7 +2,7 @@
 
 Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model. These measure this complete machine and software configuration, including the external GPU connection.
 
-**Preliminary snapshot:** Intel Vulkan's unusual depth-0 result needs a repeat. Intel SYCL completed both depths; a depth-0 repeat is planned because its first sample was slower. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
+**8B comparison completed:** Intel Vulkan and SYCL were repeated at depth 0; initial and repeat results are retained separately. SYCL produced the highest measured generation throughput among the working backends in these tests. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
 
 ## Hardware and setup
 
@@ -34,9 +34,13 @@ The Intel workstation driver was installed from Intel's official package after s
 | intel-sycl-depth0 | Prompt processing 512 | 0 | 1172.082569 | 47.775965 |
 | intel-sycl-depth0 | Generation 256 | 0 | 77.695988 | 10.265358 |
 | intel-sycl-depth2048 | Generation 256 | 2048 | 72.838920 | 0.272410 |
+| intel-sycl-repeat-depth0 | Prompt processing 512 | 0 | 1252.820604 | 3.004581 |
+| intel-sycl-repeat-depth0 | Generation 256 | 0 | 83.505046 | 0.270528 |
 | intel-vulkan-depth0 | Prompt processing 512 | 0 | 2548.869875 | 223.324914 |
 | intel-vulkan-depth0 | Generation 256 | 0 | 20.229451 | 0.169184 |
 | intel-vulkan-depth2048 | Generation 256 | 2048 | 45.686410 | 0.089258 |
+| intel-vulkan-repeat-depth0 | Prompt processing 512 | 0 | 2945.253634 | 46.040867 |
+| intel-vulkan-repeat-depth0 | Generation 256 | 0 | 20.430074 | 0.127100 |
 | nvidia-cuda-depth0 | Prompt processing 512 | 0 | 2499.242882 | 198.107840 |
 | nvidia-cuda-depth0 | Generation 256 | 0 | 67.091562 | 0.795381 |
 | nvidia-cuda-depth2048 | Generation 256 | 2048 | 62.005866 | 1.415181 |
@@ -44,7 +48,7 @@ The Intel workstation driver was installed from Intel's official package after s
 | nvidia-vulkan-depth0 | Generation 256 | 0 | 64.397618 | 1.155568 |
 | nvidia-vulkan-depth2048 | Generation 256 | 2048 | 60.081314 | 0.145006 |
 
-The Intel depth-0 Vulkan figure is retained exactly as measured, pending investigation. Do not treat its difference from depth 2,048 as an established context-length effect. Vulkan provides a common-backend comparison; CUDA and SYCL add vendor-specific backends. SYCL depth-0 generation samples were 59.3363, 81.9580, 82.3074, 82.4912 and 82.3871 tokens/s; all five are retained in the reported mean, with no outlier removal.
+Intel Vulkan depth-0 generation repeated at 20.430074 tokens/s (SD 0.127100), close to its initial 20.229451. Its difference from depth 2,048 remains unexplained; this does not establish a general context-length effect. SYCL depth-0 generation repeated at 83.505046 tokens/s (SD 0.270528). Both repeat logs confirmed 37/37 layers offloaded. Vulkan provides a common-backend comparison; CUDA and SYCL add vendor-specific backends. SYCL depth-0 generation samples were 59.3363, 81.9580, 82.3074, 82.4912 and 82.3871 tokens/s; all five are retained in the reported mean, with no outlier removal.
 
 Machine-readable JSON in `results/2026-09-08/` retains original measured values and samples. Only the model path is replaced with its basename. Original `gpu_info` lists enumerated adapters, not necessarily the selected GPU: use `devices` and the clean summary's `selected_gpu`. Intel Vulkan selected `Vulkan1`; NVIDIA Vulkan selected `Vulkan2`; NVIDIA CUDA selected `CUDA0`; Intel SYCL selected `SYCL0`.
 
@@ -72,7 +76,7 @@ One laptop, one model/quantization, one session and short generation tests canno
 
 OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
-A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32 GB VRAM. It is pending; no larger-model fit or throughput result has been established. Additional completed runs and repeats will be labeled separately rather than silently replacing these observations.
+A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32 GB VRAM. The official model download is in progress; no larger-model fit or throughput result has been established. Additional completed runs and repeats will be labeled separately rather than silently replacing these observations.
 
 ## Sources
 
@@ -80,6 +84,7 @@ A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
+
 
 
 
