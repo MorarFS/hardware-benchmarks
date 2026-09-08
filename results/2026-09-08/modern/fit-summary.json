@@ -1,0 +1,18 @@
+[
+  {
+    "model": "Gemma 4 26B-A4B Instruct Q4_K_M",
+    "run": "intel-sycl-gemma4-26b-depth0",
+    "offloaded_layers": 31,
+    "total_layers": 31,
+    "peak_dedicated_gib": 17.21410369873047,
+    "peak_shared_gib": 0.055816650390625
+  },
+  {
+    "model": "Gemma 4 26B-A4B Instruct Q4_K_M",
+    "run": "intel-sycl-gemma4-26b-depth2048",
+    "offloaded_layers": 31,
+    "total_layers": 31,
+    "peak_dedicated_gib": 17.65715789794922,
+    "peak_shared_gib": 0.055877685546875
+  }
+]

@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('qwen3-8b','nemotron-49b')][string]$ModelId = 'qwen3-8b',
+    [ValidateSet('qwen3-8b','nemotron-49b','gemma4-26b','qwen36-35b','qwen38-27b')][string]$ModelId = 'qwen3-8b',
     [string]$Destination = (Join-Path $PSScriptRoot '../work')
 )
 $ErrorActionPreference = 'Stop'
@@ -16,3 +16,4 @@ if (!(Test-Path -LiteralPath $target)) {
 }
 if ((Get-FileHash -LiteralPath $target -Algorithm SHA256).Hash -ne $expected) { throw 'Existing model SHA-256 mismatch.' }
 Write-Host "Verified $name"
+

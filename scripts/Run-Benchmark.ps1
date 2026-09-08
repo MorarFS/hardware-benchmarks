@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory)][string]$Executable,
     [Parameter(Mandatory)][string]$Device,
     [Parameter(Mandatory)][ValidatePattern('^[a-z0-9-]+$')][string]$RunName,
-    [ValidateSet('qwen3-8b','nemotron-49b')][string]$ModelId = 'qwen3-8b',
+    [ValidateSet('qwen3-8b','nemotron-49b','gemma4-26b','qwen36-35b','qwen38-27b')][string]$ModelId = 'qwen3-8b',
     [string]$Model,
     [string]$OutputRoot = (Join-Path $PSScriptRoot '../local-results'),
     [ValidateRange(1,100)][int]$Repetitions = 5,
@@ -36,7 +36,7 @@ foreach ($depth in @(0,2048)) {
         $benchExitCode = $LASTEXITCODE
     }
     if ($benchExitCode -ne 0) { throw "Benchmark failed; inspect local log: $stem.log" }
-    if ($ModelId -eq 'nemotron-49b') {
+    if ($ModelId -ne 'qwen3-8b') {
         $offload = [regex]::Match((Get-Content -LiteralPath ($stem + '.log') -Raw), 'offloaded\s+(\d+)/(\d+)\s+layers to GPU')
         if (!$offload.Success -or [int]$offload.Groups[1].Value -eq 0 -or $offload.Groups[1].Value -ne $offload.Groups[2].Value) {
             throw 'Full GPU layer offload was not confirmed. Do not report this as a full-GPU capacity result.'
@@ -48,3 +48,4 @@ foreach ($depth in @(0,2048)) {
     ConvertTo-Json -InputObject $entries -Depth 10 | Set-Content -LiteralPath ($stem + '.json') -Encoding utf8
 }
 Write-Host "Results: $resultDirectory. Inspect logs to verify the selected GPU handled the workload before publishing."
+

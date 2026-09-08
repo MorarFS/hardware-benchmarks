@@ -1,0 +1,4 @@
+"run","test","depth","selected_gpu","device","backend","mean_tokens_per_second","sd_tokens_per_second"
+"intel-sycl-gemma4-26b-depth0","Prompt processing 512","0","Intel Arc Pro B70","SYCL0","SYCL","1089.895706","96.083135"
+"intel-sycl-gemma4-26b-depth0","Generation 256","0","Intel Arc Pro B70","SYCL0","SYCL","64.27429","0.174561"
+"intel-sycl-gemma4-26b-depth2048","Generation 256","2048","Intel Arc Pro B70","SYCL0","SYCL","56.677035","0.041391"
