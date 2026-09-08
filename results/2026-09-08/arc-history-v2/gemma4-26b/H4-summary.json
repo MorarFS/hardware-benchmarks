@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 3.953348899998673,
+  "status": "ok",
+  "output": "The author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history that no longer serves as an important thread in Christendom [PDF p. 358]. The era began with the reign of John Paleologus, whose long life was vexed by the rebellion of his son, Andronicus [PDF p. 359]. After John died in 1391, he left the throne to his second son, Manuel II [PDF p. 359]. Although Manuel showed signs of capacity, he lacked the military strength to resist the Turks [PDF p. 360]. A temporary opportunity for liberation arose in 1402 when the conqueror Timour defeated Sultan Bayezid at Angora, causing the Ottoman Empire to fracture into civil war [PDF p. 360]. Manuel exploited this strife to sell his aid to Suleiman for a heavy price, regaining several territories [PDF p. 361]. However, the author notes that Europe failed to seize this unparalleled opportunity to expel the Ottomans [PDF p. 362].\n\nThe middle period saw the rise of Mohammed, a man of genius who reunited the Ottoman realm by 1421 [PDF p. 362]. This shift forced Manuel to cede his recovered lands back to the Sultan in 1422 [PDF p. 365]. Following Manuel's death, his son John VI presided over a period of unredeemed gloom [PDF p. 365]. The author describes a state of extreme exhaustion where the empire's population had shrunk and its wealth had passed to Italian merchants [PDF p. 366]. John VI attempted to secure Western aid by converting to Roman Catholicism at the Council of Florence in 1439, but the author evaluates this as a poor return, as the papacy was too discredited and preoccupied to provide significant help [PDF p. 367].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 412,
+    "prompt_tokens": 3998,
+    "total_tokens": 4410,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3998,
+    "prompt_ms": 3545.291,
+    "prompt_per_token_ms": 0.8867661330665333,
+    "prompt_per_second": 1127.6930440970852,
+    "predicted_n": 412,
+    "predicted_ms": 7506.115,
+    "predicted_per_token_ms": 18.263053527980535,
+    "predicted_per_second": 54.755356132966256
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 11.464894299999287,
+  "word_count": 284,
+  "name": "H4-summary",
+  "fingerprint": "9e9ce6771e5ca7b31aa3b72bdaf26709d9d0db9b3a360a8a9b756bda981b05e4",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:08:19.143825+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 15.071200000002136,
+  "status": "ok",
+  "output": "H2-Q1: The monk Telemachus intervened in AD 404, and he was slain during an angry scuffle. \"One day in A.D. 404 the games had begun... the monk Telemachus leapt down into the arena... the good monk was slain.\" [PDF p. 171]\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence.\" [PDF p. 173]\n\nH2-Q3: No, the passage states that slavery was not extinguished for centuries. \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173]\n\nH2-Q4: Oman regarded it as dangerous because men stepped aside from state burdens, leaving the empire hampered in its fight against barbarians. \"It was by thousands and ten thousands that the men who ought to have been bearing the burdens of the State, stepped aside into the monastery\" [PDF p. 174]\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 259,
+    "prompt_tokens": 3733,
+    "total_tokens": 3992,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3733,
+    "prompt_ms": 14703.248,
+    "prompt_per_token_ms": 3.9387216715778193,
+    "prompt_per_second": 253.88948074602294,
+    "predicted_n": 259,
+    "predicted_ms": 12819.727,
+    "predicted_per_token_ms": 49.68886434108527,
+    "predicted_per_second": 20.125233556065584
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 27.896661500002665,
+  "word_count": 156,
+  "name": "H2-extraction",
+  "fingerprint": "85dc7fdfdceb9e6994f69bbd73ffb09c559fc5a5d76502b6a728cf53e8a269dd",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:13:19.349331+00:00"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "model": "gemma4-26b",
+    "requests": 12,
+    "ok": 12,
+    "generated_tokens": 5084,
+    "weighted_server_decode_tps": 52.19946994539026,
+    "median_first_visible_seconds": 4.075077800000145,
+    "total_request_seconds": 156.11117489999742,
+    "word_target_passes": 4,
+    "word_target_requests": 7
+  },
+  {
+    "model": "qwen36-35b",
+    "requests": 12,
+    "ok": 12,
+    "generated_tokens": 4993,
+    "weighted_server_decode_tps": 68.38654044955665,
+    "median_first_visible_seconds": 4.886018449999028,
+    "total_request_seconds": 139.0002983000013,
+    "word_target_passes": 1,
+    "word_target_requests": 7
+  },
+  {
+    "model": "qwen38-27b",
+    "requests": 12,
+    "ok": 12,
+    "generated_tokens": 6143,
+    "weighted_server_decode_tps": 19.943628455974252,
+    "median_first_visible_seconds": 12.7057099499998,
+    "total_request_seconds": 490.3491911999954,
+    "word_target_passes": 0,
+    "word_target_requests": 7
+  }
+]

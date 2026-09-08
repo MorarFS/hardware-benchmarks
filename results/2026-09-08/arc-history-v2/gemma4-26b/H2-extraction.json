@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 3.7468771999992896,
+  "status": "ok",
+  "output": "H2-Q1: The monk Telemachus intervened in the gladiatorial games in A.D. 404 and was killed during an angry scuffle. \"One day in A.D. 404 the games had begun, and the gladiators were about to engage, when the monk Telemachus leapt down into the arena and threw himself between the combatants, adjuring them not to slay their brethren. There was an angry scuffle, and the good monk was slain.\" [PDF p. 171]\n\nH2-Q2: Valentinian I. made infanticide a capital offence in 374. \"and Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence.\" [PDF p. 173]\n\nH2-Q3: No, the passage states that slavery was not extinguished for centuries. \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173]\n\nH2-Q4: It was considered dangerous because large numbers of men were retiring from their duties as citizens to focus solely on saving their own souls. \"When men retire from their duties as citizens, intent on nothing but on saving their own souls, take up a position outside the State, and cease to be of the slightest use to society, the result may be harmless so long as their numbers are small. But at this time the monastic impulse was working on such a large scale that its development was positively dangerous.\" [PDF p. 174]\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 345,
+    "prompt_tokens": 3744,
+    "total_tokens": 4089,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3744,
+    "prompt_ms": 3430.849,
+    "prompt_per_token_ms": 0.9163592414529915,
+    "prompt_per_second": 1091.2750750615955,
+    "predicted_n": 345,
+    "predicted_ms": 6217.395,
+    "predicted_per_token_ms": 18.073822674418604,
+    "predicted_per_second": 55.32863844101911
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 9.977786299998115,
+  "word_count": 230,
+  "name": "H2-extraction",
+  "fingerprint": "8c1c0230dbfe836baa04de47f541e37d8da6cc903096ca9fe271b3b6a89d5a28",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:07:25.881125+00:00"
+}

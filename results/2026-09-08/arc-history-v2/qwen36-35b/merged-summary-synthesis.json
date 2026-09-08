@@ -1,0 +1,41 @@
+{
+  "first_visible_seconds": 2.401737799998955,
+  "status": "ok",
+  "output": "The author argues that Constantine’s strategic foresight in establishing Constantinople proved prescient as the Huns invaded Europe around 372 A.D. [PDF p. 61]. The Huns first destroyed the Alans and subjugated the Ostrogoths before forcing the Visigoths to flee toward the Danube [PDF p. 61]. In 376, the desperate Visigoths, numbering nearly 200,000, petitioned Emperor Valens for asylum [PDF p. 62]. The author characterizes Valens as a cowardly and avaricious ruler who reluctantly permitted the Goths to cross the river as subject allies [PDF p. 62]. However, Roman officials, particularly Governor Lupicinus, betrayed the agreement by withholding food and accepting bribes to allow the Goths to retain their weapons [PDF p. 63]. This extortion led to starvation and the sale of children, sparking a violent revolt after Lupicinus attempted to assassinate Gothic leaders [PDF p. 64].\n\nThe conflict escalated into a year of fierce fighting along the Danube [PDF p. 64]. In 378, Emperor Valens launched a major offensive against the Goths near Adrianople [PDF p. 65]. The author notes that the Goths had adopted cavalry tactics, which proved decisive when their horsemen arrived to reinforce the infantry [PDF p. 66]. The Gothic cavalry crushed the Roman flanks, causing the imperial army to collapse into a suffocating melee [PDF p. 66]. Valens and forty thousand soldiers died in what the author describes as the most fearful defeat since Cannae [PDF p. 67]. Although the victorious Goths marched on Constantinople, they abandoned the siege upon seeing the city’s massive walls [PDF p. 67].\n\nThe author argues that Latin decayed in the East due to practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin knowledge was rare among educated men [PDF p. 169]. Justinian was the last emperor to speak Latin natively [PDF p. 169]. The author attributes this linguistic shift to the division of the empire and the extermination of Latin-speaking populations by Slavs [PDF p. 170]. Only Africa and the Italian Exarchate retained significant Latin speakers [PDF p. 170]. Simultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly under Constantine [PDF p. 171]. Theodosius I initiated state suppression of moral sins [PDF p. 171]. The author credits the monk Telemachus with ending gladiatorial games through his martyrdom in 404 [PDF p. 171]. Christianity also ended infanticide and modified slavery by emphasizing the soul’s equality [PDF p. 173]. Justinian’s laws reflected this shift by permitting slave-free intermarriage [PDF p. 173]. However, the author evaluates the rise of monasticism as dangerous to the state [PDF p. 174]. He claims ascetics neglected civic duties and viewed barbarian invasions as divine judgments [PDF p. 175]. This apathy angered pagans who blamed Christianity for the empire’s ruin [PDF p. 176]. The author praises governing classes for maintaining Roman statecraft despite these pressures [PDF p. 176]. Paganism disappeared by the fifth century, though indifference persisted among educated Christians [PDF p. 176].\n\nThe author characterizes the eighty years following Basil the Macedonian’s death as the most monotonous in imperial history, dominated by the literary reigns of Leo VI and Constantine VII [PDF p. 241]. While Basil was a capable upstart, his successors were mild men of letters who preferred the pen to the sword [PDF p. 241]. The author argues that these emperors lacked the strength to protect their thrones had times been harder, yet the period from 880 to 960 was unusually free from major foreign wars [PDF p. 242]. Only minor piratical raids from Russians and Saracens troubled the realm, which the author deems vexatious but not dangerous [PDF p. 242]. The capture of Thessalonica by Saracens in 904 is described as a disgraceful administrative failure, though the author notes the city was taken by surprise [PDF p. 242]. Constantine VII spent his youth under regents, including Alexander and Romanus Lecapenus, before emerging to rule after popular revolt against the Lecapeni [PDF p. 243]. The author views Constantine as weak but not tyrannical, noting that many abler men made worse rulers [PDF p. 243]. The primary achievements of both emperors were their writings [PDF p. 243]. Leo’s *Tactica* provides a detailed picture of the Byzantine army, which the author praises for its organization, uniformity, and care for the wounded [PDF p. 244-245]. Constantine’s works, including *On the Themes* and *On the Administration of the Empire*, are deemed invaluable for historical detail [PDF p. 246]. The author concludes that these literary efforts signal the end of the intellectual dearth that had plagued Byzantium since the seventh century [PDF p. 247].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 1185,
+    "prompt_tokens": 1774,
+    "total_tokens": 2959,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1774,
+    "prompt_ms": 2274.161,
+    "prompt_per_token_ms": 1.2819396843291997,
+    "prompt_per_second": 780.0679019647246,
+    "predicted_n": 1185,
+    "predicted_ms": 16627.914,
+    "predicted_per_token_ms": 14.043846283783784,
+    "predicted_per_second": 71.20556432995744
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 19.030015899999853,
+  "word_count": 762,
+  "name": "merged-summary-synthesis",
+  "fingerprint": "507668a7f72ec384233d228007d8d565b9873b29560ada3b550813e1dda5b73c",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:03:57.229500+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 11.691015699998388,
+  "status": "ok",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the empire’s most uneventful period, dominated by the reigns of Leo the Wise and Constantine Porphyrogenitus [PDF p. 241]. While Basil was a capable but uneducated adventurer, his successors were mild, literary men who prioritized writing over military conquest [PDF p. 241]. The author notes that the period 880–960 was relatively peaceful, with external threats limited to vexatious but non-dangerous raids by Russians and Saracens [PDF p. 242]. Leo’s twenty-six-year reign was marked by a failed Bulgarian invasion and the disgraceful 904 Saracen capture of Thessalonica, which the author qualifies as a surprise attack that could have been prevented with better timing [PDF p. 242].\n\nConstantine, who became emperor at seven, spent decades under the regency of Alexander and later the usurper Romanus Lecapenus [PDF p. 243]. He only gained full power near age forty after popular outrage forced Romanus’s sons into monasteries [PDF p. 243]. The author describes Constantine as weak but not tyrannical [PDF p. 243]. Both emperors produced significant literary works. Leo’s *Tactica* provides a detailed picture of the Byzantine army, which the author praises for its modern-like organization, uniformity, and care for wounded soldiers [PDF p. 244]. The author also highlights Leo’s strategic advice, recommending decisive action against eastern foes but caution against western Franks and Lombards [PDF p. 245].\n\nConstantine’s works, including *On the Themes* and *On the Administration of the Empire*, are deemed invaluable for historical data [PDF p. 246]. The author evaluates Constantine as a methodical compiler rather than an originative thinker, noting his focus on court ceremonies compensated for his lack of real power [PDF p. 246]. Finally, the author argues that these emperors’ literary output signals the end of Byzantine intellectual decline, which had persisted since the Heraclian dynasty [PDF p. 247].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 472,
+    "prompt_tokens": 3275,
+    "total_tokens": 3747,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3275,
+    "prompt_ms": 11444.589,
+    "prompt_per_token_ms": 3.4945309923664123,
+    "prompt_per_second": 286.1614340191684,
+    "predicted_n": 472,
+    "predicted_ms": 23402.164,
+    "predicted_per_token_ms": 49.68612314225053,
+    "predicted_per_second": 20.1263438714471
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 35.09420569999929,
+  "word_count": 303,
+  "name": "H3-summary",
+  "fingerprint": "5b02dd88e8007fd94b0e56bf57709290060a02687dbbfea04858cd843be82c32",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:14:57.327320+00:00"
+}

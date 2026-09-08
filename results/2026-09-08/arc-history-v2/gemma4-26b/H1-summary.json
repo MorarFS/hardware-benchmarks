@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 3.3006896000006236,
+  "status": "ok",
+  "output": "Around A.D. 372, the Huns moved westward, nearly exterminating the Alans and crushing the Ostrogoths [PDF p. 61]. The Visigoths, fleeing the Huns, reached the Danube and requested permission from the Emperor to cross the border [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. Valens allowed the Goths to settle as subject-allies provided they surrendered their arms and gave hostages [PDF p. 63]. However, Roman officials accepted bribes to let the Goths retain weapons, and the governor Lupicinus engaged in shameless extortion by withholding food [PDF p. 63]. This desperation led to a violent affray at Marcianopolis, prompting Fritigern to lead the Goths in an armed revolt against Rome [PDF p. 63].\n\nThe conflict escalated into a year of fighting, eventually leading Valens to personally lead an army against the Goths in A.D. 378 [PDF p. 64]. During the Battle of Adrianople, Gothic cavalry charged the Roman flank, causing a catastrophic collapse of the Roman infantry [PDF p. 66]. The author describes this as the most fearful Roman defeat since Cannae, resulting in the death of Valens and forty thousand men [PDF p. 67]. Although the Goths approached Constantinople, they failed to attack the city walls [PDF p. 67].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 322,
+    "prompt_tokens": 3442,
+    "total_tokens": 3764,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3442,
+    "prompt_ms": 3049.231,
+    "prompt_per_token_ms": 0.8858893085415457,
+    "prompt_per_second": 1128.8091981224118,
+    "predicted_n": 322,
+    "predicted_ms": 5798.095,
+    "predicted_per_token_ms": 18.06260124610592,
+    "predicted_per_second": 55.36301147187136
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 9.098932299999433,
+  "word_count": 211,
+  "name": "H1-summary",
+  "fingerprint": "f89ac977f954759619d9cdaa8f5b828cddb504107d0efbe210ced432487e4878",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:07:15.898263+00:00"
+}

@@ -1,0 +1,13 @@
+0.00.687.914 I cmn  common_param:   - SYCL0   : Intel(R) Arc(TM) Pro B70 Graphics (32614 MiB, 32543 MiB free)
+0.00.835.353 I llama_prepare_model_devices: using device SYCL0 (Intel(R) Arc(TM) Pro B70 Graphics) (unknown id) - 32543 MiB free
+0.01.133.069 I print_info: n_ctx_train           = 262144
+0.01.133.230 I print_info: n_ctx_orig_yarn       = 262144
+0.02.240.910 I load_tensors: offloaded 41/41 layers to GPU
+0.02.240.917 I load_tensors:   CPU_Mapped model buffer size =   515.31 MiB
+0.02.240.918 I load_tensors:        SYCL0 model buffer size = 20583.34 MiB
+0.40.825.862 I llama_context: n_ctx                 = 65536
+0.40.825.863 I llama_context: n_ctx_seq             = 65536
+0.40.825.976 I llama_context: n_ctx_seq (65536) < n_ctx_train (262144) -- the full capacity of the model will not be utilized
+0.40.856.281 I llama_kv_cache:      SYCL0 KV buffer size =  1280.00 MiB
+1.40.583.241 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 65536, kv_unified = 'false'
+1.40.583.476 I slot   load_model: id  0 | task -1 | new slot, n_ctx = 65536

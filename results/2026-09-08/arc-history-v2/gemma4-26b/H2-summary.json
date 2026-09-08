@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 5.077227900001162,
+  "status": "ok",
+  "output": "The Latin language declined in the East as the Roman element vanished by the seventh century [PDF p. 169]. The author notes that while official titles like \"patrician\" survived, they became mere names [PDF p. 169]. This decay resulted from the division of the empire and the isolation of the East from the Latin West [PDF p. 170]. Furthermore, the author observes that the process was accelerated because the Latin-speaking provinces suffered most from barbarian incursions, such as those by the Visigoths, Ostrogoths, and Slavs [PDF p. 170]. By A.D. 620, less than one-tenth of the provincials east of the Adriatic spoke Latin [PDF p. 170].\n\nSimultaneously, the empire became increasingly Christian [PDF p. 171]. The author evaluates this shift as having improved the conditions of vulnerable classes, such as infants and slaves, by emphasizing the importance of the individual soul [PDF p. 172, 173]. However, the author characterizes the rise of ascetic monasticism as \"positively dangerous\" because it led thousands to abandon civic duties [PDF p. 174]. The author judges that this apathetic attitude toward state calamities hampered the empire's fight against barbarians [PDF p. 175]. Ultimately, while paganism disappeared by the end of the fifth century, a widespread indifference prevailed among the educated classes [PDF p. 176].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 319,
+    "prompt_tokens": 3642,
+    "total_tokens": 3961,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3642,
+    "prompt_ms": 4793.997,
+    "prompt_per_token_ms": 1.3163088962108733,
+    "prompt_per_second": 759.7000999374842,
+    "predicted_n": 319,
+    "predicted_ms": 6515.786,
+    "predicted_per_token_ms": 20.489893081761007,
+    "predicted_per_second": 48.804549443459315
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 11.593634699998802,
+  "word_count": 209,
+  "name": "H2-summary",
+  "fingerprint": "1ac0a8520e59e06f4b9a145b88519a34e7de5eed3d43f33a016281bf9363a2d6",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:07:37.479373+00:00"
+}

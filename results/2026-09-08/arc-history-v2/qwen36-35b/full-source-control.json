@@ -1,0 +1,40 @@
+{
+  "first_visible_seconds": 16.13014420000036,
+  "status": "ok",
+  "output": "The narrative begins with the Huns’ westward expansion around A.D. 372, which crushed the Ostrogoths and forced the Visigoths to seek refuge within the Roman Empire (p. 61). Pressed against the Danube, the Visigoths, numbering nearly 200,000, petitioned Emperor Valens for entry in A.D. 376 (p. 62). Valens, described as cowardly and avaricious, agreed to their settlement as subject-allies in exchange for hostages and the surrender of arms (p. 63). However, corruption among Roman officials, particularly Governor Lupicinus, led to severe food shortages and extortion, driving the Goths to desperation (p. 63). A banquet incident at Marcianopolis, where Lupicinus attempted to assassinate the Gothic leader Fritigern, triggered an open revolt (p. 64). The ensuing conflict culminated in the Battle of Adrianople in A.D. 378, where Valens’ infantry was annihilated by Gothic cavalry, marking a catastrophic defeat for Rome (pp. 65–67). This disaster allowed the Goths to threaten Constantinople, yet they ultimately abandoned the siege due to the city’s formidable walls, validating Constantine’s earlier strategic foresight (p. 67).\n\nThe long-term consequences of these invasions included the gradual decline of Latin in the Balkans, replaced by Greek and later Slavonic languages (pp. 169–170). Concurrently, the rise of Christianity transformed social structures by abolishing infanticide and modifying the harshness of slavery, though it also fostered a monastic culture that some authors argue weakened the state’s civic duty (pp. 171–175). This period of internal transformation was followed by a century of relative stability under the Macedonian dynasty, specifically the reigns of Leo VI and Constantine VII (p. 241). These \"literary emperors\" produced significant works, including Leo’s *Tactica*, which detailed a highly organized Byzantine military and naval system, and Constantine’s administrative manuals, which preserved vital information on the empire’s themes and foreign policy (pp. 243–247).\n\nBy the late fourteenth century, the empire had shrunk to a rump state centered on Constantinople, having lost its role as the primary bulwark against the Ottomans (p. 358). Emperor Manuel II briefly capitalized on the Ottoman civil war following Tamerlane’s victory at Angora in 1402 to regain territories, but these gains were reversed when Murad II unified the Turkish realm (pp. 360–362). Subsequent sieges by Murad II and the eventual loss of Thessalonica to the Venetians and then the Ottomans further isolated Constantinople (pp. 363–367). The city’s population dwindled, its infrastructure decayed, and its military strength relied on unreliable mercenaries (p. 366).\n\nIn the final decades, Emperor John VIII Paleologus sought Western aid by converting to Roman Catholicism at the Council of Florence in 1439 (p. 371). However, the papacy, weakened by internal schisms, could offer only minimal financial and military support, failing to prevent the empire’s eventual collapse (p. 371). The synthesis of these excerpts illustrates a trajectory from the initial barbarian incursions that shattered Roman military dominance, through a period of administrative and cultural consolidation, to the final, isolated decline of the Byzantine state in the face of renewed Ottoman expansion.",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 781,
+    "prompt_tokens": 13916,
+    "total_tokens": 14697,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 13916,
+    "prompt_ms": 15978.949,
+    "prompt_per_token_ms": 1.148242957746479,
+    "prompt_per_second": 870.8958267530612,
+    "predicted_n": 781,
+    "predicted_ms": 12711.994,
+    "predicted_per_token_ms": 16.297428205128206,
+    "predicted_per_second": 61.35937446163048
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 28.844231999999465,
+  "word_count": 484,
+  "name": "full-source-control",
+  "fingerprint": "523be65c67a05ced3d4c384c1ad12f68676b7f674d75edb75e5704ce8432ba65",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:04:26.079815+00:00"
+}

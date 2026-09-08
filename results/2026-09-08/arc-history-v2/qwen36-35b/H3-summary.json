@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 4.006379099999322,
+  "status": "ok",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the most monotonous in imperial history, dominated by the literary reigns of Leo VI and Constantine VII [PDF p. 241]. While Basil was a capable upstart, his successors were mild men of letters who preferred the pen to the sword [PDF p. 241]. The author argues that these emperors lacked the strength to protect their thrones had times been harder, yet the period from 880 to 960 was unusually free from major foreign wars [PDF p. 242]. Only minor piratical raids from Russians and Saracens troubled the realm, which the author deems vexatious but not dangerous [PDF p. 242]. The capture of Thessalonica by Saracens in 904 is described as a disgraceful administrative failure, though the author notes the city was taken by surprise [PDF p. 242].\n\nConstantine VII spent his youth under regents, including Alexander and Romanus Lecapenus, before emerging to rule after popular revolt against the Lecapeni [PDF p. 243]. The author views Constantine as weak but not tyrannical, noting that many abler men made worse rulers [PDF p. 243]. The primary achievements of both emperors were their writings [PDF p. 243]. Leo’s *Tactica* provides a detailed picture of the Byzantine army, which the author praises for its organization, uniformity, and care for the wounded [PDF p. 244-245]. Constantine’s works, including *On the Themes* and *On the Administration of the Empire*, are deemed invaluable for historical detail [PDF p. 246]. The author concludes that these literary efforts signal the end of the intellectual dearth that had plagued Byzantium since the seventh century [PDF p. 247].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 413,
+    "prompt_tokens": 3275,
+    "total_tokens": 3688,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3275,
+    "prompt_ms": 3868.916,
+    "prompt_per_token_ms": 1.181348396946565,
+    "prompt_per_second": 846.4903347604342,
+    "predicted_n": 413,
+    "predicted_ms": 5824.635,
+    "predicted_per_token_ms": 14.13746359223301,
+    "predicted_per_second": 70.7340459960152
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 9.831971800002066,
+  "word_count": 269,
+  "name": "H3-summary",
+  "fingerprint": "283ca738838cf41146e9107a3bb3ebfa677f04f87e8ece520f0653db7f6ab946",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:03:19.071885+00:00"
+}

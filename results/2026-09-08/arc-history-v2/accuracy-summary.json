@@ -1,0 +1,57 @@
+{
+  "evaluator": "Codex AI-assisted source review, not independent human adjudication",
+  "counts": [
+    {
+      "model": "qwen36-35b",
+      "correct": 16,
+      "partial": 4,
+      "contradiction": 0,
+      "questions": 20,
+      "correct_absence": 4,
+      "absence_questions": 4,
+      "adjudication_sha256": "43a4a8d7b43d73012c581ccd159c4c070dc569461457fa5fb2cd617f1b9694ad"
+    },
+    {
+      "model": "gemma4-26b",
+      "correct": 16,
+      "partial": 3,
+      "contradiction": 1,
+      "questions": 20,
+      "correct_absence": 4,
+      "absence_questions": 4,
+      "adjudication_sha256": "1a3f207f31257cc7ea817229580fb7e921fc67c9232aef1750be6007f542d612"
+    },
+    {
+      "model": "qwen38-27b",
+      "correct": 19,
+      "partial": 1,
+      "contradiction": 0,
+      "questions": 20,
+      "correct_absence": 4,
+      "absence_questions": 4,
+      "adjudication_sha256": "8604b0baa7dfc7704c0098d6343048ef289ae807a6ccf837fec7c44404c53708"
+    }
+  ],
+  "strict_id_note": "Qwen35 H1-Q5 is mapped by content and position despite duplicated H1-Q4 label; strict-ID result is 15 correct, 4 partial, 1 ambiguous.",
+  "scoring": "Initial strict completeness review retained; see README crosswalk for Evo-aligned content judgments",
+  "evo_aligned_content": [
+    {
+      "model": "qwen36-35b",
+      "supported": 19,
+      "partial": 1,
+      "contradiction": 0
+    },
+    {
+      "model": "gemma4-26b",
+      "supported": 18,
+      "partial": 1,
+      "contradiction": 1
+    },
+    {
+      "model": "qwen38-27b",
+      "supported": 19,
+      "partial": 1,
+      "contradiction": 0
+    }
+  ]
+}

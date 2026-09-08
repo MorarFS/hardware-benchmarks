@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 5.163267899999482,
+  "status": "ok",
+  "output": "H1-Q1: Duke Fritigern led the Visigoths as they retreated toward the Danube. The text states, \"the Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children... till they found themselves with their backs to the Danube\" [PDF p. 61].\n\nH1-Q2: Valens imposed the conditions that the Goths give hostages and surrender their arms. The arms condition was ignored because officials accepted bribes from the Goths to retain their weapons [PDF p. 63].\n\nH1-Q3: Governor Lupicinus withheld food and sold it at exorbitant prices, causing starvation that drove the Goths to desperation. The passage notes that \"In sheer hunger the Goths were driven to barter a slave for a single loaf of bread\" [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The text describes it as \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q4: The passage does not provide the exact number of Roman soldiers killed at Ad Salices. Not stated in the supplied passage",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 277,
+    "prompt_tokens": 3595,
+    "total_tokens": 3872,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3595,
+    "prompt_ms": 4967.258,
+    "prompt_per_token_ms": 1.3817129346314325,
+    "prompt_per_second": 723.7393346590816,
+    "predicted_n": 277,
+    "predicted_ms": 3924.609,
+    "predicted_per_token_ms": 14.219597826086956,
+    "predicted_per_second": 70.32547700930208
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 9.094039699997666,
+  "word_count": 186,
+  "name": "H1-extraction",
+  "fingerprint": "2304a69cc5d70883d4be8f0865845cfbda8de4bf6b0803da3aa629853ea62aaf",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:02:34.739687+00:00"
+}

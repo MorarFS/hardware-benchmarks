@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 6.654405200002657,
+  "status": "ok",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died because two survived the hanging attempts. The text states that \"Seven were selected for execution\" but notes that two criminals \"fell to the ground alive\" and were rescued by the mob. [PDF p. 102]\n\nD-Q2: No, the passage does not attribute 35,000 deaths solely to the Hippodrome assault, as it attributes the total to the entire six-day period. The text says, \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]\n\nD-Q3: The passage does not state the exact duration of the Hippodrome assault in minutes. It only mentions that the rioting lasted for six days and describes the assault as occurring on the final day without specifying its length. [PDF p. 102]",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 2452,
+    "total_tokens": 2654,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2452,
+    "prompt_ms": 6528.196,
+    "prompt_per_token_ms": 2.662396411092985,
+    "prompt_per_second": 375.60146784808546,
+    "predicted_n": 202,
+    "predicted_ms": 3638.168,
+    "predicted_per_token_ms": 18.10033830845771,
+    "predicted_per_second": 55.24758614775348
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 10.310535500000697,
+  "word_count": 136,
+  "name": "development-extraction",
+  "fingerprint": "ef1b5ca4b9ee1c92f0baa9ae108f4d1e90c8e03d5c1424a05cfb95eac7b16924",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:02:17.339063+00:00"
+}

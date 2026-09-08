@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 4.91841519999798,
+  "status": "ok",
+  "output": "The eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes the era by the reigns of Leo the Wise and Constantine Porphyrogenitus, describing them as mild, inoffensive men of literature who were a strange issue from the adventurer Basil [PDF p. 241]. During the period of 880–960, the empire faced few foreign wars, experiencing only vexatious but non-dangerous piratical raids from Russians and Saracens [PDF p. 242]. Leo's twenty-six-year reign included an unsuccessful Bulgarian invasion and a disgraceful Saracen raid on Thessalonica in 904 [PDF p. 242].\n\nConstantine VII ascended the throne at age seven under various guardians, including the ambitious Romanus Lecapenus, who usurped power and kept the rightful heir in the background [PDF p. 243]. Constantine eventually regained power after a popular uprising against the sons of Romanus [PDF p. 243]. The author evaluates Constantine as a somewhat weak, ineffective, but non-tyrannical ruler [PDF p. 243]. Both emperors' primary achievements were their books [PDF p. 244]. Leo produced a valuable manual on warfare [PDF p. 244], while Constantine wrote works on administration and court ceremonies [PDF p. 246]. The author concludes that these literary emperors signaled an end to previous intellectual destitution [PDF p. 247].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 331,
+    "prompt_tokens": 3262,
+    "total_tokens": 3593,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3262,
+    "prompt_ms": 4605.733,
+    "prompt_per_token_ms": 1.4119353157572043,
+    "prompt_per_second": 708.2477425417409,
+    "predicted_n": 331,
+    "predicted_ms": 6774.913,
+    "predicted_per_token_ms": 20.530039393939393,
+    "predicted_per_second": 48.70911257458214
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 11.694023799998831,
+  "word_count": 211,
+  "name": "H3-summary",
+  "fingerprint": "bfc69344a3ce63096951e9601bfdbca07edcc7592a192742c3da1252f5ab8732",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:07:59.622457+00:00"
+}

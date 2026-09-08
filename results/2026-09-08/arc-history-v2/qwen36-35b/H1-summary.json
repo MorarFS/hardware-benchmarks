@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 4.138027699998929,
+  "status": "ok",
+  "output": "The author argues that Constantine’s strategic foresight in establishing Constantinople proved prescient as the Huns invaded Europe around 372 A.D. [PDF p. 61]. The Huns first destroyed the Alans and subjugated the Ostrogoths before forcing the Visigoths to flee toward the Danube [PDF p. 61]. In 376, the desperate Visigoths, numbering nearly 200,000, petitioned Emperor Valens for asylum [PDF p. 62]. The author characterizes Valens as a cowardly and avaricious ruler who reluctantly permitted the Goths to cross the river as subject allies [PDF p. 62]. However, Roman officials, particularly Governor Lupicinus, betrayed the agreement by withholding food and accepting bribes to allow the Goths to retain their weapons [PDF p. 63]. This extortion led to starvation and the sale of children, sparking a violent revolt after Lupicinus attempted to assassinate Gothic leaders [PDF p. 64].\n\nThe conflict escalated into a year of fierce fighting along the Danube [PDF p. 64]. In 378, Emperor Valens launched a major offensive against the Goths near Adrianople [PDF p. 65]. The author notes that the Goths had adopted cavalry tactics, which proved decisive when their horsemen arrived to reinforce the infantry [PDF p. 66]. The Gothic cavalry crushed the Roman flanks, causing the imperial army to collapse into a suffocating melee [PDF p. 66]. Valens and forty thousand soldiers died in what the author describes as the most fearful defeat since Cannae [PDF p. 67]. Although the victorious Goths marched on Constantinople, they abandoned the siege upon seeing the city’s massive walls [PDF p. 67].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 390,
+    "prompt_tokens": 3489,
+    "total_tokens": 3879,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3489,
+    "prompt_ms": 3994.055,
+    "prompt_per_token_ms": 1.1447563771854399,
+    "prompt_per_second": 873.5483111774876,
+    "predicted_n": 390,
+    "predicted_ms": 5506.464,
+    "predicted_per_token_ms": 14.15543444730077,
+    "predicted_per_second": 70.64424647105656
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 9.645763199998328,
+  "word_count": 252,
+  "name": "H1-summary",
+  "fingerprint": "850ecbadd147bd92c77f55625fba5ecaf6bb06f4f2924f66d81efda393ac72af",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:02:44.390198+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 4.811508399998274,
+  "status": "ok",
+  "output": "The author argues that the Byzantine Empire ceased to be a vital bulwark for Christendom after 1370, asserting that its prolonged existence resulted from the Paleologi’s subservience to the Turks [PDF p. 358]. The text suggests that an earlier fall of Constantinople would have only marginally altered European history, potentially affecting Genoese and Venetian commerce or delaying the Renaissance [PDF p. 359]. John Paleologus endured a troubled reign marked by his son Andronicus’s rebellions, which ended with Andronicus’s blinding and the succession of Manuel II [PDF p. 359]. Manuel II, though capable, lacked the resources to resist Ottoman dominance until the 1402 defeat of Sultan Bayezid by Tamerlane created a power vacuum [PDF p. 360]. Manuel exploited this Turkish civil war to regain territories, but the opportunity was squandered because European powers like Hungary were distracted by internal conflicts with the Hussites [PDF p. 361-363]. When Murad II unified the Ottoman realm, he reclaimed the lost lands and besieged Constantinople, forcing Manuel to accept vassalage once more [PDF p. 363-365]. The author describes the subsequent decades as a period of unredeemed gloom, noting that the empire’s physical and economic decay was severe [PDF p. 365-366]. John VI. failed to recover Thessalonica, which was sold to Venice and annexed by the Ottomans [PDF p. 367]. Finally, John VIII. traveled to Italy to secure aid through religious union with Rome, but he received only minimal support because the papacy was weakened by internal schisms [PDF p. 367].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 382,
+    "prompt_tokens": 4086,
+    "total_tokens": 4468,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 4086,
+    "prompt_ms": 4649.517,
+    "prompt_per_token_ms": 1.1379140969162995,
+    "prompt_per_second": 878.8009593254525,
+    "predicted_n": 382,
+    "predicted_ms": 5495.689,
+    "predicted_per_token_ms": 14.424380577427822,
+    "predicted_per_second": 69.32706708840328
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 10.307824999999866,
+  "word_count": 245,
+  "name": "H4-summary",
+  "fingerprint": "090fbab68ade59b89c9ea7c37033673483e11c9da78042544d9d53c83460b8ec",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:03:38.194206+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 5.3885115000011865,
+  "status": "ok",
+  "output": "H2-Q1: The monk Telemachus intervened in the gladiatorial games in A.D. 404 and was slain during the scuffle. [PDF p. 171]\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. [PDF p. 173]\n\nH2-Q3: No, the passage states that slavery was not extinguished for centuries. [PDF p. 173]\n\nH2-Q4: Oman regarded it as dangerous because it led men to neglect their duties to the State and withdraw from society. [PDF p. 174]\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 3733,
+    "total_tokens": 3885,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3733,
+    "prompt_ms": 5216.011,
+    "prompt_per_token_ms": 1.3972705598714172,
+    "prompt_per_second": 715.6810060408231,
+    "predicted_n": 152,
+    "predicted_ms": 2136.663,
+    "predicted_per_token_ms": 14.150086092715231,
+    "predicted_per_second": 70.67094810927132
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 7.534335700001975,
+  "word_count": 80,
+  "name": "H2-extraction",
+  "fingerprint": "a7ac017d69e2d18f4bc431d23d79a52d36aa8c90d6e1cdf13c8723258bce7473",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:02:51.928825+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "first_visible_seconds": 1.7995009000005666,
+  "status": "ok",
+  "output": "In A.D. 372, the Huns moved westward, nearly exterminating the Alans and crushing the Ostrogoths [PDF p. 61]. Seeking refuge, the Visigoths reached the Danube and requested permission from the Emperor to cross the border [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. While Valens allowed the Goths to settle as subject-allies on the condition they surrendered arms and gave hostages, Roman officials accepted bribes to let the Goths keep weapons [PDF p. 63]. Additionally, the governor Lupicinus engaged in shameless extortion by withholding food [PDF p. 63]. This desperation caused a violent affray at Marcianopolis, which prompted Fritigern to lead an armed revolt [PDF p. 63]. Following a year of fighting, Valens led an army against the Goths in A.D. 378 [PDF p. 64]. During the Battle of Adrianople, Gothic cavalry charged the Roman flank and caused a collapse of the infantry [PDF p. 66]. The author describes this as the most fearful Roman defeat since Cannae, noting the death of Valens and forty thousand men [PDF p. 67]. Although the Goths approached Constantinople, they did not attack the city walls [PDF p. 67].\n\nBy the seventh century, the Latin language declined in the East as the Roman element vanished [PDF p. 169]. The author notes that official titles like patrician survived only as mere names [PDF p. 169]. This decay resulted from the division of the empire and the isolation of the East from the Latin West [PDF p. 170]. The author observes that the process was accelerated because Latin-speaking provinces suffered most from barbarian incursions by the Visigoths, Ostrogoths, and Slavs [PDF p. 170]. By A.D. 620, less than one-tenth of provincials east of the Adriatic spoke Latin [PDF p. 170]. Simultaneously, the empire became increasingly Christian [PDF p. 171]. The author evaluates this shift as having improved conditions for vulnerable classes, such as infants and slaves, by emphasizing the individual soul [PDF p. 172, 173]. However, the author characterizes the rise of ascetic monasticism as positively dangerous because it led thousands to abandon civic duties [PDF p. 174]. The author judges that this apathy toward state calamities hampered the fight against barbarians [PDF p. 175]. While paganism disappeared by the end of the fifth century, the author notes a widespread indifference among the educated classes [PDF p. 176].\n\nThe eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes the era by the reigns of Leo the Wise and Constantine Porphyrogenitus, describing them as mild, inoffensive men of literature who were a strange issue from the adventurer Basil [PDF p. 241]. Between 880 and 960, the empire faced few foreign wars, experiencing only non-dangerous piratical raids from Russians and Saracens [PDF p. 242]. Leo's twenty-six-year reign included an unsuccessful Bulgarian invasion and a disgraceful Saracen raid on Thessalonica in 904 [PDF p. 242]. Constantine VII ascended the throne at age seven under guardians, including the ambitious Romanus Lecapenus, who usurped power [PDF p. 243]. Constantine eventually regained power after a popular uprising against the sons of Romanus [PDF p. 243]. The author evaluates Constantine as a somewhat weak, ineffective, but non-tyrannical ruler [PDF p. 243]. The primary achievements of both emperors were their books [PDF p. 244]. Leo produced a manual on warfare [PDF p. 244], while Constantine wrote on administration and court ceremonies [PDF p. 246]. The author concludes that these literary emperors signaled an end to previous intellectual destitution [PDF p. 247].\n\nThe author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history that no longer serves as an important thread in Christendom [PDF p. 358]. This era began with the reign of John Paleologus, whose life was vexed by the rebellion of his son, Andronicus [PDF p. 359]. After John died in 1391, he left the throne to Manuel II [PDF p. 359]. Although Manuel showed signs of capacity, he lacked the military strength to resist the Turks [PDF p. 360]. In 1402, the conqueror Timour defeated Sultan Bayezid at Angora, causing the Ottoman Empire to fracture [PDF p. 360]. Manuel exploited this to regain territories by selling aid to Suleiman [PDF p. 361]. However, the author notes that Europe failed to seize this opportunity to expel the Ottomans [PDF p. 362]. The rise of Mohammed, described as a man of genius, reunited the Ottoman realm by 1421 [PDF p. 362], forcing Manuel to cede his lands back to the Sultan in 1422 [PDF p. 365]. Following Manuel, John VI presided over a period of unredeemed gloom [PDF p. 365]. The author describes a state of extreme exhaustion where the population had shrunk and wealth had passed to Italian merchants [PDF p. 366]. John VI attempted to secure Western aid by converting to Roman Catholicism in 1439, but the author evaluates this as a poor return because the papacy was too discredited to provide significant help [PDF p. 367].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 1276,
+    "prompt_tokens": 1589,
+    "total_tokens": 2865,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1589,
+    "prompt_ms": 1563.285,
+    "prompt_per_token_ms": 0.9838168659534299,
+    "prompt_per_second": 1016.4493358536671,
+    "predicted_n": 1276,
+    "predicted_ms": 22714.284,
+    "predicted_per_token_ms": 17.815124705882354,
+    "predicted_per_second": 56.13207970808149
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 24.51655070000197,
+  "word_count": 838,
+  "name": "merged-summary-synthesis",
+  "fingerprint": "d4a6901565952be8909393313b72fb60183ecd42e41418c3d829de170956b9a0",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:08:43.665898+00:00"
+}

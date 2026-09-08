@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 4.196806700001616,
+  "status": "ok",
+  "output": "The Byzantine Circus factions, the Blues and Greens, had grown from sporting groups into political parties that interfered in politics and religion [PDF p. 101]. The author characterizes the Greens as Monophysite partisans of the late Emperor Anastasius and the Blues as orthodox partisans of Justinus [PDF p. 101]. The author describes these groups as being dominated by rougher elements prone to mischief and a serious danger to the State [PDF p. 101].\n\nIn January 532, rioting began after Justinian ordered the execution of rioters from both sides [PDF p. 101]. During the executions, a bungled hanging and a slipping rope allowed criminals to escape into a monastery, an incident the author calls exciting [PDF p. 102]. This triggered six days of Nika rioting, where the factions united to demand the dismissal of officials and the installation of Hypatius as Caesar [PDF p. 102]. As fires destroyed much of the city, including St. Sophia, the rebels crowned Hypatius in the Hippodrome [PDF p. 103]. While ministers urged Justinian to flee, the author notes that Empress Theodora rose to the level of the occasion by refusing to leave [PDF p. 105]. Spurred by her words, Belisarius led an assault that routed the rebels, resulting in the reported slaughter of 35,000 men [PDF p. 105, 106].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 314,
+    "prompt_tokens": 2387,
+    "total_tokens": 2701,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2387,
+    "prompt_ms": 3922.753,
+    "prompt_per_token_ms": 1.6433820695433599,
+    "prompt_per_second": 608.5012235029836,
+    "predicted_n": 314,
+    "predicted_ms": 6438.72,
+    "predicted_per_token_ms": 20.570990415335466,
+    "predicted_per_second": 48.61214651359276
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 10.636612199999945,
+  "word_count": 214,
+  "name": "development-summary",
+  "fingerprint": "3e14939846c9371345c352e203e9b93b98a2c30864432473a6df22a51cd65981",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:06:58.217571+00:00"
+}

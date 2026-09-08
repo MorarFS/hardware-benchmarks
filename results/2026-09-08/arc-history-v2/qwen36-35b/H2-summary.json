@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 4.254726099999971,
+  "status": "ok",
+  "output": "The author argues that Latin decayed in the East due to practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin knowledge was rare among educated men [PDF p. 169]. Justinian was the last emperor to speak Latin natively [PDF p. 169]. The author attributes this linguistic shift to the division of the empire and the extermination of Latin-speaking populations by Slavs [PDF p. 170]. Only Africa and the Italian Exarchate retained significant Latin speakers [PDF p. 170].\n\nSimultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly under Constantine [PDF p. 171]. Theodosius I initiated state suppression of moral sins [PDF p. 171]. The author credits the monk Telemachus with ending gladiatorial games through his martyrdom in 404 [PDF p. 171]. Christianity also ended infanticide and modified slavery by emphasizing the soul’s equality [PDF p. 173]. Justinian’s laws reflected this shift by permitting slave-free intermarriage [PDF p. 173].\n\nHowever, the author evaluates the rise of monasticism as dangerous to the state [PDF p. 174]. He claims ascetics neglected civic duties and viewed barbarian invasions as divine judgments [PDF p. 175]. This apathy angered pagans who blamed Christianity for the empire’s ruin [PDF p. 176]. The author praises governing classes for maintaining Roman statecraft despite these pressures [PDF p. 176]. Paganism disappeared by the fifth century, though indifference persisted among educated Christians [PDF p. 176].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 385,
+    "prompt_tokens": 3630,
+    "total_tokens": 4015,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3630,
+    "prompt_ms": 4122.537,
+    "prompt_per_token_ms": 1.1356851239669423,
+    "prompt_per_second": 880.5257539228877,
+    "predicted_n": 385,
+    "predicted_ms": 5434.027,
+    "predicted_per_token_ms": 14.151111979166666,
+    "predicted_per_second": 70.66582481095512
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 9.690015699998185,
+  "word_count": 241,
+  "name": "H2-summary",
+  "fingerprint": "072a8b4a864e257cc69ad7193ed75084605d27b3bba19c13a4a3ce3d534a3fb2",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:03:01.623736+00:00"
+}

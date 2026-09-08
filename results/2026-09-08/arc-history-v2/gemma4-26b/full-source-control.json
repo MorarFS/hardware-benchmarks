@@ -1,0 +1,40 @@
+{
+  "first_visible_seconds": 11.78270479999992,
+  "status": "ok",
+  "output": "Around A.D. 372, the Huns migrated westward from beyond the Don and Volga, nearly exterminating the Alans before attacking the Goths (61). The author notes that the Ostrogoths attempted to defend the Dniester against these \"savages,\" whom a Gothic historian described as having \"shapeless black collops of flesh\" rather than faces (61). The Huns crushed the Ostrogoths, forcing a remnant to flee toward the Danube Delta, and subsequently attacked the Visigoths (61). Under Duke Fritigern, the Visigoths retreated toward the Danube, finding surrender to the Huns intolerable due to their more civilized, Christian status (61-62). In A.D. 376, the Visigoths requested permission from the Emperor Valens to cross the river (62). The author characterizes Valens as a \"stupid, cowardly, and avaricious prince\" who ruled the East while his brother Valentinian held the West (62). Valens eventually agreed to admit the Goths as subject-allies provided they surrendered their arms and gave hostages (63).\n\nAlthough the Goths accepted these terms, they refused to disarm in Moesia, using bribes to retain their weapons (63). Tensions escalated when the governor, Lupicinus, withheld food stores to extort high prices, driving the Goths to barter slaves and even children for bread (63). This desperation led to a conflict in Marcianopolis where, after a skirmish between starving Goths and Roman soldiers, Lupicinus attempted to slay Fritigern at a banquet (64). Fritigern escaped and raised an army, leading to a year of fighting characterized by the author as a repetition of third-century raids (64). In A.D. 378, Valens personally led an army of 60,000 to attack the Goths near Adrianople (65). However, the Goths had adopted horse-based warfare in Russia and utilized a powerful cavalry charge to flank the Roman army (65-66). The resulting Roman infantry was crushed in a dense, helpless mass, leading to the deaths of 40,000 men and several high-ranking officials (66-67). The author compares this defeat to the slaughter at Cannae (67).\n\nThe decline of the Latin language in the East was driven by the division of the empire and the decimation of Latin-speaking provinces by barbarians like the Visigoths and Slavs (170). By the seventh century, the Roman element was vanishing, and by A.D. 620, less than a tenth of the inhabitants east of the Adriatic spoke Latin (170). Simultaneously, the empire became increasingly Christian, which modified social practices (171). Christianity helped end infanticide and modified the evils of slavery by teaching that slaves possessed immortal souls (173). However, the author judges that the rise of ascetic monasticism was \"positively dangerous\" to the state, as thousands of men abandoned their civic duties to seek individual salvation (174). This apathetic attitude toward national calamities led some to view barbarian invasions as divine judgments (175).\n\nBetween A.D. 880 and 960, the reigns of Leo the Wise and Constantine Porphyrogenitus were characterized by literary achievement rather than military conquest (241-242). Leo’s *Tactica* provided a detailed view of a highly organized Byzantine army and fleet (244-245). Constantine’s works focused on administration and court ceremonies, reflecting a man who compensated for a lack of real power through meticulous compilation (246). By the late fourteenth century, the empire had shrunk to a state of \"unredeemed gloom\" (365). During the reign of Manuel II, the empire survived by playing Ottoman claimants against one another, briefly regaining territory through treaties (361-362). However, the empire eventually returned to vassalage (365). By the reign of John VI, Constantinople was a city of ruins and poverty, with much wealth held by Italian merchants (366). John VI attempted to secure Western aid by converting to Roman Catholicism at the Council of Florence in 1439, but the author notes this yielded little more than a small sum of money and three hundred mercenaries (367).",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 932,
+    "prompt_tokens": 13773,
+    "total_tokens": 14705,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 13773,
+    "prompt_ms": 11560.831,
+    "prompt_per_token_ms": 0.8393836491686634,
+    "prompt_per_second": 1191.3503449708762,
+    "predicted_n": 932,
+    "predicted_ms": 18934.488,
+    "predicted_per_token_ms": 20.33779591836735,
+    "predicted_per_second": 49.169536562066
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 30.72821180000028,
+  "word_count": 618,
+  "name": "full-source-control",
+  "fingerprint": "bd7bfab0459a813fd6df2e22e8ef7cf15e9ed4715a153f8ca84e273b37178e47",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:09:14.399725+00:00"
+}

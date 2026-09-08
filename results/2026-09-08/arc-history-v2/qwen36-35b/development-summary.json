@@ -1,0 +1,37 @@
+{
+  "first_visible_seconds": 3.00748079999903,
+  "status": "ok",
+  "output": "The author describes the Blues and Greens as factions that evolved from circus groups into dangerous political parties by 532 [PDF p. 101]. Justinian ordered the execution of riot leaders, but a botched hanging allowed two criminals to escape into sanctuary, sparking six days of rioting [PDF p. 102]. The factions united under the slogan \"Nika,\" demanding the dismissal of unpopular ministers and the deposition of Justinian [PDF p. 102]. With the city largely undefended, the mob seized control, burning the Senate House and St. Sophia [PDF p. 103]. They crowned Hypatius as emperor, though he had initially sought refuge with Justinian [PDF p. 103]. Ministers urged the Emperor to flee, but the author notes that Empress Theodora refused to abandon the capital [PDF p. 105]. She delivered a speech arguing that imperial dignity was preferable to exile, a moment the author presents as decisive [PDF p. 105]. Spurred by her resolve, Justinian ordered a final assault led by Belisarius [PDF p. 105]. Imperial forces breached the Hippodrome, routing the rebels in a massacre that the author states killed thirty-five thousand people [PDF p. 106]. The author observes that while the factions continued to riot for fifty years, they never again threatened the regime so severely [PDF p. 106]. This narrative highlights the fragility of Justinian’s power and the critical role of Theodora’s leadership in preserving the throne during the Nika Sedition [PDF p. 105]. The events demonstrate how urban unrest could escalate into a near-revolution before being crushed by military force [PDF p. 106].",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 373,
+    "prompt_tokens": 2388,
+    "total_tokens": 2761,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2388,
+    "prompt_ms": 2906.661,
+    "prompt_per_token_ms": 1.2171947236180904,
+    "prompt_per_second": 821.5612346950676,
+    "predicted_n": 373,
+    "predicted_ms": 5288.512,
+    "predicted_per_token_ms": 14.21643010752688,
+    "predicted_per_second": 70.34114699938281
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 8.297329400000308,
+  "word_count": 255,
+  "name": "development-summary",
+  "fingerprint": "a1834bfacbb263ac04ef8ce192989b6782536c2d68e5d4ada07a7390f0515cf5",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:02:25.642271+00:00"
+}

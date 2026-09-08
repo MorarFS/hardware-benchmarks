@@ -1,0 +1,40 @@
+{
+  "first_visible_seconds": 46.43975420000061,
+  "status": "ok",
+  "output": "On PDF page 61, the author argues that Constantine’s construction of a fortress-capital proved prescient when the Huns, a Tartar horde, invaded the Balkans around A.D. 372. The Huns nearly exterminated the Alans and crushed the Ostrogoths, forcing them into vassalage. The Visigoths, led by Duke Fritigern, retreated to the Danube. The author notes that surrender was more dreadful to the Visigoths than to their eastern brethren because they were more civilized and Christian. On PDF page 62, the Visigoths requested permission to cross the river. The author describes the Roman Empire as divided, with Valens ruling the East. He characterizes Valens as a \"stupid, cowardly, and avaricious prince\" who obtained power only through his brother Valentinian. Valens faced a dilemma: refusing passage to 200,000 desperate men was dangerous, but admitting them implied an obligation to provide land.\n\nOn PDF page 63, Valens chose to admit the Goths as subject-allies, requiring hostages and the surrender of arms. However, Roman officials accepted bribes to allow the Goths to keep their weapons. Governor Lupicinus then withheld food stores and sold provisions at exorbitant prices, driving the Goths to desperation. A chance affray at Marcianopolis, where Lupicinus ordered the seizure of Fritigern, triggered a full-scale war. On PDF page 64, the author describes a year of desperate fighting. He observes that the Goths, though Christianized, reverted to old barbarian raiding tactics. The Roman armies initially held them at bay, but a pitched battle at Ad Salices resulted in no decisive outcome. The author notes that the Goths were joined by other tribes fleeing the Huns, intensifying the conflict.\n\nOn PDF page 169, the text shifts to the linguistic decay of the East. The author states that by the seventh century, the Roman element was vanishing. He cites Procopius as an example of a man of merit who was ignorant of Latin. Justinian is identified as the last emperor to speak Latin as his mother tongue. On PDF page 170, the author attributes the disuse of Latin to the separation of the East from the West and the devastation of the Balkans by barbarians. He notes that in A.D. 400, a quarter of the provincials east of the Adriatic spoke Latin, but by A.D. 620, not a tenth did. The Romanized lands became Slavonic principalities, with only Dalmatian seaports retaining the old tongue. The author concludes that the remaining Latin-speaking populations in Africa and Italy were too remote to influence the East.\n\nOn PDF page 241, the author describes the reigns of Leo the Wise and Constantine Porphyrogenitus as the most uneventful in imperial history. He characterizes them as mild, easy-going men of literature who wrote useful works rather than waging war. On PDF page 242, the author explains that the period 880-960 was less troubled by foreign wars because neighboring powers were settling down. He notes that Leo’s reign was marked by a failed invasion of Bulgaria and a Saracen raid on Thessalonica. The author judges that the city was taken by surprise and that the empire’s forces could have rescued it if the fall had been delayed. This section highlights the contrast between the literary achievements of these emperors and their lack of military enterprise.",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 752,
+    "prompt_tokens": 13916,
+    "total_tokens": 14668,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 13916,
+    "prompt_ms": 45973.694,
+    "prompt_per_token_ms": 3.303657229088819,
+    "prompt_per_second": 302.6948410976068,
+    "predicted_n": 752,
+    "predicted_ms": 41220.966,
+    "predicted_per_token_ms": 54.888103861517976,
+    "predicted_per_second": 18.218884050412598
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 87.66569950000121,
+  "word_count": 533,
+  "name": "full-source-control",
+  "fingerprint": "43c6bfaf00e109f1d9a6235a0393ac44249d35f2cc738fcb03998194f2f58bce",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:19:10.687997+00:00"
+}

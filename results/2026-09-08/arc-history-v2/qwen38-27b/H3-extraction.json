@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 13.226069599997572,
+  "status": "ok",
+  "output": "H3-Q1: Constantine was called Porphyrogenitus because he was born in the Purple Chamber, a room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they fled with their booty and made no attempt to hold its walls. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" [PDF p. 242]\n\nH3-Q3: The mob and the guards removed the sons of Romanus Lecapenus, who had previously forced their father to abdicate. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother.\" [PDF p. 243]\n\nH3-Q4: Leo recommended caution against the men of the West, specifically the Franks and Lombards. \"It is only when dealing v/ith the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245]\n\nH3-Q5: Not stated in the supplied passage",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 272,
+    "prompt_tokens": 3379,
+    "total_tokens": 3651,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3379,
+    "prompt_ms": 12737.616,
+    "prompt_per_token_ms": 3.769640722107132,
+    "prompt_per_second": 265.27727009512614,
+    "predicted_n": 272,
+    "predicted_ms": 13462.034,
+    "predicted_per_token_ms": 49.67540221402214,
+    "predicted_per_second": 20.130687532062392
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 26.694647099997383,
+  "word_count": 174,
+  "name": "H3-extraction",
+  "fingerprint": "2132f22186c56a370937ede4f74887541529f285e056c955f3b7397a2ce41893",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:14:22.228584+00:00"
+}

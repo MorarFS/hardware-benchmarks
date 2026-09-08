@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 11.857972400001017,
+  "status": "ok",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died as two survived their attempts at hanging. \"Seven were selected for execution... two of the criminals... fell to the ground alive\" [PDF p. 102].\n\nD-Q2: No, the passage attributes the 35,000 deaths to the entire six-day event, not solely to the final assault. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2452,
+    "total_tokens": 2586,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2452,
+    "prompt_ms": 11798.887,
+    "prompt_per_token_ms": 4.811944127243067,
+    "prompt_per_second": 207.81621181726715,
+    "predicted_n": 134,
+    "predicted_ms": 6549.169,
+    "predicted_per_token_ms": 49.241872180451125,
+    "predicted_per_second": 20.30791998190916
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 18.411242800000764,
+  "word_count": 83,
+  "name": "development-extraction",
+  "fingerprint": "5c0cfc6a199584d81546576b75eeb03a267630778f5831ba9b9b09f25b7d5ffb",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:11:18.693882+00:00"
+}

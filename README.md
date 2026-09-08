@@ -1,5 +1,7 @@
 # Local GPU inference benchmarks
 
+**History source-fidelity on Arc:** [SYCL results and source adjudication](results/2026-09-08/arc-history-v2/README.md), using the frozen Evo history-v2 suite. Runtime, weight and grading differences are documented.
+
 Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model, followed by a Nemotron 49B capacity test and three newer-model tests on the Intel GPU. These measure this complete machine and software configuration, including the external GPU connection.
 
 **8B comparison completed:** Intel Vulkan and SYCL were repeated at depth 0; initial and repeat results are retained separately. SYCL produced the highest measured generation throughput among the working backends in these tests. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.

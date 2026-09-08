@@ -1,0 +1,38 @@
+{
+  "first_visible_seconds": 3.8581214000005275,
+  "status": "ok",
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm. He \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel supported two claimants named Mustapha to cause trouble for Murad II. This action \"drew down on the empire the fate which had been delayed since 1370: the Sultan declared war on Manuel\" [PDF p. 363].\n\nH4-Q3: The siege was lifted because the pretender Mustapha began causing trouble in Asia Minor. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin served to encourage the Greeks to resist the siege. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage.",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 229,
+    "prompt_tokens": 4096,
+    "total_tokens": 4325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 4096,
+    "prompt_ms": 3625.028,
+    "prompt_per_token_ms": 0.8850166015625,
+    "prompt_per_second": 1129.9223068070096,
+    "predicted_n": 229,
+    "predicted_ms": 4174.73,
+    "predicted_per_token_ms": 18.310219298245613,
+    "predicted_per_second": 54.61431038653997
+  },
+  "finish_reason": "stop",
+  "wall_seconds": 8.045790800002578,
+  "word_count": 146,
+  "name": "H4-extraction",
+  "fingerprint": "c6318ddabd1f4839f9f9122b7f31be290876b4f3c6d10aa5408de3515e797f93",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "quality": "Unadjudicated",
+  "finished_at": "2026-09-08T13:08:07.673743+00:00"
+}
