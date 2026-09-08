@@ -76,7 +76,7 @@ One laptop, one model/quantization, one session and short generation tests canno
 
 OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
-A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32 GB VRAM. The official model download is in progress; no larger-model fit or throughput result has been established. Additional completed runs and repeats will be labeled separately rather than silently replacing these observations.
+A separate **Qwen3-32B Q4_K_M capacity baseline** is being downloaded to explore the Arc's 32 GB VRAM. Additional work will investigate the largest model that can fit fully on this GPU with SYCL, with quantization and usable context stated explicitly. Qwen3-32B is not claimed to be the largest fitting model. No larger-model fit or throughput result has been established. Additional completed runs and repeats will be labeled separately rather than silently replacing these observations.
 
 ## Sources
 
@@ -84,6 +84,7 @@ A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
+
 
 
 
