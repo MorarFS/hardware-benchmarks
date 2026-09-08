@@ -1,0 +1,63 @@
+{
+  "backend": "LM Studio Vulkan llama.cpp 2.33.0",
+  "context": 65536,
+  "parallel_capacity": 1,
+  "gpu": "full",
+  "kv": "f16",
+  "flash_attention": true,
+  "seed": 42,
+  "temperature_note": "Configurations differ in reasoning, MTP, and sampling; this is not an architecture-only comparison.",
+  "models": [
+    {
+      "id": "gemma26-off",
+      "resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+      "sha256": "f2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f",
+      "reasoning": "off",
+      "mtp": false,
+      "sampling": {
+        "temperature": 0,
+        "top_p": 1,
+        "top_k": 40,
+        "min_p": 0,
+        "repeat_penalty": 1
+      }
+    },
+    {
+      "id": "qwen35-off-mtp",
+      "resource": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+      "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b",
+      "reasoning": "off",
+      "mtp": true,
+      "sampling": {
+        "temperature": 0,
+        "top_p": 1,
+        "top_k": 40,
+        "min_p": 0,
+        "repeat_penalty": 1
+      }
+    },
+    {
+      "id": "gptoss120-medium",
+      "resource": "ggml-org/gpt-oss-120b-GGUF/gpt-oss-120b-MXFP4.gguf",
+      "sha256": "582bd40f6886200101f4c4ed9f25f3fe80cc14c86e9e2b37746cd8904a0c622d",
+      "reasoning": null,
+      "template_reasoning": "medium",
+      "mtp": false,
+      "sampling": {
+        "temperature": 1,
+        "top_p": 1,
+        "min_p": 0,
+        "repeat_penalty": 1
+      },
+      "sampling_note": "Native top_k=0 and reasoning=medium fields rejected in prior validation. Both omitted; top_k server default uncontrolled. Medium is the verified template default."
+    }
+  ],
+  "request_policy": {
+    "reasoning_off_output_budget": 2048,
+    "reasoning_output_budget": 8192,
+    "max_completion_retries": 0,
+    "timeout_seconds": 900,
+    "system_prompt_from": "prompts.json",
+    "no_gold_in_request": true
+  }
+}

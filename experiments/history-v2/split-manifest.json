@@ -1,0 +1,75 @@
+{
+  "version": "history-v2.0",
+  "created_utc": "2026-09-08T08:50:05.807211+00:00",
+  "source_sha256": "0187c4b558c683d5349b4cf427db4ca9713298f0e99660767d8dfbc2aa83c5f2",
+  "development_pages": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "heldout": [
+    {
+      "id": "H1",
+      "pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "word_count": 2034
+    },
+    {
+      "id": "H2",
+      "pages": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176
+      ],
+      "word_count": 2028
+    },
+    {
+      "id": "H3",
+      "pages": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247
+      ],
+      "word_count": 1907
+    },
+    {
+      "id": "H4",
+      "pages": [
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "word_count": 2264
+    }
+  ],
+  "heldout_definition": "Excluded from prompt development. These pages were included in prior full-book model inputs and some evaluator source inspections; not claimed unseen in training or previous inference.",
+  "no_gold_in_model_input": true,
+  "freeze_policy": "Freeze prompt, questions, snapshots, gold and coverage ledger before any held-out model output. Development may be inspected before a final freeze; a revision requires a new version and explicit change record.",
+  "development_policy": "Prompt revision was designed from earlier baseline errors. Both development probes and held-out generation use this pre-frozen version; no adaptation from held-out outputs."
+}
