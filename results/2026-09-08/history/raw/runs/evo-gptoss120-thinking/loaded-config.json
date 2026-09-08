@@ -1,0 +1,50 @@
+{
+  "requested": {
+    "identifier": "evo-gptoss120-thinking",
+    "label": "GPT-OSS120B maintainer MXFP4; template-default medium reasoning",
+    "resource": "ggml-org/gpt-oss-120b-GGUF/gpt-oss-120b-MXFP4.gguf",
+    "context": 65536,
+    "mtp": false,
+    "gpu": "max",
+    "reasoning": null,
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "repeat_penalty": 1.0
+    },
+    "sampling_note": "Temperature=1, top_p=1, min_p=0, repeat_penalty=1. Native API rejects top_k=0, so top_k is omitted and its server default is uncontrolled. Native reasoning field is unsupported; verified GGUF template defaults to medium, checked against SDK rendering before inference. Actual reasoning counts and SSE events remain measured.",
+    "reasoning_mode": "medium via embedded template default; native reasoning field omitted"
+  },
+  "actual": {
+    "id": "evo-gptoss120-thinking",
+    "config": {
+      "context_length": 65536,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 1,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": false,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 4,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "runtime": {
+    "command": [
+      "<LM_STUDIO_HOME>/bin/lms",
+      "runtime",
+      "ls"
+    ],
+    "returncode": 0,
+    "output": "LLM ENGINE                                        SELECTED    MODEL FORMAT\nllama.cpp-linux-x86_64-amd-rocm-avx2@2.33.0                       GGUF    \nllama.cpp-linux-x86_64-avx2@2.33.0                                GGUF    \nllama.cpp-linux-x86_64-avx2@2.31.2                                GGUF    \nllama.cpp-linux-x86_64-nvidia-cuda-avx2@2.33.0                    GGUF    \nllama.cpp-linux-x86_64-nvidia-cuda-avx2@2.31.2                    GGUF    \nllama.cpp-linux-x86_64-vulkan-avx2@2.33.0            ✓            GGUF    \nllama.cpp-linux-x86_64-vulkan-avx2@2.31.2                         GGUF    \n",
+    "wall_seconds": 0.21925242499855813
+  }
+}

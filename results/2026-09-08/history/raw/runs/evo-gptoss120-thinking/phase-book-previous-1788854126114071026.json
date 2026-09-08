@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-09-08T07:17:53.355212+00:00",
+  "finished_at": "2026-09-08T07:18:45.080589+00:00",
+  "end_to_end_wall_seconds": 51.725385830999585,
+  "includes": "load, token preflight, streaming inference, bounded retries; excludes downloads and source audit",
+  "errors": [
+    "HTTP Error 400: Bad Request"
+  ]
+}

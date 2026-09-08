@@ -1,0 +1,121 @@
+{
+  "fingerprint": "0455dd108177d18df15f563f10363847fe8a16dd4cdd16f5deb3e13ce3d21ad5",
+  "model": "evo-qwen36",
+  "name": "book-chunk01-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:15:19.105914+00:00",
+  "preflight_input_tokens": 16481,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 1,
+    "part": 1,
+    "pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 34.96919226800037
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:15:54.076147+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "C.W.C. Oman’s preface challenges the traditional view that Byzantium represented corruption and decadence [PDF p. 13]. He argues that earlier historians like Gibbon dismissed the East-Roman Empire as monotonous and depressing [PDF p. 13]. Two works by Finlay and Bury helped correct this negative perception among English readers [PDF p. 13]. Oman intends to write in the spirit of these later scholars rather than following Gibbon’s lead [PDF p. 14]. He acknowledges his debt to both the veteran of Greek Independence and the Dublin professor [PDF p. 14]. The author claims acquaintance with chroniclers like Ammianus, Procopius, and Anna Comnena justifies his task [PDF p. 14].\n\nThe narrative begins by describing the founding of Byzantium two thousand five hundred years prior to the text’s writing [PDF p. 27]. Greek colonists from Megara established a settlement on a headland between the Bosphorus and the Golden Horn [PDF p. 27]. They sought advice from the oracle at Delphi, which told them to build opposite the city of the blind [PDF p. 29]. The settlers interpreted this as a command to choose the superior site over Chalcedon on the Asiatic shore [PDF p. 29]. This location offered military impregnability and control over Black Sea trade routes [PDF p. 30]. Byzantium maintained its independence for centuries, though it faced Persian domination for thirty years [PDF p. 31]. It played a role in the Ionic Revolt against Persia under Histiaeus [PDF p. 31]. The city eventually threw off Persian rule after the Greek victories at Salamis and Mycale [PDF p. 31].\n\nAthens later dominated Byzantium, capturing it twice through surrender and treachery during the fifth century B.C. [PDF p. 32]. The city suffered under Roman Emperor Severus in A.D. 196 after refusing to submit to his authority [PDF p. 35]. Severus destroyed its walls and confiscated citizen property as punishment for its resistance [PDF p. 35]. Gothic raids in the third century further devastated the population, nearly exterminating the original Megarian race [PDF p. 36]. The city recovered under strong Illyrian emperors who provided peace and stability [PDF p. 36]. Licinius used Byzantium as a key fortress against his rival Constantine during their civil war [PDF p. 37]. Constantine besieged the city for months before forcing its surrender in A.D. 323 [PDF p. 38].\n\nConstantine then chose Byzantium to become the new capital of the Roman Empire, renaming it Constantinople [PDF p. 41]. He selected this site because Rome was too distant from the empire’s critical northern and eastern frontiers [PDF p. 42]. The new city would serve as an administrative center closer to the Balkans and Asia Minor [PDF p. 42]. Constantine marked out vast boundaries for the new capital, including all seven hills of the peninsula [PDF p. 43]. He constructed a grand palace complex near the sea and established the Augustaeum forum [PDF p. 45]. The Senate House and Baths of Zeuxippus were built to mirror the institutions of Old Rome [PDF p. 46]. Constantine also erected the Hippodrome, which became central to civic life and factional rivalry [PDF p. 48]. The spina of the Hippodrome featured an Egyptian obelisk and a bronze serpent monument [PDF p. 50].\n\nThe supplied text ends abruptly during the description of these monuments in the Hippodrome [PDF p. 50]. The narrative does not cover the subsequent history of the empire beyond this foundational period [PDF p. 50]. Consequently, the summary cannot address later events such as the reign of Justinian or the fall of Constantinople [PDF p. 17]. The source material provided is incomplete regarding the full scope of Oman’s historical account [PDF p. 50]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 16483,
+      "total_output_tokens": 879,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 59.62124213863705,
+      "time_to_first_token_seconds": 20.212206
+    }
+  },
+  "output": "C.W.C. Oman’s preface challenges the traditional view that Byzantium represented corruption and decadence [PDF p. 13]. He argues that earlier historians like Gibbon dismissed the East-Roman Empire as monotonous and depressing [PDF p. 13]. Two works by Finlay and Bury helped correct this negative perception among English readers [PDF p. 13]. Oman intends to write in the spirit of these later scholars rather than following Gibbon’s lead [PDF p. 14]. He acknowledges his debt to both the veteran of Greek Independence and the Dublin professor [PDF p. 14]. The author claims acquaintance with chroniclers like Ammianus, Procopius, and Anna Comnena justifies his task [PDF p. 14].\n\nThe narrative begins by describing the founding of Byzantium two thousand five hundred years prior to the text’s writing [PDF p. 27]. Greek colonists from Megara established a settlement on a headland between the Bosphorus and the Golden Horn [PDF p. 27]. They sought advice from the oracle at Delphi, which told them to build opposite the city of the blind [PDF p. 29]. The settlers interpreted this as a command to choose the superior site over Chalcedon on the Asiatic shore [PDF p. 29]. This location offered military impregnability and control over Black Sea trade routes [PDF p. 30]. Byzantium maintained its independence for centuries, though it faced Persian domination for thirty years [PDF p. 31]. It played a role in the Ionic Revolt against Persia under Histiaeus [PDF p. 31]. The city eventually threw off Persian rule after the Greek victories at Salamis and Mycale [PDF p. 31].\n\nAthens later dominated Byzantium, capturing it twice through surrender and treachery during the fifth century B.C. [PDF p. 32]. The city suffered under Roman Emperor Severus in A.D. 196 after refusing to submit to his authority [PDF p. 35]. Severus destroyed its walls and confiscated citizen property as punishment for its resistance [PDF p. 35]. Gothic raids in the third century further devastated the population, nearly exterminating the original Megarian race [PDF p. 36]. The city recovered under strong Illyrian emperors who provided peace and stability [PDF p. 36]. Licinius used Byzantium as a key fortress against his rival Constantine during their civil war [PDF p. 37]. Constantine besieged the city for months before forcing its surrender in A.D. 323 [PDF p. 38].\n\nConstantine then chose Byzantium to become the new capital of the Roman Empire, renaming it Constantinople [PDF p. 41]. He selected this site because Rome was too distant from the empire’s critical northern and eastern frontiers [PDF p. 42]. The new city would serve as an administrative center closer to the Balkans and Asia Minor [PDF p. 42]. Constantine marked out vast boundaries for the new capital, including all seven hills of the peninsula [PDF p. 43]. He constructed a grand palace complex near the sea and established the Augustaeum forum [PDF p. 45]. The Senate House and Baths of Zeuxippus were built to mirror the institutions of Old Rome [PDF p. 46]. Constantine also erected the Hippodrome, which became central to civic life and factional rivalry [PDF p. 48]. The spina of the Hippodrome featured an Egyptian obelisk and a bronze serpent monument [PDF p. 50].\n\nThe supplied text ends abruptly during the description of these monuments in the Hippodrome [PDF p. 50]. The narrative does not cover the subsequent history of the empire beyond this foundational period [PDF p. 50]. Consequently, the summary cannot address later events such as the reign of Justinian or the fall of Constantinople [PDF p. 17]. The source material provided is incomplete regarding the full scope of Oman’s historical account [PDF p. 50].",
+  "stats": {
+    "input_tokens": 16483,
+    "total_output_tokens": 879,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.62124213863705,
+    "time_to_first_token_seconds": 20.212206
+  },
+  "wall_seconds": 34.96919226800037,
+  "output_tokens_per_wall_second": 25.13641130922992,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26036518912,
+    "swap_used_bytes": 3364581376,
+    "runtime_largest_process_rss_bytes": 1135210496,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 5739245568,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 27195219968,
+    "cpu_percent": 2.9,
+    "runtime_total_pss_bytes": 1477718016,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 357253120
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

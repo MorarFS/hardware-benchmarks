@@ -144,3 +144,7 @@ The [frozen history-v2 package](experiments/history-v2/USAGE.md) provides fixed 
 ## Evo X3 and Mac reproduction
 
 The [completed Evo speed package](results/2026-09-08/evo/README.md) includes the twelve-model Vulkan matrix, every measured repetition, two retained loading timeouts, exact model hashes, matched Qwen8 backend comparisons, and separate prose/ROCm repair evidence. Use the [Mac/Metal guide](MAC-BENCHMARK.md) to prepare the same Qwen8 synthetic baseline on Apple Silicon. No Mac inference was run during publication.
+
+## Historical source evaluation
+
+The [corrected original history audit](results/2026-09-08/history/README.md) includes full-book run evidence, source text, retries, and revised claim ledgers. Two Gemma OFF objections were withdrawn after closer review. The [research notes](RESEARCH-NOTES.md) distinguish external leads from measured findings. These Codex-assisted audits do not establish general suitability or unsuitability for supervised research.

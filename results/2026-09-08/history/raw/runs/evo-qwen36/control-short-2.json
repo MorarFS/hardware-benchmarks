@@ -1,0 +1,68 @@
+{
+  "fingerprint": "2563ccfd271830e5bd525bbeee042bf39dafda9d0c5312a2e26495aec5ff3ff7",
+  "model": "evo-qwen36",
+  "name": "control-short-2",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:09:46.175500+00:00",
+  "preflight_input_tokens": 49,
+  "context": 65536,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 5.208922373999485
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:09:51.385354+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "Historians operate as forensic analysts of the past, tasked with separating raw data from interpretation to reconstruct events accurately. To achieve this rigor, they meticulously distinguish between an **author’s account**, **quoted testimony**, and **inference**. While these elements often appear intertwined in historical narratives, understanding their distinct epistemological roles is crucial for evaluating the reliability and weight of evidence.\n\nAn **author’s account** refers to a narrative constructed by a historian or chronicler who synthesizes various sources into a coherent story. This is not raw data but rather an interpretive framework. For example, consider a modern historian writing a biography of Napoleon Bonaparte. When she describes the \"chaotic atmosphere\" of the French Revolution leading up to his rise, she is providing an author’s account. She has selected specific events and arranged them chronologically to create a logical flow. This account is valuable for context but must be scrutinized because it reflects the historian’s biases, thematic choices, and narrative strategies. It answers the question: \"How does this source make sense of the past?\"\n\nIn contrast, **quoted testimony** consists of direct statements from primary sources—individuals who witnessed or participated in events. This is the closest historians get to hearing the \"voice\" of the past."
+      }
+    ],
+    "stats": {
+      "input_tokens": 51,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 59.421998723009594,
+      "time_to_first_token_seconds": 0.5276000000000001
+    }
+  },
+  "output": "Historians operate as forensic analysts of the past, tasked with separating raw data from interpretation to reconstruct events accurately. To achieve this rigor, they meticulously distinguish between an **author’s account**, **quoted testimony**, and **inference**. While these elements often appear intertwined in historical narratives, understanding their distinct epistemological roles is crucial for evaluating the reliability and weight of evidence.\n\nAn **author’s account** refers to a narrative constructed by a historian or chronicler who synthesizes various sources into a coherent story. This is not raw data but rather an interpretive framework. For example, consider a modern historian writing a biography of Napoleon Bonaparte. When she describes the \"chaotic atmosphere\" of the French Revolution leading up to his rise, she is providing an author’s account. She has selected specific events and arranged them chronologically to create a logical flow. This account is valuable for context but must be scrutinized because it reflects the historian’s biases, thematic choices, and narrative strategies. It answers the question: \"How does this source make sense of the past?\"\n\nIn contrast, **quoted testimony** consists of direct statements from primary sources—individuals who witnessed or participated in events. This is the closest historians get to hearing the \"voice\" of the past.",
+  "stats": {
+    "input_tokens": 51,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.421998723009594,
+    "time_to_first_token_seconds": 0.5276000000000001
+  },
+  "wall_seconds": 5.208922373999485,
+  "output_tokens_per_wall_second": 49.14644174346556,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3637940224,
+    "runtime_total_pss_bytes": 1190733824,
+    "system_used_excluding_available_bytes": 5574680576,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 670334976,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 3.0,
+    "card1_vram_used_bytes": 26023710720,
+    "system_available_bytes": 27308306432,
+    "card1_gtt_used_bytes": 334282752
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

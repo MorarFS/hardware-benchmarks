@@ -1,0 +1,122 @@
+{
+  "fingerprint": "f7de42173b38d4629195d825bc6ee85017b4550192d65fc62418b4482f447032",
+  "model": "evo-qwen36",
+  "name": "book-chunk02-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:15:55.939818+00:00",
+  "preflight_input_tokens": 21276,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 2,
+    "part": 1,
+    "pdf_pages": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 46.81263768200006
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:16:42.753507+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "The text describes the physical layout and historical significance of Constantinople’s central district. The Hippodrome retained three ancient monuments on its spina [PDF p. 51]. These included a golden tripod from Delphi and a bronze column [PDF p. 51]. The Milion milestone stood near small chapels along the eastern wall [PDF p. 52]. Constantine added a porphyry column topped with an adapted statue of Apollo [PDF p. 52]. This modification mirrored similar changes made in Rome [PDF p. 53]. North of the Hippodrome stood an earlier, humble church dedicated to Divine Wisdom [PDF p. 53]. A wooden gallery connected this church directly to the palace [PDF p. 53]. These structures formed the heart of the imperial city [PDF p. 54]. Other notable buildings included granaries and the Golden Gate [PDF p. 54]. An equestrian statue of Constantine remained a famous landmark until the fifteenth century [PDF p. 54].\n\nConstantine chose Byzantium as his capital in A.D. 328 or 329 [PDF p. 55]. He consecrated the new city on May 11, 330 [PDF p. 55]. The city was established as Christian from its inception [PDF p. 55]. Constantine invited senators and wealthy proprietors to settle there [PDF p. 55]. He granted them positions in the senate and land for homes [PDF p. 55]. Artisans were enticed by special privileges [PDF p. 55]. The distribution of free corn from Egypt attracted merchants and seamen [PDF p. 56]. An edict in 330 A.D. officially named the city New Rome [PDF p. 56]. However, the populace continued to call it Constantinople [PDF p. 56].\n\nConstantine died in 337 A.D., leaving his realm to his sons and nephews [PDF p. 57]. Civil wars eventually concentrated power under Constantius II [PDF p. 57]. The empire faced threats from Persia in the east [PDF p. 58]. However, the primary danger emerged from the north [PDF p. 58]. The Goths had been settled beyond the Danube for a century [PDF p. 59]. They were gradually adopting Christianity and Roman customs [PDF p. 60]. In A.D. 372, the Huns invaded Gothic territories [PDF p. 61]. The Ostrogoths were crushed by the Hunnic horde [PDF p. 61]. The Visigoths fled under Duke Fritigern toward the Roman border [PDF p. 61].\n\nIn A.D. 376, Emperor Valens allowed the Visigoths to cross into Moesia [PDF p. 62]. Roman officials mistreated the immigrants and withheld food supplies [PDF p. 63]. This extortion drove the Goths to rebellion under Fritigern [PDF p. 64]. The Battle of Adrianople in 378 A.D. resulted in a catastrophic defeat for Rome [PDF p. 65]. Valens died, and his army was nearly annihilated [PDF p. 67]. The Goths failed to sack Constantinople due to its strong walls [PDF p. 67]. Emperor Theodosius later made peace with the Goths [PDF p. 68]. He enlisted them as auxiliaries in large numbers [PDF p. 68]. This policy placed significant military power in German hands [PDF p. 69].\n\nAfter Theodosius died, factionalism weakened both halves of the empire [PDF p. 73]. Alaric led the Visigoths in revolt against Arcadius [PDF p. 74]. He eventually moved into Italy and sacked Rome [PDF p. 75]. In the East, Gainas commanded Gothic troops but was killed by Huns [PDF p. 76]. Patriarch John Chrysostom clashed with Empress Eudoxia over court morality [PDF p. 78]. He was deposed and exiled in 404 A.D [PDF p. 79].\n\nTheodosius II succeeded Arcadius as a child under the regency of Pulcheria [PDF p. 81]. She ruled effectively for many years [PDF p. 81]. The empire faced Hunnic raids but maintained stability [PDF p. 83]. Marcianus and Pulcheria ended the tribute to Attila [PDF p. 85]. Emperors Leo I, Zeno, and Anastasius reorganized the army using native Isaurians [PDF p. 87]. This reduced reliance on German auxiliaries [PDF p. 87]. Zeno sent the Ostrogoths to Italy under Theodoric in 488 A.D [PDF p. 90].\n\nJustinian succeeded his uncle Justinus in 527 A.D [PDF p. 92]. He married Theodora, a former actress,"
+      }
+    ],
+    "stats": {
+      "input_tokens": 21278,
+      "total_output_tokens": 1100,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 62.664865902318745,
+      "time_to_first_token_seconds": 26.938112
+    }
+  },
+  "output": "The text describes the physical layout and historical significance of Constantinople’s central district. The Hippodrome retained three ancient monuments on its spina [PDF p. 51]. These included a golden tripod from Delphi and a bronze column [PDF p. 51]. The Milion milestone stood near small chapels along the eastern wall [PDF p. 52]. Constantine added a porphyry column topped with an adapted statue of Apollo [PDF p. 52]. This modification mirrored similar changes made in Rome [PDF p. 53]. North of the Hippodrome stood an earlier, humble church dedicated to Divine Wisdom [PDF p. 53]. A wooden gallery connected this church directly to the palace [PDF p. 53]. These structures formed the heart of the imperial city [PDF p. 54]. Other notable buildings included granaries and the Golden Gate [PDF p. 54]. An equestrian statue of Constantine remained a famous landmark until the fifteenth century [PDF p. 54].\n\nConstantine chose Byzantium as his capital in A.D. 328 or 329 [PDF p. 55]. He consecrated the new city on May 11, 330 [PDF p. 55]. The city was established as Christian from its inception [PDF p. 55]. Constantine invited senators and wealthy proprietors to settle there [PDF p. 55]. He granted them positions in the senate and land for homes [PDF p. 55]. Artisans were enticed by special privileges [PDF p. 55]. The distribution of free corn from Egypt attracted merchants and seamen [PDF p. 56]. An edict in 330 A.D. officially named the city New Rome [PDF p. 56]. However, the populace continued to call it Constantinople [PDF p. 56].\n\nConstantine died in 337 A.D., leaving his realm to his sons and nephews [PDF p. 57]. Civil wars eventually concentrated power under Constantius II [PDF p. 57]. The empire faced threats from Persia in the east [PDF p. 58]. However, the primary danger emerged from the north [PDF p. 58]. The Goths had been settled beyond the Danube for a century [PDF p. 59]. They were gradually adopting Christianity and Roman customs [PDF p. 60]. In A.D. 372, the Huns invaded Gothic territories [PDF p. 61]. The Ostrogoths were crushed by the Hunnic horde [PDF p. 61]. The Visigoths fled under Duke Fritigern toward the Roman border [PDF p. 61].\n\nIn A.D. 376, Emperor Valens allowed the Visigoths to cross into Moesia [PDF p. 62]. Roman officials mistreated the immigrants and withheld food supplies [PDF p. 63]. This extortion drove the Goths to rebellion under Fritigern [PDF p. 64]. The Battle of Adrianople in 378 A.D. resulted in a catastrophic defeat for Rome [PDF p. 65]. Valens died, and his army was nearly annihilated [PDF p. 67]. The Goths failed to sack Constantinople due to its strong walls [PDF p. 67]. Emperor Theodosius later made peace with the Goths [PDF p. 68]. He enlisted them as auxiliaries in large numbers [PDF p. 68]. This policy placed significant military power in German hands [PDF p. 69].\n\nAfter Theodosius died, factionalism weakened both halves of the empire [PDF p. 73]. Alaric led the Visigoths in revolt against Arcadius [PDF p. 74]. He eventually moved into Italy and sacked Rome [PDF p. 75]. In the East, Gainas commanded Gothic troops but was killed by Huns [PDF p. 76]. Patriarch John Chrysostom clashed with Empress Eudoxia over court morality [PDF p. 78]. He was deposed and exiled in 404 A.D [PDF p. 79].\n\nTheodosius II succeeded Arcadius as a child under the regency of Pulcheria [PDF p. 81]. She ruled effectively for many years [PDF p. 81]. The empire faced Hunnic raids but maintained stability [PDF p. 83]. Marcianus and Pulcheria ended the tribute to Attila [PDF p. 85]. Emperors Leo I, Zeno, and Anastasius reorganized the army using native Isaurians [PDF p. 87]. This reduced reliance on German auxiliaries [PDF p. 87]. Zeno sent the Ostrogoths to Italy under Theodoric in 488 A.D [PDF p. 90].\n\nJustinian succeeded his uncle Justinus in 527 A.D [PDF p. 92]. He married Theodora, a former actress,",
+  "stats": {
+    "input_tokens": 21278,
+    "total_output_tokens": 1100,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 62.664865902318745,
+    "time_to_first_token_seconds": 26.938112
+  },
+  "wall_seconds": 46.81263768200006,
+  "output_tokens_per_wall_second": 23.497928219134753,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26036518912,
+    "swap_used_bytes": 3364167680,
+    "runtime_largest_process_rss_bytes": 1960296448,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 6622261248,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 26952228864,
+    "cpu_percent": 3.8,
+    "runtime_total_pss_bytes": 2366900224,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 358039552
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2,
+  "superseded_by": "book-chunk02-part01-completion-retry"
+}

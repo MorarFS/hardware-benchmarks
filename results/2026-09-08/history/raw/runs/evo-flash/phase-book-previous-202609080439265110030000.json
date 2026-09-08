@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-08T04:39:26.511003+00:00",
+  "finished_at": "2026-09-08T04:50:11.658866+00:00",
+  "end_to_end_wall_seconds": 645.1478754320005,
+  "includes": "load, preflight tokenization, requests, intermediate disk writes; excludes source acquisition and OCR",
+  "errors": [
+    {
+      "model": "evo-flash",
+      "error": "Output still truncated after bounded completion retries: book-chunk02-part01-completion-retry-completion-retry"
+    }
+  ]
+}

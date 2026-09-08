@@ -1,0 +1,25 @@
+claim_id,group,claim,cited_pdf_pages,checked_pdf_pages,verdict,severity,reviewer_note
+GT-S01-01,1,Preface cited as PDF 11.,11,"11,13,14",citation_error,moderate,PDF 11 is the title page. The preface begins on PDF 13.
+GT-S01-02,1,Senate House modelled to resemble Rome.,47,47,misattribution,major,"The institutional senate, not its building, was modelled on Rome. Error survives final GT-F-014."
+GT-S01-03,1,Excerpt ends during the Hippodrome description.,50,50,supported,none,Correct boundary for this first source group; not a false full-book absence.
+GT-S02-04,2,Hippodrome monuments included a golden tripod.,51,51,contradicted,major,The tripod had already been stolen six centuries earlier; only the serpent pedestal remained.
+GT-S02-05,2,Officials extorted food from the starving Goths.,63,63,reversed_action,major,Officials withheld and overpriced food to extract wealth. Error survives final GT-F-027.
+GT-S02-06,2,Theodoric conquered Italy in 488.,90,90,chronology_error,major,"488 dates the offer and departure, not the completed conquest. Error survives final GT-F-034."
+GT-S03-07,3,"Hippodrome massacre killed approximately 35,000.",106,"105,106",scope_error,major,Reported total covers all six days. Error survives final GT-F-046.
+GT-S03-08,3,"Plague killed 5,000 each day.",127,127,qualification_lost,major,Source marks this as a reported figure. Error survives final GT-F-050.
+GT-S03-09,3,Factions' true motives remain unresolved.,101,"101,102",unsupported_limitation,moderate,The cited text explains factional affiliations and demands; it does not declare their motives unresolved.
+GT-S04-10,4,Heraclius overthrew Phocas and took the throne in 610.,"156,157","156,157",supported,none,"Names the successor without incorrectly identifying him as his father, the exarch."
+GT-S04-11,4,Origins of the Themes remain puzzling.,193,"193,194",supported_with_locator_drift,minor,Probable timing is on PDF 193; the footnote on PDF 194 calls their origins puzzling. Final GT-F-087 improperly converts uncertainty into absence.
+GT-S04-12,4,Priscus opposed nomadic invaders.,152,"148,151,152",overgeneralization,moderate,The source distinguishes Avar raiders from Slavic settlers seeking permanent homes.
+GT-S05-13,5,Tiberius III took power with Admiral Apsimarus's help.,203,203,misidentification,critical,Tiberius III and Admiral Apsimarus are the same person.
+GT-S05-14,5,Constantine V used scorpions for punishment.,222,"222,223",literalized_metaphor,major,Oman's whips/scorpions comparison describes intensifying persecution. The summary treats the comparison as a specific punishment.
+GT-S05-15,5,Leo V was called the Chameleon.,"230,231","230,231",supported,none,The nickname is explicit on PDF 231; no outside correction is needed.
+GT-S06-16,6,Commercial wealth offset harsh taxes.,251,251,supported_source_interpretation,none,Oman explicitly says this taxation caused no permanent harm. This is his interpretation.
+GT-S06-17,6,Zimisces may have been poisoned; the report is unverified.,265,265,supported,none,Correctly retains uncertainty.
+GT-S06-18,6,The Angeli inherited a salvageable empire.,300,300,supported,none,Oman explicitly says ordinary courage and prudence might have held it together.
+GT-S07-19,7,Baldwin was killed by the Bulgarians in 1205.,321,321,supported_source_claim,none,Follows Oman's capture and later execution account; no outside correction imposed.
+GT-S07-20,7,Western and Greek accounts differ regarding the sack.,316,316,contradicted,major,The cited passage says both Western and Greek writers testify to the horrors; it does not describe disagreement.
+GT-S07-21,7,Janissaries were the first steady infantry of an Eastern power.,350,350,supported_source_claim,none,"This is Oman's own wording, treated as source faithfulness rather than independently verified world history."
+GT-S08-22,8,Foreign allies destroyed the empire Cantacuzenus sought.,353,"353,354",supported_source_interpretation,minor,Oman's rhetorical description concerns territorial devastation; it needs attribution and distinction from the later formal conquest.
+GT-S08-23,8,"The final assault occurred May 29, and Constantine died in the breach.","373,374","373,374,375",supported,none,The narrative ending is actually present and summarized.
+GT-S08-24,8,Why Murad I delayed taking the capital is difficult to discern.,356,356,supported,none,Retains an explicit authorial uncertainty.

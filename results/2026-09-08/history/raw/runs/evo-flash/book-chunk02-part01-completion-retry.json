@@ -1,0 +1,87 @@
+{
+  "fingerprint": "8422a0ea63c0f0eddcb02421b48557af515d8b4bb30ae5002a04afff34b0ce28",
+  "model": "evo-flash",
+  "name": "book-chunk02-part01-completion-retry",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:56:36.666371+00:00",
+  "preflight_input_tokens": 5746,
+  "context": 8192,
+  "output_limit": 2200,
+  "metadata": {
+    "chunk": 2,
+    "part": 1,
+    "pdf_pages": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "retry_of": "book-chunk02-part01",
+    "retry_reason": "Output ceiling reached; original retained"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 57.35106130800068
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:57:34.018304+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The Hippodrome’s central spine featured three surviving monuments that outlasted the surrounding walls [PDF p. 51]. The first was a golden tripod dedicated at Delphi in 479 B.C. after the Persian defeat at Plataea [PDF p. 51]. Phocians had stolen its gold six centuries prior, yet inscriptions on its base remained visible to archaeologists [PDF p. 51]. A square bronze column of more modern work stood nearby, contrasting with the ancient artifacts [PDF p. 51]. The Turks now call this open space the Atmeidan, remembering its equestrian past in name only [PDF p. 51]. Along the eastern wall stood chapels and statues, including the Milion milestone of the empire [PDF p. 51]. Constantine contributed a porphyry column topped by a bronze Apollo from Hierapolis [PDF p. 51]. He altered this statue into an imperial image by replacing its head with his own features [PDF p. 51]. This practice mirrored Roman papal actions, where Aurelius was converted into St. Peter on the Corso [PDF p. 53]. North of the Hippodrome stood Constantine’s original church dedicated to Divine Wisdom [PDF p. 53]. This earlier basilica burned twice and left no trace of its initial architectural character [PDF p. 53]. A wooden gallery connected St. Sophia’s west door to the palace Royal Gate [PDF p. 53]. This passage allowed the emperor to attend services without crossing the busy Chalcoprateia street [PDF p. 53]. The author compares this elevated walkway to the corridor linking Florence’s Pitti and Uffizi palaces [PDF p. 53]. These structures formed the city’s heart, hosting most significant historical events [PDF p. 53]. Other notable buildings included the Church of the Holy Apostles and public granaries along the quays [PDF p. 53]. An equestrian statue of Constantine near the praetorian prefect’s palace became a medieval legend site [PDF p. 54].\n\nConstantine chose Byzantium as his capital around A.D. 328 or 329, though exact dates remain uncertain [PDF p. 54]. He consecrated the city on May 11, 330, with Christian bishops blessing the palace and St. Sophia [PDF p. 55]. Although unbaptized, Constantine ensured the new capital was explicitly Christian from its inception [PDF p. 55]. Pagan temples survived only as artistic relics in baths and senate houses, not for worship [PDF p. 55]. To populate the city, he invited senators and wealthy provincials to establish residences there [PDF p. 55]. Artisans received special privileges, while merchants flocked to the new commercial hub [PDF p. 55]. The transfer of Egyptian wheat tribute provided free corn, a powerful but demoralizing incentive for immigration [PDF p. 55]. An edict in 330 named the city New Rome, though people preferred calling it Constantinople [PDF p. 56].\n\nConstantine died peacefully on May 22, A.D. 337, receiving baptism on his deathbed [PDF p. 57]. His realm was divided among relatives until Constantius II consolidated power through murder and war [PDF p. 57]. Constantius II focused on ecclesiastical disputes rather than external threats, initiating Christian persecution of Christians [PDF p. 57]. His successor Julian attempted to restore paganism but failed due to his misguided zeal [PDF p. 58]. Both emperors feared Persian aggression in the east, overlooking dangers from the north [PDF p. 58]. The Goths had been subdued by Constantine between A.D. 328 and 332, forcing them across the Danube [PDF p. 58]. For forty years they settled peacefully, trading with Romans and adopting Christianity under Bishop Ulfilas [PDF p. 60]. Ulfilas translated the Bible into Gothic, creating a vital linguistic relic of Teutonic tongues [PDF p. 60]. The Goths were divided into Visigoths in the south and Ostrogoths in the north [PDF p. 60].\n\nAround A.D. 372, Huns from beyond the Don and Volga invaded Gothic lands [PDF p. 61]. They crushed the Ostrogoths, who became vassals except for a remnant fleeing southward [PDF p. 61]. The Visigoths, led by Duke Fritigern, retreated to the Danube’s southern bank in despair [PDF p. 61]. A contemporary writer describes over two hundred thousand fighting men pleading for Roman protection [PDF p. 62]. Emperor Valens, ruling the East from Constantinople, faced a difficult choice regarding these refugees [PDF p. 62]. He allowed them to cross if they surrendered arms and provided hostages [PDF p. 63]. Roman officials accepted bribes to let Goths keep weapons, violating imperial orders [PDF p. 63]. Governor Lupicinus hoarded food supplies, forcing starving Goths to sell children for bread [PDF p. 63]. An affray at Marcianopolis led Lupicinus to attempt murdering Fritigern during a banquet [PDF p. 64]. The Goths escaped and launched raids across the Balkans, joined by runaway slaves [PDF p. 64]. Initial Roman resistance held them at bay, though battles like Ad Salices proved indecisive [PDF p. 64].\n\nThe text presents conflicting evidence regarding the precise date of Constantine’s capital selection, noting it is hard to fix exactly [PDF p. 54]. The author interprets the transfer of Egyptian grain as demoralizing, a subjective judgment not explicitly stated in primary sources [PDF p. 55]. Descriptions of the Huns rely on Gothic historical accounts, which may reflect bias rather than objective fact [PDF p. 61]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 5710,
+      "total_output_tokens": 1298,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.875989104326894,
+      "time_to_first_token_seconds": 0.636648
+    }
+  },
+  "output": "The Hippodrome’s central spine featured three surviving monuments that outlasted the surrounding walls [PDF p. 51]. The first was a golden tripod dedicated at Delphi in 479 B.C. after the Persian defeat at Plataea [PDF p. 51]. Phocians had stolen its gold six centuries prior, yet inscriptions on its base remained visible to archaeologists [PDF p. 51]. A square bronze column of more modern work stood nearby, contrasting with the ancient artifacts [PDF p. 51]. The Turks now call this open space the Atmeidan, remembering its equestrian past in name only [PDF p. 51]. Along the eastern wall stood chapels and statues, including the Milion milestone of the empire [PDF p. 51]. Constantine contributed a porphyry column topped by a bronze Apollo from Hierapolis [PDF p. 51]. He altered this statue into an imperial image by replacing its head with his own features [PDF p. 51]. This practice mirrored Roman papal actions, where Aurelius was converted into St. Peter on the Corso [PDF p. 53]. North of the Hippodrome stood Constantine’s original church dedicated to Divine Wisdom [PDF p. 53]. This earlier basilica burned twice and left no trace of its initial architectural character [PDF p. 53]. A wooden gallery connected St. Sophia’s west door to the palace Royal Gate [PDF p. 53]. This passage allowed the emperor to attend services without crossing the busy Chalcoprateia street [PDF p. 53]. The author compares this elevated walkway to the corridor linking Florence’s Pitti and Uffizi palaces [PDF p. 53]. These structures formed the city’s heart, hosting most significant historical events [PDF p. 53]. Other notable buildings included the Church of the Holy Apostles and public granaries along the quays [PDF p. 53]. An equestrian statue of Constantine near the praetorian prefect’s palace became a medieval legend site [PDF p. 54].\n\nConstantine chose Byzantium as his capital around A.D. 328 or 329, though exact dates remain uncertain [PDF p. 54]. He consecrated the city on May 11, 330, with Christian bishops blessing the palace and St. Sophia [PDF p. 55]. Although unbaptized, Constantine ensured the new capital was explicitly Christian from its inception [PDF p. 55]. Pagan temples survived only as artistic relics in baths and senate houses, not for worship [PDF p. 55]. To populate the city, he invited senators and wealthy provincials to establish residences there [PDF p. 55]. Artisans received special privileges, while merchants flocked to the new commercial hub [PDF p. 55]. The transfer of Egyptian wheat tribute provided free corn, a powerful but demoralizing incentive for immigration [PDF p. 55]. An edict in 330 named the city New Rome, though people preferred calling it Constantinople [PDF p. 56].\n\nConstantine died peacefully on May 22, A.D. 337, receiving baptism on his deathbed [PDF p. 57]. His realm was divided among relatives until Constantius II consolidated power through murder and war [PDF p. 57]. Constantius II focused on ecclesiastical disputes rather than external threats, initiating Christian persecution of Christians [PDF p. 57]. His successor Julian attempted to restore paganism but failed due to his misguided zeal [PDF p. 58]. Both emperors feared Persian aggression in the east, overlooking dangers from the north [PDF p. 58]. The Goths had been subdued by Constantine between A.D. 328 and 332, forcing them across the Danube [PDF p. 58]. For forty years they settled peacefully, trading with Romans and adopting Christianity under Bishop Ulfilas [PDF p. 60]. Ulfilas translated the Bible into Gothic, creating a vital linguistic relic of Teutonic tongues [PDF p. 60]. The Goths were divided into Visigoths in the south and Ostrogoths in the north [PDF p. 60].\n\nAround A.D. 372, Huns from beyond the Don and Volga invaded Gothic lands [PDF p. 61]. They crushed the Ostrogoths, who became vassals except for a remnant fleeing southward [PDF p. 61]. The Visigoths, led by Duke Fritigern, retreated to the Danube’s southern bank in despair [PDF p. 61]. A contemporary writer describes over two hundred thousand fighting men pleading for Roman protection [PDF p. 62]. Emperor Valens, ruling the East from Constantinople, faced a difficult choice regarding these refugees [PDF p. 62]. He allowed them to cross if they surrendered arms and provided hostages [PDF p. 63]. Roman officials accepted bribes to let Goths keep weapons, violating imperial orders [PDF p. 63]. Governor Lupicinus hoarded food supplies, forcing starving Goths to sell children for bread [PDF p. 63]. An affray at Marcianopolis led Lupicinus to attempt murdering Fritigern during a banquet [PDF p. 64]. The Goths escaped and launched raids across the Balkans, joined by runaway slaves [PDF p. 64]. Initial Roman resistance held them at bay, though battles like Ad Salices proved indecisive [PDF p. 64].\n\nThe text presents conflicting evidence regarding the precise date of Constantine’s capital selection, noting it is hard to fix exactly [PDF p. 54]. The author interprets the transfer of Egyptian grain as demoralizing, a subjective judgment not explicitly stated in primary sources [PDF p. 55]. Descriptions of the Huns rely on Gothic historical accounts, which may reflect bias rather than objective fact [PDF p. 61].",
+  "stats": {
+    "input_tokens": 5710,
+    "total_output_tokens": 1298,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.875989104326894,
+    "time_to_first_token_seconds": 0.636648
+  },
+  "wall_seconds": 57.35106130800068,
+  "output_tokens_per_wall_second": 22.632536702837342,
+  "peak_metrics": {
+    "cpu_percent": 3.2,
+    "card1_vram_used_bytes": 67909599232,
+    "system_available_bytes": 28185890816,
+    "swap_used_bytes": 4196335616,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 4642422784,
+    "runtime_total_pss_bytes": 1187030016,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_used_bytes": 196743168,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_largest_process_rss_bytes": 877281280
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -36
+}

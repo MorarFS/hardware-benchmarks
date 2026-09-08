@@ -1,0 +1,117 @@
+{
+  "fingerprint": "c506c5335b23b774515f2b8c103989f01ae76f31f15f2019049a169a6ef8eba0",
+  "model": "evo-gemma26",
+  "name": "book-chunk08-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:31:25.277032+00:00",
+  "preflight_input_tokens": 25511,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 8,
+    "part": 1,
+    "pdf_pages": [
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 52.548232125999675
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:32:17.826260+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The provided text details the decline of the Byzantine Empire through the fourteenth and fifteenth centuries [PDF p. 351]. Following the death of Andronicus III in 1341, the empire faced instability due to a minority reign under John III [PDF p. 351]. The author identifies John Cantacuzenus as a primary cause of destruction [PDF p. 351]. Although a clever courtier, Cantacuzenus lacked the abilities of a statesman or general [PDF p. 351]. He attempted to imitate Michael VIII by seeking to supplant his young master [PDF p. 351]. After failing to seize the capital, he summoned Servian King Stephen Dushan and Turkish princes for aid [PDF p. 352, 353]. The author argues that these alliances preserved Cantacuzenus but destroyed the empire [PDF p. 353]. While Dushan expanded his realm, his death in 1355 led to a rapid Servian collapse [PDF p. 354]. Meanwhile, Turkish incursions under Orkhan and Amour devastated Thrace and facilitated the slave trade [PDF p. 353, 354]. A hollow peace was reached in 1347, leaving the empire reduced to Constantinople, Adrianople, Thessalonica, and the Peloponnesus [PDF p. 354].\n\nThe conflict continued when John Paleologus sought to dethrone his guardian in 1354 [PDF p. 355]. Cantacuzenus utilized Orkhan's troops, but a surprise attack allowed Paleologus to seize Constantinople and capture the usurper [PDF p. 355]. Following his removal, Ottoman forces established a permanent foothold at Gallipoli under Suleiman [PDF p. 355]. Under Murad I, the empire became a mere head without a body as Thrace fell to the Turks [PDF p. 356]. The author notes that John V remained a vassal of the Turk [PDF p. 356]. This period included the humiliation of Philadelphia, where the Emperor was forced to assist in subduing a Christian stronghold [PDF p. 356].\n\nThe narrative concludes with the fall of Constantinople on May 29, 1453 [PDF p. 373]. Constantine XI faced an assault by seventy thousand troops led by Mohammed II [PDF p. 372]. Despite efforts by defenders like Giustiniani, Turkish artillery breached the walls [PDF p. 372, 373]. The Emperor died in the breach during a final Janissary assault [PDF p. 374]. Following the victory, Mohammed II entered St. Sophia and proclaimed the Islamic faith [PDF p. 375]. The text includes a table of emperors [PDF p. 377] and an index [PDF p. 379].\n\nThe source provides a detailed chronology but relies on interpretations regarding the necessity of certain historical outcomes [PDF p. 358]. It does not address potential conflicting evidence regarding the specific motivations of all involved parties."
+      }
+    ],
+    "stats": {
+      "input_tokens": 25514,
+      "total_output_tokens": 667,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 37.7260204973513,
+      "time_to_first_token_seconds": 31.454455999999997
+    }
+  },
+  "output": "The provided text details the decline of the Byzantine Empire through the fourteenth and fifteenth centuries [PDF p. 351]. Following the death of Andronicus III in 1341, the empire faced instability due to a minority reign under John III [PDF p. 351]. The author identifies John Cantacuzenus as a primary cause of destruction [PDF p. 351]. Although a clever courtier, Cantacuzenus lacked the abilities of a statesman or general [PDF p. 351]. He attempted to imitate Michael VIII by seeking to supplant his young master [PDF p. 351]. After failing to seize the capital, he summoned Servian King Stephen Dushan and Turkish princes for aid [PDF p. 352, 353]. The author argues that these alliances preserved Cantacuzenus but destroyed the empire [PDF p. 353]. While Dushan expanded his realm, his death in 1355 led to a rapid Servian collapse [PDF p. 354]. Meanwhile, Turkish incursions under Orkhan and Amour devastated Thrace and facilitated the slave trade [PDF p. 353, 354]. A hollow peace was reached in 1347, leaving the empire reduced to Constantinople, Adrianople, Thessalonica, and the Peloponnesus [PDF p. 354].\n\nThe conflict continued when John Paleologus sought to dethrone his guardian in 1354 [PDF p. 355]. Cantacuzenus utilized Orkhan's troops, but a surprise attack allowed Paleologus to seize Constantinople and capture the usurper [PDF p. 355]. Following his removal, Ottoman forces established a permanent foothold at Gallipoli under Suleiman [PDF p. 355]. Under Murad I, the empire became a mere head without a body as Thrace fell to the Turks [PDF p. 356]. The author notes that John V remained a vassal of the Turk [PDF p. 356]. This period included the humiliation of Philadelphia, where the Emperor was forced to assist in subduing a Christian stronghold [PDF p. 356].\n\nThe narrative concludes with the fall of Constantinople on May 29, 1453 [PDF p. 373]. Constantine XI faced an assault by seventy thousand troops led by Mohammed II [PDF p. 372]. Despite efforts by defenders like Giustiniani, Turkish artillery breached the walls [PDF p. 372, 373]. The Emperor died in the breach during a final Janissary assault [PDF p. 374]. Following the victory, Mohammed II entered St. Sophia and proclaimed the Islamic faith [PDF p. 375]. The text includes a table of emperors [PDF p. 377] and an index [PDF p. 379].\n\nThe source provides a detailed chronology but relies on interpretations regarding the necessity of certain historical outcomes [PDF p. 358]. It does not address potential conflicting evidence regarding the specific motivations of all involved parties.",
+  "stats": {
+    "input_tokens": 25514,
+    "total_output_tokens": 667,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 37.7260204973513,
+    "time_to_first_token_seconds": 31.454455999999997
+  },
+  "wall_seconds": 52.548232125999675,
+  "output_tokens_per_wall_second": 12.693100662276771,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 13484302336,
+    "system_available_bytes": 20588077056,
+    "swap_used_bytes": 3831762944,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 9793811456,
+    "card1_vram_used_bytes": 20735987712,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 9358622720,
+    "cpu_percent": 6.4
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

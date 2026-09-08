@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-08T05:08:13.875058+00:00",
+  "finished_at": "2026-09-08T05:17:45.654954+00:00",
+  "end_to_end_wall_seconds": 571.7799056389995,
+  "includes": "load, preflight tokenization, requests, intermediate disk writes; excludes source acquisition and OCR",
+  "errors": [
+    {
+      "model": "evo-qwen36",
+      "error": "Output still truncated after bounded completion retries: book-final-summary-completion-retry-completion-retry"
+    }
+  ]
+}

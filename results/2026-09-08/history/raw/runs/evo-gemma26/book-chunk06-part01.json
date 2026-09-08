@@ -1,0 +1,121 @@
+{
+  "fingerprint": "4be95e9cd1afccaf5585fbc771e25b0d31a8c3f5d78d5e33f9f040d6cdcae6f9",
+  "model": "evo-gemma26",
+  "name": "book-chunk06-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:29:44.047127+00:00",
+  "preflight_input_tokens": 20060,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 6,
+    "part": 1,
+    "pdf_pages": [
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 48.64447323500008
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:30:32.692975+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The Byzantine Empire maintained strength through a commercial monopoly centered on the Bosphorus [PDF p. 251]. This trade dominance allowed the empire to endure harsh taxation systems [PDF p. 251]. During the reign of Constantine Porphyrogenitus, the Caliphate fractured into several weak, competing states [PDF p. 252]. This fragmentation provided an opportunity for Byzantine expansion [PDF p. 253]. The general Nicephorus Phocas exploited this situation by conquering Crete in 961 A.D. [PDF p. 254]. He later led successful campaigns in Cilicia and Northern Syria [PDF p. 255]. Following the unexpected death of Romanus II, Phocas became emperor alongside the young Basil II and Constantine VIII [PDF p. 255]. Phocas was a dedicated soldier but faced domestic unpopularity due to his stern administration [PDF p. 256]. He was eventually murdered in 969 by his wife Theophano and John Zimisces [PDF p. 258, 259].\n\nJohn Zimisces proved to be an effective ruler despite his violent accession [PDF p. 259]. His most notable achievement was defeating the Russian invasion led by King Swiatoslaf in 971 [PDF p. 260, 261]. This victory eventually led to the Christianization of the Russians and their integration into Byzantine culture [PDF p. 263]. Zimisces died after a short illness, leaving Basil II as his ward [PDF p. 265]. Basil II, known as the \"Slayer of the Bulgarians,\" conducted a thirty-four year war against King Samuel [PDF p. 266, 267]. Basil eventually conquered Bulgaria and established the border at the Danube [PDF p. 268]. He also expanded into Armenia, though the author questions if this was beneficial [PDF p. 269].\n\nThe Macedonian dynasty ended with the death of Theodora in 1057 [PDF p. 274]. This extinction triggered a period of civil war and foreign invasion [PDF p. 275]. The Seljouk Turks began devastating Asia Minor, culminating in the decisive Byzantine defeat at Manzikert in 1071 [PDF p. 277, 278, 280]. Romanus Diogenes was captured during this battle and later blinded by John Ducas [PDF p. 280, 281]. Alexius Comnenus eventually stabilized the empire through a mixture of diplomacy and treachery [PDF p. 283]. He managed both the Seljouk threat and Norman invasions from Italy [PDF p. 284, 285]. While the Crusades helped push back the Turks, they also caused a terminal decline in Constantinople's commercial wealth [PDF p. 293, 294].\n\nThe Comneni dynasty saw varying levels of success under John II and Manuel I [PDF p. 295, 296]. Manuel was a brave cavalry officer but a reckless statesman whose defeat at Myriokephalon weakened the realm [PDF p. 297, 298]. After his death, the usurper Andronicus Comnenus ruled through terror before being killed by a mob [PDF p. 299]. The empire then passed to the incompetent Isaac and Alexius Angelus [PDF p. 300]. The author argues that the empire's condition was not hopeless during their reign [PDF p. 300]. However, these triflers failed to defend the state against impending destruction [PDF p. 300].\n\nThe provided text does not address the eventual outcome of the Latin conquest or the specific fate of the Angelus brothers beyond their incompetence."
+      }
+    ],
+    "stats": {
+      "input_tokens": 20063,
+      "total_output_tokens": 825,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 38.44547405322421,
+      "time_to_first_token_seconds": 23.804405
+    }
+  },
+  "output": "The Byzantine Empire maintained strength through a commercial monopoly centered on the Bosphorus [PDF p. 251]. This trade dominance allowed the empire to endure harsh taxation systems [PDF p. 251]. During the reign of Constantine Porphyrogenitus, the Caliphate fractured into several weak, competing states [PDF p. 252]. This fragmentation provided an opportunity for Byzantine expansion [PDF p. 253]. The general Nicephorus Phocas exploited this situation by conquering Crete in 961 A.D. [PDF p. 254]. He later led successful campaigns in Cilicia and Northern Syria [PDF p. 255]. Following the unexpected death of Romanus II, Phocas became emperor alongside the young Basil II and Constantine VIII [PDF p. 255]. Phocas was a dedicated soldier but faced domestic unpopularity due to his stern administration [PDF p. 256]. He was eventually murdered in 969 by his wife Theophano and John Zimisces [PDF p. 258, 259].\n\nJohn Zimisces proved to be an effective ruler despite his violent accession [PDF p. 259]. His most notable achievement was defeating the Russian invasion led by King Swiatoslaf in 971 [PDF p. 260, 261]. This victory eventually led to the Christianization of the Russians and their integration into Byzantine culture [PDF p. 263]. Zimisces died after a short illness, leaving Basil II as his ward [PDF p. 265]. Basil II, known as the \"Slayer of the Bulgarians,\" conducted a thirty-four year war against King Samuel [PDF p. 266, 267]. Basil eventually conquered Bulgaria and established the border at the Danube [PDF p. 268]. He also expanded into Armenia, though the author questions if this was beneficial [PDF p. 269].\n\nThe Macedonian dynasty ended with the death of Theodora in 1057 [PDF p. 274]. This extinction triggered a period of civil war and foreign invasion [PDF p. 275]. The Seljouk Turks began devastating Asia Minor, culminating in the decisive Byzantine defeat at Manzikert in 1071 [PDF p. 277, 278, 280]. Romanus Diogenes was captured during this battle and later blinded by John Ducas [PDF p. 280, 281]. Alexius Comnenus eventually stabilized the empire through a mixture of diplomacy and treachery [PDF p. 283]. He managed both the Seljouk threat and Norman invasions from Italy [PDF p. 284, 285]. While the Crusades helped push back the Turks, they also caused a terminal decline in Constantinople's commercial wealth [PDF p. 293, 294].\n\nThe Comneni dynasty saw varying levels of success under John II and Manuel I [PDF p. 295, 296]. Manuel was a brave cavalry officer but a reckless statesman whose defeat at Myriokephalon weakened the realm [PDF p. 297, 298]. After his death, the usurper Andronicus Comnenus ruled through terror before being killed by a mob [PDF p. 299]. The empire then passed to the incompetent Isaac and Alexius Angelus [PDF p. 300]. The author argues that the empire's condition was not hopeless during their reign [PDF p. 300]. However, these triflers failed to defend the state against impending destruction [PDF p. 300].\n\nThe provided text does not address the eventual outcome of the Latin conquest or the specific fate of the Angelus brothers beyond their incompetence.",
+  "stats": {
+    "input_tokens": 20063,
+    "total_output_tokens": 825,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 38.44547405322421,
+    "time_to_first_token_seconds": 23.804405
+  },
+  "wall_seconds": 48.64447323500008,
+  "output_tokens_per_wall_second": 16.959788957204825,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 11029192704,
+    "system_available_bytes": 22827855872,
+    "swap_used_bytes": 3832795136,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 7538295808,
+    "card1_vram_used_bytes": 20680314880,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 7114690560,
+    "cpu_percent": 3.8
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

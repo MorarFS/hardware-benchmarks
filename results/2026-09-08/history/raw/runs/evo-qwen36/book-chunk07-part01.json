@@ -1,0 +1,122 @@
+{
+  "fingerprint": "58d5257a77fe2bea73208e59da9682c275351aab95620dbe6c7d5ffd00566a58",
+  "model": "evo-qwen36",
+  "name": "book-chunk07-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:20:08.267492+00:00",
+  "preflight_input_tokens": 20691,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 7,
+    "part": 1,
+    "pdf_pages": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 48.03628731800018
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:20:56.305249+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "The reigns of Isaac II and Alexius III Angelus marked a period of profound decline for the Byzantine Empire [PDF p. 301]. The emperors prioritized personal luxury over statecraft, leaving the military and financial systems in disarray [PDF p. 301]. The empire had lost its native recruiting grounds in Asia Minor to Seljouk invasions [PDF p. 301]. Consequently, it relied heavily on mercenaries who lacked discipline and loyalty [PDF p. 301]. Civil administration was equally corrupt, with offices sold to the highest bidders [PDF p. 302]. Isaac Angelus exposed administrative abuses by auctioning posts to officials who extorted profits from provincials [PDF p. 302]. Alexius III promised merit-based appointments but surrounded himself with rapacious favorites [PDF p. 302].\n\nIsaac II lost Bulgaria and Cyprus during his rule [PDF p. 303]. Bulgarian rebels exploited the empire’s internal weakness to declare independence [PDF p. 303]. Isaac appointed incompetent generals, allowing the rebellion to grow until a civil war erupted [PDF p. 303]. He bribed Conrad of Montferrat to defeat the usurper Branas, but Bulgaria remained lost [PDF p. 303]. Cyprus was seized by Isaac Comnenus, who established an independent kingdom there [PDF p. 304]. Richard Coeur-de-Lion later conquered the island from Isaac Comnenus after a personal dispute [PDF p. 304]. Alexius III deposed his blind brother Isaac in a palace coup and continued the disastrous policies of neglect [PDF p. 305].\n\nThe Fourth Crusade diverted toward Constantinople due to Venetian financial interests and Byzantine political intrigue [PDF p. 306]. The Crusaders, unable to pay Venice, attacked Zara before being persuaded by the exiled Alexius Angelus to restore his father Isaac II [PDF p. 307]. They captured the city in 1203 after breaching the sea walls with floating towers [PDF p. 310]. However, the restored emperors failed to meet their financial obligations to the Crusaders [PDF p. 311]. This led to a popular revolt in January 1204, resulting in the death of Isaac II and the murder of Alexius Angelus [PDF p. 312].\n\nAlexius Ducas, known as Murtzuphlus, assumed power but lacked resources or military strength [PDF p. 313]. He attempted to reform the army and fortify the walls against a second Crusader assault [PDF p. 314]. The Crusaders breached the sea wall on April 12, 1204, after a fierce naval battle [PDF p. 315]. Alexius Ducas fled the city, leading to its complete fall and a three-day sack of Constantinople [PDF p. 316]. The Crusaders plundered churches, destroyed ancient art, and divided the empire among themselves [PDF p. 317]. Baldwin of Flanders became Latin Emperor, while Boniface of Montferrat received Thessalonica [PDF p. 318].\n\nThe Latin Empire proved unstable from its inception, losing territory to Bulgarian and Greek forces [PDF p. 320]. Baldwin I was captured and killed by the Bulgarians in 1205 [PDF p. 321]. Meanwhile, Theodore Lascaris established the Empire of Nicaea in Asia Minor [PDF p. 324]. He successfully defended against both Latin and Seljouk threats, securing his realm’s independence [PDF p. 325]. Another Greek state emerged in Epirus under Michael Angelus, challenging Latin dominance in Greece [PDF p. 326]. John Ducas of Nicaea eventually united the Nicene and Thessalonican territories by 1246 [PDF p. 327].\n\nMichael Paleologus usurped the throne from the young John IV Lascaris in 1259 [PDF p. 329]. He blinded his predecessor and consolidated power through ruthless political maneuvering [PDF p. 330]. In 1261, Alexius Strategopulus recaptured Constantinople for Michael while the Latin garrison was absent [PDF p. 331]. The restored Byzantine Empire was significantly smaller and economically weakened compared to its former self [PDF p. 334]. Trade monopolies had shifted to Italian republics, depriving Constantinople of its commercial centrality [PDF p. 336].\n\nMichael Paleologus disbanded native militias out of suspicion, inadvertently opening the frontier to Ottoman Turks [PDF p. 339]. His successor Andronicus II hired the mercenary \"Grand Company\" to fight the Turks [PDF p. 342]. The mercenaries turned on the empire, ravaging Thrace and Macedonia before settling in Athens [PDF p. 344]. This internal chaos allowed Ottoman emirs to conquer most of Asia Minor by 1325 [PDF p"
+      }
+    ],
+    "stats": {
+      "input_tokens": 20693,
+      "total_output_tokens": 1100,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 57.34359625433091,
+      "time_to_first_token_seconds": 26.192259999999997
+    }
+  },
+  "output": "The reigns of Isaac II and Alexius III Angelus marked a period of profound decline for the Byzantine Empire [PDF p. 301]. The emperors prioritized personal luxury over statecraft, leaving the military and financial systems in disarray [PDF p. 301]. The empire had lost its native recruiting grounds in Asia Minor to Seljouk invasions [PDF p. 301]. Consequently, it relied heavily on mercenaries who lacked discipline and loyalty [PDF p. 301]. Civil administration was equally corrupt, with offices sold to the highest bidders [PDF p. 302]. Isaac Angelus exposed administrative abuses by auctioning posts to officials who extorted profits from provincials [PDF p. 302]. Alexius III promised merit-based appointments but surrounded himself with rapacious favorites [PDF p. 302].\n\nIsaac II lost Bulgaria and Cyprus during his rule [PDF p. 303]. Bulgarian rebels exploited the empire’s internal weakness to declare independence [PDF p. 303]. Isaac appointed incompetent generals, allowing the rebellion to grow until a civil war erupted [PDF p. 303]. He bribed Conrad of Montferrat to defeat the usurper Branas, but Bulgaria remained lost [PDF p. 303]. Cyprus was seized by Isaac Comnenus, who established an independent kingdom there [PDF p. 304]. Richard Coeur-de-Lion later conquered the island from Isaac Comnenus after a personal dispute [PDF p. 304]. Alexius III deposed his blind brother Isaac in a palace coup and continued the disastrous policies of neglect [PDF p. 305].\n\nThe Fourth Crusade diverted toward Constantinople due to Venetian financial interests and Byzantine political intrigue [PDF p. 306]. The Crusaders, unable to pay Venice, attacked Zara before being persuaded by the exiled Alexius Angelus to restore his father Isaac II [PDF p. 307]. They captured the city in 1203 after breaching the sea walls with floating towers [PDF p. 310]. However, the restored emperors failed to meet their financial obligations to the Crusaders [PDF p. 311]. This led to a popular revolt in January 1204, resulting in the death of Isaac II and the murder of Alexius Angelus [PDF p. 312].\n\nAlexius Ducas, known as Murtzuphlus, assumed power but lacked resources or military strength [PDF p. 313]. He attempted to reform the army and fortify the walls against a second Crusader assault [PDF p. 314]. The Crusaders breached the sea wall on April 12, 1204, after a fierce naval battle [PDF p. 315]. Alexius Ducas fled the city, leading to its complete fall and a three-day sack of Constantinople [PDF p. 316]. The Crusaders plundered churches, destroyed ancient art, and divided the empire among themselves [PDF p. 317]. Baldwin of Flanders became Latin Emperor, while Boniface of Montferrat received Thessalonica [PDF p. 318].\n\nThe Latin Empire proved unstable from its inception, losing territory to Bulgarian and Greek forces [PDF p. 320]. Baldwin I was captured and killed by the Bulgarians in 1205 [PDF p. 321]. Meanwhile, Theodore Lascaris established the Empire of Nicaea in Asia Minor [PDF p. 324]. He successfully defended against both Latin and Seljouk threats, securing his realm’s independence [PDF p. 325]. Another Greek state emerged in Epirus under Michael Angelus, challenging Latin dominance in Greece [PDF p. 326]. John Ducas of Nicaea eventually united the Nicene and Thessalonican territories by 1246 [PDF p. 327].\n\nMichael Paleologus usurped the throne from the young John IV Lascaris in 1259 [PDF p. 329]. He blinded his predecessor and consolidated power through ruthless political maneuvering [PDF p. 330]. In 1261, Alexius Strategopulus recaptured Constantinople for Michael while the Latin garrison was absent [PDF p. 331]. The restored Byzantine Empire was significantly smaller and economically weakened compared to its former self [PDF p. 334]. Trade monopolies had shifted to Italian republics, depriving Constantinople of its commercial centrality [PDF p. 336].\n\nMichael Paleologus disbanded native militias out of suspicion, inadvertently opening the frontier to Ottoman Turks [PDF p. 339]. His successor Andronicus II hired the mercenary \"Grand Company\" to fight the Turks [PDF p. 342]. The mercenaries turned on the empire, ravaging Thrace and Macedonia before settling in Athens [PDF p. 344]. This internal chaos allowed Ottoman emirs to conquer most of Asia Minor by 1325 [PDF p",
+  "stats": {
+    "input_tokens": 20693,
+    "total_output_tokens": 1100,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.34359625433091,
+    "time_to_first_token_seconds": 26.192259999999997
+  },
+  "wall_seconds": 48.03628731800018,
+  "output_tokens_per_wall_second": 22.899355079588084,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26036531200,
+    "swap_used_bytes": 4029128704,
+    "runtime_largest_process_rss_bytes": 6518845440,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 10553704448,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 23113379840,
+    "cpu_percent": 3.8,
+    "runtime_total_pss_bytes": 6884037632,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 357646336
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2,
+  "superseded_by": "book-chunk07-part01-completion-retry"
+}

@@ -1,0 +1,121 @@
+{
+  "fingerprint": "178c6e0477c7472ee37100767830aee52054586c73ab2d5e798e7b9a1d2af784",
+  "model": "evo-gemma26",
+  "name": "book-chunk01-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:25:34.113540+00:00",
+  "preflight_input_tokens": 16177,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 1,
+    "part": 1,
+    "pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 40.39262339400011
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:26:14.507103+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The provided text contains front matter, including library stamps and title pages [PDF p. 2-3, 11]. The author, C. W. C. Oman, provides a preface arguing that the Byzantine Empire should no longer be viewed as merely decadent or monotonous [PDF p. 13]. He contends that recent scholarship has demonstrated the empire's vital role in resisting the Saracens and preserving learning [PDF p. 13]. The author acknowledges his reliance on various chroniclers, such as Procopius and Anna Comnena, to justify his narrative [PDF p. 14]. A detailed table of contents follows, outlining the history from the foundation of Byzantium through the fall of Constantinople in 1453 [PDF p. 15-20]. Additionally, a list of illustrations describes various coins, maps, and artworks used within the volume [PDF p. 21-24].\n\nThe narrative begins with the founding of Byzantium by Greek colonists from Megara approximately 2,558 years ago [PDF p. 27]. These settlers established a colony on a headland near the Golden Horn [PDF p. 27]. According to legend, the Delphic oracle instructed them to build their city opposite the \"city of the blind,\" referring to Chalcedon [PDF p. 29]. The author notes that Byzantium's location offered significant military and commercial advantages [PDF p. 30]. It commanded Black Sea trade and served as a vital frontier fortress [PDF p. 30-31]. Throughout its early history, the city maintained independence except for brief periods of Persian rule [PDF p. 31]. The text describes how the city survived various sieges and conflicts involving Athens and Macedonia [PDF p. 32-34]. After falling to Alexander the Great, Byzantium eventually became a free confederate city under Rome [PDF p. 34]. However, Emperor Vespasian later stripped the city of these privileges [PDF p. 34].\n\nThe city faced significant destruction in A.D. 196 when Emperor Severus punished its resistance [PDF p. 35]. Although it recovered, Byzantium remained a target for Goths and usurping emperors [PDF p. 36]. The text details how Licinius used the city as a chief fortress before Constantine the Great besieged and captured it in A.D. 323 [PDF p. 37-38]. Oman interprets Constantine as a practical, unsympathetic leader who sought a more convenient administrative center than Rome [PDF p. 39-41]. Constantine chose Byzantium because of its superior military and commercial positioning [PDF p. 42-43]. He established the new capital with great energy, marking its boundaries through solemn processions [PDF p. 44].\n\nThe topography of the new Constantinople included a central marketplace marked by the Milion [PDF p. 44-45]. The imperial palace occupied a vast precinct near the shore [PDF p. 45]. Public life centered on the Augustaeum, which contained the Baths of Zeuxippus and the Senate House [PDF p. 45-47]. The author notes that the Bishop's palace was overshadowed by the imperial residence, limiting spiritual independence [PDF p. 47-48]. A major feature was the Hippodrome, where chariot racing fueled intense factional rivalries between the Blues and Greens [PDF p. 48-49]. These factions often caused public disorder and political instability [PDF p. 49-50]. The Hippodrome's central division wall featured an Egyptian obelisk and a three-headed brazen serpent [PDF p. 50].\n\nThe supplied material ends mid-description of the monuments within the Hippodrome. Consequently, the full history of the empire and the complete topographical details remain unresolved in this excerpt."
+      }
+    ],
+    "stats": {
+      "input_tokens": 16180,
+      "total_output_tokens": 822,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 38.66892971750109,
+      "time_to_first_token_seconds": 19.108826
+    }
+  },
+  "output": "The provided text contains front matter, including library stamps and title pages [PDF p. 2-3, 11]. The author, C. W. C. Oman, provides a preface arguing that the Byzantine Empire should no longer be viewed as merely decadent or monotonous [PDF p. 13]. He contends that recent scholarship has demonstrated the empire's vital role in resisting the Saracens and preserving learning [PDF p. 13]. The author acknowledges his reliance on various chroniclers, such as Procopius and Anna Comnena, to justify his narrative [PDF p. 14]. A detailed table of contents follows, outlining the history from the foundation of Byzantium through the fall of Constantinople in 1453 [PDF p. 15-20]. Additionally, a list of illustrations describes various coins, maps, and artworks used within the volume [PDF p. 21-24].\n\nThe narrative begins with the founding of Byzantium by Greek colonists from Megara approximately 2,558 years ago [PDF p. 27]. These settlers established a colony on a headland near the Golden Horn [PDF p. 27]. According to legend, the Delphic oracle instructed them to build their city opposite the \"city of the blind,\" referring to Chalcedon [PDF p. 29]. The author notes that Byzantium's location offered significant military and commercial advantages [PDF p. 30]. It commanded Black Sea trade and served as a vital frontier fortress [PDF p. 30-31]. Throughout its early history, the city maintained independence except for brief periods of Persian rule [PDF p. 31]. The text describes how the city survived various sieges and conflicts involving Athens and Macedonia [PDF p. 32-34]. After falling to Alexander the Great, Byzantium eventually became a free confederate city under Rome [PDF p. 34]. However, Emperor Vespasian later stripped the city of these privileges [PDF p. 34].\n\nThe city faced significant destruction in A.D. 196 when Emperor Severus punished its resistance [PDF p. 35]. Although it recovered, Byzantium remained a target for Goths and usurping emperors [PDF p. 36]. The text details how Licinius used the city as a chief fortress before Constantine the Great besieged and captured it in A.D. 323 [PDF p. 37-38]. Oman interprets Constantine as a practical, unsympathetic leader who sought a more convenient administrative center than Rome [PDF p. 39-41]. Constantine chose Byzantium because of its superior military and commercial positioning [PDF p. 42-43]. He established the new capital with great energy, marking its boundaries through solemn processions [PDF p. 44].\n\nThe topography of the new Constantinople included a central marketplace marked by the Milion [PDF p. 44-45]. The imperial palace occupied a vast precinct near the shore [PDF p. 45]. Public life centered on the Augustaeum, which contained the Baths of Zeuxippus and the Senate House [PDF p. 45-47]. The author notes that the Bishop's palace was overshadowed by the imperial residence, limiting spiritual independence [PDF p. 47-48]. A major feature was the Hippodrome, where chariot racing fueled intense factional rivalries between the Blues and Greens [PDF p. 48-49]. These factions often caused public disorder and political instability [PDF p. 49-50]. The Hippodrome's central division wall featured an Egyptian obelisk and a three-headed brazen serpent [PDF p. 50].\n\nThe supplied material ends mid-description of the monuments within the Hippodrome. Consequently, the full history of the empire and the complete topographical details remain unresolved in this excerpt.",
+  "stats": {
+    "input_tokens": 16180,
+    "total_output_tokens": 822,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 38.66892971750109,
+    "time_to_first_token_seconds": 19.108826
+  },
+  "wall_seconds": 40.39262339400011,
+  "output_tokens_per_wall_second": 20.350250390572533,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 5277769728,
+    "system_available_bytes": 27894484992,
+    "swap_used_bytes": 3840417792,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 1822846976,
+    "card1_vram_used_bytes": 20680253440,
+    "card1_gtt_used_bytes": 244867072,
+    "runtime_largest_process_rss_bytes": 1467514880,
+    "cpu_percent": 3.2
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

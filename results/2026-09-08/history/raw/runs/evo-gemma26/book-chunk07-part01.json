@@ -1,0 +1,121 @@
+{
+  "fingerprint": "cca7c92179cc9d24f9edb66984016e0d8d2d7ce3e9ebe0ef5632c7121fb42e69",
+  "model": "evo-gemma26",
+  "name": "book-chunk07-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:30:34.614563+00:00",
+  "preflight_input_tokens": 20415,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 7,
+    "part": 1,
+    "pdf_pages": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 48.834106651000184
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:31:23.449697+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The reigns of Isaac and Alexius Angelus were characterized by personal indulgence and imperial decline [PDF p. 301]. The empire suffered from military and financial disorganization following the loss of Asian recruiting grounds to Seljouk invasions [PDF p. 301]. This forced a reliance on foreign mercenaries who often became disorderly or mutinous [PDF p. 301]. Administratively, Isaac Angelus auctioned public offices and allowed officials to extort provincials [PDF p. 302]. Alexius Angelus similarly relied on rapacious favorites who dispensed patronage for bribes [PDF p. 302].\n\nIsaac's reign saw the loss of Bulgaria and Cyprus [PDF p. 303]. A Bulgarian rebellion grew because Isaac appointed incompetent generals [PDF p. 303]. Meanwhile, Isaac Comnenus established an independent \"Empire of Cyprus,\" a phenomenon the author describes as monstrous and abnormal [PDF p. 303]. This revolt was ended when Richard Coeur-de-Lion seized the island after the rebel maltreated English crews [PDF p. 304]. In 1195, Alexius Angelus deposed and blinded his brother Isaac through a palace intrigue [PDF p. 304].\n\nThe Fourth Crusade arrived in 1203, driven by Venetian interests and the promises of the young Byzantine exile, Alexius Angelus [PDF p. 305]. The Crusaders, led by Henry Dandolo, Boniface of Montferrat, and Baldwin of Flanders, signed a treaty to restore the Angeli in exchange for massive subsidies [PDF p. 307]. During the first siege, Venetian forces used light towers to storm the sea-walls, causing a great fire [PDF p. 310]. The cowardly Alexius III fled, leading the garrison to restore Isaac II [PDF p. 310]. However, the Crusaders felt cheated of a full sack and spent months extorting wealth from the restored rulers [PDF p. 311]. This financial pressure caused a revolt in January 1204, during which Alexius Ducas murdered both Isaac and his son [PDF p. 311].\n\nThe Latin Empire was established under Baldwin of Flanders but remained perpetually unstable [PDF p. 318]. The empire struggled against Bulgarian incursions and the loss of territory to various Greek successors [PDF p. 321]. Theodore Lascaris founded the successful Empire of Nicaea in 1206, checking Frankish expansion in Asia [PDF p. 324]. Meanwhile, Michael Angelus established a despotate in Epirus [PDF p. 326]. The Nicaean ruler John III Ducas eventually asserted dominance over the Epirot claimants [PDF p. 327].\n\nThe empire was finally reconquered by Michael Paleologus in 1261 after he usurped the throne from the child John IV [PDF p. 330]. However, the restored empire faced permanent commercial and territorial decay [PDF p. 334]. The author argues that the loss of maritime trade monopolies to Italian republics made administrative reform impossible [PDF p. 336]. Michael Paleologus further weakened the state by disarming the Bithynian militia, which facilitated Ottoman expansion [PDF p. 339]. Under Andronicus II and III, the Seljouk Turks and later the Ottomans systematically seized Byzantine lands in Asia Minor [PDF p. 341, 345]. The rise of Orkhan saw the establishment of the disciplined Janissary corps through a system of tribute-children [PDF p. 350].\n\nThe provided text does not address the eventual fall of the Ottoman Empire or the long-term fate of the remaining Greek enclaves."
+      }
+    ],
+    "stats": {
+      "input_tokens": 20418,
+      "total_output_tokens": 802,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 37.8686108597437,
+      "time_to_first_token_seconds": 24.320871
+    }
+  },
+  "output": "The reigns of Isaac and Alexius Angelus were characterized by personal indulgence and imperial decline [PDF p. 301]. The empire suffered from military and financial disorganization following the loss of Asian recruiting grounds to Seljouk invasions [PDF p. 301]. This forced a reliance on foreign mercenaries who often became disorderly or mutinous [PDF p. 301]. Administratively, Isaac Angelus auctioned public offices and allowed officials to extort provincials [PDF p. 302]. Alexius Angelus similarly relied on rapacious favorites who dispensed patronage for bribes [PDF p. 302].\n\nIsaac's reign saw the loss of Bulgaria and Cyprus [PDF p. 303]. A Bulgarian rebellion grew because Isaac appointed incompetent generals [PDF p. 303]. Meanwhile, Isaac Comnenus established an independent \"Empire of Cyprus,\" a phenomenon the author describes as monstrous and abnormal [PDF p. 303]. This revolt was ended when Richard Coeur-de-Lion seized the island after the rebel maltreated English crews [PDF p. 304]. In 1195, Alexius Angelus deposed and blinded his brother Isaac through a palace intrigue [PDF p. 304].\n\nThe Fourth Crusade arrived in 1203, driven by Venetian interests and the promises of the young Byzantine exile, Alexius Angelus [PDF p. 305]. The Crusaders, led by Henry Dandolo, Boniface of Montferrat, and Baldwin of Flanders, signed a treaty to restore the Angeli in exchange for massive subsidies [PDF p. 307]. During the first siege, Venetian forces used light towers to storm the sea-walls, causing a great fire [PDF p. 310]. The cowardly Alexius III fled, leading the garrison to restore Isaac II [PDF p. 310]. However, the Crusaders felt cheated of a full sack and spent months extorting wealth from the restored rulers [PDF p. 311]. This financial pressure caused a revolt in January 1204, during which Alexius Ducas murdered both Isaac and his son [PDF p. 311].\n\nThe Latin Empire was established under Baldwin of Flanders but remained perpetually unstable [PDF p. 318]. The empire struggled against Bulgarian incursions and the loss of territory to various Greek successors [PDF p. 321]. Theodore Lascaris founded the successful Empire of Nicaea in 1206, checking Frankish expansion in Asia [PDF p. 324]. Meanwhile, Michael Angelus established a despotate in Epirus [PDF p. 326]. The Nicaean ruler John III Ducas eventually asserted dominance over the Epirot claimants [PDF p. 327].\n\nThe empire was finally reconquered by Michael Paleologus in 1261 after he usurped the throne from the child John IV [PDF p. 330]. However, the restored empire faced permanent commercial and territorial decay [PDF p. 334]. The author argues that the loss of maritime trade monopolies to Italian republics made administrative reform impossible [PDF p. 336]. Michael Paleologus further weakened the state by disarming the Bithynian militia, which facilitated Ottoman expansion [PDF p. 339]. Under Andronicus II and III, the Seljouk Turks and later the Ottomans systematically seized Byzantine lands in Asia Minor [PDF p. 341, 345]. The rise of Orkhan saw the establishment of the disciplined Janissary corps through a system of tribute-children [PDF p. 350].\n\nThe provided text does not address the eventual fall of the Ottoman Empire or the long-term fate of the remaining Greek enclaves.",
+  "stats": {
+    "input_tokens": 20418,
+    "total_output_tokens": 802,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 37.8686108597437,
+    "time_to_first_token_seconds": 24.320871
+  },
+  "wall_seconds": 48.834106651000184,
+  "output_tokens_per_wall_second": 16.422948119673936,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 12146663424,
+    "system_available_bytes": 21710188544,
+    "swap_used_bytes": 3832016896,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 8662492160,
+    "card1_vram_used_bytes": 20682555392,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 8234680320,
+    "cpu_percent": 3.6
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

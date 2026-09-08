@@ -1,0 +1,69 @@
+{
+  "fingerprint": "8f312e639a25834055ab1ee3196efd233c3756597f3b999849d88f03a3746a4a",
+  "model": "evo-gemma26",
+  "name": "control-history-0",
+  "kind": "history_excerpt_control",
+  "started_at": "2026-09-08T04:22:58.106394+00:00",
+  "preflight_input_tokens": 4901,
+  "context": 65536,
+  "output_limit": 1000,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured",
+    "source": "Douglass partial excerpt; not the selected full book"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 22.875126635000015
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:23:20.982160+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "This excerpt contains a Preface by William Lloyd Garrison and a letter from Wendell Phillips regarding the 1845 publication of *Narrative of the Life of Frederick Douglass, an American Slave*.\n\n**Garrison’s Preface (Boston, May 1, 1845)**\nGarrison recounts his first meeting with Douglass at an anti-slavery convention in Nantucket in August 1841. At the time, Douglass was a resident of New Bedford and a recent fugitive from Southern bondage. Though hesitant and embarrassed by his novel position, Douglass was persuaded by a friend to address the convention. Garrison describes Douglass’s speech as extraordinarily eloquent, comparing him to Patrick Henry. Following the speech, Garrison appealed to the audience to protect Douglass from being returned to slavery; the assembly responded with a unanimous, thunderous \"YES!\"\n\nGarrison notes that while Douglass initially expressed deep uncertainty and diffidence regarding his ability to serve the abolitionist cause—fearing he might do more harm than good—he eventually became a highly successful lecturing agent for the American and Massachusetts Anti-Slavery Societies. Garrison praises Douglass’s intellect, character, and oratorical skills, noting his ability to combine \"head and heart.\"\n\nGarrison defends the veracity of Douglass’s Narrative, asserting that it is an entirely truthful account that avoids exaggeration. He argues that Douglass’s experiences in Maryland were a fair specimen of the treatment of slaves in the South. To counter skeptics who claim slavery is not inherently brutal, Garrison cites an anecdote from Daniel O’Connell regarding a white sailor who was \"stultified\" and lost his reasoning powers after three years of African slavery. \n\nFurthermore, Garrison addresses the legal impunity enjoyed by slaveholders. He points out that under the slave code, colored witnesses—whether free or enslaved—cannot testify against white men. To illustrate this lawlessness, he cites a report from *The Baltimore American* (March 17, 1845) regarding a young man named Matthews who shot a servant in Charles County, Maryland, and remained unmolested. Garrison concludes by condemning the \"palpable imposture\" of slaveholders who profess Christianity, calling them \"man-stealers.\"\n\n**Phillips’s Letter (Boston, April 22, 1845)**\nIn a letter to Douglass, Wendell Phillips welcomes the fact that the \"lions write history,\" meaning that the enslaved are finally telling their own stories rather than relying on the accounts of masters. He observes that many people are slow to join the abolitionist cause, often waiting for economic \"results\" (such as those from the West India experiment) rather than judging slavery by its moral impact.\n\nPhillips highlights Douglass’s unique perspective, noting that Douglass began to understand the injustice of slavery not just through physical suffering, but through the spiritual \"death which gathers over his soul.\" He expresses total confidence in Douglass's sincerity and candor, noting that Douglass provides a balanced portrait that acknowledges instances where individual kindness might temporarily mask the \"deadly system\" of slavery. Phillips concludes by noting that Douglass is uniquely positioned to compare the limited rights of free Black people in the North with the \"noon of night\" existence of those in the South."
+      }
+    ],
+    "stats": {
+      "input_tokens": 4899,
+      "total_output_tokens": 659,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 41.10979451475386,
+      "time_to_first_token_seconds": 6.480934
+    }
+  },
+  "output": "This excerpt contains a Preface by William Lloyd Garrison and a letter from Wendell Phillips regarding the 1845 publication of *Narrative of the Life of Frederick Douglass, an American Slave*.\n\n**Garrison’s Preface (Boston, May 1, 1845)**\nGarrison recounts his first meeting with Douglass at an anti-slavery convention in Nantucket in August 1841. At the time, Douglass was a resident of New Bedford and a recent fugitive from Southern bondage. Though hesitant and embarrassed by his novel position, Douglass was persuaded by a friend to address the convention. Garrison describes Douglass’s speech as extraordinarily eloquent, comparing him to Patrick Henry. Following the speech, Garrison appealed to the audience to protect Douglass from being returned to slavery; the assembly responded with a unanimous, thunderous \"YES!\"\n\nGarrison notes that while Douglass initially expressed deep uncertainty and diffidence regarding his ability to serve the abolitionist cause—fearing he might do more harm than good—he eventually became a highly successful lecturing agent for the American and Massachusetts Anti-Slavery Societies. Garrison praises Douglass’s intellect, character, and oratorical skills, noting his ability to combine \"head and heart.\"\n\nGarrison defends the veracity of Douglass’s Narrative, asserting that it is an entirely truthful account that avoids exaggeration. He argues that Douglass’s experiences in Maryland were a fair specimen of the treatment of slaves in the South. To counter skeptics who claim slavery is not inherently brutal, Garrison cites an anecdote from Daniel O’Connell regarding a white sailor who was \"stultified\" and lost his reasoning powers after three years of African slavery. \n\nFurthermore, Garrison addresses the legal impunity enjoyed by slaveholders. He points out that under the slave code, colored witnesses—whether free or enslaved—cannot testify against white men. To illustrate this lawlessness, he cites a report from *The Baltimore American* (March 17, 1845) regarding a young man named Matthews who shot a servant in Charles County, Maryland, and remained unmolested. Garrison concludes by condemning the \"palpable imposture\" of slaveholders who profess Christianity, calling them \"man-stealers.\"\n\n**Phillips’s Letter (Boston, April 22, 1845)**\nIn a letter to Douglass, Wendell Phillips welcomes the fact that the \"lions write history,\" meaning that the enslaved are finally telling their own stories rather than relying on the accounts of masters. He observes that many people are slow to join the abolitionist cause, often waiting for economic \"results\" (such as those from the West India experiment) rather than judging slavery by its moral impact.\n\nPhillips highlights Douglass’s unique perspective, noting that Douglass began to understand the injustice of slavery not just through physical suffering, but through the spiritual \"death which gathers over his soul.\" He expresses total confidence in Douglass's sincerity and candor, noting that Douglass provides a balanced portrait that acknowledges instances where individual kindness might temporarily mask the \"deadly system\" of slavery. Phillips concludes by noting that Douglass is uniquely positioned to compare the limited rights of free Black people in the North with the \"noon of night\" existence of those in the South.",
+  "stats": {
+    "input_tokens": 4899,
+    "total_output_tokens": 659,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 41.10979451475386,
+    "time_to_first_token_seconds": 6.480934
+  },
+  "wall_seconds": 22.875126635000015,
+  "output_tokens_per_wall_second": 28.80858368633899,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 4.3,
+    "system_available_bytes": 27803570176,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20682223616,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 1703841792,
+    "swap_used_bytes": 3847090176,
+    "runtime_total_pss_bytes": 2029014016,
+    "card1_vram_total_bytes": 103079215104,
+    "system_used_excluding_available_bytes": 5461000192,
+    "card1_gtt_total_bytes": 16360861696
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -2
+}

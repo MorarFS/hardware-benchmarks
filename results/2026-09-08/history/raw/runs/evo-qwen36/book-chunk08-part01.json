@@ -1,0 +1,118 @@
+{
+  "fingerprint": "5501980026e7bceccab300a4faeb49e36714543f9afb6540d87db5c27d012557",
+  "model": "evo-qwen36",
+  "name": "book-chunk08-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:20:57.721867+00:00",
+  "preflight_input_tokens": 25916,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 8,
+    "part": 1,
+    "pdf_pages": [
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 54.805989077999584
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:21:52.529030+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "The text describes the Revolt of Cantacuzenus as a pivotal moment in the decline of the Byzantine Empire [PDF p. 351]. John Cantacuzenus, the prime minister to Andronicus III, sought to usurp the throne from the nine-year-old heir, John V [PDF p. 351]. He possessed literary talents but lacked military or statesmanlike abilities [PDF p. 351]. His ambition mirrored that of Michael VIII, who had similarly supplanted a young ruler in 1258 [PDF p. 351]. Cantacuzenus attempted to replicate this success through bribery and intrigue [PDF p. 351]. However, his fatal procrastination allowed the Empress Dowager Anne of Savoy to organize resistance [PDF p. 352]. When he finally declared himself emperor in 1347, he failed to seize Constantinople immediately [PDF p. 352].\n\nTo secure his position, Cantacuzenus invited foreign allies into Byzantine territory [PDF p. 353]. He summoned Stephen Dushan of Serbia and the Turkish princes Orkhan and Amour [PDF p. 353]. These allies prevented his immediate defeat but devastated the empire in the process [PDF p. 353]. Stephen Dushan conquered Macedonia, Thrace, and Thessaly, establishing a Serbian empire that threatened to dominate the Balkans [PDF p. 353]. The author suggests this outcome might have benefited Christendom by creating a single power capable of resisting the Turks [PDF p. 353]. However, Dushan died in 1355, and his realm quickly fragmented among rival princes [PDF p. 354].\n\nCantacuzenus relied more heavily on the Turkish mercenaries provided by Orkhan [PDF p. 354]. These troops ravaged Thrace and sold Byzantine subjects into slavery [PDF p. 354]. The depth of Cantacuzenus’s degradation was marked when he gave his daughter Theodora to Orkhan for his harem [PDF p. 354]. After six years of war, a hollow peace recognized Cantacuzenus as co-emperor and guardian of John V [PDF p. 354]. The civil war had left Macedonia and Thessaly in Serbian hands and Thrace ruined by Turkish incursions [PDF p. 354]. The author characterizes Cantacuzenus as one of the great destroyers of the Eastern Empire alongside Isaac and Alexius Angelus [PDF p. 354].\n\nCantacuzenus continued to rule jointly with John V for seven years, failing to reclaim Serbian territories [PDF p. 355]. In 1354, the young emperor asserted his authority and attempted to dethrone his guardian [PDF p. 355]. Cantacuzenus called upon Orkhan’s troops, but a surprise naval attack allowed John V to capture Constantinople [PDF p. 355]. The usurper was tonsured and confined to a monastery, where he wrote a history of his times [PDF p. 355]. However, the Ottoman Turks remained in Thrace as principals rather than auxiliaries [PDF p. 355]. Suleiman, son of Orkhan, seized Gallipoli, establishing the first permanent Ottoman foothold in Europe [PDF p. 355].\n\nMurad I succeeded Orkhan and rapidly conquered Thrace from sea to sea by 1361 [PDF p. 356]. The decisive battle at Adrianople reduced the Byzantine Empire to a mere head without a body [PDF p. 356]. Murad I chose not to besiege Constantinople, focusing instead on wars against Serbia and Bulgaria [PDF p. 356]. John V became a humble vassal, enduring humiliations such as being compelled to help siege Philadelphia [PDF p. 356]. The last Christian stronghold in Asia surrendered after seeing the imperial banner among Turkish forces [PDF p. 357].\n\nThe author argues that after 1370, the empire ceased to function as a bulwark for Christendom [PDF p. 358]. The defense of Europe fell to Serbia and Hungary for the next century and a half [PDF p. 358]. Manuel II Paleologus briefly regained territories during the Ottoman civil war following Tamerlane’s defeat of Bayezid at Angora in 1402 [PDF p. 359]. However, this opportunity was not taken by European powers due to internal conflicts like the Hussite wars [PDF p. 362]. Mohammed I reunified the Ottoman Empire by 1421, and Murad II subsequently besieged Constantinople with cannon [PDF p. 362-365].\n\nJohn VI Paleologus attempted to secure Western aid by converting to Catholicism at the Council of Florence in 1439 [PDF p. 367]. This move alienated his subjects, who preferred Ottoman rule over papal authority [PDF p. 368]. The"
+      }
+    ],
+    "stats": {
+      "input_tokens": 25918,
+      "total_output_tokens": 1100,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 58.79836158552698,
+      "time_to_first_token_seconds": 33.438453
+    }
+  },
+  "output": "The text describes the Revolt of Cantacuzenus as a pivotal moment in the decline of the Byzantine Empire [PDF p. 351]. John Cantacuzenus, the prime minister to Andronicus III, sought to usurp the throne from the nine-year-old heir, John V [PDF p. 351]. He possessed literary talents but lacked military or statesmanlike abilities [PDF p. 351]. His ambition mirrored that of Michael VIII, who had similarly supplanted a young ruler in 1258 [PDF p. 351]. Cantacuzenus attempted to replicate this success through bribery and intrigue [PDF p. 351]. However, his fatal procrastination allowed the Empress Dowager Anne of Savoy to organize resistance [PDF p. 352]. When he finally declared himself emperor in 1347, he failed to seize Constantinople immediately [PDF p. 352].\n\nTo secure his position, Cantacuzenus invited foreign allies into Byzantine territory [PDF p. 353]. He summoned Stephen Dushan of Serbia and the Turkish princes Orkhan and Amour [PDF p. 353]. These allies prevented his immediate defeat but devastated the empire in the process [PDF p. 353]. Stephen Dushan conquered Macedonia, Thrace, and Thessaly, establishing a Serbian empire that threatened to dominate the Balkans [PDF p. 353]. The author suggests this outcome might have benefited Christendom by creating a single power capable of resisting the Turks [PDF p. 353]. However, Dushan died in 1355, and his realm quickly fragmented among rival princes [PDF p. 354].\n\nCantacuzenus relied more heavily on the Turkish mercenaries provided by Orkhan [PDF p. 354]. These troops ravaged Thrace and sold Byzantine subjects into slavery [PDF p. 354]. The depth of Cantacuzenus’s degradation was marked when he gave his daughter Theodora to Orkhan for his harem [PDF p. 354]. After six years of war, a hollow peace recognized Cantacuzenus as co-emperor and guardian of John V [PDF p. 354]. The civil war had left Macedonia and Thessaly in Serbian hands and Thrace ruined by Turkish incursions [PDF p. 354]. The author characterizes Cantacuzenus as one of the great destroyers of the Eastern Empire alongside Isaac and Alexius Angelus [PDF p. 354].\n\nCantacuzenus continued to rule jointly with John V for seven years, failing to reclaim Serbian territories [PDF p. 355]. In 1354, the young emperor asserted his authority and attempted to dethrone his guardian [PDF p. 355]. Cantacuzenus called upon Orkhan’s troops, but a surprise naval attack allowed John V to capture Constantinople [PDF p. 355]. The usurper was tonsured and confined to a monastery, where he wrote a history of his times [PDF p. 355]. However, the Ottoman Turks remained in Thrace as principals rather than auxiliaries [PDF p. 355]. Suleiman, son of Orkhan, seized Gallipoli, establishing the first permanent Ottoman foothold in Europe [PDF p. 355].\n\nMurad I succeeded Orkhan and rapidly conquered Thrace from sea to sea by 1361 [PDF p. 356]. The decisive battle at Adrianople reduced the Byzantine Empire to a mere head without a body [PDF p. 356]. Murad I chose not to besiege Constantinople, focusing instead on wars against Serbia and Bulgaria [PDF p. 356]. John V became a humble vassal, enduring humiliations such as being compelled to help siege Philadelphia [PDF p. 356]. The last Christian stronghold in Asia surrendered after seeing the imperial banner among Turkish forces [PDF p. 357].\n\nThe author argues that after 1370, the empire ceased to function as a bulwark for Christendom [PDF p. 358]. The defense of Europe fell to Serbia and Hungary for the next century and a half [PDF p. 358]. Manuel II Paleologus briefly regained territories during the Ottoman civil war following Tamerlane’s defeat of Bayezid at Angora in 1402 [PDF p. 359]. However, this opportunity was not taken by European powers due to internal conflicts like the Hussite wars [PDF p. 362]. Mohammed I reunified the Ottoman Empire by 1421, and Murad II subsequently besieged Constantinople with cannon [PDF p. 362-365].\n\nJohn VI Paleologus attempted to secure Western aid by converting to Catholicism at the Council of Florence in 1439 [PDF p. 367]. This move alienated his subjects, who preferred Ottoman rule over papal authority [PDF p. 368]. The",
+  "stats": {
+    "input_tokens": 25918,
+    "total_output_tokens": 1100,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.79836158552698,
+    "time_to_first_token_seconds": 33.438453
+  },
+  "wall_seconds": 54.805989077999584,
+  "output_tokens_per_wall_second": 20.07079916821656,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26087870464,
+    "swap_used_bytes": 4028858368,
+    "runtime_largest_process_rss_bytes": 7457054720,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 11901054976,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 22162919424,
+    "cpu_percent": 5.9,
+    "runtime_total_pss_bytes": 7825953792,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 357646336
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2,
+  "superseded_by": "book-chunk08-part01-completion-retry"
+}

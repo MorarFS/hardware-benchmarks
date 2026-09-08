@@ -1,0 +1,14 @@
+{
+  "pass_threshold_generation_tps": 35,
+  "source_directory": "source",
+  "models": [
+    {
+      "identifier": "evo-qwen36",
+      "label": "Qwen3.6 35B A3B UD-Q4_K_M, bundled MTP",
+      "resource": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+      "context": 65536,
+      "mtp": true,
+      "gpu": "max"
+    }
+  ]
+}

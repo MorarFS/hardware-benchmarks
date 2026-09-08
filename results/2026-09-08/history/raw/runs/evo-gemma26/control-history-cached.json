@@ -1,0 +1,68 @@
+{
+  "fingerprint": "b8f83ab0814fce6ac87730ad65199510a50b51d957d8573ce1c1a29e686422fd",
+  "model": "evo-gemma26",
+  "name": "control-history-cached",
+  "kind": "cached_repeat",
+  "started_at": "2026-09-08T04:24:10.129385+00:00",
+  "preflight_input_tokens": 4901,
+  "context": 65536,
+  "output_limit": 1000,
+  "metadata": {
+    "cache": "Exact repeated prompt; cache eligibility, actual cached token count unavailable"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 16.823476196999763
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:24:26.953952+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "This excerpt contains a Preface by William Lloyd Garrison and a letter from Wendell Phillips regarding the 1845 publication of *Narrative of the Life of Frederick Douglass, an American Slave*.\n\n**Garrison’s Preface (Boston, May 1, 1845)**\nGarrison recounts his first meeting with Douglass in August 1841 at an anti-slavery convention in Nantucket. At the time, Douglass was a resident of New Bedford and a recent fugitive from slavery. Though hesitant and embarrassed by his novel position, Douglass was persuaded by a friend to address the convention. Garrison describes Douglass’s speech as extraordinarily eloquent, comparing him to Patrick Henry. Following the speech, Garrison appealed to the audience to protect Douglass from being returned to slavery; the response was a unanimous, thunderous \"YES!\"\n\nGarrison notes that while Douglass initially expressed doubt regarding his ability to serve the anti-slavery cause, he eventually became an abundant and successful lecturing agent for the American and Massachusetts Anti-Slavery Societies. Garrison praises Douglass’s intellect, character, and oratorical skills, specifically his use of pathos and reasoning. \n\nAddressing potential skeptics, Garrison asserts that Douglass’s narrative is entirely truthful, noting that Douglass provided specific names and locations that could be easily disproved if false. He argues that the horrors described—such as scourgings and murders—are natural results of a system that treats humans as chattel. To illustrate the mental deterioration caused by slavery, Garrison cites an anecdote from Daniel O’Connell regarding a white sailor who lost his reasoning powers after three years of African slavery. Garrison further highlights the legal impossibility of justice for slaves, noting that the slave code prevents colored witnesses from testifying against white men. He concludes by condemning the \"palpable imposture\" of slaveholders who profess Christianity while participating in the slave trade, urging readers to adopt the motto: “No compromise with slavery! No union with slaveholders!”\n\n**Phillips’s Letter (Boston, April 22, 1845)**\nIn a letter addressed to Douglass, Wendell Phillips welcomes the fact that \"the lions write history,\" meaning that the formerly enslaved are now documenting their own experiences rather than relying on the accounts of masters. Phillips observes that many people wait for economic evidence—such as the results of the West India experiment—before joining the abolitionist cause, rather than judging slavery by its inherent inhumanity.\n\nPhillips commends Douglass’s early sensitivity to the spiritual \"death\" caused by slavery. He notes that Douglass’s perspective is uniquely valuable because he comes from a region where slavery often appears to have \"fairer features.\" Phillips expresses full confidence in Douglass's candor and sincerity, suggesting that his narrative provides a fair specimen of truth rather than a one-sided portrait. He concludes by noting that Douglass is well-positioned to compare the limited rights of free colored people in Massachusetts with the \"noon of night\" experienced by those in the South."
+      }
+    ],
+    "stats": {
+      "input_tokens": 4899,
+      "total_output_tokens": 606,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 41.31261866281501,
+      "time_to_first_token_seconds": 2.150636
+    }
+  },
+  "output": "This excerpt contains a Preface by William Lloyd Garrison and a letter from Wendell Phillips regarding the 1845 publication of *Narrative of the Life of Frederick Douglass, an American Slave*.\n\n**Garrison’s Preface (Boston, May 1, 1845)**\nGarrison recounts his first meeting with Douglass in August 1841 at an anti-slavery convention in Nantucket. At the time, Douglass was a resident of New Bedford and a recent fugitive from slavery. Though hesitant and embarrassed by his novel position, Douglass was persuaded by a friend to address the convention. Garrison describes Douglass’s speech as extraordinarily eloquent, comparing him to Patrick Henry. Following the speech, Garrison appealed to the audience to protect Douglass from being returned to slavery; the response was a unanimous, thunderous \"YES!\"\n\nGarrison notes that while Douglass initially expressed doubt regarding his ability to serve the anti-slavery cause, he eventually became an abundant and successful lecturing agent for the American and Massachusetts Anti-Slavery Societies. Garrison praises Douglass’s intellect, character, and oratorical skills, specifically his use of pathos and reasoning. \n\nAddressing potential skeptics, Garrison asserts that Douglass’s narrative is entirely truthful, noting that Douglass provided specific names and locations that could be easily disproved if false. He argues that the horrors described—such as scourgings and murders—are natural results of a system that treats humans as chattel. To illustrate the mental deterioration caused by slavery, Garrison cites an anecdote from Daniel O’Connell regarding a white sailor who lost his reasoning powers after three years of African slavery. Garrison further highlights the legal impossibility of justice for slaves, noting that the slave code prevents colored witnesses from testifying against white men. He concludes by condemning the \"palpable imposture\" of slaveholders who profess Christianity while participating in the slave trade, urging readers to adopt the motto: “No compromise with slavery! No union with slaveholders!”\n\n**Phillips’s Letter (Boston, April 22, 1845)**\nIn a letter addressed to Douglass, Wendell Phillips welcomes the fact that \"the lions write history,\" meaning that the formerly enslaved are now documenting their own experiences rather than relying on the accounts of masters. Phillips observes that many people wait for economic evidence—such as the results of the West India experiment—before joining the abolitionist cause, rather than judging slavery by its inherent inhumanity.\n\nPhillips commends Douglass’s early sensitivity to the spiritual \"death\" caused by slavery. He notes that Douglass’s perspective is uniquely valuable because he comes from a region where slavery often appears to have \"fairer features.\" Phillips expresses full confidence in Douglass's candor and sincerity, suggesting that his narrative provides a fair specimen of truth rather than a one-sided portrait. He concludes by noting that Douglass is well-positioned to compare the limited rights of free colored people in Massachusetts with the \"noon of night\" experienced by those in the South.",
+  "stats": {
+    "input_tokens": 4899,
+    "total_output_tokens": 606,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 41.31261866281501,
+    "time_to_first_token_seconds": 2.150636
+  },
+  "wall_seconds": 16.823476196999763,
+  "output_tokens_per_wall_second": 36.02109295985284,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 5.8,
+    "system_available_bytes": 25984163840,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20682223616,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 3204091904,
+    "swap_used_bytes": 3846598656,
+    "runtime_total_pss_bytes": 3530270720,
+    "card1_vram_total_bytes": 103079215104,
+    "system_used_excluding_available_bytes": 6953930752,
+    "card1_gtt_total_bytes": 16360861696
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -2
+}

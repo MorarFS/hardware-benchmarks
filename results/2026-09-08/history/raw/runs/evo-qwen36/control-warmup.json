@@ -1,0 +1,66 @@
+{
+  "fingerprint": "dc5ccc50f70b01dd0ba9611225e5f71d3d2e55a2754d4792c3587a86dad65808",
+  "model": "evo-qwen36",
+  "name": "control-warmup",
+  "kind": "warmup",
+  "started_at": "2026-09-08T04:09:34.079752+00:00",
+  "preflight_input_tokens": 17,
+  "context": 65536,
+  "output_limit": 64,
+  "metadata": {},
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 1.4851542050000717
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:09:35.565854+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "Source attribution is the process of identifying the origin or authorship of a piece of content, such as an image, text, or digital file. This practice is essential for maintaining intellectual property rights and ensuring proper credit is given to creators in academic and professional contexts."
+      }
+    ],
+    "stats": {
+      "input_tokens": 19,
+      "total_output_tokens": 53,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 53.52762488663981,
+      "time_to_first_token_seconds": 0.48638099999999995
+    }
+  },
+  "output": "Source attribution is the process of identifying the origin or authorship of a piece of content, such as an image, text, or digital file. This practice is essential for maintaining intellectual property rights and ensuring proper credit is given to creators in academic and professional contexts.",
+  "stats": {
+    "input_tokens": 19,
+    "total_output_tokens": 53,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 53.52762488663981,
+    "time_to_first_token_seconds": 0.48638099999999995
+  },
+  "wall_seconds": 1.4851542050000717,
+  "output_tokens_per_wall_second": 35.68652993848369,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3662843904,
+    "runtime_total_pss_bytes": 807999488,
+    "system_used_excluding_available_bytes": 5123743744,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 590524416,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 3.0,
+    "card1_vram_used_bytes": 26023575552,
+    "system_available_bytes": 27682934784,
+    "card1_gtt_used_bytes": 314916864
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

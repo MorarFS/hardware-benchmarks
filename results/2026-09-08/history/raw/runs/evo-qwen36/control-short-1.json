@@ -1,0 +1,68 @@
+{
+  "fingerprint": "3812f82994f75b0bac0b2fe377180969d013da41a381f44db0a9f2c08dd6d78c",
+  "model": "evo-qwen36",
+  "name": "control-short-1",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:09:40.868752+00:00",
+  "preflight_input_tokens": 49,
+  "context": 65536,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 5.294403362000594
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:09:46.163923+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "Historians operate as forensic analysts of the past, tasked with separating raw data from interpretation to reconstruct a coherent narrative. To achieve this, they rigorously distinguish between an author’s account, quoted testimony, and inference. While these three elements often appear intertwined in historical texts, understanding their distinct epistemological statuses is crucial for evaluating the reliability and weight of evidence.\n\nAn **author’s account** refers to the broader narrative or descriptive framework provided by a historian or chronicler. It represents the synthesis of available sources into a cohesive story. For instance, consider a modern historian writing about the fall of the Roman Empire. When they state, \"The economic instability in the late third century contributed significantly to the political fragmentation,\" this is an author’s account. It is not a direct observation but a constructed argument based on aggregated evidence. The value of an author’s account lies in its ability to provide context and connect disparate facts, yet it remains subjective because it reflects the historian’s analytical choices and theoretical framework.\n\n**Quoted testimony**, by contrast, consists of primary source material directly attributed to individuals who witnessed or participated in events. This is the closest historians get to \"hearsay\" from the past, preserved verbatim. Using our previous example, if the historian includes a direct"
+      }
+    ],
+    "stats": {
+      "input_tokens": 51,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 58.433219766652094,
+      "time_to_first_token_seconds": 0.536168
+    }
+  },
+  "output": "Historians operate as forensic analysts of the past, tasked with separating raw data from interpretation to reconstruct a coherent narrative. To achieve this, they rigorously distinguish between an author’s account, quoted testimony, and inference. While these three elements often appear intertwined in historical texts, understanding their distinct epistemological statuses is crucial for evaluating the reliability and weight of evidence.\n\nAn **author’s account** refers to the broader narrative or descriptive framework provided by a historian or chronicler. It represents the synthesis of available sources into a cohesive story. For instance, consider a modern historian writing about the fall of the Roman Empire. When they state, \"The economic instability in the late third century contributed significantly to the political fragmentation,\" this is an author’s account. It is not a direct observation but a constructed argument based on aggregated evidence. The value of an author’s account lies in its ability to provide context and connect disparate facts, yet it remains subjective because it reflects the historian’s analytical choices and theoretical framework.\n\n**Quoted testimony**, by contrast, consists of primary source material directly attributed to individuals who witnessed or participated in events. This is the closest historians get to \"hearsay\" from the past, preserved verbatim. Using our previous example, if the historian includes a direct",
+  "stats": {
+    "input_tokens": 51,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.433219766652094,
+    "time_to_first_token_seconds": 0.536168
+  },
+  "wall_seconds": 5.294403362000594,
+  "output_tokens_per_wall_second": 48.35294602549236,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3638829056,
+    "runtime_total_pss_bytes": 1033355264,
+    "system_used_excluding_available_bytes": 5395701760,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 525676544,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 2.8,
+    "card1_vram_used_bytes": 26023710720,
+    "system_available_bytes": 27504271360,
+    "card1_gtt_used_bytes": 334282752
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

@@ -1,0 +1,66 @@
+{
+  "fingerprint": "8d8993ddcdcde15816db9f570f6c6b4d3f6aa4614315e08eb867f3b42a5ba38d",
+  "model": "evo-flash",
+  "name": "control-warmup",
+  "kind": "warmup",
+  "started_at": "2026-09-08T04:35:00.031042+00:00",
+  "preflight_input_tokens": 59,
+  "context": 8192,
+  "output_limit": 64,
+  "metadata": {},
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 2.766925295999499
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:35:02.798998+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "Source attribution is the ethical practice of crediting original creators to acknowledge their intellectual property and maintain academic integrity. Proper citation not only prevents plagiarism but also allows readers to verify information and explore the referenced material further."
+      }
+    ],
+    "stats": {
+      "input_tokens": 19,
+      "total_output_tokens": 42,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 23.37062563164816,
+      "time_to_first_token_seconds": 0.940686
+    }
+  },
+  "output": "Source attribution is the ethical practice of crediting original creators to acknowledge their intellectual property and maintain academic integrity. Proper citation not only prevents plagiarism but also allows readers to verify information and explore the referenced material further.",
+  "stats": {
+    "input_tokens": 19,
+    "total_output_tokens": 42,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 23.37062563164816,
+    "time_to_first_token_seconds": 0.940686
+  },
+  "wall_seconds": 2.766925295999499,
+  "output_tokens_per_wall_second": 15.179303922922971,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 4021137408,
+    "card1_vram_used_bytes": 67893243904,
+    "cpu_percent": 2.5,
+    "swap_used_bytes": 4218179584,
+    "runtime_largest_process_rss_bytes": 278274048,
+    "card1_vram_total_bytes": 103079215104,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "system_available_bytes": 28837924864,
+    "runtime_total_pss_bytes": 363631616,
+    "card1_gtt_used_bytes": 163319808
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -40
+}

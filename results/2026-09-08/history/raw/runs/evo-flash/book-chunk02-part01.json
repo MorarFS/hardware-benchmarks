@@ -1,0 +1,86 @@
+{
+  "fingerprint": "898173c487a253e2d1885e7637dfd22e344725facc566df6555a94824bf86f32",
+  "model": "evo-flash",
+  "name": "book-chunk02-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:55:26.929190+00:00",
+  "preflight_input_tokens": 5746,
+  "context": 8192,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 2,
+    "part": 1,
+    "pdf_pages": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 69.69712735199937
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:56:36.626752+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The Hippodrome’s central spine featured three surviving monuments that outlasted the surrounding walls [PDF p. 51]. The first was a golden tripod dedicated at Delphi in 479 B.C. after the Persian defeat at Plataea [PDF p. 51]. Phocians had stolen its gold centuries earlier, yet inscriptions on the serpent coils remained visible to archaeologists [PDF p. 51]. A square bronze column of more modern work stood nearby, contrasting with the ancient artifacts [PDF p. 51]. The Turks now call this open space the Atmeidan, remembering its equestrian past [PDF p. 51]. Along the eastern wall stood chapels and statues near the Milion milestone [PDF p. 51]. Constantine contributed a porphyry column topped by a bronze Apollo from Hierapolis [PDF p. 51]. He altered this statue into an imperial image by replacing its head with his own features [PDF p. 51]. This practice mirrored Roman papal actions that converted Aurelius statues into St. Peter figures [PDF p. 53]. North of the Hippodrome stood Constantine’s original church, Hagia Sophia [PDF p. 53]. It was a humble basilica, not the famous domed structure known today [PDF p. 53]. This earlier building burned twice and left no physical trace of its form [PDF p. 53]. A wooden gallery connected the church to the palace Royal Gate [PDF p. 53]. This passage allowed the emperor to attend services without crossing public streets [PDF p. 53]. The author compares this structure to the elevated corridor between Florence’s Pitti and Uffizi palaces [PDF p. 53]. These buildings formed the city’s heart, hosting most significant historical events [PDF p. 53]. Other notable sites included the Church of the Holy Apostles and public granaries [PDF p. 54]. An equestrian statue of Constantine stood near the praetorian prefect’s palace [PDF p. 54]. Legends surrounded this statue throughout the Middle Ages [PDF p. 54].\n\nConstantine chose Byzantium as his capital around A.D. 328 or 329 [PDF p. 54]. He consecrated the city on May 11, 330, during a major festival [PDF p. 54]. Christian bishops blessed the palace and held the first service in St. Sophia [PDF p. 55]. Constantine remained unbaptized but insisted the new capital be Christian from its inception [PDF p. 55]. Pagan temples were spared only as architectural remnants, not for worship [PDF p. 55]. Statues of gods adorned public buildings solely as works of art [PDF p. 55]. To populate the city, Constantine invited senators and wealthy provincials to settle there [PDF p. 55]. He granted them seats in his new senate and land for their homes [PDF p. 55]. Court officials and their households formed a large part of the population [PDF p. 55]. Artisans received special privileges, while merchants flocked to the growing commercial hub [PDF p. 55]. The transfer of Egyptian wheat tribute provided free corn to Constantinople’s populace [PDF p. 55]. This policy demoralized citizens but effectively attracted immigrants from across the empire [PDF p. 55]. An edict in 330 A.D. named the city New Rome, though people preferred Constantine’s name [PDF p. 56].\n\nConstantine died on May 22, 337, after receiving baptism on his deathbed [PDF p. 57]. His will divided the realm among sons and nephews, leading to civil wars [PDF p. 57]. Constantius II eventually unified the empire under his sole rule [PDF p. 57]. The author describes Constantius as able but gloomy and suspicious [PDF p. 57]. He initiated the first persecution of Christians by other Christians [PDF p. 57]. His successor Julian attempted to restore pagan worship but failed [PDF p. 57]. Both emperors feared Persian threats from the east, ignoring northern dangers [PDF p. 58]. The Goths had raided Balkan provinces for a century and a half [PDF p. 58]. Constantine defeated them between A.D. 328 and 332, forcing their king to surrender hostages [PDF p. 58]. For forty years, the Goths remained relatively peaceful and settled as farmers [PDF p. 60]. Many converted to Christianity under Bishop Ulfilas, who translated the Bible into Gothic [PDF p. 60]. The author notes this translation remains a precious linguistic relic [PDF p. 60].\n\nAround A.D. 372, the Huns invaded from beyond the Don and Volga rivers [PDF p. 61]. They exterminated the Alans before crushing the Ostrogoths at the Dniester River [PDF p. 61]. The Visigoths fled westward under Duke Fritig"
+      }
+    ],
+    "stats": {
+      "input_tokens": 5710,
+      "total_output_tokens": 1100,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.924540111092867,
+      "time_to_first_token_seconds": 21.702479
+    }
+  },
+  "output": "The Hippodrome’s central spine featured three surviving monuments that outlasted the surrounding walls [PDF p. 51]. The first was a golden tripod dedicated at Delphi in 479 B.C. after the Persian defeat at Plataea [PDF p. 51]. Phocians had stolen its gold centuries earlier, yet inscriptions on the serpent coils remained visible to archaeologists [PDF p. 51]. A square bronze column of more modern work stood nearby, contrasting with the ancient artifacts [PDF p. 51]. The Turks now call this open space the Atmeidan, remembering its equestrian past [PDF p. 51]. Along the eastern wall stood chapels and statues near the Milion milestone [PDF p. 51]. Constantine contributed a porphyry column topped by a bronze Apollo from Hierapolis [PDF p. 51]. He altered this statue into an imperial image by replacing its head with his own features [PDF p. 51]. This practice mirrored Roman papal actions that converted Aurelius statues into St. Peter figures [PDF p. 53]. North of the Hippodrome stood Constantine’s original church, Hagia Sophia [PDF p. 53]. It was a humble basilica, not the famous domed structure known today [PDF p. 53]. This earlier building burned twice and left no physical trace of its form [PDF p. 53]. A wooden gallery connected the church to the palace Royal Gate [PDF p. 53]. This passage allowed the emperor to attend services without crossing public streets [PDF p. 53]. The author compares this structure to the elevated corridor between Florence’s Pitti and Uffizi palaces [PDF p. 53]. These buildings formed the city’s heart, hosting most significant historical events [PDF p. 53]. Other notable sites included the Church of the Holy Apostles and public granaries [PDF p. 54]. An equestrian statue of Constantine stood near the praetorian prefect’s palace [PDF p. 54]. Legends surrounded this statue throughout the Middle Ages [PDF p. 54].\n\nConstantine chose Byzantium as his capital around A.D. 328 or 329 [PDF p. 54]. He consecrated the city on May 11, 330, during a major festival [PDF p. 54]. Christian bishops blessed the palace and held the first service in St. Sophia [PDF p. 55]. Constantine remained unbaptized but insisted the new capital be Christian from its inception [PDF p. 55]. Pagan temples were spared only as architectural remnants, not for worship [PDF p. 55]. Statues of gods adorned public buildings solely as works of art [PDF p. 55]. To populate the city, Constantine invited senators and wealthy provincials to settle there [PDF p. 55]. He granted them seats in his new senate and land for their homes [PDF p. 55]. Court officials and their households formed a large part of the population [PDF p. 55]. Artisans received special privileges, while merchants flocked to the growing commercial hub [PDF p. 55]. The transfer of Egyptian wheat tribute provided free corn to Constantinople’s populace [PDF p. 55]. This policy demoralized citizens but effectively attracted immigrants from across the empire [PDF p. 55]. An edict in 330 A.D. named the city New Rome, though people preferred Constantine’s name [PDF p. 56].\n\nConstantine died on May 22, 337, after receiving baptism on his deathbed [PDF p. 57]. His will divided the realm among sons and nephews, leading to civil wars [PDF p. 57]. Constantius II eventually unified the empire under his sole rule [PDF p. 57]. The author describes Constantius as able but gloomy and suspicious [PDF p. 57]. He initiated the first persecution of Christians by other Christians [PDF p. 57]. His successor Julian attempted to restore pagan worship but failed [PDF p. 57]. Both emperors feared Persian threats from the east, ignoring northern dangers [PDF p. 58]. The Goths had raided Balkan provinces for a century and a half [PDF p. 58]. Constantine defeated them between A.D. 328 and 332, forcing their king to surrender hostages [PDF p. 58]. For forty years, the Goths remained relatively peaceful and settled as farmers [PDF p. 60]. Many converted to Christianity under Bishop Ulfilas, who translated the Bible into Gothic [PDF p. 60]. The author notes this translation remains a precious linguistic relic [PDF p. 60].\n\nAround A.D. 372, the Huns invaded from beyond the Don and Volga rivers [PDF p. 61]. They exterminated the Alans before crushing the Ostrogoths at the Dniester River [PDF p. 61]. The Visigoths fled westward under Duke Fritig",
+  "stats": {
+    "input_tokens": 5710,
+    "total_output_tokens": 1100,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.924540111092867,
+    "time_to_first_token_seconds": 21.702479
+  },
+  "wall_seconds": 69.69712735199937,
+  "output_tokens_per_wall_second": 15.78257299536241,
+  "peak_metrics": {
+    "cpu_percent": 3.2,
+    "card1_vram_used_bytes": 67909599232,
+    "system_available_bytes": 28781477888,
+    "swap_used_bytes": 4203425792,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 4640755712,
+    "runtime_total_pss_bytes": 1270612992,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_used_bytes": 196743168,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_largest_process_rss_bytes": 960659456
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": -36,
+  "superseded_by": "book-chunk02-part01-completion-retry"
+}

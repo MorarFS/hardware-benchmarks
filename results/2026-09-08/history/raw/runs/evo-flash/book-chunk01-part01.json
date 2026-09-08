@@ -1,0 +1,96 @@
+{
+  "fingerprint": "7f66dee5a37ecf0b1e805c571f07cad7cd6021124b4cf061fcb44c65772bd83b",
+  "model": "evo-flash",
+  "name": "book-chunk01-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:40:24.507617+00:00",
+  "preflight_input_tokens": 6964,
+  "context": 8192,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 1,
+    "part": 1,
+    "pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 73.51606654200077
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:41:38.024971+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The supplied material consists entirely of front matter for C. W. C. Oman’s historical volume on the Byzantine Empire. The initial pages contain library stamps and ownership marks from the University of California [PDF p. 2]. These administrative markings indicate the physical provenance of this specific copy rather than contributing to the historical narrative itself. Subsequent pages display fragmented text and illegible scans that resist clear interpretation [PDF p. 4]. One page is explicitly noted as having no readable text at all [PDF p. 5]. Another similarly lacks any discernible content for scholarly analysis [PDF p. 6].\n\nThe title page identifies the work as *The Byzantine Empire* within the series *The Story of the Nations* [PDF p. 11]. C. W. C. Oman is credited as the author, holding degrees and fellowships at Oxford University [PDF p. 11]. His previous works include studies on medieval warfare and historical biography [PDF p. 11]. The publication details list G. P. Putnam’s Sons in New York and T. Fisher Unwin in London [PDF p. 11]. Copyright records confirm the year of publication as 1892 for both American and British editions [PDF p. 12].\n\nOman’s preface addresses the shifting historiographical reputation of Byzantium [PDF p. 13]. He notes that fifty years prior, the term \"Byzantine\" implied corruption and decadence to modern historians [PDF p. 13]. Edward Gibbon had previously dismissed the empire as a series of vicious weaklings following Justinian [PDF p. 13]. Oman argues that this negative view persisted for generations without significant challenge [PDF p. 13]. He credits George Finlay’s monumental work from 1856 with beginning to correct these misconceptions [PDF p. 13]. J. B. Bury’s volumes, published in 1889, further aided this revisionist perspective for English readers [PDF p. 13].\n\nThe author states his intention to follow the spirit of Finlay and Bury rather than Gibbon [PDF p. 13]. He acknowledges a heavy debt to these two scholars for making his task feasible [PDF p. 14]. Oman admits he did not consult every chronicler of the Eastern realm personally [PDF p. 14]. However, he claims sufficient acquaintance with key sources like Procopius and Anna Comnena [PDF p. 14]. The preface is dated February 1892 from Oxford [PDF p. 14].\n\nThe table of contents outlines twenty-six chapters covering the empire’s entire lifespan [PDF p. 15]. It begins with the foundation of Byzantium and its destruction in A.D. 196 [PDF p. 15]. The structure moves through Constantine’s founding of Constantinople between A.D. 328 and 330 [PDF p. 15]. Subsequent entries detail conflicts with Goths, Huns, Slavs, and Saracens [PDF p. 16]. The list includes social history sections on religion and monasticism from A.D. 320 to 620 [PDF p. 17]. Later chapters address the Iconoclast controversy and the Macedonian dynasty’s literary emperors [PDF p. 18].\n\nThe contents conclude with the Latin conquest of Constantinople in 1204 [PDF p. 19]. It traces the decline under the restored empire and the rise of Ottoman Turks [PDF p. 19]. The final chapter covers the fall of Constantinople in A.D. 1453 [PDF p. 20]. An index follows the main text on page 351 according to this list [PDF p. 20].\n\nA detailed list of illustrations accompanies the contents [PDF p. 21]. Many images are sourced from Charles Bayet’s *L’Art Byzantin* published in Paris in 1883 [PDF p. 21]. The frontispiece depicts the interior of St. Sophia [PDF p. 7]. Other plates show coins, statues, and architectural details of Constantinople [PDF p. 21]. Some illustrations feature specific emperors like Justinian II or Romanus Diogenes [PDF p. 23]. The list ends with a plate titled *Angel of the Night* on page 350 [PDF p. 24].\n\nThe final supplied page displays a portrait captioned *Theodora Imperatrix* [PDF p. 25]. This image is identified as a painting by Val Prinsep [PDF p. 25]. The copyright for this specific artwork remains with the artist according to the note [PDF p. 25].\n\nThis summary relies exclusively on front matter, prefaces, and lists provided in the source. No narrative chapters are included in the supplied text. Consequently, no historical arguments or event details beyond titles can be verified. The author’s interpretation is limited to his methodological stance in the preface. Readers cannot assess Oman’s actual treatment of Byzantine history from these pages alone."
+      }
+    ],
+    "stats": {
+      "input_tokens": 6928,
+      "total_output_tokens": 1091,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.319012110562163,
+      "time_to_first_token_seconds": 24.630658
+    }
+  },
+  "output": "The supplied material consists entirely of front matter for C. W. C. Oman’s historical volume on the Byzantine Empire. The initial pages contain library stamps and ownership marks from the University of California [PDF p. 2]. These administrative markings indicate the physical provenance of this specific copy rather than contributing to the historical narrative itself. Subsequent pages display fragmented text and illegible scans that resist clear interpretation [PDF p. 4]. One page is explicitly noted as having no readable text at all [PDF p. 5]. Another similarly lacks any discernible content for scholarly analysis [PDF p. 6].\n\nThe title page identifies the work as *The Byzantine Empire* within the series *The Story of the Nations* [PDF p. 11]. C. W. C. Oman is credited as the author, holding degrees and fellowships at Oxford University [PDF p. 11]. His previous works include studies on medieval warfare and historical biography [PDF p. 11]. The publication details list G. P. Putnam’s Sons in New York and T. Fisher Unwin in London [PDF p. 11]. Copyright records confirm the year of publication as 1892 for both American and British editions [PDF p. 12].\n\nOman’s preface addresses the shifting historiographical reputation of Byzantium [PDF p. 13]. He notes that fifty years prior, the term \"Byzantine\" implied corruption and decadence to modern historians [PDF p. 13]. Edward Gibbon had previously dismissed the empire as a series of vicious weaklings following Justinian [PDF p. 13]. Oman argues that this negative view persisted for generations without significant challenge [PDF p. 13]. He credits George Finlay’s monumental work from 1856 with beginning to correct these misconceptions [PDF p. 13]. J. B. Bury’s volumes, published in 1889, further aided this revisionist perspective for English readers [PDF p. 13].\n\nThe author states his intention to follow the spirit of Finlay and Bury rather than Gibbon [PDF p. 13]. He acknowledges a heavy debt to these two scholars for making his task feasible [PDF p. 14]. Oman admits he did not consult every chronicler of the Eastern realm personally [PDF p. 14]. However, he claims sufficient acquaintance with key sources like Procopius and Anna Comnena [PDF p. 14]. The preface is dated February 1892 from Oxford [PDF p. 14].\n\nThe table of contents outlines twenty-six chapters covering the empire’s entire lifespan [PDF p. 15]. It begins with the foundation of Byzantium and its destruction in A.D. 196 [PDF p. 15]. The structure moves through Constantine’s founding of Constantinople between A.D. 328 and 330 [PDF p. 15]. Subsequent entries detail conflicts with Goths, Huns, Slavs, and Saracens [PDF p. 16]. The list includes social history sections on religion and monasticism from A.D. 320 to 620 [PDF p. 17]. Later chapters address the Iconoclast controversy and the Macedonian dynasty’s literary emperors [PDF p. 18].\n\nThe contents conclude with the Latin conquest of Constantinople in 1204 [PDF p. 19]. It traces the decline under the restored empire and the rise of Ottoman Turks [PDF p. 19]. The final chapter covers the fall of Constantinople in A.D. 1453 [PDF p. 20]. An index follows the main text on page 351 according to this list [PDF p. 20].\n\nA detailed list of illustrations accompanies the contents [PDF p. 21]. Many images are sourced from Charles Bayet’s *L’Art Byzantin* published in Paris in 1883 [PDF p. 21]. The frontispiece depicts the interior of St. Sophia [PDF p. 7]. Other plates show coins, statues, and architectural details of Constantinople [PDF p. 21]. Some illustrations feature specific emperors like Justinian II or Romanus Diogenes [PDF p. 23]. The list ends with a plate titled *Angel of the Night* on page 350 [PDF p. 24].\n\nThe final supplied page displays a portrait captioned *Theodora Imperatrix* [PDF p. 25]. This image is identified as a painting by Val Prinsep [PDF p. 25]. The copyright for this specific artwork remains with the artist according to the note [PDF p. 25].\n\nThis summary relies exclusively on front matter, prefaces, and lists provided in the source. No narrative chapters are included in the supplied text. Consequently, no historical arguments or event details beyond titles can be verified. The author’s interpretation is limited to his methodological stance in the preface. Readers cannot assess Oman’s actual treatment of Byzantine history from these pages alone.",
+  "stats": {
+    "input_tokens": 6928,
+    "total_output_tokens": 1091,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.319012110562163,
+    "time_to_first_token_seconds": 24.630658
+  },
+  "wall_seconds": 73.51606654200077,
+  "output_tokens_per_wall_second": 14.840293439485045,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 4231270400,
+    "cpu_percent": 9.2,
+    "system_available_bytes": 28735860736,
+    "card1_gtt_total_bytes": 16360861696,
+    "runtime_largest_process_rss_bytes": 926113792,
+    "card1_gtt_used_bytes": 196743168,
+    "system_used_excluding_available_bytes": 5372882944,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 67965644800,
+    "runtime_total_pss_bytes": 1224016896,
+    "llama_server_process_count": 1
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -36
+}

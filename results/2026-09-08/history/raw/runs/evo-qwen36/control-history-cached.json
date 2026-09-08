@@ -1,0 +1,68 @@
+{
+  "fingerprint": "c165b8a7d240d27b6b6cb688c75d08ea722d5d38d7ea011d647a85c52fef98df",
+  "model": "evo-qwen36",
+  "name": "control-history-cached",
+  "kind": "cached_repeat",
+  "started_at": "2026-09-08T04:11:01.577383+00:00",
+  "preflight_input_tokens": 5043,
+  "context": 65536,
+  "output_limit": 1000,
+  "metadata": {
+    "cache": "Exact repeated prompt; cache eligibility, actual cached token count unavailable"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 17.596891970000797
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:11:19.229240+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "In August 1841, at an anti-slavery convention in Nantucket, the narrator first encountered Frederick Douglass. At that time, Douglass was a stranger to most attendees, having recently escaped from slavery and residing in New Bedford. Motivated by curiosity regarding abolitionist principles, he attended despite his status as a fugitive. The narrator describes this meeting as a fortunate occurrence for Douglass’s brethren, the cause of emancipation, and Douglass himself, noting that it awakened his energies and consecrated him to the work of liberation.\n\nThe narrator recalls Douglass’s first speech with profound emotion. Though initially hesitant and embarrassed due to his lack of formal education—a consequence of slavery—Douglass spoke with natural eloquence and intellect. The narrator was so moved that he declared Douglass’s speech more powerful than Patrick Henry’s in the cause of liberty. He highlighted the peril Douglass faced, even in Massachusetts, and secured a unanimous pledge from the audience to protect him from recapture. Recognizing Douglass’s potential, the narrator, along with John A. Collins, encouraged him to become an anti-slavery lecturer. Although Douglass initially expressed diffidence and fear of causing more harm than good, he eventually consented. Since then, he has served as a lecturing agent for the American and Massachusetts Anti-Slavery Societies, surpassing expectations in his ability to combat prejudice and agitate public opinion through pathos, wit, and reasoning.\n\nThe preface contrasts Douglass’s success with Charles Lenox Remond, another free colored advocate, arguing that both refute claims of racial inferiority. The narrator asserts that slavery degrades all humanity, citing Daniel O’Connell’s 1845 anecdote about a white sailor who lost his reason after three years in African slavery to prove that whites can sink as low as blacks under such conditions.\n\nRegarding the Narrative itself, the narrator praises Douglass for writing it himself rather than employing an editor, calling it highly creditable given Douglass’s limited opportunities for intellectual improvement. The text is described as essentially true, lacking malice or exaggeration, and representing a fair specimen of slavery in Maryland, where slaves are reportedly better treated than in southern states like Georgia or Louisiana. However, the narrator emphasizes that even this \"moderate\" treatment involved terrible chastisements, mental outrages, and constant peril. He highlights a specific passage where Douglass stands by the Chesapeake Bay, viewing ships as symbols of freedom, as particularly thrilling and sublime.\n\nThe preface addresses skeptics who doubt the cruelties described in the Narrative. The narrator argues that such incredulity stems from a hatred of truth or contempt for the colored race. He notes that Douglass has named specific individuals and locations, allowing his claims to be verified or disproven. To illustrate the impunity with which slaveholders commit violence, the narrator cites two instances from Douglass’s life: one where a planter shot a trespassing slave, and another where an overseer killed a fleeing slave. Both incidents lacked legal investigation. Furthermore, he quotes the *Baltimore American* of March 17, 1845, detailing how a young man named Matthews shot a servant on his father’s farm for disobedience and fled without molestation. The narrator explains that under slave codes, colored witnesses cannot testify against white men, rendering legal protection nonexistent.\n\nFinally, the preface condemns the hypocrisy of southern masters who profess Christianity while practicing slavery, calling such professions \"palpable imposture.\" It concludes with a call to action: readers must choose between sympathizing with man-stealers or their victims, adopting the motto \"No Compromise with Slavery! No Union with Slaveholders!\" Signed by William Lloyd Garrison in Boston on May 1, 1845.\n\nFollowing this is a letter from Wendell Phillips, Esq., dated April 22, 1845, in Boston. Phillips references the fable of \"The Man and the Lion,\" celebrating that Douglass now writes his own history rather than having it defined by masters. He criticizes those who only support abolition if it increases sugar production or starves slaves, arguing that true reformers must hate slavery for moral reasons, not just economic ones. Phillips praises Douglass’s early awakening to injustice and his insight into the spiritual death caused by slavery. He notes the value of Douglass coming from Maryland, a region where slavery supposedly appears with its \"fairest features,\" suggesting that if it is brutal there, it is worse elsewhere. Phillips expresses complete confidence in Douglass’s truth and sincerity, asserting that his narrative provides a fair specimen of the whole truth, balancing individual kindness against the deadly system of slavery. He invites comparison between the limited rights of free colored people in Massachusetts and the condition of slaves south of Mason and Dixon’s line."
+      }
+    ],
+    "stats": {
+      "input_tokens": 5045,
+      "total_output_tokens": 988,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 57.49328910019857,
+      "time_to_first_token_seconds": 0.413098
+    }
+  },
+  "output": "In August 1841, at an anti-slavery convention in Nantucket, the narrator first encountered Frederick Douglass. At that time, Douglass was a stranger to most attendees, having recently escaped from slavery and residing in New Bedford. Motivated by curiosity regarding abolitionist principles, he attended despite his status as a fugitive. The narrator describes this meeting as a fortunate occurrence for Douglass’s brethren, the cause of emancipation, and Douglass himself, noting that it awakened his energies and consecrated him to the work of liberation.\n\nThe narrator recalls Douglass’s first speech with profound emotion. Though initially hesitant and embarrassed due to his lack of formal education—a consequence of slavery—Douglass spoke with natural eloquence and intellect. The narrator was so moved that he declared Douglass’s speech more powerful than Patrick Henry’s in the cause of liberty. He highlighted the peril Douglass faced, even in Massachusetts, and secured a unanimous pledge from the audience to protect him from recapture. Recognizing Douglass’s potential, the narrator, along with John A. Collins, encouraged him to become an anti-slavery lecturer. Although Douglass initially expressed diffidence and fear of causing more harm than good, he eventually consented. Since then, he has served as a lecturing agent for the American and Massachusetts Anti-Slavery Societies, surpassing expectations in his ability to combat prejudice and agitate public opinion through pathos, wit, and reasoning.\n\nThe preface contrasts Douglass’s success with Charles Lenox Remond, another free colored advocate, arguing that both refute claims of racial inferiority. The narrator asserts that slavery degrades all humanity, citing Daniel O’Connell’s 1845 anecdote about a white sailor who lost his reason after three years in African slavery to prove that whites can sink as low as blacks under such conditions.\n\nRegarding the Narrative itself, the narrator praises Douglass for writing it himself rather than employing an editor, calling it highly creditable given Douglass’s limited opportunities for intellectual improvement. The text is described as essentially true, lacking malice or exaggeration, and representing a fair specimen of slavery in Maryland, where slaves are reportedly better treated than in southern states like Georgia or Louisiana. However, the narrator emphasizes that even this \"moderate\" treatment involved terrible chastisements, mental outrages, and constant peril. He highlights a specific passage where Douglass stands by the Chesapeake Bay, viewing ships as symbols of freedom, as particularly thrilling and sublime.\n\nThe preface addresses skeptics who doubt the cruelties described in the Narrative. The narrator argues that such incredulity stems from a hatred of truth or contempt for the colored race. He notes that Douglass has named specific individuals and locations, allowing his claims to be verified or disproven. To illustrate the impunity with which slaveholders commit violence, the narrator cites two instances from Douglass’s life: one where a planter shot a trespassing slave, and another where an overseer killed a fleeing slave. Both incidents lacked legal investigation. Furthermore, he quotes the *Baltimore American* of March 17, 1845, detailing how a young man named Matthews shot a servant on his father’s farm for disobedience and fled without molestation. The narrator explains that under slave codes, colored witnesses cannot testify against white men, rendering legal protection nonexistent.\n\nFinally, the preface condemns the hypocrisy of southern masters who profess Christianity while practicing slavery, calling such professions \"palpable imposture.\" It concludes with a call to action: readers must choose between sympathizing with man-stealers or their victims, adopting the motto \"No Compromise with Slavery! No Union with Slaveholders!\" Signed by William Lloyd Garrison in Boston on May 1, 1845.\n\nFollowing this is a letter from Wendell Phillips, Esq., dated April 22, 1845, in Boston. Phillips references the fable of \"The Man and the Lion,\" celebrating that Douglass now writes his own history rather than having it defined by masters. He criticizes those who only support abolition if it increases sugar production or starves slaves, arguing that true reformers must hate slavery for moral reasons, not just economic ones. Phillips praises Douglass’s early awakening to injustice and his insight into the spiritual death caused by slavery. He notes the value of Douglass coming from Maryland, a region where slavery supposedly appears with its \"fairest features,\" suggesting that if it is brutal there, it is worse elsewhere. Phillips expresses complete confidence in Douglass’s truth and sincerity, asserting that his narrative provides a fair specimen of the whole truth, balancing individual kindness against the deadly system of slavery. He invites comparison between the limited rights of free colored people in Massachusetts and the condition of slaves south of Mason and Dixon’s line.",
+  "stats": {
+    "input_tokens": 5045,
+    "total_output_tokens": 988,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.49328910019857,
+    "time_to_first_token_seconds": 0.413098
+  },
+  "wall_seconds": 17.596891970000797,
+  "output_tokens_per_wall_second": 56.14627865445464,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3624615936,
+    "runtime_total_pss_bytes": 2228015104,
+    "system_used_excluding_available_bytes": 6683975680,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 1690222592,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 3.8,
+    "card1_vram_used_bytes": 26027798528,
+    "system_available_bytes": 26253520896,
+    "card1_gtt_used_bytes": 355123200
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

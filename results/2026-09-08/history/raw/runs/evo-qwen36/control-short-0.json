@@ -1,0 +1,68 @@
+{
+  "fingerprint": "c97f8f1e8e1eda04a9f56b6b2cfb7683682b7274f0cf638c56c5205040f1eb5b",
+  "model": "evo-qwen36",
+  "name": "control-short-0",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:09:35.604401+00:00",
+  "preflight_input_tokens": 49,
+  "context": 65536,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 5.25343846800024
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:09:40.858599+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "Historians operate as forensic analysts of the past, tasked with separating the raw material of history from the interpretive layers added by time, perspective, and bias. To achieve this, they rigorously distinguish between an author’s account, quoted testimony, and inference. While these three elements often appear intertwined in historical texts, understanding their distinct epistemological statuses is crucial for constructing a reliable narrative.\n\nAn **author’s account** refers to the broader narrative or descriptive framework provided by a historian or chronicler. It represents the synthesis of available evidence, shaped by the author’s methodology, cultural context, and intended audience. For instance, consider a modern historian writing a biography of Napoleon Bonaparte. When she describes the geopolitical climate of Europe in 1805, detailing the alliances between Britain, Austria, and Russia, she is providing an author’s account. This narrative is not a direct observation but a constructed interpretation based on extensive research. The historian might argue that Napoleon’s ambition was driven by a desire to secure France’s borders, a conclusion drawn from his correspondence and military movements. This account is valuable for context but must be scrutinized for the historian’s own biases or reliance on specific sources.\n\n**Quoted testimony**, in contrast, consists of direct statements attributed to"
+      }
+    ],
+    "stats": {
+      "input_tokens": 51,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 59.19420667459946,
+      "time_to_first_token_seconds": 0.5716209999999999
+    }
+  },
+  "output": "Historians operate as forensic analysts of the past, tasked with separating the raw material of history from the interpretive layers added by time, perspective, and bias. To achieve this, they rigorously distinguish between an author’s account, quoted testimony, and inference. While these three elements often appear intertwined in historical texts, understanding their distinct epistemological statuses is crucial for constructing a reliable narrative.\n\nAn **author’s account** refers to the broader narrative or descriptive framework provided by a historian or chronicler. It represents the synthesis of available evidence, shaped by the author’s methodology, cultural context, and intended audience. For instance, consider a modern historian writing a biography of Napoleon Bonaparte. When she describes the geopolitical climate of Europe in 1805, detailing the alliances between Britain, Austria, and Russia, she is providing an author’s account. This narrative is not a direct observation but a constructed interpretation based on extensive research. The historian might argue that Napoleon’s ambition was driven by a desire to secure France’s borders, a conclusion drawn from his correspondence and military movements. This account is valuable for context but must be scrutinized for the historian’s own biases or reliance on specific sources.\n\n**Quoted testimony**, in contrast, consists of direct statements attributed to",
+  "stats": {
+    "input_tokens": 51,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.19420667459946,
+    "time_to_first_token_seconds": 0.5716209999999999
+  },
+  "wall_seconds": 5.25343846800024,
+  "output_tokens_per_wall_second": 48.72998923644922,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3662790656,
+    "runtime_total_pss_bytes": 950503424,
+    "system_used_excluding_available_bytes": 5273956352,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 591589376,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 4.1,
+    "card1_vram_used_bytes": 26023706624,
+    "system_available_bytes": 27598266368,
+    "card1_gtt_used_bytes": 316784640
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

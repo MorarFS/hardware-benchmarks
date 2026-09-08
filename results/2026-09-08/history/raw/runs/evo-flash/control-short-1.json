@@ -1,0 +1,68 @@
+{
+  "fingerprint": "a9346d8bf920b6f2c34b2fb015a0392b4dbfa916a3d8c07105bc9b3afa15eb4f",
+  "model": "evo-flash",
+  "name": "control-short-1",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:35:15.486076+00:00",
+  "preflight_input_tokens": 91,
+  "context": 8192,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 12.497988251000606
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:35:27.985138+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "Historians operate within a complex ecosystem of evidence where the distinction between an author’s direct account, quoted testimony, and historical inference is not merely semantic but fundamental to establishing credibility and narrative accuracy. Understanding these categories allows scholars to assess bias, verify facts, and construct interpretations that remain faithful to the source material while acknowledging the gaps inherent in historical record-keeping.\n\nAn **author’s account** refers to the direct narrative or analytical voice of the historian writing the text. This is the layer where the historian synthesizes information, provides context, and argues a thesis. For example, if a historian writes, \"The economic collapse of 1929 was exacerbated by speculative trading practices,\" this is an authorial account. It represents the historian’s interpretation of available data. While authoritative, it is inherently subjective because it reflects the historian’s selection of facts and analytical framework. Readers must recognize that this voice is constructing a story from fragments, not simply reporting raw reality.\n\n**Quoted testimony**, by contrast, serves as primary evidence embedded within the narrative. It consists of direct speech or written statements from individuals who witnessed events or participated in them. Using our previous example, if the historian includes a quote from a 1928 stockbroker saying, \"We were buying on"
+      }
+    ],
+    "stats": {
+      "input_tokens": 51,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 23.904227851725167,
+      "time_to_first_token_seconds": 1.143146
+    }
+  },
+  "output": "Historians operate within a complex ecosystem of evidence where the distinction between an author’s direct account, quoted testimony, and historical inference is not merely semantic but fundamental to establishing credibility and narrative accuracy. Understanding these categories allows scholars to assess bias, verify facts, and construct interpretations that remain faithful to the source material while acknowledging the gaps inherent in historical record-keeping.\n\nAn **author’s account** refers to the direct narrative or analytical voice of the historian writing the text. This is the layer where the historian synthesizes information, provides context, and argues a thesis. For example, if a historian writes, \"The economic collapse of 1929 was exacerbated by speculative trading practices,\" this is an authorial account. It represents the historian’s interpretation of available data. While authoritative, it is inherently subjective because it reflects the historian’s selection of facts and analytical framework. Readers must recognize that this voice is constructing a story from fragments, not simply reporting raw reality.\n\n**Quoted testimony**, by contrast, serves as primary evidence embedded within the narrative. It consists of direct speech or written statements from individuals who witnessed events or participated in them. Using our previous example, if the historian includes a quote from a 1928 stockbroker saying, \"We were buying on",
+  "stats": {
+    "input_tokens": 51,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 23.904227851725167,
+    "time_to_first_token_seconds": 1.143146
+  },
+  "wall_seconds": 12.497988251000606,
+  "output_tokens_per_wall_second": 20.483296580111947,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 4664057856,
+    "card1_vram_used_bytes": 67893547008,
+    "cpu_percent": 3.0,
+    "swap_used_bytes": 4216299520,
+    "runtime_largest_process_rss_bytes": 811802624,
+    "card1_vram_total_bytes": 103079215104,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "system_available_bytes": 28380659712,
+    "runtime_total_pss_bytes": 899511296,
+    "card1_gtt_used_bytes": 186028032
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": -40
+}

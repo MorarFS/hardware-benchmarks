@@ -1,0 +1,90 @@
+{
+  "fingerprint": "d6a6ebb367e681bf15bdf27cbadb43ac4e8589825d481f9367c0d504f884a616",
+  "model": "evo-flash",
+  "name": "book-chunk01-part02-completion-retry",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:42:54.891088+00:00",
+  "preflight_input_tokens": 6946,
+  "context": 8192,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 1,
+    "part": 2,
+    "pdf_pages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "retry_of": "book-chunk01-part02",
+    "retry_reason": "Output ceiling reached; original retained"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 39.180621411000175
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:43:34.151919+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The narrative begins with the legendary founding of Byzantium by Dorian Greeks from Megara [PDF p. 27]. These settlers sought wealth in the Black Sea region, guided by myths of the Golden Fleece and Amazons [PDF p. 28]. They established a colony on a headland near the Golden Horn, following an oracle’s advice to build opposite the \"city of the blind\" [PDF p. 29]. This referred to Chalcedonians who had previously chosen a less strategic site across the strait [PDF p. 29]. The author argues that Byzantium’s location was militarily and commercially superior, commanding trade routes between Europe and Asia [PDF p. 30]. Its natural defenses made it nearly impregnable, falling only to famine or treachery in early history [PDF p. 30].\n\nByzantium maintained independence for three centuries, except during Persian occupation [PDF p. 31]. It played a role in the Ionic Revolt and was later liberated by Greek forces after Salamis [PDF p. 31]. The city briefly allied with Athens but suffered sieges during the Peloponnesian War [PDF p. 32]. Internal history remains obscure, though unique customs like iron currency are noted [PDF p. 32]. Ancient chroniclers depicted Byzantines as luxurious and gluttonous, a characterization the author dismisses as neighborly envy [PDF p. 33]. The city resisted Philip of Macedon, adopting the crescent and star emblem after a miraculous light saved them from siege [PDF p. 33].\n\nAfter Alexander’s death, Byzantium passed through various hands before allying with Rome [PDF p. 34]. It retained freedom as a confederate city until Emperor Vespasian revoked its privileges in A.D. 71 [PDF p. 34]. The city flourished under the Pax Romana but faced destruction during civil wars following Commodus’s murder [PDF p. 35]. Severus besieged and sacked Byzantium in A.D. 196, executing leaders and demolishing walls [PDF p. 35]. Caracalla later restored self-governance, yet Gothic incursions continued to plague the region [PDF p. 36].\n\nThe city recovered under Illyrian emperors but became a battleground between Licinius and Maximinus Daza [PDF p. 37]. Licinius fortified Byzantium as his chief stronghold against Constantine [PDF p. 37]. Constantine besieged the city in A.D. 323, using military engines to force surrender [PDF p. 38]. This victory united the Roman Empire under one ruler for the first time since Diocletian’s partitions [PDF p. 39]. The author portrays Constantine as a pragmatic administrator who lacked reverence for Rome’s ancient prestige [PDF p. 40]. He viewed Italy as secondary to his Danubian and Gallic holdings, seeking a new administrative center [PDF p. 41].\n\nRome was strategically inconvenient due to distance from Balkan frontiers and poor harbors [PDF p. 42]. Constantine needed a site accessible by land and sea that could serve as an impregnable arsenal [PDF p. 42]. He considered Naissus and Sardica but rejected them for being too close to the frontier or lacking sea access [PDF p. 42]. The text ends abruptly while listing these potential sites, leaving the final selection process incomplete in this excerpt.\n\nThe source material concludes mid-sentence during Constantine’s site evaluation, offering no further details on his decision-making process beyond initial rejections. Consequently, the specific criteria leading to the ultimate choice of Byzantium remain unexplained within the provided pages."
+      }
+    ],
+    "stats": {
+      "input_tokens": 6910,
+      "total_output_tokens": 793,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.157072099588206,
+      "time_to_first_token_seconds": 3.420121
+    }
+  },
+  "output": "The narrative begins with the legendary founding of Byzantium by Dorian Greeks from Megara [PDF p. 27]. These settlers sought wealth in the Black Sea region, guided by myths of the Golden Fleece and Amazons [PDF p. 28]. They established a colony on a headland near the Golden Horn, following an oracle’s advice to build opposite the \"city of the blind\" [PDF p. 29]. This referred to Chalcedonians who had previously chosen a less strategic site across the strait [PDF p. 29]. The author argues that Byzantium’s location was militarily and commercially superior, commanding trade routes between Europe and Asia [PDF p. 30]. Its natural defenses made it nearly impregnable, falling only to famine or treachery in early history [PDF p. 30].\n\nByzantium maintained independence for three centuries, except during Persian occupation [PDF p. 31]. It played a role in the Ionic Revolt and was later liberated by Greek forces after Salamis [PDF p. 31]. The city briefly allied with Athens but suffered sieges during the Peloponnesian War [PDF p. 32]. Internal history remains obscure, though unique customs like iron currency are noted [PDF p. 32]. Ancient chroniclers depicted Byzantines as luxurious and gluttonous, a characterization the author dismisses as neighborly envy [PDF p. 33]. The city resisted Philip of Macedon, adopting the crescent and star emblem after a miraculous light saved them from siege [PDF p. 33].\n\nAfter Alexander’s death, Byzantium passed through various hands before allying with Rome [PDF p. 34]. It retained freedom as a confederate city until Emperor Vespasian revoked its privileges in A.D. 71 [PDF p. 34]. The city flourished under the Pax Romana but faced destruction during civil wars following Commodus’s murder [PDF p. 35]. Severus besieged and sacked Byzantium in A.D. 196, executing leaders and demolishing walls [PDF p. 35]. Caracalla later restored self-governance, yet Gothic incursions continued to plague the region [PDF p. 36].\n\nThe city recovered under Illyrian emperors but became a battleground between Licinius and Maximinus Daza [PDF p. 37]. Licinius fortified Byzantium as his chief stronghold against Constantine [PDF p. 37]. Constantine besieged the city in A.D. 323, using military engines to force surrender [PDF p. 38]. This victory united the Roman Empire under one ruler for the first time since Diocletian’s partitions [PDF p. 39]. The author portrays Constantine as a pragmatic administrator who lacked reverence for Rome’s ancient prestige [PDF p. 40]. He viewed Italy as secondary to his Danubian and Gallic holdings, seeking a new administrative center [PDF p. 41].\n\nRome was strategically inconvenient due to distance from Balkan frontiers and poor harbors [PDF p. 42]. Constantine needed a site accessible by land and sea that could serve as an impregnable arsenal [PDF p. 42]. He considered Naissus and Sardica but rejected them for being too close to the frontier or lacking sea access [PDF p. 42]. The text ends abruptly while listing these potential sites, leaving the final selection process incomplete in this excerpt.\n\nThe source material concludes mid-sentence during Constantine’s site evaluation, offering no further details on his decision-making process beyond initial rejections. Consequently, the specific criteria leading to the ultimate choice of Byzantium remain unexplained within the provided pages.",
+  "stats": {
+    "input_tokens": 6910,
+    "total_output_tokens": 793,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.157072099588206,
+    "time_to_first_token_seconds": 3.420121
+  },
+  "wall_seconds": 39.180621411000175,
+  "output_tokens_per_wall_second": 20.23959731729423,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 4065173504,
+    "cpu_percent": 5.1,
+    "system_available_bytes": 26902446080,
+    "card1_gtt_total_bytes": 16360861696,
+    "runtime_largest_process_rss_bytes": 2100461568,
+    "card1_gtt_used_bytes": 258183168,
+    "system_used_excluding_available_bytes": 6052872192,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 67912249344,
+    "runtime_total_pss_bytes": 2401130496,
+    "llama_server_process_count": 1
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -36
+}

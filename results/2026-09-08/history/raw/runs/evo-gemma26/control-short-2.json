@@ -1,0 +1,68 @@
+{
+  "fingerprint": "fd8fc2c81379a72a127b172dd5384f8d1f5c4528bcf69d77c8e6860e5e4f2a41",
+  "model": "evo-gemma26",
+  "name": "control-short-2",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:22:51.910061+00:00",
+  "preflight_input_tokens": 54,
+  "context": 65536,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 6.158428155000365
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:22:58.068872+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "To reconstruct the past, historians must act as forensic linguists and detectives, meticulously parsing the layers of information found in primary sources. The ability to distinguish between an author’s account, quoted testimony, and inference is not merely a technical skill; it is the fundamental mechanism that prevents historical distortion. If a historian treats an opinion as a fact or a quote as an original observation, the resulting narrative becomes unreliable.\n\nAn **author’s account** refers to the direct observations, interpretations, or narratives provided by the person writing the document. This is the \"voice\" of the source itself. When an author writes, they are providing their subjective reality—what they saw, what they felt, and how they framed the events. For example, imagine a diary entry from a soldier during the American Civil War: *\"The heat was suffocating, and the morale of my regiment seemed to wither under the relentless sun.\"* Here, the author is offering an account. The \"suffocating heat\" and the \"withering morale\" are the author’s direct perceptions and qualitative assessments. They are not necessarily objective truths, but they are the primary data points of that specific individual's experience.\n\n**Quoted testimony**, by contrast, is a secondary layer within a document"
+      }
+    ],
+    "stats": {
+      "input_tokens": 52,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.795365832239185,
+      "time_to_first_token_seconds": 0.23039400000000002
+    }
+  },
+  "output": "To reconstruct the past, historians must act as forensic linguists and detectives, meticulously parsing the layers of information found in primary sources. The ability to distinguish between an author’s account, quoted testimony, and inference is not merely a technical skill; it is the fundamental mechanism that prevents historical distortion. If a historian treats an opinion as a fact or a quote as an original observation, the resulting narrative becomes unreliable.\n\nAn **author’s account** refers to the direct observations, interpretations, or narratives provided by the person writing the document. This is the \"voice\" of the source itself. When an author writes, they are providing their subjective reality—what they saw, what they felt, and how they framed the events. For example, imagine a diary entry from a soldier during the American Civil War: *\"The heat was suffocating, and the morale of my regiment seemed to wither under the relentless sun.\"* Here, the author is offering an account. The \"suffocating heat\" and the \"withering morale\" are the author’s direct perceptions and qualitative assessments. They are not necessarily objective truths, but they are the primary data points of that specific individual's experience.\n\n**Quoted testimony**, by contrast, is a secondary layer within a document",
+  "stats": {
+    "input_tokens": 52,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.795365832239185,
+    "time_to_first_token_seconds": 0.23039400000000002
+  },
+  "wall_seconds": 6.158428155000365,
+  "output_tokens_per_wall_second": 41.56904871775431,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 2.5,
+    "system_available_bytes": 27887443968,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20680630272,
+    "card1_gtt_used_bytes": 233857024,
+    "runtime_largest_process_rss_bytes": 1198841856,
+    "swap_used_bytes": 3847094272,
+    "runtime_total_pss_bytes": 1523813376,
+    "card1_vram_total_bytes": 103079215104,
+    "system_used_excluding_available_bytes": 4923604992,
+    "card1_gtt_total_bytes": 16360861696
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": -2
+}

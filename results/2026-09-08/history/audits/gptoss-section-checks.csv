@@ -1,0 +1,44 @@
+claim_id,group,claim,cited_pdf_pages,checked_pdf_pages,verdict,severity,reviewer_note
+OSS-S01-01,1,The colony changed its name from Axeinos to Euxeinos.,29,"28,29",misidentification,critical,"The names describe the Black Sea, not the colony of Byzantium."
+OSS-S01-02,1,Philip's fifth capture in 339 BC was repelled by a sudden light.,34,"33,34",contradiction,major,Philip was repulsed; the later submission was to Alexander. Capture contradicts both the source and the same sentence's repulse.
+OSS-S01-03,1,Maximinus sacked the city in AD 314.,"36,37","36,37",contradicted,major,Oman explicitly says the town does not seem to have been sacked or burned during those changes of control.
+OSS-S01-04,1,Justin I displayed triumph after reconquest in the Hippodrome.,"49,50","49,50",misidentification,critical,"The source names Justinian II, with Leontius and Apsimarus beneath his footstool."
+OSS-S01-05,1,The great sedition is dated 523.,"49,50","50,101,102",supported_in_input_with_source_conflict,none,The first input actually says 523 on PDF 50. Later PDF 101 says 532; do not penalize this first-section date as an invented error.
+OSS-S01-06,1,Luxury tales may reflect hostile neighbors.,33,33,supported,none,Correctly retains the source's caution.
+OSS-S01-07,1,Thirty years of Persian rule interrupt three centuries of relative independence.,"31,32","31,32",supported,none,Correctly preserves the exception omitted by Qwen.
+OSS-S01-08,1,Darius's bridge and tolls cited to PDF 32.,32,"31,32",citation_error,moderate,"Bridge, Ionic revolt, and Histiaeus's tolls appear on PDF 31, not 32."
+OSS-S02-01,2,"After Theodosius died in 408, his son Theodosius II succeeded.","70,71","70,80",misidentification_and_chronology,critical,Theodosius I died in 395. Arcadius died in 408 and was the father of Theodosius II.
+OSS-S02-02,2,Pagan temples were spared as artworks.,55,55,reversed_subject,major,"The source applies decorative status to statues in the baths and senate, while separately mentioning surviving old temples."
+OSS-S02-03,2,Later emperors added the repurposed Apollo column.,51,51,misattribution,moderate,Oman explicitly identifies the repurposed image as Constantine's own contribution.
+OSS-S02-04,2,"Gothic entry required hostages and disarmament, followed by corrupt provisioning.","63,64","62,63,64",supported,none,Preserves the principal conditions and causal sequence.
+OSS-S02-05,2,Justinian's marriage faced opposition from the emperor-designate.,"79,80,81","91,92,93",misidentification_and_citation_error,major,"Justinian himself was heir designate. His mother and reigning uncle opposed the marriage, on PDF 93."
+OSS-S03-01,3,The emperor's reign ended with the Persian War in 532.,101,"101,131,140",chronology_error,critical,"532 ends the first Persian war, not Justinian's reign. The same summary later gives his death in 565."
+OSS-S03-02,3,Seven rioters were executed before two survived the hanging.,102,102,internal_contradiction,major,Seven were selected for execution; four were beheaded and two of the three hanged survived.
+OSS-S03-03,3,Peace in 545 restored territories to Persia.,126,126,reversal,critical,Chosroes gave up his conquests; Justinian paid gold. The model reverses the territorial direction.
+OSS-S03-04,3,St. Sophia was rebuilt within forty days.,"133,134",133,chronology_error,major,"Justinian commenced preparations within forty days, not completed the church."
+OSS-S03-05,3,Thirty-five thousand died over six days of Nika.,106,106,supported_scope_with_qualification_loss,moderate,Correct scope; approximately still weakens the source's explicit reported-account status.
+OSS-S04-01,4,Persians reached Chalcedon under Phocas in 614.,"155,156","155,156,157",chronology_error,critical,"The cited source dates this advance to 608. Phocas was overthrown in 610, which the same summary also states."
+OSS-S04-02,4,"Heraclius, exarch of Africa, led the fleet and became emperor.","156,157","156,157",misidentification,critical,The exarch was the father; his namesake son led the fleet and became emperor.
+OSS-S04-03,4,Heraclius forced Persian troops to withdraw from the Balkans.,"162,163","161,162",geography_error,major,"The first campaign cleared Asia Minor. Persians withdrew from the Chalcedon side, not the European Balkans."
+OSS-S04-04,4,Both rulers gave Muhammad perfunctory replies in 628.,"185,186",186,flattened_distinction,moderate,Chosroes threatened chains; Heraclius gave no direct reply but sent gifts. The source distinguishes their responses.
+OSS-S04-05,4,Constans ruled until 668 but was assassinated in 666.,191-196,"192,195",internal_chronology_error,major,The reign and successor dates on PDF 192 establish 668. PDF 195's extracted death year is garbled; the summary does not reconcile it.
+OSS-S05-01,5,Leontius received advice from the monk Paul and rebelled.,201,201,supported,none,The advice and resulting action are in the supplied narrative.
+OSS-S05-02,5,Apsimarus and Tiberius III identify the same ruler.,203,203,supported,none,Preserves the identity which Gemma split into separate people.
+OSS-S05-03,5,Theophilus's persecution prompted Saracen retaliation at Amorium.,235-238,"235,236",causal_reversal,critical,"Iconodules interpreted the defeat as divine punishment. The caliph retaliated for the burning of Zapetra, not image persecution."
+OSS-S05-04,5,"Art revived in the ninth century, stimulated by Iconoclast persecution.",248-250,250,supported_source_interpretation,none,Oman explicitly makes this interpretive connection.
+OSS-S06-01,6,The empire's maritime commerce was devastated by Saracen piracy.,251,"250,251",reversed_subject,major,"Oman says other commerce was swept away, leaving imperial shipping dominant."
+OSS-S06-02,6,Constantine Porphyrogenitus faced Sassanian Persia and both caliphates.,252,252,chronology_error,critical,"Oman describes successive enemies across the empire's history, not within this emperor's reign."
+OSS-S06-03,6,Phocas ignored orders and stormed an Antioch tower.,259,"257,259",misidentification,critical,Burtzes stormed the tower contrary to Phocas's orders; Phocas dismissed him afterward.
+OSS-S06-04,6,Zimisces repelled Russian attacks in 907 and 941.,261,"259,260,261",chronology_and_attribution_error,critical,Those raids preceded Zimisces. The 907 raiders returned with plunder; the fleet repelled the 941 raid.
+OSS-S06-05,6,The Macedonian line ended with Basil II.,267,"270,274",chronology_error,critical,The source continues the dynasty after Basil II and ends it with Theodora.
+OSS-S06-06,6,Alexius gave concessions to Venice and Genoa.,295,"294,295",misidentification,major,The cited concessions were to Venice and Pisa.
+GO-S034,07,Alexius bribed Conrad against the competent Branas,303–304,303,misattribution_and_causal_distortion,major,Isaac recruited Conrad to defeat Branas after Branas rebelled; the summary omits the rebellion and substitutes Alexius.
+GO-S035,07,Isaac Comnenus was a relative of Manuel II,304–305,303,supported_source_claim,none,The supplied source itself says Manuel II. Do not substitute external historical correction. Citation drifts.
+GO-S036,07,The realm fell to two-thirds of its earlier size,348–350,348–351,reversed_subject,critical,"The two-thirds statistic concerns Grand Viziers who began as Janissaries, not imperial territory."
+GO-S037,07,Only Chalcedon remained under Greek control,348–350,349;353–354,overbroad_scope,major,"Chalcedon is the remaining Asian territory in this passage, not the entire empire."
+GO-S038,08,Janissaries were first formed in the fourteenth–sixteenth centuries,351,350–351,chronology_and_subject_error,major,The centuries describe the careers of Grand Viziers. The preceding page places institution under Orkhan.
+GO-S039,08,Cantacuzenus made an unprecedented appeal to foreign powers,352–353,353,contradiction,major,The source calls this the usual step and distinguishes its unusually fatal results.
+GO-S040,08,Cantacuzenus summoned Orkhan’s son-in-law forces,356,355,relationship_reversal,major,Orkhan was Cantacuzenus’s son-in-law. The source says troops of his son-in-law Orkhan.
+GO-S041,08,The empire became a head without a body after Adrianople,358–359,356,supported_with_locator_drift,moderate,"The metaphor and causal sequence are faithful, but the cited pages miss the passage."
+GO-S042,08,An earlier fall would delay the Renaissance,362–363,359,distorted_counterfactual,moderate,"Oman predicts diminished brilliance because Italy was not yet ready, rather than a stated delay."
+GO-S043,08,Details of final Ottoman motives remain uncertain in these pages,368–370,368–370,unsupported_limitation,major,The cited pages give explicit motives and the pretext for Mohammed’s attack; they do not state this limitation.

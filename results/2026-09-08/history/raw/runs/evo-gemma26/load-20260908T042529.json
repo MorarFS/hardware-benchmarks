@@ -1,0 +1,36 @@
+{
+  "command": [
+    "<LM_STUDIO_HOME>/bin/lms",
+    "load",
+    "gemma-4-26b-a4b-it",
+    "--identifier",
+    "evo-gemma26",
+    "--gpu",
+    "max",
+    "--context-length",
+    "65536",
+    "--parallel",
+    "1",
+    "--ttl",
+    "7200",
+    "-y",
+    "--no-speculative-draft-mtp"
+  ],
+  "returncode": 0,
+  "output": "\u001b[?25l\nLoading gemma-4-26b-a4b-it 0% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 0% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 2% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 2% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 2% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 4% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 4% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 6% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 6% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 6% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 7% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 7% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 9% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 9% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 9% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 11% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 11% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 12% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 12% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 12% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 14% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 14% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 15% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 15% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 15% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 17% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 17% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 18% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 18% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 18% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 19% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 19% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 21% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 21% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 21% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 22% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 22% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 23% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 23% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 23% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 24% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 24% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 26% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 26% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 26% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 27% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 27% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 28% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 28% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 28% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 29% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 29% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 30% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 30% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 30% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 31% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 31% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 32% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 32% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 32% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 33% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 33% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 34% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 34% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 100% ⠇\n\u001b[K\u001b[?25hModel loaded successfully in 3.09s.\n(15.78 GiB)\nTo use the model in the API/SDK, use the identifier \"evo-gemma26\".\n",
+  "wall_seconds": 3.279243172999486,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 4871200768,
+    "system_available_bytes": 28181188608,
+    "swap_used_bytes": 3840655360,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 17505177600,
+    "card1_vram_used_bytes": 20678909952,
+    "card1_gtt_used_bytes": 213016576,
+    "runtime_largest_process_rss_bytes": 17173172224,
+    "cpu_percent": 4.1
+  }
+}

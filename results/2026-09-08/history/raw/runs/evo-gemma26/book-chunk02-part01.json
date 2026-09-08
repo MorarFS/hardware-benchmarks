@@ -1,0 +1,121 @@
+{
+  "fingerprint": "0ed40aab162793e97571aed38e8f5f326ef394e06ab51b9456e6d8c87e7a9d6c",
+  "model": "evo-gemma26",
+  "name": "book-chunk02-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:26:16.905894+00:00",
+  "preflight_input_tokens": 21085,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 2,
+    "part": 1,
+    "pdf_pages": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 50.01872611900035
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:27:06.925453+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The Hippodrome contained several ancient monuments, including a golden tripod dedicated at Delphi in 479 B.C. [PDF p. 51]. While the vast walls had crumbled, central decorations like the square bronze column remained [PDF p. 51]. Along the eastern wall stood various statues and the Milion, the empire's central milestone [PDF p. 51]. Constantine added a porphyry column featuring an image originally representing the Apollo of Hierapolis [PDF p. 51]. North of the Hippodrome sat the original, humbler Hagia Sophia, which was later destroyed by fire [PDF p. 52]. A wooden gallery connected this church to the Royal Gate of the palace [PDF p. 52].\n\nConstantine chose Byzantium as his capital around A.D. 328 or 329 [PDF p. 54]. He held a consecration festival on May 11, 330, featuring Christian services [PDF p. 54]. To populate the city, Constantine offered privileges to senators, merchants, and artisans [PDF p. 55]. He also transferred the Egyptian wheat-tribute to Constantinople to ensure food supplies [PDF p. 55]. Although an edict named the city New Rome, people primarily called it Constantinople [PDF p. 56]. After Constantine died in A.D. 337, civil wars eventually left Constantius II as sole ruler [PDF p. 57].\n\nThe empire faced threats from the east and north [PDF p. 58]. While Sapor of Persia challenged the eastern frontier, the Goths posed a northern danger [PDF p. 58]. By A.D. 376, the Huns had driven the Visigoths toward the Roman Danube border [PDF p. 61]. The Emperor Valens allowed the Goths to enter as subject-allies [PDF p. 62]. However, corruption by officials like Lupicinus led to starvation and revolt [PDF p. 63]. This culminated in the disastrous Battle of Adrianople in A.D. 378, where Valens was killed [PDF p. 65, 67]. Theodosius later stabilized the region by enlisting Gothic war-bands into the Roman army [PDF p. 68].\n\nThe author argues that this policy of using barbarian auxiliaries under their own chiefs was dangerous [PDF p. 70]. Following Theodosius' death in A.D. 395, factional wars erupted between German and Roman parties [PDF p. 73]. Alaric led the Visigoths in revolt, eventually invading Italy [PDF p. 74, 75]. Meanwhile, Gainas attempted to seize power in Constantinople but was defeated by a local mob [PDF p. 76, 77]. The empire stabilized under the reorganization of Leo I, Zeno, and Anastasius [PDF p. 85]. These rulers utilized native troops, such as Isaurians, to reduce barbarian influence [PDF p. 87].\n\nJustinian ascended the throne in A.D. 527 after his uncle Justinus died [PDF p. 91]. He married Theodora, a former actress, which caused significant social scandal [PDF p. 92, 93]. The author describes Justinian as a hard, suspicious, and tireless ruler [PDF p. 95]. His foreign policy aimed to reunite the Western Mediterranean provinces with the East [PDF p. 99]. Early in his reign, he fought an indecisive war against the Persian King Kobad [PDF p. 100]. This conflict highlighted the military merit of his general, Belisarius [PDF p. 100].\n\nThe text does not provide information regarding the ultimate outcome of Justinian's wars or his later reign."
+      }
+    ],
+    "stats": {
+      "input_tokens": 21088,
+      "total_output_tokens": 828,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 37.95459868152058,
+      "time_to_first_token_seconds": 25.319806
+    }
+  },
+  "output": "The Hippodrome contained several ancient monuments, including a golden tripod dedicated at Delphi in 479 B.C. [PDF p. 51]. While the vast walls had crumbled, central decorations like the square bronze column remained [PDF p. 51]. Along the eastern wall stood various statues and the Milion, the empire's central milestone [PDF p. 51]. Constantine added a porphyry column featuring an image originally representing the Apollo of Hierapolis [PDF p. 51]. North of the Hippodrome sat the original, humbler Hagia Sophia, which was later destroyed by fire [PDF p. 52]. A wooden gallery connected this church to the Royal Gate of the palace [PDF p. 52].\n\nConstantine chose Byzantium as his capital around A.D. 328 or 329 [PDF p. 54]. He held a consecration festival on May 11, 330, featuring Christian services [PDF p. 54]. To populate the city, Constantine offered privileges to senators, merchants, and artisans [PDF p. 55]. He also transferred the Egyptian wheat-tribute to Constantinople to ensure food supplies [PDF p. 55]. Although an edict named the city New Rome, people primarily called it Constantinople [PDF p. 56]. After Constantine died in A.D. 337, civil wars eventually left Constantius II as sole ruler [PDF p. 57].\n\nThe empire faced threats from the east and north [PDF p. 58]. While Sapor of Persia challenged the eastern frontier, the Goths posed a northern danger [PDF p. 58]. By A.D. 376, the Huns had driven the Visigoths toward the Roman Danube border [PDF p. 61]. The Emperor Valens allowed the Goths to enter as subject-allies [PDF p. 62]. However, corruption by officials like Lupicinus led to starvation and revolt [PDF p. 63]. This culminated in the disastrous Battle of Adrianople in A.D. 378, where Valens was killed [PDF p. 65, 67]. Theodosius later stabilized the region by enlisting Gothic war-bands into the Roman army [PDF p. 68].\n\nThe author argues that this policy of using barbarian auxiliaries under their own chiefs was dangerous [PDF p. 70]. Following Theodosius' death in A.D. 395, factional wars erupted between German and Roman parties [PDF p. 73]. Alaric led the Visigoths in revolt, eventually invading Italy [PDF p. 74, 75]. Meanwhile, Gainas attempted to seize power in Constantinople but was defeated by a local mob [PDF p. 76, 77]. The empire stabilized under the reorganization of Leo I, Zeno, and Anastasius [PDF p. 85]. These rulers utilized native troops, such as Isaurians, to reduce barbarian influence [PDF p. 87].\n\nJustinian ascended the throne in A.D. 527 after his uncle Justinus died [PDF p. 91]. He married Theodora, a former actress, which caused significant social scandal [PDF p. 92, 93]. The author describes Justinian as a hard, suspicious, and tireless ruler [PDF p. 95]. His foreign policy aimed to reunite the Western Mediterranean provinces with the East [PDF p. 99]. Early in his reign, he fought an indecisive war against the Persian King Kobad [PDF p. 100]. This conflict highlighted the military merit of his general, Belisarius [PDF p. 100].\n\nThe text does not provide information regarding the ultimate outcome of Justinian's wars or his later reign.",
+  "stats": {
+    "input_tokens": 21088,
+    "total_output_tokens": 828,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 37.95459868152058,
+    "time_to_first_token_seconds": 25.319806
+  },
+  "wall_seconds": 50.01872611900035,
+  "output_tokens_per_wall_second": 16.5538002313392,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 6382661632,
+    "system_available_bytes": 27413905408,
+    "swap_used_bytes": 3839234048,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 2914681856,
+    "card1_vram_used_bytes": 20680278016,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 2510749696,
+    "cpu_percent": 4.5
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

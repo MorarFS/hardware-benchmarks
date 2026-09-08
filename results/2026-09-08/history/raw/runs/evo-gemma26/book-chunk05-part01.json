@@ -1,0 +1,121 @@
+{
+  "fingerprint": "dc7c202c665b32164fb11c370ba48d5ee64c892dbda09e8229331970690d1730",
+  "model": "evo-gemma26",
+  "name": "book-chunk05-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:28:55.736058+00:00",
+  "preflight_input_tokens": 20580,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 5,
+    "part": 1,
+    "pdf_pages": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 46.30880080800034
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:29:42.175674+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The provided text details a period of intense political instability and religious conflict within the East-Roman Empire. Following unsuccessful wars against the Saracens, Justinian II began executing or imprisoning his officers [PDF p. 201]. In 695, an officer named Leontius seized power after receiving counsel from a monk named Paul [PDF p. 201]. Leontius deposed Justinian II, mutilated his nose, and banished him to Cherson [PDF p. 201]. This usurpation initiated twenty years of anarchy characterized by constant revolts and foreign defeats [PDF p. 202]. During this time, Saracen armies ravaged the Asiatic frontier and captured Carthage in 697 [PDF p. 202].\n\nThe instability continued when the admiral Tiberius Apsimarus seized Constantinople and proclaimed himself Tiberius III [PDF p. 203]. Although Tiberius III achieved some military successes against the Saracens, he remained a precarious ruler [PDF p. 203]. Meanwhile, the exiled Justinian II escaped from Cherson by killing two Khazar officers sent to seize him [PDF p. 204]. He eventually secured Bulgarian support and returned to Constantinople in 705 to reclaim his throne [PDF p. 205]. His restoration triggered a reign of terror where he executed former usurpers and many prominent citizens [PDF p. 205]. This era ended in 711 when Philippicus seized power and beheaded Justinian II [PDF p. 206].\n\nThe subsequent years were marked by further chaos under ephemeral rulers like Anastasius and Theodosius III [PDF p. 207]. Amidst this decay, Leo the Isaurian rose to power in 717 after defeating Theodosius III [PDF p. 208]. Leo faced a massive Saracen invasion led by Moslemah and Suleiman, but he successfully defended Constantinople [PDF p. 211]. The author argues that Leo's victory delivered Christendom from the Moslem danger [PDF p. 213]. Beyond military defense, Leo initiated the Iconoclastic movement to combat image-worship and perceived superstitions [PDF p. 215]. This policy caused significant social unrest and opposition from the monks and the Papacy [PDF p. 219].\n\nThe Isaurian dynasty concluded with a violent family tragedy involving Empress Irene and her son, Constantine VI [PDF p. 224]. Following this, the Macedonian dynasty began with Basil the Macedonian, who established a long-lasting line [PDF p. 240]. The text notes that the empire experienced a literary revival under later rulers like Leo VI and Constantine VII [PDF p. 241]. These \"literary emperors\" produced significant works on warfare, administration, and court ceremonies [PDF p. 243, 246]. By the ninth century, art also improved as the classical tradition revived in manuscript illumination [PDF p. 249].\n\nThe source provides detailed accounts of political successions and religious struggles but lacks specific details regarding Leo's administrative reforms [PDF p. 220]. The author notes that monkish chroniclers often obscured Leo's good deeds to emphasize his religious persecutions [PDF p. 220]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 20583,
+      "total_output_tokens": 703,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 38.533758646492394,
+      "time_to_first_token_seconds": 24.536429000000002
+    }
+  },
+  "output": "The provided text details a period of intense political instability and religious conflict within the East-Roman Empire. Following unsuccessful wars against the Saracens, Justinian II began executing or imprisoning his officers [PDF p. 201]. In 695, an officer named Leontius seized power after receiving counsel from a monk named Paul [PDF p. 201]. Leontius deposed Justinian II, mutilated his nose, and banished him to Cherson [PDF p. 201]. This usurpation initiated twenty years of anarchy characterized by constant revolts and foreign defeats [PDF p. 202]. During this time, Saracen armies ravaged the Asiatic frontier and captured Carthage in 697 [PDF p. 202].\n\nThe instability continued when the admiral Tiberius Apsimarus seized Constantinople and proclaimed himself Tiberius III [PDF p. 203]. Although Tiberius III achieved some military successes against the Saracens, he remained a precarious ruler [PDF p. 203]. Meanwhile, the exiled Justinian II escaped from Cherson by killing two Khazar officers sent to seize him [PDF p. 204]. He eventually secured Bulgarian support and returned to Constantinople in 705 to reclaim his throne [PDF p. 205]. His restoration triggered a reign of terror where he executed former usurpers and many prominent citizens [PDF p. 205]. This era ended in 711 when Philippicus seized power and beheaded Justinian II [PDF p. 206].\n\nThe subsequent years were marked by further chaos under ephemeral rulers like Anastasius and Theodosius III [PDF p. 207]. Amidst this decay, Leo the Isaurian rose to power in 717 after defeating Theodosius III [PDF p. 208]. Leo faced a massive Saracen invasion led by Moslemah and Suleiman, but he successfully defended Constantinople [PDF p. 211]. The author argues that Leo's victory delivered Christendom from the Moslem danger [PDF p. 213]. Beyond military defense, Leo initiated the Iconoclastic movement to combat image-worship and perceived superstitions [PDF p. 215]. This policy caused significant social unrest and opposition from the monks and the Papacy [PDF p. 219].\n\nThe Isaurian dynasty concluded with a violent family tragedy involving Empress Irene and her son, Constantine VI [PDF p. 224]. Following this, the Macedonian dynasty began with Basil the Macedonian, who established a long-lasting line [PDF p. 240]. The text notes that the empire experienced a literary revival under later rulers like Leo VI and Constantine VII [PDF p. 241]. These \"literary emperors\" produced significant works on warfare, administration, and court ceremonies [PDF p. 243, 246]. By the ninth century, art also improved as the classical tradition revived in manuscript illumination [PDF p. 249].\n\nThe source provides detailed accounts of political successions and religious struggles but lacks specific details regarding Leo's administrative reforms [PDF p. 220]. The author notes that monkish chroniclers often obscured Leo's good deeds to emphasize his religious persecutions [PDF p. 220].",
+  "stats": {
+    "input_tokens": 20583,
+    "total_output_tokens": 703,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 38.533758646492394,
+    "time_to_first_token_seconds": 24.536429000000002
+  },
+  "wall_seconds": 46.30880080800034,
+  "output_tokens_per_wall_second": 15.180699731670641,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 9891827712,
+    "system_available_bytes": 24005529600,
+    "swap_used_bytes": 3833151488,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 6407615488,
+    "card1_vram_used_bytes": 20680314880,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 5986856960,
+    "cpu_percent": 3.6
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

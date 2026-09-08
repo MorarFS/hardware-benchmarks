@@ -1,0 +1,38 @@
+{
+  "command": [
+    "<LM_STUDIO_HOME>/bin/lms",
+    "load",
+    "qwen3.6-35b-a3b-mtp",
+    "--identifier",
+    "evo-qwen36",
+    "--gpu",
+    "max",
+    "--context-length",
+    "65536",
+    "--parallel",
+    "1",
+    "--ttl",
+    "7200",
+    "-y",
+    "--speculative-draft-mtp",
+    "--speculative-draft-max-tokens",
+    "3"
+  ],
+  "returncode": 0,
+  "output": "\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 0% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 0% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 2% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 2% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 2% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 4% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 4% ⠼\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 6% ⠼\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 6% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 6% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 7% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 7% ⠧\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 9% ⠧\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 9% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 9% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 11% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 11% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 12% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 12% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 12% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 14% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 14% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 15% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 15% ⠼\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 15% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 17% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 17% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 18% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 18% ⠧\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 18% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 19% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 19% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 21% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 21% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 22% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 22% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 22% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 23% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 23% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 24% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 24% ⠼\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 24% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 26% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 26% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 27% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 27% ⠧\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 27% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 28% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 28% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 29% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 29% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 29% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 30% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 30% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 31% ⠹\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 31% ⠸\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 31% ⠼\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 32% ⠼\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 32% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 33% ⠴\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 33% ⠦\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 33% ⠧\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 34% ⠧\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 34% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 34% ⠇\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 34% ⠏\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 34% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 35% ⠋\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 35% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 36% ⠙\u001b[?25l\nLoading qwen3.6-35b-a3b-mtp 100% ⠙\n\u001b[K\u001b[?25hModel loaded successfully in 3.38s.\n(21.11 GiB)\nTo use the model in the API/SDK, use the identifier \"evo-qwen36\".\n",
+  "wall_seconds": 3.581744556000558,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 25375985664,
+    "swap_used_bytes": 3364593664,
+    "runtime_largest_process_rss_bytes": 22856200192,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 5357449216,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 27670491136,
+    "cpu_percent": 4.1,
+    "runtime_total_pss_bytes": 23280775168,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 137281536
+  }
+}

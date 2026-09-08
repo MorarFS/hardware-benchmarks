@@ -1,0 +1,11 @@
+claim_id,claim,cited_pdf_pages,checked_pdf_pages,verdict,severity,reviewer_note
+QT-01,The preface rejects Gibbon’s assessment.,3,"3,13",citation_error,major,The supporting preface is PDF 13. PDF 3 contains library stamps.
+QT-02,Oman acknowledges debts to Finlay and Bury.,4,"4,13,14",citation_error,major,PDF 4 is fragmented front matter. The acknowledgment appears across PDF 13–14.
+QT-03,Severus destroyed the city in nineteen hundred and ninety-six.,35,35,wrong_date,critical,"The source expressly gives AD 196, not 1996."
+QT-04,The settlement survived Philip by adopting a celestial emblem.,34,"33,34",causal_reversal,major,The emblem commemorated the reported repulse and heavenly light. Adopting it did not cause survival.
+QT-05,The palace required clearance of 150 acres.,46,"45,46",citation_error,moderate,The acreage is given on PDF 45; PDF 46 is a map without that supporting statement.
+QT-06,The baths housed the famous bronze tripod of Xerxes.,47,"47,50",unsupported_artifact_claim,major,"PDF 47 lists Greek statues, including a dedication after Xerxes’s defeat. It does not identify a bronze tripod of Xerxes in the baths."
+QT-07,The imperial box displayed monarchical authority.,49,"48,49,50",citation_error,moderate,The supporting narrative about the Kathisma is on PDF 50. PDF 49 is an illustration.
+QT-08,Oman attributes luxury stories to envious rivals.,33,33,qualification_loss,moderate,The source introduces this explanation with Probably. The summary removes that qualification.
+QT-09,Byzantine leaders resisted Athenian hegemony through heavy war indemnities.,32,32,causal_distortion,major,"The indemnities were imposed after conquest. They were the limited punishment, not a means of resistance."
+QT-10,The supplied excerpt ends during the bronze serpent description.,50,50,supported_excerpt_limit,none,This is a legitimate description of the first 50-page excerpt. Do not treat it as a false full-book absence claim.

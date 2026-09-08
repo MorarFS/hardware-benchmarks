@@ -1,0 +1,122 @@
+{
+  "fingerprint": "3dddad135dc57de657c21ff731c57a3b9e5647049226f5ae9a713b10eab15a7c",
+  "model": "evo-qwen36",
+  "name": "book-chunk05-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:18:27.968477+00:00",
+  "preflight_input_tokens": 20773,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 5,
+    "part": 1,
+    "pdf_pages": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 48.2232473009999
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:19:16.193054+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "The text describes the usurpation of Justinian II by Leontius in 695 [PDF p. 201]. Justinian had become tyrannical after military failures against the Saracens [PDF p. 201]. A monk named Paul advised Leontius to rebel, leading to the capture and mutilation of Justinian [PDF p. 201]. Leontius ruled for three years amidst constant revolts and external defeats [PDF p. 202]. The Saracens captured Carthage in 697 after a long siege [PDF p. 202]. Tiberius Apsimarus then deposed Leontius with fleet support [PDF p. 203]. He slit Leontius’s nose and exiled him to Cherson [PDF p. 203]. Tiberius III achieved some military successes but lacked popular loyalty [PDF p. 203]. Justinian escaped from exile by killing two Khazar chiefs [PDF p. 204]. He fled through a storm to Bulgaria, where King Terbel supported his restoration [PDF p. 204-205]. Justinian returned in 705 and executed Leontius and Tiberius III with extreme cruelty [PDF p. 205-206]. His reign became a terror marked by widespread executions and mutilations [PDF p. 206]. He even sacked his former place of exile, Cherson [PDF p. 206]. In 711, General Philippicus seized the throne while Justinian was absent [PDF p. 206]. The Heraclian dynasty ended with the murder of Justinian’s son [PDF p. 206].\n\nThe subsequent six years were anarchical and disorganized [PDF p. 207]. Philippicus was quickly replaced by Anastasius II, who was then overthrown by Theodosius III [PDF p. 207-208]. During this chaos, the Saracens ravaged frontier cities like Tyana and Antioch-in-Pisidia [PDF p. 208]. Caliph Welid prepared a massive invasion to besiege Constantinople [PDF p. 208]. Leo the Isaurian, general of the Anatolic theme, deposed Theodosius in 717 [PDF p. 209]. He faced a Saracen army and fleet led by Moslemah and Suleiman [PDF p. 210-211]. Leo used Greek fire to disrupt the naval blockade effectively [PDF p. 211]. A severe winter decimated the besiegers, causing many deaths from cold and disease [PDF p. 212]. Bulgarian attacks on the Saracen rear forced Moslemah to retreat in 718 [PDF p. 213]. This victory saved the empire from destruction and established Leo’s authority [PDF p. 214].\n\nLeo then initiated the Iconoclastic movement against image worship [PDF p. 215-216]. He argued that such practices were superstitious and influenced by Islam [PDF p. 217-218]. His policies faced violent resistance from monks and the populace [PDF p. 219]. Despite riots, Leo maintained army support to enforce his reforms [PDF p. 220]. He also reorganized laws and finances, stabilizing the empire [PDF p. 220]. His son Constantine V continued the persecution more brutally [PDF p. 222]. He dissolved monasteries and exiled many monks [PDF p. 223]. Leo IV ruled mildly but died young in 780 [PDF p. 223]. Empress Irene regented for her son Constantine VI [PDF p. 224]. She stopped the persecution to gain popular support [PDF p. 225]. In 797, she blinded and deposed her own son [PDF p. 225]. Nicephorus I overthrew Irene in 802 [PDF p. 226]. He was an Iconoclast but did not persecute opponents harshly [PDF p. 229]. He died fighting the Bulgarians in 811, and his head was made into a cup [PDF p. 229-230]. Michael I succeeded him but lost to the Bulgarians again [PDF p. 231]. Leo V the Armenian took power and attempted a moderate religious policy [PDF p. 231]. He was assassinated in 820 by Michael the Amorian [PDF p. 232-233].\n\nMichael II allowed Crete to fall to Saracens despite failed expeditions to retake it [PDF p. 234]. His son Theophilus resumed harsh Iconoclasm and suffered military defeats [PDF p. 235-236]. He died in 842, leaving a three-year-old son, Michael III [PDF p. 237]. Empress Theodora restored image"
+      }
+    ],
+    "stats": {
+      "input_tokens": 20775,
+      "total_output_tokens": 1100,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 59.192880566864204,
+      "time_to_first_token_seconds": 26.320193
+    }
+  },
+  "output": "The text describes the usurpation of Justinian II by Leontius in 695 [PDF p. 201]. Justinian had become tyrannical after military failures against the Saracens [PDF p. 201]. A monk named Paul advised Leontius to rebel, leading to the capture and mutilation of Justinian [PDF p. 201]. Leontius ruled for three years amidst constant revolts and external defeats [PDF p. 202]. The Saracens captured Carthage in 697 after a long siege [PDF p. 202]. Tiberius Apsimarus then deposed Leontius with fleet support [PDF p. 203]. He slit Leontius’s nose and exiled him to Cherson [PDF p. 203]. Tiberius III achieved some military successes but lacked popular loyalty [PDF p. 203]. Justinian escaped from exile by killing two Khazar chiefs [PDF p. 204]. He fled through a storm to Bulgaria, where King Terbel supported his restoration [PDF p. 204-205]. Justinian returned in 705 and executed Leontius and Tiberius III with extreme cruelty [PDF p. 205-206]. His reign became a terror marked by widespread executions and mutilations [PDF p. 206]. He even sacked his former place of exile, Cherson [PDF p. 206]. In 711, General Philippicus seized the throne while Justinian was absent [PDF p. 206]. The Heraclian dynasty ended with the murder of Justinian’s son [PDF p. 206].\n\nThe subsequent six years were anarchical and disorganized [PDF p. 207]. Philippicus was quickly replaced by Anastasius II, who was then overthrown by Theodosius III [PDF p. 207-208]. During this chaos, the Saracens ravaged frontier cities like Tyana and Antioch-in-Pisidia [PDF p. 208]. Caliph Welid prepared a massive invasion to besiege Constantinople [PDF p. 208]. Leo the Isaurian, general of the Anatolic theme, deposed Theodosius in 717 [PDF p. 209]. He faced a Saracen army and fleet led by Moslemah and Suleiman [PDF p. 210-211]. Leo used Greek fire to disrupt the naval blockade effectively [PDF p. 211]. A severe winter decimated the besiegers, causing many deaths from cold and disease [PDF p. 212]. Bulgarian attacks on the Saracen rear forced Moslemah to retreat in 718 [PDF p. 213]. This victory saved the empire from destruction and established Leo’s authority [PDF p. 214].\n\nLeo then initiated the Iconoclastic movement against image worship [PDF p. 215-216]. He argued that such practices were superstitious and influenced by Islam [PDF p. 217-218]. His policies faced violent resistance from monks and the populace [PDF p. 219]. Despite riots, Leo maintained army support to enforce his reforms [PDF p. 220]. He also reorganized laws and finances, stabilizing the empire [PDF p. 220]. His son Constantine V continued the persecution more brutally [PDF p. 222]. He dissolved monasteries and exiled many monks [PDF p. 223]. Leo IV ruled mildly but died young in 780 [PDF p. 223]. Empress Irene regented for her son Constantine VI [PDF p. 224]. She stopped the persecution to gain popular support [PDF p. 225]. In 797, she blinded and deposed her own son [PDF p. 225]. Nicephorus I overthrew Irene in 802 [PDF p. 226]. He was an Iconoclast but did not persecute opponents harshly [PDF p. 229]. He died fighting the Bulgarians in 811, and his head was made into a cup [PDF p. 229-230]. Michael I succeeded him but lost to the Bulgarians again [PDF p. 231]. Leo V the Armenian took power and attempted a moderate religious policy [PDF p. 231]. He was assassinated in 820 by Michael the Amorian [PDF p. 232-233].\n\nMichael II allowed Crete to fall to Saracens despite failed expeditions to retake it [PDF p. 234]. His son Theophilus resumed harsh Iconoclasm and suffered military defeats [PDF p. 235-236]. He died in 842, leaving a three-year-old son, Michael III [PDF p. 237]. Empress Theodora restored image",
+  "stats": {
+    "input_tokens": 20775,
+    "total_output_tokens": 1100,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.192880566864204,
+    "time_to_first_token_seconds": 26.320193
+  },
+  "wall_seconds": 48.2232473009999,
+  "output_tokens_per_wall_second": 22.810575014453487,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26036523008,
+    "swap_used_bytes": 3975970816,
+    "runtime_largest_process_rss_bytes": 4829306880,
+    "system_total_bytes": 32721723392,
+    "system_used_excluding_available_bytes": 8914890752,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_available_bytes": 24240771072,
+    "cpu_percent": 5.5,
+    "runtime_total_pss_bytes": 5181754368,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_used_bytes": 352731136
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": 2,
+  "superseded_by": "book-chunk05-part01-completion-retry"
+}

@@ -1,0 +1,69 @@
+{
+  "fingerprint": "c4409316b85f5b760a7af3a1d28e86087139e0096fb9a707e5832f410a1e88f6",
+  "model": "evo-gemma26",
+  "name": "control-history-1",
+  "kind": "history_excerpt_control",
+  "started_at": "2026-09-08T04:23:21.024565+00:00",
+  "preflight_input_tokens": 4901,
+  "context": 65536,
+  "output_limit": 1000,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured",
+    "source": "Douglass partial excerpt; not the selected full book"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 25.180152843000542
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:23:46.205393+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "This excerpt contains a Preface by William Lloyd Garrison and a letter from Wendell Phillips regarding the publication of *Narrative of the Life of Frederick Douglass, an American Slave*.\n\n**Garrison’s Preface (Boston, May 1, 1845)**\nGarrison recounts his first meeting with Frederick Douglass at an anti-slavery convention in Nantucket in August 1841. At the time, Douglass was a resident of New Bedford and a stranger to the abolitionist body. Garrison describes Douglass as a man of commanding stature and intellect who, despite being a \"fugitive slave\" trembling for his safety, delivered a speech so eloquent that Garrison compared him to Patrick Henry. Following the speech, Garrison appealed to the audience to protect Douglass from being returned to slavery; the assembly responded with a unanimous, thunderous \"YES!\"\n\nGarrison notes that while Douglass initially expressed \"unfeigned diffidence\" and feared he would do more harm than good by entering public life, he eventually became a highly successful lecturing agent for the American and Massachusetts Anti-Slavery Societies. Garrison praises Douglass’s oratorical skills—specifically his use of pathos, wit, and reasoning—and asserts that his Narrative is an entirely authentic production. He maintains that the book does not exaggerate but rather \"comes short of the reality\" of slavery.\n\nTo counter potential skeptics who might claim Douglass's experiences were unrepresentative, Garrison argues that Douglass’s life in Maryland was a \"fair specimen\" of slave treatment, noting that while Maryland might be less cruel than Georgia or Alabama, the system remains inherently dehumanizing. Garrison cites an anecdote from Daniel O’Connell regarding a white sailor who, after three years of slavery in Africa, lost his reasoning powers and language, to illustrate that slavery inevitably \"brutalizes every noble faculty of man.\"\n\nGarrison further defends the veracity of Douglass's claims by noting that Douglass provided specific names of owners and locations, making the account easy to disprove if false. He highlights the legal impossibility of justice for slaves, noting that the slave code prevents colored witnesses from testifying against white men. He concludes with a call to action: \"NO COMPROMISE WITH SLAVERY! NO UNION WITH SLAVEHOLDERS!\"\n\n**Phillips’s Letter (Boston, April 22, 1845)**\nIn a letter addressed to Douglass, Wendell Phillips welcomes the fact that \"the lions write history,\" meaning that the oppressed are now telling their own stories rather than relying on the accounts of masters. Phillips observes that many people are slow to join the abolitionist cause, often waiting for economic \"results\" (such as those from the West India experiment) rather than judging slavery by its moral impact.\n\nPhillips commends Douglass’s early ability to perceive the spiritual and psychological \"wretchedness\" of slavery beyond mere physical hunger or toil. He notes that because Douglass comes from a region where slavery often appears to have \"fairest features,\" his perspective is uniquely valuable for illustrating the systemic evil of the institution. Phillips expresses total confidence in Douglass's \"truth, candor, and sincerity,\" asserting that the Narrative provides a fair, non-exaggerated portrait of both the individual kindnesses that occasionally exist within the system and the \"deadly\" nature of the system itself. He concludes by noting Douglass's ability to compare the limited rights of colored people in the North with the \"noon of night\" experienced in the South."
+      }
+    ],
+    "stats": {
+      "input_tokens": 4899,
+      "total_output_tokens": 702,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 41.04372134111911,
+      "time_to_first_token_seconds": 6.418368999999999
+    }
+  },
+  "output": "This excerpt contains a Preface by William Lloyd Garrison and a letter from Wendell Phillips regarding the publication of *Narrative of the Life of Frederick Douglass, an American Slave*.\n\n**Garrison’s Preface (Boston, May 1, 1845)**\nGarrison recounts his first meeting with Frederick Douglass at an anti-slavery convention in Nantucket in August 1841. At the time, Douglass was a resident of New Bedford and a stranger to the abolitionist body. Garrison describes Douglass as a man of commanding stature and intellect who, despite being a \"fugitive slave\" trembling for his safety, delivered a speech so eloquent that Garrison compared him to Patrick Henry. Following the speech, Garrison appealed to the audience to protect Douglass from being returned to slavery; the assembly responded with a unanimous, thunderous \"YES!\"\n\nGarrison notes that while Douglass initially expressed \"unfeigned diffidence\" and feared he would do more harm than good by entering public life, he eventually became a highly successful lecturing agent for the American and Massachusetts Anti-Slavery Societies. Garrison praises Douglass’s oratorical skills—specifically his use of pathos, wit, and reasoning—and asserts that his Narrative is an entirely authentic production. He maintains that the book does not exaggerate but rather \"comes short of the reality\" of slavery.\n\nTo counter potential skeptics who might claim Douglass's experiences were unrepresentative, Garrison argues that Douglass’s life in Maryland was a \"fair specimen\" of slave treatment, noting that while Maryland might be less cruel than Georgia or Alabama, the system remains inherently dehumanizing. Garrison cites an anecdote from Daniel O’Connell regarding a white sailor who, after three years of slavery in Africa, lost his reasoning powers and language, to illustrate that slavery inevitably \"brutalizes every noble faculty of man.\"\n\nGarrison further defends the veracity of Douglass's claims by noting that Douglass provided specific names of owners and locations, making the account easy to disprove if false. He highlights the legal impossibility of justice for slaves, noting that the slave code prevents colored witnesses from testifying against white men. He concludes with a call to action: \"NO COMPROMISE WITH SLAVERY! NO UNION WITH SLAVEHOLDERS!\"\n\n**Phillips’s Letter (Boston, April 22, 1845)**\nIn a letter addressed to Douglass, Wendell Phillips welcomes the fact that \"the lions write history,\" meaning that the oppressed are now telling their own stories rather than relying on the accounts of masters. Phillips observes that many people are slow to join the abolitionist cause, often waiting for economic \"results\" (such as those from the West India experiment) rather than judging slavery by its moral impact.\n\nPhillips commends Douglass’s early ability to perceive the spiritual and psychological \"wretchedness\" of slavery beyond mere physical hunger or toil. He notes that because Douglass comes from a region where slavery often appears to have \"fairest features,\" his perspective is uniquely valuable for illustrating the systemic evil of the institution. Phillips expresses total confidence in Douglass's \"truth, candor, and sincerity,\" asserting that the Narrative provides a fair, non-exaggerated portrait of both the individual kindnesses that occasionally exist within the system and the \"deadly\" nature of the system itself. He concludes by noting Douglass's ability to compare the limited rights of colored people in the North with the \"noon of night\" experienced in the South.",
+  "stats": {
+    "input_tokens": 4899,
+    "total_output_tokens": 702,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 41.04372134111911,
+    "time_to_first_token_seconds": 6.418368999999999
+  },
+  "wall_seconds": 25.180152843000542,
+  "output_tokens_per_wall_second": 27.879100034737817,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 4.2,
+    "system_available_bytes": 27295948800,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20682223616,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 2451320832,
+    "swap_used_bytes": 3846914048,
+    "runtime_total_pss_bytes": 2777082880,
+    "card1_vram_total_bytes": 103079215104,
+    "system_used_excluding_available_bytes": 6206124032,
+    "card1_gtt_total_bytes": 16360861696
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -2
+}

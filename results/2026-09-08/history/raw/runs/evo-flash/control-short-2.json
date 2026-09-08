@@ -1,0 +1,68 @@
+{
+  "fingerprint": "0e7d0567caeceb83d1d6c8cba630496dd254e5b6fdf9e69a8a55fc54130a4e3d",
+  "model": "evo-flash",
+  "name": "control-short-2",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:35:27.994437+00:00",
+  "preflight_input_tokens": 91,
+  "context": 8192,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 12.174758978999307
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:35:40.169945+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "Historians operate within a complex ecosystem of evidence where the distinction between what was said, who said it, and what is deduced from it is paramount to constructing an accurate narrative. To understand this triad—author’s account, quoted testimony, and inference—we must view them not as separate silos, but as interconnected layers of historical reconstruction. The author’s account represents the historian’s synthesized narrative; quoted testimony serves as the primary source material or raw data; and inference is the logical bridge connecting the two.\n\nConsider a hypothetical scenario involving the 1920s labor strikes in a fictional industrial town called Oakhaven. A modern historian, Dr. Aris, writes a book titled *The Silence of Oakhaven*. In Chapter 4, Dr. Aris states: \"By October 1923, the local police force had become increasingly militarized, creating an atmosphere of intimidation that suppressed worker dissent.\" This sentence is the **author’s account**. It is a synthesized claim derived from multiple sources, reflecting Dr. Aris’s interpretation and narrative structure. It is not necessarily a direct quote from anyone living in 1923, but rather the historian’s voice shaping the story for the reader.\n\nTo support this claim, Dr. Aris"
+      }
+    ],
+    "stats": {
+      "input_tokens": 51,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 24.607536333027394,
+      "time_to_first_token_seconds": 1.1358810000000001
+    }
+  },
+  "output": "Historians operate within a complex ecosystem of evidence where the distinction between what was said, who said it, and what is deduced from it is paramount to constructing an accurate narrative. To understand this triad—author’s account, quoted testimony, and inference—we must view them not as separate silos, but as interconnected layers of historical reconstruction. The author’s account represents the historian’s synthesized narrative; quoted testimony serves as the primary source material or raw data; and inference is the logical bridge connecting the two.\n\nConsider a hypothetical scenario involving the 1920s labor strikes in a fictional industrial town called Oakhaven. A modern historian, Dr. Aris, writes a book titled *The Silence of Oakhaven*. In Chapter 4, Dr. Aris states: \"By October 1923, the local police force had become increasingly militarized, creating an atmosphere of intimidation that suppressed worker dissent.\" This sentence is the **author’s account**. It is a synthesized claim derived from multiple sources, reflecting Dr. Aris’s interpretation and narrative structure. It is not necessarily a direct quote from anyone living in 1923, but rather the historian’s voice shaping the story for the reader.\n\nTo support this claim, Dr. Aris",
+  "stats": {
+    "input_tokens": 51,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 24.607536333027394,
+    "time_to_first_token_seconds": 1.1358810000000001
+  },
+  "wall_seconds": 12.174758978999307,
+  "output_tokens_per_wall_second": 21.027110305968595,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 5032787968,
+    "card1_vram_used_bytes": 67893547008,
+    "cpu_percent": 2.9,
+    "swap_used_bytes": 4210720768,
+    "runtime_largest_process_rss_bytes": 1068568576,
+    "card1_vram_total_bytes": 103079215104,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "system_available_bytes": 28053393408,
+    "runtime_total_pss_bytes": 1157686272,
+    "card1_gtt_used_bytes": 186028032
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": -40
+}

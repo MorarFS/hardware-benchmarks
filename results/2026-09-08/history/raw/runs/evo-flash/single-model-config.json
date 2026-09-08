@@ -1,0 +1,14 @@
+{
+  "pass_threshold_generation_tps": 35,
+  "source_directory": "source",
+  "models": [
+    {
+      "identifier": "evo-flash",
+      "label": "Qwen3.8 Flash Next UD-IQ4_XS",
+      "resource": "qwen3.8-flash-next@iq4_xs",
+      "context": 8192,
+      "mtp": false,
+      "gpu": "max"
+    }
+  ]
+}

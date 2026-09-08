@@ -1,0 +1,14 @@
+{
+  "pass_threshold_generation_tps": 35,
+  "source_directory": "source",
+  "models": [
+    {
+      "identifier": "evo-gemma26",
+      "label": "Gemma4 26B A4B IT UD-Q4_K_M",
+      "resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+      "context": 65536,
+      "mtp": false,
+      "gpu": "max"
+    }
+  ]
+}

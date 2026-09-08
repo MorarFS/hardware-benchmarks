@@ -1,0 +1,1667 @@
+{"elapsed_seconds": 0.003964976000133902, "event": {"type": "chat.start", "model_instance_id": "evo-gptoss120-thinking"}}
+{"elapsed_seconds": 3.838984433998121, "event": {"type": "prompt_processing.start"}}
+{"elapsed_seconds": 3.8390798789987457, "event": {"type": "prompt_processing.progress", "progress": 0}}
+{"elapsed_seconds": 3.845654460001242, "event": {"type": "prompt_processing.progress", "progress": 5.163422316311251e-05}}
+{"elapsed_seconds": 6.598419272999308, "event": {"type": "prompt_processing.progress", "progress": 0.10579852326121754}}
+{"elapsed_seconds": 10.220984848001535, "event": {"type": "prompt_processing.progress", "progress": 0.21154541229927196}}
+{"elapsed_seconds": 14.142652252001426, "event": {"type": "prompt_processing.progress", "progress": 0.3172923013373264}}
+{"elapsed_seconds": 18.281698595001217, "event": {"type": "prompt_processing.progress", "progress": 0.4230391903753808}}
+{"elapsed_seconds": 22.606979791999038, "event": {"type": "prompt_processing.progress", "progress": 0.5287860794134353}}
+{"elapsed_seconds": 27.131986289998167, "event": {"type": "prompt_processing.progress", "progress": 0.6345329684514897}}
+{"elapsed_seconds": 31.862799738999456, "event": {"type": "prompt_processing.progress", "progress": 0.7402798574895441}}
+{"elapsed_seconds": 36.789790235998225, "event": {"type": "prompt_processing.progress", "progress": 0.8460267465275985}}
+{"elapsed_seconds": 41.99962039000093, "event": {"type": "prompt_processing.progress", "progress": 0.9517736355656529}}
+{"elapsed_seconds": 43.340587258000596, "event": {"type": "prompt_processing.progress", "progress": 0.973356740847834}}
+{"elapsed_seconds": 44.562938913000835, "event": {"type": "prompt_processing.progress", "progress": 0.9997934631073475}}
+{"elapsed_seconds": 46.0681924979981, "event": {"type": "prompt_processing.progress", "progress": 1}}
+{"elapsed_seconds": 46.06827802200132, "event": {"type": "prompt_processing.end"}}
+{"elapsed_seconds": 46.14295085699996, "event": {"type": "reasoning.start"}}
+{"elapsed_seconds": 46.14305297199826, "event": {"type": "reasoning.delta", "content": "We"}}
+{"elapsed_seconds": 46.16705828799968, "event": {"type": "reasoning.delta", "content": " need"}}
+{"elapsed_seconds": 46.19116603799921, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 46.21498550400065, "event": {"type": "reasoning.delta", "content": " produce"}}
+{"elapsed_seconds": 46.23938122999971, "event": {"type": "reasoning.delta", "content": " a"}}
+{"elapsed_seconds": 46.262457936998544, "event": {"type": "reasoning.delta", "content": " summary"}}
+{"elapsed_seconds": 46.287282314999175, "event": {"type": "reasoning.delta", "content": " ~"}}
+{"elapsed_seconds": 46.31103368799813, "event": {"type": "reasoning.delta", "content": "400"}}
+{"elapsed_seconds": 46.33459741000115, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 46.35870400099884, "event": {"type": "reasoning.delta", "content": "500"}}
+{"elapsed_seconds": 46.382741577999695, "event": {"type": "reasoning.delta", "content": " words"}}
+{"elapsed_seconds": 46.406991387000744, "event": {"type": "reasoning.delta", "content": " covering"}}
+{"elapsed_seconds": 46.43099789199914, "event": {"type": "reasoning.delta", "content": " the"}}
+{"elapsed_seconds": 46.45490479300133, "event": {"type": "reasoning.delta", "content": " section"}}
+{"elapsed_seconds": 46.47862632399847, "event": {"type": "reasoning.delta", "content": " that"}}
+{"elapsed_seconds": 46.5026375890011, "event": {"type": "reasoning.delta", "content": " spans"}}
+{"elapsed_seconds": 46.52724323599978, "event": {"type": "reasoning.delta", "content": " pages"}}
+{"elapsed_seconds": 46.5507386950012, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 46.57502724599908, "event": {"type": "reasoning.delta", "content": "251"}}
+{"elapsed_seconds": 46.59903273099917, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 46.62237089200062, "event": {"type": "reasoning.delta", "content": "300"}}
+{"elapsed_seconds": 46.64689984500001, "event": {"type": "reasoning.delta", "content": " ("}}
+{"elapsed_seconds": 46.67014513100003, "event": {"type": "reasoning.delta", "content": "lots"}}
+{"elapsed_seconds": 46.69413842599897, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 46.71749764799824, "event": {"type": "reasoning.delta", "content": " content"}}
+{"elapsed_seconds": 46.74048191100155, "event": {"type": "reasoning.delta", "content": ")."}}
+{"elapsed_seconds": 46.76278007699875, "event": {"type": "reasoning.delta", "content": " Must"}}
+{"elapsed_seconds": 46.785865034999006, "event": {"type": "reasoning.delta", "content": " cite"}}
+{"elapsed_seconds": 46.808404924999195, "event": {"type": "reasoning.delta", "content": " each"}}
+{"elapsed_seconds": 46.830570375001116, "event": {"type": "reasoning.delta", "content": " factual"}}
+{"elapsed_seconds": 46.853015209999285, "event": {"type": "reasoning.delta", "content": " sentence"}}
+{"elapsed_seconds": 46.87508401499872, "event": {"type": "reasoning.delta", "content": " with"}}
+{"elapsed_seconds": 46.8985417920012, "event": {"type": "reasoning.delta", "content": " exact"}}
+{"elapsed_seconds": 46.92087030000039, "event": {"type": "reasoning.delta", "content": " PDF"}}
+{"elapsed_seconds": 46.9430608319999, "event": {"type": "reasoning.delta", "content": " page"}}
+{"elapsed_seconds": 46.96645256600095, "event": {"type": "reasoning.delta", "content": " numbers"}}
+{"elapsed_seconds": 46.98933573300019, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 47.0133252279993, "event": {"type": "reasoning.delta", "content": " Must"}}
+{"elapsed_seconds": 47.03695017299833, "event": {"type": "reasoning.delta", "content": " write"}}
+{"elapsed_seconds": 47.060995191000984, "event": {"type": "reasoning.delta", "content": " clear"}}
+{"elapsed_seconds": 47.08502478800074, "event": {"type": "reasoning.delta", "content": " natural"}}
+{"elapsed_seconds": 47.109072965999076, "event": {"type": "reasoning.delta", "content": " scholarly"}}
+{"elapsed_seconds": 47.133230718998675, "event": {"type": "reasoning.delta", "content": " prose"}}
+{"elapsed_seconds": 47.15708028700101, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 47.18117177699969, "event": {"type": "reasoning.delta", "content": " sentences"}}
+{"elapsed_seconds": 47.204962200998125, "event": {"type": "reasoning.delta", "content": " near"}}
+{"elapsed_seconds": 47.228971716998785, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 47.25316374199974, "event": {"type": "reasoning.delta", "content": "14"}}
+{"elapsed_seconds": 47.27716392699949, "event": {"type": "reasoning.delta", "content": " words"}}
+{"elapsed_seconds": 47.30083994600136, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 47.32364661899919, "event": {"type": "reasoning.delta", "content": " No"}}
+{"elapsed_seconds": 47.347972391999065, "event": {"type": "reasoning.delta", "content": " em"}}
+{"elapsed_seconds": 47.3716233189989, "event": {"type": "reasoning.delta", "content": " d"}}
+{"elapsed_seconds": 47.39571110899851, "event": {"type": "reasoning.delta", "content": "ashes"}}
+{"elapsed_seconds": 47.420179207998444, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 47.44400856499851, "event": {"type": "reasoning.delta", "content": " Must"}}
+{"elapsed_seconds": 47.46801999099989, "event": {"type": "reasoning.delta", "content": " distinguish"}}
+{"elapsed_seconds": 47.49221066600148, "event": {"type": "reasoning.delta", "content": " author's"}}
+{"elapsed_seconds": 47.516201870999794, "event": {"type": "reasoning.delta", "content": " arguments"}}
+{"elapsed_seconds": 47.53965686800075, "event": {"type": "reasoning.delta", "content": " vs"}}
+{"elapsed_seconds": 47.56376572799854, "event": {"type": "reasoning.delta", "content": " quoted"}}
+{"elapsed_seconds": 47.58776991400009, "event": {"type": "reasoning.delta", "content": " testimony"}}
+{"elapsed_seconds": 47.61175810900022, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 47.63529087999996, "event": {"type": "reasoning.delta", "content": " Mostly"}}
+{"elapsed_seconds": 47.65965847500047, "event": {"type": "reasoning.delta", "content": " the"}}
+{"elapsed_seconds": 47.68402222900113, "event": {"type": "reasoning.delta", "content": " source"}}
+{"elapsed_seconds": 47.708064795999235, "event": {"type": "reasoning.delta", "content": " is"}}
+{"elapsed_seconds": 47.73213767500056, "event": {"type": "reasoning.delta", "content": " narrative"}}
+{"elapsed_seconds": 47.75603904599848, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 47.78004382099971, "event": {"type": "reasoning.delta", "content": " author"}}
+{"elapsed_seconds": 47.80370831899927, "event": {"type": "reasoning.delta", "content": " appears"}}
+{"elapsed_seconds": 47.82820266999988, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 47.85205192699868, "event": {"type": "reasoning.delta", "content": " be"}}
+{"elapsed_seconds": 47.87577279800098, "event": {"type": "reasoning.delta", "content": " describing"}}
+{"elapsed_seconds": 47.899870999000996, "event": {"type": "reasoning.delta", "content": " events"}}
+{"elapsed_seconds": 47.92424016299992, "event": {"type": "reasoning.delta", "content": " and"}}
+{"elapsed_seconds": 47.94764521699835, "event": {"type": "reasoning.delta", "content": " giving"}}
+{"elapsed_seconds": 47.97014004399898, "event": {"type": "reasoning.delta", "content": " interpretation"}}
+{"elapsed_seconds": 47.99368527600018, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 48.01616434199968, "event": {"type": "reasoning.delta", "content": " Must"}}
+{"elapsed_seconds": 48.039957046999916, "event": {"type": "reasoning.delta", "content": " preserve"}}
+{"elapsed_seconds": 48.062865015999705, "event": {"type": "reasoning.delta", "content": " dates"}}
+{"elapsed_seconds": 48.08577975500157, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 48.10837042699859, "event": {"type": "reasoning.delta", "content": " names"}}
+{"elapsed_seconds": 48.1313012770006, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 48.15488212999844, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 48.177769297999475, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 48.20011242699911, "event": {"type": "reasoning.delta", "content": " Must"}}
+{"elapsed_seconds": 48.22393257300064, "event": {"type": "reasoning.delta", "content": " note"}}
+{"elapsed_seconds": 48.24731335600154, "event": {"type": "reasoning.delta", "content": " limitations"}}
+{"elapsed_seconds": 48.269613742999354, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 48.29287416000079, "event": {"type": "reasoning.delta", "content": "We"}}
+{"elapsed_seconds": 48.31710873799966, "event": {"type": "reasoning.delta", "content": " need"}}
+{"elapsed_seconds": 48.34088524099934, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 48.36254529500002, "event": {"type": "reasoning.delta", "content": " be"}}
+{"elapsed_seconds": 48.38637247199949, "event": {"type": "reasoning.delta", "content": " careful"}}
+{"elapsed_seconds": 48.409480891001294, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 48.4319566669983, "event": {"type": "reasoning.delta", "content": " cite"}}
+{"elapsed_seconds": 48.45493232900117, "event": {"type": "reasoning.delta", "content": " each"}}
+{"elapsed_seconds": 48.47739842499868, "event": {"type": "reasoning.delta", "content": " factual"}}
+{"elapsed_seconds": 48.500559725998755, "event": {"type": "reasoning.delta", "content": " claim"}}
+{"elapsed_seconds": 48.525326732000394, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 48.54941192100159, "event": {"type": "reasoning.delta", "content": " many"}}
+{"elapsed_seconds": 48.57377332499891, "event": {"type": "reasoning.delta", "content": " statements"}}
+{"elapsed_seconds": 48.59837952199814, "event": {"type": "reasoning.delta", "content": " across"}}
+{"elapsed_seconds": 48.62090683099814, "event": {"type": "reasoning.delta", "content": " many"}}
+{"elapsed_seconds": 48.64341163900099, "event": {"type": "reasoning.delta", "content": " pages"}}
+{"elapsed_seconds": 48.66658729100163, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 48.690538343998924, "event": {"type": "reasoning.delta", "content": " We"}}
+{"elapsed_seconds": 48.71324550200006, "event": {"type": "reasoning.delta", "content": " need"}}
+{"elapsed_seconds": 48.7368640479981, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 48.76092354600041, "event": {"type": "reasoning.delta", "content": " include"}}
+{"elapsed_seconds": 48.784210874000564, "event": {"type": "reasoning.delta", "content": " citations"}}
+{"elapsed_seconds": 48.80827442300142, "event": {"type": "reasoning.delta", "content": " for"}}
+{"elapsed_seconds": 48.83238455399987, "event": {"type": "reasoning.delta", "content": " each"}}
+{"elapsed_seconds": 48.85625428200001, "event": {"type": "reasoning.delta", "content": " factual"}}
+{"elapsed_seconds": 48.87990437899862, "event": {"type": "reasoning.delta", "content": " sentence"}}
+{"elapsed_seconds": 48.90377551799975, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 48.92845641800159, "event": {"type": "reasoning.delta", "content": " Could"}}
+{"elapsed_seconds": 48.95218212899999, "event": {"type": "reasoning.delta", "content": " combine"}}
+{"elapsed_seconds": 48.97589537000022, "event": {"type": "reasoning.delta", "content": " multiple"}}
+{"elapsed_seconds": 49.000263654001174, "event": {"type": "reasoning.delta", "content": " sentences"}}
+{"elapsed_seconds": 49.024475260001054, "event": {"type": "reasoning.delta", "content": " from"}}
+{"elapsed_seconds": 49.04820387200016, "event": {"type": "reasoning.delta", "content": " same"}}
+{"elapsed_seconds": 49.07266208099827, "event": {"type": "reasoning.delta", "content": " page"}}
+{"elapsed_seconds": 49.09581434199936, "event": {"type": "reasoning.delta", "content": " with"}}
+{"elapsed_seconds": 49.118891989000986, "event": {"type": "reasoning.delta", "content": " one"}}
+{"elapsed_seconds": 49.14176609599963, "event": {"type": "reasoning.delta", "content": " citation"}}
+{"elapsed_seconds": 49.16469434600003, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 49.18924268900082, "event": {"type": "reasoning.delta", "content": "We"}}
+{"elapsed_seconds": 49.21175787800166, "event": {"type": "reasoning.delta", "content": " must"}}
+{"elapsed_seconds": 49.235807376000594, "event": {"type": "reasoning.delta", "content": " not"}}
+{"elapsed_seconds": 49.25978295900131, "event": {"type": "reasoning.delta", "content": " invent"}}
+{"elapsed_seconds": 49.2837261220011, "event": {"type": "reasoning.delta", "content": " page"}}
+{"elapsed_seconds": 49.30594319499869, "event": {"type": "reasoning.delta", "content": " citations"}}
+{"elapsed_seconds": 49.330341811000835, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 49.35352384300131, "event": {"type": "reasoning.delta", "content": " Use"}}
+{"elapsed_seconds": 49.37581938999938, "event": {"type": "reasoning.delta", "content": " only"}}
+{"elapsed_seconds": 49.39837706099934, "event": {"type": "reasoning.delta", "content": " those"}}
+{"elapsed_seconds": 49.4207063089998, "event": {"type": "reasoning.delta", "content": " given"}}
+{"elapsed_seconds": 49.44316485500167, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 49.46561953000128, "event": {"type": "reasoning.delta", "content": " Provide"}}
+{"elapsed_seconds": 49.488059383998916, "event": {"type": "reasoning.delta", "content": " citations"}}
+{"elapsed_seconds": 49.51066075700146, "event": {"type": "reasoning.delta", "content": " like"}}
+{"elapsed_seconds": 49.53390669299915, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 49.55781721400126, "event": {"type": "reasoning.delta", "content": "PDF"}}
+{"elapsed_seconds": 49.58137637600157, "event": {"type": "reasoning.delta", "content": " p"}}
+{"elapsed_seconds": 49.605165080000006, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 49.629426278999745, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 49.65239573099825, "event": {"type": "reasoning.delta", "content": "251"}}
+{"elapsed_seconds": 49.676352914000745, "event": {"type": "reasoning.delta", "content": "]"}}
+{"elapsed_seconds": 49.700176959999226, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 49.7243445239983, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 49.74824665399865, "event": {"type": "reasoning.delta", "content": "We"}}
+{"elapsed_seconds": 49.7726416000005, "event": {"type": "reasoning.delta", "content": " need"}}
+{"elapsed_seconds": 49.799616870001046, "event": {"type": "reasoning.delta", "content": " approx"}}
+{"elapsed_seconds": 49.823535390998586, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 49.84733313600009, "event": {"type": "reasoning.delta", "content": "400"}}
+{"elapsed_seconds": 49.87087568700008, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 49.89363210800002, "event": {"type": "reasoning.delta", "content": "500"}}
+{"elapsed_seconds": 49.91536003500005, "event": {"type": "reasoning.delta", "content": " words"}}
+{"elapsed_seconds": 49.93881980199876, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 49.96085533600126, "event": {"type": "reasoning.delta", "content": " Let's"}}
+{"elapsed_seconds": 49.98505110100086, "event": {"type": "reasoning.delta", "content": " outline"}}
+{"elapsed_seconds": 50.00843444400016, "event": {"type": "reasoning.delta", "content": ":\n\n"}}
+{"elapsed_seconds": 50.03171560199917, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 50.05641429399839, "event": {"type": "reasoning.delta", "content": " Start"}}
+{"elapsed_seconds": 50.08052445499925, "event": {"type": "reasoning.delta", "content": " with"}}
+{"elapsed_seconds": 50.10447531799946, "event": {"type": "reasoning.delta", "content": " commerce"}}
+{"elapsed_seconds": 50.12809192300119, "event": {"type": "reasoning.delta", "content": " shift"}}
+{"elapsed_seconds": 50.15107875600006, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 50.17345608699907, "event": {"type": "reasoning.delta", "content": " empire"}}
+{"elapsed_seconds": 50.197377757998765, "event": {"type": "reasoning.delta", "content": " lost"}}
+{"elapsed_seconds": 50.22102674499911, "event": {"type": "reasoning.delta", "content": " control"}}
+{"elapsed_seconds": 50.24315267299971, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 50.26580193799964, "event": {"type": "reasoning.delta", "content": " seas"}}
+{"elapsed_seconds": 50.28885481500038, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 50.31202555699929, "event": {"type": "reasoning.delta", "content": " Sar"}}
+{"elapsed_seconds": 50.334694132998266, "event": {"type": "reasoning.delta", "content": "acen"}}
+{"elapsed_seconds": 50.35746336399825, "event": {"type": "reasoning.delta", "content": " pirates"}}
+{"elapsed_seconds": 50.381851639998786, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 50.40647790799994, "event": {"type": "reasoning.delta", "content": " trade"}}
+{"elapsed_seconds": 50.430720495998685, "event": {"type": "reasoning.delta", "content": " went"}}
+{"elapsed_seconds": 50.45430526899872, "event": {"type": "reasoning.delta", "content": " through"}}
+{"elapsed_seconds": 50.477322253998864, "event": {"type": "reasoning.delta", "content": " Bos"}}
+{"elapsed_seconds": 50.50180012399869, "event": {"type": "reasoning.delta", "content": "ph"}}
+{"elapsed_seconds": 50.52648813500127, "event": {"type": "reasoning.delta", "content": "orus"}}
+{"elapsed_seconds": 50.54991250999956, "event": {"type": "reasoning.delta", "content": " warehouses"}}
+{"elapsed_seconds": 50.57234568399872, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 50.59650822799813, "event": {"type": "reasoning.delta", "content": " monopoly"}}
+{"elapsed_seconds": 50.61952582199956, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 50.6423092139994, "event": {"type": "reasoning.delta", "content": " Byzantine"}}
+{"elapsed_seconds": 50.66555294000136, "event": {"type": "reasoning.delta", "content": " ships"}}
+{"elapsed_seconds": 50.68859166499897, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 50.71166683299816, "event": {"type": "reasoning.delta", "content": " mention"}}
+{"elapsed_seconds": 50.73443020400009, "event": {"type": "reasoning.delta", "content": " harsh"}}
+{"elapsed_seconds": 50.757290450001165, "event": {"type": "reasoning.delta", "content": " taxation"}}
+{"elapsed_seconds": 50.780423619999056, "event": {"type": "reasoning.delta", "content": " harmless"}}
+{"elapsed_seconds": 50.803477436998946, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 50.82653545300127, "event": {"type": "reasoning.delta", "content": "251"}}
+{"elapsed_seconds": 50.85015134800051, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 50.87278204299946, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 50.895525133000774, "event": {"type": "reasoning.delta", "content": " Then"}}
+{"elapsed_seconds": 50.9183199959989, "event": {"type": "reasoning.delta", "content": " discussion"}}
+{"elapsed_seconds": 50.94267247899916, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 50.96551333399839, "event": {"type": "reasoning.delta", "content": " military"}}
+{"elapsed_seconds": 50.989547910998226, "event": {"type": "reasoning.delta", "content": " glory"}}
+{"elapsed_seconds": 51.01239648699993, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 51.03695410100045, "event": {"type": "reasoning.delta", "content": " Constantine"}}
+{"elapsed_seconds": 51.06040789799954, "event": {"type": "reasoning.delta", "content": " Por"}}
+{"elapsed_seconds": 51.08492254999874, "event": {"type": "reasoning.delta", "content": "phy"}}
+{"elapsed_seconds": 51.10938074899968, "event": {"type": "reasoning.delta", "content": "rogen"}}
+{"elapsed_seconds": 51.13258625299932, "event": {"type": "reasoning.delta", "content": "itus"}}
+{"elapsed_seconds": 51.15655626700027, "event": {"type": "reasoning.delta", "content": " era"}}
+{"elapsed_seconds": 51.17962362400067, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 51.203122042999894, "event": {"type": "reasoning.delta", "content": " eastern"}}
+{"elapsed_seconds": 51.225339495998924, "event": {"type": "reasoning.delta", "content": " frontier"}}
+{"elapsed_seconds": 51.24926123700061, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 51.271286980001605, "event": {"type": "reasoning.delta", "content": " breakdown"}}
+{"elapsed_seconds": 51.294826032000856, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 51.3184980799997, "event": {"type": "reasoning.delta", "content": " Cal"}}
+{"elapsed_seconds": 51.34252201599884, "event": {"type": "reasoning.delta", "content": "iph"}}
+{"elapsed_seconds": 51.36551335900003, "event": {"type": "reasoning.delta", "content": "ate"}}
+{"elapsed_seconds": 51.3899707290002, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 51.413502919000166, "event": {"type": "reasoning.delta", "content": " Buh"}}
+{"elapsed_seconds": 51.43702198000028, "event": {"type": "reasoning.delta", "content": "aw"}}
+{"elapsed_seconds": 51.45943285300018, "event": {"type": "reasoning.delta", "content": "id"}}
+{"elapsed_seconds": 51.48282894699878, "event": {"type": "reasoning.delta", "content": " princes"}}
+{"elapsed_seconds": 51.50580796899885, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 51.52955696099889, "event": {"type": "reasoning.delta", "content": "951"}}
+{"elapsed_seconds": 51.55349510299857, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 51.57761241499975, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 51.60159997899973, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 51.62470860800022, "event": {"type": "reasoning.delta", "content": "252"}}
+{"elapsed_seconds": 51.64832803399986, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 51.6709469669986, "event": {"type": "reasoning.delta", "content": "254"}}
+{"elapsed_seconds": 51.69471518099817, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 51.71721702799914, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 51.73997181899904, "event": {"type": "reasoning.delta", "content": " Nice"}}
+{"elapsed_seconds": 51.76355588300066, "event": {"type": "reasoning.delta", "content": "ph"}}
+{"elapsed_seconds": 51.78759767000156, "event": {"type": "reasoning.delta", "content": "orus"}}
+{"elapsed_seconds": 51.811764504000166, "event": {"type": "reasoning.delta", "content": " Ph"}}
+{"elapsed_seconds": 51.83555310800148, "event": {"type": "reasoning.delta", "content": "ocas"}}
+{"elapsed_seconds": 51.85966208899845, "event": {"type": "reasoning.delta", "content": " rise"}}
+{"elapsed_seconds": 51.883355209, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 51.90752270300072, "event": {"type": "reasoning.delta", "content": " his"}}
+{"elapsed_seconds": 51.93076535900036, "event": {"type": "reasoning.delta", "content": " military"}}
+{"elapsed_seconds": 51.954252707000705, "event": {"type": "reasoning.delta", "content": " career"}}
+{"elapsed_seconds": 51.97675735500161, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 51.99952402599956, "event": {"type": "reasoning.delta", "content": " Cre"}}
+{"elapsed_seconds": 52.02247010700012, "event": {"type": "reasoning.delta", "content": "te"}}
+{"elapsed_seconds": 52.04649805399822, "event": {"type": "reasoning.delta", "content": " conquest"}}
+{"elapsed_seconds": 52.070432234999316, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 52.0943762479983, "event": {"type": "reasoning.delta", "content": "961"}}
+{"elapsed_seconds": 52.1170878060002, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 52.14019629500035, "event": {"type": "reasoning.delta", "content": " capture"}}
+{"elapsed_seconds": 52.163554497001314, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 52.18803530700097, "event": {"type": "reasoning.delta", "content": " Chand"}}
+{"elapsed_seconds": 52.211442021998664, "event": {"type": "reasoning.delta", "content": "ax"}}
+{"elapsed_seconds": 52.23552917200141, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 52.25919920999877, "event": {"type": "reasoning.delta", "content": " booty"}}
+{"elapsed_seconds": 52.283757664001314, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 52.307524896998075, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 52.33145849900029, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 52.35506484399957, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 52.37963721900087, "event": {"type": "reasoning.delta", "content": "254"}}
+{"elapsed_seconds": 52.403495146998466, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 52.42760081799861, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 52.45120112299992, "event": {"type": "reasoning.delta", "content": " Campaign"}}
+{"elapsed_seconds": 52.473247286001424, "event": {"type": "reasoning.delta", "content": "s"}}
+{"elapsed_seconds": 52.49687912299851, "event": {"type": "reasoning.delta", "content": " in"}}
+{"elapsed_seconds": 52.52066099700096, "event": {"type": "reasoning.delta", "content": " Cil"}}
+{"elapsed_seconds": 52.543736364001234, "event": {"type": "reasoning.delta", "content": "icia"}}
+{"elapsed_seconds": 52.56802868500017, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 52.59169065199967, "event": {"type": "reasoning.delta", "content": " Ale"}}
+{"elapsed_seconds": 52.61353967600007, "event": {"type": "reasoning.delta", "content": "ppo"}}
+{"elapsed_seconds": 52.637820076000935, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 52.66132484600166, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 52.68476935199942, "event": {"type": "reasoning.delta", "content": "962"}}
+{"elapsed_seconds": 52.70824555999934, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 52.73171917799846, "event": {"type": "reasoning.delta", "content": " retreat"}}
+{"elapsed_seconds": 52.755126202999236, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 52.778686984998785, "event": {"type": "reasoning.delta", "content": "255"}}
+{"elapsed_seconds": 52.800714458000584, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 52.8241880759997, "event": {"type": "reasoning.delta", "content": "256"}}
+{"elapsed_seconds": 52.84660198900019, "event": {"type": "reasoning.delta", "content": "];"}}
+{"elapsed_seconds": 52.86986080600036, "event": {"type": "reasoning.delta", "content": " his"}}
+{"elapsed_seconds": 52.89364505000049, "event": {"type": "reasoning.delta", "content": " reg"}}
+{"elapsed_seconds": 52.917368640999484, "event": {"type": "reasoning.delta", "content": "ency"}}
+{"elapsed_seconds": 52.9394959199999, "event": {"type": "reasoning.delta", "content": " after"}}
+{"elapsed_seconds": 52.962584446999244, "event": {"type": "reasoning.delta", "content": " Roman"}}
+{"elapsed_seconds": 52.984982670001045, "event": {"type": "reasoning.delta", "content": "us"}}
+{"elapsed_seconds": 53.00848800899985, "event": {"type": "reasoning.delta", "content": " II"}}
+{"elapsed_seconds": 53.030785425999056, "event": {"type": "reasoning.delta", "content": " death"}}
+{"elapsed_seconds": 53.05333676599912, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 53.07625637599995, "event": {"type": "reasoning.delta", "content": " marriage"}}
+{"elapsed_seconds": 53.099809627998184, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 53.123405411999556, "event": {"type": "reasoning.delta", "content": " The"}}
+{"elapsed_seconds": 53.14544097500038, "event": {"type": "reasoning.delta", "content": "oph"}}
+{"elapsed_seconds": 53.16886821099979, "event": {"type": "reasoning.delta", "content": "ano"}}
+{"elapsed_seconds": 53.192727878998994, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 53.2145808230016, "event": {"type": "reasoning.delta", "content": " joint"}}
+{"elapsed_seconds": 53.237865630999295, "event": {"type": "reasoning.delta", "content": " reign"}}
+{"elapsed_seconds": 53.26061991199822, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 53.28348106799967, "event": {"type": "reasoning.delta", "content": "963"}}
+{"elapsed_seconds": 53.30666596100127, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 53.32952927699807, "event": {"type": "reasoning.delta", "content": "969"}}
+{"elapsed_seconds": 53.35313917199892, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 53.37539551699956, "event": {"type": "reasoning.delta", "content": " loyal"}}
+{"elapsed_seconds": 53.39786245299911, "event": {"type": "reasoning.delta", "content": " guardians"}}
+{"elapsed_seconds": 53.42023526399862, "event": {"type": "reasoning.delta", "content": "hip"}}
+{"elapsed_seconds": 53.44246926699998, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 53.464976045001094, "event": {"type": "reasoning.delta", "content": "256"}}
+{"elapsed_seconds": 53.48800765000124, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 53.51146301699919, "event": {"type": "reasoning.delta", "content": "257"}}
+{"elapsed_seconds": 53.53446566099956, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 53.55698542900063, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 53.580913431000226, "event": {"type": "reasoning.delta", "content": " His"}}
+{"elapsed_seconds": 53.604115055000875, "event": {"type": "reasoning.delta", "content": " later"}}
+{"elapsed_seconds": 53.626906926998345, "event": {"type": "reasoning.delta", "content": " reign"}}
+{"elapsed_seconds": 53.65076669499831, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 53.674339938999765, "event": {"type": "reasoning.delta", "content": " siege"}}
+{"elapsed_seconds": 53.69838191600138, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 53.7218896259983, "event": {"type": "reasoning.delta", "content": " Ad"}}
+{"elapsed_seconds": 53.74559339600091, "event": {"type": "reasoning.delta", "content": "ana"}}
+{"elapsed_seconds": 53.76877409900044, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 53.79221798800063, "event": {"type": "reasoning.delta", "content": " M"}}
+{"elapsed_seconds": 53.816194440998515, "event": {"type": "reasoning.delta", "content": "ops"}}
+{"elapsed_seconds": 53.84064102699995, "event": {"type": "reasoning.delta", "content": "uest"}}
+{"elapsed_seconds": 53.86474338699918, "event": {"type": "reasoning.delta", "content": "ia"}}
+{"elapsed_seconds": 53.8881376040008, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 53.91208270599964, "event": {"type": "reasoning.delta", "content": " T"}}
+{"elapsed_seconds": 53.93618984600107, "event": {"type": "reasoning.delta", "content": "ars"}}
+{"elapsed_seconds": 53.95885514800102, "event": {"type": "reasoning.delta", "content": "us"}}
+{"elapsed_seconds": 53.98267908499838, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.005845880998095, "event": {"type": "reasoning.delta", "content": " Cyprus"}}
+{"elapsed_seconds": 54.02873879500112, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.05251664900061, "event": {"type": "reasoning.delta", "content": " un"}}
+{"elapsed_seconds": 54.07489860900023, "event": {"type": "reasoning.delta", "content": "pop"}}
+{"elapsed_seconds": 54.09881586999836, "event": {"type": "reasoning.delta", "content": "ularity"}}
+{"elapsed_seconds": 54.12182451899935, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.14431466300084, "event": {"type": "reasoning.delta", "content": " taxation"}}
+{"elapsed_seconds": 54.167073540000274, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.19071535900002, "event": {"type": "reasoning.delta", "content": " disputes"}}
+{"elapsed_seconds": 54.21468169199943, "event": {"type": "reasoning.delta", "content": " with"}}
+{"elapsed_seconds": 54.238650625000446, "event": {"type": "reasoning.delta", "content": " clergy"}}
+{"elapsed_seconds": 54.26258538700131, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.28538197599846, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 54.309343549000914, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 54.33384252700125, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 54.35797388799983, "event": {"type": "reasoning.delta", "content": "257"}}
+{"elapsed_seconds": 54.381878019001306, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 54.40438479400109, "event": {"type": "reasoning.delta", "content": "258"}}
+{"elapsed_seconds": 54.427983999998105, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 54.451870990000316, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 54.47552592899956, "event": {"type": "reasoning.delta", "content": " Capture"}}
+{"elapsed_seconds": 54.49765209600082, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 54.52041513400036, "event": {"type": "reasoning.delta", "content": " Antio"}}
+{"elapsed_seconds": 54.54241026599993, "event": {"type": "reasoning.delta", "content": "ch"}}
+{"elapsed_seconds": 54.5650358669991, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 54.587990192998404, "event": {"type": "reasoning.delta", "content": "962"}}
+{"elapsed_seconds": 54.61114365799949, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.633567040000344, "event": {"type": "reasoning.delta", "content": " betrayal"}}
+{"elapsed_seconds": 54.65615214900026, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 54.67840545299987, "event": {"type": "reasoning.delta", "content": " generals"}}
+{"elapsed_seconds": 54.70110837700122, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.72365636500035, "event": {"type": "reasoning.delta", "content": " later"}}
+{"elapsed_seconds": 54.746098826999514, "event": {"type": "reasoning.delta", "content": " murder"}}
+{"elapsed_seconds": 54.76871511799982, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 54.79118105100133, "event": {"type": "reasoning.delta", "content": "969"}}
+{"elapsed_seconds": 54.814533845998085, "event": {"type": "reasoning.delta", "content": " by"}}
+{"elapsed_seconds": 54.83747821200086, "event": {"type": "reasoning.delta", "content": " John"}}
+{"elapsed_seconds": 54.859336706998874, "event": {"type": "reasoning.delta", "content": " Z"}}
+{"elapsed_seconds": 54.88387431699812, "event": {"type": "reasoning.delta", "content": "imis"}}
+{"elapsed_seconds": 54.90751658500085, "event": {"type": "reasoning.delta", "content": "ces"}}
+{"elapsed_seconds": 54.93037183699926, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 54.95283812100024, "event": {"type": "reasoning.delta", "content": " motivations"}}
+{"elapsed_seconds": 54.9777603879993, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 55.000611389998085, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 55.0258648529998, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 55.04977658400094, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 55.07395910700143, "event": {"type": "reasoning.delta", "content": "259"}}
+{"elapsed_seconds": 55.0981118790005, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 55.121872742998676, "event": {"type": "reasoning.delta", "content": "260"}}
+{"elapsed_seconds": 55.145364444000734, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 55.16945712300003, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 55.19230572499873, "event": {"type": "reasoning.delta", "content": " John"}}
+{"elapsed_seconds": 55.21546065000075, "event": {"type": "reasoning.delta", "content": " Z"}}
+{"elapsed_seconds": 55.23896108199915, "event": {"type": "reasoning.delta", "content": "imis"}}
+{"elapsed_seconds": 55.26241082100023, "event": {"type": "reasoning.delta", "content": "ces"}}
+{"elapsed_seconds": 55.28521055999954, "event": {"type": "reasoning.delta", "content": " reign"}}
+{"elapsed_seconds": 55.30786715299837, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 55.332389272, "event": {"type": "reasoning.delta", "content": " victory"}}
+{"elapsed_seconds": 55.356784524999966, "event": {"type": "reasoning.delta", "content": " over"}}
+{"elapsed_seconds": 55.37958443399839, "event": {"type": "reasoning.delta", "content": " Russians"}}
+{"elapsed_seconds": 55.403369168998324, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 55.427509930999804, "event": {"type": "reasoning.delta", "content": " description"}}
+{"elapsed_seconds": 55.4505012189984, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 55.47500352700081, "event": {"type": "reasoning.delta", "content": " Russian"}}
+{"elapsed_seconds": 55.49889019599868, "event": {"type": "reasoning.delta", "content": " raids"}}
+{"elapsed_seconds": 55.52286072000061, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 55.54682747300103, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 55.57083097799841, "event": {"type": "reasoning.delta", "content": "941"}}
+{"elapsed_seconds": 55.59487535500011, "event": {"type": "reasoning.delta", "content": " and"}}
+{"elapsed_seconds": 55.61904405799942, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 55.64291921699987, "event": {"type": "reasoning.delta", "content": "970"}}
+{"elapsed_seconds": 55.66693754299922, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 55.69090240600053, "event": {"type": "reasoning.delta", "content": " battles"}}
+{"elapsed_seconds": 55.714850568001566, "event": {"type": "reasoning.delta", "content": " at"}}
+{"elapsed_seconds": 55.738784429999214, "event": {"type": "reasoning.delta", "content": " Sil"}}
+{"elapsed_seconds": 55.76276451399826, "event": {"type": "reasoning.delta", "content": "istr"}}
+{"elapsed_seconds": 55.7899413060004, "event": {"type": "reasoning.delta", "content": "ia"}}
+{"elapsed_seconds": 55.813057420000405, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 55.83703985399916, "event": {"type": "reasoning.delta", "content": " peace"}}
+{"elapsed_seconds": 55.860767236001266, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 55.88392242199916, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 55.90724043500086, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 55.930178680999234, "event": {"type": "reasoning.delta", "content": " ["}}
+{"elapsed_seconds": 55.95367362199977, "event": {"type": "reasoning.delta", "content": "261"}}
+{"elapsed_seconds": 55.97763788500015, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 56.00029305800126, "event": {"type": "reasoning.delta", "content": "264"}}
+{"elapsed_seconds": 56.02322410299894, "event": {"type": "reasoning.delta", "content": "].\n\n"}}
+{"elapsed_seconds": 56.045605982999405, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 56.068093827001576, "event": {"type": "reasoning.delta", "content": " End"}}
+{"elapsed_seconds": 56.090701687000546, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 56.11422884000058, "event": {"type": "reasoning.delta", "content": " Maced"}}
+{"elapsed_seconds": 56.13685215100122, "event": {"type": "reasoning.delta", "content": "onian"}}
+{"elapsed_seconds": 56.158923676000995, "event": {"type": "reasoning.delta", "content": " dynasty"}}
+{"elapsed_seconds": 56.18124582300152, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 56.2049667350002, "event": {"type": "reasoning.delta", "content": " Basil"}}
+{"elapsed_seconds": 56.227963812998496, "event": {"type": "reasoning.delta", "content": " II"}}
+{"elapsed_seconds": 56.2504974600015, "event": {"type": "reasoning.delta", "content": "'s"}}
+{"elapsed_seconds": 56.274173199999495, "event": {"type": "reasoning.delta", "content": " reign"}}
+{"elapsed_seconds": 56.29700744100046, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 56.320444468998176, "event": {"type": "reasoning.delta", "content": "976"}}
+{"elapsed_seconds": 56.34401708400037, "event": {"type": "reasoning.delta", "content": "-"}}
+{"elapsed_seconds": 56.367420900998695, "event": {"type": "reasoning.delta", "content": "102"}}
+{"elapsed_seconds": 56.39009581500068, "event": {"type": "reasoning.delta", "content": "5"}}
+{"elapsed_seconds": 56.41405868799848, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 56.43757048000043, "event": {"type": "reasoning.delta", "content": " wars"}}
+{"elapsed_seconds": 56.46112353400167, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 56.48500680299912, "event": {"type": "reasoning.delta", "content": " Bulgarian"}}
+{"elapsed_seconds": 56.50808743499874, "event": {"type": "reasoning.delta", "content": " wars"}}
+{"elapsed_seconds": 56.531546005000564, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 56.55404697999984, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 56.57704206899871, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 56.599945783000294, "event": {"type": "reasoning.delta", "content": " but"}}
+{"elapsed_seconds": 56.62309425800049, "event": {"type": "reasoning.delta", "content": " maybe"}}
+{"elapsed_seconds": 56.645855974998994, "event": {"type": "reasoning.delta", "content": " not"}}
+{"elapsed_seconds": 56.668868174001545, "event": {"type": "reasoning.delta", "content": " needed"}}
+{"elapsed_seconds": 56.69187078300092, "event": {"type": "reasoning.delta", "content": "?"}}
+{"elapsed_seconds": 56.714614978998725, "event": {"type": "reasoning.delta", "content": " Actually"}}
+{"elapsed_seconds": 56.737591526998585, "event": {"type": "reasoning.delta", "content": " section"}}
+{"elapsed_seconds": 56.76056219399834, "event": {"type": "reasoning.delta", "content": " continues"}}
+{"elapsed_seconds": 56.783167033998325, "event": {"type": "reasoning.delta", "content": " through"}}
+{"elapsed_seconds": 56.80599305400028, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 56.82889487799912, "event": {"type": "reasoning.delta", "content": "300"}}
+{"elapsed_seconds": 56.8521021259985, "event": {"type": "reasoning.delta", "content": " covering"}}
+{"elapsed_seconds": 56.87488630399821, "event": {"type": "reasoning.delta", "content": " later"}}
+{"elapsed_seconds": 56.89768662300048, "event": {"type": "reasoning.delta", "content": " Com"}}
+{"elapsed_seconds": 56.920727704000456, "event": {"type": "reasoning.delta", "content": "nen"}}
+{"elapsed_seconds": 56.9441500920002, "event": {"type": "reasoning.delta", "content": "i"}}
+{"elapsed_seconds": 56.96749771599934, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 56.990979487000004, "event": {"type": "reasoning.delta", "content": " Crus"}}
+{"elapsed_seconds": 57.01399068599858, "event": {"type": "reasoning.delta", "content": "ades"}}
+{"elapsed_seconds": 57.037103688999196, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 57.060560648998944, "event": {"type": "reasoning.delta", "content": " etc"}}
+{"elapsed_seconds": 57.08407544099828, "event": {"type": "reasoning.delta", "content": "."}}
+{"elapsed_seconds": 57.107476427998336, "event": {"type": "reasoning.delta", "content": " Should"}}
+{"elapsed_seconds": 57.13107731499986, "event": {"type": "reasoning.delta", "content": " summarize"}}
+{"elapsed_seconds": 57.15321837300144, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 57.17627495399938, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 57.19893546700041, "event": {"type": "reasoning.delta", "content": "500"}}
+{"elapsed_seconds": 57.22191843499968, "event": {"type": "reasoning.delta", "content": " words"}}
+{"elapsed_seconds": 57.24493677400096, "event": {"type": "reasoning.delta", "content": " covering"}}
+{"elapsed_seconds": 57.267501911999716, "event": {"type": "reasoning.delta", "content": " all"}}
+{"elapsed_seconds": 57.28990004200023, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 57.31245611000122, "event": {"type": "reasoning.delta", "content": "Given"}}
+{"elapsed_seconds": 57.334841299998516, "event": {"type": "reasoning.delta", "content": " length"}}
+{"elapsed_seconds": 57.35715969699959, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 57.37939407999875, "event": {"type": "reasoning.delta", "content": " need"}}
+{"elapsed_seconds": 57.401876494001044, "event": {"type": "reasoning.delta", "content": " to"}}
+{"elapsed_seconds": 57.42487436200099, "event": {"type": "reasoning.delta", "content": " conc"}}
+{"elapsed_seconds": 57.44821421600136, "event": {"type": "reasoning.delta", "content": "is"}}
+{"elapsed_seconds": 57.470326263999596, "event": {"type": "reasoning.delta", "content": "ely"}}
+{"elapsed_seconds": 57.494041264999396, "event": {"type": "reasoning.delta", "content": " summarize"}}
+{"elapsed_seconds": 57.51764803200058, "event": {"type": "reasoning.delta", "content": " major"}}
+{"elapsed_seconds": 57.54023771100037, "event": {"type": "reasoning.delta", "content": " points"}}
+{"elapsed_seconds": 57.56364476800081, "event": {"type": "reasoning.delta", "content": ":"}}
+{"elapsed_seconds": 57.58558683799856, "event": {"type": "reasoning.delta", "content": " commerce"}}
+{"elapsed_seconds": 57.60793227600152, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 57.63135052299913, "event": {"type": "reasoning.delta", "content": " military"}}
+{"elapsed_seconds": 57.65524312300113, "event": {"type": "reasoning.delta", "content": " collapse"}}
+{"elapsed_seconds": 57.67863931000102, "event": {"type": "reasoning.delta", "content": " of"}}
+{"elapsed_seconds": 57.700956496999424, "event": {"type": "reasoning.delta", "content": " Cal"}}
+{"elapsed_seconds": 57.72514760099875, "event": {"type": "reasoning.delta", "content": "iph"}}
+{"elapsed_seconds": 57.748162619998766, "event": {"type": "reasoning.delta", "content": "ate"}}
+{"elapsed_seconds": 57.77109284499966, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 57.79472125200118, "event": {"type": "reasoning.delta", "content": " Nice"}}
+{"elapsed_seconds": 57.81752410199988, "event": {"type": "reasoning.delta", "content": "ph"}}
+{"elapsed_seconds": 57.84166132300015, "event": {"type": "reasoning.delta", "content": "orus"}}
+{"elapsed_seconds": 57.865638186998694, "event": {"type": "reasoning.delta", "content": " campaigns"}}
+{"elapsed_seconds": 57.890269350999006, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 57.91313740300029, "event": {"type": "reasoning.delta", "content": " reg"}}
+{"elapsed_seconds": 57.93766040199989, "event": {"type": "reasoning.delta", "content": "ency"}}
+{"elapsed_seconds": 57.96204090500032, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 57.985134106998885, "event": {"type": "reasoning.delta", "content": " his"}}
+{"elapsed_seconds": 58.00955349200012, "event": {"type": "reasoning.delta", "content": " death"}}
+{"elapsed_seconds": 58.03324623200024, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.05708031899849, "event": {"type": "reasoning.delta", "content": " John"}}
+{"elapsed_seconds": 58.08112661599807, "event": {"type": "reasoning.delta", "content": " Z"}}
+{"elapsed_seconds": 58.10506322799847, "event": {"type": "reasoning.delta", "content": "imis"}}
+{"elapsed_seconds": 58.130241407998255, "event": {"type": "reasoning.delta", "content": "ces"}}
+{"elapsed_seconds": 58.1542107009991, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.177155896999466, "event": {"type": "reasoning.delta", "content": " Basil"}}
+{"elapsed_seconds": 58.20097355300095, "event": {"type": "reasoning.delta", "content": " II"}}
+{"elapsed_seconds": 58.225239110000985, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.249076007999975, "event": {"type": "reasoning.delta", "content": " decline"}}
+{"elapsed_seconds": 58.27128028899824, "event": {"type": "reasoning.delta", "content": " after"}}
+{"elapsed_seconds": 58.294695846998366, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.317004123000515, "event": {"type": "reasoning.delta", "content": " Com"}}
+{"elapsed_seconds": 58.341148154999246, "event": {"type": "reasoning.delta", "content": "nen"}}
+{"elapsed_seconds": 58.3638388090003, "event": {"type": "reasoning.delta", "content": "i"}}
+{"elapsed_seconds": 58.38767867600109, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.41110237400062, "event": {"type": "reasoning.delta", "content": " Crus"}}
+{"elapsed_seconds": 58.433255872998416, "event": {"type": "reasoning.delta", "content": "ades"}}
+{"elapsed_seconds": 58.45721143600167, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.48010029899888, "event": {"type": "reasoning.delta", "content": " trade"}}
+{"elapsed_seconds": 58.50274234099925, "event": {"type": "reasoning.delta", "content": " decline"}}
+{"elapsed_seconds": 58.526094646000274, "event": {"type": "reasoning.delta", "content": ","}}
+{"elapsed_seconds": 58.549236270999245, "event": {"type": "reasoning.delta", "content": " later"}}
+{"elapsed_seconds": 58.57214138500058, "event": {"type": "reasoning.delta", "content": " emper"}}
+{"elapsed_seconds": 58.59504134799863, "event": {"type": "reasoning.delta", "content": "ors"}}
+{"elapsed_seconds": 58.618096859001525, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 58.64102693499808, "event": {"type": "reasoning.delta", "content": "Let's"}}
+{"elapsed_seconds": 58.66407527499905, "event": {"type": "reasoning.delta", "content": " produce"}}
+{"elapsed_seconds": 58.68731981499877, "event": {"type": "reasoning.delta", "content": " about"}}
+{"elapsed_seconds": 58.71008972300115, "event": {"type": "reasoning.delta", "content": " "}}
+{"elapsed_seconds": 58.73345968799913, "event": {"type": "reasoning.delta", "content": "460"}}
+{"elapsed_seconds": 58.756627005001064, "event": {"type": "reasoning.delta", "content": " words"}}
+{"elapsed_seconds": 58.7791116590015, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 58.80352109299929, "event": {"type": "reasoning.delta", "content": "Ensure"}}
+{"elapsed_seconds": 58.82733376900069, "event": {"type": "reasoning.delta", "content": " citations"}}
+{"elapsed_seconds": 58.85027948499919, "event": {"type": "reasoning.delta", "content": " after"}}
+{"elapsed_seconds": 58.87220454300041, "event": {"type": "reasoning.delta", "content": " each"}}
+{"elapsed_seconds": 58.89624284000092, "event": {"type": "reasoning.delta", "content": " factual"}}
+{"elapsed_seconds": 58.91819599000155, "event": {"type": "reasoning.delta", "content": " statement"}}
+{"elapsed_seconds": 58.94220627499817, "event": {"type": "reasoning.delta", "content": ";"}}
+{"elapsed_seconds": 58.965184893000696, "event": {"type": "reasoning.delta", "content": " many"}}
+{"elapsed_seconds": 58.98869410499901, "event": {"type": "reasoning.delta", "content": " sentences"}}
+{"elapsed_seconds": 59.012326852000115, "event": {"type": "reasoning.delta", "content": " will"}}
+{"elapsed_seconds": 59.035653335999086, "event": {"type": "reasoning.delta", "content": " need"}}
+{"elapsed_seconds": 59.059235110999, "event": {"type": "reasoning.delta", "content": " citations"}}
+{"elapsed_seconds": 59.082391406998795, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 59.10483844999908, "event": {"type": "reasoning.delta", "content": "Will"}}
+{"elapsed_seconds": 59.127177106998715, "event": {"type": "reasoning.delta", "content": " write"}}
+{"elapsed_seconds": 59.14933695700165, "event": {"type": "reasoning.delta", "content": " paragraphs"}}
+{"elapsed_seconds": 59.17290543099807, "event": {"type": "reasoning.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 59.3364131169983, "event": {"type": "reasoning.end"}}
+{"elapsed_seconds": 59.336524941998505, "event": {"type": "message.start"}}
+{"elapsed_seconds": 59.33655270300005, "event": {"type": "message.delta", "content": "The"}}
+{"elapsed_seconds": 59.3599597709981, "event": {"type": "message.delta", "content": " empire"}}
+{"elapsed_seconds": 59.38261850300114, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 59.40512919899993, "event": {"type": "message.delta", "content": " maritime"}}
+{"elapsed_seconds": 59.42933943300159, "event": {"type": "message.delta", "content": " commerce"}}
+{"elapsed_seconds": 59.45132345499951, "event": {"type": "message.delta", "content": " had"}}
+{"elapsed_seconds": 59.47547762699833, "event": {"type": "message.delta", "content": " been"}}
+{"elapsed_seconds": 59.49733550200108, "event": {"type": "message.delta", "content": " devastated"}}
+{"elapsed_seconds": 59.5210954260001, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 59.545461677000276, "event": {"type": "message.delta", "content": " Sar"}}
+{"elapsed_seconds": 59.56930281499808, "event": {"type": "message.delta", "content": "acen"}}
+{"elapsed_seconds": 59.592377967001084, "event": {"type": "message.delta", "content": " piracy"}}
+{"elapsed_seconds": 59.61620885400043, "event": {"type": "message.delta", "content": " during"}}
+{"elapsed_seconds": 59.63931385699834, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 59.66119202399932, "event": {"type": "message.delta", "content": " preceding"}}
+{"elapsed_seconds": 59.68522926999867, "event": {"type": "message.delta", "content": " century"}}
+{"elapsed_seconds": 59.7082758309989, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 59.73200271300084, "event": {"type": "message.delta", "content": " leaving"}}
+{"elapsed_seconds": 59.75538796899855, "event": {"type": "message.delta", "content": " Byzantine"}}
+{"elapsed_seconds": 59.7793855839991, "event": {"type": "message.delta", "content": " naval"}}
+{"elapsed_seconds": 59.803097505999176, "event": {"type": "message.delta", "content": " power"}}
+{"elapsed_seconds": 59.826316194001265, "event": {"type": "message.delta", "content": " as"}}
+{"elapsed_seconds": 59.849557953999465, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 59.87230600999828, "event": {"type": "message.delta", "content": " sole"}}
+{"elapsed_seconds": 59.895927067998855, "event": {"type": "message.delta", "content": " conduit"}}
+{"elapsed_seconds": 59.918803780001326, "event": {"type": "message.delta", "content": " for"}}
+{"elapsed_seconds": 59.94206460100031, "event": {"type": "message.delta", "content": " Eastern"}}
+{"elapsed_seconds": 59.9646538900015, "event": {"type": "message.delta", "content": " goods"}}
+{"elapsed_seconds": 59.98706370099899, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 60.00950234300035, "event": {"type": "message.delta", "content": " Italy"}}
+{"elapsed_seconds": 60.03194649600118, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 60.05508809100138, "event": {"type": "message.delta", "content": " France"}}
+{"elapsed_seconds": 60.07770353199885, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 60.10022751799988, "event": {"type": "message.delta", "content": " which"}}
+{"elapsed_seconds": 60.12327521900079, "event": {"type": "message.delta", "content": " passed"}}
+{"elapsed_seconds": 60.14544310799829, "event": {"type": "message.delta", "content": " through"}}
+{"elapsed_seconds": 60.16929127600088, "event": {"type": "message.delta", "content": " Bos"}}
+{"elapsed_seconds": 60.19136761199843, "event": {"type": "message.delta", "content": "ph"}}
+{"elapsed_seconds": 60.21523450099994, "event": {"type": "message.delta", "content": "orus"}}
+{"elapsed_seconds": 60.238473940000404, "event": {"type": "message.delta", "content": " warehouses"}}
+{"elapsed_seconds": 60.261065110000345, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 60.28355035400091, "event": {"type": "message.delta", "content": " endured"}}
+{"elapsed_seconds": 60.307361020000826, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 60.32932155999879, "event": {"type": "message.delta", "content": " harsh"}}
+{"elapsed_seconds": 60.353364156999305, "event": {"type": "message.delta", "content": " yet"}}
+{"elapsed_seconds": 60.37726201699843, "event": {"type": "message.delta", "content": " ineffective"}}
+{"elapsed_seconds": 60.40034627899877, "event": {"type": "message.delta", "content": " tax"}}
+{"elapsed_seconds": 60.42244749599922, "event": {"type": "message.delta", "content": " system"}}
+{"elapsed_seconds": 60.446467451998615, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 60.47000959499928, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 60.49349775600058, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 60.51601769199988, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 60.53899610000008, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 60.56344520499988, "event": {"type": "message.delta", "content": "251"}}
+{"elapsed_seconds": 60.586400781998236, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 60.6090779949991, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 60.631980468999245, "event": {"type": "message.delta", "content": " Under"}}
+{"elapsed_seconds": 60.65433351699903, "event": {"type": "message.delta", "content": " Constantine"}}
+{"elapsed_seconds": 60.67703706199973, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 60.69927410500168, "event": {"type": "message.delta", "content": "Por"}}
+{"elapsed_seconds": 60.72202040200136, "event": {"type": "message.delta", "content": "phy"}}
+{"elapsed_seconds": 60.74638285299807, "event": {"type": "message.delta", "content": "rog"}}
+{"elapsed_seconds": 60.769055995999224, "event": {"type": "message.delta", "content": "ennet"}}
+{"elapsed_seconds": 60.792385069999, "event": {"type": "message.delta", "content": "os"}}
+{"elapsed_seconds": 60.81555525699878, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 60.838416339000105, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 60.861168794999685, "event": {"type": "message.delta", "content": " eastern"}}
+{"elapsed_seconds": 60.885514755998884, "event": {"type": "message.delta", "content": " frontier"}}
+{"elapsed_seconds": 60.909529862001364, "event": {"type": "message.delta", "content": " faced"}}
+{"elapsed_seconds": 60.931914662000054, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 60.95451749199856, "event": {"type": "message.delta", "content": " succession"}}
+{"elapsed_seconds": 60.97853970700089, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 61.001641301001655, "event": {"type": "message.delta", "content": " formidable"}}
+{"elapsed_seconds": 61.02399916899958, "event": {"type": "message.delta", "content": " foes"}}
+{"elapsed_seconds": 61.04758384500019, "event": {"type": "message.delta", "content": "\u2014"}}
+{"elapsed_seconds": 61.071189021000464, "event": {"type": "message.delta", "content": "first"}}
+{"elapsed_seconds": 61.09444073100167, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.11809128999812, "event": {"type": "message.delta", "content": " S"}}
+{"elapsed_seconds": 61.14058927500082, "event": {"type": "message.delta", "content": "assan"}}
+{"elapsed_seconds": 61.16347360800137, "event": {"type": "message.delta", "content": "ian"}}
+{"elapsed_seconds": 61.18640621300074, "event": {"type": "message.delta", "content": " Pers"}}
+{"elapsed_seconds": 61.20951291700112, "event": {"type": "message.delta", "content": "ians"}}
+{"elapsed_seconds": 61.23235625799862, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 61.25532706499871, "event": {"type": "message.delta", "content": " then"}}
+{"elapsed_seconds": 61.27798974799953, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.30082520799988, "event": {"type": "message.delta", "content": " Um"}}
+{"elapsed_seconds": 61.32338977700056, "event": {"type": "message.delta", "content": "ayy"}}
+{"elapsed_seconds": 61.34605875900161, "event": {"type": "message.delta", "content": "ad"}}
+{"elapsed_seconds": 61.3697820410016, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 61.39296564799952, "event": {"type": "message.delta", "content": " Abbas"}}
+{"elapsed_seconds": 61.41547663399979, "event": {"type": "message.delta", "content": "id"}}
+{"elapsed_seconds": 61.439273168998625, "event": {"type": "message.delta", "content": " cal"}}
+{"elapsed_seconds": 61.46137243599878, "event": {"type": "message.delta", "content": "iph"}}
+{"elapsed_seconds": 61.48494180099806, "event": {"type": "message.delta", "content": "ates"}}
+{"elapsed_seconds": 61.508634330999485, "event": {"type": "message.delta", "content": "\u2014"}}
+{"elapsed_seconds": 61.530406423000386, "event": {"type": "message.delta", "content": "until"}}
+{"elapsed_seconds": 61.5545347039988, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.57792133000112, "event": {"type": "message.delta", "content": " Abbas"}}
+{"elapsed_seconds": 61.6014774840005, "event": {"type": "message.delta", "content": "id"}}
+{"elapsed_seconds": 61.6244696620015, "event": {"type": "message.delta", "content": " state"}}
+{"elapsed_seconds": 61.648255916999915, "event": {"type": "message.delta", "content": " collapsed"}}
+{"elapsed_seconds": 61.67142732299908, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 61.694426821999514, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 61.72072650300106, "event": {"type": "message.delta", "content": "951"}}
+{"elapsed_seconds": 61.744501178000064, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 61.76806096200016, "event": {"type": "message.delta", "content": "A"}}
+{"elapsed_seconds": 61.7923934620012, "event": {"type": "message.delta", "content": ".D"}}
+{"elapsed_seconds": 61.816429129001335, "event": {"type": "message.delta", "content": ".,"}}
+{"elapsed_seconds": 61.84039343200129, "event": {"type": "message.delta", "content": " when"}}
+{"elapsed_seconds": 61.86457057499865, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 61.8885771009991, "event": {"type": "message.delta", "content": " Buh"}}
+{"elapsed_seconds": 61.912123154001165, "event": {"type": "message.delta", "content": "aw"}}
+{"elapsed_seconds": 61.93509808199815, "event": {"type": "message.delta", "content": "id"}}
+{"elapsed_seconds": 61.95794284200019, "event": {"type": "message.delta", "content": " prince"}}
+{"elapsed_seconds": 61.98148729600143, "event": {"type": "message.delta", "content": " Im"}}
+{"elapsed_seconds": 62.003592422999645, "event": {"type": "message.delta", "content": "ad"}}
+{"elapsed_seconds": 62.027612039000815, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 62.050521012999525, "event": {"type": "message.delta", "content": "ud"}}
+{"elapsed_seconds": 62.074119779001194, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 62.097504866000236, "event": {"type": "message.delta", "content": "din"}}
+{"elapsed_seconds": 62.12116670500109, "event": {"type": "message.delta", "content": " seized"}}
+{"elapsed_seconds": 62.14501632300016, "event": {"type": "message.delta", "content": " Baghdad"}}
+{"elapsed_seconds": 62.167852833001234, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 62.19097650799813, "event": {"type": "message.delta", "content": " reduced"}}
+{"elapsed_seconds": 62.21445316799873, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 62.238100217000465, "event": {"type": "message.delta", "content": " cal"}}
+{"elapsed_seconds": 62.261240800999076, "event": {"type": "message.delta", "content": "ip"}}
+{"elapsed_seconds": 62.28424046999862, "event": {"type": "message.delta", "content": "hs"}}
+{"elapsed_seconds": 62.30858736099981, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 62.33158616899891, "event": {"type": "message.delta", "content": " powerless"}}
+{"elapsed_seconds": 62.354089665001084, "event": {"type": "message.delta", "content": " capt"}}
+{"elapsed_seconds": 62.37789913099914, "event": {"type": "message.delta", "content": "ives"}}
+{"elapsed_seconds": 62.40166297500036, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 62.4256702499988, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 62.44968930599862, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 62.47214169799918, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 62.49497692899968, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 62.5177535369985, "event": {"type": "message.delta", "content": "252"}}
+{"elapsed_seconds": 62.540868781001336, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 62.563529243998346, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 62.58658552500128, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 62.609276218998275, "event": {"type": "message.delta", "content": " new"}}
+{"elapsed_seconds": 62.632468335999874, "event": {"type": "message.delta", "content": " Muslim"}}
+{"elapsed_seconds": 62.655532406999555, "event": {"type": "message.delta", "content": " pol"}}
+{"elapsed_seconds": 62.67884435000087, "event": {"type": "message.delta", "content": "ities"}}
+{"elapsed_seconds": 62.70257772300101, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 62.72596616900046, "event": {"type": "message.delta", "content": " including"}}
+{"elapsed_seconds": 62.74960695700065, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 62.773588580999785, "event": {"type": "message.delta", "content": " em"}}
+{"elapsed_seconds": 62.79564911600028, "event": {"type": "message.delta", "content": "irs"}}
+{"elapsed_seconds": 62.81963944100062, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 62.841544137998426, "event": {"type": "message.delta", "content": " Ale"}}
+{"elapsed_seconds": 62.864466693001305, "event": {"type": "message.delta", "content": "ppo"}}
+{"elapsed_seconds": 62.88846851799826, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 62.91265208099867, "event": {"type": "message.delta", "content": " Mos"}}
+{"elapsed_seconds": 62.93660676400032, "event": {"type": "message.delta", "content": "ul"}}
+{"elapsed_seconds": 62.96069229299974, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 62.984536410000146, "event": {"type": "message.delta", "content": " were"}}
+{"elapsed_seconds": 63.008603837999544, "event": {"type": "message.delta", "content": " weak"}}
+{"elapsed_seconds": 63.03278672200031, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 63.056789476999256, "event": {"type": "message.delta", "content": " mutually"}}
+{"elapsed_seconds": 63.08082560399998, "event": {"type": "message.delta", "content": " hostile"}}
+{"elapsed_seconds": 63.104543235000165, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 63.12871203800023, "event": {"type": "message.delta", "content": " creating"}}
+{"elapsed_seconds": 63.152474221999, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 63.176432904998364, "event": {"type": "message.delta", "content": " strategic"}}
+{"elapsed_seconds": 63.20063241900061, "event": {"type": "message.delta", "content": " opening"}}
+{"elapsed_seconds": 63.224708647001535, "event": {"type": "message.delta", "content": " for"}}
+{"elapsed_seconds": 63.24822932000097, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 63.27267387599932, "event": {"type": "message.delta", "content": " empire"}}
+{"elapsed_seconds": 63.29610431399851, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 63.32066939500146, "event": {"type": "message.delta", "content": " restore"}}
+{"elapsed_seconds": 63.344476021000446, "event": {"type": "message.delta", "content": " its"}}
+{"elapsed_seconds": 63.367617785999755, "event": {"type": "message.delta", "content": " borders"}}
+{"elapsed_seconds": 63.391533396999876, "event": {"type": "message.delta", "content": " beyond"}}
+{"elapsed_seconds": 63.41467059199931, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 63.43773351300115, "event": {"type": "message.delta", "content": " Taurus"}}
+{"elapsed_seconds": 63.461170382001, "event": {"type": "message.delta", "content": " line"}}
+{"elapsed_seconds": 63.48360003400012, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 63.50758651800061, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 63.53066172000035, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 63.55428857700099, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 63.57764817199859, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 63.59962603299937, "event": {"type": "message.delta", "content": "253"}}
+{"elapsed_seconds": 63.622301565999805, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 63.64508505499907, "event": {"type": "message.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 63.66773255699809, "event": {"type": "message.delta", "content": "Nice"}}
+{"elapsed_seconds": 63.69033716700142, "event": {"type": "message.delta", "content": "ph"}}
+{"elapsed_seconds": 63.713692482000624, "event": {"type": "message.delta", "content": "orus"}}
+{"elapsed_seconds": 63.735529845998826, "event": {"type": "message.delta", "content": " Ph"}}
+{"elapsed_seconds": 63.75887175000025, "event": {"type": "message.delta", "content": "ocas"}}
+{"elapsed_seconds": 63.78128140099943, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 63.80336013700071, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 63.82557761899807, "event": {"type": "message.delta", "content": " sc"}}
+{"elapsed_seconds": 63.84821066999939, "event": {"type": "message.delta", "content": "ion"}}
+{"elapsed_seconds": 63.87043835299846, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 63.89332947599905, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 63.916007830001035, "event": {"type": "message.delta", "content": " great"}}
+{"elapsed_seconds": 63.938328266998724, "event": {"type": "message.delta", "content": " Capp"}}
+{"elapsed_seconds": 63.96086122300039, "event": {"type": "message.delta", "content": "ad"}}
+{"elapsed_seconds": 63.98354385700077, "event": {"type": "message.delta", "content": "oc"}}
+{"elapsed_seconds": 64.0069312630003, "event": {"type": "message.delta", "content": "ian"}}
+{"elapsed_seconds": 64.02987637900151, "event": {"type": "message.delta", "content": " land"}}
+{"elapsed_seconds": 64.0532692859997, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 64.07500604600136, "event": {"type": "message.delta", "content": "own"}}
+{"elapsed_seconds": 64.0987095370001, "event": {"type": "message.delta", "content": "ing"}}
+{"elapsed_seconds": 64.1226188369983, "event": {"type": "message.delta", "content": " family"}}
+{"elapsed_seconds": 64.1454726890006, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 64.16861463399982, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 64.19170885700078, "event": {"type": "message.delta", "content": " noted"}}
+{"elapsed_seconds": 64.21603255700029, "event": {"type": "message.delta", "content": " military"}}
+{"elapsed_seconds": 64.24083885900109, "event": {"type": "message.delta", "content": " writer"}}
+{"elapsed_seconds": 64.26481533300102, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 64.28877421599827, "event": {"type": "message.delta", "content": " was"}}
+{"elapsed_seconds": 64.3126198630016, "event": {"type": "message.delta", "content": " chosen"}}
+{"elapsed_seconds": 64.33672930299872, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 64.3608274520011, "event": {"type": "message.delta", "content": " Roman"}}
+{"elapsed_seconds": 64.38480328600053, "event": {"type": "message.delta", "content": "us"}}
+{"elapsed_seconds": 64.40856191000057, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 64.4327784950001, "event": {"type": "message.delta", "content": "II"}}
+{"elapsed_seconds": 64.45579706400167, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 64.48074393299976, "event": {"type": "message.delta", "content": " lead"}}
+{"elapsed_seconds": 64.50346900799923, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 64.52740726000047, "event": {"type": "message.delta", "content": " massive"}}
+{"elapsed_seconds": 64.55175677200168, "event": {"type": "message.delta", "content": " expedition"}}
+{"elapsed_seconds": 64.57473510899945, "event": {"type": "message.delta", "content": " against"}}
+{"elapsed_seconds": 64.59871483299867, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 64.62122436799837, "event": {"type": "message.delta", "content": " pirate"}}
+{"elapsed_seconds": 64.64395071399849, "event": {"type": "message.delta", "content": " haven"}}
+{"elapsed_seconds": 64.66784882399952, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 64.69142292900142, "event": {"type": "message.delta", "content": " Cre"}}
+{"elapsed_seconds": 64.71477404400139, "event": {"type": "message.delta", "content": "te"}}
+{"elapsed_seconds": 64.73780287399859, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 64.7620860019997, "event": {"type": "message.delta", "content": " In"}}
+{"elapsed_seconds": 64.78682768100043, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 64.81063124700086, "event": {"type": "message.delta", "content": "961"}}
+{"elapsed_seconds": 64.83468566399824, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 64.85880950499995, "event": {"type": "message.delta", "content": "A"}}
+{"elapsed_seconds": 64.88275520699972, "event": {"type": "message.delta", "content": ".D"}}
+{"elapsed_seconds": 64.90665176699986, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 64.93084464099957, "event": {"type": "message.delta", "content": " his"}}
+{"elapsed_seconds": 64.95459873499931, "event": {"type": "message.delta", "content": " fleet"}}
+{"elapsed_seconds": 64.97883261099923, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 65.00238713499857, "event": {"type": "message.delta", "content": " numbered"}}
+{"elapsed_seconds": 65.02686165200066, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 65.05116030099816, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 65.07378673199855, "event": {"type": "message.delta", "content": " thousand"}}
+{"elapsed_seconds": 65.09728750299837, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 65.12028464100149, "event": {"type": "message.delta", "content": " captured"}}
+{"elapsed_seconds": 65.14335203299925, "event": {"type": "message.delta", "content": " Chand"}}
+{"elapsed_seconds": 65.16687709599864, "event": {"type": "message.delta", "content": "ax"}}
+{"elapsed_seconds": 65.19057886700102, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 65.21371085099963, "event": {"type": "message.delta", "content": " seized"}}
+{"elapsed_seconds": 65.23740366199854, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 65.26037266899948, "event": {"type": "message.delta", "content": " century"}}
+{"elapsed_seconds": 65.28292377600155, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 65.30599829800121, "event": {"type": "message.delta", "content": " worth"}}
+{"elapsed_seconds": 65.32911220199821, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 65.3517721040007, "event": {"type": "message.delta", "content": " loot"}}
+{"elapsed_seconds": 65.37545274500008, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 65.3983204670003, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 65.42147285199826, "event": {"type": "message.delta", "content": " returned"}}
+{"elapsed_seconds": 65.44584586500059, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 65.46970322299967, "event": {"type": "message.delta", "content": " island"}}
+{"elapsed_seconds": 65.49372949900135, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 65.51780770799814, "event": {"type": "message.delta", "content": " Byzantine"}}
+{"elapsed_seconds": 65.5417154679999, "event": {"type": "message.delta", "content": " control"}}
+{"elapsed_seconds": 65.56572484299977, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 65.5897939710012, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 65.61376153499805, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 65.63784249300079, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 65.66191667100065, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 65.68573553800161, "event": {"type": "message.delta", "content": "254"}}
+{"elapsed_seconds": 65.70981622600084, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 65.73376004799866, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 65.75771109099878, "event": {"type": "message.delta", "content": " Emb"}}
+{"elapsed_seconds": 65.78171612599908, "event": {"type": "message.delta", "content": "old"}}
+{"elapsed_seconds": 65.8047918179982, "event": {"type": "message.delta", "content": "ened"}}
+{"elapsed_seconds": 65.82789664099982, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 65.85228382399873, "event": {"type": "message.delta", "content": " Ph"}}
+{"elapsed_seconds": 65.8768026329999, "event": {"type": "message.delta", "content": "ocas"}}
+{"elapsed_seconds": 65.90082353899925, "event": {"type": "message.delta", "content": " advanced"}}
+{"elapsed_seconds": 65.92471868899884, "event": {"type": "message.delta", "content": " into"}}
+{"elapsed_seconds": 65.94896420499936, "event": {"type": "message.delta", "content": " Cil"}}
+{"elapsed_seconds": 65.9728244129983, "event": {"type": "message.delta", "content": "icia"}}
+{"elapsed_seconds": 65.99691130200154, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 66.02038154199909, "event": {"type": "message.delta", "content": " storm"}}
+{"elapsed_seconds": 66.04405906199827, "event": {"type": "message.delta", "content": "ed"}}
+{"elapsed_seconds": 66.06794459199955, "event": {"type": "message.delta", "content": " An"}}
+{"elapsed_seconds": 66.09184745200037, "event": {"type": "message.delta", "content": "azar"}}
+{"elapsed_seconds": 66.11595859199952, "event": {"type": "message.delta", "content": "bus"}}
+{"elapsed_seconds": 66.13904991500021, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 66.1618586250006, "event": {"type": "message.delta", "content": " forced"}}
+{"elapsed_seconds": 66.18566334999923, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 66.2097804010009, "event": {"type": "message.delta", "content": " Aman"}}
+{"elapsed_seconds": 66.23386279899933, "event": {"type": "message.delta", "content": "us"}}
+{"elapsed_seconds": 66.25800959100161, "event": {"type": "message.delta", "content": " Pass"}}
+{"elapsed_seconds": 66.28079216900005, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 66.3045339220007, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 66.3280230929995, "event": {"type": "message.delta", "content": " laid"}}
+{"elapsed_seconds": 66.35234398299872, "event": {"type": "message.delta", "content": " siege"}}
+{"elapsed_seconds": 66.37581583299834, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 66.39948374300002, "event": {"type": "message.delta", "content": " Ale"}}
+{"elapsed_seconds": 66.42286780900031, "event": {"type": "message.delta", "content": "ppo"}}
+{"elapsed_seconds": 66.44657218000066, "event": {"type": "message.delta", "content": ";"}}
+{"elapsed_seconds": 66.47060011600115, "event": {"type": "message.delta", "content": " after"}}
+{"elapsed_seconds": 66.49349980999978, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 66.51642713500041, "event": {"type": "message.delta", "content": " costly"}}
+{"elapsed_seconds": 66.53943769399848, "event": {"type": "message.delta", "content": " stal"}}
+{"elapsed_seconds": 66.56230460599909, "event": {"type": "message.delta", "content": "emate"}}
+{"elapsed_seconds": 66.58703582499948, "event": {"type": "message.delta", "content": " he"}}
+{"elapsed_seconds": 66.61167222899894, "event": {"type": "message.delta", "content": " withdrew"}}
+{"elapsed_seconds": 66.63568595499964, "event": {"type": "message.delta", "content": " with"}}
+{"elapsed_seconds": 66.65742629500164, "event": {"type": "message.delta", "content": " booty"}}
+{"elapsed_seconds": 66.68108527399818, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 66.70484218699858, "event": {"type": "message.delta", "content": " sixty"}}
+{"elapsed_seconds": 66.72891213500043, "event": {"type": "message.delta", "content": " captured"}}
+{"elapsed_seconds": 66.75294087099974, "event": {"type": "message.delta", "content": " forts"}}
+{"elapsed_seconds": 66.77662263199818, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 66.79866070500066, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 66.82143192299918, "event": {"type": "message.delta", "content": "962"}}
+{"elapsed_seconds": 66.84397937999893, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 66.86694903800162, "event": {"type": "message.delta", "content": "A"}}
+{"elapsed_seconds": 66.88922868200098, "event": {"type": "message.delta", "content": ".D"}}
+{"elapsed_seconds": 66.91177839000011, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 66.93645119600114, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 66.96015472699946, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 66.98351768200155, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 67.00639836499977, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 67.03011475699896, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 67.05358809699828, "event": {"type": "message.delta", "content": "255"}}
+{"elapsed_seconds": 67.07639014699816, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 67.10005688599995, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 67.12317949000135, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 67.14622954099832, "event": {"type": "message.delta", "content": " unexpected"}}
+{"elapsed_seconds": 67.17003565699997, "event": {"type": "message.delta", "content": " death"}}
+{"elapsed_seconds": 67.19388815500133, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 67.21701319899876, "event": {"type": "message.delta", "content": " Roman"}}
+{"elapsed_seconds": 67.24107645700133, "event": {"type": "message.delta", "content": "us"}}
+{"elapsed_seconds": 67.26511436299916, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 67.28869707899867, "event": {"type": "message.delta", "content": "II"}}
+{"elapsed_seconds": 67.31098658400151, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 67.3349626579984, "event": {"type": "message.delta", "content": " same"}}
+{"elapsed_seconds": 67.35810178300017, "event": {"type": "message.delta", "content": " year"}}
+{"elapsed_seconds": 67.38199111200083, "event": {"type": "message.delta", "content": " left"}}
+{"elapsed_seconds": 67.40509361599834, "event": {"type": "message.delta", "content": " his"}}
+{"elapsed_seconds": 67.42898528500154, "event": {"type": "message.delta", "content": " young"}}
+{"elapsed_seconds": 67.45208760799869, "event": {"type": "message.delta", "content": " sons"}}
+{"elapsed_seconds": 67.47507920700082, "event": {"type": "message.delta", "content": " Basil"}}
+{"elapsed_seconds": 67.49952745200062, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 67.52388329400128, "event": {"type": "message.delta", "content": " Constantine"}}
+{"elapsed_seconds": 67.54798817299888, "event": {"type": "message.delta", "content": " under"}}
+{"elapsed_seconds": 67.5720159199991, "event": {"type": "message.delta", "content": " reg"}}
+{"elapsed_seconds": 67.59636125999896, "event": {"type": "message.delta", "content": "ency"}}
+{"elapsed_seconds": 67.62011811399861, "event": {"type": "message.delta", "content": ";"}}
+{"elapsed_seconds": 67.64391689900003, "event": {"type": "message.delta", "content": " Ph"}}
+{"elapsed_seconds": 67.66712067700064, "event": {"type": "message.delta", "content": "ocas"}}
+{"elapsed_seconds": 67.69096661499862, "event": {"type": "message.delta", "content": " claimed"}}
+{"elapsed_seconds": 67.71445774599852, "event": {"type": "message.delta", "content": " their"}}
+{"elapsed_seconds": 67.74029662600151, "event": {"type": "message.delta", "content": " guardians"}}
+{"elapsed_seconds": 67.76260543299941, "event": {"type": "message.delta", "content": "hip"}}
+{"elapsed_seconds": 67.78496454099877, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 67.80750850899858, "event": {"type": "message.delta", "content": " married"}}
+{"elapsed_seconds": 67.8299467709985, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 67.85260176299926, "event": {"type": "message.delta", "content": " dow"}}
+{"elapsed_seconds": 67.87522440400062, "event": {"type": "message.delta", "content": "ager"}}
+{"elapsed_seconds": 67.8984938149988, "event": {"type": "message.delta", "content": " em"}}
+{"elapsed_seconds": 67.92204027900152, "event": {"type": "message.delta", "content": "press"}}
+{"elapsed_seconds": 67.94499887499842, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 67.96814566100147, "event": {"type": "message.delta", "content": "oph"}}
+{"elapsed_seconds": 67.99191098400115, "event": {"type": "message.delta", "content": "ano"}}
+{"elapsed_seconds": 68.01599554299901, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 68.04004845099917, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 68.06404441500126, "event": {"type": "message.delta", "content": " ruled"}}
+{"elapsed_seconds": 68.0880603609985, "event": {"type": "message.delta", "content": " jointly"}}
+{"elapsed_seconds": 68.112366379999, "event": {"type": "message.delta", "content": " from"}}
+{"elapsed_seconds": 68.13694609199956, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.16108845299823, "event": {"type": "message.delta", "content": "963"}}
+{"elapsed_seconds": 68.18505134600127, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 68.2094287889995, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.23407169300117, "event": {"type": "message.delta", "content": "969"}}
+{"elapsed_seconds": 68.25806444800037, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 68.28246156100067, "event": {"type": "message.delta", "content": " maintaining"}}
+{"elapsed_seconds": 68.30714243799957, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 68.33111267099957, "event": {"type": "message.delta", "content": " reputation"}}
+{"elapsed_seconds": 68.3528439110014, "event": {"type": "message.delta", "content": " for"}}
+{"elapsed_seconds": 68.3752567019983, "event": {"type": "message.delta", "content": " loyalty"}}
+{"elapsed_seconds": 68.39907160800067, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 68.42215485999986, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 68.44624346899946, "event": {"type": "message.delta", "content": " imperial"}}
+{"elapsed_seconds": 68.47019629200076, "event": {"type": "message.delta", "content": " heirs"}}
+{"elapsed_seconds": 68.49318054999821, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 68.51608647399917, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 68.54010835000008, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 68.56405978199837, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 68.58823919499991, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.61214191600084, "event": {"type": "message.delta", "content": "256"}}
+{"elapsed_seconds": 68.63531156200042, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 68.65918406099809, "event": {"type": "message.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 68.68356398299875, "event": {"type": "message.delta", "content": "During"}}
+{"elapsed_seconds": 68.70591738200164, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 68.7278891829992, "event": {"type": "message.delta", "content": "964"}}
+{"elapsed_seconds": 68.75156624200099, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 68.77525116299876, "event": {"type": "message.delta", "content": "965"}}
+{"elapsed_seconds": 68.79908194900054, "event": {"type": "message.delta", "content": " Ph"}}
+{"elapsed_seconds": 68.8222342049994, "event": {"type": "message.delta", "content": "ocas"}}
+{"elapsed_seconds": 68.84620453800017, "event": {"type": "message.delta", "content": " seized"}}
+{"elapsed_seconds": 68.8701831920007, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 68.89392817499902, "event": {"type": "message.delta", "content": " Cil"}}
+{"elapsed_seconds": 68.91711919199952, "event": {"type": "message.delta", "content": "ician"}}
+{"elapsed_seconds": 68.94028888899993, "event": {"type": "message.delta", "content": " strong"}}
+{"elapsed_seconds": 68.96317991199976, "event": {"type": "message.delta", "content": "holds"}}
+{"elapsed_seconds": 68.98629059599989, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 69.0092751230004, "event": {"type": "message.delta", "content": " Ad"}}
+{"elapsed_seconds": 69.03225372100133, "event": {"type": "message.delta", "content": "ana"}}
+{"elapsed_seconds": 69.05564397700073, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 69.0788309640011, "event": {"type": "message.delta", "content": " M"}}
+{"elapsed_seconds": 69.10264405999988, "event": {"type": "message.delta", "content": "ops"}}
+{"elapsed_seconds": 69.12579111599916, "event": {"type": "message.delta", "content": "uest"}}
+{"elapsed_seconds": 69.14976479899997, "event": {"type": "message.delta", "content": "ia"}}
+{"elapsed_seconds": 69.17266742300126, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 69.19646847900003, "event": {"type": "message.delta", "content": " T"}}
+{"elapsed_seconds": 69.22070720500051, "event": {"type": "message.delta", "content": "ars"}}
+{"elapsed_seconds": 69.2447144100006, "event": {"type": "message.delta", "content": "us"}}
+{"elapsed_seconds": 69.26912265400097, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 69.29212742299933, "event": {"type": "message.delta", "content": " sent"}}
+{"elapsed_seconds": 69.3167204450001, "event": {"type": "message.delta", "content": " their"}}
+{"elapsed_seconds": 69.34122383299837, "event": {"type": "message.delta", "content": " bronze"}}
+{"elapsed_seconds": 69.36530679199859, "event": {"type": "message.delta", "content": " gates"}}
+{"elapsed_seconds": 69.38907611600007, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 69.41327746000024, "event": {"type": "message.delta", "content": " Constantin"}}
+{"elapsed_seconds": 69.43715022900142, "event": {"type": "message.delta", "content": "ople"}}
+{"elapsed_seconds": 69.4615093809989, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 69.48608856300052, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 69.51014349999969, "event": {"type": "message.delta", "content": " reclaimed"}}
+{"elapsed_seconds": 69.53410982299829, "event": {"type": "message.delta", "content": " Cyprus"}}
+{"elapsed_seconds": 69.55818175099921, "event": {"type": "message.delta", "content": " after"}}
+{"elapsed_seconds": 69.58217452600002, "event": {"type": "message.delta", "content": " seventy"}}
+{"elapsed_seconds": 69.60611702800088, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 69.63001864800026, "event": {"type": "message.delta", "content": "seven"}}
+{"elapsed_seconds": 69.65411402799873, "event": {"type": "message.delta", "content": " years"}}
+{"elapsed_seconds": 69.6781817359988, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 69.70231284699912, "event": {"type": "message.delta", "content": " Sar"}}
+{"elapsed_seconds": 69.72631826200086, "event": {"type": "message.delta", "content": "acen"}}
+{"elapsed_seconds": 69.75017122999998, "event": {"type": "message.delta", "content": " rule"}}
+{"elapsed_seconds": 69.77467395799977, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 69.79812886799846, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 69.82211316200119, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 69.84630695599844, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 69.870061859001, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 69.89167724299841, "event": {"type": "message.delta", "content": "257"}}
+{"elapsed_seconds": 69.91532631099835, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 69.93895899899871, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 69.96084258599876, "event": {"type": "message.delta", "content": " His"}}
+{"elapsed_seconds": 69.98434802799966, "event": {"type": "message.delta", "content": " domestic"}}
+{"elapsed_seconds": 70.00832583100055, "event": {"type": "message.delta", "content": " policies"}}
+{"elapsed_seconds": 70.03227204399809, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 70.05639745399822, "event": {"type": "message.delta", "content": " however"}}
+{"elapsed_seconds": 70.08023080199928, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 70.10434720199919, "event": {"type": "message.delta", "content": " prov"}}
+{"elapsed_seconds": 70.1283418569983, "event": {"type": "message.delta", "content": "oked"}}
+{"elapsed_seconds": 70.15227225800118, "event": {"type": "message.delta", "content": " hostility"}}
+{"elapsed_seconds": 70.17614007700104, "event": {"type": "message.delta", "content": ":"}}
+{"elapsed_seconds": 70.1998391570014, "event": {"type": "message.delta", "content": " clashes"}}
+{"elapsed_seconds": 70.22421478999968, "event": {"type": "message.delta", "content": " with"}}
+{"elapsed_seconds": 70.24826581700108, "event": {"type": "message.delta", "content": " Patri"}}
+{"elapsed_seconds": 70.27220873899932, "event": {"type": "message.delta", "content": "arch"}}
+{"elapsed_seconds": 70.29553434300033, "event": {"type": "message.delta", "content": " Pol"}}
+{"elapsed_seconds": 70.31886782700167, "event": {"type": "message.delta", "content": "ye"}}
+{"elapsed_seconds": 70.3416561749982, "event": {"type": "message.delta", "content": "uctus"}}
+{"elapsed_seconds": 70.36454259799939, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 70.38679020199925, "event": {"type": "message.delta", "content": " suppression"}}
+{"elapsed_seconds": 70.40942248300053, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 70.4319892909989, "event": {"type": "message.delta", "content": " public"}}
+{"elapsed_seconds": 70.45449710699904, "event": {"type": "message.delta", "content": " spectacles"}}
+{"elapsed_seconds": 70.47695718999967, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 70.49965931499901, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 70.52263755199965, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 70.54591704300037, "event": {"type": "message.delta", "content": " red"}}
+{"elapsed_seconds": 70.56865266000023, "event": {"type": "message.delta", "content": "irection"}}
+{"elapsed_seconds": 70.59136414399836, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 70.6158938640001, "event": {"type": "message.delta", "content": " state"}}
+{"elapsed_seconds": 70.64029466699867, "event": {"type": "message.delta", "content": " revenues"}}
+{"elapsed_seconds": 70.66457386500042, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 70.6882447450007, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 70.71137035900028, "event": {"type": "message.delta", "content": " war"}}
+{"elapsed_seconds": 70.73546708800131, "event": {"type": "message.delta", "content": " budget"}}
+{"elapsed_seconds": 70.75926929400157, "event": {"type": "message.delta", "content": " earned"}}
+{"elapsed_seconds": 70.78342647599857, "event": {"type": "message.delta", "content": " him"}}
+{"elapsed_seconds": 70.80735360700055, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 70.83122846699916, "event": {"type": "message.delta", "content": " popular"}}
+{"elapsed_seconds": 70.85540482999932, "event": {"type": "message.delta", "content": " ep"}}
+{"elapsed_seconds": 70.87824586100032, "event": {"type": "message.delta", "content": "ithe"}}
+{"elapsed_seconds": 70.90235010999822, "event": {"type": "message.delta", "content": "ts"}}
+{"elapsed_seconds": 70.92541863199949, "event": {"type": "message.delta", "content": " \u201c"}}
+{"elapsed_seconds": 70.94834784699924, "event": {"type": "message.delta", "content": "n"}}
+{"elapsed_seconds": 70.97126491200106, "event": {"type": "message.delta", "content": "igg"}}
+{"elapsed_seconds": 70.99434643399945, "event": {"type": "message.delta", "content": "ard"}}
+{"elapsed_seconds": 71.01809299700108, "event": {"type": "message.delta", "content": "\u201d"}}
+{"elapsed_seconds": 71.04232389200115, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 71.06555080099861, "event": {"type": "message.delta", "content": " \u201c"}}
+{"elapsed_seconds": 71.08834787999876, "event": {"type": "message.delta", "content": "ext"}}
+{"elapsed_seconds": 71.11229519300105, "event": {"type": "message.delta", "content": "ortion"}}
+{"elapsed_seconds": 71.13523764799902, "event": {"type": "message.delta", "content": "er"}}
+{"elapsed_seconds": 71.15996631699818, "event": {"type": "message.delta", "content": "\u201d"}}
+{"elapsed_seconds": 71.18373192099898, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 71.20622176599863, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 71.23132453200014, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 71.2556998939981, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 71.27771307700095, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 71.30217635300141, "event": {"type": "message.delta", "content": "258"}}
+{"elapsed_seconds": 71.32531346799806, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 71.3491818270013, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 71.37333211900113, "event": {"type": "message.delta", "content": " In"}}
+{"elapsed_seconds": 71.39583138400121, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 71.41835913999967, "event": {"type": "message.delta", "content": " winter"}}
+{"elapsed_seconds": 71.44201791899832, "event": {"type": "message.delta", "content": " siege"}}
+{"elapsed_seconds": 71.46473105399855, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 71.48778240499814, "event": {"type": "message.delta", "content": " Antio"}}
+{"elapsed_seconds": 71.51077787300164, "event": {"type": "message.delta", "content": "ch"}}
+{"elapsed_seconds": 71.53334918199835, "event": {"type": "message.delta", "content": " he"}}
+{"elapsed_seconds": 71.55733164599951, "event": {"type": "message.delta", "content": " ignored"}}
+{"elapsed_seconds": 71.58139199300058, "event": {"type": "message.delta", "content": " orders"}}
+{"elapsed_seconds": 71.60453481800141, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 71.6280391500004, "event": {"type": "message.delta", "content": " storm"}}
+{"elapsed_seconds": 71.65137251399938, "event": {"type": "message.delta", "content": "ed"}}
+{"elapsed_seconds": 71.67550408500028, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 71.69905556899903, "event": {"type": "message.delta", "content": " tower"}}
+{"elapsed_seconds": 71.72235913199984, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 71.74498113300069, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 71.76760521400138, "event": {"type": "message.delta", "content": " subsequently"}}
+{"elapsed_seconds": 71.7903205190014, "event": {"type": "message.delta", "content": " dismissed"}}
+{"elapsed_seconds": 71.81282628400004, "event": {"type": "message.delta", "content": " both"}}
+{"elapsed_seconds": 71.83653689499988, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 71.85936655600017, "event": {"type": "message.delta", "content": " dis"}}
+{"elapsed_seconds": 71.88196921599956, "event": {"type": "message.delta", "content": "obed"}}
+{"elapsed_seconds": 71.90472666300047, "event": {"type": "message.delta", "content": "ient"}}
+{"elapsed_seconds": 71.9292314009981, "event": {"type": "message.delta", "content": " commander"}}
+{"elapsed_seconds": 71.95261972799926, "event": {"type": "message.delta", "content": " Burt"}}
+{"elapsed_seconds": 71.97726278299888, "event": {"type": "message.delta", "content": "zes"}}
+{"elapsed_seconds": 72.00126660800015, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 72.02545131100123, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 72.0494657570016, "event": {"type": "message.delta", "content": " overly"}}
+{"elapsed_seconds": 72.0735374049982, "event": {"type": "message.delta", "content": " obedient"}}
+{"elapsed_seconds": 72.09648793100132, "event": {"type": "message.delta", "content": " general"}}
+{"elapsed_seconds": 72.12045994399887, "event": {"type": "message.delta", "content": " Peter"}}
+{"elapsed_seconds": 72.14441498700035, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 72.1684425329986, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 72.19253329200001, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 72.2163863800015, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 72.24056378300156, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.26343019499836, "event": {"type": "message.delta", "content": "259"}}
+{"elapsed_seconds": 72.28647832600109, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 72.31105781799852, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 72.33534482599862, "event": {"type": "message.delta", "content": " Ph"}}
+{"elapsed_seconds": 72.35940499400022, "event": {"type": "message.delta", "content": "ocas"}}
+{"elapsed_seconds": 72.38350187299875, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 72.4074548460012, "event": {"type": "message.delta", "content": " reign"}}
+{"elapsed_seconds": 72.4313993479991, "event": {"type": "message.delta", "content": " ended"}}
+{"elapsed_seconds": 72.45452422200106, "event": {"type": "message.delta", "content": " abruptly"}}
+{"elapsed_seconds": 72.47773614100151, "event": {"type": "message.delta", "content": " when"}}
+{"elapsed_seconds": 72.50162351000108, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 72.52434645600079, "event": {"type": "message.delta", "content": "oph"}}
+{"elapsed_seconds": 72.54794535199835, "event": {"type": "message.delta", "content": "ano"}}
+{"elapsed_seconds": 72.5714832449994, "event": {"type": "message.delta", "content": " con"}}
+{"elapsed_seconds": 72.59557501499876, "event": {"type": "message.delta", "content": "spired"}}
+{"elapsed_seconds": 72.62011119399904, "event": {"type": "message.delta", "content": " with"}}
+{"elapsed_seconds": 72.64355595300003, "event": {"type": "message.delta", "content": " her"}}
+{"elapsed_seconds": 72.66757558899917, "event": {"type": "message.delta", "content": " lover"}}
+{"elapsed_seconds": 72.6895926219986, "event": {"type": "message.delta", "content": " John"}}
+{"elapsed_seconds": 72.71367267000096, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 72.73752263799906, "event": {"type": "message.delta", "content": "Z"}}
+{"elapsed_seconds": 72.75974105999921, "event": {"type": "message.delta", "content": "imis"}}
+{"elapsed_seconds": 72.78358759799812, "event": {"type": "message.delta", "content": "ces"}}
+{"elapsed_seconds": 72.80753524100146, "event": {"type": "message.delta", "content": ";"}}
+{"elapsed_seconds": 72.83077861000129, "event": {"type": "message.delta", "content": " on"}}
+{"elapsed_seconds": 72.85446527100066, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 72.87760052500016, "event": {"type": "message.delta", "content": " December"}}
+{"elapsed_seconds": 72.90166837300058, "event": {"type": "message.delta", "content": " night"}}
+{"elapsed_seconds": 72.92441189999954, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 72.94734106499891, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 72.96999162700013, "event": {"type": "message.delta", "content": "969"}}
+{"elapsed_seconds": 72.99245433100077, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 73.01508057200044, "event": {"type": "message.delta", "content": " emperor"}}
+{"elapsed_seconds": 73.03770197199992, "event": {"type": "message.delta", "content": " was"}}
+{"elapsed_seconds": 73.06025220000083, "event": {"type": "message.delta", "content": " murdered"}}
+{"elapsed_seconds": 73.08295791500132, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 73.10572142199817, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 73.12862877600128, "event": {"type": "message.delta", "content": " dozen"}}
+{"elapsed_seconds": 73.15174385000137, "event": {"type": "message.delta", "content": " assass"}}
+{"elapsed_seconds": 73.17432598899904, "event": {"type": "message.delta", "content": "ins"}}
+{"elapsed_seconds": 73.19679388299846, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 73.21926625600099, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 73.24191091800094, "event": {"type": "message.delta", "content": " deed"}}
+{"elapsed_seconds": 73.2657853669989, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 73.28982108399941, "event": {"type": "message.delta", "content": " allowed"}}
+{"elapsed_seconds": 73.31198883400066, "event": {"type": "message.delta", "content": " Z"}}
+{"elapsed_seconds": 73.33561482100049, "event": {"type": "message.delta", "content": "imis"}}
+{"elapsed_seconds": 73.35851185499996, "event": {"type": "message.delta", "content": "ces"}}
+{"elapsed_seconds": 73.38258391300042, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 73.40666777200022, "event": {"type": "message.delta", "content": " seize"}}
+{"elapsed_seconds": 73.42937758599874, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 73.45423004099939, "event": {"type": "message.delta", "content": " throne"}}
+{"elapsed_seconds": 73.47759855600088, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 73.50151248700058, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 73.52366712599905, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 73.54760684899884, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 73.57155541099928, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 73.594609071999, "event": {"type": "message.delta", "content": "260"}}
+{"elapsed_seconds": 73.61858238499917, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 73.64178609300143, "event": {"type": "message.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 73.66567937299988, "event": {"type": "message.delta", "content": "John"}}
+{"elapsed_seconds": 73.68967707800039, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 73.71214440100084, "event": {"type": "message.delta", "content": "Z"}}
+{"elapsed_seconds": 73.7353707000002, "event": {"type": "message.delta", "content": "imis"}}
+{"elapsed_seconds": 73.76273852200029, "event": {"type": "message.delta", "content": "ces"}}
+{"elapsed_seconds": 73.78559732299982, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 73.80970432300091, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 73.83354791099919, "event": {"type": "message.delta", "content": " former"}}
+{"elapsed_seconds": 73.85685347300023, "event": {"type": "message.delta", "content": " cavalry"}}
+{"elapsed_seconds": 73.88121944500017, "event": {"type": "message.delta", "content": " officer"}}
+{"elapsed_seconds": 73.90453294799954, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 73.92632312999922, "event": {"type": "message.delta", "content": " rep"}}
+{"elapsed_seconds": 73.95000267000069, "event": {"type": "message.delta", "content": "elled"}}
+{"elapsed_seconds": 73.9729541960005, "event": {"type": "message.delta", "content": " two"}}
+{"elapsed_seconds": 73.99604157900103, "event": {"type": "message.delta", "content": " Russian"}}
+{"elapsed_seconds": 74.02068124300058, "event": {"type": "message.delta", "content": " incurs"}}
+{"elapsed_seconds": 74.04468348799855, "event": {"type": "message.delta", "content": "ions"}}
+{"elapsed_seconds": 74.06851123500019, "event": {"type": "message.delta", "content": "\u2014"}}
+{"elapsed_seconds": 74.09268406800038, "event": {"type": "message.delta", "content": "first"}}
+{"elapsed_seconds": 74.11671747400032, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 74.14060115399843, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.16476920700006, "event": {"type": "message.delta", "content": "907"}}
+{"elapsed_seconds": 74.1875082330007, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 74.21163394299947, "event": {"type": "message.delta", "content": " then"}}
+{"elapsed_seconds": 74.23373197999899, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 74.256649474999, "event": {"type": "message.delta", "content": " larger"}}
+{"elapsed_seconds": 74.27961100099856, "event": {"type": "message.delta", "content": " raid"}}
+{"elapsed_seconds": 74.30289857300158, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 74.3257708050005, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.34889617999943, "event": {"type": "message.delta", "content": "941"}}
+{"elapsed_seconds": 74.37188744800005, "event": {"type": "message.delta", "content": "\u2014"}}
+{"elapsed_seconds": 74.39466184499906, "event": {"type": "message.delta", "content": "by"}}
+{"elapsed_seconds": 74.41785047300073, "event": {"type": "message.delta", "content": " destroying"}}
+{"elapsed_seconds": 74.4406058099994, "event": {"type": "message.delta", "content": " their"}}
+{"elapsed_seconds": 74.4646087350011, "event": {"type": "message.delta", "content": " light"}}
+{"elapsed_seconds": 74.48827181399975, "event": {"type": "message.delta", "content": " boats"}}
+{"elapsed_seconds": 74.51053041799969, "event": {"type": "message.delta", "content": " at"}}
+{"elapsed_seconds": 74.53303515299922, "event": {"type": "message.delta", "content": " sea"}}
+{"elapsed_seconds": 74.55690088199844, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 74.5796275979992, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 74.60268108799937, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 74.62656109800082, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 74.65068231799887, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.67448061400137, "event": {"type": "message.delta", "content": "261"}}
+{"elapsed_seconds": 74.69872021999981, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 74.7222874250001, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 74.74577864599996, "event": {"type": "message.delta", "content": " In"}}
+{"elapsed_seconds": 74.76969689700127, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 74.79364816900124, "event": {"type": "message.delta", "content": "970"}}
+{"elapsed_seconds": 74.8157022939995, "event": {"type": "message.delta", "content": " he"}}
+{"elapsed_seconds": 74.83886875000098, "event": {"type": "message.delta", "content": " confronted"}}
+{"elapsed_seconds": 74.8617714840002, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 74.88581149099991, "event": {"type": "message.delta", "content": " massive"}}
+{"elapsed_seconds": 74.9098538779981, "event": {"type": "message.delta", "content": " Russian"}}
+{"elapsed_seconds": 74.93265491700004, "event": {"type": "message.delta", "content": " army"}}
+{"elapsed_seconds": 74.95631107599911, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 74.98023231700063, "event": {"type": "message.delta", "content": " sixty"}}
+{"elapsed_seconds": 75.00480774799871, "event": {"type": "message.delta", "content": " thousand"}}
+{"elapsed_seconds": 75.02869828799885, "event": {"type": "message.delta", "content": " under"}}
+{"elapsed_seconds": 75.05260410900155, "event": {"type": "message.delta", "content": " King"}}
+{"elapsed_seconds": 75.07563370799835, "event": {"type": "message.delta", "content": " Sw"}}
+{"elapsed_seconds": 75.09867752900027, "event": {"type": "message.delta", "content": "iet"}}
+{"elapsed_seconds": 75.12263356200128, "event": {"type": "message.delta", "content": "oslav"}}
+{"elapsed_seconds": 75.14581230800104, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 75.16966079600024, "event": {"type": "message.delta", "content": " defeating"}}
+{"elapsed_seconds": 75.19278340999881, "event": {"type": "message.delta", "content": " it"}}
+{"elapsed_seconds": 75.21662762800042, "event": {"type": "message.delta", "content": " at"}}
+{"elapsed_seconds": 75.24068832500052, "event": {"type": "message.delta", "content": " Sil"}}
+{"elapsed_seconds": 75.26381485000093, "event": {"type": "message.delta", "content": "istr"}}
+{"elapsed_seconds": 75.2868445690001, "event": {"type": "message.delta", "content": "ia"}}
+{"elapsed_seconds": 75.31079464199865, "event": {"type": "message.delta", "content": ";"}}
+{"elapsed_seconds": 75.33474170399859, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 75.35783423699831, "event": {"type": "message.delta", "content": " defeated"}}
+{"elapsed_seconds": 75.38178084899846, "event": {"type": "message.delta", "content": " s"}}
+{"elapsed_seconds": 75.40581443599876, "event": {"type": "message.delta", "content": "ultan"}}
+{"elapsed_seconds": 75.42986797299818, "event": {"type": "message.delta", "content": " sw"}}
+{"elapsed_seconds": 75.4537950140002, "event": {"type": "message.delta", "content": "ore"}}
+{"elapsed_seconds": 75.4778218600004, "event": {"type": "message.delta", "content": " never"}}
+{"elapsed_seconds": 75.50174208200042, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 75.52592314499998, "event": {"type": "message.delta", "content": " molest"}}
+{"elapsed_seconds": 75.54882687899953, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 75.57292892799887, "event": {"type": "message.delta", "content": " empire"}}
+{"elapsed_seconds": 75.59684538899819, "event": {"type": "message.delta", "content": " again"}}
+{"elapsed_seconds": 75.62247501999809, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 75.64354403800098, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 75.66610918700098, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 75.68925556199974, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 75.71200039799805, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 75.73485523999989, "event": {"type": "message.delta", "content": "263"}}
+{"elapsed_seconds": 75.7574245379983, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 75.7812239140003, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 75.80404808399908, "event": {"type": "message.delta", "content": " After"}}
+{"elapsed_seconds": 75.82666533500014, "event": {"type": "message.delta", "content": " Z"}}
+{"elapsed_seconds": 75.84918644099889, "event": {"type": "message.delta", "content": "imis"}}
+{"elapsed_seconds": 75.87254318600026, "event": {"type": "message.delta", "content": "ces"}}
+{"elapsed_seconds": 75.89677926199874, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 75.91984622300151, "event": {"type": "message.delta", "content": " death"}}
+{"elapsed_seconds": 75.94265289300165, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 75.96582103900073, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 75.98983684500126, "event": {"type": "message.delta", "content": " Maced"}}
+{"elapsed_seconds": 76.01217145199917, "event": {"type": "message.delta", "content": "onian"}}
+{"elapsed_seconds": 76.03486968599827, "event": {"type": "message.delta", "content": " line"}}
+{"elapsed_seconds": 76.05758109100134, "event": {"type": "message.delta", "content": " ended"}}
+{"elapsed_seconds": 76.0818240080007, "event": {"type": "message.delta", "content": " with"}}
+{"elapsed_seconds": 76.10612342699824, "event": {"type": "message.delta", "content": " Basil"}}
+{"elapsed_seconds": 76.13092660899929, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 76.15486486100053, "event": {"type": "message.delta", "content": "II"}}
+{"elapsed_seconds": 76.17854546099989, "event": {"type": "message.delta", "content": " ("}}
+{"elapsed_seconds": 76.20292645299924, "event": {"type": "message.delta", "content": "976"}}
+{"elapsed_seconds": 76.22684170399953, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 76.25115644399921, "event": {"type": "message.delta", "content": "102"}}
+{"elapsed_seconds": 76.27527287400153, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 76.29998716200134, "event": {"type": "message.delta", "content": "),"}}
+{"elapsed_seconds": 76.32399155700114, "event": {"type": "message.delta", "content": " whose"}}
+{"elapsed_seconds": 76.34794660999978, "event": {"type": "message.delta", "content": " reign"}}
+{"elapsed_seconds": 76.37188249199971, "event": {"type": "message.delta", "content": " was"}}
+{"elapsed_seconds": 76.3958957270006, "event": {"type": "message.delta", "content": " dominated"}}
+{"elapsed_seconds": 76.41984862000027, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 76.44372459900114, "event": {"type": "message.delta", "content": " continuous"}}
+{"elapsed_seconds": 76.46792248299971, "event": {"type": "message.delta", "content": " warfare"}}
+{"elapsed_seconds": 76.4918857369994, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 76.51577147699936, "event": {"type": "message.delta", "content": " notably"}}
+{"elapsed_seconds": 76.53989005699987, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 76.5638328189998, "event": {"type": "message.delta", "content": " thirty"}}
+{"elapsed_seconds": 76.5878288640015, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 76.61192670400123, "event": {"type": "message.delta", "content": "four"}}
+{"elapsed_seconds": 76.63594383899908, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 76.65979734700159, "event": {"type": "message.delta", "content": "year"}}
+{"elapsed_seconds": 76.68383184399863, "event": {"type": "message.delta", "content": " Bulgarian"}}
+{"elapsed_seconds": 76.70792444299877, "event": {"type": "message.delta", "content": " wars"}}
+{"elapsed_seconds": 76.73175451000134, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 76.75581971800057, "event": {"type": "message.delta", "content": " culmin"}}
+{"elapsed_seconds": 76.7798676450002, "event": {"type": "message.delta", "content": "ated"}}
+{"elapsed_seconds": 76.80411034099961, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 76.82802051199906, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 76.85178541599817, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 76.87501759500083, "event": {"type": "message.delta", "content": "101"}}
+{"elapsed_seconds": 76.89899756899831, "event": {"type": "message.delta", "content": "4"}}
+{"elapsed_seconds": 76.9228978889987, "event": {"type": "message.delta", "content": " victory"}}
+{"elapsed_seconds": 76.94722046899915, "event": {"type": "message.delta", "content": " at"}}
+{"elapsed_seconds": 76.97145807500056, "event": {"type": "message.delta", "content": " Kleid"}}
+{"elapsed_seconds": 76.99592709200078, "event": {"type": "message.delta", "content": "ion"}}
+{"elapsed_seconds": 77.01977002900094, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 77.04390752000108, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 77.06806031199812, "event": {"type": "message.delta", "content": " near"}}
+{"elapsed_seconds": 77.09291766699971, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 77.117363243, "event": {"type": "message.delta", "content": "ann"}}
+{"elapsed_seconds": 77.14180455799942, "event": {"type": "message.delta", "content": "ih"}}
+{"elapsed_seconds": 77.16398983799809, "event": {"type": "message.delta", "content": "ilation"}}
+{"elapsed_seconds": 77.18854737899892, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 77.2118865529992, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 77.23513040300168, "event": {"type": "message.delta", "content": " Bulgarian"}}
+{"elapsed_seconds": 77.2590966860007, "event": {"type": "message.delta", "content": " elite"}}
+{"elapsed_seconds": 77.28111584900034, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 77.30404634500155, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 77.32644555500156, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 77.34944710299897, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.37336284399862, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.39704956399873, "event": {"type": "message.delta", "content": "267"}}
+{"elapsed_seconds": 77.42095384500135, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 77.44495712999924, "event": {"type": "message.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 77.46936901400113, "event": {"type": "message.delta", "content": "The"}}
+{"elapsed_seconds": 77.49386258199957, "event": {"type": "message.delta", "content": " Byzantine"}}
+{"elapsed_seconds": 77.5180704359991, "event": {"type": "message.delta", "content": " fortunes"}}
+{"elapsed_seconds": 77.54212156300127, "event": {"type": "message.delta", "content": " wan"}}
+{"elapsed_seconds": 77.56467341100142, "event": {"type": "message.delta", "content": "ed"}}
+{"elapsed_seconds": 77.58724542900018, "event": {"type": "message.delta", "content": " after"}}
+{"elapsed_seconds": 77.60965135999868, "event": {"type": "message.delta", "content": " Basil"}}
+{"elapsed_seconds": 77.6323692449987, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 77.65505696900073, "event": {"type": "message.delta", "content": " death"}}
+{"elapsed_seconds": 77.67795727300108, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 77.70126822599923, "event": {"type": "message.delta", "content": " Alex"}}
+{"elapsed_seconds": 77.72401357299896, "event": {"type": "message.delta", "content": "ios"}}
+{"elapsed_seconds": 77.74694501799968, "event": {"type": "message.delta", "content": "\u202f"}}
+{"elapsed_seconds": 77.76969550500144, "event": {"type": "message.delta", "content": "Com"}}
+{"elapsed_seconds": 77.79296146499837, "event": {"type": "message.delta", "content": "nen"}}
+{"elapsed_seconds": 77.81599444499807, "event": {"type": "message.delta", "content": "us"}}
+{"elapsed_seconds": 77.83890679999968, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 77.86202666399913, "event": {"type": "message.delta", "content": " who"}}
+{"elapsed_seconds": 77.88499101100024, "event": {"type": "message.delta", "content": " asc"}}
+{"elapsed_seconds": 77.90812362499855, "event": {"type": "message.delta", "content": "ended"}}
+{"elapsed_seconds": 77.93093560499983, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 77.95380650700099, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 77.97645866899984, "event": {"type": "message.delta", "content": "108"}}
+{"elapsed_seconds": 77.99903725799959, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 78.02206147800098, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 78.04496940199897, "event": {"type": "message.delta", "content": " faced"}}
+{"elapsed_seconds": 78.06893699500142, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 78.09300373400038, "event": {"type": "message.delta", "content": " dual"}}
+{"elapsed_seconds": 78.11684798100032, "event": {"type": "message.delta", "content": " threats"}}
+{"elapsed_seconds": 78.14094933099841, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 78.16406620400085, "event": {"type": "message.delta", "content": " Sel"}}
+{"elapsed_seconds": 78.1878540889993, "event": {"type": "message.delta", "content": "juk"}}
+{"elapsed_seconds": 78.21290414300165, "event": {"type": "message.delta", "content": " incurs"}}
+{"elapsed_seconds": 78.2371676900002, "event": {"type": "message.delta", "content": "ions"}}
+{"elapsed_seconds": 78.26059902799898, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 78.28460074300165, "event": {"type": "message.delta", "content": " Asia"}}
+{"elapsed_seconds": 78.30716975199903, "event": {"type": "message.delta", "content": " Minor"}}
+{"elapsed_seconds": 78.32970886900148, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 78.35236762099885, "event": {"type": "message.delta", "content": " Norman"}}
+{"elapsed_seconds": 78.37490929900014, "event": {"type": "message.delta", "content": " ambitions"}}
+{"elapsed_seconds": 78.39760925299925, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 78.42118161799954, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 78.44384457100023, "event": {"type": "message.delta", "content": " west"}}
+{"elapsed_seconds": 78.4663759469986, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 78.49056821100021, "event": {"type": "message.delta", "content": " He"}}
+{"elapsed_seconds": 78.51497254499918, "event": {"type": "message.delta", "content": " suffered"}}
+{"elapsed_seconds": 78.53915473799862, "event": {"type": "message.delta", "content": " defeat"}}
+{"elapsed_seconds": 78.5629380729988, "event": {"type": "message.delta", "content": " at"}}
+{"elapsed_seconds": 78.58722159099852, "event": {"type": "message.delta", "content": " Dur"}}
+{"elapsed_seconds": 78.61096790399824, "event": {"type": "message.delta", "content": "azzo"}}
+{"elapsed_seconds": 78.63486853399809, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 78.6581258849983, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 78.68310027500047, "event": {"type": "message.delta", "content": "108"}}
+{"elapsed_seconds": 78.70702411599996, "event": {"type": "message.delta", "content": "1"}}
+{"elapsed_seconds": 78.73137197699907, "event": {"type": "message.delta", "content": " but"}}
+{"elapsed_seconds": 78.75595954899836, "event": {"type": "message.delta", "content": " later"}}
+{"elapsed_seconds": 78.7802426269991, "event": {"type": "message.delta", "content": " rep"}}
+{"elapsed_seconds": 78.80430178499955, "event": {"type": "message.delta", "content": "elled"}}
+{"elapsed_seconds": 78.8281193110015, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 78.85214876700047, "event": {"type": "message.delta", "content": " Norm"}}
+{"elapsed_seconds": 78.87611963100062, "event": {"type": "message.delta", "content": "ans"}}
+{"elapsed_seconds": 78.89997203899838, "event": {"type": "message.delta", "content": " at"}}
+{"elapsed_seconds": 78.92409208900062, "event": {"type": "message.delta", "content": " Lar"}}
+{"elapsed_seconds": 78.9471410699989, "event": {"type": "message.delta", "content": "issa"}}
+{"elapsed_seconds": 78.97203778599942, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 78.99606341199978, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.02010172899827, "event": {"type": "message.delta", "content": "108"}}
+{"elapsed_seconds": 79.04408050300117, "event": {"type": "message.delta", "content": "3"}}
+{"elapsed_seconds": 79.06795191199853, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 79.0919221059994, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 79.11469896400013, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 79.13708297300036, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.15937735899934, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 79.18206728299992, "event": {"type": "message.delta", "content": "286"}}
+{"elapsed_seconds": 79.20612101000006, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 79.23005142200054, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 79.25393026099846, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 79.27713391900033, "event": {"type": "message.delta", "content": " First"}}
+{"elapsed_seconds": 79.30107966099968, "event": {"type": "message.delta", "content": " Crus"}}
+{"elapsed_seconds": 79.32486044599864, "event": {"type": "message.delta", "content": "ade"}}
+{"elapsed_seconds": 79.34830448499997, "event": {"type": "message.delta", "content": " ("}}
+{"elapsed_seconds": 79.37216148299922, "event": {"type": "message.delta", "content": "109"}}
+{"elapsed_seconds": 79.3950600470016, "event": {"type": "message.delta", "content": "5"}}
+{"elapsed_seconds": 79.41804645400043, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 79.44205836000037, "event": {"type": "message.delta", "content": "109"}}
+{"elapsed_seconds": 79.46586333600135, "event": {"type": "message.delta", "content": "9"}}
+{"elapsed_seconds": 79.4890760039998, "event": {"type": "message.delta", "content": ")"}}
+{"elapsed_seconds": 79.51247160099956, "event": {"type": "message.delta", "content": " offered"}}
+{"elapsed_seconds": 79.53603183499945, "event": {"type": "message.delta", "content": " temporary"}}
+{"elapsed_seconds": 79.55944292300046, "event": {"type": "message.delta", "content": " relief"}}
+{"elapsed_seconds": 79.5819871800013, "event": {"type": "message.delta", "content": ":"}}
+{"elapsed_seconds": 79.60447016399849, "event": {"type": "message.delta", "content": " Alex"}}
+{"elapsed_seconds": 79.6269697889984, "event": {"type": "message.delta", "content": "ios"}}
+{"elapsed_seconds": 79.64948589499909, "event": {"type": "message.delta", "content": " reclaimed"}}
+{"elapsed_seconds": 79.67237171799934, "event": {"type": "message.delta", "content": " much"}}
+{"elapsed_seconds": 79.69609695100007, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 79.7206047489999, "event": {"type": "message.delta", "content": " western"}}
+{"elapsed_seconds": 79.74387393000143, "event": {"type": "message.delta", "content": " Asia"}}
+{"elapsed_seconds": 79.76834218699878, "event": {"type": "message.delta", "content": " Minor"}}
+{"elapsed_seconds": 79.79551211799844, "event": {"type": "message.delta", "content": " after"}}
+{"elapsed_seconds": 79.81929261299956, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 79.84322852499827, "event": {"type": "message.delta", "content": " Crus"}}
+{"elapsed_seconds": 79.86713218500154, "event": {"type": "message.delta", "content": "aders"}}
+{"elapsed_seconds": 79.89164314400114, "event": {"type": "message.delta", "content": " captured"}}
+{"elapsed_seconds": 79.91602202599825, "event": {"type": "message.delta", "content": " N"}}
+{"elapsed_seconds": 79.94014827700084, "event": {"type": "message.delta", "content": "ica"}}
+{"elapsed_seconds": 79.96333704399876, "event": {"type": "message.delta", "content": "ea"}}
+{"elapsed_seconds": 79.98829289399873, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 80.01220864499919, "event": {"type": "message.delta", "content": " yet"}}
+{"elapsed_seconds": 80.03533735900055, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 80.05944757899852, "event": {"type": "message.delta", "content": " crus"}}
+{"elapsed_seconds": 80.0833464089992, "event": {"type": "message.delta", "content": "ading"}}
+{"elapsed_seconds": 80.10603798300144, "event": {"type": "message.delta", "content": " armies"}}
+{"elapsed_seconds": 80.12902123100139, "event": {"type": "message.delta", "content": " pill"}}
+{"elapsed_seconds": 80.15309102899846, "event": {"type": "message.delta", "content": "aged"}}
+{"elapsed_seconds": 80.17548633900151, "event": {"type": "message.delta", "content": " Byzantine"}}
+{"elapsed_seconds": 80.19957647800038, "event": {"type": "message.delta", "content": " territories"}}
+{"elapsed_seconds": 80.22232435499973, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 80.24504480999894, "event": {"type": "message.delta", "content": " established"}}
+{"elapsed_seconds": 80.26785309000115, "event": {"type": "message.delta", "content": " independent"}}
+{"elapsed_seconds": 80.29055789400081, "event": {"type": "message.delta", "content": " principal"}}
+{"elapsed_seconds": 80.31325241800005, "event": {"type": "message.delta", "content": "ities"}}
+{"elapsed_seconds": 80.3374797739998, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 80.36130583100021, "event": {"type": "message.delta", "content": " limiting"}}
+{"elapsed_seconds": 80.3853251770015, "event": {"type": "message.delta", "content": " Alex"}}
+{"elapsed_seconds": 80.4093785039986, "event": {"type": "message.delta", "content": "ios"}}
+{"elapsed_seconds": 80.43333042700033, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 80.45640681900113, "event": {"type": "message.delta", "content": " long"}}
+{"elapsed_seconds": 80.48042411400093, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 80.50330380699961, "event": {"type": "message.delta", "content": "term"}}
+{"elapsed_seconds": 80.52744891900147, "event": {"type": "message.delta", "content": " gains"}}
+{"elapsed_seconds": 80.55121557299935, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 80.57520298699819, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 80.59834812199915, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 80.62219602999903, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.64524266100125, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 80.66789526299908, "event": {"type": "message.delta", "content": "291"}}
+{"elapsed_seconds": 80.69066605099943, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 80.71373824200055, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 80.73843222899814, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 80.76237658199898, "event": {"type": "message.delta", "content": " crus"}}
+{"elapsed_seconds": 80.7851945020011, "event": {"type": "message.delta", "content": "ading"}}
+{"elapsed_seconds": 80.80926874999932, "event": {"type": "message.delta", "content": " traffic"}}
+{"elapsed_seconds": 80.83326252400002, "event": {"type": "message.delta", "content": " diverted"}}
+{"elapsed_seconds": 80.85826919600004, "event": {"type": "message.delta", "content": " commercial"}}
+{"elapsed_seconds": 80.88237680599923, "event": {"type": "message.delta", "content": " activity"}}
+{"elapsed_seconds": 80.90639273099805, "event": {"type": "message.delta", "content": " from"}}
+{"elapsed_seconds": 80.93030135200024, "event": {"type": "message.delta", "content": " Constantin"}}
+{"elapsed_seconds": 80.9545344979997, "event": {"type": "message.delta", "content": "ople"}}
+{"elapsed_seconds": 80.97822193799948, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 81.00224792399968, "event": {"type": "message.delta", "content": " Italian"}}
+{"elapsed_seconds": 81.02675955299856, "event": {"type": "message.delta", "content": " ports"}}
+{"elapsed_seconds": 81.050727586, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 81.07434309300152, "event": {"type": "message.delta", "content": " causing"}}
+{"elapsed_seconds": 81.09838529999979, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 81.12167882200083, "event": {"type": "message.delta", "content": " severe"}}
+{"elapsed_seconds": 81.14543366499856, "event": {"type": "message.delta", "content": " decline"}}
+{"elapsed_seconds": 81.16936177699972, "event": {"type": "message.delta", "content": " in"}}
+{"elapsed_seconds": 81.19244356900163, "event": {"type": "message.delta", "content": " imperial"}}
+{"elapsed_seconds": 81.21638573100063, "event": {"type": "message.delta", "content": " revenue"}}
+{"elapsed_seconds": 81.24021851900034, "event": {"type": "message.delta", "content": "\u2014"}}
+{"elapsed_seconds": 81.2640739970011, "event": {"type": "message.delta", "content": "perhaps"}}
+{"elapsed_seconds": 81.28847482000128, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 81.31253169800038, "event": {"type": "message.delta", "content": " loss"}}
+{"elapsed_seconds": 81.33548080399851, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 81.35934096200072, "event": {"type": "message.delta", "content": " one"}}
+{"elapsed_seconds": 81.38346532300056, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 81.40739756399853, "event": {"type": "message.delta", "content": "third"}}
+{"elapsed_seconds": 81.43173597499845, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 81.45420708899837, "event": {"type": "message.delta", "content": " one"}}
+{"elapsed_seconds": 81.4782043539999, "event": {"type": "message.delta", "content": "\u2011"}}
+{"elapsed_seconds": 81.5014164819986, "event": {"type": "message.delta", "content": "half"}}
+{"elapsed_seconds": 81.52340128300057, "event": {"type": "message.delta", "content": " of"}}
+{"elapsed_seconds": 81.54750530299862, "event": {"type": "message.delta", "content": " trade"}}
+{"elapsed_seconds": 81.5713271200002, "event": {"type": "message.delta", "content": " over"}}
+{"elapsed_seconds": 81.59445612399941, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 81.61724065199815, "event": {"type": "message.delta", "content": " next"}}
+{"elapsed_seconds": 81.64033583499986, "event": {"type": "message.delta", "content": " fifty"}}
+{"elapsed_seconds": 81.66252395600168, "event": {"type": "message.delta", "content": " years"}}
+{"elapsed_seconds": 81.68521686000167, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 81.70938387299975, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 81.73132455199811, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 81.75543981200099, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.77931847099899, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 81.80342482099877, "event": {"type": "message.delta", "content": "294"}}
+{"elapsed_seconds": 81.82620285899975, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 81.85037504199863, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 81.87503299699893, "event": {"type": "message.delta", "content": " Alex"}}
+{"elapsed_seconds": 81.89997910600141, "event": {"type": "message.delta", "content": "ios"}}
+{"elapsed_seconds": 81.92311281100046, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 81.94731735499954, "event": {"type": "message.delta", "content": " generous"}}
+{"elapsed_seconds": 81.9715125090006, "event": {"type": "message.delta", "content": " concessions"}}
+{"elapsed_seconds": 81.99554297500072, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 82.01948245699896, "event": {"type": "message.delta", "content": " Venice"}}
+{"elapsed_seconds": 82.04245495400028, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 82.06604756999877, "event": {"type": "message.delta", "content": " Geno"}}
+{"elapsed_seconds": 82.08976070200151, "event": {"type": "message.delta", "content": "a"}}
+{"elapsed_seconds": 82.11275893999846, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 82.13837783000054, "event": {"type": "message.delta", "content": " exchanged"}}
+{"elapsed_seconds": 82.16272077100075, "event": {"type": "message.delta", "content": " for"}}
+{"elapsed_seconds": 82.18570446900048, "event": {"type": "message.delta", "content": " military"}}
+{"elapsed_seconds": 82.20943131099921, "event": {"type": "message.delta", "content": " support"}}
+{"elapsed_seconds": 82.23288768999919, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 82.25719386000128, "event": {"type": "message.delta", "content": " further"}}
+{"elapsed_seconds": 82.2814773680002, "event": {"type": "message.delta", "content": " er"}}
+{"elapsed_seconds": 82.30553694500122, "event": {"type": "message.delta", "content": "oded"}}
+{"elapsed_seconds": 82.33051964599872, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 82.3554806050015, "event": {"type": "message.delta", "content": " empire"}}
+{"elapsed_seconds": 82.37963547699837, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 82.40242214599857, "event": {"type": "message.delta", "content": " fiscal"}}
+{"elapsed_seconds": 82.42612171699875, "event": {"type": "message.delta", "content": " base"}}
+{"elapsed_seconds": 82.449794346001, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 82.47250971099857, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 82.49692144499932, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 82.51947644300162, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 82.54422730299848, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 82.5653815049991, "event": {"type": "message.delta", "content": "295"}}
+{"elapsed_seconds": 82.59036443600053, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 82.61461487300039, "event": {"type": "message.delta", "content": ".\n\n"}}
+{"elapsed_seconds": 82.63654198099903, "event": {"type": "message.delta", "content": "The"}}
+{"elapsed_seconds": 82.65925325599892, "event": {"type": "message.delta", "content": " narrative"}}
+{"elapsed_seconds": 82.68351479299963, "event": {"type": "message.delta", "content": " concludes"}}
+{"elapsed_seconds": 82.70698629300023, "event": {"type": "message.delta", "content": " that"}}
+{"elapsed_seconds": 82.72912675200132, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 82.75331546500092, "event": {"type": "message.delta", "content": " empire"}}
+{"elapsed_seconds": 82.7775781929995, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 82.80148163299964, "event": {"type": "message.delta", "content": " deterioration"}}
+{"elapsed_seconds": 82.82544347599833, "event": {"type": "message.delta", "content": " was"}}
+{"elapsed_seconds": 82.8494962529985, "event": {"type": "message.delta", "content": " accelerated"}}
+{"elapsed_seconds": 82.8734247249995, "event": {"type": "message.delta", "content": " by"}}
+{"elapsed_seconds": 82.89789504199871, "event": {"type": "message.delta", "content": " successive"}}
+{"elapsed_seconds": 82.92212518700035, "event": {"type": "message.delta", "content": " rulers"}}
+{"elapsed_seconds": 82.94662242499908, "event": {"type": "message.delta", "content": " who"}}
+{"elapsed_seconds": 82.96943052500137, "event": {"type": "message.delta", "content": " either"}}
+{"elapsed_seconds": 82.99429424000118, "event": {"type": "message.delta", "content": " mis"}}
+{"elapsed_seconds": 83.01861661899966, "event": {"type": "message.delta", "content": "managed"}}
+{"elapsed_seconds": 83.04265923599814, "event": {"type": "message.delta", "content": " finances"}}
+{"elapsed_seconds": 83.06647796299876, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 83.08944409900141, "event": {"type": "message.delta", "content": " pursued"}}
+{"elapsed_seconds": 83.11204490900127, "event": {"type": "message.delta", "content": " reckless"}}
+{"elapsed_seconds": 83.13600129200131, "event": {"type": "message.delta", "content": " wars"}}
+{"elapsed_seconds": 83.15946462200009, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 83.18303290699987, "event": {"type": "message.delta", "content": " or"}}
+{"elapsed_seconds": 83.20560082500015, "event": {"type": "message.delta", "content": " granted"}}
+{"elapsed_seconds": 83.22858435300077, "event": {"type": "message.delta", "content": " excessive"}}
+{"elapsed_seconds": 83.25132424899857, "event": {"type": "message.delta", "content": " privileges"}}
+{"elapsed_seconds": 83.27434634900055, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 83.29739498900017, "event": {"type": "message.delta", "content": " foreign"}}
+{"elapsed_seconds": 83.3203812770007, "event": {"type": "message.delta", "content": " merchants"}}
+{"elapsed_seconds": 83.34346852900126, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 83.36771721599871, "event": {"type": "message.delta", "content": " leaving"}}
+{"elapsed_seconds": 83.39189431900013, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 83.41567299300004, "event": {"type": "message.delta", "content": " state"}}
+{"elapsed_seconds": 83.44044256399866, "event": {"type": "message.delta", "content": " vulnerable"}}
+{"elapsed_seconds": 83.46438162599952, "event": {"type": "message.delta", "content": " to"}}
+{"elapsed_seconds": 83.48861187199873, "event": {"type": "message.delta", "content": " internal"}}
+{"elapsed_seconds": 83.51329469800112, "event": {"type": "message.delta", "content": " unrest"}}
+{"elapsed_seconds": 83.53794228300103, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 83.56156208999892, "event": {"type": "message.delta", "content": " external"}}
+{"elapsed_seconds": 83.58643908600061, "event": {"type": "message.delta", "content": " conquest"}}
+{"elapsed_seconds": 83.61040365900044, "event": {"type": "message.delta", "content": "\u3010"}}
+{"elapsed_seconds": 83.6344363850003, "event": {"type": "message.delta", "content": "PDF"}}
+{"elapsed_seconds": 83.65954882200094, "event": {"type": "message.delta", "content": " p"}}
+{"elapsed_seconds": 83.68409253199934, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.70690785199986, "event": {"type": "message.delta", "content": " "}}
+{"elapsed_seconds": 83.73103590300161, "event": {"type": "message.delta", "content": "300"}}
+{"elapsed_seconds": 83.7541917080016, "event": {"type": "message.delta", "content": "\u3011"}}
+{"elapsed_seconds": 83.77673451599912, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 83.79986074000044, "event": {"type": "message.delta", "content": " The"}}
+{"elapsed_seconds": 83.82291472100042, "event": {"type": "message.delta", "content": " source"}}
+{"elapsed_seconds": 83.84735260600064, "event": {"type": "message.delta", "content": " provides"}}
+{"elapsed_seconds": 83.87028363100035, "event": {"type": "message.delta", "content": " a"}}
+{"elapsed_seconds": 83.89226037199842, "event": {"type": "message.delta", "content": " detailed"}}
+{"elapsed_seconds": 83.91502469899933, "event": {"type": "message.delta", "content": " chronological"}}
+{"elapsed_seconds": 83.93970666599853, "event": {"type": "message.delta", "content": " account"}}
+{"elapsed_seconds": 83.9627117150012, "event": {"type": "message.delta", "content": " but"}}
+{"elapsed_seconds": 83.98746491400016, "event": {"type": "message.delta", "content": " offers"}}
+{"elapsed_seconds": 84.0120709570001, "event": {"type": "message.delta", "content": " limited"}}
+{"elapsed_seconds": 84.03656442500142, "event": {"type": "message.delta", "content": " quantitative"}}
+{"elapsed_seconds": 84.05940676599857, "event": {"type": "message.delta", "content": " data"}}
+{"elapsed_seconds": 84.08452797299833, "event": {"type": "message.delta", "content": " on"}}
+{"elapsed_seconds": 84.10871613700147, "event": {"type": "message.delta", "content": " trade"}}
+{"elapsed_seconds": 84.13171647499985, "event": {"type": "message.delta", "content": " volumes"}}
+{"elapsed_seconds": 84.15642341299827, "event": {"type": "message.delta", "content": " or"}}
+{"elapsed_seconds": 84.18074390200127, "event": {"type": "message.delta", "content": " army"}}
+{"elapsed_seconds": 84.20365308699911, "event": {"type": "message.delta", "content": " sizes"}}
+{"elapsed_seconds": 84.22858238499975, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 84.25158596300025, "event": {"type": "message.delta", "content": " and"}}
+{"elapsed_seconds": 84.27519593000034, "event": {"type": "message.delta", "content": " the"}}
+{"elapsed_seconds": 84.29848343200138, "event": {"type": "message.delta", "content": " author"}}
+{"elapsed_seconds": 84.32355089599878, "event": {"type": "message.delta", "content": "\u2019s"}}
+{"elapsed_seconds": 84.34783186400091, "event": {"type": "message.delta", "content": " moral"}}
+{"elapsed_seconds": 84.37180629800059, "event": {"type": "message.delta", "content": " judgments"}}
+{"elapsed_seconds": 84.39582091299962, "event": {"type": "message.delta", "content": " about"}}
+{"elapsed_seconds": 84.41953127500165, "event": {"type": "message.delta", "content": " individual"}}
+{"elapsed_seconds": 84.44405741399896, "event": {"type": "message.delta", "content": " emper"}}
+{"elapsed_seconds": 84.46872923000046, "event": {"type": "message.delta", "content": "ors"}}
+{"elapsed_seconds": 84.49264577099893, "event": {"type": "message.delta", "content": " are"}}
+{"elapsed_seconds": 84.5162465579997, "event": {"type": "message.delta", "content": " inter"}}
+{"elapsed_seconds": 84.54124505900108, "event": {"type": "message.delta", "content": "woven"}}
+{"elapsed_seconds": 84.56588452299911, "event": {"type": "message.delta", "content": " with"}}
+{"elapsed_seconds": 84.58983001600063, "event": {"type": "message.delta", "content": " factual"}}
+{"elapsed_seconds": 84.61453349300064, "event": {"type": "message.delta", "content": " description"}}
+{"elapsed_seconds": 84.63739038499989, "event": {"type": "message.delta", "content": ","}}
+{"elapsed_seconds": 84.66261137699985, "event": {"type": "message.delta", "content": " requiring"}}
+{"elapsed_seconds": 84.68676313900141, "event": {"type": "message.delta", "content": " careful"}}
+{"elapsed_seconds": 84.71058223499858, "event": {"type": "message.delta", "content": " separation"}}
+{"elapsed_seconds": 84.73330507100036, "event": {"type": "message.delta", "content": " when"}}
+{"elapsed_seconds": 84.75643674499952, "event": {"type": "message.delta", "content": " using"}}
+{"elapsed_seconds": 84.77946771500137, "event": {"type": "message.delta", "content": " this"}}
+{"elapsed_seconds": 84.80356885400033, "event": {"type": "message.delta", "content": " material"}}
+{"elapsed_seconds": 84.82756854900072, "event": {"type": "message.delta", "content": " for"}}
+{"elapsed_seconds": 84.8514185569984, "event": {"type": "message.delta", "content": " further"}}
+{"elapsed_seconds": 84.87550627599921, "event": {"type": "message.delta", "content": " analysis"}}
+{"elapsed_seconds": 84.89953459200115, "event": {"type": "message.delta", "content": "."}}
+{"elapsed_seconds": 84.93026228899907, "event": {"type": "message.end"}}
+{"elapsed_seconds": 84.9304034659981, "event": {"type": "chat.end", "result": {"model_instance_id": "evo-gptoss120-thinking", "output": [{"type": "reasoning", "content": "We need to produce a summary ~400-500 words covering the section that spans pages 251-300 (lots of content). Must cite each factual sentence with exact PDF page numbers. Must write clear natural scholarly prose, sentences near 14 words. No em dashes. Must distinguish author's arguments vs quoted testimony. Mostly the source is narrative; author appears to be describing events and giving interpretation. Must preserve dates, names, etc. Must note limitations.\n\nWe need to be careful to cite each factual claim: many statements across many pages. We need to include citations for each factual sentence. Could combine multiple sentences from same page with one citation.\n\nWe must not invent page citations. Use only those given. Provide citations like [PDF p. 251] etc.\n\nWe need approx 400-500 words. Let's outline:\n\n- Start with commerce shift: empire lost control of seas to Saracen pirates; trade went through Bosphorus warehouses; monopoly of Byzantine ships; mention harsh taxation harmless [251].\n\n- Then discussion of military glory: Constantine Porphyrogenitus era; eastern frontier; breakdown of Caliphate, Buhawid princes 951 etc. [252-254].\n\n- Nicephorus Phocas rise; his military career: Crete conquest 961, capture of Chandax, booty, etc. [254].\n\n- Campaigns in Cilicia, Aleppo, 962, retreat [255-256]; his regency after Romanus II death, marriage to Theophano, joint reign 963-969, loyal guardianship [256-257].\n\n- His later reign: siege of Adana, Mopsuestia, Tarsus, Cyprus, unpopularity, taxation, disputes with clergy, etc. [257-258].\n\n- Capture of Antioch 962, betrayal of generals, later murder 969 by John Zimisces, motivations, etc. [259-260].\n\n- John Zimisces reign: victory over Russians, description of Russian raids, 941 and 970, battles at Silistria, peace, etc. [261-264].\n\n- End of Macedonian dynasty: Basil II's reign 976-1025, wars, Bulgarian wars, etc. but maybe not needed? Actually section continues through 300 covering later Comneni, Crusades, etc. Should summarize to 500 words covering all.\n\nGiven length, need to concisely summarize major points: commerce, military collapse of Caliphate, Nicephorus campaigns, regency, his death, John Zimisces, Basil II, decline after, Comneni, Crusades, trade decline, later emperors.\n\nLet's produce about 460 words.\n\nEnsure citations after each factual statement; many sentences will need citations.\n\nWill write paragraphs.\n\n"}, {"type": "message", "content": "The empire\u2019s maritime commerce had been devastated by Saracen piracy during the preceding century, leaving Byzantine naval power as the sole conduit for Eastern goods to Italy and France, which passed through Bosphorus warehouses and endured a harsh yet ineffective tax system\u3010PDF p. 251\u3011. Under Constantine\u202fPorphyrogennetos, the eastern frontier faced a succession of formidable foes\u2014first the Sassanian Persians, then the Umayyad and Abbasid caliphates\u2014until the Abbasid state collapsed in 951\u202fA.D., when the Buhawid prince Imad\u2011ud\u2011din seized Baghdad and reduced the caliphs to powerless captives\u3010PDF p. 252\u3011. The new Muslim polities, including the emirs of Aleppo and Mosul, were weak and mutually hostile, creating a strategic opening for the empire to restore its borders beyond the Taurus line\u3010PDF p. 253\u3011.\n\nNicephorus Phocas, a scion of a great Cappadocian land\u2011owning family and a noted military writer, was chosen by Romanus\u202fII to lead a massive expedition against the pirate haven of Crete. In 961\u202fA.D. his fleet, numbered by the thousand, captured Chandax, seized a century\u2019s worth of loot, and returned the island to Byzantine control\u3010PDF p. 254\u3011. Emboldened, Phocas advanced into Cilicia, stormed Anazarbus, forced the Amanus Pass, and laid siege to Aleppo; after a costly stalemate he withdrew with booty and sixty captured forts in 962\u202fA.D.\u3010PDF p. 255\u3011. The unexpected death of Romanus\u202fII that same year left his young sons Basil and Constantine under regency; Phocas claimed their guardianship, married the dowager empress Theophano, and ruled jointly from 963 to 969, maintaining a reputation for loyalty to the imperial heirs\u3010PDF p. 256\u3011.\n\nDuring 964\u2011965 Phocas seized the Cilician strongholds of Adana, Mopsuestia and Tarsus, sent their bronze gates to Constantinople, and reclaimed Cyprus after seventy\u2011seven years of Saracen rule\u3010PDF p. 257\u3011. His domestic policies, however, provoked hostility: clashes with Patriarch Polyeuctus, suppression of public spectacles, and the redirection of state revenues to the war budget earned him the popular epithets \u201cniggard\u201d and \u201cextortioner\u201d\u3010PDF p. 258\u3011. In a winter siege of Antioch he ignored orders, stormed a tower, and subsequently dismissed both the disobedient commander Burtzes and the overly obedient general Peter\u3010PDF p. 259\u3011. Phocas\u2019s reign ended abruptly when Theophano conspired with her lover John\u202fZimisces; on a December night in 969 the emperor was murdered by a dozen assassins, a deed that allowed Zimisces to seize the throne\u3010PDF p. 260\u3011.\n\nJohn\u202fZimisces, a former cavalry officer, repelled two Russian incursions\u2014first in 907, then a larger raid in 941\u2014by destroying their light boats at sea\u3010PDF p. 261\u3011. In 970 he confronted a massive Russian army of sixty thousand under King Swietoslav, defeating it at Silistria; the defeated sultan swore never to molest the empire again\u3010PDF p. 263\u3011. After Zimisces\u2019s death, the Macedonian line ended with Basil\u202fII (976\u20111025), whose reign was dominated by continuous warfare, notably the thirty\u2011four\u2011year Bulgarian wars that culminated in the 1014 victory at Kleidion and the near\u2011annihilation of the Bulgarian elite\u3010PDF p. 267\u3011.\n\nThe Byzantine fortunes waned after Basil\u2019s death. Alexios\u202fComnenus, who ascended in 1081, faced the dual threats of Seljuk incursions in Asia Minor and Norman ambitions in the west. He suffered defeat at Durazzo in 1081 but later repelled the Normans at Larissa in 1083\u3010PDF p. 286\u3011. The First Crusade (1095\u20111099) offered temporary relief: Alexios reclaimed much of western Asia Minor after the Crusaders captured Nicaea, yet the crusading armies pillaged Byzantine territories and established independent principalities, limiting Alexios\u2019s long\u2011term gains\u3010PDF p. 291\u3011. The crusading traffic diverted commercial activity from Constantinople to Italian ports, causing a severe decline in imperial revenue\u2014perhaps a loss of one\u2011third to one\u2011half of trade over the next fifty years\u3010PDF p. 294\u3011. Alexios\u2019s generous concessions to Venice and Genoa, exchanged for military support, further eroded the empire\u2019s fiscal base\u3010PDF p. 295\u3011.\n\nThe narrative concludes that the empire\u2019s deterioration was accelerated by successive rulers who either mismanaged finances, pursued reckless wars, or granted excessive privileges to foreign merchants, leaving the state vulnerable to internal unrest and external conquest\u3010PDF p. 300\u3011. The source provides a detailed chronological account but offers limited quantitative data on trade volumes or army sizes, and the author\u2019s moral judgments about individual emperors are interwoven with factual description, requiring careful separation when using this material for further analysis."}], "stats": {"input_tokens": 19555, "total_output_tokens": 1655, "reasoning_output_tokens": 558, "tokens_per_second": 42.567784499947564, "time_to_first_token_seconds": 42.230028}}}}

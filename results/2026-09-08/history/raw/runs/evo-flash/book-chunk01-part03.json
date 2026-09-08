@@ -1,0 +1,79 @@
+{
+  "fingerprint": "42d8b8caa66e269b673b5a202dcc30fc70096d1b8d4ef8588e64cfef8aa24250",
+  "model": "evo-flash",
+  "name": "book-chunk01-part03",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:43:34.168617+00:00",
+  "preflight_input_tokens": 3664,
+  "context": 8192,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 1,
+    "part": 3,
+    "pdf_pages": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 55.137078285000825
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:44:29.306454+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "Constantine evaluated several potential sites for his new imperial capital before selecting Byzantium [PDF p. 43]. Nicomedia offered an eligible location and had previously served as an imperial residence [PDF p. 43]. However, Constantine wished to avoid eclipsing the memory of Diocletian in that city [PDF p. 43]. Christians associated Nicomedia with the persecutions under Diocletian and Galerius [PDF p. 43]. Ilium possessed only legendary glories and lacked a suitable harbor for naval command [PDF p. 43]. Byzantium was thoroughly familiar to Constantine from his military campaigns in the region [PDF p. 43]. The emperor recognized its significant military advantages during his months stationed nearby [PDF p. 43]. Despite this logic, the Roman world reacted with surprise to the choice of a provincial fortress [PDF p. 43].\n\nOnce decided, Constantine marked the city limits through solemn processions in traditional Roman style [PDF p. 44]. A later legend describes him tracing fortifications with his spear while walking westward [PDF p. 44]. His attendants questioned the vast scale of the plan as he moved further from old gates [PDF p. 44]. Constantine claimed an invisible guide directed his steps until the boundary was complete [PDF p. 44]. He included all seven hills on the peninsula between the Propontis and Golden Horn [PDF p. 44]. The site of his former siege tent became the marketplace for the new foundation [PDF p. 44]. There he erected the Milion, a golden milestone measuring distances across the eastern world [PDF p. 45]. This structure housed statues of Constantine and his mother Helena within a temple-like building [PDF p. 45].\n\nThe imperial palace occupied the south-eastern part of old Byzantium on cleared land [PDF p. 45]. A wall separated this vast precinct from the rest of the city near the Lighthouse [PDF p. 45]. The Augustaeum served as a central forum paved with marble and surrounded by buildings [PDF p. 45]. Three structures connected by colonnades stood between the palace and this open space [PDF p. 45]. The Baths of Zeuxippus were enlarged using ancient statues from Greece and Asia [PDF p. 47]. These included masterpieces like the Athene of Lyndus and the Zeus of Dodona [PDF p. 47]. Constantine also established a Senate House modeled on that of Old Rome [PDF p. 47]. He attracted senatorial families eastward through gifts of pensions and houses [PDF p. 47]. The Patriarch’s Palace lay nearby but remained overshadowed by the imperial residence [PDF p. 48]. This proximity prevented the bishop from gaining independent spiritual authority like his Roman counterpart [PDF p. 48].\n\nThe Hippodrome dominated the western side of the Augustaeum with its massive dimensions [PDF p. 48]. Chariot races between the Blues and Greens factions became a central feature of civic life [PDF p. 48]. This rivalry extended beyond sports into religious and political conflicts throughout history [PDF p. 48]. The emperor’s box, or Kathisma, allowed frequent public appearances from his throne [PDF p. 50]. Notable events included the crowning of rebel Hypatius by an impromptu mob [PDF p. 50]. Justinian II later sat there with defeated rivals bound beneath his footstool [PDF p. 50]. The central spina displayed monuments including an Egyptian obelisk and a brazen serpent [PDF p. 50].\n\nThe text presents a narrative that blends historical fact with later legendary accounts of the city’s founding [PDF p. 44]. Specific details about the Senate House are missing because it was destroyed twice within a century [PDF p. 47]. The author interprets the physical layout as evidence of Constantine’s desire to control religious authority [PDF p. 48]. Uncertainty remains regarding the exact extent of private property cleared for the palace grounds [PDF p. 45]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3628,
+      "total_output_tokens": 883,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.6647758110617,
+      "time_to_first_token_seconds": 14.369102000000002
+    }
+  },
+  "output": "Constantine evaluated several potential sites for his new imperial capital before selecting Byzantium [PDF p. 43]. Nicomedia offered an eligible location and had previously served as an imperial residence [PDF p. 43]. However, Constantine wished to avoid eclipsing the memory of Diocletian in that city [PDF p. 43]. Christians associated Nicomedia with the persecutions under Diocletian and Galerius [PDF p. 43]. Ilium possessed only legendary glories and lacked a suitable harbor for naval command [PDF p. 43]. Byzantium was thoroughly familiar to Constantine from his military campaigns in the region [PDF p. 43]. The emperor recognized its significant military advantages during his months stationed nearby [PDF p. 43]. Despite this logic, the Roman world reacted with surprise to the choice of a provincial fortress [PDF p. 43].\n\nOnce decided, Constantine marked the city limits through solemn processions in traditional Roman style [PDF p. 44]. A later legend describes him tracing fortifications with his spear while walking westward [PDF p. 44]. His attendants questioned the vast scale of the plan as he moved further from old gates [PDF p. 44]. Constantine claimed an invisible guide directed his steps until the boundary was complete [PDF p. 44]. He included all seven hills on the peninsula between the Propontis and Golden Horn [PDF p. 44]. The site of his former siege tent became the marketplace for the new foundation [PDF p. 44]. There he erected the Milion, a golden milestone measuring distances across the eastern world [PDF p. 45]. This structure housed statues of Constantine and his mother Helena within a temple-like building [PDF p. 45].\n\nThe imperial palace occupied the south-eastern part of old Byzantium on cleared land [PDF p. 45]. A wall separated this vast precinct from the rest of the city near the Lighthouse [PDF p. 45]. The Augustaeum served as a central forum paved with marble and surrounded by buildings [PDF p. 45]. Three structures connected by colonnades stood between the palace and this open space [PDF p. 45]. The Baths of Zeuxippus were enlarged using ancient statues from Greece and Asia [PDF p. 47]. These included masterpieces like the Athene of Lyndus and the Zeus of Dodona [PDF p. 47]. Constantine also established a Senate House modeled on that of Old Rome [PDF p. 47]. He attracted senatorial families eastward through gifts of pensions and houses [PDF p. 47]. The Patriarch’s Palace lay nearby but remained overshadowed by the imperial residence [PDF p. 48]. This proximity prevented the bishop from gaining independent spiritual authority like his Roman counterpart [PDF p. 48].\n\nThe Hippodrome dominated the western side of the Augustaeum with its massive dimensions [PDF p. 48]. Chariot races between the Blues and Greens factions became a central feature of civic life [PDF p. 48]. This rivalry extended beyond sports into religious and political conflicts throughout history [PDF p. 48]. The emperor’s box, or Kathisma, allowed frequent public appearances from his throne [PDF p. 50]. Notable events included the crowning of rebel Hypatius by an impromptu mob [PDF p. 50]. Justinian II later sat there with defeated rivals bound beneath his footstool [PDF p. 50]. The central spina displayed monuments including an Egyptian obelisk and a brazen serpent [PDF p. 50].\n\nThe text presents a narrative that blends historical fact with later legendary accounts of the city’s founding [PDF p. 44]. Specific details about the Senate House are missing because it was destroyed twice within a century [PDF p. 47]. The author interprets the physical layout as evidence of Constantine’s desire to control religious authority [PDF p. 48]. Uncertainty remains regarding the exact extent of private property cleared for the palace grounds [PDF p. 45].",
+  "stats": {
+    "input_tokens": 3628,
+    "total_output_tokens": 883,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.6647758110617,
+    "time_to_first_token_seconds": 14.369102000000002
+  },
+  "wall_seconds": 55.137078285000825,
+  "output_tokens_per_wall_second": 16.014631668290743,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 4064542720,
+    "cpu_percent": 3.8,
+    "system_available_bytes": 26772586496,
+    "card1_gtt_total_bytes": 16360861696,
+    "runtime_largest_process_rss_bytes": 3137978368,
+    "card1_gtt_used_bytes": 258183168,
+    "system_used_excluding_available_bytes": 6824693760,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_vram_used_bytes": 67912249344,
+    "runtime_total_pss_bytes": 3438621696,
+    "llama_server_process_count": 1
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -36
+}

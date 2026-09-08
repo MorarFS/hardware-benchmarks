@@ -1,0 +1,1 @@
+Source attribution is the ethical practice of crediting original creators to acknowledge their intellectual property and maintain academic integrity. Proper citation not only prevents plagiarism but also allows readers to verify information and explore the referenced material further.

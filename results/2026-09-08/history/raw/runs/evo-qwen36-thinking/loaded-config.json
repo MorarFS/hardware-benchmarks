@@ -1,0 +1,50 @@
+{
+  "requested": {
+    "identifier": "evo-qwen36-thinking",
+    "label": "Qwen3.6 35B A3B UD-Q4_K_M, bundled MTP; reasoning on; documented sampling",
+    "resource": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+    "context": 65536,
+    "mtp": true,
+    "gpu": "max",
+    "reasoning": "on",
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "repeat_penalty": 1.0
+    },
+    "sampling_note": "Qwen presence_penalty=1.5 is not exposed by this native API; other documented parameters applied. This is not an exact full recommended-sampler match."
+  },
+  "actual": {
+    "id": "evo-qwen36-thinking",
+    "config": {
+      "context_length": 65536,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 1,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": true,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 8,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "runtime": {
+    "command": [
+      "<LM_STUDIO_HOME>/bin/lms",
+      "runtime",
+      "ls"
+    ],
+    "returncode": 0,
+    "output": "LLM ENGINE                                        SELECTED    MODEL FORMAT\nllama.cpp-linux-x86_64-amd-rocm-avx2@2.33.0                       GGUF    \nllama.cpp-linux-x86_64-avx2@2.33.0                                GGUF    \nllama.cpp-linux-x86_64-avx2@2.31.2                                GGUF    \nllama.cpp-linux-x86_64-nvidia-cuda-avx2@2.33.0                    GGUF    \nllama.cpp-linux-x86_64-nvidia-cuda-avx2@2.31.2                    GGUF    \nllama.cpp-linux-x86_64-vulkan-avx2@2.33.0            ✓            GGUF    \nllama.cpp-linux-x86_64-vulkan-avx2@2.31.2                         GGUF    \n",
+    "wall_seconds": 0.1720597519997682
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "fingerprint": "5e05966295c1758f1a2a421c426fc48b36018a0dc6c437862301e2846f5ad680",
+  "model": "evo-flash",
+  "name": "book-chunk02-part03",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:59:41.913337+00:00",
+  "preflight_input_tokens": 5374,
+  "context": 8192,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 2,
+    "part": 3,
+    "pdf_pages": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 67.60955039199962
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T05:00:49.524097+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The sudden end of Gainas’s domination resulted from a chance brawl between Goths and citizens at a city gate [PDF p. 77]. This incident triggered a general outbreak against German soldiers in Constantinople [PDF p. 77]. The mob attacked with improvised weapons while closing gates to trap the enemy [PDF p. 77]. Seven thousand Germans died, and survivors fled across the Danube [PDF p. 77]. Gainas was subsequently beheaded by Uldes, King of the Huns [PDF p. 77]. The author notes that Fravitta, a heathen Goth, defeated Gainas in the field [PDF p. 77]. This victory freed Eastern Romans from dual threats of German kingdoms and military dictators [PDF p. 78]. Emperor Arcadius enjoyed seven years of comparative peace following these events [PDF p. 78].\n\nConflict arose between Empress Aelia Eudoxia and Patriarch John Chrysostom [PDF p. 78]. The empress supported Theophilus of Alexandria against the popular patriarch [PDF p. 78]. A council deposed John, but riots and an earthquake forced his restoration [PDF p. 78]. Hostilities resumed after Eudoxia erected a statue in the Augustaeum [PDF p. 79]. Chrysostom’s sermon comparing her to Herodias led to his banishment in A.D. 404 [PDF p. 79]. His supporters likely burned St. Sophia and the Senate-house in retaliation [PDF p. 79]. John died during exile, leaving a reputation for patience under affliction [PDF p. 79]. The author argues his deposition stemmed from moral clashes rather than ecclesiastical dogma [PDF p. 79].\n\nArcadius died in A.D. 408, leaving the throne to his seven-year-old son Theodosius II [PDF p. 80]. Minister Anthemius managed the administration with exceptional virtue and ability [PDF p. 80]. He secured a Persian treaty and repelled Hunnish invasions of Moesia [PDF p. 80]. Anthemius also reorganized the corn supply and rebuilt Danube flotillas [PDF p. 80]. Theodosius II grew into an honest but intellectually limited ruler [PDF p. 81]. His sister Pulcheria assumed regency in A.D. 414 after taking a vow of chastity [PDF p. 81]. She ruled successfully for thirty-six years as a crowned nun [PDF p. 81].\n\nTheodosius married the pagan convert Athenais, renamed Eudocia, in A.D. 421 [PDF p. 82]. Tensions between Pulcheria and Eudocia eventually led to the empress’s exile [PDF p. 82]. The author cites a dubious tale involving an apple to explain this breach [PDF p. 82]. Historical records confirm Paulinus was executed and Eudocia retired to Jerusalem [PDF p. 83]. Theodosius faced wars with Persians and Attila the Hun during his reign [PDF p. 83]. Roman armies suffered constant defeats, requiring tribute payments to the Huns [PDF p. 83].\n\nTheodosius II died in A.D. 450 after a fall from his horse [PDF p. 85]. Pulcheria married Marcianus to secure the succession and end Hunnish tribute [PDF p. 85]. Marcianus checked Attila’s advances before the Hun king died in A.D. 452 [PDF p. 85]. Successors Leo I, Zeno, and Anastasius maintained Eastern imperial integrity [PDF p. 85]. The author attributes this survival to capable rulers rather than political conditions [PDF p. 86]. Western emperors became puppets of German generals during the same period [PDF p. 86].\n\nEastern emperors successfully suppressed ambitious military commanders like Aspar [PDF p. 86]. Zeno and Anastasius overcame rebellions without losing territorial control [PDF p. 87]. The empire remained intact while Western provinces formed Germanic kingdoms [PDF p. 87]. Military reorganization relied on native Isaurian and Armenian troops [PDF p. 87]. This shift reduced dependence on Teutonic auxiliaries in the imperial army [PDF p. 87].\n\nThe source presents a narrative heavily reliant on traditional historiographical interpretations. The account of Eudocia’s exile is explicitly labeled as uncertain by the author [PDF p. 83]. The text does not provide primary archival evidence for many political motivations described. Conflicting details regarding the causes of Chrysostom’s deposition are noted but not fully resolved [PDF p. 79]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 5338,
+      "total_output_tokens": 1032,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.394420083785107,
+      "time_to_first_token_seconds": 19.82113
+    }
+  },
+  "output": "The sudden end of Gainas’s domination resulted from a chance brawl between Goths and citizens at a city gate [PDF p. 77]. This incident triggered a general outbreak against German soldiers in Constantinople [PDF p. 77]. The mob attacked with improvised weapons while closing gates to trap the enemy [PDF p. 77]. Seven thousand Germans died, and survivors fled across the Danube [PDF p. 77]. Gainas was subsequently beheaded by Uldes, King of the Huns [PDF p. 77]. The author notes that Fravitta, a heathen Goth, defeated Gainas in the field [PDF p. 77]. This victory freed Eastern Romans from dual threats of German kingdoms and military dictators [PDF p. 78]. Emperor Arcadius enjoyed seven years of comparative peace following these events [PDF p. 78].\n\nConflict arose between Empress Aelia Eudoxia and Patriarch John Chrysostom [PDF p. 78]. The empress supported Theophilus of Alexandria against the popular patriarch [PDF p. 78]. A council deposed John, but riots and an earthquake forced his restoration [PDF p. 78]. Hostilities resumed after Eudoxia erected a statue in the Augustaeum [PDF p. 79]. Chrysostom’s sermon comparing her to Herodias led to his banishment in A.D. 404 [PDF p. 79]. His supporters likely burned St. Sophia and the Senate-house in retaliation [PDF p. 79]. John died during exile, leaving a reputation for patience under affliction [PDF p. 79]. The author argues his deposition stemmed from moral clashes rather than ecclesiastical dogma [PDF p. 79].\n\nArcadius died in A.D. 408, leaving the throne to his seven-year-old son Theodosius II [PDF p. 80]. Minister Anthemius managed the administration with exceptional virtue and ability [PDF p. 80]. He secured a Persian treaty and repelled Hunnish invasions of Moesia [PDF p. 80]. Anthemius also reorganized the corn supply and rebuilt Danube flotillas [PDF p. 80]. Theodosius II grew into an honest but intellectually limited ruler [PDF p. 81]. His sister Pulcheria assumed regency in A.D. 414 after taking a vow of chastity [PDF p. 81]. She ruled successfully for thirty-six years as a crowned nun [PDF p. 81].\n\nTheodosius married the pagan convert Athenais, renamed Eudocia, in A.D. 421 [PDF p. 82]. Tensions between Pulcheria and Eudocia eventually led to the empress’s exile [PDF p. 82]. The author cites a dubious tale involving an apple to explain this breach [PDF p. 82]. Historical records confirm Paulinus was executed and Eudocia retired to Jerusalem [PDF p. 83]. Theodosius faced wars with Persians and Attila the Hun during his reign [PDF p. 83]. Roman armies suffered constant defeats, requiring tribute payments to the Huns [PDF p. 83].\n\nTheodosius II died in A.D. 450 after a fall from his horse [PDF p. 85]. Pulcheria married Marcianus to secure the succession and end Hunnish tribute [PDF p. 85]. Marcianus checked Attila’s advances before the Hun king died in A.D. 452 [PDF p. 85]. Successors Leo I, Zeno, and Anastasius maintained Eastern imperial integrity [PDF p. 85]. The author attributes this survival to capable rulers rather than political conditions [PDF p. 86]. Western emperors became puppets of German generals during the same period [PDF p. 86].\n\nEastern emperors successfully suppressed ambitious military commanders like Aspar [PDF p. 86]. Zeno and Anastasius overcame rebellions without losing territorial control [PDF p. 87]. The empire remained intact while Western provinces formed Germanic kingdoms [PDF p. 87]. Military reorganization relied on native Isaurian and Armenian troops [PDF p. 87]. This shift reduced dependence on Teutonic auxiliaries in the imperial army [PDF p. 87].\n\nThe source presents a narrative heavily reliant on traditional historiographical interpretations. The account of Eudocia’s exile is explicitly labeled as uncertain by the author [PDF p. 83]. The text does not provide primary archival evidence for many political motivations described. Conflicting details regarding the causes of Chrysostom’s deposition are noted but not fully resolved [PDF p. 79].",
+  "stats": {
+    "input_tokens": 5338,
+    "total_output_tokens": 1032,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.394420083785107,
+    "time_to_first_token_seconds": 19.82113
+  },
+  "wall_seconds": 67.60955039199962,
+  "output_tokens_per_wall_second": 15.264115705791156,
+  "peak_metrics": {
+    "cpu_percent": 4.2,
+    "card1_vram_used_bytes": 67909632000,
+    "system_available_bytes": 27438936064,
+    "swap_used_bytes": 4188176384,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 6136885248,
+    "runtime_total_pss_bytes": 3220269056,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_used_bytes": 258183168,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_largest_process_rss_bytes": 2908532736
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -36
+}

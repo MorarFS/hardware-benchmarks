@@ -1,0 +1,10 @@
+model,reasoning,audit_stage,reviewed_claim_units,critical,major,moderate,material_flagged_units,ledger_files
+Gemma4 26B,OFF,complete final,86,2,3,9,14,gemma-final-claims.csv
+Qwen3.6 35B,ON,complete final,113,4,41,24,69,qwen-thinking-final-claims.csv
+Gemma4 26B,ON,complete final,87,0,10,8,18,gemma-thinking-final-claims.csv
+GPT-OSS120B,medium,complete final,151,17,29,29,75,gptoss-final-claims.csv
+Qwen3.6 35B,OFF,targeted source sample,39,2,8,15,25,qwen-first-section.csv|qwen-section-checks.csv
+Qwen3.6 35B,ON,targeted source sample,35,4,16,10,30,qwen-thinking-first-section.csv|qwen-thinking-section-checks.csv
+Gemma4 26B,OFF,targeted source sample,24,0,1,2,3,gemma-section-checks.csv
+Gemma4 26B,ON,targeted source sample,24,1,8,3,12,gemma-thinking-section-checks.csv
+GPT-OSS 120B,medium,targeted source sample,43,13,16,6,35,gptoss-section-checks.csv

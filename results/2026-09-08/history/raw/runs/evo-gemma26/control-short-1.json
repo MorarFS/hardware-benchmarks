@@ -1,0 +1,68 @@
+{
+  "fingerprint": "f6b3625d320a3f60debfef9bdde34b57e743e03de6198dbf37fac03e04f9d338",
+  "model": "evo-gemma26",
+  "name": "control-short-1",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:22:45.836959+00:00",
+  "preflight_input_tokens": 54,
+  "context": 65536,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 6.065822727000523
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:22:51.903317+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "To reconstruct the past, historians must act as forensic linguists and detectives, parsing through layers of text to separate what was actually said from how it is being interpreted. The distinction between an author’s account, quoted testimony, and inference is fundamental to historical methodology; failing to distinguish them leads to \"anachronistic blending,\" where a historian accidentally presents their own theories as established facts.\n\nAn **author’s account** refers to the narrative framework or the descriptive prose provided by the writer of a primary or secondary source. This is the author's way of organizing information, setting the scene, and providing context. It is the \"connective tissue\" of a document. For example, imagine a historian writing about the French Revolution. If they write, *\"The streets of Paris were thick with tension as the bread riots intensified throughout the summer of 1789,\"* they are providing an account. This is the author’s synthesis of known circumstances used to frame the events.\n\n**Quoted testimony**, by contrast, is the raw, unmediated voice of a historical actor. It is the \"data\" extracted from the narrative. Testimony is often found in diaries, court transcripts, or letters. Using our French Revolution example, if that same historian includes a"
+      }
+    ],
+    "stats": {
+      "input_tokens": 52,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 46.632562110000904,
+      "time_to_first_token_seconds": 0.23241599999999998
+    }
+  },
+  "output": "To reconstruct the past, historians must act as forensic linguists and detectives, parsing through layers of text to separate what was actually said from how it is being interpreted. The distinction between an author’s account, quoted testimony, and inference is fundamental to historical methodology; failing to distinguish them leads to \"anachronistic blending,\" where a historian accidentally presents their own theories as established facts.\n\nAn **author’s account** refers to the narrative framework or the descriptive prose provided by the writer of a primary or secondary source. This is the author's way of organizing information, setting the scene, and providing context. It is the \"connective tissue\" of a document. For example, imagine a historian writing about the French Revolution. If they write, *\"The streets of Paris were thick with tension as the bread riots intensified throughout the summer of 1789,\"* they are providing an account. This is the author’s synthesis of known circumstances used to frame the events.\n\n**Quoted testimony**, by contrast, is the raw, unmediated voice of a historical actor. It is the \"data\" extracted from the narrative. Testimony is often found in diaries, court transcripts, or letters. Using our French Revolution example, if that same historian includes a",
+  "stats": {
+    "input_tokens": 52,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 46.632562110000904,
+    "time_to_first_token_seconds": 0.23241599999999998
+  },
+  "wall_seconds": 6.065822727000523,
+  "output_tokens_per_wall_second": 42.203673190197065,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "cpu_percent": 2.7,
+    "system_available_bytes": 27964776448,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20680630272,
+    "card1_gtt_used_bytes": 233857024,
+    "runtime_largest_process_rss_bytes": 1119588352,
+    "swap_used_bytes": 3847118848,
+    "runtime_total_pss_bytes": 1444248576,
+    "card1_vram_total_bytes": 103079215104,
+    "system_used_excluding_available_bytes": 4842622976,
+    "card1_gtt_total_bytes": 16360861696
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": -2
+}

@@ -1,0 +1,17 @@
+{
+  "identifier": "evo-gemma26-thinking",
+  "label": "Gemma4 26B A4B IT UD-Q4_K_M; reasoning on; documented sampling",
+  "resource": "unsloth/gemma-4-26B-A4B-it-GGUF/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+  "context": 65536,
+  "mtp": false,
+  "gpu": "max",
+  "reasoning": "on",
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0
+  },
+  "sampling_note": "Google standardized sampling; native reasoning on selects the supported template."
+}

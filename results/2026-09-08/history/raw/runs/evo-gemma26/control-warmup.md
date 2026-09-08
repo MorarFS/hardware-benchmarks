@@ -1,0 +1,1 @@
+Proper source attribution gives credit to original authors and protects writers from accusations of plagiarism. By clearly identifying where information was obtained, researchers enhance the credibility and transparency of their work.

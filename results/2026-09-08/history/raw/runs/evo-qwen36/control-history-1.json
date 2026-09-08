@@ -1,0 +1,69 @@
+{
+  "fingerprint": "1f3a0b35d13616861ae3f9ce3f5a4bd939a2295426a4cdbe86f836e9a7eb6361",
+  "model": "evo-qwen36",
+  "name": "control-history-1",
+  "kind": "history_excerpt_control",
+  "started_at": "2026-09-08T04:10:14.807610+00:00",
+  "preflight_input_tokens": 5043,
+  "context": 65536,
+  "output_limit": 1000,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured",
+    "source": "Douglass partial excerpt; not the selected full book"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 22.9903756650001
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:10:37.828859+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "In August 1841, at an anti-slavery convention in Nantucket, the narrator first encountered Frederick Douglass. At that time, Douglass was a stranger to most attendees, having recently escaped from slavery and residing in New Bedford. Motivated by curiosity regarding abolitionist principles, he attended despite his status as a fugitive. The narrator describes this meeting as a fortunate occurrence for Douglass’s brethren, the cause of emancipation, and Douglass himself, noting that it awakened his energies and consecrated him to the work of liberation.\n\nThe narrator recalls Douglass’s first speech with profound emotion. Though initially hesitant and embarrassed due to his lack of formal education—a consequence of slavery—Douglass spoke with natural eloquence and intellect. The narrator was so moved that he declared Douglass’s speech more powerful than Patrick Henry’s in the cause of liberty. He highlighted the paradox of a man of such high moral and intellectual capacity being legally defined as property, a \"beast of burden.\" Following the speech, the narrator appealed to the audience for protection against the Fugitive Slave Law, receiving thunderous assurances that Douglass would not be returned to bondage.\n\nEncouraged by this support and urged by friends, including John A. Collins of the Massachusetts Anti-Slavery Society, Douglass initially expressed doubt about his ability to serve as a public lecturer. However, he eventually consented to try. Since then, he has served as an agent for anti-slavery societies, surpassing expectations in combating prejudice and gaining converts. The narrator praises Douglass’s gentle yet manly character and his rhetorical skills, emphasizing the union of head and heart necessary for effective advocacy.\n\nThe preface also highlights Charles Lenox Remond as another eloquent representative of the free colored population, challenging notions of racial inferiority. To illustrate slavery’s dehumanizing effect on all people, the narrator cites Daniel O’Connell’s 1845 speech regarding an American sailor who, after three years in African slavery, lost his reasoning power and language. This anecdote serves to prove that white slaves can degrade as severely as black ones, countering arguments of inherent racial superiority.\n\nWilliam Lloyd Garrison authored this preface, dated May 1, 1845, in Boston. He asserts that Douglass’s narrative is entirely his own production, written with honesty and without exaggeration. Garrison argues that Douglass’s experiences are representative of slavery in Maryland, where conditions were allegedly better than in states like Georgia or Louisiana, yet still horrific. He emphasizes the psychological torment of slavery, noting that intelligence increases misery by highlighting one’s lack of freedom.\n\nGarrison addresses skeptics who doubt the cruelty of slavery, arguing that such incredulity stems from a desire to protect slaveholders and a contempt for Black people. He points out that Douglass has named specific individuals and locations, allowing his claims to be verified or disproven. The preface details two instances of murder described by Douglass: a planter shooting a trespassing slave and an overseer killing a fleeing slave, neither resulting in legal consequences due to laws barring Black testimony against whites.\n\nTo further illustrate this impunity, Garrison quotes the *Baltimore American* from March 17, 1845, reporting on a case where a young man named Matthews shot a servant for disobedience and fled without arrest. This example underscores the lack of legal protection for slaves under the slave code. Garrison concludes by condemning the hypocrisy of Christian slaveholders, stating that their profession is an imposture and urging readers to reject compromise with slavery.\n\nFollowing this preface is a letter from Wendell Phillips, dated April 22, 1845, in Boston. Phillips references the fable \"The Man and the Lion,\" celebrating that Douglass now writes his own history rather than having it defined by masters. He criticizes those who only oppose slavery based on economic inefficiency or visible physical suffering, arguing that true abolitionists must recognize the spiritual death inflicted upon slaves. Phillips praises Douglass’s early awakening to injustice and notes the value of his account coming from Maryland, a region where slavery supposedly appears most benign. He expresses confidence in Douglass’s truthfulness and sincerity, asserting that his narrative provides a fair specimen of the whole truth, balancing individual kindness with systemic brutality. Phillips invites readers to compare the limited rights of free Blacks in the North with the absolute oppression south of Mason and Dixon’s line, challenging them to consider whether half-free status is preferable to slavery."
+      }
+    ],
+    "stats": {
+      "input_tokens": 5045,
+      "total_output_tokens": 918,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 57.50642243891824,
+      "time_to_first_token_seconds": 6.02641
+    }
+  },
+  "output": "In August 1841, at an anti-slavery convention in Nantucket, the narrator first encountered Frederick Douglass. At that time, Douglass was a stranger to most attendees, having recently escaped from slavery and residing in New Bedford. Motivated by curiosity regarding abolitionist principles, he attended despite his status as a fugitive. The narrator describes this meeting as a fortunate occurrence for Douglass’s brethren, the cause of emancipation, and Douglass himself, noting that it awakened his energies and consecrated him to the work of liberation.\n\nThe narrator recalls Douglass’s first speech with profound emotion. Though initially hesitant and embarrassed due to his lack of formal education—a consequence of slavery—Douglass spoke with natural eloquence and intellect. The narrator was so moved that he declared Douglass’s speech more powerful than Patrick Henry’s in the cause of liberty. He highlighted the paradox of a man of such high moral and intellectual capacity being legally defined as property, a \"beast of burden.\" Following the speech, the narrator appealed to the audience for protection against the Fugitive Slave Law, receiving thunderous assurances that Douglass would not be returned to bondage.\n\nEncouraged by this support and urged by friends, including John A. Collins of the Massachusetts Anti-Slavery Society, Douglass initially expressed doubt about his ability to serve as a public lecturer. However, he eventually consented to try. Since then, he has served as an agent for anti-slavery societies, surpassing expectations in combating prejudice and gaining converts. The narrator praises Douglass’s gentle yet manly character and his rhetorical skills, emphasizing the union of head and heart necessary for effective advocacy.\n\nThe preface also highlights Charles Lenox Remond as another eloquent representative of the free colored population, challenging notions of racial inferiority. To illustrate slavery’s dehumanizing effect on all people, the narrator cites Daniel O’Connell’s 1845 speech regarding an American sailor who, after three years in African slavery, lost his reasoning power and language. This anecdote serves to prove that white slaves can degrade as severely as black ones, countering arguments of inherent racial superiority.\n\nWilliam Lloyd Garrison authored this preface, dated May 1, 1845, in Boston. He asserts that Douglass’s narrative is entirely his own production, written with honesty and without exaggeration. Garrison argues that Douglass’s experiences are representative of slavery in Maryland, where conditions were allegedly better than in states like Georgia or Louisiana, yet still horrific. He emphasizes the psychological torment of slavery, noting that intelligence increases misery by highlighting one’s lack of freedom.\n\nGarrison addresses skeptics who doubt the cruelty of slavery, arguing that such incredulity stems from a desire to protect slaveholders and a contempt for Black people. He points out that Douglass has named specific individuals and locations, allowing his claims to be verified or disproven. The preface details two instances of murder described by Douglass: a planter shooting a trespassing slave and an overseer killing a fleeing slave, neither resulting in legal consequences due to laws barring Black testimony against whites.\n\nTo further illustrate this impunity, Garrison quotes the *Baltimore American* from March 17, 1845, reporting on a case where a young man named Matthews shot a servant for disobedience and fled without arrest. This example underscores the lack of legal protection for slaves under the slave code. Garrison concludes by condemning the hypocrisy of Christian slaveholders, stating that their profession is an imposture and urging readers to reject compromise with slavery.\n\nFollowing this preface is a letter from Wendell Phillips, dated April 22, 1845, in Boston. Phillips references the fable \"The Man and the Lion,\" celebrating that Douglass now writes his own history rather than having it defined by masters. He criticizes those who only oppose slavery based on economic inefficiency or visible physical suffering, arguing that true abolitionists must recognize the spiritual death inflicted upon slaves. Phillips praises Douglass’s early awakening to injustice and notes the value of his account coming from Maryland, a region where slavery supposedly appears most benign. He expresses confidence in Douglass’s truthfulness and sincerity, asserting that his narrative provides a fair specimen of the whole truth, balancing individual kindness with systemic brutality. Phillips invites readers to compare the limited rights of free Blacks in the North with the absolute oppression south of Mason and Dixon’s line, challenging them to consider whether half-free status is preferable to slavery.",
+  "stats": {
+    "input_tokens": 5045,
+    "total_output_tokens": 918,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.50642243891824,
+    "time_to_first_token_seconds": 6.02641
+  },
+  "wall_seconds": 22.9903756650001,
+  "output_tokens_per_wall_second": 39.929752056967786,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3626090496,
+    "runtime_total_pss_bytes": 1861828608,
+    "system_used_excluding_available_bytes": 6291587072,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 1324584960,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 4.1,
+    "card1_vram_used_bytes": 26027798528,
+    "system_available_bytes": 26784948224,
+    "card1_gtt_used_bytes": 355123200
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

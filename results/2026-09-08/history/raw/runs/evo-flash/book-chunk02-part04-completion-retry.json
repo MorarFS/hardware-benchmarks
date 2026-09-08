@@ -1,0 +1,85 @@
+{
+  "fingerprint": "e7f36262985b4383d5f9784a4291cd6ac49f9cd69963c4a2451f30e42335a27f",
+  "model": "evo-flash",
+  "name": "book-chunk02-part04-completion-retry",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T05:02:00.592309+00:00",
+  "preflight_input_tokens": 5582,
+  "context": 8192,
+  "output_limit": 2200,
+  "metadata": {
+    "chunk": 2,
+    "part": 4,
+    "pdf_pages": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "retry_of": "book-chunk02-part04",
+    "retry_reason": "Output ceiling reached; original retained"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 54.89323969599991
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T05:02:55.592396+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The final German threat to the Eastern Empire occurred during the reign of Zeno [PDF p. 88]. The Ostrogoths had previously submitted to the Huns ninety years earlier [PDF p. 88]. They regained independence after Attila’s death in A.D. 452 [PDF p. 88]. These Goths replaced the Huns as the primary danger along the Danube [PDF p. 88]. Most settled in Pannonia, bordering Eastern Roman districts [PDF p. 88]. Two chiefs named Theodoric raided Macedonia and Moesia for over twenty years [PDF p. 88]. Zeno attempted to divide them by offering titles and pensions [PDF p. 88]. This strategy failed because the two leaders united against him [PDF p. 88]. One Theodoric accused Rome of using Goths to destroy other Goths [PDF p. 89]. His speech convinced his rival that Roman aid was illusory [PDF p. 89]. They reconciled and fought Zeno together starting in A.D. 479 [PDF p. 89]. Theodoric the One-Eyed died accidentally two years later [PDF p. 89]. His horse threw him against a spear fixed at his tent door [PDF p. 89]. The surviving Theodoric continued to plague the empire until A.D. 488 [PDF p. 89].\n\nZeno devised a plan to remove this threat by offering Italy to Theodoric [PDF p. 90]. Odoacer had deposed Romulus Augustulus in A.D. 476 [PDF p. 89]. He refused to appoint a new puppet emperor for the West [PDF p. 89]. The Roman Senate asked Zeno to recognize Odoacer as their ruler [PDF p. 89]. Zeno instead advised them to acknowledge Julius Nepos as emperor [PDF p. 90]. Odoacer rejected this advice and proclaimed himself king in Italy [PDF p. 90]. He still nominally recognized the Constantinopolitan emperor as his suzerain [PDF p. 90]. Theodoric accepted Zeno’s offer to conquer Italy from Odoacer [PDF p. 90]. He received the titles of patrician and consul before departing [PDF p. 90]. The Goths defeated Odoacer and established a kingdom at Ravenna [PDF p. 90]. Theodoric professed loyalty to the Eastern emperor throughout his reign [PDF p. 90]. This conquest theoretically reunited the East and West under one ruler [PDF p. 90]. However, Zeno’s actual power in the Western realm remained purely nominal [PDF p. 90].\n\nThe Emperor Anastasius died in A.D. 518 at age eighty-eight [PDF p. 91]. Justinus, his body-guard commander, succeeded him with Senate and army support [PDF p. 91]. Justinus was an uncultured soldier who could barely sign his name [PDF p. 91]. He adopted his nephew Justinian as his heir [PDF p. 91]. Justinian was educated in law, finance, theology, and architecture [PDF p. 92]. He showed little personal interest in military matters [PDF p. 92]. In A.D. 526, he announced his intention to marry the actress Theodora [PDF p. 92]. This union scandalized respectable society but pleased gossipmongers [PDF p. 92]. The author notes that libellous accounts of her early life are likely exaggerated [PDF p. 92]. A law forbidding senators from marrying actresses was repealed for this marriage [PDF p. 93]. Justinian’s mother and uncle opposed the union but eventually relented [PDF p. 93]. Theodora was renowned for her beauty despite some physical criticisms [PDF p. 93]. She proved to be a capable and trusted political advisor [PDF p. 93].\n\nJustinus died in A.D. 527, leaving Justinian sole emperor [PDF p. 96]. He ruled for thirty-eight years, dominating the historical period [PDF p. 96]. The empire was prosperous when he assumed power [PDF p. 96]. Anastasius had left a treasury containing over three hundred thousand pounds of gold [PDF p. 97]. The army consisted largely of native subjects rather than foreigners [PDF p. 97]. Heavy cavalry replaced infantry as the primary military force [PDF p. 98]. Foreign auxiliaries like Huns and Herules still served in significant numbers [PDF p. 98]. Financial administration remained weak despite abundant resources [PDF p. 98]. Tax farming and arbitrary customs dues harmed trade significantly [PDF p. 98]. Justinian’s minister John of Cappadocia maintained full treasuries through harsh taxation [PDF p. 99]. This policy impoverished the provinces permanently for future generations [PDF p. 99].\n\nJustinian aimed to reconquer Western territories lost to German kingdoms [PDF p. 99]. He sought to end the pretense of nominal imperial authority in the West [PDF p. 99]. His initial focus involved a four-year war against Persia [PDF p. 99]. The conflict stemmed from rival claims over small buffer states [PDF p. 99].\n\nThe source presents conflicting views on Justinian’s character and legacy. It compares him to Louis XIV while noting his superior legal achievements [PDF p. 95]. The text acknowledges the bias of hostile sources like Procopius regarding Theodora [PDF p. 92]. Uncertainty remains about the exact nature of her early life due to libelous accounts [PDF p. 92]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 5546,
+      "total_output_tokens": 1244,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.93156795804294,
+      "time_to_first_token_seconds": 0.6714070000000001
+    }
+  },
+  "output": "The final German threat to the Eastern Empire occurred during the reign of Zeno [PDF p. 88]. The Ostrogoths had previously submitted to the Huns ninety years earlier [PDF p. 88]. They regained independence after Attila’s death in A.D. 452 [PDF p. 88]. These Goths replaced the Huns as the primary danger along the Danube [PDF p. 88]. Most settled in Pannonia, bordering Eastern Roman districts [PDF p. 88]. Two chiefs named Theodoric raided Macedonia and Moesia for over twenty years [PDF p. 88]. Zeno attempted to divide them by offering titles and pensions [PDF p. 88]. This strategy failed because the two leaders united against him [PDF p. 88]. One Theodoric accused Rome of using Goths to destroy other Goths [PDF p. 89]. His speech convinced his rival that Roman aid was illusory [PDF p. 89]. They reconciled and fought Zeno together starting in A.D. 479 [PDF p. 89]. Theodoric the One-Eyed died accidentally two years later [PDF p. 89]. His horse threw him against a spear fixed at his tent door [PDF p. 89]. The surviving Theodoric continued to plague the empire until A.D. 488 [PDF p. 89].\n\nZeno devised a plan to remove this threat by offering Italy to Theodoric [PDF p. 90]. Odoacer had deposed Romulus Augustulus in A.D. 476 [PDF p. 89]. He refused to appoint a new puppet emperor for the West [PDF p. 89]. The Roman Senate asked Zeno to recognize Odoacer as their ruler [PDF p. 89]. Zeno instead advised them to acknowledge Julius Nepos as emperor [PDF p. 90]. Odoacer rejected this advice and proclaimed himself king in Italy [PDF p. 90]. He still nominally recognized the Constantinopolitan emperor as his suzerain [PDF p. 90]. Theodoric accepted Zeno’s offer to conquer Italy from Odoacer [PDF p. 90]. He received the titles of patrician and consul before departing [PDF p. 90]. The Goths defeated Odoacer and established a kingdom at Ravenna [PDF p. 90]. Theodoric professed loyalty to the Eastern emperor throughout his reign [PDF p. 90]. This conquest theoretically reunited the East and West under one ruler [PDF p. 90]. However, Zeno’s actual power in the Western realm remained purely nominal [PDF p. 90].\n\nThe Emperor Anastasius died in A.D. 518 at age eighty-eight [PDF p. 91]. Justinus, his body-guard commander, succeeded him with Senate and army support [PDF p. 91]. Justinus was an uncultured soldier who could barely sign his name [PDF p. 91]. He adopted his nephew Justinian as his heir [PDF p. 91]. Justinian was educated in law, finance, theology, and architecture [PDF p. 92]. He showed little personal interest in military matters [PDF p. 92]. In A.D. 526, he announced his intention to marry the actress Theodora [PDF p. 92]. This union scandalized respectable society but pleased gossipmongers [PDF p. 92]. The author notes that libellous accounts of her early life are likely exaggerated [PDF p. 92]. A law forbidding senators from marrying actresses was repealed for this marriage [PDF p. 93]. Justinian’s mother and uncle opposed the union but eventually relented [PDF p. 93]. Theodora was renowned for her beauty despite some physical criticisms [PDF p. 93]. She proved to be a capable and trusted political advisor [PDF p. 93].\n\nJustinus died in A.D. 527, leaving Justinian sole emperor [PDF p. 96]. He ruled for thirty-eight years, dominating the historical period [PDF p. 96]. The empire was prosperous when he assumed power [PDF p. 96]. Anastasius had left a treasury containing over three hundred thousand pounds of gold [PDF p. 97]. The army consisted largely of native subjects rather than foreigners [PDF p. 97]. Heavy cavalry replaced infantry as the primary military force [PDF p. 98]. Foreign auxiliaries like Huns and Herules still served in significant numbers [PDF p. 98]. Financial administration remained weak despite abundant resources [PDF p. 98]. Tax farming and arbitrary customs dues harmed trade significantly [PDF p. 98]. Justinian’s minister John of Cappadocia maintained full treasuries through harsh taxation [PDF p. 99]. This policy impoverished the provinces permanently for future generations [PDF p. 99].\n\nJustinian aimed to reconquer Western territories lost to German kingdoms [PDF p. 99]. He sought to end the pretense of nominal imperial authority in the West [PDF p. 99]. His initial focus involved a four-year war against Persia [PDF p. 99]. The conflict stemmed from rival claims over small buffer states [PDF p. 99].\n\nThe source presents conflicting views on Justinian’s character and legacy. It compares him to Louis XIV while noting his superior legal achievements [PDF p. 95]. The text acknowledges the bias of hostile sources like Procopius regarding Theodora [PDF p. 92]. Uncertainty remains about the exact nature of her early life due to libelous accounts [PDF p. 92].",
+  "stats": {
+    "input_tokens": 5546,
+    "total_output_tokens": 1244,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.93156795804294,
+    "time_to_first_token_seconds": 0.6714070000000001
+  },
+  "wall_seconds": 54.89323969599991,
+  "output_tokens_per_wall_second": 22.662171278090018,
+  "peak_metrics": {
+    "cpu_percent": 4.7,
+    "card1_vram_used_bytes": 67913842688,
+    "system_available_bytes": 25707036672,
+    "swap_used_bytes": 4092907520,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 7248502784,
+    "runtime_total_pss_bytes": 4059514880,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_used_bytes": 258183168,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_largest_process_rss_bytes": 3748270080
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -36
+}

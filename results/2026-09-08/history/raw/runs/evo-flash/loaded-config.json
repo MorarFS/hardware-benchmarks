@@ -1,0 +1,41 @@
+{
+  "requested": {
+    "identifier": "evo-flash",
+    "label": "Qwen3.8 Flash Next UD-IQ4_XS",
+    "resource": "qwen3.8-flash-next@iq4_xs",
+    "context": 8192,
+    "mtp": false,
+    "gpu": "max"
+  },
+  "actual": {
+    "id": "evo-flash",
+    "config": {
+      "context_length": 8192,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 1,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": false,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 10,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "runtime": {
+    "command": [
+      "<LM_STUDIO_HOME>/bin/lms",
+      "runtime",
+      "ls"
+    ],
+    "returncode": 0,
+    "output": "LLM ENGINE                                        SELECTED    MODEL FORMAT\nllama.cpp-linux-x86_64-amd-rocm-avx2@2.33.0                       GGUF    \nllama.cpp-linux-x86_64-avx2@2.33.0                                GGUF    \nllama.cpp-linux-x86_64-avx2@2.31.2                                GGUF    \nllama.cpp-linux-x86_64-nvidia-cuda-avx2@2.33.0                    GGUF    \nllama.cpp-linux-x86_64-nvidia-cuda-avx2@2.31.2                    GGUF    \nllama.cpp-linux-x86_64-vulkan-avx2@2.33.0            ✓            GGUF    \nllama.cpp-linux-x86_64-vulkan-avx2@2.31.2                         GGUF    \n",
+    "wall_seconds": 0.2164974320003239
+  }
+}

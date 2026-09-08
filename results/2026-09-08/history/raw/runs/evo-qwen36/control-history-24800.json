@@ -1,0 +1,69 @@
+{
+  "fingerprint": "cd9df2048c67d78dad028f5edd9f3a53035b998391ebabe4311d66374a127a17",
+  "model": "evo-qwen36",
+  "name": "control-history-24800",
+  "kind": "long_history_excerpt_control",
+  "started_at": "2026-09-08T04:11:19.427099+00:00",
+  "preflight_input_tokens": 25020,
+  "context": 65536,
+  "output_limit": 1200,
+  "metadata": {
+    "source": "Same complete 20,000-word calibration excerpt, not a full book",
+    "cache": "Warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 57.582877662999636
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:12:17.094644+00:00",
+  "response": {
+    "model_instance_id": "evo-qwen36",
+    "output": [
+      {
+        "type": "message",
+        "content": "In August 1841, the narrator attended an anti-slavery convention in Nantucket, where he met Frederick Douglass, a recent escapee from slavery residing in New Bedford. This encounter proved fortuitous for Douglass and the abolitionist cause. The narrator recalls Douglass’s first speech with profound emotion; it was delivered by a fugitive slave who possessed commanding physical stature, rich intellect, and natural eloquence, yet was legally considered property. The audience, initially surprised, responded with thunderous applause and unanimous pledges to protect him from recapture under the Fugitive Slave Law. Recognizing Douglass’s potential, the narrator and friends like John A. Collins encouraged him to become an anti-slavery lecturer. Though initially hesitant due to his inexperience and fear of inadequacy, Douglass eventually agreed. He became a highly successful agent for the American and Massachusetts Anti-Slavery Societies, excelling in pathos, wit, and reasoning, thereby combating northern prejudice against Black people.\n\nThe preface highlights that Douglass’s narrative is entirely his own production, written to counter calumnies regarding the intellectual inferiority of African Americans. It cites Daniel O’Connell’s 1845 speech illustrating that slavery brutalizes even white men, proving that degradation is a result of the institution, not race. The preface asserts the truthfulness of Douglass’s account, noting his case in Maryland was typical rather than exceptional. It condemns the legal impunity enjoyed by slaveholders, citing cases where murders of slaves went unpunished because colored witnesses could not testify against whites. William Lloyd Garrison concludes with a call for uncompromising opposition to slavery.\n\nIn a letter dated April 22, 1845, Wendell Phillips praises Douglass’s narrative as an honest, unsparing account from the \"lions\" themselves. He notes that Douglass writes from Maryland, where slavery supposedly appears most benign, making his testimony particularly damning. Phillips expresses concern for Douglass’s safety in Massachusetts, where fugitive slaves remain vulnerable despite Northern sympathy, and urges New England to become a true asylum for the oppressed.\n\nFrederick Douglass was born into slavery near Easton, Maryland, likely in 1817 or 1818. Separated from his mother at infancy, he was sent to Baltimore as a house servant, where he learned to read with his master’s wife’s help before being moved to Colonel Lloyd’s plantation. In 1838, he escaped to New York, married Anna Murray, and adopted the name Douglass. He became an abolitionist agent in 1841 after impressing the Nantucket convention, leading him to write this narrative to prove his humanity and oratorical skill.\n\nChapter I details Douglass’s birth in Tuckahoe, Maryland. He lacked knowledge of his age, a common ignorance enforced by masters. His father was white, possibly his master, though this is unconfirmed. Separated from his mother early, he saw her only briefly at night; she died when he was seven. He describes the brutal whipping of Aunt Hester by Captain Anthony for consorting with Lloyd’s Ned, an event that introduced him to the horrors of slavery.\n\nChapter II outlines life on Colonel Lloyd’s plantation, which managed over twenty farms. Slaves received meager rations and clothing, sleeping on cold floors without beds. Overseers like Mr. Severe were notoriously cruel and profane, while his successor, Mr. Hopkins, was milder. Douglass notes that slaves sang not out of happiness, but as an expression of deep sorrow and a prayer for deliverance.\n\nChapter III describes the harsh conditions under overseer Austin Gore, who murdered a slave named Demby for refusing to leave a creek during punishment. Gore faced no legal consequences due to laws barring Black testimony. Other murders by slaveholders also went unpunished. Douglass recalls his childhood on the plantation, suffering from hunger and cold while wearing only a coarse shirt.\n\nChapter IV recounts his transfer to Baltimore in 1826 to live with Mr. and Mrs. Hugh Auld. He viewed this move as providential. In Baltimore, he observed that city slaves were better fed and clothed than those on plantations, though cruelty still existed, exemplified by the brutal treatment of Henrietta and Mary by Mrs. Hamilton.\n\nChapter V details his education. Mrs. Auld initially taught him but stopped after Mr. Auld intervened, arguing that literacy made slaves unmanageable and discontented. This opposition convinced Douglass of reading’s power to liberate. He learned from white children in the streets, trading bread for lessons, and copied letters from ship carpenters. Reading *The Columbian Orator* awakened his desire for freedom, causing him anguish at his enslaved condition but strengthening his resolve to escape.\n\nChapter VI describes his return to Talbot County after Captain Anthony’s death, where he was valued as property alongside livestock. He was sold back to Baltimore to Master Thomas Auld. There, he witnessed the cruel separation of families and the abandonment of his elderly grandmother, who was left to die in a hut. Douglass resolved to escape, noting that opportunities were greater in the city.\n\nChapter VII begins with his arrival at St. Michael’s in March 1832 under Master Thomas Auld, described as mean and cruel. Starved and neglected, Douglass and other slaves begged or stole food. He notes that Thomas’s conversion to Methodism did not improve his treatment of slaves; rather, it provided religious justification for his cruelty. Preachers frequently visited the household, which Douglass viewed with suspicion given their complicity in slavery."
+      }
+    ],
+    "stats": {
+      "input_tokens": 25022,
+      "total_output_tokens": 1167,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 48.31249349480147,
+      "time_to_first_token_seconds": 32.373685
+    }
+  },
+  "output": "In August 1841, the narrator attended an anti-slavery convention in Nantucket, where he met Frederick Douglass, a recent escapee from slavery residing in New Bedford. This encounter proved fortuitous for Douglass and the abolitionist cause. The narrator recalls Douglass’s first speech with profound emotion; it was delivered by a fugitive slave who possessed commanding physical stature, rich intellect, and natural eloquence, yet was legally considered property. The audience, initially surprised, responded with thunderous applause and unanimous pledges to protect him from recapture under the Fugitive Slave Law. Recognizing Douglass’s potential, the narrator and friends like John A. Collins encouraged him to become an anti-slavery lecturer. Though initially hesitant due to his inexperience and fear of inadequacy, Douglass eventually agreed. He became a highly successful agent for the American and Massachusetts Anti-Slavery Societies, excelling in pathos, wit, and reasoning, thereby combating northern prejudice against Black people.\n\nThe preface highlights that Douglass’s narrative is entirely his own production, written to counter calumnies regarding the intellectual inferiority of African Americans. It cites Daniel O’Connell’s 1845 speech illustrating that slavery brutalizes even white men, proving that degradation is a result of the institution, not race. The preface asserts the truthfulness of Douglass’s account, noting his case in Maryland was typical rather than exceptional. It condemns the legal impunity enjoyed by slaveholders, citing cases where murders of slaves went unpunished because colored witnesses could not testify against whites. William Lloyd Garrison concludes with a call for uncompromising opposition to slavery.\n\nIn a letter dated April 22, 1845, Wendell Phillips praises Douglass’s narrative as an honest, unsparing account from the \"lions\" themselves. He notes that Douglass writes from Maryland, where slavery supposedly appears most benign, making his testimony particularly damning. Phillips expresses concern for Douglass’s safety in Massachusetts, where fugitive slaves remain vulnerable despite Northern sympathy, and urges New England to become a true asylum for the oppressed.\n\nFrederick Douglass was born into slavery near Easton, Maryland, likely in 1817 or 1818. Separated from his mother at infancy, he was sent to Baltimore as a house servant, where he learned to read with his master’s wife’s help before being moved to Colonel Lloyd’s plantation. In 1838, he escaped to New York, married Anna Murray, and adopted the name Douglass. He became an abolitionist agent in 1841 after impressing the Nantucket convention, leading him to write this narrative to prove his humanity and oratorical skill.\n\nChapter I details Douglass’s birth in Tuckahoe, Maryland. He lacked knowledge of his age, a common ignorance enforced by masters. His father was white, possibly his master, though this is unconfirmed. Separated from his mother early, he saw her only briefly at night; she died when he was seven. He describes the brutal whipping of Aunt Hester by Captain Anthony for consorting with Lloyd’s Ned, an event that introduced him to the horrors of slavery.\n\nChapter II outlines life on Colonel Lloyd’s plantation, which managed over twenty farms. Slaves received meager rations and clothing, sleeping on cold floors without beds. Overseers like Mr. Severe were notoriously cruel and profane, while his successor, Mr. Hopkins, was milder. Douglass notes that slaves sang not out of happiness, but as an expression of deep sorrow and a prayer for deliverance.\n\nChapter III describes the harsh conditions under overseer Austin Gore, who murdered a slave named Demby for refusing to leave a creek during punishment. Gore faced no legal consequences due to laws barring Black testimony. Other murders by slaveholders also went unpunished. Douglass recalls his childhood on the plantation, suffering from hunger and cold while wearing only a coarse shirt.\n\nChapter IV recounts his transfer to Baltimore in 1826 to live with Mr. and Mrs. Hugh Auld. He viewed this move as providential. In Baltimore, he observed that city slaves were better fed and clothed than those on plantations, though cruelty still existed, exemplified by the brutal treatment of Henrietta and Mary by Mrs. Hamilton.\n\nChapter V details his education. Mrs. Auld initially taught him but stopped after Mr. Auld intervened, arguing that literacy made slaves unmanageable and discontented. This opposition convinced Douglass of reading’s power to liberate. He learned from white children in the streets, trading bread for lessons, and copied letters from ship carpenters. Reading *The Columbian Orator* awakened his desire for freedom, causing him anguish at his enslaved condition but strengthening his resolve to escape.\n\nChapter VI describes his return to Talbot County after Captain Anthony’s death, where he was valued as property alongside livestock. He was sold back to Baltimore to Master Thomas Auld. There, he witnessed the cruel separation of families and the abandonment of his elderly grandmother, who was left to die in a hut. Douglass resolved to escape, noting that opportunities were greater in the city.\n\nChapter VII begins with his arrival at St. Michael’s in March 1832 under Master Thomas Auld, described as mean and cruel. Starved and neglected, Douglass and other slaves begged or stole food. He notes that Thomas’s conversion to Methodism did not improve his treatment of slaves; rather, it provided religious justification for his cruelty. Preachers frequently visited the household, which Douglass viewed with suspicion given their complicity in slavery.",
+  "stats": {
+    "input_tokens": 25022,
+    "total_output_tokens": 1167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 48.31249349480147,
+    "time_to_first_token_seconds": 32.373685
+  },
+  "wall_seconds": 57.582877662999636,
+  "output_tokens_per_wall_second": 20.26644112560331,
+  "peak_metrics": {
+    "system_total_bytes": 32721723392,
+    "swap_used_bytes": 3551510528,
+    "runtime_total_pss_bytes": 2503751680,
+    "system_used_excluding_available_bytes": 7292215296,
+    "llama_server_process_count": 1,
+    "runtime_largest_process_rss_bytes": 2162696192,
+    "card1_vram_total_bytes": 103079215104,
+    "card1_gtt_total_bytes": 16360861696,
+    "cpu_percent": 6.2,
+    "card1_vram_used_bytes": 26138337280,
+    "system_available_bytes": 26244268032,
+    "card1_gtt_used_bytes": 355123200
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 2
+}

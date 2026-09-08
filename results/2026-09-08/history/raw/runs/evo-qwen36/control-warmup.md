@@ -1,0 +1,1 @@
+Source attribution is the process of identifying the origin or authorship of a piece of content, such as an image, text, or digital file. This practice is essential for maintaining intellectual property rights and ensuring proper credit is given to creators in academic and professional contexts.

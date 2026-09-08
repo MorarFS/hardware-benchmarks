@@ -1,0 +1,69 @@
+{
+  "fingerprint": "f195b9971ee2b015f857db68ce1b46cb7320228cd6a1df629115b15228d2b92a",
+  "model": "evo-flash",
+  "name": "control-history-2",
+  "kind": "history_excerpt_control",
+  "started_at": "2026-09-08T04:37:46.509758+00:00",
+  "preflight_input_tokens": 5085,
+  "context": 8192,
+  "output_limit": 1000,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured",
+    "source": "Douglass partial excerpt; not the selected full book"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 57.44160566800019
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:38:43.952412+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "The excerpt comprises the front matter of Frederick Douglass’s 1845 autobiography, *Narrative of the Life of Frederick Douglass, an American Slave*, published in Boston by the Anti-Slavery Office. The text includes a preface by William Lloyd Garrison and a letter from Wendell Phillips, both dated May and April 1845 respectively, which serve to authenticate Douglass’s account and advocate for abolition.\n\nWilliam Lloyd Garrison’s preface begins with his personal recollection of meeting Douglass in August 1841 at an anti-slavery convention in Nantucket. Garrison describes Douglass as a stranger to the group, having recently escaped slavery from Maryland while residing in New Bedford. Garrison emphasizes the significance of this encounter, portraying it as fortunate for the cause of emancipation and universal liberty. He recounts Douglass’s first speech at the convention with vivid detail, noting the speaker’s commanding physical presence, natural eloquence, and profound emotional impact on the audience. Garrison recalls his own intense reaction, stating he had never hated slavery more intensely than in that moment upon seeing a man of such high moral and intellectual capacity reduced to \"chattel personal\" by law.\n\nGarrison describes how a friend from New Bedford persuaded Douglass to speak despite his initial hesitancy and embarrassment. After Douglass apologized for his lack of formal education, citing slavery as a poor school for the intellect, he narrated his history with noble thoughts that Garrison compared favorably to Patrick Henry’s revolutionary eloquence. Garrison then appealed to the audience to protect Douglass from recapture under any law or constitution, receiving a unanimous and thunderous pledge of protection from the crowd. Recognizing Douglass’s potential, Garrison, supported by John A. Collins of the Massachusetts Anti-Slavery Society, encouraged him to become a lecturing agent. Although Douglass initially feared he was inadequate for such an untrodden path, he consented and subsequently became a highly effective advocate against prejudice.\n\nGarrison asserts that Douglass’s decision to write his own narrative is significant because it allows the oppressed to speak for themselves. He vouches for the truthfulness of the text, arguing that nothing has been exaggerated or invented. Garrison notes that Douglass’s experience in Maryland was not even exceptionally harsh compared to states like Georgia or Louisiana, yet it still resulted in terrible physical and mental outrages. Garrison highlights a specific passage where Douglass soliloquizes on the banks of the Chesapeake Bay, viewing ships as symbols of freedom, describing this moment as possessing immense pathos and sublimity.\n\nAddressing skeptics who doubt the cruelty of slavery, Garrison argues that such disbelief stems from a desire to shield the institution or contempt for Black people. He points out that Douglass names his owners and specific perpetrators, making his claims verifiable. To illustrate the impunity with which slaveholders act, Garrison cites two instances of murder described by Douglass and corroborates them with a report from the *Baltimore American* (March 17, 1845), detailing how a young man named Matthews shot a disobedient slave and remained unmolested. Garrison underscores that legal systems deny Black witnesses the right to testify against whites, leaving slaves without protection. He concludes his preface by condemning religious slaveholders as \"man-stealers\" and urging readers to adopt the motto: “NO COMPROMISE WITH SLAVERY! NO UNION WITH SLAVEHOLDERS!”\n\nFollowing Garrison’s preface is a letter from Wendell Phillips, dated April 22, 1845. Phillips uses the fable of “The Man and the Lion” to celebrate that the “lions” (the enslaved) are now writing their own history, rather than relying on the biased accounts of masters. He expresses satisfaction that Douglass’s narrative reveals how early enslaved people recognized the injustice done to them, gauging their wretchedness not just by physical toil but by the spiritual death slavery imposed. Phillips notes the value of Douglass coming from Maryland, a region often portrayed as having milder slavery; if conditions are this bad there, Phillips implies, they must be far worse in the Deep South. He affirms his confidence in Douglass’s truthfulness and sincerity, suggesting that readers will find a fair, balanced portrait that acknowledges occasional individual kindness while exposing the systemic brutality of the institution."
+      }
+    ],
+    "stats": {
+      "input_tokens": 5045,
+      "total_output_tokens": 888,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 22.751797892213933,
+      "time_to_first_token_seconds": 16.882354
+    }
+  },
+  "output": "The excerpt comprises the front matter of Frederick Douglass’s 1845 autobiography, *Narrative of the Life of Frederick Douglass, an American Slave*, published in Boston by the Anti-Slavery Office. The text includes a preface by William Lloyd Garrison and a letter from Wendell Phillips, both dated May and April 1845 respectively, which serve to authenticate Douglass’s account and advocate for abolition.\n\nWilliam Lloyd Garrison’s preface begins with his personal recollection of meeting Douglass in August 1841 at an anti-slavery convention in Nantucket. Garrison describes Douglass as a stranger to the group, having recently escaped slavery from Maryland while residing in New Bedford. Garrison emphasizes the significance of this encounter, portraying it as fortunate for the cause of emancipation and universal liberty. He recounts Douglass’s first speech at the convention with vivid detail, noting the speaker’s commanding physical presence, natural eloquence, and profound emotional impact on the audience. Garrison recalls his own intense reaction, stating he had never hated slavery more intensely than in that moment upon seeing a man of such high moral and intellectual capacity reduced to \"chattel personal\" by law.\n\nGarrison describes how a friend from New Bedford persuaded Douglass to speak despite his initial hesitancy and embarrassment. After Douglass apologized for his lack of formal education, citing slavery as a poor school for the intellect, he narrated his history with noble thoughts that Garrison compared favorably to Patrick Henry’s revolutionary eloquence. Garrison then appealed to the audience to protect Douglass from recapture under any law or constitution, receiving a unanimous and thunderous pledge of protection from the crowd. Recognizing Douglass’s potential, Garrison, supported by John A. Collins of the Massachusetts Anti-Slavery Society, encouraged him to become a lecturing agent. Although Douglass initially feared he was inadequate for such an untrodden path, he consented and subsequently became a highly effective advocate against prejudice.\n\nGarrison asserts that Douglass’s decision to write his own narrative is significant because it allows the oppressed to speak for themselves. He vouches for the truthfulness of the text, arguing that nothing has been exaggerated or invented. Garrison notes that Douglass’s experience in Maryland was not even exceptionally harsh compared to states like Georgia or Louisiana, yet it still resulted in terrible physical and mental outrages. Garrison highlights a specific passage where Douglass soliloquizes on the banks of the Chesapeake Bay, viewing ships as symbols of freedom, describing this moment as possessing immense pathos and sublimity.\n\nAddressing skeptics who doubt the cruelty of slavery, Garrison argues that such disbelief stems from a desire to shield the institution or contempt for Black people. He points out that Douglass names his owners and specific perpetrators, making his claims verifiable. To illustrate the impunity with which slaveholders act, Garrison cites two instances of murder described by Douglass and corroborates them with a report from the *Baltimore American* (March 17, 1845), detailing how a young man named Matthews shot a disobedient slave and remained unmolested. Garrison underscores that legal systems deny Black witnesses the right to testify against whites, leaving slaves without protection. He concludes his preface by condemning religious slaveholders as \"man-stealers\" and urging readers to adopt the motto: “NO COMPROMISE WITH SLAVERY! NO UNION WITH SLAVEHOLDERS!”\n\nFollowing Garrison’s preface is a letter from Wendell Phillips, dated April 22, 1845. Phillips uses the fable of “The Man and the Lion” to celebrate that the “lions” (the enslaved) are now writing their own history, rather than relying on the biased accounts of masters. He expresses satisfaction that Douglass’s narrative reveals how early enslaved people recognized the injustice done to them, gauging their wretchedness not just by physical toil but by the spiritual death slavery imposed. Phillips notes the value of Douglass coming from Maryland, a region often portrayed as having milder slavery; if conditions are this bad there, Phillips implies, they must be far worse in the Deep South. He affirms his confidence in Douglass’s truthfulness and sincerity, suggesting that readers will find a fair, balanced portrait that acknowledges occasional individual kindness while exposing the systemic brutality of the institution.",
+  "stats": {
+    "input_tokens": 5045,
+    "total_output_tokens": 888,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 22.751797892213933,
+    "time_to_first_token_seconds": 16.882354
+  },
+  "wall_seconds": 57.44160566800019,
+  "output_tokens_per_wall_second": 15.459177884623283,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 6627606528,
+    "card1_vram_used_bytes": 67909111808,
+    "cpu_percent": 3.9,
+    "swap_used_bytes": 4178808832,
+    "runtime_largest_process_rss_bytes": 3035406336,
+    "card1_vram_total_bytes": 103079215104,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "system_available_bytes": 26675544064,
+    "runtime_total_pss_bytes": 3136496640,
+    "card1_gtt_used_bytes": 258674688
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": -40
+}

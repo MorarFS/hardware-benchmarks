@@ -1,0 +1,121 @@
+{
+  "fingerprint": "ebbe772610994d456d2a5403c22c9a6ff53d6b69cac38b781eea28db0aa93630",
+  "model": "evo-gemma26",
+  "name": "book-chunk04-part01",
+  "kind": "book_subchunk",
+  "started_at": "2026-09-08T04:28:01.892186+00:00",
+  "preflight_input_tokens": 22248,
+  "context": 65536,
+  "output_limit": 1100,
+  "metadata": {
+    "chunk": 4,
+    "part": 1,
+    "pdf_pages": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 51.916271482999946
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:28:53.809593+00:00",
+  "response": {
+    "model_instance_id": "evo-gemma26",
+    "output": [
+      {
+        "type": "message",
+        "content": "The Latin-speaking population of Thrace and Illyria faced severe devastation during the Slav and Avar invasions between 570 and 600 [PDF p. 151]. The author notes that these newcomers were more savage than previous Gothic invaders [PDF p. 151]. Contemporary chronicler John of Ephesus describes how the Slavs overran Thrace and Greece, capturing cities and settling by force [PDF p. 151]. While fortified towns resisted, the open country was swept bare [PDF p. 152]. General Priscus attempted to hold the Danube, but Roman population limits eventually fell back to the Balkans [PDF p. 152].\n\nThe failure to stem these invasions contributed to the fall of Emperor Maurice [PDF p. 152]. Although Maurice was a capable officer and author of the *Strategicon*, he lost the respect of his soldiers [PDF p. 153]. In 602, his order for the Danube army to winter north of the river led to a revolt [PDF p. 153]. The troops elected Phocas as their leader and marched on Constantinople [PDF p. 153]. After Maurice fled to the Asiatic provinces, Phocas captured and executed him and his five sons [PDF p. 153]. The author characterizes Phocas as a brutal and reckless usurper whose reign caused the empire to fall apart [PDF p. 154]. Phocas's rule was marked by executions, including those of Maurice's widow and the general Narses [PDF p. 154]. This instability prompted Chosroes of Persia to declare war under the pretext of avenging Maurice [PDF p. 155]. Persian forces eventually reached the gates of Chalcedon in 608 [PDF p. 155].\n\nIn 610, Heraclius took the throne after his father, the exarch Heraclius, sent a fleet to overthrow Phocas [PDF p. 156]. Heraclius inherited an empire in chaos, with provinces overrun by Persians, Avars, and Slavs [PDF p. 157]. The loss of Jerusalem in 614 and the seizure of the \"True Cross\" by Shahrbarz caused widespread despair [PDF p. 158]. This crisis sparked a surge of national and religious feeling [PDF p. 159]. Heraclius led several campaigns, eventually defeating the Persians through skillful strategy and attacking their heartland in Media [PDF p. 161]. By 628, Chosroes was overthrown by his son Siroes, and a peace treaty restored Roman territory and the \"True Cross\" [PDF p. 164].\n\nThe empire's recovery was short-lived as the Saracen invasion began [PDF p. 166]. Heraclius faced these new enemies while the empire was financially drained and religiously divided [PDF p. 187]. The Arabs captured Syria and Egypt, including Jerusalem in 637 [PDF p. 189]. Following Heraclius's death in 641, his successors struggled with internal court intrigues caused by the marriage of Heraclius to his niece, Martina [PDF p. 190]. Constantine IV later achieved great fame by defending Constantinople against a massive Arab siege using \"Greek-fire\" [PDF p. 196]. The empire also faced new threats from the Bulgarians in the late seventh century [PDF p. 197]. Finally, Justinian II ascended the throne as a reckless tyrant who depleted the treasury through extortion and unsuccessful wars [PDF p. 199].\n\nThe text does not provide information regarding the ultimate fate of Justinian II or the long-term resolution of his conflicts."
+      }
+    ],
+    "stats": {
+      "input_tokens": 22251,
+      "total_output_tokens": 807,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 37.60422634179788,
+      "time_to_first_token_seconds": 26.922502
+    }
+  },
+  "output": "The Latin-speaking population of Thrace and Illyria faced severe devastation during the Slav and Avar invasions between 570 and 600 [PDF p. 151]. The author notes that these newcomers were more savage than previous Gothic invaders [PDF p. 151]. Contemporary chronicler John of Ephesus describes how the Slavs overran Thrace and Greece, capturing cities and settling by force [PDF p. 151]. While fortified towns resisted, the open country was swept bare [PDF p. 152]. General Priscus attempted to hold the Danube, but Roman population limits eventually fell back to the Balkans [PDF p. 152].\n\nThe failure to stem these invasions contributed to the fall of Emperor Maurice [PDF p. 152]. Although Maurice was a capable officer and author of the *Strategicon*, he lost the respect of his soldiers [PDF p. 153]. In 602, his order for the Danube army to winter north of the river led to a revolt [PDF p. 153]. The troops elected Phocas as their leader and marched on Constantinople [PDF p. 153]. After Maurice fled to the Asiatic provinces, Phocas captured and executed him and his five sons [PDF p. 153]. The author characterizes Phocas as a brutal and reckless usurper whose reign caused the empire to fall apart [PDF p. 154]. Phocas's rule was marked by executions, including those of Maurice's widow and the general Narses [PDF p. 154]. This instability prompted Chosroes of Persia to declare war under the pretext of avenging Maurice [PDF p. 155]. Persian forces eventually reached the gates of Chalcedon in 608 [PDF p. 155].\n\nIn 610, Heraclius took the throne after his father, the exarch Heraclius, sent a fleet to overthrow Phocas [PDF p. 156]. Heraclius inherited an empire in chaos, with provinces overrun by Persians, Avars, and Slavs [PDF p. 157]. The loss of Jerusalem in 614 and the seizure of the \"True Cross\" by Shahrbarz caused widespread despair [PDF p. 158]. This crisis sparked a surge of national and religious feeling [PDF p. 159]. Heraclius led several campaigns, eventually defeating the Persians through skillful strategy and attacking their heartland in Media [PDF p. 161]. By 628, Chosroes was overthrown by his son Siroes, and a peace treaty restored Roman territory and the \"True Cross\" [PDF p. 164].\n\nThe empire's recovery was short-lived as the Saracen invasion began [PDF p. 166]. Heraclius faced these new enemies while the empire was financially drained and religiously divided [PDF p. 187]. The Arabs captured Syria and Egypt, including Jerusalem in 637 [PDF p. 189]. Following Heraclius's death in 641, his successors struggled with internal court intrigues caused by the marriage of Heraclius to his niece, Martina [PDF p. 190]. Constantine IV later achieved great fame by defending Constantinople against a massive Arab siege using \"Greek-fire\" [PDF p. 196]. The empire also faced new threats from the Bulgarians in the late seventh century [PDF p. 197]. Finally, Justinian II ascended the throne as a reckless tyrant who depleted the treasury through extortion and unsuccessful wars [PDF p. 199].\n\nThe text does not provide information regarding the ultimate fate of Justinian II or the long-term resolution of his conflicts.",
+  "stats": {
+    "input_tokens": 22251,
+    "total_output_tokens": 807,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 37.60422634179788,
+    "time_to_first_token_seconds": 26.922502
+  },
+  "wall_seconds": 51.916271482999946,
+  "output_tokens_per_wall_second": 15.54425957311386,
+  "peak_metrics": {
+    "llama_server_process_count": 1,
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 8759939072,
+    "system_available_bytes": 25144139776,
+    "swap_used_bytes": 3837329408,
+    "system_total_bytes": 32721723392,
+    "card1_vram_total_bytes": 103079215104,
+    "runtime_total_pss_bytes": 5261299712,
+    "card1_vram_used_bytes": 20680314880,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 4822769664,
+    "cpu_percent": 6.8
+  },
+  "output_limit_reached": false,
+  "actual_context_verified": true,
+  "token_template_difference": 3
+}

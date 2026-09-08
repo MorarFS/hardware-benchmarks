@@ -1,0 +1,32 @@
+{
+  "model": "GPT-OSS120B MXFP4",
+  "reasoning": "embedded template default medium",
+  "attempts": 10,
+  "capped_attempts": 1,
+  "source_pages_completed": 396,
+  "total_output_tokens": 36843,
+  "reasoning_output_tokens": 15471,
+  "visible_text_tokens": 21272,
+  "request_wall_seconds": 1264.9456505610033,
+  "visible_per_total_wall": 16.816532781915072,
+  "phase": {
+    "started_at": "2026-09-08T07:58:24.900465+00:00",
+    "finished_at": "2026-09-08T08:23:11.027517+00:00",
+    "end_to_end_wall_seconds": 1486.1270619850002,
+    "includes": "load, token preflight, streaming inference, bounded retries; excludes downloads and source audit",
+    "errors": []
+  },
+  "final": {
+    "stats": {
+      "input_tokens": 10989,
+      "total_output_tokens": 8400,
+      "reasoning_output_tokens": 407,
+      "tokens_per_second": 44.341305082390996,
+      "time_to_first_token_seconds": 0.117187
+    },
+    "wall_seconds": 193.4971689820013,
+    "first_visible_token_seconds": 13.050865535002231,
+    "visible_phase_tokens_per_second": 44.240307767483735,
+    "visible_text_tokens": 7983
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "fingerprint": "c890b49faceb80f36d44edb98fec586f2ed748518d638363ba6ddc3594880dc2",
+  "model": "evo-flash",
+  "name": "control-short-0",
+  "kind": "short_control",
+  "started_at": "2026-09-08T04:35:02.835548+00:00",
+  "preflight_input_tokens": 91,
+  "context": 8192,
+  "output_limit": 256,
+  "metadata": {
+    "cache": "Fresh prompt identifier; warm model; prefix reuse unmeasured"
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "status": "ok",
+      "wall_seconds": 12.638838494999618
+    }
+  ],
+  "transport": "Remote Evo loopback HTTP; no Tailscale inference latency",
+  "timing_note": "TTFT includes prefill and other startup work; it is not pure prompt-processing time. API does not expose standalone prompt-processing time here.",
+  "cache_note": "Cache status only claimed when explicitly controlled. No OS disk cache flush; load timings are filesystem-cache uncontrolled.",
+  "status": "ok",
+  "finished_at": "2026-09-08T04:35:15.474787+00:00",
+  "response": {
+    "model_instance_id": "evo-flash",
+    "output": [
+      {
+        "type": "message",
+        "content": "Historians operate within a complex ecosystem of evidence where the distinction between what was said, who said it, and what is deduced from it is paramount to constructing an accurate narrative. To understand this triad—author’s account, quoted testimony, and inference—we must view them not as separate silos, but as interconnected layers of historical reconstruction. The author’s account represents the historian’s synthesized narrative; quoted testimony serves as the primary source material or raw data; and inference is the logical bridge connecting the two.\n\nConsider a hypothetical scenario involving a labor strike in 1920s Chicago. A modern historian writing a book on industrial relations provides an **author’s account**. This is the interpretive framework, such as stating, \"The strike failed primarily due to the intervention of private security forces hired by the steel magnates.\" This statement is not necessarily a direct quote from anyone; it is the historian’s analytical conclusion based on available evidence. It reflects the author’s voice, their selection of facts, and their argumentative structure.\n\nWithin this account, the historian might include **quoted testimony**. For instance, they may cite a diary entry by a striking worker: \"The Pinkerton men arrived at dawn with rifles; we knew then that our cause was lost.\" This"
+      }
+    ],
+    "stats": {
+      "input_tokens": 51,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 23.61191785163771,
+      "time_to_first_token_seconds": 1.228494
+    }
+  },
+  "output": "Historians operate within a complex ecosystem of evidence where the distinction between what was said, who said it, and what is deduced from it is paramount to constructing an accurate narrative. To understand this triad—author’s account, quoted testimony, and inference—we must view them not as separate silos, but as interconnected layers of historical reconstruction. The author’s account represents the historian’s synthesized narrative; quoted testimony serves as the primary source material or raw data; and inference is the logical bridge connecting the two.\n\nConsider a hypothetical scenario involving a labor strike in 1920s Chicago. A modern historian writing a book on industrial relations provides an **author’s account**. This is the interpretive framework, such as stating, \"The strike failed primarily due to the intervention of private security forces hired by the steel magnates.\" This statement is not necessarily a direct quote from anyone; it is the historian’s analytical conclusion based on available evidence. It reflects the author’s voice, their selection of facts, and their argumentative structure.\n\nWithin this account, the historian might include **quoted testimony**. For instance, they may cite a diary entry by a striking worker: \"The Pinkerton men arrived at dawn with rifles; we knew then that our cause was lost.\" This",
+  "stats": {
+    "input_tokens": 51,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 23.61191785163771,
+    "time_to_first_token_seconds": 1.228494
+  },
+  "wall_seconds": 12.638838494999618,
+  "output_tokens_per_wall_second": 20.255025815962668,
+  "peak_metrics": {
+    "card1_gtt_total_bytes": 16360861696,
+    "system_used_excluding_available_bytes": 4339240960,
+    "card1_vram_used_bytes": 67893547008,
+    "cpu_percent": 2.7,
+    "swap_used_bytes": 4216881152,
+    "runtime_largest_process_rss_bytes": 545304576,
+    "card1_vram_total_bytes": 103079215104,
+    "llama_server_process_count": 1,
+    "system_total_bytes": 32721723392,
+    "system_available_bytes": 28691243008,
+    "runtime_total_pss_bytes": 632677376,
+    "card1_gtt_used_bytes": 186028032
+  },
+  "output_limit_reached": true,
+  "actual_context_verified": true,
+  "token_template_difference": -40
+}

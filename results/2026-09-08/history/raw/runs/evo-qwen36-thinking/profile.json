@@ -1,0 +1,17 @@
+{
+  "identifier": "evo-qwen36-thinking",
+  "label": "Qwen3.6 35B A3B UD-Q4_K_M, bundled MTP; reasoning on; documented sampling",
+  "resource": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+  "context": 65536,
+  "mtp": true,
+  "gpu": "max",
+  "reasoning": "on",
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0
+  },
+  "sampling_note": "Qwen presence_penalty=1.5 is not exposed by this native API; other documented parameters applied. This is not an exact full recommended-sampler match."
+}

@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-09-08T08:05:12.974811+00:00",
+  "note": "Qwen/Gemma reasoning runs imported the frozen engine before the restoration-only exclusion fix. That imported version is preserved. Current controller applies GPT API compatibility fixes; Qwen/Gemma profiles remain unchanged. No quality pass is automatic.",
+  "files": [
+    {
+      "file": "aggregate_results.py",
+      "bytes": 9249,
+      "sha256": "4348662fc4cd01c7dbf17ddb2b8c8557f0e7ae88aef7dc0f36586d9bcd31c74d"
+    },
+    {
+      "file": "benchmark-before-adaptive.py",
+      "bytes": 28243,
+      "sha256": "70293b96f8dd1cec5d8d54220057e00fb8a7648c5b0206a99bf613e4639fc4d1"
+    },
+    {
+      "file": "benchmark.py",
+      "bytes": 30840,
+      "sha256": "3bc92c63ee3c27cfd57f40d24f4344728363da416c28ed2d6bd075b6b02d250a"
+    },
+    {
+      "file": "complete_outputs.py",
+      "bytes": 928,
+      "sha256": "c9bacb33240ec5737f650179afa142c38e2740215e48c75807f3549d76d5105c"
+    },
+    {
+      "file": "config.json",
+      "bytes": 788,
+      "sha256": "0738f2f1e4cd3a10bfbaa02d0a6145b4bd7cbbee8068fd84215ac8f9550c7e2c"
+    },
+    {
+      "file": "controller.py",
+      "bytes": 3752,
+      "sha256": "7623e4d77425a0ac74356b1a065795a79a1fabe568c509999e8e9f35612077f9"
+    },
+    {
+      "file": "downloads-manifest.json",
+      "bytes": 1630,
+      "sha256": "b8b4da6f364d0f60072e18973822e73ed2917d0f9d40c123f6cd6049883735ef"
+    },
+    {
+      "file": "flash-verification.json",
+      "bytes": 1724,
+      "sha256": "424edd7390c7652c5b807d46252f9837600f30441e61e457dc6b3fd62c1436cf"
+    },
+    {
+      "file": "followup-config.json",
+      "bytes": 2333,
+      "sha256": "1090d77feaf24be4587f64e068261cdb9f25fe7dc88c247fb0cb4e6b61ca65b5"
+    },
+    {
+      "file": "followup-engine-before-restoration-fix.py",
+      "bytes": 30840,
+      "sha256": "3bc92c63ee3c27cfd57f40d24f4344728363da416c28ed2d6bd075b6b02d250a"
+    },
+    {
+      "file": "followup-engine.py",
+      "bytes": 30949,
+      "sha256": "ae14145f2b77148236a1c95b04ff1695fc5d4c637a5f1d2459ec3b104659884e"
+    },
+    {
+      "file": "followup_controller.py",
+      "bytes": 11947,
+      "sha256": "247d8666ddfce366d4a48eba7a672a682bb58ec5e54f90ef11ea3c8768b44c4b"
+    },
+    {
+      "file": "gemma9-install.py",
+      "bytes": 2620,
+      "sha256": "e1461ab43a11ed0ed32a19dc4f83e138011ee502b4cc68cc4a301b4e9e38b392"
+    },
+    {
+      "file": "gemma9-status.json",
+      "bytes": 218,
+      "sha256": "cdb7005883e41792b9bd6c8b3a56e6ae1416f0ea18d334d0f54240910512576a"
+    },
+    {
+      "file": "gemma9.complete",
+      "bytes": 1479,
+      "sha256": "84f181a40ea2f3f842852f19417b9aaa741d19fe4e2d122c36ece412b3f0b2d8"
+    },
+    {
+      "file": "gptoss-download-manifest.json",
+      "bytes": 632,
+      "sha256": "b2ded97e92965929cbe58f5b339ba7d7c9c906b1212774974893bb015df8daa4"
+    },
+    {
+      "file": "gptoss-download.verified",
+      "bytes": 730,
+      "sha256": "b22fb84658ba35f79c9f312ec729c8fec398a4cc9ee4eacfa18849c8e1973565"
+    },
+    {
+      "file": "gptoss-template-evidence.json",
+      "bytes": 17583,
+      "sha256": "eb3f60a22d56e22ee8dca26bde4c076ad01bdafb5bd024ddd93415010f2b8337"
+    },
+    {
+      "file": "prepare_audit.py",
+      "bytes": 1371,
+      "sha256": "fd02db8edd06e28121662027a3b1dec50f15b0633c61b8755e1bb4b2bdad5940"
+    }
+  ]
+}
