@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-09-08T13:27:52.810491+00:00",
+  "user_preference": "Leave performance as daily profile",
+  "active_profile": "performance",
+  "saved_profile": "performance",
+  "persistence_file": "/var/lib/power-profiles-daemon/state.ini",
+  "power_daemon_enabled": "enabled",
+  "power_daemon_active": "active",
+  "reboot_tested": false,
+  "method": "Supported powerprofilesctl command in a transient user-service execution context; built-in daemon persistence, no permanent helper service.",
+  "earlier_attempts": [
+    "Direct SSH command was denied by Polkit.",
+    "Noninteractive sudo required interactive authentication.",
+    "The previously used user-service context succeeded; transient unit completed and was collected."
+  ],
+  "jobs": {
+    "evo-accuracy-v2.service": {
+      "ActiveState": "inactive",
+      "MainPID": "0"
+    },
+    "evo-vulkan-model-matrix.service": {
+      "ActiveState": "inactive",
+      "MainPID": "0"
+    },
+    "evo-power-profile-comparison.service": {
+      "ActiveState": "inactive",
+      "MainPID": "0"
+    }
+  },
+  "health": {
+    "webui": 200,
+    "lmstudio": 200,
+    "optional_rocm": 200
+  },
+  "temporary_prose_port_closed": true
+}

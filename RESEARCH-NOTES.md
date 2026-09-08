@@ -97,4 +97,4 @@ The source audits use Codex-assisted text comparison, including a second Codex r
 
 ## Completed supported-profile check
 
-The [bounded Qwen8/Gemma26 profile comparison](results/2026-09-08/power-profiles/README.md) found no meaningful overall gain from performance mode. It retained pinned Vulkan binaries and identical weights. Balanced mode and both serving routes were restored. Fixed order and limited repetitions prevent a universal performance claim.
+The [bounded Qwen8/Gemma26 profile comparison](results/2026-09-08/power-profiles/README.md) found no meaningful overall gain from performance mode. It retained pinned Vulkan binaries and identical weights. The test restored balanced mode and both serving routes. The user subsequently selected performance for daily operation. Its built-in saved state and enabled daemon were verified without rebooting. Fixed order and limited repetitions prevent a universal performance claim.

@@ -1,6 +1,8 @@
 # Supported power-profile comparison
 
-Performance mode produced no meaningful overall speed gain in this bounded comparison. Balanced Vulkan remains the preferred tested default for these workloads. The original balanced profile and both serving services were restored successfully.
+Performance mode produced no meaningful overall speed gain in this bounded comparison. The timings do not establish a general performance-mode advantage. The original balanced profile and both serving services were restored successfully.
+
+The user subsequently chose performance mode for daily operation. It is active and saved in the daemon’s built-in state. The daemon is enabled at boot; no reboot test was performed. [Current daily-profile verification](daily-profile-verification.json) records this later change. The earlier balanced restoration remains part of the experiment’s history.
 
 The experiment used installed Qwen3-8B Q4_K_M and Gemma26 UD-Q4_K_M files. Both profiles used the same pinned Vulkan b10852/050dde50c binaries. Exact file hashes, commands, outputs, and sensor records accompany this report.
 
