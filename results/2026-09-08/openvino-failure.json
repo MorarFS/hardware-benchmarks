@@ -1,0 +1,15 @@
+{
+  "backend": "OpenVINO",
+  "version": "2026.3.1",
+  "selected_device": "GPU.0",
+  "verified_device_name": "Intel Arc Pro B70",
+  "model": "Qwen3-8B-Q4_K_M.gguf",
+  "status": "failed before timed inference",
+  "modes_tried": [
+    "stateful",
+    "stateless"
+  ],
+  "error": "GPU program compilation failed: clWaitForEvents CL_INVALID_EVENT (-58)",
+  "tokens_per_second": null,
+  "note": "An initial sandbox cache-access problem was resolved; both subsequent unrestricted execution-mode tests failed in the GPU runtime. Generic GPU selection silently falls back to CPU; explicit GPU.0 was used and independently verified."
+}

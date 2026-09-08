@@ -2,7 +2,7 @@
 
 Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model. These measure this complete machine and software configuration, including the external GPU connection.
 
-**Preliminary snapshot:** Intel Vulkan's unusual depth-0 result needs a repeat. Intel SYCL completed both depths; a depth-0 repeat is planned because its first sample was slower. OpenVINO has not yet produced a verified GPU result; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
+**Preliminary snapshot:** Intel Vulkan's unusual depth-0 result needs a repeat. Intel SYCL completed both depths; a depth-0 repeat is planned because its first sample was slower. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
 
 ## Hardware and setup
 
@@ -70,7 +70,7 @@ Inspect local logs for actual GPU offload and fallback before sharing results. R
 
 One laptop, one model/quantization, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. No energy, quality, tokenization, sampling, application latency or concurrency benchmark was performed.
 
-OpenVINO 2026.3.1 testing is pending. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. An explicit `GPU.0` test with stateful execution and reduced compile-memory settings is active. No OpenVINO speed is claimed yet.
+OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
 A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32 GB VRAM. It is pending; no larger-model fit or throughput result has been established. Additional completed runs and repeats will be labeled separately rather than silently replacing these observations.
 
@@ -80,5 +80,6 @@ A separate **Qwen3-32B Q4_K_M capacity test** is planned to explore the Arc's 32
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
+
 
 
