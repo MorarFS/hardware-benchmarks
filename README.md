@@ -19,7 +19,7 @@ The Intel workstation driver was installed from Intel's official package after s
 
 ## Model and method
 
-- Official **Qwen/Qwen3-8B-GGUF**, **Qwen3-8B-Q4_K_M.gguf**, approximately 5.02 GB (5,021,827,072 bytes).
+- Official **Qwen/Qwen3-8B-GGUF**, **Qwen3-8B-Q4_K_M.gguf**, approximately 5.03 GB on disk (5,027,783,488 bytes; llama-bench reports 5,021,827,072 bytes of model tensors).
 - Model revision: `7c41481f57cb95916b40956ab2f0b139b296d974`.
 - Verified SHA-256: `d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785`.
 - Official llama.cpp **b10852**, commit `050dde50c`; Windows Vulkan, SYCL and CUDA 13.3 packages for the completed comparison.
@@ -84,6 +84,7 @@ A separate **Qwen3-32B Q4_K_M capacity baseline** is being downloaded to explore
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
+
 
 
 
