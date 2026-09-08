@@ -15,7 +15,7 @@ Windows laptop measurements from September 8, 2026, comparing an external Intel 
 | Drivers | Intel 32.0.101.8805; NVIDIA reported 610.88 |
 | Power | AC connected |
 
-The Intel workstation driver was installed from Intel's official package after signature and hash verification. Windows initially reported Code 43; restarting cleared it and device/display health checks passed. No driver binaries or full diagnostic logs are included; selected sanitized capacity offload excerpts are provided. The detected dock does not prove the negotiated link speed or effective PCIe bandwidth.
+The Intel workstation driver was installed from Intel's official package after signature and hash verification. Windows reported a device error before the restart; restarting cleared it and device/display health checks passed. No driver binaries or full diagnostic logs are included; selected sanitized capacity offload excerpts are provided. The detected dock does not prove the negotiated link speed or effective PCIe bandwidth.
 
 ## Model and method
 
@@ -78,7 +78,7 @@ OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as
 
 ## Completed 49B capacity test
 
-The tested model is **Llama 3.3 Nemotron Super 49B v1.5, Q4_K_M**, quantized by **bartowski**, with a GGUF file of **30,215,579,136 bytes (30.22 GB; about 28.14 GiB)**. It supersedes the planned Qwen3-32B baseline; the 32B download was stopped and its partial file retained locally. Keeping Q4_K_M preserves the earlier quantization choice while exploring a model closer to the Arc's 32 GB memory limit. This is not proof of the largest fitting model across all architectures or quantization levels, nor a direct speed comparison with the 8B model.
+The tested model is **Llama 3.3 Nemotron Super 49B v1.5, Q4_K_M**, quantized by **bartowski**, with a GGUF file of **30,215,579,136 bytes (30.22 GB; about 28.14 GiB)**. It supersedes the planned Qwen3-32B baseline. Keeping Q4_K_M preserves the earlier quantization choice while exploring a model closer to the Arc's 32 GB memory limit. This is not proof of the largest fitting model across all architectures or quantization levels, nor a direct speed comparison with the 8B model.
 
 **The model download passed SHA-256 verification, and both SYCL capacity runs completed with 81/81 layers offloaded.** The measured configuration used llama.cpp b10852, single-device SYCL0, FP16 KV, flash attention, batch/microbatch 512, ten threads and five repetitions after warmup, matching the earlier protocol. Generation produced 256 tokens at initial depths 0 and 2,048; prompt processing used 512 tokens separately at depth 0.
 
