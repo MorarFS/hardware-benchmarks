@@ -156,3 +156,5 @@ The [corrected original history audit](results/2026-09-08/history/README.md) inc
 The [frozen pilot results](results/2026-09-08/history-v2/README.md) separate extraction, synthesis, citations, coverage, and latency. The [historical-research lessons](HISTORY-RESEARCH-LESSONS.md) summarize findings and proposed prompting improvements.
 
 The [completed supported power-profile comparison](results/2026-09-08/power-profiles/README.md) found no meaningful overall benefit from performance mode. The test restored balanced mode and serving services. The user subsequently chose performance as the daily profile, saved through the enabled system daemon.
+
+The [Mac handoff](MAC-HANDOFF.md) records the user’s requested next comparisons for the separate running Mac task.

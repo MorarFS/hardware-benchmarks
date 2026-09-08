@@ -96,3 +96,7 @@ Share the JSON samples, protocol manifest, model hashes, and reviewed offload ev
 ## What was checked
 
 The portable runner's help and dry-run command construction were checked. An offline fake executable exercises both depths, five-sample validation, version checks, output preservation, and hash rejection. The actual b10852 Linux executable help confirmed the required flags. The underlying protocol already ran on the Evo. No Metal throughput, model fit, or Mac build success is claimed here.
+
+## Current handoff for the running Mac task
+
+[MAC-HANDOFF.md](MAC-HANDOFF.md) requests the existing comparisons and a bounded search for the largest practical historical-work model on the user-reported 48 GB Mac. It preserves ongoing runs and distinguishes capacity, speed, and source fidelity.
