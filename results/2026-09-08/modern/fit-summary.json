@@ -14,5 +14,21 @@
     "total_layers": 31,
     "peak_dedicated_gib": 17.65715789794922,
     "peak_shared_gib": 0.055877685546875
+  },
+  {
+    "model": "Qwen3.6 35B-A3B UD-Q4_K_M",
+    "run": "intel-sycl-qwen36-35b-depth0",
+    "offloaded_layers": 41,
+    "total_layers": 41,
+    "peak_dedicated_gib": 21.75041961669922,
+    "peak_shared_gib": 0.05388641357421875
+  },
+  {
+    "model": "Qwen3.6 35B-A3B UD-Q4_K_M",
+    "run": "intel-sycl-qwen36-35b-depth2048",
+    "offloaded_layers": 41,
+    "total_layers": 41,
+    "peak_dedicated_gib": 22.10057830810547,
+    "peak_shared_gib": 0.053863525390625
   }
 ]

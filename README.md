@@ -6,7 +6,7 @@ Windows laptop measurements from September 8, 2026, comparing an external Intel 
 
 ## Newer-model follow-up
 
-A separate [three-model comparison](MODERN-MODELS.md) targets approximately 40 generated tokens/s. Gemma 4 26B-A4B completed at 64.274290 tokens/s at depth 0 and 56.677035 at depth 2,048; Qwen3.6 and Qwen3.8 remain pending. The follow-up uses different four-bit recipes and does not assess answer quality.
+A separate [three-model comparison](MODERN-MODELS.md) targets approximately 40 generated tokens/s. Gemma 4 26B-A4B completed at 64.274290 tokens/s at depth 0 and 56.677035 at depth 2,048; Qwen3.6 completed at 73.334245 and 71.525257 tokens/s at those depths; Qwen3.8 remains pending. The follow-up uses different four-bit recipes and does not assess answer quality.
 
 ## Hardware and setup
 
@@ -127,5 +127,6 @@ The download and benchmark scripts use the pinned manifest in `scripts/models.js
 - [Official llama.cpp b10852 release and runtime downloads](https://github.com/ggml-org/llama.cpp/releases/tag/b10852)
 - [llama-bench source and documentation at the measured commit](https://github.com/ggml-org/llama.cpp/tree/050dde50c/tools/llama-bench)
 - [Intel Arc Pro Windows driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html)
+
 
 
