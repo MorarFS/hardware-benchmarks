@@ -1,0 +1,494 @@
+[
+  {
+    "model": "gemma26-off",
+    "stage": "H3-summary",
+    "span": "were the most monotonous in the empire's history",
+    "family": "H3-unattributed-monotony",
+    "dimension": "attribution",
+    "judgment": "attribution explicitness; not a fabricated historical fact",
+    "evidence_pages": [
+      241
+    ],
+    "reason": "The opening sentence states Oman's evaluation without explicit attribution. Merged synthesis repairs this.",
+    "origin": "direct; repaired in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "H4-summary",
+    "span": "a man of genius",
+    "family": "H4-unattributed-genius",
+    "dimension": "attribution",
+    "judgment": "attribution explicitness; not a fabricated historical fact",
+    "evidence_pages": [
+      362
+    ],
+    "reason": "Oman's evaluative label is unmarked in the sentence. Merged output drops it.",
+    "origin": "direct; omitted in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H3-summary",
+    "span": "popular wrath removed the Lecapenus family",
+    "family": "H3-succession-agency",
+    "dimension": "factual",
+    "judgment": "ambiguous compression and omitted succession step",
+    "evidence_pages": [
+      243
+    ],
+    "reason": "The phrase removed the Lecapenus family can mean ending family control, rather than explicitly assigning Romanus’s deposition to the mob. Retain omitted first step in coverage; no hard contradiction established.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "popular wrath removed the Lecapenus family",
+    "family": "H3-succession-agency",
+    "dimension": "factual",
+    "judgment": "ambiguous compression and omitted succession step",
+    "evidence_pages": [
+      243
+    ],
+    "reason": "The phrase removed the Lecapenus family can mean ending family control, rather than explicitly assigning Romanus’s deposition to the mob. Retain omitted first step in coverage; no hard contradiction established.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H3-summary",
+    "span": "mild, strange issue",
+    "family": "H3-quotation-splice",
+    "dimension": "quotation",
+    "judgment": "reordered quotation; OCR reading-order contamination",
+    "evidence_pages": [
+      241
+    ],
+    "reason": "Source text places a pair of mild before a displaced strange issue line. The quotation combines them into a new phrase. Record quotation fidelity separately from factual identity.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "mild, strange issue",
+    "family": "H3-quotation-splice",
+    "dimension": "quotation",
+    "judgment": "reordered quotation; OCR reading-order contamination",
+    "evidence_pages": [
+      241
+    ],
+    "reason": "Source text places a pair of mild before a displaced strange issue line. The quotation combines them into a new phrase. Record quotation fidelity separately from factual identity.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H4-summary",
+    "span": "who rebelled twice",
+    "family": "H4-rebellion-order-ambiguity",
+    "dimension": "clarity",
+    "judgment": "ambiguous retrospective chronology",
+    "evidence_pages": [
+      359
+    ],
+    "reason": "The source gives two rebellions total, with the second after blinding. Listing twice, then blinding, then again can suggest three. It can also be a retrospective total followed by details; no hard contradiction counted.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "who rebelled twice",
+    "family": "H4-rebellion-order-ambiguity",
+    "dimension": "clarity",
+    "judgment": "ambiguous retrospective chronology",
+    "evidence_pages": [
+      359
+    ],
+    "reason": "The source gives two rebellions total, with the second after blinding. Listing twice, then blinding, then again can suggest three. It can also be a retrospective total followed by details; no hard contradiction counted.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "H3-summary",
+    "span": "chief achievements of both emperors",
+    "family": "H3-chief-books-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      243,
+      244
+    ],
+    "reason": "The chief-achievements sentence is on243, while the cited244 elaborates the books.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "merged-summary-synthesis",
+    "span": "chief achievements of both emperors",
+    "family": "H3-chief-books-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      243,
+      244
+    ],
+    "reason": "The chief-achievements sentence is on243, while the cited244 elaborates the books.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "H3-summary",
+    "span": "methodical compiler",
+    "family": "H3-compiler-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      246,
+      247
+    ],
+    "reason": "The cited246 describes works; the methodical-compiler evaluation is on247.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "merged-summary-synthesis",
+    "span": "methodical compiler",
+    "family": "H3-compiler-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      246,
+      247
+    ],
+    "reason": "The cited246 describes works; the methodical-compiler evaluation is on247.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "full-source-control",
+    "span": "methodical compiler",
+    "family": "H3-compiler-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      246,
+      247
+    ],
+    "reason": "The cited246 describes works; the methodical-compiler evaluation is on247.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "H4-summary",
+    "span": "briefly regaining significant territories",
+    "family": "H4-gains-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      361,
+      362
+    ],
+    "reason": "Citation361 introduces the alliance; the recovered territories are detailed on362.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "full-source-control",
+    "span": "By the ninth century",
+    "family": "H3-recovery-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      241,
+      247
+    ],
+    "reason": "The literary rulers appear on241; the explicit account of recovery occurs on247.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H1-summary",
+    "span": "The Eastern Emperor Valens",
+    "family": "H1-character-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      62,
+      63
+    ],
+    "reason": "Citation63 supports admission but the character evaluation occurs on62.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "The Eastern Emperor Valens",
+    "family": "H1-character-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      62,
+      63
+    ],
+    "reason": "Citation63 supports admission but the character evaluation occurs on62.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H1-summary",
+    "span": "engaged in extortion and withheld food supplies",
+    "family": "H1-food-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      63,
+      64
+    ],
+    "reason": "Food policy and desperation occur on63; cited64 describes their consequences.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "engaged in extortion and withheld food supplies",
+    "family": "H1-food-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      63,
+      64
+    ],
+    "reason": "Food policy and desperation occur on63; cited64 describes their consequences.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "Emperor Valens, described as cowardly",
+    "family": "H1-conditions-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      62,
+      63
+    ],
+    "reason": "Cited62 supports the date and character; conditions appear on63.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "Latin-speaking population in the Balkans rapidly declined",
+    "family": "H2-causes-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      169,
+      170
+    ],
+    "reason": "Cited169 describes decline; invasion and isolation explanations appear on170.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "Christianity transformed social structures",
+    "family": "H2-games-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      171,
+      173
+    ],
+    "reason": "Cited173 supports infanticide and slavery; games appear on171.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "some pagans blamed",
+    "family": "H2-pagan-critique-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      174,
+      176
+    ],
+    "reason": "Cited174 supports civic withdrawal; pagan criticism appears on176.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "significant works on military tactics",
+    "family": "H3-revival-composite-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      241,
+      242,
+      244,
+      246,
+      247
+    ],
+    "reason": "Citation241 supports literary rulers but not all listed works, stability and revival details. Separate temporal-linkage error retained.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "final decades were marked",
+    "family": "H4-urban-composite-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      365,
+      366
+    ],
+    "reason": "Cited365 introduces descriptions; population and mercenary details occur on366.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H4-summary",
+    "span": "On John’s death in 1391",
+    "family": "H4-succession-date-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      359,
+      360,
+      361
+    ],
+    "reason": "Cited360–361 supports Manuel’s constraints;1391 succession appears on359.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "On John’s death in 1391",
+    "family": "H4-succession-date-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      359,
+      360,
+      361
+    ],
+    "reason": "Cited360–361 supports Manuel’s constraints;1391 succession appears on359.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H4-summary",
+    "span": "After Mohammed unified",
+    "family": "H4-reunification-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      362,
+      364,
+      365
+    ],
+    "reason": "Cited364–365 supports later losses/death but not the reunification account on362.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "After Mohammed unified",
+    "family": "H4-reunification-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      362,
+      364,
+      365
+    ],
+    "reason": "Cited364–365 supports later losses/death but not the reunification account on362.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H4-summary",
+    "span": "required a bailiff rather than a statesman",
+    "family": "H4-bailiff-attribution-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      365,
+      366,
+      367
+    ],
+    "reason": "The observation is attributed to Manuel on365, not John’s recognition. Citation366–367 supports later Western aid.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "required a bailiff rather than a statesman",
+    "family": "H4-bailiff-attribution-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      365,
+      366,
+      367
+    ],
+    "reason": "The observation is attributed to Manuel on365, not John’s recognition. Citation366–367 supports later Western aid.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "full-source-control",
+    "span": "Emperor Valens, portrayed",
+    "family": "H1-control-character-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      62,
+      63
+    ],
+    "reason": "Cited63 supports conditions; character description appears on62.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "full-source-control",
+    "span": "Corruption by the governor Lupicinus",
+    "family": "H1-control-food-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      63,
+      64
+    ],
+    "reason": "Cited64 supports revolt; food hoarding and barter appear on63.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "full-source-control",
+    "span": "Constantine’s prolific output",
+    "family": "H3-control-books-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      246,
+      247
+    ],
+    "reason": "Cited247 supports compiler evaluation; titles are on246.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "full-source-control",
+    "span": "John Paleologus’s long reign",
+    "family": "H4-control-rebellions-locator",
+    "dimension": "citation_precision",
+    "judgment": "partial locator support",
+    "evidence_pages": [
+      359,
+      360,
+      362
+    ],
+    "reason": "Cited360–362 supports Manuel’s opportunity; Andronicus’s rebellions are on359.",
+    "origin": "direct and/or recurrence as stage indicates; controls are independent"
+  }
+]

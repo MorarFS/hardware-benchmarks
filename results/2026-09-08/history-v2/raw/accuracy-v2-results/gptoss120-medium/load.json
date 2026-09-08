@@ -1,0 +1,17 @@
+{
+  "returncode": 0,
+  "loader": "LM Studio SDK 1.5.0 with server-verified concurrency/MTP keys",
+  "config": {
+    "contextLength": 65536,
+    "gpu": {
+      "ratio": 1.0
+    },
+    "offloadKVCacheToGpu": true,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16",
+    "seed": 42
+  },
+  "wall_seconds": 57.14012233199901
+}

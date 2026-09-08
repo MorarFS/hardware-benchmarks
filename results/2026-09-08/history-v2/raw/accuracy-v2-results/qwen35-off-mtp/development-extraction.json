@@ -1,0 +1,72 @@
+{
+  "name": "development-extraction",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "35841c27fde57aef4279129b3db32c3ace899eeb7e8e672e77de43756784d8da",
+  "started_at": "2026-09-08T12:34:57.620038+00:00",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 2450,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "D-Q1: Seven prisoners were selected for execution, but not all seven died because two survived the hanging attempts. The text states that \"Seven were selected for execution\" and describes how two criminals \"fell to the ground alive\" and were rescued by the mob. [PDF p. 102]\n\nD-Q2: No, the passage does not attribute 35,000 deaths solely to the Hippodrome assault, as it attributes the total to the entire six-day period. The text says, \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]\n\nD-Q3: The passage does not state the exact duration in minutes of the Hippodrome assault. It only mentions that the rioting lasted for six days and describes the assault as occurring on the sixth day. [PDF p. 103]"
+      }
+    ],
+    "stats": {
+      "input_tokens": 2452,
+      "total_output_tokens": 198,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 86.25479491280603,
+      "time_to_first_token_seconds": 3.731106
+    }
+  },
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died because two survived the hanging attempts. The text states that \"Seven were selected for execution\" and describes how two criminals \"fell to the ground alive\" and were rescued by the mob. [PDF p. 102]\n\nD-Q2: No, the passage does not attribute 35,000 deaths solely to the Hippodrome assault, as it attributes the total to the entire six-day period. The text says, \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]\n\nD-Q3: The passage does not state the exact duration in minutes of the Hippodrome assault. It only mentions that the rioting lasted for six days and describes the assault as occurring on the sixth day. [PDF p. 103]",
+  "stats": {
+    "input_tokens": 2452,
+    "total_output_tokens": 198,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.25479491280603,
+    "time_to_first_token_seconds": 3.731106
+  },
+  "wall_seconds": 6.025990866000939,
+  "stream_timing": {
+    "prompt_processing.start": 0.009337573996162973,
+    "prompt_processing.end": 3.740029089000018,
+    "first_visible_seconds": 3.7400989219968324,
+    "last_visible_delta_seconds": 6.024539696001739,
+    "message.end": 6.0258099179991405
+  },
+  "first_visible_token_seconds": 3.7400989219968324,
+  "visible_text_tokens": 197,
+  "visible_tokens_per_total_wall_second": 32.69171898541828,
+  "visible_phase_tokens_per_second": 86.180801553954,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 2.8,
+    "runtime_total_pss_bytes": 1314788352,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030321664,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 331792384,
+    "runtime_largest_process_rss_bytes": 1049325568,
+    "system_used_excluding_available_bytes": 5124337664,
+    "system_available_bytes": 27901464576,
+    "swap_used_bytes": 3761442816,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 132,
+  "finished_at": "2026-09-08T12:35:03.927475+00:00"
+}

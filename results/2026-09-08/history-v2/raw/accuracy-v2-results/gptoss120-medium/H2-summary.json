@@ -1,0 +1,77 @@
+{
+  "name": "H2-summary",
+  "model": "gptoss120-medium",
+  "fingerprint": "c92518246038e5fb2abf3124538dd33202fde559c8fa8f9fb741877b048b14cd",
+  "started_at": "2026-09-08T12:41:38.400019+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 3568,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need to write a connected summary of 180-220 words using only this passage. Must preserve beginning, middle, and ending, main actions, causal relationships, qualifications. Attribute author’s evaluations explicitly. Cite every factual sentence with PDF page markers. Use clear prose, no em dashes. No generic limitations paragraph. No claim about whole book lacking anything.\n\nWe need to identify where passage begins: page 169 discussing decay of Latin. Middle: page 170 about continuity, Latin decline, demographics. Then page 171 onwards about Christianity and state, etc. The ending appears around page 176 discussing paganism disappearance, etc. So summary should cover these sections.\n\nWe must separate author judgments, reported testimony, and events. But in summary we can embed attribution like \"the author writes\", \"according to\", etc. Need citations for each factual sentence.\n\nLet's craft about 200 words.\n\nNeed citations: each fact from specific pdf p. 169,170,171,172?,173,174,175,176. Use [PDF p. N] markers.\n\nLet's outline:\n\n- Beginning: Latin decay example Ammianus, widespread Latin-speaking east, but by 7th century vanished. (169)\n\n- By 6th century Latin knowledge rare, mention Johannes Lydus, Procopius ignorance, Justinian last Latin mother tongue. (169)\n\n- Cause: practical solution after division of empire; after Odoacer 476, East cut off, Latin element yields to Greek; invasions by Goths, Slavs reduced Latin speakers; statistics 400 quarter, 620 tenth. (170)\n\n- Remaining Latin areas: Africa, Italian Exarchate; last notable Latin author Flavius Corippus. (170)\n\n- Transition to Christianity: under Constantine state unchanged, pagans still officials; Christian spirit fully penetrates 40 years after Constantine's death; Theodosius I's moral reforms, gladiatorial games ended after monk Telemachus death. (171)\n\n- Social reforms: ending infanticide (173), slavery reforms per Christian teaching; Justinian legislation improving slave rights (174).\n\n- Author evaluation: improvement due to Christian belief in individual soul; also harmful ascetic monasticism draining state manpower, described as dangerous (174-175). Monastic copying started with Cassiodorus. (175)\n\n- Ending: paganism disappears; Justinian closes schools (176); many nominal Christians indifferent, e.g., Procopius. (176)\n\nNow write ~200 words. Ensure each factual sentence has citation. Probably need about 15-20 citations.\n\nLet's craft."
+      },
+      {
+        "type": "message",
+        "content": "The author begins by noting that the decay of Latin was already evident in the eastern Mediterranean: Ammianus Marcellinus, although born in Greece, wrote in the language of the ruling race, and a large Latin‑speaking population existed on the Balkan peninsula and along the Thracian coast, “except Greece proper, Macedonia, and a scattered line of cities” [PDF p. 169]. By the seventh century this Roman element was rapidly vanishing; already in the sixth century a knowledge of Latin was unusual even among educated men, as shown by Johannes Lydus’s claim that his civil‑service advancement depended on this rare skill and by Procopius’s ignorance of basic Latin [PDF p. 169]. The author evaluates Justinian as the last emperor whose mother tongue was Latin, while his successors were better skilled in Greek [PDF p. 169].\n\nThe gradual disuse of Latin, the author explains, resulted from the practical solution of continuity between Rome and the East after the empire’s division and Odoacer’s coronation in 476, which cut the Eastern provinces off from the Latin‑speaking West and exposed them to Greek dominance [PDF p. 170]. Gothic and later Slavic invasions further reduced the Latin‑speaking populace from about a quarter of the provincials east of the Adriatic in 400 to less than a tenth by 620, leaving only Dalmatian ports, Africa and the Italian Exarchate as notable Latin enclaves; the last native‑Latin author was the African poet Flavius Corippus [PDF p. 170].\n\nTurning to religion, the author reports that under Constantine the governmental machinery remained essentially pagan, with many high officials still pagans, and that the Christian spirit did not fully penetrate the material sphere until forty years after Constantine’s death [PDF p. 171]. Theodosius I’s moral crusade, including the spectacular death of the monk Telemachus in 404, ended gladiatorial games in Constantinople [PDF p. 171]. Christian influence also abolished infanticide (Constantine’s state responsibility, Valentinian I’s capital punishment) and profoundly altered slavery: the Church taught slaves were souls equal to masters, and Justinian’s legislation permitted intermarriage, declared children of mixed unions free, and punished the prostitution of slaves [PDF p. 173‑174].\n\nThe author judges these reforms as stemming from the Christian belief in the individual soul, yet warns that ascetic monasticism became “positively dangerous” because thousands of men withdrew from civic duties, weakening the empire’s ability to resist barbarian invasions; only Cassiodorus later gave monks a productive role by ordering manuscript copying [PDF p. 174‑175].\n\nIn the concluding part the author notes that paganism had practically disappeared by the end of the fifth century, that Justinian closed the Athenian schools in 529, and that many sixth‑century elites were nominal Christians who remained indifferent to the faith, citing Procopius as an example [PDF p. 176]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3568,
+      "total_output_tokens": 1173,
+      "reasoning_output_tokens": 527,
+      "tokens_per_second": 48.218816660868335,
+      "time_to_first_token_seconds": 6.467603
+    }
+  },
+  "output": "The author begins by noting that the decay of Latin was already evident in the eastern Mediterranean: Ammianus Marcellinus, although born in Greece, wrote in the language of the ruling race, and a large Latin‑speaking population existed on the Balkan peninsula and along the Thracian coast, “except Greece proper, Macedonia, and a scattered line of cities” [PDF p. 169]. By the seventh century this Roman element was rapidly vanishing; already in the sixth century a knowledge of Latin was unusual even among educated men, as shown by Johannes Lydus’s claim that his civil‑service advancement depended on this rare skill and by Procopius’s ignorance of basic Latin [PDF p. 169]. The author evaluates Justinian as the last emperor whose mother tongue was Latin, while his successors were better skilled in Greek [PDF p. 169].\n\nThe gradual disuse of Latin, the author explains, resulted from the practical solution of continuity between Rome and the East after the empire’s division and Odoacer’s coronation in 476, which cut the Eastern provinces off from the Latin‑speaking West and exposed them to Greek dominance [PDF p. 170]. Gothic and later Slavic invasions further reduced the Latin‑speaking populace from about a quarter of the provincials east of the Adriatic in 400 to less than a tenth by 620, leaving only Dalmatian ports, Africa and the Italian Exarchate as notable Latin enclaves; the last native‑Latin author was the African poet Flavius Corippus [PDF p. 170].\n\nTurning to religion, the author reports that under Constantine the governmental machinery remained essentially pagan, with many high officials still pagans, and that the Christian spirit did not fully penetrate the material sphere until forty years after Constantine’s death [PDF p. 171]. Theodosius I’s moral crusade, including the spectacular death of the monk Telemachus in 404, ended gladiatorial games in Constantinople [PDF p. 171]. Christian influence also abolished infanticide (Constantine’s state responsibility, Valentinian I’s capital punishment) and profoundly altered slavery: the Church taught slaves were souls equal to masters, and Justinian’s legislation permitted intermarriage, declared children of mixed unions free, and punished the prostitution of slaves [PDF p. 173‑174].\n\nThe author judges these reforms as stemming from the Christian belief in the individual soul, yet warns that ascetic monasticism became “positively dangerous” because thousands of men withdrew from civic duties, weakening the empire’s ability to resist barbarian invasions; only Cassiodorus later gave monks a productive role by ordering manuscript copying [PDF p. 174‑175].\n\nIn the concluding part the author notes that paganism had practically disappeared by the end of the fifth century, that Justinian closed the Athenian schools in 529, and that many sixth‑century elites were nominal Christians who remained indifferent to the faith, citing Procopius as an example [PDF p. 176].",
+  "stats": {
+    "input_tokens": 3568,
+    "total_output_tokens": 1173,
+    "reasoning_output_tokens": 527,
+    "tokens_per_second": 48.218816660868335,
+    "time_to_first_token_seconds": 6.467603
+  },
+  "wall_seconds": 31.706147158998647,
+  "stream_timing": {
+    "prompt_processing.start": 0.9297391779982718,
+    "prompt_processing.end": 7.397127153999463,
+    "first_reasoning_seconds": 7.461155467004573,
+    "reasoning.end": 18.49943538699881,
+    "first_visible_seconds": 18.499622873998305,
+    "last_visible_delta_seconds": 31.681555768002,
+    "message.end": 31.705773834000865
+  },
+  "first_visible_token_seconds": 18.499622873998305,
+  "visible_text_tokens": 637,
+  "visible_tokens_per_total_wall_second": 20.090741293970513,
+  "visible_phase_tokens_per_second": 48.23373555777197,
+  "reasoning_tokens": 527,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 4.3,
+    "runtime_total_pss_bytes": 1195205632,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67302895616,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 1103060992,
+    "system_used_excluding_available_bytes": 5480919040,
+    "system_available_bytes": 27449933824,
+    "swap_used_bytes": 4078268416,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 449,
+  "finished_at": "2026-09-08T12:42:10.354667+00:00"
+}

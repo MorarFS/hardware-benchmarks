@@ -1,0 +1,78 @@
+{
+  "name": "H4-extraction",
+  "model": "gptoss120-medium",
+  "fingerprint": "2d61b03d1c8edf2819884bf2066de73b83dc742b801ceed4fc30036a324d9513",
+  "started_at": "2026-09-08T12:44:06.920092+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 4064,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need answer each question with at most two short sentences, include short supporting quotation and PDF page citation. If not answered, write exactly \"Not stated in the supplied passage\". Need to separate judgments, testimony, events? The instruction earlier said separate author judgments etc, but the immediate task is to answer. We'll just give concise answers with citations.\n\nNow locate answers.\n\nH4-Q1: Which ruler reunited the surviving Ottoman realm after the civil wars? In passage: \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained.\" So answer: Mohammed (i.e., Mehmed) son of Bayezid. Provide citation PDF p. 362.\n\nH4-Q2: Why did Manuel’s support for the two Mustaphas lead to war with Murad? Passage: \"He tried to make trouble for Murad, by supporting against him two claimants to the Ottoman Sultanate, each named Mustapha... This drew down on the empire the fate...: the Sultan declared war on Manuel\". So answer: Because Manuel supported two claimants named Mustapha against Murad, provoking Murad to declare war. citation PDF p. 363.\n\nH4-Q3: What immediate development caused Murad to lift the siege? Passage: \"At last the pretender Mustapha, whom Manuel had supplied with money... began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him.\" So lift siege to march against Mustapha. citation PDF p. 365.\n\nH4-Q4: What role does the passage assign to the vision of the Virgin? Passage: \"The report of a miraculous vision of the Virgin, who vouchsafed to reveal herself as the defender of the city, encouraged the Greeks to resist with a better spirit.\" So role: it boosted morale, encouraging resistance. citation PDF p. 365.\n\nH4-Q5: What was the exact number of soldiers killed during this siege? Need mention of number killed? I didn't see. Search: No number. So answer \"Not stated in the supplied passage\". Provide no citation.\n\nNow craft answer. Ensure each answer max two short sentences. Include quote and citation. For Not stated, just that phrase, no citation."
+      },
+      {
+        "type": "message",
+        "content": "H4‑Q1: The ruler was Mohammed, the youngest son of Bayezid, who “united all the remnants of the Ottoman realm that remained”【PDF p. 362】.  \n\nH4‑Q2: Manuel’s aid to two claimants named Mustapha “against him… drew down on the empire… the Sultan declared war on Manuel”【PDF p. 363】.  \n\nH4‑Q3: Murad lifted the siege because the pretender Mustapha “began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him”【PDF p. 365】.  \n\nH4‑Q4: The vision of the Virgin is presented as “a miraculous vision… who… revealed herself as the defender of the city, encouraged the Greeks to resist with a better spirit”【PDF p. 365】.  \n\nH4‑Q5: Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 4064,
+      "total_output_tokens": 690,
+      "reasoning_output_tokens": 482,
+      "tokens_per_second": 48.47646014052966,
+      "time_to_first_token_seconds": 7.413266999999999
+    }
+  },
+  "output": "H4‑Q1: The ruler was Mohammed, the youngest son of Bayezid, who “united all the remnants of the Ottoman realm that remained”【PDF p. 362】.  \n\nH4‑Q2: Manuel’s aid to two claimants named Mustapha “against him… drew down on the empire… the Sultan declared war on Manuel”【PDF p. 363】.  \n\nH4‑Q3: Murad lifted the siege because the pretender Mustapha “began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him”【PDF p. 365】.  \n\nH4‑Q4: The vision of the Virgin is presented as “a miraculous vision… who… revealed herself as the defender of the city, encouraged the Greeks to resist with a better spirit”【PDF p. 365】.  \n\nH4‑Q5: Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 4064,
+    "total_output_tokens": 690,
+    "reasoning_output_tokens": 482,
+    "tokens_per_second": 48.47646014052966,
+    "time_to_first_token_seconds": 7.413266999999999
+  },
+  "wall_seconds": 22.953760055999737,
+  "stream_timing": {
+    "prompt_processing.start": 1.3166927419952117,
+    "prompt_processing.end": 8.729329726993456,
+    "first_reasoning_seconds": 8.795560799997475,
+    "reasoning.end": 18.839923503997852,
+    "first_visible_seconds": 18.840088339995418,
+    "last_visible_delta_seconds": 22.920864773994253,
+    "message.end": 22.953459803997248
+  },
+  "first_visible_token_seconds": 18.840088339995418,
+  "visible_text_tokens": 198,
+  "visible_tokens_per_total_wall_second": 8.626037717434711,
+  "visible_phase_tokens_per_second": 48.13218303971053,
+  "reasoning_tokens": 482,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.6,
+    "runtime_total_pss_bytes": 1919665152,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67281563648,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 1820487680,
+    "system_used_excluding_available_bytes": 6034960384,
+    "system_available_bytes": 27008466944,
+    "swap_used_bytes": 4046176256,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 117,
+  "finished_at": "2026-09-08T12:44:30.138320+00:00"
+}

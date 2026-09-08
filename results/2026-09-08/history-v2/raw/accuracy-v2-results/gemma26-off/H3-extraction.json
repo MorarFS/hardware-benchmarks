@@ -1,0 +1,72 @@
+{
+  "name": "H3-extraction",
+  "model": "gemma26-off",
+  "fingerprint": "0b41f7e39aff95107f582f254f0cea66a8c172ab99ceca2eab59f8f5a00284e4",
+  "started_at": "2026-09-08T12:32:14.147949+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3366,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "H3-Q1: He was given this name because he was born in the Purple Chamber, which was the room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress\" [PDF p. 241].\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they did not keep it. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls\" [PDF p. 242].\n\nH3-Q3: The mob and the guards removed the sons of Romanus Lecapenus. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother\" [PDF p. 243].\n\nH3-Q4: Leo recommended caution against the Franks and Lombards. \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245].\n\nH3-Q5: Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3369,
+      "total_output_tokens": 243,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.197993358509734,
+      "time_to_first_token_seconds": 5.069229999999999
+    }
+  },
+  "output": "H3-Q1: He was given this name because he was born in the Purple Chamber, which was the room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress\" [PDF p. 241].\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they did not keep it. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls\" [PDF p. 242].\n\nH3-Q3: The mob and the guards removed the sons of Romanus Lecapenus. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother\" [PDF p. 243].\n\nH3-Q4: Leo recommended caution against the Franks and Lombards. \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245].\n\nH3-Q5: Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 3369,
+    "total_output_tokens": 243,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.197993358509734,
+    "time_to_first_token_seconds": 5.069229999999999
+  },
+  "wall_seconds": 11.948904445998778,
+  "stream_timing": {
+    "prompt_processing.start": 1.5382393740001135,
+    "prompt_processing.end": 6.592957594002655,
+    "first_visible_seconds": 6.59303077700315,
+    "last_visible_delta_seconds": 11.924120707000839,
+    "message.end": 11.948649666002893
+  },
+  "first_visible_token_seconds": 6.59303077700315,
+  "visible_text_tokens": 242,
+  "visible_tokens_per_total_wall_second": 20.25290277394731,
+  "visible_phase_tokens_per_second": 45.184038115182354,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 4.2,
+    "runtime_total_pss_bytes": 6136036352,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20714668032,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 5868662784,
+    "system_used_excluding_available_bytes": 9757499392,
+    "system_available_bytes": 23730524160,
+    "swap_used_bytes": 3750445056,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 155,
+  "finished_at": "2026-09-08T12:32:26.343735+00:00"
+}

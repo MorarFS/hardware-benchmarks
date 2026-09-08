@@ -1,0 +1,72 @@
+{
+  "name": "H4-extraction",
+  "model": "gemma26-off",
+  "fingerprint": "d73d0304c1aae25d10cc5768f743a82355a9bf300f9c3d439971a9cb49072def",
+  "started_at": "2026-09-08T12:32:40.553398+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 4093,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm. He \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel supported two claimants named Mustapha against Murad II, which resulted in the Sultan declaring war on the empire. This support \"drew down on the empire the fate which had been delayed since 1370\" [PDF p. 363].\n\nH4-Q3: The pretender Mustapha began causing trouble in Asia Minor, prompting the Sultan to end the siege. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin served to encourage the Greeks to continue their resistance. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 4096,
+      "total_output_tokens": 233,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.08847544398058,
+      "time_to_first_token_seconds": 5.717149999999999
+    }
+  },
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm. He \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel supported two claimants named Mustapha against Murad II, which resulted in the Sultan declaring war on the empire. This support \"drew down on the empire the fate which had been delayed since 1370\" [PDF p. 363].\n\nH4-Q3: The pretender Mustapha began causing trouble in Asia Minor, prompting the Sultan to end the siege. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin served to encourage the Greeks to continue their resistance. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 4096,
+    "total_output_tokens": 233,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.08847544398058,
+    "time_to_first_token_seconds": 5.717149999999999
+  },
+  "wall_seconds": 12.362654719996499,
+  "stream_timing": {
+    "prompt_processing.start": 1.5124907959980192,
+    "prompt_processing.end": 7.21550369799661,
+    "first_visible_seconds": 7.215694375001476,
+    "last_visible_delta_seconds": 12.338502986000094,
+    "message.end": 12.362428890999581
+  },
+  "first_visible_token_seconds": 7.215694375001476,
+  "visible_text_tokens": 232,
+  "visible_tokens_per_total_wall_second": 18.76619587415491,
+  "visible_phase_tokens_per_second": 45.075148135850725,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.5,
+    "runtime_total_pss_bytes": 7613811712,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20714668032,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 7345016832,
+    "system_used_excluding_available_bytes": 11275350016,
+    "system_available_bytes": 22212726784,
+    "swap_used_bytes": 3749769216,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 149,
+  "finished_at": "2026-09-08T12:32:53.198703+00:00"
+}

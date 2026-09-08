@@ -1,0 +1,78 @@
+{
+  "name": "H1-extraction",
+  "model": "gptoss120-medium",
+  "fingerprint": "3277395b45c5bd63051ddf6f97f2fa03f2f55404aa74c265e3dcf96c56e46db2",
+  "started_at": "2026-09-08T12:40:19.246175+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 3555,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need answer each question with at most two short sentences. Provide supporting quotation and PDF page citation.\n\nWe must extract from supplied passage.\n\nQ1: Who led the Visigoths as they retreated toward the Danube? In passage: \"the Visigoths, under their Duke Fritigern, fell back...\" So answer: Duke Fritigern. Quote from p.61.\n\nQ2: What two conditions did Valens impose for admission, and what happened to the arms condition? Conditions: give hostages and surrender arms. Then arms condition: they were allowed to retain their arms after bribes accepted, contrary to emperor's orders. Need quote from p.63.\n\nQ3: According to this passage, how did Lupicinus’s food policy contribute to revolt? He held back food, sold at exorbitant prices, causing hunger and desperation, leading to revolt. Quote from p.63-64 about extortion, starving, barter etc leading to chance affray.\n\nQ4: What result does the passage give for the battle at Ad Salices? It says \"thinned the ranks of both sides, but led to no decisive result.\" So that's result. Quote p.64.\n\nQ5: What was the exact number of Roman soldiers killed at Ad Salices? The passage does not give exact number; it only says thinned ranks, no decisive result. So answer: Not stated in the supplied passage.\n\nMake sure citations: Page numbers from PDF: p.61 for Q1, p.63 for Q2, p.63-64 for Q3, p.64 for Q4, p.64 maybe says no number; but we answer not stated. Provide citation maybe p.64 shows result, but for number we say not stated. Must include quotation for each answer. For Q5 we say Not stated... no quote.\n\nMake sure each answer separate lines with question IDs. Use short sentences. No em dashes. Provide citations in brackets like [PDF p. 61]. Ensure quoting exactly.\n\nLet's locate exact quote for Q2 about condition: from p.63: \"if the Goth would give hostages, and surrender their arms, they should be ferried across...\" Then later: \"the Roman officials at first tried to disarm the immigrants, but the Goths were unwilling to surrender their weapons, and offered large bribes... the bribes were accepted and the Goths retained their arms.\" Provide quote.\n\nQ3 quote: \"the governor, Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices... In sheer hunger the Goths were driven to barter a slave for a single loaf of bread...\" and \"This drove the Goths to desperation, and a chance affray set the whole nation in a blaze.\"\n\nQ4 quote: \"A desperate pitched battle at Ad Salices, near the modern Kustendje thinned the ranks of both sides, but led to no decisive result.\"\n\nNow format."
+      },
+      {
+        "type": "message",
+        "content": "H1‑Q1: The Visigoths were led by their Duke Fritigern as they fell back toward the Danube. [PDF p. 61]\n\nH1‑Q2: Valens required the Goths to give hostages and to surrender their arms; however, after the Goths bribed officials, they were allowed to keep their weapons. “if the Goth would give hostages, and surrender their arms… the Goths … offered large bribes… the bribes were accepted and the Goths retained their arms.” [PDF p. 63]\n\nH1‑Q3: Lupicinus hoarded the food stocks and sold rations at exorbitant prices, forcing the starving Goths to barter slaves for bread and driving them to desperation and revolt. “The governor, Lupicinus, … held back the food, and doled out what he chose to give at exorbitant prices… In sheer hunger the Goths were driven to barter a slave for a single loaf of bread… This drove the Goths to desperation, and a chance affray set the whole nation in a blaze.” [PDF p. 63‑64]\n\nH1‑Q4: The battle at Ad Salices thinned the ranks of both sides but produced no decisive outcome. “A desperate pitched battle at Ad Salices… thinned the ranks of both sides, but led to no decisive result.” [PDF p. 64]\n\nH1‑Q5: Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3555,
+      "total_output_tokens": 938,
+      "reasoning_output_tokens": 616,
+      "tokens_per_second": 48.66241712717655,
+      "time_to_first_token_seconds": 6.3626689999999995
+    }
+  },
+  "output": "H1‑Q1: The Visigoths were led by their Duke Fritigern as they fell back toward the Danube. [PDF p. 61]\n\nH1‑Q2: Valens required the Goths to give hostages and to surrender their arms; however, after the Goths bribed officials, they were allowed to keep their weapons. “if the Goth would give hostages, and surrender their arms… the Goths … offered large bribes… the bribes were accepted and the Goths retained their arms.” [PDF p. 63]\n\nH1‑Q3: Lupicinus hoarded the food stocks and sold rations at exorbitant prices, forcing the starving Goths to barter slaves for bread and driving them to desperation and revolt. “The governor, Lupicinus, … held back the food, and doled out what he chose to give at exorbitant prices… In sheer hunger the Goths were driven to barter a slave for a single loaf of bread… This drove the Goths to desperation, and a chance affray set the whole nation in a blaze.” [PDF p. 63‑64]\n\nH1‑Q4: The battle at Ad Salices thinned the ranks of both sides but produced no decisive outcome. “A desperate pitched battle at Ad Salices… thinned the ranks of both sides, but led to no decisive result.” [PDF p. 64]\n\nH1‑Q5: Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 3555,
+    "total_output_tokens": 938,
+    "reasoning_output_tokens": 616,
+    "tokens_per_second": 48.66241712717655,
+    "time_to_first_token_seconds": 6.3626689999999995
+  },
+  "wall_seconds": 26.301500231995306,
+  "stream_timing": {
+    "prompt_processing.start": 0.6509395529938047,
+    "prompt_processing.end": 7.013599512996734,
+    "first_reasoning_seconds": 7.078140547993826,
+    "reasoning.end": 19.87515233999875,
+    "first_visible_seconds": 19.875318106998748,
+    "last_visible_delta_seconds": 26.24699552999664,
+    "message.end": 26.301262442000734
+  },
+  "first_visible_token_seconds": 19.875318106998748,
+  "visible_text_tokens": 312,
+  "visible_tokens_per_total_wall_second": 11.862441200994974,
+  "visible_phase_tokens_per_second": 48.55137839719523,
+  "reasoning_tokens": 616,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 5.6,
+    "runtime_total_pss_bytes": 574450688,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67281530880,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 492711936,
+    "system_used_excluding_available_bytes": 4259848192,
+    "system_available_bytes": 28654428160,
+    "swap_used_bytes": 4165931008,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 204,
+  "finished_at": "2026-09-08T12:40:45.907727+00:00"
+}

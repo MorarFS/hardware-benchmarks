@@ -1,0 +1,72 @@
+{
+  "name": "H2-extraction",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "c712ab5ce51a2db64cde1aacedb8121527597d7b4e2e2c6860efd9919f33ff11",
+  "started_at": "2026-09-08T12:35:32.671181+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3731,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "H2-Q1: The monk Telemachus intervened in the gladiatorial games in A.D. 404, and he was slain during the resulting scuffle. The text states, \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... the good monk was slain\" [PDF p. 171].\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. The passage notes, \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].\n\nH2-Q3: No, the passage claimed slavery was not extinguished for centuries, though its evils were immensely modified. It states, \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].\n\nH2-Q4: Oman regarded widespread ascetic monasticism as politically dangerous because it removed men from their civic duties and left the state vulnerable to barbarian invasions. He argued that when men \"cease to be of the slightest use to society,\" the result is \"positively dangerous\" [PDF p. 174].\n\nH2-Q5: Not stated in the supplied passage"
+      }
+    ],
+    "stats": {
+      "input_tokens": 3733,
+      "total_output_tokens": 286,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 92.1002244337048,
+      "time_to_first_token_seconds": 4.924148
+    }
+  },
+  "output": "H2-Q1: The monk Telemachus intervened in the gladiatorial games in A.D. 404, and he was slain during the resulting scuffle. The text states, \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... the good monk was slain\" [PDF p. 171].\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. The passage notes, \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].\n\nH2-Q3: No, the passage claimed slavery was not extinguished for centuries, though its evils were immensely modified. It states, \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].\n\nH2-Q4: Oman regarded widespread ascetic monasticism as politically dangerous because it removed men from their civic duties and left the state vulnerable to barbarian invasions. He argued that when men \"cease to be of the slightest use to society,\" the result is \"positively dangerous\" [PDF p. 174].\n\nH2-Q5: Not stated in the supplied passage",
+  "stats": {
+    "input_tokens": 3733,
+    "total_output_tokens": 286,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 92.1002244337048,
+    "time_to_first_token_seconds": 4.924148
+  },
+  "wall_seconds": 8.839390064000327,
+  "stream_timing": {
+    "prompt_processing.start": 0.8271388680004748,
+    "prompt_processing.end": 5.744382262004365,
+    "first_visible_seconds": 5.744462936003401,
+    "last_visible_delta_seconds": 8.839141554002708,
+    "message.end": 8.839218437002273
+  },
+  "first_visible_token_seconds": 5.744462936003401,
+  "visible_text_tokens": 285,
+  "visible_tokens_per_total_wall_second": 32.24204361799838,
+  "visible_phase_tokens_per_second": 92.08617463780334,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.8,
+    "runtime_total_pss_bytes": 3004138496,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030354432,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 2731474944,
+    "system_used_excluding_available_bytes": 6921515008,
+    "system_available_bytes": 26274349056,
+    "swap_used_bytes": 3761065984,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 170,
+  "finished_at": "2026-09-08T12:35:41.746121+00:00"
+}

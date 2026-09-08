@@ -1,0 +1,71 @@
+{
+  "name": "H4-summary",
+  "model": "gemma26-off",
+  "fingerprint": "9719b6e4a85a900610200c40bc03317974e3fe75fb0ec97451237df22c05c242",
+  "started_at": "2026-09-08T12:32:53.200040+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3995,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "The author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history that no longer serves as an important thread in Christendom [PDF p. 358]. The author judges the Paleologi dynasty as having practiced a base subservience to the Turks, which unnecessarily protracted the empire's existence [PDF p. 358]. During the reign of John Paleologus, the emperor was vexed by the undutiful behavior of his son, Andronicus, who rebelled and was eventually blinded [PDF p. 359]. Consequently, John left the throne to his second son, Manuel II [PDF p. 359].\n\nManuel II experienced a period of potential liberation when the Tartars defeated Sultan Bayezid at Angora in 1402, causing Ottoman civil war [PDF p. 360]. Manuel sold his aid to the pretender Suleiman, briefly regaining significant territories [PDF p. 361]. However, the rise of Mohammed, a man of genius, reunited the Ottoman realm by 1421 [PDF p. 362]. After Manuel's death, his successor John VI presided over an empire in a state of exhaustion and debility [PDF p. 365]. Despite John's attempt to secure Western aid through conversion to Roman Catholicism at the Council of Florence, the author notes he received only a small sum of money and three hundred mercenaries [PDF p. 367]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3998,
+      "total_output_tokens": 312,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 44.65823597670362,
+      "time_to_first_token_seconds": 5.657872
+    }
+  },
+  "output": "The author characterizes the final seventy-five years of the Byzantine Empire as a mere piece of local history that no longer serves as an important thread in Christendom [PDF p. 358]. The author judges the Paleologi dynasty as having practiced a base subservience to the Turks, which unnecessarily protracted the empire's existence [PDF p. 358]. During the reign of John Paleologus, the emperor was vexed by the undutiful behavior of his son, Andronicus, who rebelled and was eventually blinded [PDF p. 359]. Consequently, John left the throne to his second son, Manuel II [PDF p. 359].\n\nManuel II experienced a period of potential liberation when the Tartars defeated Sultan Bayezid at Angora in 1402, causing Ottoman civil war [PDF p. 360]. Manuel sold his aid to the pretender Suleiman, briefly regaining significant territories [PDF p. 361]. However, the rise of Mohammed, a man of genius, reunited the Ottoman realm by 1421 [PDF p. 362]. After Manuel's death, his successor John VI presided over an empire in a state of exhaustion and debility [PDF p. 365]. Despite John's attempt to secure Western aid through conversion to Roman Catholicism at the Council of Florence, the author notes he received only a small sum of money and three hundred mercenaries [PDF p. 367].",
+  "stats": {
+    "input_tokens": 3998,
+    "total_output_tokens": 312,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 44.65823597670362,
+    "time_to_first_token_seconds": 5.657872
+  },
+  "wall_seconds": 14.16599644600501,
+  "stream_timing": {
+    "prompt_processing.start": 1.556708834003075,
+    "prompt_processing.end": 7.20044809000683,
+    "first_visible_seconds": 7.200519732999965,
+    "last_visible_delta_seconds": 14.1422513800062,
+    "message.end": 14.165780778006592
+  },
+  "first_visible_token_seconds": 7.200519732999965,
+  "visible_text_tokens": 311,
+  "visible_tokens_per_total_wall_second": 21.95397981253242,
+  "visible_phase_tokens_per_second": 44.64877463725356,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 4.7,
+    "runtime_total_pss_bytes": 8368208896,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20678496256,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 8097980416,
+    "system_used_excluding_available_bytes": 12006252544,
+    "system_available_bytes": 21466116096,
+    "swap_used_bytes": 3749650432,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 210,
+  "finished_at": "2026-09-08T12:33:07.599039+00:00"
+}

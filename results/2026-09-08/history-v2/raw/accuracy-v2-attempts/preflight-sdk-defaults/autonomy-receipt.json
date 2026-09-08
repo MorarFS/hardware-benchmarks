@@ -1,0 +1,83 @@
+{
+  "verified_utc": "2026-09-08T10:17:39Z",
+  "accuracy_unit": "ActiveState=active\nSubState=running\nUnitFileState=enabled\nMainPID=123879",
+  "speed_unit": "ActiveState=active\nMainPID=119960",
+  "linger": "Linger=yes",
+  "status": {
+    "time": "2026-09-08T10:17:25.635666+00:00",
+    "state": "waiting_for_speed",
+    "dependency_units": [
+      "evo-vulkan-model-matrix.service",
+      "evo-vulkan-model-matrix-resume.service"
+    ],
+    "models": [
+      "gemma26-off",
+      "qwen35-off-mtp",
+      "gptoss120-medium"
+    ],
+    "stages": [
+      "development-extraction",
+      "development-summary",
+      "H1-extraction",
+      "H1-summary",
+      "H2-extraction",
+      "H2-summary",
+      "H3-extraction",
+      "H3-summary",
+      "H4-extraction",
+      "H4-summary",
+      "merged-summary-synthesis",
+      "full-source-control"
+    ]
+  },
+  "models": [
+    "gemma26-off",
+    "qwen35-off-mtp",
+    "gptoss120-medium"
+  ],
+  "stages": [
+    "development-extraction",
+    "development-summary",
+    "H1-extraction",
+    "H1-summary",
+    "H2-extraction",
+    "H2-summary",
+    "H3-extraction",
+    "H3-summary",
+    "H4-extraction",
+    "H4-summary",
+    "merged-summary-synthesis",
+    "full-source-control"
+  ],
+  "checksums_verified": {
+    "time": "2026-09-08T10:17:25.198687+00:00",
+    "status": "passed",
+    "frozen_checksums_verified": true,
+    "models": 3,
+    "stages_per_model": 12,
+    "fixed_questions": 20,
+    "heldout_passages": 4,
+    "no_model_loaded": true,
+    "no_generation": true,
+    "request_inputs_allowlist": [
+      "prompts.json",
+      "questions.json",
+      "development-questions.json",
+      "inputs/*.txt",
+      "prior direct-summary outputs for merged stage only"
+    ]
+  },
+  "runner_sha256": "aeadebaaca7e0ab314f2efe6000cc123d9830e08ab26b2b1dcefb43a48365e25",
+  "frozen_manifest_sha256": "2b5763adc1cc3237d350581558b5bb4e8ad053ee191621131152c8bafc694302",
+  "method_note": {
+    "frozen_suite_version": "history-v2.0",
+    "frozen_files_unchanged": true,
+    "seed_requested": 42,
+    "seed_actual": "CLI has no seed option; actual SDK seed is recorded after load, not claimed fixed at 42. No sampler or question tuning follows outputs.",
+    "eval_batch_size": "Actual native load configuration recorded; not controlled by CLI.",
+    "evaluator": "Codex/AI-assisted source adjudication, not independent human adjudication. Automated checks do not certify factual accuracy.",
+    "development": "Two frozen refined-prompt probes. No extra baseline prompt invented outside the freeze.",
+    "timeouts": "900 seconds per request, no automatic cap retry; errors checkpointed.",
+    "gold_exclusion": "Gold files are read as binary for SHA256 verification only. Their text is never parsed or used by request builders."
+  }
+}

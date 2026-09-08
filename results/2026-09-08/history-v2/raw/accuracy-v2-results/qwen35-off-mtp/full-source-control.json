@@ -1,0 +1,74 @@
+{
+  "name": "full-source-control",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "01e29a8d5f57c524bb174d55a7a17bbe010a559abc1f880e102bffa11c009541",
+  "started_at": "2026-09-08T12:36:51.303039+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 13914,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "The narrative begins with the Huns’ westward expansion around A.D. 372, which crushed the Ostrogoths and forced the Visigoths to seek refuge across the Danube (p. 61). Emperor Valens, described as cowardly and avaricious, permitted their entry in 376 under the condition that they surrender their arms and provide hostages (p. 62). However, Roman officials, particularly the governor Lupicinus, accepted bribes to allow the Goths to keep their weapons and subsequently engaged in extortion, selling food at exorbitant prices that led to the sale of children for slaves (p. 63). This exploitation culminated in a banquet at Marcianopolis where Lupicinus attempted to assassinate the Gothic leader Fritigern, prompting the Goths to revolt and initiate a year of desperate fighting along the Danube (p. 64).\n\nThe conflict escalated into the Battle of Adrianople in 378, where Emperor Valens led a large army against the Goths. The author notes that the Goths had adopted cavalry tactics influenced by their time in the Ukraine, which proved decisive against the Roman infantry (p. 65). A sudden charge by Gothic cavalry overwhelmed the Roman flank, causing the imperial army to collapse into a confused mass where soldiers were trampled or cut down (p. 66). The defeat was catastrophic, resulting in the death of Valens and the annihilation of the Eastern army, a disaster compared to Cannae by the historian Ammianus Marcellinus (p. 67). Although the Goths approached Constantinople, they abandoned the siege due to the city’s formidable walls, validating Constantine’s earlier strategic foresight regarding the capital’s defenses (p. 67).\n\nIn the subsequent centuries, the Latin-speaking population in the Balkans rapidly declined due to barbarian invasions and the dominance of Greek culture, with Latin becoming rare among educated elites by the sixth century (p. 169). Concurrently, Christianity transformed social structures by abolishing infanticide, modifying slavery through the recognition of the slave’s soul, and ending gladiatorial games (p. 173). However, the rise of ascetic monasticism drew thousands away from civic duties, creating an apathetic attitude toward state defense that some pagans blamed for the empire’s decline (p. 174). This religious shift coexisted with a literary revival under the Macedonian dynasty, where emperors Leo VI and Constantine VII produced significant works on military tactics and court ceremony, reflecting a period of relative internal stability despite external piratical threats (p. 241).\n\nBy the late fourteenth century, the Byzantine Empire had diminished to a rump state centered on Constantinople, relying on the political fragmentation of the Ottoman Turks for survival (p. 358). Emperor Manuel II briefly expanded his territory during the Ottoman civil war following Tamerlane’s defeat of Bayezid I, but these gains were reversed when Murad II unified the Turkish realm (p. 360). The empire’s final decades were marked by economic exhaustion and military weakness, with Constantinople’s population reduced and its defenses maintained by a small number of mercenaries (p. 365). The last emperor, John VIII, sought Western aid by converting to Catholicism at the Council of Florence, but received only minimal support from a weakened papacy, leaving the empire vulnerable to the eventual Ottoman conquest (p. 366)."
+      }
+    ],
+    "stats": {
+      "input_tokens": 13916,
+      "total_output_tokens": 736,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 61.753336003429965,
+      "time_to_first_token_seconds": 17.171234000000002
+    }
+  },
+  "output": "The narrative begins with the Huns’ westward expansion around A.D. 372, which crushed the Ostrogoths and forced the Visigoths to seek refuge across the Danube (p. 61). Emperor Valens, described as cowardly and avaricious, permitted their entry in 376 under the condition that they surrender their arms and provide hostages (p. 62). However, Roman officials, particularly the governor Lupicinus, accepted bribes to allow the Goths to keep their weapons and subsequently engaged in extortion, selling food at exorbitant prices that led to the sale of children for slaves (p. 63). This exploitation culminated in a banquet at Marcianopolis where Lupicinus attempted to assassinate the Gothic leader Fritigern, prompting the Goths to revolt and initiate a year of desperate fighting along the Danube (p. 64).\n\nThe conflict escalated into the Battle of Adrianople in 378, where Emperor Valens led a large army against the Goths. The author notes that the Goths had adopted cavalry tactics influenced by their time in the Ukraine, which proved decisive against the Roman infantry (p. 65). A sudden charge by Gothic cavalry overwhelmed the Roman flank, causing the imperial army to collapse into a confused mass where soldiers were trampled or cut down (p. 66). The defeat was catastrophic, resulting in the death of Valens and the annihilation of the Eastern army, a disaster compared to Cannae by the historian Ammianus Marcellinus (p. 67). Although the Goths approached Constantinople, they abandoned the siege due to the city’s formidable walls, validating Constantine’s earlier strategic foresight regarding the capital’s defenses (p. 67).\n\nIn the subsequent centuries, the Latin-speaking population in the Balkans rapidly declined due to barbarian invasions and the dominance of Greek culture, with Latin becoming rare among educated elites by the sixth century (p. 169). Concurrently, Christianity transformed social structures by abolishing infanticide, modifying slavery through the recognition of the slave’s soul, and ending gladiatorial games (p. 173). However, the rise of ascetic monasticism drew thousands away from civic duties, creating an apathetic attitude toward state defense that some pagans blamed for the empire’s decline (p. 174). This religious shift coexisted with a literary revival under the Macedonian dynasty, where emperors Leo VI and Constantine VII produced significant works on military tactics and court ceremony, reflecting a period of relative internal stability despite external piratical threats (p. 241).\n\nBy the late fourteenth century, the Byzantine Empire had diminished to a rump state centered on Constantinople, relying on the political fragmentation of the Ottoman Turks for survival (p. 358). Emperor Manuel II briefly expanded his territory during the Ottoman civil war following Tamerlane’s defeat of Bayezid I, but these gains were reversed when Murad II unified the Turkish realm (p. 360). The empire’s final decades were marked by economic exhaustion and military weakness, with Constantinople’s population reduced and its defenses maintained by a small number of mercenaries (p. 365). The last emperor, John VIII, sought Western aid by converting to Catholicism at the Council of Florence, but received only minimal support from a weakened papacy, leaving the empire vulnerable to the eventual Ottoman conquest (p. 366).",
+  "stats": {
+    "input_tokens": 13916,
+    "total_output_tokens": 736,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 61.753336003429965,
+    "time_to_first_token_seconds": 17.171234000000002
+  },
+  "wall_seconds": 29.967026648002502,
+  "stream_timing": {
+    "prompt_processing.start": 0.8869368279993068,
+    "prompt_processing.end": 18.04398669800139,
+    "first_visible_seconds": 18.044379684004525,
+    "last_visible_delta_seconds": 29.946490542999527,
+    "message.end": 29.96677265800099
+  },
+  "first_visible_token_seconds": 18.044379684004525,
+  "visible_text_tokens": 735,
+  "visible_tokens_per_total_wall_second": 24.526957867172737,
+  "visible_phase_tokens_per_second": 61.64738436183094,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 5.3,
+    "runtime_total_pss_bytes": 6065398784,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030620672,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 5791043584,
+    "system_used_excluding_available_bytes": 9485848576,
+    "system_available_bytes": 23425060864,
+    "swap_used_bytes": 3892084736,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 509,
+  "finished_at": "2026-09-08T12:37:21.647700+00:00"
+}

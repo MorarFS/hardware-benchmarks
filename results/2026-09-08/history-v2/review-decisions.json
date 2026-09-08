@@ -1,0 +1,1052 @@
+{
+  "evaluator": "Codex-assisted full supplied-text review, not independent human adjudication or PDF-image verification",
+  "reviewed_complete_sources": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+  "reviewed_models_stages": {
+    "gemma26-off": [
+      "H1-extraction",
+      "H2-extraction",
+      "H3-extraction",
+      "H4-extraction",
+      "H1-summary",
+      "H2-summary",
+      "H3-summary",
+      "H4-summary",
+      "merged-summary-synthesis",
+      "full-source-control"
+    ],
+    "qwen35-off-mtp": [
+      "H1-extraction",
+      "H2-extraction",
+      "H3-extraction",
+      "H4-extraction",
+      "H1-summary",
+      "H2-summary",
+      "H3-summary",
+      "H4-summary",
+      "merged-summary-synthesis",
+      "full-source-control"
+    ],
+    "gptoss120-medium": [
+      "H1-extraction",
+      "H2-extraction",
+      "H3-extraction",
+      "H4-extraction",
+      "H1-summary",
+      "H2-summary",
+      "H3-summary",
+      "H4-summary",
+      "merged-summary-synthesis",
+      "full-source-control"
+    ]
+  },
+  "extraction_partial": [
+    {
+      "model": "gemma26-off",
+      "question": "H1-Q3",
+      "reason": "States withholding and high prices but omits the causal link through hunger/desperation to revolt.",
+      "pages": [
+        63,
+        64
+      ]
+    },
+    {
+      "model": "gemma26-off",
+      "question": "H3-Q3",
+      "reason": "Correctly names the mob and guards removing the sons; does not answer who removed Romanus himself.",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "question": "H3-Q3",
+      "reason": "Answers the removal of the sons but omits their earlier forced abdication of Romanus.",
+      "pages": [
+        243
+      ]
+    }
+  ],
+  "extraction_notes": [
+    "Other reviewed Gemma/Qwen held-out answers are source-supported. Both abstain on all four valid absence cases.",
+    "Gemma appends a period to its required exact absence response. Treat this as a minor formatting deviation, not a factual error.",
+    "Qwen omits supporting quotations for H1-Q2/H1-Q3 and all four stated H3 answers, although it gives citations.",
+    "H4-Q4 retains report status in the second sentence. Do not flag the first sentence in isolation as claiming a verified miracle.",
+    "H4-Q2 asks why supporting rival claimants led to war, not their exact kinship. Rival-claimant explanations are sufficient.",
+    "GPT gives correct substantive answers for the other19 questions, including all four valid absence cases. H4-Q4 describes the vision as presented, so do not count it as asserting a verified miracle; its quotation drops report status and changes wording.",
+    "GPT omits a supporting quote in H1-Q1. H3-Q2 changes the Saracens to they inside a quotation; H4-Q4 changes reveal herself to revealed herself and rearranges the source. Record quotation fidelity separately from correct substantive answers.",
+    "GPT uses nonbreaking hyphens in question IDs and appends periods to absence answers. H4 uses alternative citation brackets. These are formatting issues, not missing questions."
+  ],
+  "coverage": {
+    "gemma26-off": {
+      "H1-summary": [
+        "covered",
+        "covered",
+        "partial:Adrianople only; no Ad Salices",
+        "partial:retreat reported; defensive deterrence not explicit"
+      ],
+      "H2-summary": [
+        "covered",
+        "partial:social improvement; no slavery-persistence qualification",
+        "partial:withdrawal critique; no later learned monasticism",
+        "partial:governing classes only; no pagan argument or Orosius"
+      ],
+      "H3-summary": [
+        "covered",
+        "partial:raid and sons' removal; no transient occupation or sons forcing Romanus out",
+        "partial:organized army/manual; no tactical caution or naval limits",
+        "partial:books and compiler; literary recovery omitted"
+      ],
+      "H4-summary": [
+        "partial:critical judgment; limited inheritance omitted",
+        "covered",
+        "omitted",
+        "partial:decline and Western aid; vassalage and Thessalonica omitted"
+      ],
+      "merged-summary-synthesis": [
+        "covered",
+        "covered",
+        "partial:Adrianople only",
+        "omitted",
+        "covered",
+        "partial:social change without slavery persistence",
+        "partial:no later learned monasticism",
+        "partial:governing classes only",
+        "covered",
+        "partial:raid and sons' removal only",
+        "partial:army/manual only",
+        "partial:books without literary recovery",
+        "partial:critical interpretation only",
+        "covered",
+        "omitted",
+        "partial:decline and Western aid only"
+      ],
+      "full-source-control": [
+        "covered",
+        "covered",
+        "partial:Adrianople only",
+        "covered",
+        "omitted",
+        "omitted",
+        "omitted",
+        "omitted",
+        "partial:literary rulers; favorable conditions omitted",
+        "omitted",
+        "partial:army support and medical care; no caution/naval limits",
+        "covered",
+        "omitted",
+        "omitted",
+        "omitted",
+        "omitted"
+      ]
+    },
+    "qwen35-off-mtp": {
+      "H1-summary": [
+        "partial:Hunnic pressure and refuge; Fritigern unnamed",
+        "partial:conditions unnamed and arms bribery omitted",
+        "partial:Adrianople only",
+        "covered"
+      ],
+      "H2-summary": [
+        "covered",
+        "partial:modification stated, persistence not explicit",
+        "partial:ascetic criticism; later learned monasticism omitted",
+        "partial:pagan criticism and statecraft; Orosius omitted"
+      ],
+      "H3-summary": [
+        "covered",
+        "partial:raid and succession, with agency conflated and transient capture omitted",
+        "partial:army organization/medical support; no caution/naval limits",
+        "covered"
+      ],
+      "H4-summary": [
+        "covered",
+        "covered",
+        "partial:Murad/gain reversal; claimants, vision, and rebellion omitted",
+        "covered"
+      ],
+      "merged-summary-synthesis": [
+        "partial:Hunnic pressure and refuge; Fritigern unnamed",
+        "partial:conditions unnamed and arms bribery omitted",
+        "partial:Adrianople only",
+        "covered",
+        "covered",
+        "partial:modification without explicit persistence",
+        "partial:no later learned monasticism",
+        "partial:no Orosius",
+        "covered",
+        "partial:raid/succession without transient capture or correct stages",
+        "partial:army/medical support only",
+        "covered",
+        "covered",
+        "covered",
+        "partial:no claimants, vision or rebellion",
+        "covered"
+      ],
+      "full-source-control": [
+        "covered",
+        "covered",
+        "partial:Adrianople only",
+        "covered",
+        "partial:invasion and Greek dominance; separation omitted",
+        "partial:social change without slavery persistence",
+        "partial:withdrawal; later learned monasticism omitted",
+        "partial:pagan criticism only",
+        "partial:literary rulers and vague stability",
+        "omitted",
+        "partial:manual topic only; no declared military details",
+        "partial:books/revival mentioned but periods falsely linked",
+        "partial:decline; Oman judgment omitted",
+        "partial:opportunity and gains; reversal has wrong actor",
+        "partial:gain reversal only",
+        "partial:decline and Western aid; no Thessalonica/vassalage"
+      ]
+    },
+    "gptoss120-medium": {
+      "H1-summary": [
+        "partial:Hunnic pressure and refuge; Fritigern unnamed",
+        "partial:conditions and food revolt; arms bribery omitted",
+        "partial:Adrianople only",
+        "covered"
+      ],
+      "H2-summary": [
+        "covered",
+        "partial:social changes; slavery persistence omitted",
+        "covered",
+        "omitted"
+      ],
+      "H3-summary": [
+        "covered",
+        "partial:raid/guardians/sons; counterfactual rescue made factual and first deposition omitted",
+        "partial:themes/army/fleet topics; no caution/naval limits",
+        "covered"
+      ],
+      "H4-summary": [
+        "covered",
+        "covered",
+        "omitted",
+        "partial:Western aid and passive rule; no urban details/vassalage/Thessalonica fate"
+      ],
+      "merged-summary-synthesis": [
+        "partial:Hunnic pressure and refuge; Fritigern unnamed",
+        "partial:no arms bribery",
+        "partial:Adrianople only",
+        "covered",
+        "covered",
+        "partial:no slavery persistence",
+        "covered",
+        "omitted",
+        "covered",
+        "partial:raid/succession with same defects",
+        "partial:no caution/naval limits",
+        "covered",
+        "covered",
+        "covered",
+        "omitted",
+        "partial:Western aid/passivity only"
+      ],
+      "full-source-control": [
+        "partial:Hunnic pressure and refuge; Fritigern unnamed",
+        "partial:no arms bribery",
+        "partial:Adrianople only",
+        "omitted",
+        "covered",
+        "omitted",
+        "omitted",
+        "omitted",
+        "partial:literary pursuits; no favorable conditions",
+        "omitted",
+        "partial:army organization; no caution/naval limits",
+        "covered",
+        "partial:decline interpretation; limited inheritance omitted",
+        "covered",
+        "partial:vision replaces report/rebellion distinction",
+        "covered"
+      ]
+    }
+  },
+  "material_flags": [
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H1-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "death of forty thousand men",
+      "family": "H1-casualty-citation",
+      "dimension": "citation",
+      "judgment": "partially supported citation",
+      "pages": [
+        66,
+        67
+      ],
+      "reason": "Cites PDF66 for the 40,000 toll and emperor's death; those details occur on PDF67. The cavalry collapse is on66.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H2-summary"
+      ],
+      "span": "this element vanished by the seventh century",
+      "family": "H2-Latin-extinction",
+      "dimension": "qualification",
+      "judgment": "qualification loss",
+      "pages": [
+        169,
+        170
+      ],
+      "reason": "The source says rapidly vanishing, with surviving Latin speakers and less than one tenth in620. Vanished overstates extinction.",
+      "origin": "direct"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "merged-summary-synthesis"
+      ],
+      "span": "population in the Balkans vanished by the seventh century",
+      "family": "H2-Latin-extinction",
+      "dimension": "qualification",
+      "judgment": "qualification loss",
+      "pages": [
+        169,
+        170
+      ],
+      "reason": "Inherits the direct summary's overstatement despite retaining the later less-than-one-tenth sentence.",
+      "origin": "inherited"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H2-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "importance of the individual soul",
+      "family": "H2-soul-citation",
+      "dimension": "citation",
+      "judgment": "partially supported citation",
+      "pages": [
+        171,
+        173,
+        174
+      ],
+      "reason": "Cites172/173. Page172 is OCR noise; page173 supports slaves' souls, while the general causal account covering vulnerable classes is174.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "merged-summary-synthesis"
+      ],
+      "span": "paganism disappeared by the end of the fifth century",
+      "family": "H2-paganism-extinction",
+      "dimension": "qualification",
+      "judgment": "qualification loss",
+      "pages": [
+        176
+      ],
+      "reason": "Direct summary said effectively disappeared. Merged drops that qualification; the source says practically disappeared as an active force and allows surviving philosophers.",
+      "origin": "new in merged"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "The author describes the Huns as savages",
+      "family": "H1-quoted-historian-attribution",
+      "dimension": "attribution",
+      "judgment": "quoted testimony assigned to narrator",
+      "pages": [
+        61
+      ],
+      "reason": "The physical caricature is attributed by Oman to a Gothic historian, not offered as Oman's own description.",
+      "origin": "independent full-source control"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H2-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "extermination of Latin-speaking populations by Slavs",
+      "family": "H2-Latin-extinction",
+      "dimension": "qualification",
+      "judgment": "qualification loss",
+      "pages": [
+        170
+      ],
+      "reason": "Source says almost exterminated, followed by surviving Latin-speaking communities. Preserve the limiting qualifier.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H2-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "paganism vanished",
+      "family": "H2-paganism-extinction",
+      "dimension": "qualification",
+      "judgment": "qualification loss",
+      "pages": [
+        176
+      ],
+      "reason": "Source says practically disappeared as an active force, with a few remaining philosophers. The output removes both limits.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "When Murad II unified the Ottoman realm",
+      "family": "H4-unifier-identity",
+      "dimension": "factual",
+      "judgment": "contradiction",
+      "pages": [
+        362,
+        363
+      ],
+      "reason": "Mohammed/Mahomet reunited it. His son Murad later reversed Manuel's gains. The same model answered H4-Q1 correctly.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "Finally, John VIII.",
+      "family": "H4-unsupplied-imperial-number",
+      "dimension": "source_fidelity",
+      "judgment": "unsupported external correction",
+      "pages": [
+        365,
+        366,
+        367
+      ],
+      "reason": "The supplied text calls this ruler JohnVI throughout. The output switches toVIII after itself usingVI; source matching must not silently correct Oman.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "physical decay of Constantinople and its economic dependence on Italian merchants",
+      "family": "H4-urban-citation",
+      "dimension": "citation",
+      "judgment": "partially supported citation",
+      "pages": [
+        365,
+        366
+      ],
+      "reason": "Cites365, which introduces descriptions; specific physical decay and Italian commercial control appear on366.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "these gains were reversed when Murad II unified the Turkish realm",
+      "family": "H4-unifier-identity",
+      "dimension": "factual",
+      "judgment": "contradiction",
+      "pages": [
+        360,
+        362,
+        363
+      ],
+      "reason": "Mohammed reunified the realm; Murad's later war reversed the gains. Also cites360 before either development.",
+      "origin": "recurrent in independent full-source control, not propagated"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "This religious shift coexisted with a literary revival under the Macedonian dynasty",
+      "family": "cross-gap-false-contemporaneity",
+      "dimension": "chronology",
+      "judgment": "unsupported temporal linkage",
+      "pages": [
+        171,
+        174,
+        241,
+        247
+      ],
+      "reason": "Links fourth/sixth-century Christianization and ascetic withdrawal to ninth/tenth-century literary rulers as coexisting, inventing a relation across the gaps.",
+      "origin": "new in independent full-source control"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "The last emperor, John VIII",
+      "family": "H4-last-emperor",
+      "dimension": "factual",
+      "judgment": "unsupported identity and terminal status",
+      "pages": [
+        367
+      ],
+      "reason": "The source says the last John Paleologus, not the last emperor. It calls himJohnVI. The sentence also cites366 rather than367 for Florence and Western aid.",
+      "origin": "new last-emperor claim in independent control; imperial-number issue recurs independently"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H2-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "ended gladiatorial games in Constantinople",
+      "family": "H2-gladiator-location",
+      "dimension": "factual",
+      "judgment": "contradiction",
+      "pages": [
+        171
+      ],
+      "reason": "The source says Christian Constantinople never knew gladiatorial games; the surviving games were at Rome.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H2-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "Theodosius I’s moral crusade, including the spectacular death of the monk Telemachus",
+      "family": "H2-gladiator-agency",
+      "dimension": "factual",
+      "judgment": "agency conflation",
+      "pages": [
+        171
+      ],
+      "reason": "The source explicitly distinguishes Theodosius’s state measures from Telemachus’s later individual action, saying abolition was not the work of the State.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H3-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "Leo VI the Wise and his grandson Constantine VII",
+      "family": "H3-dynastic-relationship",
+      "dimension": "factual",
+      "judgment": "contradiction",
+      "pages": [
+        241
+      ],
+      "reason": "Leo is Basil’s son and Constantine his grandson. Constantine is Leo’s son, not Leo’s grandson.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H3-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "was retaken when the attack was delayed a few weeks",
+      "family": "H3-counterfactual-rescue",
+      "dimension": "factual",
+      "judgment": "counterfactual made factual",
+      "pages": [
+        242
+      ],
+      "reason": "The source says the town could have been rescued if its fall had been delayed. It was captured; the raiders departed with booty. No successful delayed rescue is narrated.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "repelled only by a “miraculous vision of the Virgin”",
+      "family": "H4-vision-siege-cause",
+      "dimension": "factual",
+      "judgment": "causal contradiction and lost report status",
+      "pages": [
+        363,
+        365
+      ],
+      "reason": "Walls repelled the assault; the report of a vision encouraged resistance. Mustapha’s rebellion caused Murad to lift the siege. The output makes the vision the sole cause and removes report status.",
+      "origin": "new in independent full-source control"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "only isolated enclaves—African cities and the Italian Exarchate—still preserved the language",
+      "family": "H2-Latin-enclave-scope",
+      "dimension": "qualification",
+      "judgment": "qualification loss",
+      "pages": [
+        170
+      ],
+      "reason": "Source also preserves Dalmatian ports and scattered Balkan survivors. Africa/Italy are the only districts with a considerable Latin population still obeying the emperor, not all surviving Latin speakers.",
+      "origin": "new in independent full-source control"
+    }
+  ],
+  "nonmaterial_review_notes": [
+    "Gemma's Bulgarian invasion wording can mean an invasion involving Bulgaria; source says an invasion of Bulgaria. Mark ambiguous wording, not a proved reversal.",
+    "Gemma's broad new-development-in-warfare phrase may overgeneralize the source's first German race to adopt cavalry, but remains attributed and ambiguous; do not force a contradiction.",
+    "Qwen's Roman flanks plural broadens the specifically left-flank cavalry charge. Treat as minor precision loss.",
+    "Adjacent-page locator drift occurs for Valens's character, Lupicinus's food policy, literary achievements, methodical compiler, Manuel's recovered territories, and urban exhaustion. Preserve these separately from material factual claims.",
+    "Gemma full-source control uses three H1 paragraphs plus one H3 paragraph. It omits all H2 and H4 coverage despite having four paragraphs.",
+    "Qwen full-source control uses two H1 paragraphs, combines H2/H3 in one paragraph, and uses one H4 paragraph. Four paragraphs alone does not satisfy one paragraph per passage.",
+    "Both full-source controls use parenthesized page numbers, not the instructed physical-PDF citation syntax.",
+    "Qwen merged output appears to reproduce the four direct summaries verbatim in order; verify exact normalized equality programmatically.",
+    "No whole-source claims from controls are classified inherited: they did not receive direct summaries. Same-family recurrence is independent.",
+    "GPT H4 summary says gains vanished after Mohammed’s1421 reunification. Because the loss occurred later, after is not itself a demonstrated false date or claim that Mohammed caused it. Record omitted Murad/claimant causation in coverage.",
+    "GPT assigns the bailiff observation to John’s recognition, whereas the source attributes the remark to Manuel. Record attribution precision separately; do not automatically turn this into a fabricated event.",
+    "GPT H3 describes a failed Bulgarian invasion, which remains ambiguous between an invasion by or of Bulgaria. No hard reversal is counted.",
+    "GPT full-source control mislabels H1 as61–66 and H2 as169–170, while supplied ranges were61–67 and169–176. It omits H2’s entire religious/social section.",
+    "GPT full-source control calls John’s reign brief without source support for that characterization. Record this as an unsupported evaluative qualifier."
+  ],
+  "quality_notes": [
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H3-summary"
+      ],
+      "span": "were the most monotonous in the empire's history",
+      "family": "H3-unattributed-monotony",
+      "dimension": "attribution",
+      "judgment": "attribution explicitness; not a fabricated historical fact",
+      "pages": [
+        241
+      ],
+      "reason": "The opening sentence states Oman's evaluation without explicit attribution. Merged synthesis repairs this.",
+      "origin": "direct; repaired in merged"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H4-summary"
+      ],
+      "span": "a man of genius",
+      "family": "H4-unattributed-genius",
+      "dimension": "attribution",
+      "judgment": "attribution explicitness; not a fabricated historical fact",
+      "pages": [
+        362
+      ],
+      "reason": "Oman's evaluative label is unmarked in the sentence. Merged output drops it.",
+      "origin": "direct; omitted in merged"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H3-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "popular wrath removed the Lecapenus family",
+      "family": "H3-succession-agency",
+      "dimension": "factual",
+      "judgment": "ambiguous compression and omitted succession step",
+      "pages": [
+        243
+      ],
+      "reason": "The phrase removed the Lecapenus family can mean ending family control, rather than explicitly assigning Romanus’s deposition to the mob. Retain omitted first step in coverage; no hard contradiction established.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H3-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "mild, strange issue",
+      "family": "H3-quotation-splice",
+      "dimension": "quotation",
+      "judgment": "reordered quotation; OCR reading-order contamination",
+      "pages": [
+        241
+      ],
+      "reason": "Source text places a pair of mild before a displaced strange issue line. The quotation combines them into a new phrase. Record quotation fidelity separately from factual identity.",
+      "origin": "direct; inherited in merged"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "who rebelled twice",
+      "family": "H4-rebellion-order-ambiguity",
+      "dimension": "clarity",
+      "judgment": "ambiguous retrospective chronology",
+      "pages": [
+        359
+      ],
+      "reason": "The source gives two rebellions total, with the second after blinding. Listing twice, then blinding, then again can suggest three. It can also be a retrospective total followed by details; no hard contradiction counted.",
+      "origin": "direct; inherited in merged"
+    }
+  ],
+  "review_revisions": [
+    {
+      "reason": "Second Codex review distinguished ambiguous family-wide removal from an explicit false agent, and contextual attribution from factual fabrication.",
+      "moved_to_nonmaterial_quality_notes": [
+        "H3-succession-agency",
+        "H3-unattributed-monotony",
+        "H4-unattributed-genius"
+      ]
+    },
+    {
+      "reason": "Final consistency review requires both named Fritigern and Hunnic pressure for full H1-C1 coverage. Qwen and GPT direct/merged summaries omit his name; GPT control does too.",
+      "dimension": "coverage only"
+    }
+  ],
+  "extraction_false_absence": [
+    {
+      "model": "gptoss120-medium",
+      "question": "H3-Q3",
+      "reason": "Claims not stated although PDF243 explicitly states both sons forcing Romanus to abdicate and mob/guards removing the sons.",
+      "pages": [
+        243
+      ]
+    }
+  ],
+  "second_codex_review_addendum": {
+    "reviewer": "Originating task, another Codex-assisted source check; not independent human adjudication",
+    "complete_passages": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "absence_cases": "All four verified absent in full supplied passages. Other numerical details concern different events or quantities.",
+    "gpt_extraction": "All 20 answers checked independently. H3-Q3 is false abstention, not invented information. Other substantive answers supported. H4-Q4 preserves presented status, though its quotation changes wording."
+  },
+  "citation_notes": [
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H3-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "chief achievements of both emperors",
+      "family": "H3-chief-books-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        243,
+        244
+      ],
+      "reason": "The chief-achievements sentence is on243, while the cited244 elaborates the books.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H3-summary",
+        "merged-summary-synthesis",
+        "full-source-control"
+      ],
+      "span": "methodical compiler",
+      "family": "H3-compiler-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        246,
+        247
+      ],
+      "reason": "The cited246 describes works; the methodical-compiler evaluation is on247.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "H4-summary"
+      ],
+      "span": "briefly regaining significant territories",
+      "family": "H4-gains-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        361,
+        362
+      ],
+      "reason": "Citation361 introduces the alliance; the recovered territories are detailed on362.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gemma26-off",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "By the ninth century",
+      "family": "H3-recovery-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        241,
+        247
+      ],
+      "reason": "The literary rulers appear on241; the explicit account of recovery occurs on247.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H1-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "The Eastern Emperor Valens",
+      "family": "H1-character-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        62,
+        63
+      ],
+      "reason": "Citation63 supports admission but the character evaluation occurs on62.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "H1-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "engaged in extortion and withheld food supplies",
+      "family": "H1-food-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        63,
+        64
+      ],
+      "reason": "Food policy and desperation occur on63; cited64 describes their consequences.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "Emperor Valens, described as cowardly",
+      "family": "H1-conditions-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        62,
+        63
+      ],
+      "reason": "Cited62 supports the date and character; conditions appear on63.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "Latin-speaking population in the Balkans rapidly declined",
+      "family": "H2-causes-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        169,
+        170
+      ],
+      "reason": "Cited169 describes decline; invasion and isolation explanations appear on170.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "Christianity transformed social structures",
+      "family": "H2-games-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        171,
+        173
+      ],
+      "reason": "Cited173 supports infanticide and slavery; games appear on171.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "some pagans blamed",
+      "family": "H2-pagan-critique-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        174,
+        176
+      ],
+      "reason": "Cited174 supports civic withdrawal; pagan criticism appears on176.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "significant works on military tactics",
+      "family": "H3-revival-composite-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        241,
+        242,
+        244,
+        246,
+        247
+      ],
+      "reason": "Citation241 supports literary rulers but not all listed works, stability and revival details. Separate temporal-linkage error retained.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "qwen35-off-mtp",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "final decades were marked",
+      "family": "H4-urban-composite-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        365,
+        366
+      ],
+      "reason": "Cited365 introduces descriptions; population and mercenary details occur on366.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "On John’s death in 1391",
+      "family": "H4-succession-date-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        359,
+        360,
+        361
+      ],
+      "reason": "Cited360–361 supports Manuel’s constraints;1391 succession appears on359.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "After Mohammed unified",
+      "family": "H4-reunification-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        362,
+        364,
+        365
+      ],
+      "reason": "Cited364–365 supports later losses/death but not the reunification account on362.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "H4-summary",
+        "merged-summary-synthesis"
+      ],
+      "span": "required a bailiff rather than a statesman",
+      "family": "H4-bailiff-attribution-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        365,
+        366,
+        367
+      ],
+      "reason": "The observation is attributed to Manuel on365, not John’s recognition. Citation366–367 supports later Western aid.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "Emperor Valens, portrayed",
+      "family": "H1-control-character-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        62,
+        63
+      ],
+      "reason": "Cited63 supports conditions; character description appears on62.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "Corruption by the governor Lupicinus",
+      "family": "H1-control-food-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        63,
+        64
+      ],
+      "reason": "Cited64 supports revolt; food hoarding and barter appear on63.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "Constantine’s prolific output",
+      "family": "H3-control-books-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        246,
+        247
+      ],
+      "reason": "Cited247 supports compiler evaluation; titles are on246.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    },
+    {
+      "model": "gptoss120-medium",
+      "stages": [
+        "full-source-control"
+      ],
+      "span": "John Paleologus’s long reign",
+      "family": "H4-control-rebellions-locator",
+      "dimension": "citation_precision",
+      "judgment": "partial locator support",
+      "pages": [
+        359,
+        360,
+        362
+      ],
+      "reason": "Cited360–362 supports Manuel’s opportunity; Andronicus’s rebellions are on359.",
+      "origin": "direct and/or recurrence as stage indicates; controls are independent"
+    }
+  ]
+}

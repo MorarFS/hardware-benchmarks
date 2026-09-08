@@ -1,0 +1,72 @@
+{
+  "name": "H3-extraction",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "e5717fa183c98f13a9639ad30b3fb0b371d8ebfcf9cb15eea227c5dcd80c080b",
+  "started_at": "2026-09-08T12:35:52.934687+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3377,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "H3-Q1: Constantine was called Porphyrogenitus because he was born in the Purple Chamber, which was reserved for the Empress. [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they did not retain it as they fled with their booty. [PDF p. 242]\n\nH3-Q3: The mob and guards removed Stephen Lecapenus and his brother, after which Constantine emerged to administer the empire. [PDF p. 243]\n\nH3-Q4: Leo recommended caution against the Franks and Lombards, who were described as men of the West. [PDF p. 245]\n\nH3-Q5: Not stated in the supplied passage"
+      }
+    ],
+    "stats": {
+      "input_tokens": 3379,
+      "total_output_tokens": 167,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 91.8108077913085,
+      "time_to_first_token_seconds": 4.524344
+    }
+  },
+  "output": "H3-Q1: Constantine was called Porphyrogenitus because he was born in the Purple Chamber, which was reserved for the Empress. [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but they did not retain it as they fled with their booty. [PDF p. 242]\n\nH3-Q3: The mob and guards removed Stephen Lecapenus and his brother, after which Constantine emerged to administer the empire. [PDF p. 243]\n\nH3-Q4: Leo recommended caution against the Franks and Lombards, who were described as men of the West. [PDF p. 245]\n\nH3-Q5: Not stated in the supplied passage",
+  "stats": {
+    "input_tokens": 3379,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 91.8108077913085,
+    "time_to_first_token_seconds": 4.524344
+  },
+  "wall_seconds": 7.187931650994869,
+  "stream_timing": {
+    "prompt_processing.start": 0.8609426280017942,
+    "prompt_processing.end": 5.379142630001297,
+    "first_visible_seconds": 5.379286205999961,
+    "last_visible_delta_seconds": 7.1877391029993305,
+    "message.end": 7.187779904998024
+  },
+  "first_visible_token_seconds": 5.379286205999961,
+  "visible_text_tokens": 166,
+  "visible_tokens_per_total_wall_second": 23.094265229556576,
+  "visible_phase_tokens_per_second": 91.78139389307852,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.5,
+    "runtime_total_pss_bytes": 3873350656,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030354432,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 3599446016,
+    "system_used_excluding_available_bytes": 7803994112,
+    "system_available_bytes": 25348026368,
+    "swap_used_bytes": 3760635904,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 93,
+  "finished_at": "2026-09-08T12:36:00.353444+00:00"
+}

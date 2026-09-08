@@ -1,0 +1,71 @@
+{
+  "name": "H3-summary",
+  "model": "gemma26-off",
+  "fingerprint": "3ccee9b15b84877983ca2ae24a2167866865f723a081c5d6ac55fae9c53a8e17",
+  "started_at": "2026-09-08T12:32:26.344755+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3259,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "The eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes this era as being defined by the reigns of Leo the Wise and Constantine Porphyrogenitus, whom the author describes as mild, inoffensive men of literature [PDF p. 241]. While the author notes that the period 880–960 was less troubled by foreign wars than other eras, Leo's reign was interrupted by a Bulgarian invasion and a Saracen raid on Thessalonica in 904 [PDF p. 242]. The author evaluates the loss of Thessalonica as a disgraceful incident for Leo's administration [PDF p. 242].\n\nConstantine VII's reign began under the tutelage of guardians, including the emperor-regent Alexander and later the ambitious admiral Romanus Lecapenus, who usurped power and kept the rightful heir in the background [PDF p. 243]. Constantine eventually regained power after a popular uprising against the sons of Romanus [PDF p. 243]. The author describes Constantine as a somewhat weak and ineffective ruler [PDF p. 243]. Ultimately, the author identifies the chief achievements of both emperors as their books [PDF p. 244]. Leo's military manual provides a detailed picture of the organized Byzantine army and fleet [PDF p. 244, 246], while Constantine's works, though sometimes focused on trifling topics like court ceremonies, demonstrate his skill as a methodical compiler [PDF p. 246]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3262,
+      "total_output_tokens": 339,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.12078152397442,
+      "time_to_first_token_seconds": 4.9899189999999995
+    }
+  },
+  "output": "The eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes this era as being defined by the reigns of Leo the Wise and Constantine Porphyrogenitus, whom the author describes as mild, inoffensive men of literature [PDF p. 241]. While the author notes that the period 880–960 was less troubled by foreign wars than other eras, Leo's reign was interrupted by a Bulgarian invasion and a Saracen raid on Thessalonica in 904 [PDF p. 242]. The author evaluates the loss of Thessalonica as a disgraceful incident for Leo's administration [PDF p. 242].\n\nConstantine VII's reign began under the tutelage of guardians, including the emperor-regent Alexander and later the ambitious admiral Romanus Lecapenus, who usurped power and kept the rightful heir in the background [PDF p. 243]. Constantine eventually regained power after a popular uprising against the sons of Romanus [PDF p. 243]. The author describes Constantine as a somewhat weak and ineffective ruler [PDF p. 243]. Ultimately, the author identifies the chief achievements of both emperors as their books [PDF p. 244]. Leo's military manual provides a detailed picture of the organized Byzantine army and fleet [PDF p. 244, 246], while Constantine's works, though sometimes focused on trifling topics like court ceremonies, demonstrate his skill as a methodical compiler [PDF p. 246].",
+  "stats": {
+    "input_tokens": 3262,
+    "total_output_tokens": 339,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.12078152397442,
+    "time_to_first_token_seconds": 4.9899189999999995
+  },
+  "wall_seconds": 13.979409885003406,
+  "stream_timing": {
+    "prompt_processing.start": 1.5114064810040873,
+    "prompt_processing.end": 6.487019066000357,
+    "first_visible_seconds": 6.487095759002841,
+    "last_visible_delta_seconds": 13.955545213000732,
+    "message.end": 13.979161693998321
+  },
+  "first_visible_token_seconds": 6.487095759002841,
+  "visible_text_tokens": 338,
+  "visible_tokens_per_total_wall_second": 24.17841688457779,
+  "visible_phase_tokens_per_second": 45.11289760623345,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.7,
+    "runtime_total_pss_bytes": 6875732992,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20714668032,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 6606954496,
+    "system_used_excluding_available_bytes": 10523885568,
+    "system_available_bytes": 22931841024,
+    "swap_used_bytes": 3750383616,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 225,
+  "finished_at": "2026-09-08T12:32:40.551881+00:00"
+}

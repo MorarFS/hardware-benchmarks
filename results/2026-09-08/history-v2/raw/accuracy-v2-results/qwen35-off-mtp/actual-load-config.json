@@ -1,0 +1,46 @@
+{
+  "native": {
+    "id": "evo-accuracy-qwen35-off-mtp",
+    "config": {
+      "context_length": 65536,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 1,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": true,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 8,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7199
+  },
+  "sdk": {
+    "gpu": {
+      "ratio": 1.0,
+      "splitStrategy": "evenly",
+      "disabledGpus": []
+    },
+    "offloadKVCacheToGpu": true,
+    "contextLength": 65536,
+    "evalBatchSize": 2048,
+    "flashAttention": true,
+    "seed": 42,
+    "numExperts": 8,
+    "llamaKCacheQuantizationType": "f16",
+    "llamaVCacheQuantizationType": "f16"
+  },
+  "libraries": [
+    "<HOME>/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-base.so",
+    "<HOME>/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-cpu.so",
+    "<HOME>/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-vulkan.so"
+  ],
+  "seed_requested": 42,
+  "seed_actual": 42,
+  "seed_fixed_42_verified": true
+}

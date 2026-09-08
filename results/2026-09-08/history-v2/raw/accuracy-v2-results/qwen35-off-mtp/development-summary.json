@@ -1,0 +1,71 @@
+{
+  "name": "development-summary",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "aca3aaf1a58f148f3c1c8976f022e71d36e2486869562688b1222e15a5761701",
+  "started_at": "2026-09-08T12:35:03.930630+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 2386,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "The author describes the Blues and Greens as factions that evolved from circus groups into dangerous political parties by 532 [PDF p. 101]. Their unrest began when rioters demanded the execution of leaders, but a botched hanging allowed two criminals to escape into sanctuary [PDF p. 102]. This incident triggered six days of rioting where the factions united under the slogan \"Nika\" to demand the dismissal of unpopular ministers [PDF p. 102]. The mob refused to disperse and attempted to install Hypatius as emperor, exploiting the city’s lack of troops [PDF p. 102]. Belisarius led the Imperial Guard in a counterattack, but the fighting caused a massive fire that destroyed St. Sophia and other buildings [PDF p. 103]. Hypatius was eventually forced into the Hippodrome and crowned by the insurgents [PDF p. 103]. While ministers urged Justinian to flee, the author notes that Empress Theodora refused to leave, arguing that imperial dignity was preferable to exile [PDF p. 105]. Spurred by her resolve, Justinian ordered a final assault on the Hippodrome [PDF p. 105]. Belisarius’s troops breached the gates and slaughtered the rebels, resulting in approximately 35,000 deaths [PDF p. 106]. The author observes that despite this violence, the factions continued to riot for fifty years [PDF p. 106]. However, the text qualifies that they never again threatened the regime as severely as during the Nika Sedition [PDF p. 106]. The narrative concludes by highlighting the unique historical impact of this specific uprising compared to later disturbances [PDF p. 106]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 2388,
+      "total_output_tokens": 372,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 71.17185124507576,
+      "time_to_first_token_seconds": 3.433405
+    }
+  },
+  "output": "The author describes the Blues and Greens as factions that evolved from circus groups into dangerous political parties by 532 [PDF p. 101]. Their unrest began when rioters demanded the execution of leaders, but a botched hanging allowed two criminals to escape into sanctuary [PDF p. 102]. This incident triggered six days of rioting where the factions united under the slogan \"Nika\" to demand the dismissal of unpopular ministers [PDF p. 102]. The mob refused to disperse and attempted to install Hypatius as emperor, exploiting the city’s lack of troops [PDF p. 102]. Belisarius led the Imperial Guard in a counterattack, but the fighting caused a massive fire that destroyed St. Sophia and other buildings [PDF p. 103]. Hypatius was eventually forced into the Hippodrome and crowned by the insurgents [PDF p. 103]. While ministers urged Justinian to flee, the author notes that Empress Theodora refused to leave, arguing that imperial dignity was preferable to exile [PDF p. 105]. Spurred by her resolve, Justinian ordered a final assault on the Hippodrome [PDF p. 105]. Belisarius’s troops breached the gates and slaughtered the rebels, resulting in approximately 35,000 deaths [PDF p. 106]. The author observes that despite this violence, the factions continued to riot for fifty years [PDF p. 106]. However, the text qualifies that they never again threatened the regime as severely as during the Nika Sedition [PDF p. 106]. The narrative concludes by highlighting the unique historical impact of this specific uprising compared to later disturbances [PDF p. 106].",
+  "stats": {
+    "input_tokens": 2388,
+    "total_output_tokens": 372,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 71.17185124507576,
+    "time_to_first_token_seconds": 3.433405
+  },
+  "wall_seconds": 9.353044221003074,
+  "stream_timing": {
+    "prompt_processing.start": 0.7128423579997616,
+    "prompt_processing.end": 4.13895623600547,
+    "first_visible_seconds": 4.1390364700055216,
+    "last_visible_delta_seconds": 9.352762879003421,
+    "message.end": 9.352851603005547
+  },
+  "first_visible_token_seconds": 4.1390364700055216,
+  "visible_text_tokens": 371,
+  "visible_tokens_per_total_wall_second": 39.666229650330024,
+  "visible_phase_tokens_per_second": 71.15447803640485,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.3,
+    "runtime_total_pss_bytes": 1718731776,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030354432,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 1451323392,
+    "system_used_excluding_available_bytes": 5568204800,
+    "system_available_bytes": 27593244672,
+    "swap_used_bytes": 3761344512,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 250,
+  "finished_at": "2026-09-08T12:35:13.507575+00:00"
+}

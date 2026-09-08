@@ -1,0 +1,427 @@
+[
+  {
+    "model": "gemma26-off",
+    "stage": "H1-summary",
+    "span": "death of forty thousand men",
+    "family": "H1-casualty-citation",
+    "dimension": "citation",
+    "judgment": "partially supported citation",
+    "evidence_pages": [
+      66,
+      67
+    ],
+    "reason": "Cites PDF66 for the 40,000 toll and emperor's death; those details occur on PDF67. The cavalry collapse is on66.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "merged-summary-synthesis",
+    "span": "death of forty thousand men",
+    "family": "H1-casualty-citation",
+    "dimension": "citation",
+    "judgment": "partially supported citation",
+    "evidence_pages": [
+      66,
+      67
+    ],
+    "reason": "Cites PDF66 for the 40,000 toll and emperor's death; those details occur on PDF67. The cavalry collapse is on66.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "H2-summary",
+    "span": "this element vanished by the seventh century",
+    "family": "H2-Latin-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      169,
+      170
+    ],
+    "reason": "The source says rapidly vanishing, with surviving Latin speakers and less than one tenth in620. Vanished overstates extinction.",
+    "origin": "direct"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "merged-summary-synthesis",
+    "span": "population in the Balkans vanished by the seventh century",
+    "family": "H2-Latin-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      169,
+      170
+    ],
+    "reason": "Inherits the direct summary's overstatement despite retaining the later less-than-one-tenth sentence.",
+    "origin": "inherited"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "H2-summary",
+    "span": "importance of the individual soul",
+    "family": "H2-soul-citation",
+    "dimension": "citation",
+    "judgment": "partially supported citation",
+    "evidence_pages": [
+      171,
+      173,
+      174
+    ],
+    "reason": "Cites172/173. Page172 is OCR noise; page173 supports slaves' souls, while the general causal account covering vulnerable classes is174.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "merged-summary-synthesis",
+    "span": "importance of the individual soul",
+    "family": "H2-soul-citation",
+    "dimension": "citation",
+    "judgment": "partially supported citation",
+    "evidence_pages": [
+      171,
+      173,
+      174
+    ],
+    "reason": "Cites172/173. Page172 is OCR noise; page173 supports slaves' souls, while the general causal account covering vulnerable classes is174.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "merged-summary-synthesis",
+    "span": "paganism disappeared by the end of the fifth century",
+    "family": "H2-paganism-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      176
+    ],
+    "reason": "Direct summary said effectively disappeared. Merged drops that qualification; the source says practically disappeared as an active force and allows surviving philosophers.",
+    "origin": "new in merged"
+  },
+  {
+    "model": "gemma26-off",
+    "stage": "full-source-control",
+    "span": "The author describes the Huns as savages",
+    "family": "H1-quoted-historian-attribution",
+    "dimension": "attribution",
+    "judgment": "quoted testimony assigned to narrator",
+    "evidence_pages": [
+      61
+    ],
+    "reason": "The physical caricature is attributed by Oman to a Gothic historian, not offered as Oman's own description.",
+    "origin": "independent full-source control"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H2-summary",
+    "span": "extermination of Latin-speaking populations by Slavs",
+    "family": "H2-Latin-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      170
+    ],
+    "reason": "Source says almost exterminated, followed by surviving Latin-speaking communities. Preserve the limiting qualifier.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "extermination of Latin-speaking populations by Slavs",
+    "family": "H2-Latin-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      170
+    ],
+    "reason": "Source says almost exterminated, followed by surviving Latin-speaking communities. Preserve the limiting qualifier.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H2-summary",
+    "span": "paganism vanished",
+    "family": "H2-paganism-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      176
+    ],
+    "reason": "Source says practically disappeared as an active force, with a few remaining philosophers. The output removes both limits.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "paganism vanished",
+    "family": "H2-paganism-extinction",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      176
+    ],
+    "reason": "Source says practically disappeared as an active force, with a few remaining philosophers. The output removes both limits.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H4-summary",
+    "span": "When Murad II unified the Ottoman realm",
+    "family": "H4-unifier-identity",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      362,
+      363
+    ],
+    "reason": "Mohammed/Mahomet reunited it. His son Murad later reversed Manuel's gains. The same model answered H4-Q1 correctly.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "When Murad II unified the Ottoman realm",
+    "family": "H4-unifier-identity",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      362,
+      363
+    ],
+    "reason": "Mohammed/Mahomet reunited it. His son Murad later reversed Manuel's gains. The same model answered H4-Q1 correctly.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H4-summary",
+    "span": "Finally, John VIII.",
+    "family": "H4-unsupplied-imperial-number",
+    "dimension": "source_fidelity",
+    "judgment": "unsupported external correction",
+    "evidence_pages": [
+      365,
+      366,
+      367
+    ],
+    "reason": "The supplied text calls this ruler JohnVI throughout. The output switches toVIII after itself usingVI; source matching must not silently correct Oman.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "Finally, John VIII.",
+    "family": "H4-unsupplied-imperial-number",
+    "dimension": "source_fidelity",
+    "judgment": "unsupported external correction",
+    "evidence_pages": [
+      365,
+      366,
+      367
+    ],
+    "reason": "The supplied text calls this ruler JohnVI throughout. The output switches toVIII after itself usingVI; source matching must not silently correct Oman.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "H4-summary",
+    "span": "physical decay of Constantinople and its economic dependence on Italian merchants",
+    "family": "H4-urban-citation",
+    "dimension": "citation",
+    "judgment": "partially supported citation",
+    "evidence_pages": [
+      365,
+      366
+    ],
+    "reason": "Cites365, which introduces descriptions; specific physical decay and Italian commercial control appear on366.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "merged-summary-synthesis",
+    "span": "physical decay of Constantinople and its economic dependence on Italian merchants",
+    "family": "H4-urban-citation",
+    "dimension": "citation",
+    "judgment": "partially supported citation",
+    "evidence_pages": [
+      365,
+      366
+    ],
+    "reason": "Cites365, which introduces descriptions; specific physical decay and Italian commercial control appear on366.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "these gains were reversed when Murad II unified the Turkish realm",
+    "family": "H4-unifier-identity",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      360,
+      362,
+      363
+    ],
+    "reason": "Mohammed reunified the realm; Murad's later war reversed the gains. Also cites360 before either development.",
+    "origin": "recurrent in independent full-source control, not propagated"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "This religious shift coexisted with a literary revival under the Macedonian dynasty",
+    "family": "cross-gap-false-contemporaneity",
+    "dimension": "chronology",
+    "judgment": "unsupported temporal linkage",
+    "evidence_pages": [
+      171,
+      174,
+      241,
+      247
+    ],
+    "reason": "Links fourth/sixth-century Christianization and ascetic withdrawal to ninth/tenth-century literary rulers as coexisting, inventing a relation across the gaps.",
+    "origin": "new in independent full-source control"
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "stage": "full-source-control",
+    "span": "The last emperor, John VIII",
+    "family": "H4-last-emperor",
+    "dimension": "factual",
+    "judgment": "unsupported identity and terminal status",
+    "evidence_pages": [
+      367
+    ],
+    "reason": "The source says the last John Paleologus, not the last emperor. It calls himJohnVI. The sentence also cites366 rather than367 for Florence and Western aid.",
+    "origin": "new last-emperor claim in independent control; imperial-number issue recurs independently"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H2-summary",
+    "span": "ended gladiatorial games in Constantinople",
+    "family": "H2-gladiator-location",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      171
+    ],
+    "reason": "The source says Christian Constantinople never knew gladiatorial games; the surviving games were at Rome.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "ended gladiatorial games in Constantinople",
+    "family": "H2-gladiator-location",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      171
+    ],
+    "reason": "The source says Christian Constantinople never knew gladiatorial games; the surviving games were at Rome.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H2-summary",
+    "span": "Theodosius I’s moral crusade, including the spectacular death of the monk Telemachus",
+    "family": "H2-gladiator-agency",
+    "dimension": "factual",
+    "judgment": "agency conflation",
+    "evidence_pages": [
+      171
+    ],
+    "reason": "The source explicitly distinguishes Theodosius’s state measures from Telemachus’s later individual action, saying abolition was not the work of the State.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "Theodosius I’s moral crusade, including the spectacular death of the monk Telemachus",
+    "family": "H2-gladiator-agency",
+    "dimension": "factual",
+    "judgment": "agency conflation",
+    "evidence_pages": [
+      171
+    ],
+    "reason": "The source explicitly distinguishes Theodosius’s state measures from Telemachus’s later individual action, saying abolition was not the work of the State.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H3-summary",
+    "span": "Leo VI the Wise and his grandson Constantine VII",
+    "family": "H3-dynastic-relationship",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      241
+    ],
+    "reason": "Leo is Basil’s son and Constantine his grandson. Constantine is Leo’s son, not Leo’s grandson.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "Leo VI the Wise and his grandson Constantine VII",
+    "family": "H3-dynastic-relationship",
+    "dimension": "factual",
+    "judgment": "contradiction",
+    "evidence_pages": [
+      241
+    ],
+    "reason": "Leo is Basil’s son and Constantine his grandson. Constantine is Leo’s son, not Leo’s grandson.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "H3-summary",
+    "span": "was retaken when the attack was delayed a few weeks",
+    "family": "H3-counterfactual-rescue",
+    "dimension": "factual",
+    "judgment": "counterfactual made factual",
+    "evidence_pages": [
+      242
+    ],
+    "reason": "The source says the town could have been rescued if its fall had been delayed. It was captured; the raiders departed with booty. No successful delayed rescue is narrated.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "merged-summary-synthesis",
+    "span": "was retaken when the attack was delayed a few weeks",
+    "family": "H3-counterfactual-rescue",
+    "dimension": "factual",
+    "judgment": "counterfactual made factual",
+    "evidence_pages": [
+      242
+    ],
+    "reason": "The source says the town could have been rescued if its fall had been delayed. It was captured; the raiders departed with booty. No successful delayed rescue is narrated.",
+    "origin": "direct; inherited in merged"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "full-source-control",
+    "span": "repelled only by a “miraculous vision of the Virgin”",
+    "family": "H4-vision-siege-cause",
+    "dimension": "factual",
+    "judgment": "causal contradiction and lost report status",
+    "evidence_pages": [
+      363,
+      365
+    ],
+    "reason": "Walls repelled the assault; the report of a vision encouraged resistance. Mustapha’s rebellion caused Murad to lift the siege. The output makes the vision the sole cause and removes report status.",
+    "origin": "new in independent full-source control"
+  },
+  {
+    "model": "gptoss120-medium",
+    "stage": "full-source-control",
+    "span": "only isolated enclaves—African cities and the Italian Exarchate—still preserved the language",
+    "family": "H2-Latin-enclave-scope",
+    "dimension": "qualification",
+    "judgment": "qualification loss",
+    "evidence_pages": [
+      170
+    ],
+    "reason": "Source also preserves Dalmatian ports and scattered Balkan survivors. Africa/Italy are the only districts with a considerable Latin population still obeying the emperor, not all surviving Latin speakers.",
+    "origin": "new in independent full-source control"
+  }
+]

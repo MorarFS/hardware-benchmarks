@@ -1,0 +1,196 @@
+[
+  {
+    "model": "gemma26-off",
+    "extraction": {
+      "fully_supported": 14,
+      "partial": 2,
+      "correct_absence": 4
+    },
+    "answerable_questions": 16,
+    "source_absent_questions": 4,
+    "coverage": {
+      "direct": {
+        "covered": 5,
+        "partial": 10,
+        "omitted": 1
+      },
+      "merged-summary-synthesis": {
+        "covered": 5,
+        "partial": 9,
+        "omitted": 2
+      },
+      "full-source-control": {
+        "covered": 4,
+        "partial": 3,
+        "omitted": 9
+      }
+    },
+    "merged_is_whitespace_normalized_concatenation": false,
+    "issue_families_by_stage": {
+      "H1-summary": [
+        "H1-casualty-citation"
+      ],
+      "H2-summary": [
+        "H2-Latin-extinction",
+        "H2-soul-citation"
+      ],
+      "H3-summary": [],
+      "H4-summary": [],
+      "merged-summary-synthesis": [
+        "H1-casualty-citation",
+        "H2-Latin-extinction",
+        "H2-paganism-extinction",
+        "H2-soul-citation"
+      ],
+      "full-source-control": [
+        "H1-quoted-historian-attribution"
+      ]
+    },
+    "fact_families_by_stage": {
+      "H1-summary": [],
+      "H2-summary": [],
+      "H3-summary": [],
+      "H4-summary": [],
+      "merged-summary-synthesis": [],
+      "full-source-control": []
+    }
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "extraction": {
+      "fully_supported": 15,
+      "correct_absence": 4,
+      "partial": 1
+    },
+    "answerable_questions": 16,
+    "source_absent_questions": 4,
+    "coverage": {
+      "direct": {
+        "partial": 9,
+        "covered": 7
+      },
+      "merged-summary-synthesis": {
+        "partial": 9,
+        "covered": 7
+      },
+      "full-source-control": {
+        "covered": 3,
+        "partial": 12,
+        "omitted": 1
+      }
+    },
+    "merged_is_whitespace_normalized_concatenation": true,
+    "issue_families_by_stage": {
+      "H1-summary": [],
+      "H2-summary": [
+        "H2-Latin-extinction",
+        "H2-paganism-extinction"
+      ],
+      "H3-summary": [],
+      "H4-summary": [
+        "H4-unifier-identity",
+        "H4-unsupplied-imperial-number",
+        "H4-urban-citation"
+      ],
+      "merged-summary-synthesis": [
+        "H2-Latin-extinction",
+        "H2-paganism-extinction",
+        "H4-unifier-identity",
+        "H4-unsupplied-imperial-number",
+        "H4-urban-citation"
+      ],
+      "full-source-control": [
+        "H4-last-emperor",
+        "H4-unifier-identity",
+        "cross-gap-false-contemporaneity"
+      ]
+    },
+    "fact_families_by_stage": {
+      "H1-summary": [],
+      "H2-summary": [],
+      "H3-summary": [],
+      "H4-summary": [
+        "H4-unifier-identity"
+      ],
+      "merged-summary-synthesis": [
+        "H4-unifier-identity"
+      ],
+      "full-source-control": [
+        "H4-last-emperor",
+        "H4-unifier-identity",
+        "cross-gap-false-contemporaneity"
+      ]
+    }
+  },
+  {
+    "model": "gptoss120-medium",
+    "extraction": {
+      "fully_supported": 15,
+      "correct_absence": 4,
+      "false_abstention": 1
+    },
+    "answerable_questions": 16,
+    "source_absent_questions": 4,
+    "coverage": {
+      "direct": {
+        "partial": 7,
+        "covered": 7,
+        "omitted": 2
+      },
+      "merged-summary-synthesis": {
+        "partial": 7,
+        "covered": 7,
+        "omitted": 2
+      },
+      "full-source-control": {
+        "partial": 7,
+        "omitted": 5,
+        "covered": 4
+      }
+    },
+    "merged_is_whitespace_normalized_concatenation": false,
+    "issue_families_by_stage": {
+      "H1-summary": [],
+      "H2-summary": [
+        "H2-gladiator-agency",
+        "H2-gladiator-location"
+      ],
+      "H3-summary": [
+        "H3-counterfactual-rescue",
+        "H3-dynastic-relationship"
+      ],
+      "H4-summary": [],
+      "merged-summary-synthesis": [
+        "H2-gladiator-agency",
+        "H2-gladiator-location",
+        "H3-counterfactual-rescue",
+        "H3-dynastic-relationship"
+      ],
+      "full-source-control": [
+        "H2-Latin-enclave-scope",
+        "H4-vision-siege-cause"
+      ]
+    },
+    "fact_families_by_stage": {
+      "H1-summary": [],
+      "H2-summary": [
+        "H2-gladiator-agency",
+        "H2-gladiator-location"
+      ],
+      "H3-summary": [
+        "H3-counterfactual-rescue",
+        "H3-dynastic-relationship"
+      ],
+      "H4-summary": [],
+      "merged-summary-synthesis": [
+        "H2-gladiator-agency",
+        "H2-gladiator-location",
+        "H3-counterfactual-rescue",
+        "H3-dynastic-relationship"
+      ],
+      "full-source-control": [
+        "H4-vision-siege-cause"
+      ]
+    }
+  }
+]

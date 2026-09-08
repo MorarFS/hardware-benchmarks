@@ -1,0 +1,80 @@
+{
+  "name": "full-source-control",
+  "model": "gptoss120-medium",
+  "fingerprint": "e589c161d004a170979f52587a653abffff6bce4453a8af34e8fce00653d1961",
+  "started_at": "2026-09-08T12:45:52.380803+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 13485,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need to write 350-450 words synthesizing four discontinuous excerpts or summaries. Use four connected paragraphs in source-page order, one per excerpt. Preserve each excerpt’s main actions, causal relationships, qualifications. Do not invent narrative links across gaps. Attribute author judgments, retain report markers. Cite original physical PDF pages for factual sentences.\n\nWe have many excerpts. Need choose four. Probably the first four relevant ones: pages 61-65 about Huns and Goths; pages 169-170 about decay of Latin; pages 241-247 about literary emperors; pages 358-367 about end of Byzantine empire. But instruction: \"four discontinuous excerpts or summaries\". We must synthesize them; each paragraph corresponds to one excerpt, in source-page order. The order according to page numbers: first excerpt likely pages 61-66 (The Huns, Goths, Battle of Adrianople). Second excerpt perhaps pages 169-170 (Decay of Latin tongue). Third excerpt pages 241-247 (Literary Emperors). Fourth excerpt pages 358-367 (End of a Long Tale, John Paleologus, etc). Provide citations.\n\nWrite 350-450 words total. Four paragraphs ~90-110 words each.\n\nWe need to preserve author's judgments (e.g., \"stupid, cowardly, avaricious prince\" etc) and report markers (e.g., \"According to a contemporary writer...\").\n\nLet's craft paragraphs.\n\nParagraph 1: Summarize events of Huns invading, Goths seeking refuge, Valens' decisions, corruption, battle of Adrianople, defeat. Cite pages 61-63, 65-67.\n\nParagraph 2: Decay of Latin language, mention linguistic shift, stats of Latin speakers, causes (division, barbarian invasions). Cite pages 169-170.\n\nParagraph 3: Literary emperors Leo VI and Constantine VII, their literary focus, works, lack of military activity, etc. Cite pages 241-247.\n\nParagraph 4: End of Byzantine empire narrative, John and Manuel Paleologus, Ottoman conflicts, siege of Constantinople, decline. Cite pages 358-367.\n\nEnsure no invented links across gaps.\n\nWord count: aim ~400.\n\nProceed."
+      },
+      {
+        "type": "message",
+        "content": "**The first excerpt (PDF pp. 61‑66) describes how the Huns shattered the security of the Balkan Peninsula in the late fourth century.** Around A.D. 372 the “enormous Tartar horde…burst into the lands north of the Euxine,” first almost exterminating the Alans and then crushing the Ostrogoths, who were forced into vassalage (p. 61). The Visigoths fled to the Danube, begged the emperor for passage, and were described by a contemporary writer as a “multitude…stretching out their hands with loud lamentations” (p. 62). Emperor Valens, portrayed as “stupid, cowardly, and avaricious,” reluctantly allowed them to cross on the condition that they surrender weapons and give hostages (p. 63). Corruption by the governor Lupicinus, who hoarded grain and sold food at exorbitant prices, provoked famine, barter of slaves for bread, and finally a violent confrontation that sparked a year‑long war (p. 64). The conflict culminated at Adrianople in 378, where the Gothic cavalry’s flank attack broke the Roman lines, leading to “the most fearful defeat…since Cannae” and the death of the emperor (pp. 66‑67).\n\n**The second excerpt (PDF pp. 169‑170) concentrates on the linguistic decline of Latin in the eastern Mediterranean.** The author notes that even a Greek‑born writer such as Ammianus Marcellinus wrote in Latin, yet by the seventh century “the Roman element was rapidly vanishing” (p. 169). The loss is linked to the political split after Constantine’s sons and the later disintegration of the western empire, which cut off the “Latin‑speaking West” from the east (p. 170). Barbarian invasions accelerated the shift: the Visigoths, Ostrogoths, and later Slavs devastated the Latin‑speaking Balkan provinces, reducing the proportion of Latin speakers from “a quarter…in A.D. 400” to “not a tenth” by A.D. 620 (p. 170). The passage stresses that only isolated enclaves—African cities and the Italian Exarchate—still preserved the language, while the rest of the Balkans had become “Slavonic principalities” (p. 170).\n\n**The third excerpt (PDF pp. 241‑247) presents the “literary emperors” Leo VI and Constantine VII, emphasizing their cultural rather than military pursuits.** The author characterizes them as “easy‑going, inoffensive men of literature” who “wrote no annals with their sword” and instead produced useful works for Byzantine historiography (p. 241). Leo’s “Tactica” is highlighted for its detailed description of the army’s organization, cavalry themes, and logistical support, portraying a professional force “with none of that variety in arms…that was the bane of medieval armies” (pp. 244‑245). Constantine’s prolific output—treatises on the themes, administration, and court ceremonies—is described as “careful and methodical…gifted with the powers of a compiler” (p. 247). The passage argues that the presence of two literary emperors signals the end of the “intellectual dearth” that had plagued the empire from 600 to 750, noting a revival of Byzantine literature by the ninth century (p. 247).\n\n**The final excerpt (PDF pp. 358‑367) follows the ultimate decline of the Byzantine state in the late‑medieval period.** After 1370 the empire “ceased to exercise its old function of ‘bulwark of Christendom’” (p. 358), becoming a vassal of the rising Ottoman power. John Paleologus’s long reign is recounted, including his son Andronicus’s rebellions and the succession of Manuel II, who briefly hoped to exploit the Ottoman civil war after 1402 (pp. 360‑362). Manuel’s opportunistic treaties with rival Turkish claimants allowed him to regain some territories, yet the Ottoman fragmentation soon ended, and Murad II’s siege of Constantinople in 1422 was repelled only by a “miraculous vision of the Virgin” (p. 365). The narrative concludes with the death of Manuel II, the poverty of Constantinople—its population reduced to “about a hundred thousand souls” living in “great poverty,” the dominance of Italian merchants, and an army of merely “four thousand mercenary troops” (p. 366). John VI’s brief reign is noted for the loss of Thessalonica to the Ottomans and his futile appeal to the West, illustrating the empire’s final “unredeemed gloom” (pp. 367)."
+      }
+    ],
+    "stats": {
+      "input_tokens": 13485,
+      "total_output_tokens": 1494,
+      "reasoning_output_tokens": 458,
+      "tokens_per_second": 44.74321738676474,
+      "time_to_first_token_seconds": 27.28146
+    }
+  },
+  "output": "**The first excerpt (PDF pp. 61‑66) describes how the Huns shattered the security of the Balkan Peninsula in the late fourth century.** Around A.D. 372 the “enormous Tartar horde…burst into the lands north of the Euxine,” first almost exterminating the Alans and then crushing the Ostrogoths, who were forced into vassalage (p. 61). The Visigoths fled to the Danube, begged the emperor for passage, and were described by a contemporary writer as a “multitude…stretching out their hands with loud lamentations” (p. 62). Emperor Valens, portrayed as “stupid, cowardly, and avaricious,” reluctantly allowed them to cross on the condition that they surrender weapons and give hostages (p. 63). Corruption by the governor Lupicinus, who hoarded grain and sold food at exorbitant prices, provoked famine, barter of slaves for bread, and finally a violent confrontation that sparked a year‑long war (p. 64). The conflict culminated at Adrianople in 378, where the Gothic cavalry’s flank attack broke the Roman lines, leading to “the most fearful defeat…since Cannae” and the death of the emperor (pp. 66‑67).\n\n**The second excerpt (PDF pp. 169‑170) concentrates on the linguistic decline of Latin in the eastern Mediterranean.** The author notes that even a Greek‑born writer such as Ammianus Marcellinus wrote in Latin, yet by the seventh century “the Roman element was rapidly vanishing” (p. 169). The loss is linked to the political split after Constantine’s sons and the later disintegration of the western empire, which cut off the “Latin‑speaking West” from the east (p. 170). Barbarian invasions accelerated the shift: the Visigoths, Ostrogoths, and later Slavs devastated the Latin‑speaking Balkan provinces, reducing the proportion of Latin speakers from “a quarter…in A.D. 400” to “not a tenth” by A.D. 620 (p. 170). The passage stresses that only isolated enclaves—African cities and the Italian Exarchate—still preserved the language, while the rest of the Balkans had become “Slavonic principalities” (p. 170).\n\n**The third excerpt (PDF pp. 241‑247) presents the “literary emperors” Leo VI and Constantine VII, emphasizing their cultural rather than military pursuits.** The author characterizes them as “easy‑going, inoffensive men of literature” who “wrote no annals with their sword” and instead produced useful works for Byzantine historiography (p. 241). Leo’s “Tactica” is highlighted for its detailed description of the army’s organization, cavalry themes, and logistical support, portraying a professional force “with none of that variety in arms…that was the bane of medieval armies” (pp. 244‑245). Constantine’s prolific output—treatises on the themes, administration, and court ceremonies—is described as “careful and methodical…gifted with the powers of a compiler” (p. 247). The passage argues that the presence of two literary emperors signals the end of the “intellectual dearth” that had plagued the empire from 600 to 750, noting a revival of Byzantine literature by the ninth century (p. 247).\n\n**The final excerpt (PDF pp. 358‑367) follows the ultimate decline of the Byzantine state in the late‑medieval period.** After 1370 the empire “ceased to exercise its old function of ‘bulwark of Christendom’” (p. 358), becoming a vassal of the rising Ottoman power. John Paleologus’s long reign is recounted, including his son Andronicus’s rebellions and the succession of Manuel II, who briefly hoped to exploit the Ottoman civil war after 1402 (pp. 360‑362). Manuel’s opportunistic treaties with rival Turkish claimants allowed him to regain some territories, yet the Ottoman fragmentation soon ended, and Murad II’s siege of Constantinople in 1422 was repelled only by a “miraculous vision of the Virgin” (p. 365). The narrative concludes with the death of Manuel II, the poverty of Constantinople—its population reduced to “about a hundred thousand souls” living in “great poverty,” the dominance of Italian merchants, and an army of merely “four thousand mercenary troops” (p. 366). John VI’s brief reign is noted for the loss of Thessalonica to the Ottomans and his futile appeal to the West, illustrating the empire’s final “unredeemed gloom” (pp. 367).",
+  "stats": {
+    "input_tokens": 13485,
+    "total_output_tokens": 1494,
+    "reasoning_output_tokens": 458,
+    "tokens_per_second": 44.74321738676474,
+    "time_to_first_token_seconds": 27.28146
+  },
+  "wall_seconds": 61.508369676994334,
+  "stream_timing": {
+    "prompt_processing.start": 0.8543299369994202,
+    "prompt_processing.end": 28.134508682996966,
+    "first_reasoning_seconds": 28.207848809994175,
+    "reasoning.end": 38.55526521700085,
+    "first_visible_seconds": 38.5553984329963,
+    "last_visible_delta_seconds": 61.48163084299449,
+    "message.end": 61.50779236199742
+  },
+  "first_visible_token_seconds": 38.5553984329963,
+  "visible_text_tokens": 1026,
+  "visible_tokens_per_total_wall_second": 16.680656720182093,
+  "visible_phase_tokens_per_second": 44.700095211781715,
+  "reasoning_tokens": 458,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.0,
+    "runtime_total_pss_bytes": 2534233088,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67281563648,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 2428190720,
+    "system_used_excluding_available_bytes": 6648602624,
+    "system_available_bytes": 26268405760,
+    "swap_used_bytes": 4036304896,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 637,
+  "finished_at": "2026-09-08T12:46:54.169551+00:00"
+}

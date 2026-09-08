@@ -148,3 +148,7 @@ The [completed Evo speed package](results/2026-09-08/evo/README.md) includes the
 ## Historical source evaluation
 
 The [corrected original history audit](results/2026-09-08/history/README.md) includes full-book run evidence, source text, retries, and revised claim ledgers. Two Gemma OFF objections were withdrawn after closer review. The [research notes](RESEARCH-NOTES.md) distinguish external leads from measured findings. These Codex-assisted audits do not establish general suitability or unsuitability for supervised research.
+
+## Completed history accuracy pilot
+
+The [frozen pilot results](results/2026-09-08/history-v2/README.md) separate extraction, synthesis, citations, coverage, and latency. The [historical-research lessons](HISTORY-RESEARCH-LESSONS.md) summarize findings and proposed prompting improvements.

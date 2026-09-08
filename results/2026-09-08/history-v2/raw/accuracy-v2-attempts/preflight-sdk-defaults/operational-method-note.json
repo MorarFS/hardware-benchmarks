@@ -1,0 +1,11 @@
+{
+  "frozen_suite_version": "history-v2.0",
+  "frozen_files_unchanged": true,
+  "seed_requested": 42,
+  "seed_actual": "CLI has no seed option; actual SDK seed is recorded after load, not claimed fixed at 42. No sampler or question tuning follows outputs.",
+  "eval_batch_size": "Actual native load configuration recorded; not controlled by CLI.",
+  "evaluator": "Codex/AI-assisted source adjudication, not independent human adjudication. Automated checks do not certify factual accuracy.",
+  "development": "Two frozen refined-prompt probes. No extra baseline prompt invented outside the freeze.",
+  "timeouts": "900 seconds per request, no automatic cap retry; errors checkpointed.",
+  "gold_exclusion": "Gold files are read as binary for SHA256 verification only. Their text is never parsed or used by request builders."
+}

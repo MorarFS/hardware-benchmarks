@@ -1,0 +1,4 @@
+Sep 08 18:17:25 <BENCHMARK_HOST> systemd[5991]: Started evo-accuracy-v2.service - Frozen history v2 accuracy generation after Evo Vulkan speed matrix.
+Sep 08 18:17:25 <BENCHMARK_HOST> python[123879]: {"time": "2026-09-08T10:17:25.635666+00:00", "state": "waiting_for_speed", "dependency_units": ["evo-vulkan-model-matrix.service", "evo-vulkan-model-matrix-resume.service"], "models": ["gemma26-off", "qwen35-off-mtp", "gptoss120-medium"], "stages": ["development-extraction", "development-summary", "H1-extraction", "H1-summary", "H2-extraction", "H2-summary", "H3-extraction", "H3-summary", "H4-extraction", "H4-summary", "merged-summary-synthesis", "full-source-control"]}
+Sep 08 18:20:45 <BENCHMARK_HOST> python[123879]: {"time": "2026-09-08T10:20:45.831726+00:00", "state": "waiting_for_benchmark_lock"}
+Sep 08 18:20:45 <BENCHMARK_HOST> python[123879]: {"time": "2026-09-08T10:20:45.851514+00:00", "state": "restoring_browser_availability"}

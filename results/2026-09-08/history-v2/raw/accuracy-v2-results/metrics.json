@@ -1,0 +1,362 @@
+[
+  {
+    "model": "gemma26-off",
+    "name": "development-extraction",
+    "status": "ok",
+    "wall_seconds": 6.956608938999125,
+    "first_visible_token_seconds": 4.382941240000946,
+    "visible_phase_tokens_per_second": 46.626066001726244,
+    "reasoning_tokens": 0,
+    "word_count": 71
+  },
+  {
+    "model": "gemma26-off",
+    "name": "development-summary",
+    "status": "ok",
+    "wall_seconds": 12.328368093003519,
+    "first_visible_token_seconds": 5.468132943002274,
+    "visible_phase_tokens_per_second": 45.62525819540504,
+    "reasoning_tokens": 0,
+    "word_count": 207
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H1-extraction",
+    "status": "ok",
+    "wall_seconds": 12.751756972000294,
+    "first_visible_token_seconds": 6.530912052003259,
+    "visible_phase_tokens_per_second": 45.00996305179289,
+    "reasoning_tokens": 0,
+    "word_count": 177
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H1-summary",
+    "status": "ok",
+    "wall_seconds": 15.774527462999686,
+    "first_visible_token_seconds": 6.552866853999149,
+    "visible_phase_tokens_per_second": 45.21962124619932,
+    "reasoning_tokens": 0,
+    "word_count": 268
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H2-extraction",
+    "status": "ok",
+    "wall_seconds": 13.532797963998746,
+    "first_visible_token_seconds": 6.882628227998794,
+    "visible_phase_tokens_per_second": 45.11163051613306,
+    "reasoning_tokens": 0,
+    "word_count": 190
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H2-summary",
+    "status": "ok",
+    "wall_seconds": 13.315325682997354,
+    "first_visible_token_seconds": 6.818596905999584,
+    "visible_phase_tokens_per_second": 45.099620140737876,
+    "reasoning_tokens": 0,
+    "word_count": 201
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H3-extraction",
+    "status": "ok",
+    "wall_seconds": 11.948904445998778,
+    "first_visible_token_seconds": 6.59303077700315,
+    "visible_phase_tokens_per_second": 45.184038115182354,
+    "reasoning_tokens": 0,
+    "word_count": 155
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H3-summary",
+    "status": "ok",
+    "wall_seconds": 13.979409885003406,
+    "first_visible_token_seconds": 6.487095759002841,
+    "visible_phase_tokens_per_second": 45.11289760623345,
+    "reasoning_tokens": 0,
+    "word_count": 225
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H4-extraction",
+    "status": "ok",
+    "wall_seconds": 12.362654719996499,
+    "first_visible_token_seconds": 7.215694375001476,
+    "visible_phase_tokens_per_second": 45.075148135850725,
+    "reasoning_tokens": 0,
+    "word_count": 149
+  },
+  {
+    "model": "gemma26-off",
+    "name": "H4-summary",
+    "status": "ok",
+    "wall_seconds": 14.16599644600501,
+    "first_visible_token_seconds": 7.200519732999965,
+    "visible_phase_tokens_per_second": 44.64877463725356,
+    "reasoning_tokens": 0,
+    "word_count": 210
+  },
+  {
+    "model": "gemma26-off",
+    "name": "merged-summary-synthesis",
+    "status": "ok",
+    "wall_seconds": 32.288904305998585,
+    "first_visible_token_seconds": 5.046015831998375,
+    "visible_phase_tokens_per_second": 45.69999988026932,
+    "reasoning_tokens": 0,
+    "word_count": 822
+  },
+  {
+    "model": "gemma26-off",
+    "name": "full-source-control",
+    "status": "ok",
+    "wall_seconds": 33.114477798000735,
+    "first_visible_token_seconds": 17.294231603002117,
+    "visible_phase_tokens_per_second": 42.540425206073024,
+    "reasoning_tokens": 0,
+    "word_count": 454
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "development-extraction",
+    "status": "ok",
+    "wall_seconds": 6.025990866000939,
+    "first_visible_token_seconds": 3.7400989219968324,
+    "visible_phase_tokens_per_second": 86.180801553954,
+    "reasoning_tokens": 0,
+    "word_count": 132
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "development-summary",
+    "status": "ok",
+    "wall_seconds": 9.353044221003074,
+    "first_visible_token_seconds": 4.1390364700055216,
+    "visible_phase_tokens_per_second": 71.15447803640485,
+    "reasoning_tokens": 0,
+    "word_count": 250
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H1-extraction",
+    "status": "ok",
+    "wall_seconds": 7.887403141001414,
+    "first_visible_token_seconds": 5.391160436003702,
+    "visible_phase_tokens_per_second": 87.33125171023777,
+    "reasoning_tokens": 0,
+    "word_count": 139
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H1-summary",
+    "status": "ok",
+    "wall_seconds": 10.81150997599616,
+    "first_visible_token_seconds": 5.375246463001531,
+    "visible_phase_tokens_per_second": 71.18860207473949,
+    "reasoning_tokens": 0,
+    "word_count": 262
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H2-extraction",
+    "status": "ok",
+    "wall_seconds": 8.839390064000327,
+    "first_visible_token_seconds": 5.744462936003401,
+    "visible_phase_tokens_per_second": 92.08617463780334,
+    "reasoning_tokens": 0,
+    "word_count": 170
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H2-summary",
+    "status": "ok",
+    "wall_seconds": 10.954488127004879,
+    "first_visible_token_seconds": 5.557024309004191,
+    "visible_phase_tokens_per_second": 66.32744786654435,
+    "reasoning_tokens": 0,
+    "word_count": 237
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H3-extraction",
+    "status": "ok",
+    "wall_seconds": 7.187931650994869,
+    "first_visible_token_seconds": 5.379286205999961,
+    "visible_phase_tokens_per_second": 91.78139389307852,
+    "reasoning_tokens": 0,
+    "word_count": 93
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H3-summary",
+    "status": "ok",
+    "wall_seconds": 10.127402268000878,
+    "first_visible_token_seconds": 5.229466817007051,
+    "visible_phase_tokens_per_second": 68.60033239756622,
+    "reasoning_tokens": 0,
+    "word_count": 231
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H4-extraction",
+    "status": "ok",
+    "wall_seconds": 9.166742296998564,
+    "first_visible_token_seconds": 6.102313303999836,
+    "visible_phase_tokens_per_second": 83.21289237981891,
+    "reasoning_tokens": 0,
+    "word_count": 170
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "H4-summary",
+    "status": "ok",
+    "wall_seconds": 11.701791570994828,
+    "first_visible_token_seconds": 6.090438115999859,
+    "visible_phase_tokens_per_second": 67.54163733218972,
+    "reasoning_tokens": 0,
+    "word_count": 262
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "merged-summary-synthesis",
+    "status": "ok",
+    "wall_seconds": 18.940361396002118,
+    "first_visible_token_seconds": 3.694573640001181,
+    "visible_phase_tokens_per_second": 95.96093185963083,
+    "reasoning_tokens": 0,
+    "word_count": 992
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "name": "full-source-control",
+    "status": "ok",
+    "wall_seconds": 29.967026648002502,
+    "first_visible_token_seconds": 18.044379684004525,
+    "visible_phase_tokens_per_second": 61.64738436183094,
+    "reasoning_tokens": 0,
+    "word_count": 509
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "development-extraction",
+    "status": "ok",
+    "wall_seconds": 13.98788163199788,
+    "first_visible_token_seconds": 10.796405294000579,
+    "visible_phase_tokens_per_second": 49.19353408038107,
+    "reasoning_tokens": 278,
+    "word_count": 98
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "development-summary",
+    "status": "ok",
+    "wall_seconds": 21.68583122000564,
+    "first_visible_token_seconds": 9.872480233003444,
+    "visible_phase_tokens_per_second": 48.84304213384097,
+    "reasoning_tokens": 231,
+    "word_count": 402
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H1-extraction",
+    "status": "ok",
+    "wall_seconds": 26.301500231995306,
+    "first_visible_token_seconds": 19.875318106998748,
+    "visible_phase_tokens_per_second": 48.55137839719523,
+    "reasoning_tokens": 616,
+    "word_count": 204
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H1-summary",
+    "status": "ok",
+    "wall_seconds": 19.946470125003543,
+    "first_visible_token_seconds": 12.519875604004483,
+    "visible_phase_tokens_per_second": 48.47443858447938,
+    "reasoning_tokens": 256,
+    "word_count": 224
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H2-extraction",
+    "status": "ok",
+    "wall_seconds": 31.9819792269991,
+    "first_visible_token_seconds": 25.522300454002107,
+    "visible_phase_tokens_per_second": 48.299615346855134,
+    "reasoning_tokens": 864,
+    "word_count": 189
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H2-summary",
+    "status": "ok",
+    "wall_seconds": 31.706147158998647,
+    "first_visible_token_seconds": 18.499622873998305,
+    "visible_phase_tokens_per_second": 48.23373555777197,
+    "reasoning_tokens": 527,
+    "word_count": 449
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H3-extraction",
+    "status": "ok",
+    "wall_seconds": 29.96402131800278,
+    "first_visible_token_seconds": 26.386068353000155,
+    "visible_phase_tokens_per_second": 48.07218028923248,
+    "reasoning_tokens": 926,
+    "word_count": 91
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H3-summary",
+    "status": "ok",
+    "wall_seconds": 86.07615809500567,
+    "first_visible_token_seconds": 78.50428305099922,
+    "visible_phase_tokens_per_second": 47.28023084366356,
+    "reasoning_tokens": 3468,
+    "word_count": 258
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H4-extraction",
+    "status": "ok",
+    "wall_seconds": 22.953760055999737,
+    "first_visible_token_seconds": 18.840088339995418,
+    "visible_phase_tokens_per_second": 48.13218303971053,
+    "reasoning_tokens": 482,
+    "word_count": 117
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "H4-summary",
+    "status": "ok",
+    "wall_seconds": 31.046978311998828,
+    "first_visible_token_seconds": 21.03907278800034,
+    "visible_phase_tokens_per_second": 48.26184648144296,
+    "reasoning_tokens": 616,
+    "word_count": 335
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "merged-summary-synthesis",
+    "status": "ok",
+    "wall_seconds": 50.67966840900044,
+    "first_visible_token_seconds": 12.941129748003732,
+    "visible_phase_tokens_per_second": 48.8360192363454,
+    "reasoning_tokens": 402,
+    "word_count": 1264
+  },
+  {
+    "model": "gptoss120-medium",
+    "name": "full-source-control",
+    "status": "ok",
+    "wall_seconds": 61.508369676994334,
+    "first_visible_token_seconds": 38.5553984329963,
+    "visible_phase_tokens_per_second": 44.700095211781715,
+    "reasoning_tokens": 458,
+    "word_count": 637
+  }
+]

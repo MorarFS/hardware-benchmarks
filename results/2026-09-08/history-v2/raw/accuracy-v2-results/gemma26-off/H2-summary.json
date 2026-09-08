@@ -1,0 +1,71 @@
+{
+  "name": "H2-summary",
+  "model": "gemma26-off",
+  "fingerprint": "cc01b7b2692f083b4a68667a08cd4477b64a7a95b76b4efad86cbb808988d7ef",
+  "started_at": "2026-09-08T12:32:00.504541+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3639,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "The author describes the decay of the Latin tongue in the East, noting that while a large Latin-speaking population existed in the Balkans, this element vanished by the seventh century [PDF p. 169]. The author attributes this decline to the division of the empire and the decimation of Latin-speaking provinces by barbarians like the Visigoths and Slavs [PDF p. 170]. By A.D. 620, less than one tenth of provincials east of the Adriatic spoke Latin [PDF p. 170].\n\nSimultaneously, the empire became increasingly Christian [PDF p. 171]. The author evaluates Christianity as a force that improved the condition of vulnerable classes, such as infants and slaves, by emphasizing the importance of the individual soul [PDF p. 172, 173]. However, the author judges the rise of ascetic monasticism as \"positively dangerous\" because it led thousands to abandon civic duties to focus on personal salvation [PDF p. 174]. This \"apathetic attitude\" caused many to view barbarian invasions as divine judgments rather than national calamities [PDF p. 175]. While the author notes that the governing classes fought to preserve the state, paganism effectively disappeared by the end of the fifth century, replaced by a widespread indifference among the educated classes [PDF p. 175, 176]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3642,
+      "total_output_tokens": 294,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.15858369118557,
+      "time_to_first_token_seconds": 5.2557979999999995
+    }
+  },
+  "output": "The author describes the decay of the Latin tongue in the East, noting that while a large Latin-speaking population existed in the Balkans, this element vanished by the seventh century [PDF p. 169]. The author attributes this decline to the division of the empire and the decimation of Latin-speaking provinces by barbarians like the Visigoths and Slavs [PDF p. 170]. By A.D. 620, less than one tenth of provincials east of the Adriatic spoke Latin [PDF p. 170].\n\nSimultaneously, the empire became increasingly Christian [PDF p. 171]. The author evaluates Christianity as a force that improved the condition of vulnerable classes, such as infants and slaves, by emphasizing the importance of the individual soul [PDF p. 172, 173]. However, the author judges the rise of ascetic monasticism as \"positively dangerous\" because it led thousands to abandon civic duties to focus on personal salvation [PDF p. 174]. This \"apathetic attitude\" caused many to view barbarian invasions as divine judgments rather than national calamities [PDF p. 175]. While the author notes that the governing classes fought to preserve the state, paganism effectively disappeared by the end of the fifth century, replaced by a widespread indifference among the educated classes [PDF p. 175, 176].",
+  "stats": {
+    "input_tokens": 3642,
+    "total_output_tokens": 294,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.15858369118557,
+    "time_to_first_token_seconds": 5.2557979999999995
+  },
+  "wall_seconds": 13.315325682997354,
+  "stream_timing": {
+    "prompt_processing.start": 1.5801782600028673,
+    "prompt_processing.end": 6.8175463730003685,
+    "first_visible_seconds": 6.818596905999584,
+    "last_visible_delta_seconds": 13.28413964000356,
+    "message.end": 13.315109073999338
+  },
+  "first_visible_token_seconds": 6.818596905999584,
+  "visible_text_tokens": 293,
+  "visible_tokens_per_total_wall_second": 22.00471899640716,
+  "visible_phase_tokens_per_second": 45.099620140737876,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.9,
+    "runtime_total_pss_bytes": 5389249536,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20714668032,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 5123784704,
+    "system_used_excluding_available_bytes": 9004978176,
+    "system_available_bytes": 24431677440,
+    "swap_used_bytes": 3750539264,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 201,
+  "finished_at": "2026-09-08T12:32:14.146150+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "H1-summary",
+  "model": "gemma26-off",
+  "fingerprint": "7432cbf3649d90f5a3ddecf44a7372c2ae5b7c769e2fe69b2b3380d6592fcabb",
+  "started_at": "2026-09-08T12:31:30.732324+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3439,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "Around A.D. 372, the Huns moved westward from the Don and Volga, nearly exterminating the Alans before attacking the Goths [PDF p. 61]. The Ostrogoths were crushed and forced into vassalage, while a remnant fled toward the Danube [PDF p. 61]. The Huns then attacked the Visigoths, who, under Duke Fritigern, retreated to the Danube [PDF p. 61]. The author notes that the Visigoths found surrender intolerable because they were more civilized and Christian than their eastern brethren [PDF p. 62]. In A.D. 376, the Visigoths requested permission to cross the border [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. Valens eventually allowed the Goths to settle as subject-allies if they surrendered their arms and provided hostages [PDF p. 63].\n\nHowever, Roman officials accepted bribes to let the Goths keep their weapons, and the governor, Lupicinus, extorted the immigrants by withholding food [PDF p. 63]. This desperation led to a violent affray at Marcianopolis, prompting Fritigern to take up arms against Rome [PDF p. 64]. In A.D. 378, Valens engaged the Goths near Adrianople [PDF p. 65]. The author observes that the Goths had learned to fight on horseback, a new development in warfare [PDF p. 65]. A Gothic cavalry charge caused a fatal confusion among the Roman infantry, resulting in the death of forty thousand men and the Emperor himself [PDF p. 66]. The author describes this as the most fearful Roman defeat since Cannae [PDF p. 67]. Although the Goths approached Constantinople, they failed to attack the city walls and retreated [PDF p. 67]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3442,
+      "total_output_tokens": 418,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.23809394661146,
+      "time_to_first_token_seconds": 5.093926000000001
+    }
+  },
+  "output": "Around A.D. 372, the Huns moved westward from the Don and Volga, nearly exterminating the Alans before attacking the Goths [PDF p. 61]. The Ostrogoths were crushed and forced into vassalage, while a remnant fled toward the Danube [PDF p. 61]. The Huns then attacked the Visigoths, who, under Duke Fritigern, retreated to the Danube [PDF p. 61]. The author notes that the Visigoths found surrender intolerable because they were more civilized and Christian than their eastern brethren [PDF p. 62]. In A.D. 376, the Visigoths requested permission to cross the border [PDF p. 62]. The author characterizes the Eastern Emperor, Valens, as a stupid, cowardly, and avaricious prince [PDF p. 62]. Valens eventually allowed the Goths to settle as subject-allies if they surrendered their arms and provided hostages [PDF p. 63].\n\nHowever, Roman officials accepted bribes to let the Goths keep their weapons, and the governor, Lupicinus, extorted the immigrants by withholding food [PDF p. 63]. This desperation led to a violent affray at Marcianopolis, prompting Fritigern to take up arms against Rome [PDF p. 64]. In A.D. 378, Valens engaged the Goths near Adrianople [PDF p. 65]. The author observes that the Goths had learned to fight on horseback, a new development in warfare [PDF p. 65]. A Gothic cavalry charge caused a fatal confusion among the Roman infantry, resulting in the death of forty thousand men and the Emperor himself [PDF p. 66]. The author describes this as the most fearful Roman defeat since Cannae [PDF p. 67]. Although the Goths approached Constantinople, they failed to attack the city walls and retreated [PDF p. 67].",
+  "stats": {
+    "input_tokens": 3442,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.23809394661146,
+    "time_to_first_token_seconds": 5.093926000000001
+  },
+  "wall_seconds": 15.774527462999686,
+  "stream_timing": {
+    "prompt_processing.start": 1.4739311000012094,
+    "prompt_processing.end": 6.552823142003035,
+    "first_visible_seconds": 6.552866853999149,
+    "last_visible_delta_seconds": 15.748262492998037,
+    "message.end": 15.774230301001808
+  },
+  "first_visible_token_seconds": 6.552866853999149,
+  "visible_text_tokens": 417,
+  "visible_tokens_per_total_wall_second": 26.435023234648657,
+  "visible_phase_tokens_per_second": 45.21962124619932,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.4,
+    "runtime_total_pss_bytes": 3901684736,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20731789312,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 3633336320,
+    "system_used_excluding_available_bytes": 7630950400,
+    "system_available_bytes": 25780215808,
+    "swap_used_bytes": 3751546880,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 268,
+  "finished_at": "2026-09-08T12:31:46.731488+00:00"
+}

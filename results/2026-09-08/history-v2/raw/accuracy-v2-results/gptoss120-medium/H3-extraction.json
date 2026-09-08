@@ -1,0 +1,78 @@
+{
+  "name": "H3-extraction",
+  "model": "gptoss120-medium",
+  "fingerprint": "a90aea62fb4ed4153df4d0622ef45f3f27ad1d422b69480396f37dc41bfe7cc6",
+  "started_at": "2026-09-08T12:42:10.359607+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 3314,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need answer each question with at most two short sentences, include a short supporting quotation and PDF citation. If not stated, write exactly \"Not stated in the supplied passage\". Let's locate answers.\n\nH3-Q1: Why was Constantine called Porphyrogenitus? In page 241 footnote: \"* This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" So answer: because he was born in the Purple Chamber (the porphyra). Provide quotation.\n\nH3-Q2: Which city did Saracen pirates capture in 904, and did they retain it? In page 242: \"great raid of Saracen pirates on Thessalonica in 904.\" Later: \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" So captured Thessalonica, but they did not retain it, fled after taking. Provide quotation.\n\nH3-Q3: According to passage, who removed Romanus Lecapenus, and who then expelled his sons? In page 243-244: \"the mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother. They were immured in monasteries...\" So who removed Romanus? Actually Romanus Lecapenus usurped position earlier, but removal: \"When they had taken it...\". Need specifics: \"the mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother.\" So Stephen (son?) expelled his brother? The question: \"who removed Romanus Lecapenus, and who then expelled his sons?\" Actually reading: \"Some years after Alexander had died an ambitious admiral named Romanus Lecapenus usurped... the sons of the aged Romanus had resolved to succeed their parent... But when they declared themselves emperors and made their old father abdicate, an outburst of popular wrath was provoked. The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother.\" So the passage says the mob and guards removed Stephen Lecapenus and his brother (the sons). But the question asks who removed Romanus Lecapenus, and who then expelled his sons. Not exactly in passage: removal of Romanus - not described; we only have his usurpation and prolonged rule. There's no removal of Romanus mentioned. So answer: Not stated for removal of Romanus; expulsion of his sons done by mob and guards. Provide quotation for that part.\n\nThus:\n\n- Who removed Romanus Lecapenus? Not stated.\n- Who then expelled his sons? mob and guards.\n\nBut question phrasing: \"who removed Romanus Lecapenus, and who then expelled his sons?\" Might require two answers; we can give two parts. Since removal not stated, we answer Not stated for first part? But need single answer per question. Probably we answer: Not stated in the supplied passage (for removal) and then give who expelled sons? The prompt says \"If the supplied passage does not answer a question, write exactly 'Not stated in the supplied passage' for that answer.\" So if any part missing, treat whole question as not answered. The passage does answer who expelled his sons (mob and guards). So the passage partially answers. But does it answer who removed Romanus? It mentions he usurped, but not removal. So overall question not fully answered. But we could answer with both pieces: \"He was removed by mob and guards (the same that expelled his sons)\" but that conflates. The passage says mob and guards swept away Stephen (son) not Romanus. So not fully answered. I think we give answer: Not stated in the supplied passage. Because the question asks two things; one is not answered. Better follow rule.\n\nH3-Q4: Against which opponents did Leo recommend caution rather than rash general battle? In page 245: \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution and deprecates any rash engagement in a general action.\" So answer: the Franks and Lombards (men of the West). Provide quotation.\n\nH3-Q5: What was the annual pay of an ordinary Byzantine cavalryman? I didn't see any mention of pay. The passage describes officer pay but not specific amount. No annual pay mentioned. So answer Not stated.\n\nNow produce final answer with each ID, short sentences ≤2, include short quotation and citation.\n\nLet's craft.\n\n"
+      },
+      {
+        "type": "message",
+        "content": "**H3‑Q1:** Constantine was called Porphyrogenitus because he was “born in the Purple Chamber, the room in the palace set aside for the Empress” [PDF p. 241].\n\n**H3‑Q2:** The Saracen pirates captured **Thessalonica** in 904, but “they fled with their booty, and made no attempt to hold its walls” [PDF p. 242].\n\n**H3‑Q3:** Not stated in the supplied passage.\n\n**H3‑Q4:** Leo advises caution only “when dealing with the men of the West, the Franks and Lombards” instead of a rash general battle [PDF p. 245].\n\n**H3‑Q5:** Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3314,
+      "total_output_tokens": 1108,
+      "reasoning_output_tokens": 926,
+      "tokens_per_second": 48.472753583436976,
+      "time_to_first_token_seconds": 6.2109049999999995
+    }
+  },
+  "output": "**H3‑Q1:** Constantine was called Porphyrogenitus because he was “born in the Purple Chamber, the room in the palace set aside for the Empress” [PDF p. 241].\n\n**H3‑Q2:** The Saracen pirates captured **Thessalonica** in 904, but “they fled with their booty, and made no attempt to hold its walls” [PDF p. 242].\n\n**H3‑Q3:** Not stated in the supplied passage.\n\n**H3‑Q4:** Leo advises caution only “when dealing with the men of the West, the Franks and Lombards” instead of a rash general battle [PDF p. 245].\n\n**H3‑Q5:** Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 3314,
+    "total_output_tokens": 1108,
+    "reasoning_output_tokens": 926,
+    "tokens_per_second": 48.472753583436976,
+    "time_to_first_token_seconds": 6.2109049999999995
+  },
+  "wall_seconds": 29.96402131800278,
+  "stream_timing": {
+    "prompt_processing.start": 0.9029577080000308,
+    "prompt_processing.end": 7.113176900005783,
+    "first_reasoning_seconds": 7.178340450001997,
+    "reasoning.end": 26.38591524700314,
+    "first_visible_seconds": 26.386068353000155,
+    "last_visible_delta_seconds": 29.929911085004278,
+    "message.end": 29.963648362005188
+  },
+  "first_visible_token_seconds": 26.386068353000155,
+  "visible_text_tokens": 172,
+  "visible_tokens_per_total_wall_second": 5.740217515352659,
+  "visible_phase_tokens_per_second": 48.07218028923248,
+  "reasoning_tokens": 926,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.3,
+    "runtime_total_pss_bytes": 1419896832,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67285774336,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 1325850624,
+    "system_used_excluding_available_bytes": 5536968704,
+    "system_available_bytes": 27376099328,
+    "swap_used_bytes": 4049338368,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 91,
+  "finished_at": "2026-09-08T12:42:40.595376+00:00"
+}

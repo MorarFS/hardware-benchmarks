@@ -1,0 +1,72 @@
+{
+  "time": "2026-09-08T12:30:44.521619+00:00",
+  "completion": {
+    "time": "2026-09-08T10:20:37.051381+00:00",
+    "errors": [
+      {
+        "model": "ministral14",
+        "error": "depth 0: exit -15, timeout=True; inspect preserved stderr",
+        "traceback": "Traceback (most recent call last):\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 107, in <module>\n    state('measuring',model=name,depth=depth,repetitions=5,backend='Vulkan',speculation='OFF');measure(name,model,depth,folder)\n                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 76, in measure\n    if code or timed_out:raise RuntimeError(f'depth {depth}: exit {code}, timeout={timed_out}; inspect preserved stderr')\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: depth 0: exit -15, timeout=True; inspect preserved stderr\n",
+        "time": "2026-09-08T10:00:01.570043+00:00"
+      },
+      {
+        "model": "deepseek4-flash",
+        "error": "depth 0: exit -15, timeout=True; inspect preserved stderr",
+        "traceback": "Traceback (most recent call last):\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 107, in <module>\n    state('measuring',model=name,depth=depth,repetitions=5,backend='Vulkan',speculation='OFF');measure(name,model,depth,folder)\n                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<BENCHMARK_ROOT>/vulkan_model_queue.py\", line 76, in measure\n    if code or timed_out:raise RuntimeError(f'depth {depth}: exit {code}, timeout={timed_out}; inspect preserved stderr')\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: depth 0: exit -15, timeout=True; inspect preserved stderr\n",
+        "time": "2026-09-08T10:16:57.359918+00:00"
+      }
+    ]
+  },
+  "models": [
+    "gemma26",
+    "qwen35-mtp-off",
+    "qwen38-flash-next",
+    "gptoss120",
+    "gemma31",
+    "qwen38-27b",
+    "qwen35-community",
+    "gemma12-qat",
+    "ministral14",
+    "deepseek4-flash",
+    "gemma12-coding",
+    "gemma2-9b"
+  ],
+  "record_hashes": {
+    "gemma26": {
+      "complete.json": "b6d85404f0d41bc62f13bdf8375213112b20b82e91e0364680fe34a439db9978"
+    },
+    "qwen35-mtp-off": {
+      "complete.json": "9aa3ecd1bad533a9770955fe2e5a1b26706b4e0194ab089c93a0a35216415ceb"
+    },
+    "qwen38-flash-next": {
+      "complete.json": "d2b47457863a6105388f3e5c31a101284d9f9338b437d59cb7c449b6efc2b4a2"
+    },
+    "gptoss120": {
+      "complete.json": "532a882fe64c28df5851a032819bca028cf8e3daaabb391f689eb1f193704cb1"
+    },
+    "gemma31": {
+      "complete.json": "36b757316298bdea6642c721f4384d4bff505452970877014c12c9ec40b3b440"
+    },
+    "qwen38-27b": {
+      "complete.json": "5212e2e2827ca839f432dfbcd309c15f8357cd6584b1ed2a726014a944f9ffa5"
+    },
+    "qwen35-community": {
+      "complete.json": "24587173adfdbf8441097236132f7821af2024a4b6cf4f35df74728d3d41abf0"
+    },
+    "gemma12-qat": {
+      "complete.json": "e95b9e1a0ccdb108f91cac7daee304e9b7cab8e2928a5efe49a45fc51265e518"
+    },
+    "ministral14": {
+      "error.json": "c436b33c9727ae220933b1748c6afc171259c3b2f421b05722dbda64d48f5ac0"
+    },
+    "deepseek4-flash": {
+      "error.json": "0d9ef6f53f3b400d63815b119671df1295270ed640ad9803ff1c7e13d7430de2"
+    },
+    "gemma12-coding": {
+      "complete.json": "f3eb252c1316adb831d275a65a499d0d791bf60ad24a8e8ed30355e58d40104f"
+    },
+    "gemma2-9b": {
+      "complete.json": "65ee681da552bd79c30888e2d0751e9566c015a73c14367f2a7afe6eff3d7d83"
+    }
+  }
+}

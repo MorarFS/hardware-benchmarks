@@ -1,0 +1,78 @@
+{
+  "name": "development-extraction",
+  "model": "gptoss120-medium",
+  "fingerprint": "e3d16c5975a4e678bef5f6a2a6937d2db4bd012c3e6c4acf0d780d7b3dd29e54",
+  "started_at": "2026-09-08T12:39:42.560546+00:00",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 2410,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need answer each question with up to two short sentences, include a short supporting quotation and PDF citation. If not answered, write exactly \"Not stated in the supplied passage\". Must separate judgments etc? The instruction says separate author’s judgments, reported testimony, events. But answer needs short sentences with quote and citation. We'll just answer.\n\nQ1: How many prisoners were selected for execution, and did all seven die? In passage: \"Seven were selected for execution, and four of them were duly beheaded...\" then later details about the last three: they were hung but rope slipped, they survived. So not all seven died. Provide quote.\n\nQ2: Does the passage attribute 35,000 deaths solely to the Hippodrome assault? The passage says \"It is said that 35,000 men were slain in the six days of this great 'Sedtion of Nika.'\" This is overall six days of riots, not specifically Hippodrome assault. So does it attribute solely? No, it says \"in the six days...\". So answer: No, the passage attributes the 35,000 deaths to the six days of the Nika riots, not specifically the Hippodrome assault. Provide quote.\n\nQ3: What was the exact duration, in minutes, of the Hippodrome assault? Not given. So answer \"Not stated in the supplied passage\"."
+      },
+      {
+        "type": "message",
+        "content": "**D‑Q1:** Seven prisoners were selected for execution, but not all seven died; “Seven were selected for execution, and four of them were duly beheaded…The last three rioters were to be hung, but the hang‑man so bungled his task that two of the criminals…fell to the ground alive” [PDF p. 102].\n\n**D‑Q2:** No; the passage links the 35,000 deaths to the entire six‑day Nika riot, not exclusively to the Hippodrome assault: “It is said that 35,000 men were slain in the six days of this great ‘Sedition of Nika’” [PDF p. 106].\n\n**D‑Q3:** Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 2410,
+      "total_output_tokens": 445,
+      "reasoning_output_tokens": 278,
+      "tokens_per_second": 50.29362300647803,
+      "time_to_first_token_seconds": 5.010332
+    }
+  },
+  "output": "**D‑Q1:** Seven prisoners were selected for execution, but not all seven died; “Seven were selected for execution, and four of them were duly beheaded…The last three rioters were to be hung, but the hang‑man so bungled his task that two of the criminals…fell to the ground alive” [PDF p. 102].\n\n**D‑Q2:** No; the passage links the 35,000 deaths to the entire six‑day Nika riot, not exclusively to the Hippodrome assault: “It is said that 35,000 men were slain in the six days of this great ‘Sedition of Nika’” [PDF p. 106].\n\n**D‑Q3:** Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 2410,
+    "total_output_tokens": 445,
+    "reasoning_output_tokens": 278,
+    "tokens_per_second": 50.29362300647803,
+    "time_to_first_token_seconds": 5.010332
+  },
+  "wall_seconds": 13.98788163199788,
+  "stream_timing": {
+    "prompt_processing.start": 0.11969999299617484,
+    "prompt_processing.end": 5.105166494999139,
+    "first_reasoning_seconds": 5.178828263997275,
+    "reasoning.end": 10.796269637998194,
+    "first_visible_seconds": 10.796405294000579,
+    "last_visible_delta_seconds": 13.912547223997535,
+    "message.end": 13.987444993996178
+  },
+  "first_visible_token_seconds": 10.796405294000579,
+  "visible_text_tokens": 157,
+  "visible_tokens_per_total_wall_second": 11.224001184057474,
+  "visible_phase_tokens_per_second": 49.19353408038107,
+  "reasoning_tokens": 278,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 2.5,
+    "runtime_total_pss_bytes": 232377344,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67281522688,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 240459776,
+    "runtime_largest_process_rss_bytes": 162254848,
+    "system_used_excluding_available_bytes": 3813306368,
+    "system_available_bytes": 29060702208,
+    "swap_used_bytes": 4207161344,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 98,
+  "finished_at": "2026-09-08T12:39:57.269640+00:00"
+}

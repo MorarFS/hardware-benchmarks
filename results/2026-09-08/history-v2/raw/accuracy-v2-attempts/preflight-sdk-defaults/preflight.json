@@ -1,0 +1,18 @@
+{
+  "time": "2026-09-08T10:17:25.198687+00:00",
+  "status": "passed",
+  "frozen_checksums_verified": true,
+  "models": 3,
+  "stages_per_model": 12,
+  "fixed_questions": 20,
+  "heldout_passages": 4,
+  "no_model_loaded": true,
+  "no_generation": true,
+  "request_inputs_allowlist": [
+    "prompts.json",
+    "questions.json",
+    "development-questions.json",
+    "inputs/*.txt",
+    "prior direct-summary outputs for merged stage only"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "<HOME>/.lmstudio/bin/lms",
+    "load",
+    "gemma-4-26b-a4b-it",
+    "--identifier",
+    "evo-accuracy-gemma26-off",
+    "--gpu",
+    "max",
+    "--context-length",
+    "65536",
+    "--parallel",
+    "1",
+    "--ttl",
+    "7200",
+    "-y",
+    "--no-speculative-draft-mtp"
+  ],
+  "returncode": 0,
+  "output": "\u001b[?25l\nLoading gemma-4-26b-a4b-it 0% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 0% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 2% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 2% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 2% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 4% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 4% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 6% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 6% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 6% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 7% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 7% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 9% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 9% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 9% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 11% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 11% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 12% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 12% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 12% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 14% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 14% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 15% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 15% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 15% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 17% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 17% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 18% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 18% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 18% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 19% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 19% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 21% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 21% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 21% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 22% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 22% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 23% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 23% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 23% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 24% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 24% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 26% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 26% ⠦\u001b[?25l\nLoading gemma-4-26b-a4b-it 26% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 27% ⠧\u001b[?25l\nLoading gemma-4-26b-a4b-it 27% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 28% ⠇\u001b[?25l\nLoading gemma-4-26b-a4b-it 28% ⠏\u001b[?25l\nLoading gemma-4-26b-a4b-it 28% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 29% ⠋\u001b[?25l\nLoading gemma-4-26b-a4b-it 29% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 30% ⠙\u001b[?25l\nLoading gemma-4-26b-a4b-it 30% ⠹\u001b[?25l\nLoading gemma-4-26b-a4b-it 30% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 31% ⠸\u001b[?25l\nLoading gemma-4-26b-a4b-it 31% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 32% ⠼\u001b[?25l\nLoading gemma-4-26b-a4b-it 32% ⠴\u001b[?25l\nLoading gemma-4-26b-a4b-it 100% ⠴\n\u001b[K\u001b[?25hModel loaded successfully in 2.88s.\n(15.78 GiB)\nTo use the model in the API/SDK, use the identifier \"evo-accuracy-gemma26-off\".\n",
+  "wall_seconds": 3.045355791997281
+}

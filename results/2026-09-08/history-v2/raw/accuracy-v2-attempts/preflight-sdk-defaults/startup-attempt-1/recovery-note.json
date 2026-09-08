@@ -1,0 +1,5 @@
+{
+  "observation": "Entered restoration before any model request. Optional ROCm service was still starting after speed restoration; readiness retry added. Original exception will remain in fatal-error.json when cleanup finishes.",
+  "repair": "Retry ROCm startup errors and save primary exceptions before cleanup; own idle restored model explicitly included for unload and later restoration.",
+  "model_outputs_existed": false
+}

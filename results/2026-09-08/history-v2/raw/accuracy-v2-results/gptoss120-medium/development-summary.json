@@ -1,0 +1,77 @@
+{
+  "name": "development-summary",
+  "model": "gptoss120-medium",
+  "fingerprint": "8c50b6989fee51519083fab91933da41e2fe48fa52543c8a1ba235a72e426dfd",
+  "started_at": "2026-09-08T12:39:57.276412+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 2348,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need to write a connected summary of 180-220 words using only this passage. Must attribute author's evaluations explicitly. Need to separate author's judgments, reported testimony, and events. Preserve uncertainty and conflicting statements. Cite every factual sentence with [PDF p. N] marker. Use page citations as given (101-106). Must not add generic limitations paragraph. Must not claim whole book lacks anything. Must not add own knowledge. Must distinguish evaluations: e.g., author says \"the Blues and Greens ... were a serious danger\". That's author judgment. Must attribute with \"the author evaluates\" or \"the author notes\". Reported testimony: e.g., Procopius' speech. Must keep.\n\nWe have to create summary covering beginning, middle, ending. Provide main actions, causal relationships, qualifications.\n\nWe need 180-220 words.\n\nWe'll write sentences each with citation.\n\nNeed to ensure each factual sentence has a citation. Distinguish between events (facts) and author evaluations (evaluations). For evaluations we should attribute: \"the author judges that...\" etc.\n\nLet's craft.\n\nWord count approx 200. Let's aim 200.\n\nProceed.\n\n"
+      },
+      {
+        "type": "message",
+        "content": "The passage opens by explaining that the year in which the Persian War ended (532 A.D.) also saw the rise and rapid collapse of a new threat to the emperor’s life and power, namely the increasingly political “Blues” and “Greens” of the Byzantine circus [PDF p. 101]. The author evaluates these factions as having grown from sporting groups into quasi‑political parties, while retaining “rougher elements” prone to riot and thus constituting “a serious danger to the State” [PDF p. 101]. In January of that year serious rioting broke out; although Justinian usually favored the Blues, he ordered the leaders of both sides to be executed [PDF p. 101]. Seven men were selected, four were beheaded before a mob, and the hanging of the three remaining rioters failed when the rope slipped, allowing the half‑hung men to reach the sanctuary of a monastery [PDF p. 102]. The author describes this episode as the catalyst for six days of desperate rioting, during which the Blues and Greens united, demanded the removal of John of Cappadocia and Eudemius, and even called for Justinian’s deposition and the crowning of Hypatius as Caesar [PDF p. 102‑103]. With the city’s garrison away on the Persian campaign, Justinian could muster only a small imperial guard, German auxiliaries, and a regiment of 500 cataphracts under Belisarius [PDF p. 103]. The author notes that Belisarius’ forces fought chiefly around the Augustaeum, that fires set by the rebels consumed the Senate house, St. Sophia, the hospital of Sampson and St. Irene, and that the conflagration halted the fighting while the insurgents held most of the city [PDF p. 103]. Hypatius, unwilling to risk his life, initially hid with the emperor, but was later seized by his own supporters, taken to the Hippodrome, placed on the Kathisma throne and crowned with his wife’s gold chain [PDF p. 103‑104]. Procopius records Theodora’s speech urging Justinian to make a final assault rather than flee, an exhortation the author presents as decisive [PDF p. 105]. Prompted by her bold words, Justinian ordered Belisarius to attack; the imperial forces breached the Hippodrome gates, routed the rebels and killed thousands, with the author estimating 35,000 deaths during the “Sed­ition of Nika” [PDF p. 106]. Finally, the author observes that despite this massive slaughter the Blues and Greens continued to riot for fifty more years, although never again approached the historic impact of the 532 uprising [PDF p. 106]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 2348,
+      "total_output_tokens": 818,
+      "reasoning_output_tokens": 231,
+      "tokens_per_second": 48.79182891542334,
+      "time_to_first_token_seconds": 4.364882
+    }
+  },
+  "output": "The passage opens by explaining that the year in which the Persian War ended (532 A.D.) also saw the rise and rapid collapse of a new threat to the emperor’s life and power, namely the increasingly political “Blues” and “Greens” of the Byzantine circus [PDF p. 101]. The author evaluates these factions as having grown from sporting groups into quasi‑political parties, while retaining “rougher elements” prone to riot and thus constituting “a serious danger to the State” [PDF p. 101]. In January of that year serious rioting broke out; although Justinian usually favored the Blues, he ordered the leaders of both sides to be executed [PDF p. 101]. Seven men were selected, four were beheaded before a mob, and the hanging of the three remaining rioters failed when the rope slipped, allowing the half‑hung men to reach the sanctuary of a monastery [PDF p. 102]. The author describes this episode as the catalyst for six days of desperate rioting, during which the Blues and Greens united, demanded the removal of John of Cappadocia and Eudemius, and even called for Justinian’s deposition and the crowning of Hypatius as Caesar [PDF p. 102‑103]. With the city’s garrison away on the Persian campaign, Justinian could muster only a small imperial guard, German auxiliaries, and a regiment of 500 cataphracts under Belisarius [PDF p. 103]. The author notes that Belisarius’ forces fought chiefly around the Augustaeum, that fires set by the rebels consumed the Senate house, St. Sophia, the hospital of Sampson and St. Irene, and that the conflagration halted the fighting while the insurgents held most of the city [PDF p. 103]. Hypatius, unwilling to risk his life, initially hid with the emperor, but was later seized by his own supporters, taken to the Hippodrome, placed on the Kathisma throne and crowned with his wife’s gold chain [PDF p. 103‑104]. Procopius records Theodora’s speech urging Justinian to make a final assault rather than flee, an exhortation the author presents as decisive [PDF p. 105]. Prompted by her bold words, Justinian ordered Belisarius to attack; the imperial forces breached the Hippodrome gates, routed the rebels and killed thousands, with the author estimating 35,000 deaths during the “Sed­ition of Nika” [PDF p. 106]. Finally, the author observes that despite this massive slaughter the Blues and Greens continued to riot for fifty more years, although never again approached the historic impact of the 532 uprising [PDF p. 106].",
+  "stats": {
+    "input_tokens": 2348,
+    "total_output_tokens": 818,
+    "reasoning_output_tokens": 231,
+    "tokens_per_second": 48.79182891542334,
+    "time_to_first_token_seconds": 4.364882
+  },
+  "wall_seconds": 21.68583122000564,
+  "stream_timing": {
+    "prompt_processing.start": 0.5715070950027439,
+    "prompt_processing.end": 4.936089319002349,
+    "first_reasoning_seconds": 5.000003568005923,
+    "reasoning.end": 9.87240323000151,
+    "first_visible_seconds": 9.872480233003444,
+    "last_visible_delta_seconds": 21.65997848700499,
+    "message.end": 21.68546871500439
+  },
+  "first_visible_token_seconds": 9.872480233003444,
+  "visible_text_tokens": 577,
+  "visible_tokens_per_total_wall_second": 26.6072346568715,
+  "visible_phase_tokens_per_second": 48.84304213384097,
+  "reasoning_tokens": 231,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.0,
+    "runtime_total_pss_bytes": 383793152,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67281530880,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 307195904,
+    "system_used_excluding_available_bytes": 4058943488,
+    "system_available_bytes": 28886872064,
+    "swap_used_bytes": 4197511168,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 402,
+  "finished_at": "2026-09-08T12:40:19.241448+00:00"
+}

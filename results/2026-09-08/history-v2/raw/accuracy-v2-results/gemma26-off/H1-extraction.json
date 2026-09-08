@@ -1,0 +1,72 @@
+{
+  "name": "H1-extraction",
+  "model": "gemma26-off",
+  "fingerprint": "ffa581c4ec56d60dac4436a80f0be594033abe7c3e207ac1e73360395ded6540",
+  "started_at": "2026-09-08T12:31:17.746946+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3549,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "H1-Q1: The Visigoths were led by their Duke Fritigern. \"the Visigoths, under their Duke Fritigern, fell back in dismay\" [PDF p. 61].\n\nH1-Q2: Valens required the Goths to provide hostages and surrender their arms. \"if the Goth would give hostages, and surrender their arms, they should be ferried across the Danube\" [PDF p. 63]. The arms condition was not met because Roman officials accepted bribes to allow the Goths to keep their weapons. \"the bribes were accepted and the Goths retained their arms\" [PDF p. 63].\n\nH1-Q3: Lupicinus withheld food to increase his own wealth and sold provisions at very high prices. \"the governor, Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices\" [PDF p. 63].\n\nH1-Q4: The battle resulted in the thinning of the ranks for both sides but did not produce a decisive outcome. \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3552,
+      "total_output_tokens": 281,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.03852402322701,
+      "time_to_first_token_seconds": 5.154848
+    }
+  },
+  "output": "H1-Q1: The Visigoths were led by their Duke Fritigern. \"the Visigoths, under their Duke Fritigern, fell back in dismay\" [PDF p. 61].\n\nH1-Q2: Valens required the Goths to provide hostages and surrender their arms. \"if the Goth would give hostages, and surrender their arms, they should be ferried across the Danube\" [PDF p. 63]. The arms condition was not met because Roman officials accepted bribes to allow the Goths to keep their weapons. \"the bribes were accepted and the Goths retained their arms\" [PDF p. 63].\n\nH1-Q3: Lupicinus withheld food to increase his own wealth and sold provisions at very high prices. \"the governor, Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices\" [PDF p. 63].\n\nH1-Q4: The battle resulted in the thinning of the ranks for both sides but did not produce a decisive outcome. \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 3552,
+    "total_output_tokens": 281,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.03852402322701,
+    "time_to_first_token_seconds": 5.154848
+  },
+  "wall_seconds": 12.751756972000294,
+  "stream_timing": {
+    "prompt_processing.start": 1.391322832001606,
+    "prompt_processing.end": 6.530792607001786,
+    "first_visible_seconds": 6.530912052003259,
+    "last_visible_delta_seconds": 12.725803804998577,
+    "message.end": 12.751493800999015
+  },
+  "first_visible_token_seconds": 6.530912052003259,
+  "visible_text_tokens": 280,
+  "visible_tokens_per_total_wall_second": 21.957758496716238,
+  "visible_phase_tokens_per_second": 45.00996305179289,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 5.9,
+    "runtime_total_pss_bytes": 3154746368,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20731789312,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 2887385088,
+    "system_used_excluding_available_bytes": 6971731968,
+    "system_available_bytes": 26677358592,
+    "swap_used_bytes": 3751829504,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 177,
+  "finished_at": "2026-09-08T12:31:30.731382+00:00"
+}

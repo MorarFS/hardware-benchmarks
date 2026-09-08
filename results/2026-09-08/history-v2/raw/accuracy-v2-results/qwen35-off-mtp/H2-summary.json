@@ -1,0 +1,71 @@
+{
+  "name": "H2-summary",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "9f523ee1486bcd9f3127b4e815654124d948f21a2ddca4d9054de951cc1d14f6",
+  "started_at": "2026-09-08T12:35:41.747512+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3628,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "The author argues that Latin decayed in the East due to practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin knowledge was rare, with Justinian being the last emperor to speak it natively [PDF p. 169]. The author attributes this linguistic shift to the division of the empire and the extermination of Latin-speaking populations by Slavs [PDF p. 170]. Simultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly, accelerating under Theodosius I [PDF p. 171]. The author highlights that gladiatorial games ended after a monk’s death, not state decree [PDF p. 171]. Christianity also abolished infanticide and modified slavery by emphasizing the soul’s equality [PDF p. 173]. The author credits these social improvements to the Christian belief in individual worth [PDF p. 174]. However, the author explicitly evaluates the rise of monasticism as dangerous [PDF p. 174]. The author claims monks neglected civic duties, harming the state during barbarian invasions [PDF p. 175]. The author describes this apathy as maddening to pagans [PDF p. 176]. The author concludes that governing classes preserved Roman traditions despite this religious shift [PDF p. 176]. The author observes that paganism vanished, though indifference persisted among educated Christians [PDF p. 176]. The author suggests that while Christianity improved social conditions, its ascetic elements posed significant political risks to the empire’s stability [PDF p. 174]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3630,
+      "total_output_tokens": 359,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 66.3680721372744,
+      "time_to_first_token_seconds": 4.682692
+    }
+  },
+  "output": "The author argues that Latin decayed in the East due to practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin knowledge was rare, with Justinian being the last emperor to speak it natively [PDF p. 169]. The author attributes this linguistic shift to the division of the empire and the extermination of Latin-speaking populations by Slavs [PDF p. 170]. Simultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly, accelerating under Theodosius I [PDF p. 171]. The author highlights that gladiatorial games ended after a monk’s death, not state decree [PDF p. 171]. Christianity also abolished infanticide and modified slavery by emphasizing the soul’s equality [PDF p. 173]. The author credits these social improvements to the Christian belief in individual worth [PDF p. 174]. However, the author explicitly evaluates the rise of monasticism as dangerous [PDF p. 174]. The author claims monks neglected civic duties, harming the state during barbarian invasions [PDF p. 175]. The author describes this apathy as maddening to pagans [PDF p. 176]. The author concludes that governing classes preserved Roman traditions despite this religious shift [PDF p. 176]. The author observes that paganism vanished, though indifference persisted among educated Christians [PDF p. 176]. The author suggests that while Christianity improved social conditions, its ascetic elements posed significant political risks to the empire’s stability [PDF p. 174].",
+  "stats": {
+    "input_tokens": 3630,
+    "total_output_tokens": 359,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 66.3680721372744,
+    "time_to_first_token_seconds": 4.682692
+  },
+  "wall_seconds": 10.954488127004879,
+  "stream_timing": {
+    "prompt_processing.start": 0.8816171790022054,
+    "prompt_processing.end": 5.556756867998047,
+    "first_visible_seconds": 5.557024309004191,
+    "last_visible_delta_seconds": 10.954144242998154,
+    "message.end": 10.954256807999627
+  },
+  "first_visible_token_seconds": 5.557024309004191,
+  "visible_text_tokens": 358,
+  "visible_tokens_per_total_wall_second": 32.6806689504243,
+  "visible_phase_tokens_per_second": 66.32744786654435,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.4,
+    "runtime_total_pss_bytes": 3440755712,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030354432,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 3167600640,
+    "system_used_excluding_available_bytes": 7396446208,
+    "system_available_bytes": 25783537664,
+    "swap_used_bytes": 3760787456,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 237,
+  "finished_at": "2026-09-08T12:35:52.931221+00:00"
+}

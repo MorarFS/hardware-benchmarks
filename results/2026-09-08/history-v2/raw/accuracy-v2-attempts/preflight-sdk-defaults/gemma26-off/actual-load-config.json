@@ -1,0 +1,41 @@
+{
+  "native": {
+    "id": "evo-accuracy-gemma26-off",
+    "config": {
+      "context_length": 65536,
+      "eval_batch_size": 2048,
+      "physical_batch_size": 512,
+      "parallel": 1,
+      "flash_attention": true,
+      "context_checkpoints": 32,
+      "reasoning_budget_message": "",
+      "speculative_draft_mtp": false,
+      "speculative_draft_simple": false,
+      "speculative_draft_model": "",
+      "speculative_draft_max_tokens": 3,
+      "speculative_draft_min_tokens": 0,
+      "speculative_draft_min_continue_probability": 0,
+      "num_experts": 8,
+      "offload_kv_cache_to_gpu": true
+    },
+    "remaining_ttl_seconds": 7200
+  },
+  "sdk": {
+    "gpu": {
+      "ratio": 1.0,
+      "splitStrategy": "evenly",
+      "disabledGpus": []
+    },
+    "contextLength": 65536,
+    "flashAttention": true,
+    "numExperts": 8
+  },
+  "libraries": [
+    "<HOME>/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-base.so",
+    "<HOME>/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-cpu.so",
+    "<HOME>/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-vulkan-avx2-2.33.0/libggml-vulkan.so"
+  ],
+  "seed_requested": 42,
+  "seed_actual": null,
+  "seed_fixed_42_verified": false
+}

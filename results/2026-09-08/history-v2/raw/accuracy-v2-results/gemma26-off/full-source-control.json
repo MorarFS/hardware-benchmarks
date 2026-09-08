@@ -1,0 +1,74 @@
+{
+  "name": "full-source-control",
+  "model": "gemma26-off",
+  "fingerprint": "d006ff47d1ce7ab87000fc4465d448c88b43ede8a8d66ada604f027702ffd12b",
+  "started_at": "2026-09-08T12:33:40.120444+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 13770,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "Around A.D. 372, Huns from beyond the Don and Volga moved westward, nearly exterminating the Alans and subsequently attacking the Goths (61). The author describes the Huns as savages with \"shapeless black collops of flesh\" who possessed a \"ferocity of the wild beast\" (61). The Ostrogoths attempted to defend the Dniester but were crushed and forced into vassalage, leaving only a remnant to flee toward the Danube (61). The Visigoths, led by Duke Fritigern, were also driven back by the Huns until they reached the Danube (61). The author notes that the Visigoths found surrender more dreadful than their eastern brethren because they were more civilized and Christian, making the prospect of slavery to savages \"intolerable\" (62).\n\nIn A.D. 376, the Visigoths requested permission from the Emperor Valens to cross the Danube (62). The author characterizes Valens as a \"stupid, cowardly, and avaricious prince\" who ruled the East while his brother Valentinian held the West (62). Valens eventually allowed the Goths to settle as subject-allies on the condition that they surrender their arms and provide hostages (63). However, once in Moesia, the Goths refused to disarm, and Roman officials accepted bribes to allow them to keep their weapons (63). Furthermore, the governor Lupicinus withheld food to extort high prices, driving the Goths to desperation and causing them to sell children for slaves (63). This tension culminated in a violent affray at Marcianopolis, leading Fritigern to take up arms against Rome (64).\n\nThe author observes that the subsequent Gothic war revealed that the \"barbarian spirit was but thinly covered by the veneer of Christianity\" (64). In A.D. 378, Valens personally led an army of 60,000 against the Goths near Adrianople (65). Although the Roman infantry was traditionally considered superior, the Goths had learned to fight on horseback during their time in Russia (65). During the battle, a Gothic cavalry charge struck the Roman flank, causing \"hopeless confusion\" among the infantry (66). The Roman army suffered a catastrophic defeat, losing forty thousand men and several high-ranking commanders (67). While the Goths attempted to besiege Constantinople, they retreated after being intimidated by the city's massive walls (67).\n\nBy the ninth century, the Byzantine Empire experienced an intellectual recovery through the literary reigns of Leo the Wise and Constantine Porphyrogenitus (241). The author describes these emperors as \"easy-going, and inoffensive men of literature\" (241). Leo’s *Tactica* provided a detailed account of the Byzantine army, noting its organized supply trains and specialized medical care (245). Constantine Porphyrogenitus produced works on administration and court ceremonies, which the author characterizes as the products of a \"careful and methodical compiler\" (246). These literary achievements signaled an end to the period of intellectual destitution that had persisted since the death of Justinian (247)."
+      }
+    ],
+    "stats": {
+      "input_tokens": 13773,
+      "total_output_tokens": 674,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 42.55785211974781,
+      "time_to_first_token_seconds": 15.918582
+    }
+  },
+  "output": "Around A.D. 372, Huns from beyond the Don and Volga moved westward, nearly exterminating the Alans and subsequently attacking the Goths (61). The author describes the Huns as savages with \"shapeless black collops of flesh\" who possessed a \"ferocity of the wild beast\" (61). The Ostrogoths attempted to defend the Dniester but were crushed and forced into vassalage, leaving only a remnant to flee toward the Danube (61). The Visigoths, led by Duke Fritigern, were also driven back by the Huns until they reached the Danube (61). The author notes that the Visigoths found surrender more dreadful than their eastern brethren because they were more civilized and Christian, making the prospect of slavery to savages \"intolerable\" (62).\n\nIn A.D. 376, the Visigoths requested permission from the Emperor Valens to cross the Danube (62). The author characterizes Valens as a \"stupid, cowardly, and avaricious prince\" who ruled the East while his brother Valentinian held the West (62). Valens eventually allowed the Goths to settle as subject-allies on the condition that they surrender their arms and provide hostages (63). However, once in Moesia, the Goths refused to disarm, and Roman officials accepted bribes to allow them to keep their weapons (63). Furthermore, the governor Lupicinus withheld food to extort high prices, driving the Goths to desperation and causing them to sell children for slaves (63). This tension culminated in a violent affray at Marcianopolis, leading Fritigern to take up arms against Rome (64).\n\nThe author observes that the subsequent Gothic war revealed that the \"barbarian spirit was but thinly covered by the veneer of Christianity\" (64). In A.D. 378, Valens personally led an army of 60,000 against the Goths near Adrianople (65). Although the Roman infantry was traditionally considered superior, the Goths had learned to fight on horseback during their time in Russia (65). During the battle, a Gothic cavalry charge struck the Roman flank, causing \"hopeless confusion\" among the infantry (66). The Roman army suffered a catastrophic defeat, losing forty thousand men and several high-ranking commanders (67). While the Goths attempted to besiege Constantinople, they retreated after being intimidated by the city's massive walls (67).\n\nBy the ninth century, the Byzantine Empire experienced an intellectual recovery through the literary reigns of Leo the Wise and Constantine Porphyrogenitus (241). The author describes these emperors as \"easy-going, and inoffensive men of literature\" (241). Leo’s *Tactica* provided a detailed account of the Byzantine army, noting its organized supply trains and specialized medical care (245). Constantine Porphyrogenitus produced works on administration and court ceremonies, which the author characterizes as the products of a \"careful and methodical compiler\" (246). These literary achievements signaled an end to the period of intellectual destitution that had persisted since the death of Justinian (247).",
+  "stats": {
+    "input_tokens": 13773,
+    "total_output_tokens": 674,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 42.55785211974781,
+    "time_to_first_token_seconds": 15.918582
+  },
+  "wall_seconds": 33.114477798000735,
+  "stream_timing": {
+    "prompt_processing.start": 1.389163803003612,
+    "prompt_processing.end": 17.294037635001587,
+    "first_visible_seconds": 17.294231603002117,
+    "last_visible_delta_seconds": 33.08276566299901,
+    "message.end": 33.114182946002984
+  },
+  "first_visible_token_seconds": 17.294231603002117,
+  "visible_text_tokens": 673,
+  "visible_tokens_per_total_wall_second": 20.323436899875617,
+  "visible_phase_tokens_per_second": 42.540425206073024,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.6,
+    "runtime_total_pss_bytes": 9848036352,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20679073792,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 9573830656,
+    "system_used_excluding_available_bytes": 13471932416,
+    "system_available_bytes": 19986714624,
+    "swap_used_bytes": 3748782080,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 454,
+  "finished_at": "2026-09-08T12:34:13.507108+00:00"
+}

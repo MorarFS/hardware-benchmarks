@@ -1,0 +1,71 @@
+{
+  "name": "development-summary",
+  "model": "gemma26-off",
+  "fingerprint": "2fa623f75386cc8c907d98db5940dab26e8a9121a9d2844c19acc549e8751128",
+  "started_at": "2026-09-08T12:31:05.191608+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 2384,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "By 530, the Byzantine Circus factions, the Blues and Greens, had evolved from sporting groups into political parties that interfered in religious and political matters [PDF p. 101]. The author characterizes the Greens as Monophysite partisans of the late Emperor Anastasius and the Blues as orthodox supporters of Justinus [PDF p. 101]. In January 532, serious rioting occurred, leading Justinian to order the execution of rioters [PDF p. 101]. After a botched hanging where two criminals survived, a mob broke loose and the rioters sought sanctuary in a monastery [PDF p. 102]. This event initiated six days of desperate rioting under the watchword \"Nika\" [PDF p. 102]. The mob demanded the dismissal of officials and sought to install Hypatius as Caesar [PDF p. 102]. During the conflict, rebels burned the Senate House and St. Sophia [PDF p. 103]. Although Hypatius initially sought refuge with the Emperor, he was eventually driven out and crowned in the Hippodrome [PDF p. 103]. Amidst palace dismay, the author evaluates Empress Theodora as rising to the occasion by refusing to flee and urging a final assault [PDF p. 105]. Spurred by her words, Belisarius led an attack on the Hippodrome, routing the rebels and killing an estimated 35,000 men [PDF p. 105]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 2387,
+      "total_output_tokens": 314,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 45.646131935113075,
+      "time_to_first_token_seconds": 4.1911629999999995
+    }
+  },
+  "output": "By 530, the Byzantine Circus factions, the Blues and Greens, had evolved from sporting groups into political parties that interfered in religious and political matters [PDF p. 101]. The author characterizes the Greens as Monophysite partisans of the late Emperor Anastasius and the Blues as orthodox supporters of Justinus [PDF p. 101]. In January 532, serious rioting occurred, leading Justinian to order the execution of rioters [PDF p. 101]. After a botched hanging where two criminals survived, a mob broke loose and the rioters sought sanctuary in a monastery [PDF p. 102]. This event initiated six days of desperate rioting under the watchword \"Nika\" [PDF p. 102]. The mob demanded the dismissal of officials and sought to install Hypatius as Caesar [PDF p. 102]. During the conflict, rebels burned the Senate House and St. Sophia [PDF p. 103]. Although Hypatius initially sought refuge with the Emperor, he was eventually driven out and crowned in the Hippodrome [PDF p. 103]. Amidst palace dismay, the author evaluates Empress Theodora as rising to the occasion by refusing to flee and urging a final assault [PDF p. 105]. Spurred by her words, Belisarius led an attack on the Hippodrome, routing the rebels and killing an estimated 35,000 men [PDF p. 105].",
+  "stats": {
+    "input_tokens": 2387,
+    "total_output_tokens": 314,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 45.646131935113075,
+    "time_to_first_token_seconds": 4.1911629999999995
+  },
+  "wall_seconds": 12.328368093003519,
+  "stream_timing": {
+    "prompt_processing.start": 1.2902700370032107,
+    "prompt_processing.end": 5.468021419001161,
+    "first_visible_seconds": 5.468132943002274,
+    "last_visible_delta_seconds": 12.302980148000643,
+    "message.end": 12.328111112001352
+  },
+  "first_visible_token_seconds": 5.468132943002274,
+  "visible_text_tokens": 313,
+  "visible_tokens_per_total_wall_second": 25.388599499850336,
+  "visible_phase_tokens_per_second": 45.62525819540504,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 6.7,
+    "runtime_total_pss_bytes": 2433903616,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20678356992,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 259416064,
+    "runtime_largest_process_rss_bytes": 2167635968,
+    "system_used_excluding_available_bytes": 6082248704,
+    "system_available_bytes": 27408924672,
+    "swap_used_bytes": 3752169472,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 207,
+  "finished_at": "2026-09-08T12:31:17.745811+00:00"
+}

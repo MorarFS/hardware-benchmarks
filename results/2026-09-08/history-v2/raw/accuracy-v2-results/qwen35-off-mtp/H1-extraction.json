@@ -1,0 +1,72 @@
+{
+  "name": "H1-extraction",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "ed9032ae65aaf725d351cf618f6c0dee583cf1329760ac48da688490d9aeb189",
+  "started_at": "2026-09-08T12:35:13.509087+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 3593,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "H1-Q1: Duke Fritigern led the Visigoths as they retreated toward the Danube. The text states, \"the Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children\" [PDF p. 61].\n\nH1-Q2: Valens imposed the conditions that the Goths give hostages and surrender their arms. The arms condition was ignored because officials accepted bribes from the Goths to retain their weapons [PDF p. 63].\n\nH1-Q3: Lupicinus withheld food and sold it at exorbitant prices, causing the Goths to sell their children for slaves to avoid starvation. This extortion drove the Goths to desperation and sparked the revolt [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The passage notes it \"led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage"
+      }
+    ],
+    "stats": {
+      "input_tokens": 3595,
+      "total_output_tokens": 219,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 87.35864329622595,
+      "time_to_first_token_seconds": 4.681126
+    }
+  },
+  "output": "H1-Q1: Duke Fritigern led the Visigoths as they retreated toward the Danube. The text states, \"the Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children\" [PDF p. 61].\n\nH1-Q2: Valens imposed the conditions that the Goths give hostages and surrender their arms. The arms condition was ignored because officials accepted bribes from the Goths to retain their weapons [PDF p. 63].\n\nH1-Q3: Lupicinus withheld food and sold it at exorbitant prices, causing the Goths to sell their children for slaves to avoid starvation. This extortion drove the Goths to desperation and sparked the revolt [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The passage notes it \"led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage",
+  "stats": {
+    "input_tokens": 3595,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.35864329622595,
+    "time_to_first_token_seconds": 4.681126
+  },
+  "wall_seconds": 7.887403141001414,
+  "stream_timing": {
+    "prompt_processing.start": 0.7165939920014353,
+    "prompt_processing.end": 5.391062321999925,
+    "first_visible_seconds": 5.391160436003702,
+    "last_visible_delta_seconds": 7.887176502001239,
+    "message.end": 7.887244235003891
+  },
+  "first_visible_token_seconds": 5.391160436003702,
+  "visible_text_tokens": 218,
+  "visible_tokens_per_total_wall_second": 27.639008188482414,
+  "visible_phase_tokens_per_second": 87.33125171023777,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.2,
+    "runtime_total_pss_bytes": 2132997120,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030354432,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 1863483392,
+    "system_used_excluding_available_bytes": 5980418048,
+    "system_available_bytes": 27124244480,
+    "swap_used_bytes": 3761168384,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 139,
+  "finished_at": "2026-09-08T12:35:21.625566+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "time": "2026-09-08T12:36:40Z",
+  "state": {
+    "time": "2026-09-08T12:36:32.064368+00:00",
+    "state": "request",
+    "model": "qwen35-off-mtp",
+    "request": "merged-summary-synthesis"
+  },
+  "completed_development_extractions": [
+    {
+      "model": "qwen35-off-mtp",
+      "status": "ok",
+      "wall_seconds": 6.025990866000939,
+      "output_limit_reached": false
+    },
+    {
+      "model": "gemma26-off",
+      "status": "ok",
+      "wall_seconds": 6.956608938999125,
+      "output_limit_reached": false
+    }
+  ],
+  "load_checks": {
+    "qwen35-off-mtp": {
+      "seed": 42,
+      "K": "f16",
+      "V": "f16",
+      "parallel": 1,
+      "mtp": true
+    },
+    "gemma26-off": {
+      "seed": 42,
+      "K": "f16",
+      "V": "f16",
+      "parallel": 1,
+      "mtp": false
+    }
+  }
+}

@@ -1,0 +1,1222 @@
+[
+  {
+    "model": "gemma26-off",
+    "question_id": "H1-Q1",
+    "question": "Who led the Visigoths as they retreated toward the Danube?",
+    "answerability": "stated",
+    "output_answer": "The Visigoths were led by their Duke Fritigern. \"the Visigoths, under their Duke Fritigern, fell back in dismay\" [PDF p. 61].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      61
+    ],
+    "gold_answer": "Fritigern.",
+    "cited_pages": [
+      61
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H1-Q2",
+    "question": "What two conditions did Valens impose for admission, and what happened to the arms condition?",
+    "answerability": "stated",
+    "output_answer": "Valens required the Goths to provide hostages and surrender their arms. \"if the Goth would give hostages, and surrender their arms, they should be ferried across the Danube\" [PDF p. 63]. The arms condition was not met because Roman officials accepted bribes to allow the Goths to keep their weapons. \"the bribes were accepted and the Goths retained their arms\" [PDF p. 63].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      63
+    ],
+    "gold_answer": "Hostages and surrender of arms; officials accepted bribes, allowing the Goths to retain weapons.",
+    "cited_pages": [
+      63
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H1-Q3",
+    "question": "According to this passage, how did Lupicinus’s food policy contribute to revolt?",
+    "answerability": "stated",
+    "output_answer": "Lupicinus withheld food to increase his own wealth and sold provisions at very high prices. \"the governor, Lupicinus, to fill his own pockets, held back the food, and doled out what he chose to give at exorbitant prices\" [PDF p. 63].",
+    "judgment": "partial",
+    "reason": "States withholding and high prices but omits the causal link through hunger/desperation to revolt.",
+    "evidence_pages": [
+      63,
+      64
+    ],
+    "gold_answer": "He withheld provisions and charged exorbitant prices; hunger and extortion drove desperation before the banquet clash.",
+    "cited_pages": [
+      63
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H1-Q4",
+    "question": "What result does the passage give for the battle at Ad Salices?",
+    "answerability": "stated",
+    "output_answer": "The battle resulted in the thinning of the ranks for both sides but did not produce a decisive outcome. \"A desperate pitched battle at Ad Salices... thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      64
+    ],
+    "gold_answer": "It thinned both sides but produced no decisive result.",
+    "cited_pages": [
+      64
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H1-Q5",
+    "question": "What was the exact number of Roman soldiers killed at Ad Salices?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H2-Q1",
+    "question": "Who intervened in the gladiatorial games, in what year, and what happened to him?",
+    "answerability": "stated",
+    "output_answer": "The monk Telemachus intervened in the gladiatorial games in A.D. 404 and was slain during an angry scuffle. \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... there was an angry scuffle, and the good monk was slain\" [PDF p. 171].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      171
+    ],
+    "gold_answer": "The monk Telemachus intervened in AD 404 and was killed.",
+    "cited_pages": [
+      171
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H2-Q2",
+    "question": "Who made infanticide a capital offence, and when?",
+    "answerability": "stated",
+    "output_answer": "Valentinian I. made infanticide a capital offence in 374. \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      173
+    ],
+    "gold_answer": "Valentinian I in 374.",
+    "cited_pages": [
+      173
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H2-Q3",
+    "question": "Did the passage claim Christianity immediately ended slavery? State its qualification.",
+    "answerability": "stated",
+    "output_answer": "No, the passage states that slavery was not extinguished for centuries. \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      173,
+      174
+    ],
+    "gold_answer": "No. Slavery persisted for centuries, although Oman says its evils were modified.",
+    "cited_pages": [
+      173
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H2-Q4",
+    "question": "Why did Oman regard widespread ascetic monasticism as politically dangerous?",
+    "answerability": "stated",
+    "output_answer": "Oman regarded ascetic monasticism as dangerous because it caused men to retire from their duties as citizens to focus solely on saving their own souls. \"When men retire from their duties as citizens, intent on nothing but on saving their own souls, take up a position outside the State, and cease to be of the slightest use to society, the result may be harmless so long as their numbers are small\" [PDF p. 174].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      174,
+      175
+    ],
+    "gold_answer": "He argued it diverted many people from civic duties and weakened the state’s response to invasions.",
+    "cited_pages": [
+      174
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H2-Q5",
+    "question": "How many monasteries existed in the empire in AD 404?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H3-Q1",
+    "question": "Why was Constantine called Porphyrogenitus?",
+    "answerability": "stated",
+    "output_answer": "He was given this name because he was born in the Purple Chamber, which was the room in the palace reserved for the Empress. \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress\" [PDF p. 241].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      241
+    ],
+    "gold_answer": "He was born in the Purple Chamber, the palace room reserved for the empress.",
+    "cited_pages": [
+      241
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H3-Q2",
+    "question": "Which city did Saracen pirates capture in 904, and did they retain it?",
+    "answerability": "stated",
+    "output_answer": "Saracen pirates captured Thessalonica in 904, but they did not keep it. \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls\" [PDF p. 242].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      242
+    ],
+    "gold_answer": "Thessalonica; they departed with booty and did not try to hold it.",
+    "cited_pages": [
+      242
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H3-Q3",
+    "question": "According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?",
+    "answerability": "stated",
+    "output_answer": "The mob and the guards removed the sons of Romanus Lecapenus. \"The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother\" [PDF p. 243].",
+    "judgment": "partial",
+    "reason": "Correctly names the mob and guards removing the sons; does not answer who removed Romanus himself.",
+    "evidence_pages": [
+      243
+    ],
+    "gold_answer": "His sons forced him to abdicate; the mob and guards then swept away Stephen Lecapenus and his brother.",
+    "cited_pages": [
+      243
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H3-Q4",
+    "question": "Against which opponents did Leo recommend caution rather than rash general battle?",
+    "answerability": "stated",
+    "output_answer": "Leo recommended caution against the Franks and Lombards. \"It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution\" [PDF p. 245].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      245
+    ],
+    "gold_answer": "The Franks and Lombards; he preferred disrupting supplies and harassing marches.",
+    "cited_pages": [
+      245
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H3-Q5",
+    "question": "What was the annual pay of an ordinary Byzantine cavalryman?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H4-Q1",
+    "question": "Which ruler reunited the surviving Ottoman realm after the civil wars?",
+    "answerability": "stated",
+    "output_answer": "Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm. He \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      362,
+      363
+    ],
+    "gold_answer": "Mohammed, the youngest son of Bayezid, also called Mahomet the Unifier.",
+    "cited_pages": [
+      362
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H4-Q2",
+    "question": "Why did Manuel’s support for the two Mustaphas lead to war with Murad?",
+    "answerability": "stated",
+    "output_answer": "Manuel supported two claimants named Mustapha against Murad II, which resulted in the Sultan declaring war on the empire. This support \"drew down on the empire the fate which had been delayed since 1370\" [PDF p. 363].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      363
+    ],
+    "gold_answer": "He supported rival claimants, Murad’s uncle and brother; Murad retaliated by attacking Manuel’s territories.",
+    "cited_pages": [
+      363
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H4-Q3",
+    "question": "What immediate development caused Murad to lift the siege?",
+    "answerability": "stated",
+    "output_answer": "The pretender Mustapha began causing trouble in Asia Minor, prompting the Sultan to end the siege. The Sultan \"determined to raise the siege and march against him\" [PDF p. 365].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      365
+    ],
+    "gold_answer": "The pretender Mustapha stirred trouble in Asia Minor, leading Murad to march against him.",
+    "cited_pages": [
+      365
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H4-Q4",
+    "question": "What role does the passage assign to the vision of the Virgin?",
+    "answerability": "stated",
+    "output_answer": "The vision of the Virgin served to encourage the Greeks to continue their resistance. The report of the vision \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      365
+    ],
+    "gold_answer": "A reported miraculous vision encouraged Greek resistance.",
+    "cited_pages": [
+      365
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gemma26-off",
+    "question_id": "H4-Q5",
+    "question": "What was the exact number of soldiers killed during this siege?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H1-Q1",
+    "question": "Who led the Visigoths as they retreated toward the Danube?",
+    "answerability": "stated",
+    "output_answer": "Duke Fritigern led the Visigoths as they retreated toward the Danube. The text states, \"the Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children\" [PDF p. 61].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      61
+    ],
+    "gold_answer": "Fritigern.",
+    "cited_pages": [
+      61
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H1-Q2",
+    "question": "What two conditions did Valens impose for admission, and what happened to the arms condition?",
+    "answerability": "stated",
+    "output_answer": "Valens imposed the conditions that the Goths give hostages and surrender their arms. The arms condition was ignored because officials accepted bribes from the Goths to retain their weapons [PDF p. 63].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      63
+    ],
+    "gold_answer": "Hostages and surrender of arms; officials accepted bribes, allowing the Goths to retain weapons.",
+    "cited_pages": [
+      63
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H1-Q3",
+    "question": "According to this passage, how did Lupicinus’s food policy contribute to revolt?",
+    "answerability": "stated",
+    "output_answer": "Lupicinus withheld food and sold it at exorbitant prices, causing the Goths to sell their children for slaves to avoid starvation. This extortion drove the Goths to desperation and sparked the revolt [PDF p. 63].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      63,
+      64
+    ],
+    "gold_answer": "He withheld provisions and charged exorbitant prices; hunger and extortion drove desperation before the banquet clash.",
+    "cited_pages": [
+      63
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H1-Q4",
+    "question": "What result does the passage give for the battle at Ad Salices?",
+    "answerability": "stated",
+    "output_answer": "The battle at Ad Salices thinned the ranks of both sides but resulted in no decisive outcome. The passage notes it \"led to no decisive result\" [PDF p. 64].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      64
+    ],
+    "gold_answer": "It thinned both sides but produced no decisive result.",
+    "cited_pages": [
+      64
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H1-Q5",
+    "question": "What was the exact number of Roman soldiers killed at Ad Salices?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H2-Q1",
+    "question": "Who intervened in the gladiatorial games, in what year, and what happened to him?",
+    "answerability": "stated",
+    "output_answer": "The monk Telemachus intervened in the gladiatorial games in A.D. 404, and he was slain during the resulting scuffle. The text states, \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... the good monk was slain\" [PDF p. 171].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      171
+    ],
+    "gold_answer": "The monk Telemachus intervened in AD 404 and was killed.",
+    "cited_pages": [
+      171
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H2-Q2",
+    "question": "Who made infanticide a capital offence, and when?",
+    "answerability": "stated",
+    "output_answer": "Valentinian I made infanticide a capital offence in 374. The passage notes, \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      173
+    ],
+    "gold_answer": "Valentinian I in 374.",
+    "cited_pages": [
+      173
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H2-Q3",
+    "question": "Did the passage claim Christianity immediately ended slavery? State its qualification.",
+    "answerability": "stated",
+    "output_answer": "No, the passage claimed slavery was not extinguished for centuries, though its evils were immensely modified. It states, \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      173,
+      174
+    ],
+    "gold_answer": "No. Slavery persisted for centuries, although Oman says its evils were modified.",
+    "cited_pages": [
+      173
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H2-Q4",
+    "question": "Why did Oman regard widespread ascetic monasticism as politically dangerous?",
+    "answerability": "stated",
+    "output_answer": "Oman regarded widespread ascetic monasticism as politically dangerous because it removed men from their civic duties and left the state vulnerable to barbarian invasions. He argued that when men \"cease to be of the slightest use to society,\" the result is \"positively dangerous\" [PDF p. 174].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      174,
+      175
+    ],
+    "gold_answer": "He argued it diverted many people from civic duties and weakened the state’s response to invasions.",
+    "cited_pages": [
+      174
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H2-Q5",
+    "question": "How many monasteries existed in the empire in AD 404?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H3-Q1",
+    "question": "Why was Constantine called Porphyrogenitus?",
+    "answerability": "stated",
+    "output_answer": "Constantine was called Porphyrogenitus because he was born in the Purple Chamber, which was reserved for the Empress. [PDF p. 241]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      241
+    ],
+    "gold_answer": "He was born in the Purple Chamber, the palace room reserved for the empress.",
+    "cited_pages": [
+      241
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H3-Q2",
+    "question": "Which city did Saracen pirates capture in 904, and did they retain it?",
+    "answerability": "stated",
+    "output_answer": "Saracen pirates captured Thessalonica in 904, but they did not retain it as they fled with their booty. [PDF p. 242]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      242
+    ],
+    "gold_answer": "Thessalonica; they departed with booty and did not try to hold it.",
+    "cited_pages": [
+      242
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H3-Q3",
+    "question": "According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?",
+    "answerability": "stated",
+    "output_answer": "The mob and guards removed Stephen Lecapenus and his brother, after which Constantine emerged to administer the empire. [PDF p. 243]",
+    "judgment": "partial",
+    "reason": "Answers the removal of the sons but omits their earlier forced abdication of Romanus.",
+    "evidence_pages": [
+      243
+    ],
+    "gold_answer": "His sons forced him to abdicate; the mob and guards then swept away Stephen Lecapenus and his brother.",
+    "cited_pages": [
+      243
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H3-Q4",
+    "question": "Against which opponents did Leo recommend caution rather than rash general battle?",
+    "answerability": "stated",
+    "output_answer": "Leo recommended caution against the Franks and Lombards, who were described as men of the West. [PDF p. 245]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      245
+    ],
+    "gold_answer": "The Franks and Lombards; he preferred disrupting supplies and harassing marches.",
+    "cited_pages": [
+      245
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H3-Q5",
+    "question": "What was the annual pay of an ordinary Byzantine cavalryman?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H4-Q1",
+    "question": "Which ruler reunited the surviving Ottoman realm after the civil wars?",
+    "answerability": "stated",
+    "output_answer": "Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm after the civil wars. The text states he \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      362,
+      363
+    ],
+    "gold_answer": "Mohammed, the youngest son of Bayezid, also called Mahomet the Unifier.",
+    "cited_pages": [
+      362
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H4-Q2",
+    "question": "Why did Manuel’s support for the two Mustaphas lead to war with Murad?",
+    "answerability": "stated",
+    "output_answer": "Manuel’s support for two claimants named Mustapha provoked Murad to declare war and lay siege to Constantinople. The passage notes that this action \"drew down on the empire the fate which had been delayed since 1370\" by causing the Sultan to attack [PDF p. 363].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      363
+    ],
+    "gold_answer": "He supported rival claimants, Murad’s uncle and brother; Murad retaliated by attacking Manuel’s territories.",
+    "cited_pages": [
+      363
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H4-Q3",
+    "question": "What immediate development caused Murad to lift the siege?",
+    "answerability": "stated",
+    "output_answer": "The siege was lifted because the pretender Mustapha stirred up significant trouble in Asia Minor. The text explains that the Sultan \"determined to raise the siege and march against him\" [PDF p. 365].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      365
+    ],
+    "gold_answer": "The pretender Mustapha stirred trouble in Asia Minor, leading Murad to march against him.",
+    "cited_pages": [
+      365
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H4-Q4",
+    "question": "What role does the passage assign to the vision of the Virgin?",
+    "answerability": "stated",
+    "output_answer": "The vision of the Virgin is described as encouraging the Greeks to resist with greater spirit. The author writes that the report \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      365
+    ],
+    "gold_answer": "A reported miraculous vision encouraged Greek resistance.",
+    "cited_pages": [
+      365
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "qwen35-off-mtp",
+    "question_id": "H4-Q5",
+    "question": "What was the exact number of soldiers killed during this siege?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": []
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H1-Q1",
+    "question": "Who led the Visigoths as they retreated toward the Danube?",
+    "answerability": "stated",
+    "output_answer": "The Visigoths were led by their Duke Fritigern as they fell back toward the Danube. [PDF p. 61]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      61
+    ],
+    "gold_answer": "Fritigern.",
+    "cited_pages": [
+      61
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "missing",
+    "quotation_note": "Supporting quotation required but absent; substantive answer scored separately.",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H1-Q2",
+    "question": "What two conditions did Valens impose for admission, and what happened to the arms condition?",
+    "answerability": "stated",
+    "output_answer": "Valens required the Goths to give hostages and to surrender their arms; however, after the Goths bribed officials, they were allowed to keep their weapons. “if the Goth would give hostages, and surrender their arms… the Goths … offered large bribes… the bribes were accepted and the Goths retained their arms.” [PDF p. 63]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      63
+    ],
+    "gold_answer": "Hostages and surrender of arms; officials accepted bribes, allowing the Goths to retain weapons.",
+    "cited_pages": [
+      63
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H1-Q3",
+    "question": "According to this passage, how did Lupicinus’s food policy contribute to revolt?",
+    "answerability": "stated",
+    "output_answer": "Lupicinus hoarded the food stocks and sold rations at exorbitant prices, forcing the starving Goths to barter slaves for bread and driving them to desperation and revolt. “The governor, Lupicinus, … held back the food, and doled out what he chose to give at exorbitant prices… In sheer hunger the Goths were driven to barter a slave for a single loaf of bread… This drove the Goths to desperation, and a chance affray set the whole nation in a blaze.” [PDF p. 63‑64]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      63,
+      64
+    ],
+    "gold_answer": "He withheld provisions and charged exorbitant prices; hunger and extortion drove desperation before the banquet clash.",
+    "cited_pages": [
+      63,
+      64
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H1-Q4",
+    "question": "What result does the passage give for the battle at Ad Salices?",
+    "answerability": "stated",
+    "output_answer": "The battle at Ad Salices thinned the ranks of both sides but produced no decisive outcome. “A desperate pitched battle at Ad Salices… thinned the ranks of both sides, but led to no decisive result.” [PDF p. 64]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      64
+    ],
+    "gold_answer": "It thinned both sides but produced no decisive result.",
+    "cited_pages": [
+      64
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H1-Q5",
+    "question": "What was the exact number of Roman soldiers killed at Ad Salices?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H2-Q1",
+    "question": "Who intervened in the gladiatorial games, in what year, and what happened to him?",
+    "answerability": "stated",
+    "output_answer": "The monk Telemachus intervened in A.D. 404, leaping into the arena and was killed.  \n*“One day in A.D. 404 … the monk Telemachus leapt down into the arena … There was an angry scuffle, and the good monk was slain.”* [PDF p. 171]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      171
+    ],
+    "gold_answer": "The monk Telemachus intervened in AD 404 and was killed.",
+    "cited_pages": [
+      171
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H2-Q2",
+    "question": "Who made infanticide a capital offence, and when?",
+    "answerability": "stated",
+    "output_answer": "Valentinian I made infanticide a capital offence in 374.  \n*“…Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence.”* [PDF p. 173]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      173
+    ],
+    "gold_answer": "Valentinian I in 374.",
+    "cited_pages": [
+      173
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H2-Q3",
+    "question": "Did the passage claim Christianity immediately ended slavery? State its qualification.",
+    "answerability": "stated",
+    "output_answer": "No; the passage says slavery was not ended immediately, noting it “was not extinguished for centuries.”  \n*“Though slavery was not extinguished for centuries, its evils were immensely modified …”* [PDF p. 173]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      173,
+      174
+    ],
+    "gold_answer": "No. Slavery persisted for centuries, although Oman says its evils were modified.",
+    "cited_pages": [
+      173
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H2-Q4",
+    "question": "Why did Oman regard widespread ascetic monasticism as politically dangerous?",
+    "answerability": "stated",
+    "output_answer": "Oman (the author) judged that widespread ascetic monasticism was politically dangerous because large numbers of men abandoned civic duties and withdrew from service to the state, leaving the empire weakened.  \n*“When men retire from their duties as citizens … the result may be harmless so long as their numbers are small. But at this time the monastic impulse was working on such a large scale that its development was positively dangerous.”* [PDF p. 174]",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      174,
+      175
+    ],
+    "gold_answer": "He argued it diverted many people from civic duties and weakened the state’s response to invasions.",
+    "cited_pages": [
+      174
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H2-Q5",
+    "question": "How many monasteries existed in the empire in AD 404?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H3-Q1",
+    "question": "Why was Constantine called Porphyrogenitus?",
+    "answerability": "stated",
+    "output_answer": "Constantine was called Porphyrogenitus because he was “born in the Purple Chamber, the room in the palace set aside for the Empress” [PDF p. 241].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      241
+    ],
+    "gold_answer": "He was born in the Purple Chamber, the palace room reserved for the empress.",
+    "cited_pages": [
+      241
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H3-Q2",
+    "question": "Which city did Saracen pirates capture in 904, and did they retain it?",
+    "answerability": "stated",
+    "output_answer": "The Saracen pirates captured **Thessalonica** in 904, but “they fled with their booty, and made no attempt to hold its walls” [PDF p. 242].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      242
+    ],
+    "gold_answer": "Thessalonica; they departed with booty and did not try to hold it.",
+    "cited_pages": [
+      242
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "altered_wording",
+    "quotation_note": "Changes the Saracens to they inside a quotation.",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H3-Q3",
+    "question": "According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?",
+    "answerability": "stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "false_abstention",
+    "reason": "Claims not stated although PDF243 explicitly states both sons forcing Romanus to abdicate and mob/guards removing the sons.",
+    "evidence_pages": [
+      243
+    ],
+    "gold_answer": "His sons forced him to abdicate; the mob and guards then swept away Stephen Lecapenus and his brother.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H3-Q4",
+    "question": "Against which opponents did Leo recommend caution rather than rash general battle?",
+    "answerability": "stated",
+    "output_answer": "Leo advises caution only “when dealing with the men of the West, the Franks and Lombards” instead of a rash general battle [PDF p. 245].",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      245
+    ],
+    "gold_answer": "The Franks and Lombards; he preferred disrupting supplies and harassing marches.",
+    "cited_pages": [
+      245
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H3-Q5",
+    "question": "What was the annual pay of an ordinary Byzantine cavalryman?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "adds period to exact absence phrase"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H4-Q1",
+    "question": "Which ruler reunited the surviving Ottoman realm after the civil wars?",
+    "answerability": "stated",
+    "output_answer": "The ruler was Mohammed, the youngest son of Bayezid, who “united all the remnants of the Ottoman realm that remained”【PDF p. 362】.",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      362,
+      363
+    ],
+    "gold_answer": "Mohammed, the youngest son of Bayezid, also called Mahomet the Unifier.",
+    "cited_pages": [
+      362
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "alternative citation brackets"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H4-Q2",
+    "question": "Why did Manuel’s support for the two Mustaphas lead to war with Murad?",
+    "answerability": "stated",
+    "output_answer": "Manuel’s aid to two claimants named Mustapha “against him… drew down on the empire… the Sultan declared war on Manuel”【PDF p. 363】.",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      363
+    ],
+    "gold_answer": "He supported rival claimants, Murad’s uncle and brother; Murad retaliated by attacking Manuel’s territories.",
+    "cited_pages": [
+      363
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "alternative citation brackets"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H4-Q3",
+    "question": "What immediate development caused Murad to lift the siege?",
+    "answerability": "stated",
+    "output_answer": "Murad lifted the siege because the pretender Mustapha “began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him”【PDF p. 365】.",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      365
+    ],
+    "gold_answer": "The pretender Mustapha stirred trouble in Asia Minor, leading Murad to march against him.",
+    "cited_pages": [
+      365
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "supporting_quote_present",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "alternative citation brackets"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H4-Q4",
+    "question": "What role does the passage assign to the vision of the Virgin?",
+    "answerability": "stated",
+    "output_answer": "The vision of the Virgin is presented as “a miraculous vision… who… revealed herself as the defender of the city, encouraged the Greeks to resist with a better spirit”【PDF p. 365】.",
+    "judgment": "fully_supported",
+    "reason": "Required answer meaning is supported by the supplied passage.",
+    "evidence_pages": [
+      365
+    ],
+    "gold_answer": "A reported miraculous vision encouraged Greek resistance.",
+    "cited_pages": [
+      365
+    ],
+    "citation_support": "supports stated content; partial-answer omissions remain separate",
+    "quotation": "altered_wording",
+    "quotation_note": "Reorders source wording, changes reveal herself to revealed herself, and drops report wording within the quotation. Substantive presented-as answer remains supported.",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "alternative citation brackets"
+    ]
+  },
+  {
+    "model": "gptoss120-medium",
+    "question_id": "H4-Q5",
+    "question": "What was the exact number of soldiers killed during this siege?",
+    "answerability": "not_stated",
+    "output_answer": "Not stated in the supplied passage.",
+    "judgment": "correct_absence",
+    "reason": "Source-absent after review of the complete supplied passage.",
+    "evidence_pages": [],
+    "gold_answer": "Not stated in the supplied passage.",
+    "cited_pages": [],
+    "citation_support": "not_applicable",
+    "quotation": "not_applicable",
+    "quotation_note": "",
+    "format_notes": [
+      "nonbreaking hyphen in question ID; normalized for matching",
+      "adds period to exact absence phrase"
+    ]
+  }
+]

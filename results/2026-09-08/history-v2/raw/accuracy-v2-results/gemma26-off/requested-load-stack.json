@@ -1,0 +1,81 @@
+{
+  "layers": [
+    {
+      "layerName": "apiOverride",
+      "config": {
+        "fields": [
+          {
+            "key": "llm.load.contextLength",
+            "value": 65536
+          },
+          {
+            "key": "llm.load.llama.acceleration.offloadRatio",
+            "value": 1.0
+          },
+          {
+            "key": "load.gpuSplitConfig",
+            "value": {
+              "customRatio": [],
+              "disabledGpus": [],
+              "priority": [],
+              "strategy": "evenly"
+            }
+          },
+          {
+            "key": "llm.load.llama.evalBatchSize",
+            "value": 2048
+          },
+          {
+            "key": "llm.load.llama.flashAttention",
+            "value": true
+          },
+          {
+            "key": "llm.load.llama.kCacheQuantizationType",
+            "value": {
+              "checked": true,
+              "value": "f16"
+            }
+          },
+          {
+            "key": "llm.load.llama.vCacheQuantizationType",
+            "value": {
+              "checked": true,
+              "value": "f16"
+            }
+          },
+          {
+            "key": "llm.load.offloadKVCacheToGpu",
+            "value": true
+          },
+          {
+            "key": "llm.load.seed",
+            "value": {
+              "checked": true,
+              "value": 42
+            }
+          },
+          {
+            "key": "llm.load.numParallelSessions",
+            "value": 1
+          },
+          {
+            "key": "llm.load.llama.speculativeDecoding.draftMtp",
+            "value": false
+          },
+          {
+            "key": "llm.load.llama.speculativeDecoding.draftDflashSidecar",
+            "value": false
+          },
+          {
+            "key": "llm.load.llama.speculativeDecoding.draftDsparkSidecar",
+            "value": false
+          },
+          {
+            "key": "llm.load.llama.speculativeDecoding.draftMtpSidecar",
+            "value": false
+          }
+        ]
+      }
+    }
+  ]
+}

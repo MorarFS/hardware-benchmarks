@@ -1,0 +1,5 @@
+{
+  "time": "2026-09-08T10:26:35.628489+00:00",
+  "error": "F16 KV cache not explicitly verified",
+  "traceback": "Traceback (most recent call last):\n  File \"<BENCHMARK_ROOT>/accuracy_queue.py\", line 130, in run_model\n    assert sdk.get('llamaKCacheQuantizationType')=='f16' and sdk.get('llamaVCacheQuantizationType')=='f16','F16 KV cache not explicitly verified'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: F16 KV cache not explicitly verified\n"
+}

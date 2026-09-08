@@ -1,0 +1,72 @@
+{
+  "name": "development-extraction",
+  "model": "gemma26-off",
+  "fingerprint": "f31fa3eb18fdacd5d4fc2646585beb275e9a33d46696b8538b4bd736d354801d",
+  "started_at": "2026-09-08T12:30:58.053330+00:00",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 2448,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gemma26-off",
+    "output": [
+      {
+        "type": "message",
+        "content": "D-Q1: Seven prisoners were selected for execution, but not all seven died. Two of the criminals survived after the hangman bungled the task and the rope slipped [PDF p. 102].\n\nD-Q2: The passage does not attribute the 35,000 deaths solely to the Hippodrome assault. It states that \"35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage."
+      }
+    ],
+    "stats": {
+      "input_tokens": 2451,
+      "total_output_tokens": 121,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 46.664825998530056,
+      "time_to_first_token_seconds": 4.371753
+    }
+  },
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died. Two of the criminals survived after the hangman bungled the task and the rope slipped [PDF p. 102].\n\nD-Q2: The passage does not attribute the 35,000 deaths solely to the Hippodrome assault. It states that \"35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage.",
+  "stats": {
+    "input_tokens": 2451,
+    "total_output_tokens": 121,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 46.664825998530056,
+    "time_to_first_token_seconds": 4.371753
+  },
+  "wall_seconds": 6.956608938999125,
+  "stream_timing": {
+    "prompt_processing.start": 0.011453441002231557,
+    "prompt_processing.end": 4.3826304969989,
+    "first_visible_seconds": 4.382941240000946,
+    "last_visible_delta_seconds": 6.931722606001131,
+    "message.end": 6.956436961998406
+  },
+  "first_visible_token_seconds": 4.382941240000946,
+  "visible_text_tokens": 120,
+  "visible_tokens_per_total_wall_second": 17.249783774285994,
+  "visible_phase_tokens_per_second": 46.626066001726244,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 6.2,
+    "runtime_total_pss_bytes": 1712347136,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 20678311936,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 235954176,
+    "runtime_largest_process_rss_bytes": 1446707200,
+    "system_used_excluding_available_bytes": 5329305600,
+    "system_available_bytes": 27843796992,
+    "swap_used_bytes": 3752538112,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 71,
+  "finished_at": "2026-09-08T12:31:05.190617+00:00"
+}

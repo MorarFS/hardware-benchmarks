@@ -1,0 +1,266 @@
+{
+  "verified_utc": "2026-09-08T12:54:55Z",
+  "unit": "ActiveState=inactive\nSubState=dead\nUnitFileState=enabled\nMainPID=0\nResult=success\n",
+  "completion": {
+    "time": "2026-09-08T12:47:00.822886+00:00",
+    "models": {
+      "gemma26-off": "complete",
+      "qwen35-off-mtp": "complete",
+      "gptoss120-medium": "complete"
+    },
+    "quality": "Generation terminal; source adjudication pending"
+  },
+  "models": {
+    "gemma26-off": {
+      "completion": {
+        "time": "2026-09-08T12:34:13.509359+00:00",
+        "meaning": "All planned stages reached a terminal record; inspect request statuses, not an accuracy pass."
+      },
+      "requests": [
+        {
+          "name": "development-extraction",
+          "status": "ok",
+          "sha256": "ab242d7c86c2139700d82178abbab6227fddf2c2cf213bc0c09028ac46860f03"
+        },
+        {
+          "name": "H3-extraction",
+          "status": "ok",
+          "sha256": "0f7751e77dd600c7757d382852aa9c0d3adb15b743eca9699e3353d59677a3cd"
+        },
+        {
+          "name": "H2-extraction",
+          "status": "ok",
+          "sha256": "35210ca500a7da25b2003ff6ec0515599b3d94c6237497103ca662313b6f766d"
+        },
+        {
+          "name": "development-summary",
+          "status": "ok",
+          "sha256": "63bedc21f11f81693dee7caf7c23dcdccade1f3263780aca14b6f49d30add0e0"
+        },
+        {
+          "name": "full-source-control",
+          "status": "ok",
+          "sha256": "e484d592ca2d150f9ddb8885f53d163765a7fcde7e262f60eb4bb090779227fc"
+        },
+        {
+          "name": "merged-summary-synthesis",
+          "status": "ok",
+          "sha256": "d938c9f887592074798f70d6ff54f5a7354aa4517f6ccf610034f471bd0f9bba"
+        },
+        {
+          "name": "H3-summary",
+          "status": "ok",
+          "sha256": "6308b97dda301373e06428623f8c16f6d65826e5feefc6e40caa89827098f1df"
+        },
+        {
+          "name": "H4-extraction",
+          "status": "ok",
+          "sha256": "4e1d2f0a1094d639e203cc108a2ba2428a2d27eae85a56db9e6dfb32b8e6b766"
+        },
+        {
+          "name": "H2-summary",
+          "status": "ok",
+          "sha256": "7a24c134fb4306b0e20c38814dde0d6ec6f873ad593507756f5bf9dfd38e53a7"
+        },
+        {
+          "name": "H1-extraction",
+          "status": "ok",
+          "sha256": "1860c2b2f9428c8d41f18ea006a895fd5647956008ac319ca614fc86f9d2d410"
+        },
+        {
+          "name": "H4-summary",
+          "status": "ok",
+          "sha256": "bade1368cf1102e3ce27a97584b161320da9ae5d4d4ad3536d8c8ebc24f30549"
+        },
+        {
+          "name": "H1-summary",
+          "status": "ok",
+          "sha256": "ab5b7d48f955d7146dd0253cb09b3503fab223ea426267a24d520105aaf635d2"
+        }
+      ],
+      "load": {
+        "gpu": {
+          "ratio": 1.0,
+          "splitStrategy": "evenly",
+          "disabledGpus": []
+        },
+        "offloadKVCacheToGpu": true,
+        "contextLength": 65536,
+        "evalBatchSize": 2048,
+        "flashAttention": true,
+        "seed": 42,
+        "numExperts": 8,
+        "llamaKCacheQuantizationType": "f16",
+        "llamaVCacheQuantizationType": "f16"
+      }
+    },
+    "qwen35-off-mtp": {
+      "completion": {
+        "time": "2026-09-08T12:37:21.650250+00:00",
+        "meaning": "All planned stages reached a terminal record; inspect request statuses, not an accuracy pass."
+      },
+      "requests": [
+        {
+          "name": "development-extraction",
+          "status": "ok",
+          "sha256": "e5a269234d75e0301a3fddd8aabd321041a17c0a99bb81aa34195fff4f80d632"
+        },
+        {
+          "name": "H3-extraction",
+          "status": "ok",
+          "sha256": "b4e3b79e6ac27d8492cfd70ad1af66f6e3a29e46cc2410857b5a26eadc52412f"
+        },
+        {
+          "name": "H2-extraction",
+          "status": "ok",
+          "sha256": "0a70c4a3ec1bdf2038a4fd5a8ac5ad9191eef5cb3af22044a45d1f0988b2220a"
+        },
+        {
+          "name": "development-summary",
+          "status": "ok",
+          "sha256": "73bcea18cf1ef0e6db5d51f9731c499f8f64dda5de5525c3083562b4cff3e112"
+        },
+        {
+          "name": "full-source-control",
+          "status": "ok",
+          "sha256": "13369e2325c0d6df94eb2c85d2f7c0cc949cbbf0193b468408897fdfa8ec3c84"
+        },
+        {
+          "name": "merged-summary-synthesis",
+          "status": "ok",
+          "sha256": "5129be682586cfa487dca708ecbb055e999c3a0505cbb1b8d2183be49167f8ba"
+        },
+        {
+          "name": "H3-summary",
+          "status": "ok",
+          "sha256": "2623b85361413e06ba424d1397fd80afd345115f4d0eedce059fd64d4042a54d"
+        },
+        {
+          "name": "H4-extraction",
+          "status": "ok",
+          "sha256": "5a3f52cf0d6ce3290e0931bed84ca1764ee79ba4c3b6c267cd4bc68c0394a785"
+        },
+        {
+          "name": "H2-summary",
+          "status": "ok",
+          "sha256": "1397c6f7f6519ffd724024b47ab236bcaaeabb81f2c94abecd03685d39fd8b81"
+        },
+        {
+          "name": "H1-extraction",
+          "status": "ok",
+          "sha256": "4054dbc186ba79fef9b1d985d4c21258647f54c4a4546592817710b348fd9aa8"
+        },
+        {
+          "name": "H4-summary",
+          "status": "ok",
+          "sha256": "e1883dffa616e861fc86ba6c8e544fbb79dabefe46877276d904e342ef751ed2"
+        },
+        {
+          "name": "H1-summary",
+          "status": "ok",
+          "sha256": "aeef7eba5a0ccc50cdbdb57cc56e528ad7e81bc98ea8dbf36a787b16c79082b5"
+        }
+      ],
+      "load": {
+        "gpu": {
+          "ratio": 1.0,
+          "splitStrategy": "evenly",
+          "disabledGpus": []
+        },
+        "offloadKVCacheToGpu": true,
+        "contextLength": 65536,
+        "evalBatchSize": 2048,
+        "flashAttention": true,
+        "seed": 42,
+        "numExperts": 8,
+        "llamaKCacheQuantizationType": "f16",
+        "llamaVCacheQuantizationType": "f16"
+      }
+    },
+    "gptoss120-medium": {
+      "completion": {
+        "time": "2026-09-08T12:46:54.173221+00:00",
+        "meaning": "All planned stages reached a terminal record; inspect request statuses, not an accuracy pass."
+      },
+      "requests": [
+        {
+          "name": "development-extraction",
+          "status": "ok",
+          "sha256": "7447ecfc6a1f440efbb9cbfd7421f5d5f19e7233bf7749f3e6228f670c8c9b3f"
+        },
+        {
+          "name": "H3-extraction",
+          "status": "ok",
+          "sha256": "1a17e8b1bf02bef870671550e96e587c4e77c7a3604068b7d1134c966e33de5e"
+        },
+        {
+          "name": "H2-extraction",
+          "status": "ok",
+          "sha256": "91a6e98eb94ff82e5dd7b270477a3e8a2af4ed2a84aca5d47321fbd0bfcc3a04"
+        },
+        {
+          "name": "development-summary",
+          "status": "ok",
+          "sha256": "9731d4614abd9de602005c2e44a8bb7edaa8b22059b09e08a813f6d19b3ae978"
+        },
+        {
+          "name": "full-source-control",
+          "status": "ok",
+          "sha256": "7fba865cedd187c4499fb90e31ef70b5ff6ff8b893277fcd583a068da211aeda"
+        },
+        {
+          "name": "merged-summary-synthesis",
+          "status": "ok",
+          "sha256": "8c62a652cdbbfa507410a0d260956ff4644590270db6aec6f32da1e981f33941"
+        },
+        {
+          "name": "H3-summary",
+          "status": "ok",
+          "sha256": "a7376fbe9d7e547e163047729acda588dde0fb923c0e6d2e23c17a3f2d265ed1"
+        },
+        {
+          "name": "H4-extraction",
+          "status": "ok",
+          "sha256": "28d97fe64ba4bac226da06c6f5f3684d9ef9986baebf32e9ffe0294fcb957dc3"
+        },
+        {
+          "name": "H2-summary",
+          "status": "ok",
+          "sha256": "82de89a97cabfc3128997defd70d9ba9d7c0344a8d5823e69aa33ea933bd3221"
+        },
+        {
+          "name": "H1-extraction",
+          "status": "ok",
+          "sha256": "674a7388998cfa216f76ab6573bcbdc50868f72dbfdf67e9bf89d13198ed6d0d"
+        },
+        {
+          "name": "H4-summary",
+          "status": "ok",
+          "sha256": "4a3dac5fd52a519773744d8f39afc408c5b6dbaa70873d6a5861f2bd5b550962"
+        },
+        {
+          "name": "H1-summary",
+          "status": "ok",
+          "sha256": "de241afa3dbe479c1197e08388ad9cfea0f4aa62340892106a1864d26434173c"
+        }
+      ],
+      "load": {
+        "gpu": {
+          "ratio": 1.0,
+          "splitStrategy": "evenly",
+          "disabledGpus": []
+        },
+        "offloadKVCacheToGpu": true,
+        "contextLength": 65536,
+        "evalBatchSize": 2048,
+        "flashAttention": true,
+        "seed": 42,
+        "numExperts": 4,
+        "llamaKCacheQuantizationType": "f16",
+        "llamaVCacheQuantizationType": "f16"
+      }
+    }
+  },
+  "rocm_service": "active",
+  "lms_service": "active"
+}

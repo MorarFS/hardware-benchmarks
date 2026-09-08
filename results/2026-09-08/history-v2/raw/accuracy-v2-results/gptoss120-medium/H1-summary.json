@@ -1,0 +1,77 @@
+{
+  "name": "H1-summary",
+  "model": "gptoss120-medium",
+  "fingerprint": "192843cde4a69de2b5380e920cb23d4290d9318adeeb19fd876e3de8ec0ae565",
+  "started_at": "2026-09-08T12:40:45.909735+00:00",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 8192,
+  "preflight_input_tokens": 3449,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-gptoss120-medium",
+    "output": [
+      {
+        "type": "reasoning",
+        "content": "We need to write a connected summary of 180-220 words using only this passage. Must attribute author's evaluations explicitly. Need to cite every factual sentence with PDF page markers. Must separate author's judgments, reported testimony, and events? The prompt: \"Cover its beginning, middle, and ending. Preserve the main actions, causal relationships, and qualifications. Attribute the author’s evaluations explicitly.\" Also need citations for every factual sentence. So each factual claim needs a [PDF p. X] tag. Must not add generic limitations paragraph.\n\nWe need to produce 180-220 words.\n\nWe must identify what is factual vs author evaluation. The author includes judgments like \"stupid, cowardly, avaricious\" about Valens, \"prescient Constantine\", etc. Those are author evaluations and should be attributed: e.g., \"The author calls Valens 'stupid, cowardly, and avaricious' (author's assessment) [PDF p. 62].\"\n\nAll other descriptions of events are factual in passage.\n\nWe need to quote some descriptions like Gothic historian's description of Huns. That is a reported testimony, need to note that it's a Gothic historian's depiction.\n\nWe need to use citations after each sentence.\n\nLet's craft summary ~200 words.\n\nProceed.\n\n"
+      },
+      {
+        "type": "message",
+        "content": "The author opens by declaring that Constantine’s decision to build a “great fortress‑capital” on the Balkan Peninsula proved “prescient” when the Huns entered Europe (author’s evaluation) [PDF p. 61]. Around A.D. 372 the Huns, described by a Gothic historian as “men with faces that can hardly be called faces…little in stature, but lithe and active, skilful in riding” [PDF p. 61], first devastated the Alans, then crushed the Ostrogoths, forcing the survivors toward the Danube delta; they then overran the Visigoths, who fled with families to the riverbank and begged the emperor to let them cross [PDF p. 61‑62]. In A.D. 376 the empire was split, Valens—whom the author labels “stupid, cowardly, and avaricious” [PDF p. 62]—was petitioned by the Goths. Valens allowed their crossing on the condition they surrender arms and give hostages; after they entered Moesia the governor Lupicinus hoarded food and sold it at “exorbitant prices,” driving the Goths to desperation and prompting a violent clash at Marcianopolis [PDF p. 63‑64]. A year of fighting culminated in the Battle of Adrianople (378 A.D.), where Gothic cavalry broke Roman lines, killing the emperor and most commanders; the loss was compared to Cannae by Ammianus Marcellinus [PDF p. 66‑67]. The victorious Goths briefly threatened Constantinople, but, “their courage failed them” when they saw the city’s walls and withdrew to Thrace [PDF p. 67]."
+      }
+    ],
+    "stats": {
+      "input_tokens": 3449,
+      "total_output_tokens": 626,
+      "reasoning_output_tokens": 256,
+      "tokens_per_second": 48.59936248522677,
+      "time_to_first_token_seconds": 6.261887
+    }
+  },
+  "output": "The author opens by declaring that Constantine’s decision to build a “great fortress‑capital” on the Balkan Peninsula proved “prescient” when the Huns entered Europe (author’s evaluation) [PDF p. 61]. Around A.D. 372 the Huns, described by a Gothic historian as “men with faces that can hardly be called faces…little in stature, but lithe and active, skilful in riding” [PDF p. 61], first devastated the Alans, then crushed the Ostrogoths, forcing the survivors toward the Danube delta; they then overran the Visigoths, who fled with families to the riverbank and begged the emperor to let them cross [PDF p. 61‑62]. In A.D. 376 the empire was split, Valens—whom the author labels “stupid, cowardly, and avaricious” [PDF p. 62]—was petitioned by the Goths. Valens allowed their crossing on the condition they surrender arms and give hostages; after they entered Moesia the governor Lupicinus hoarded food and sold it at “exorbitant prices,” driving the Goths to desperation and prompting a violent clash at Marcianopolis [PDF p. 63‑64]. A year of fighting culminated in the Battle of Adrianople (378 A.D.), where Gothic cavalry broke Roman lines, killing the emperor and most commanders; the loss was compared to Cannae by Ammianus Marcellinus [PDF p. 66‑67]. The victorious Goths briefly threatened Constantinople, but, “their courage failed them” when they saw the city’s walls and withdrew to Thrace [PDF p. 67].",
+  "stats": {
+    "input_tokens": 3449,
+    "total_output_tokens": 626,
+    "reasoning_output_tokens": 256,
+    "tokens_per_second": 48.59936248522677,
+    "time_to_first_token_seconds": 6.261887
+  },
+  "wall_seconds": 19.946470125003543,
+  "stream_timing": {
+    "prompt_processing.start": 0.8207683569999062,
+    "prompt_processing.end": 7.08251729800395,
+    "first_reasoning_seconds": 7.152471446002892,
+    "reasoning.end": 12.519715528003871,
+    "first_visible_seconds": 12.519875604004483,
+    "last_visible_delta_seconds": 19.92116309400444,
+    "message.end": 19.946054407999327
+  },
+  "first_visible_token_seconds": 12.519875604004483,
+  "visible_text_tokens": 360,
+  "visible_tokens_per_total_wall_second": 18.048306178682132,
+  "visible_phase_tokens_per_second": 48.47443858447938,
+  "reasoning_tokens": 256,
+  "reasoning_observed": true,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 4.5,
+    "runtime_total_pss_bytes": 773376000,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 67281530880,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 254517248,
+    "runtime_largest_process_rss_bytes": 686911488,
+    "system_used_excluding_available_bytes": 4506558464,
+    "system_available_bytes": 28426121216,
+    "swap_used_bytes": 4162879488,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 224,
+  "finished_at": "2026-09-08T12:41:06.105722+00:00"
+}

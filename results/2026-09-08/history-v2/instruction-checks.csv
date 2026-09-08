@@ -1,0 +1,19 @@
+model,stage,raw_whitespace_words,prose_words_without_citation_markers,requested_min,requested_max,within_word_range,paragraph_count,paragraph_mapping,em_dash_count,physical_page_reference_style,four_paragraph_mapping_pass
+gemma26-off,H1-summary,268,226,180,220,False,2,[],0,PDF markers,
+gemma26-off,H2-summary,201,175,180,220,False,2,[],0,PDF markers,
+gemma26-off,H3-summary,225,194,180,220,True,2,[],0,PDF markers,
+gemma26-off,H4-summary,210,183,180,220,True,2,[],0,PDF markers,
+gemma26-off,merged-summary-synthesis,822,699,350,450,False,4,"[""H1"", ""H2"", ""H3"", ""H4""]",0,PDF markers,True
+gemma26-off,full-source-control,454,432,350,450,True,4,"[""H1"", ""H1"", ""H1"", ""H3""]",0,parenthesized page numbers,False
+qwen35-off-mtp,H1-summary,262,223,180,220,False,1,[],0,PDF markers,
+qwen35-off-mtp,H2-summary,237,195,180,220,True,1,[],0,PDF markers,
+qwen35-off-mtp,H3-summary,231,207,180,220,True,1,[],0,PDF markers,
+qwen35-off-mtp,H4-summary,262,235,180,220,False,1,[],0,PDF markers,
+qwen35-off-mtp,merged-summary-synthesis,992,860,350,450,False,4,"[""H1"", ""H2"", ""H3"", ""H4""]",0,PDF markers,True
+qwen35-off-mtp,full-source-control,509,477,350,450,False,4,"[""H1"", ""H1"", ""H2+H3"", ""H4""]",0,parenthesized page numbers,False
+gptoss120-medium,H1-summary,224,204,180,220,True,1,[],2,PDF markers,
+gptoss120-medium,H2-summary,449,419,180,220,False,5,[],0,PDF markers,
+gptoss120-medium,H3-summary,258,237,180,220,False,1,[],0,PDF markers,
+gptoss120-medium,H4-summary,335,310,180,220,False,3,[],0,PDF markers,
+gptoss120-medium,merged-summary-synthesis,1264,1170,350,450,False,4,"[""H1"", ""H2"", ""H3"", ""H4""]",2,PDF markers,True
+gptoss120-medium,full-source-control,637,601,350,450,False,4,"[""H1"", ""H2"", ""H3"", ""H4""]",5,parenthesized page numbers,True

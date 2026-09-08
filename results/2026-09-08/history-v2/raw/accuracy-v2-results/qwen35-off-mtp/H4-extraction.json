@@ -1,0 +1,72 @@
+{
+  "name": "H4-extraction",
+  "model": "qwen35-off-mtp",
+  "fingerprint": "185ccc11a185e989ad62530d401fef62f45e274585f0245f31f656a25440b85e",
+  "started_at": "2026-09-08T12:36:10.714683+00:00",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "gold_in_payload": false,
+  "quality": "Unadjudicated",
+  "output_budget": 2048,
+  "preflight_input_tokens": 4179,
+  "status": "ok",
+  "response": {
+    "model_instance_id": "evo-accuracy-qwen35-off-mtp",
+    "output": [
+      {
+        "type": "message",
+        "content": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm after the civil wars. The text states he \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel’s support for two claimants named Mustapha provoked Murad to declare war and lay siege to Constantinople. The passage notes that this action \"drew down on the empire the fate which had been delayed since 1370\" by causing the Sultan to attack [PDF p. 363].\n\nH4-Q3: The siege was lifted because the pretender Mustapha stirred up significant trouble in Asia Minor. The text explains that the Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin is described as encouraging the Greeks to resist with greater spirit. The author writes that the report \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage"
+      }
+    ],
+    "stats": {
+      "input_tokens": 4181,
+      "total_output_tokens": 256,
+      "reasoning_output_tokens": 0,
+      "tokens_per_second": 83.24877869144673,
+      "time_to_first_token_seconds": 5.3167740000000006
+    }
+  },
+  "output": "H4-Q1: Mohammed, the youngest son of Bayezid, reunited the remnants of the Ottoman realm after the civil wars. The text states he \"triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained\" [PDF p. 362].\n\nH4-Q2: Manuel’s support for two claimants named Mustapha provoked Murad to declare war and lay siege to Constantinople. The passage notes that this action \"drew down on the empire the fate which had been delayed since 1370\" by causing the Sultan to attack [PDF p. 363].\n\nH4-Q3: The siege was lifted because the pretender Mustapha stirred up significant trouble in Asia Minor. The text explains that the Sultan \"determined to raise the siege and march against him\" [PDF p. 365].\n\nH4-Q4: The vision of the Virgin is described as encouraging the Greeks to resist with greater spirit. The author writes that the report \"encouraged the Greeks to resist with a better spirit than might have been expected\" [PDF p. 365].\n\nH4-Q5: Not stated in the supplied passage",
+  "stats": {
+    "input_tokens": 4181,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.24877869144673,
+    "time_to_first_token_seconds": 5.3167740000000006
+  },
+  "wall_seconds": 9.166742296998564,
+  "stream_timing": {
+    "prompt_processing.start": 0.7919398809972336,
+    "prompt_processing.end": 6.102083334000781,
+    "first_visible_seconds": 6.102313303999836,
+    "last_visible_delta_seconds": 9.166519566999341,
+    "message.end": 9.166576279996661
+  },
+  "first_visible_token_seconds": 6.102313303999836,
+  "visible_text_tokens": 255,
+  "visible_tokens_per_total_wall_second": 27.81795230389468,
+  "visible_phase_tokens_per_second": 83.21289237981891,
+  "reasoning_tokens": 0,
+  "reasoning_observed": false,
+  "output_limit_reached": false,
+  "peak_metrics": {
+    "cpu_percent": 3.5,
+    "runtime_total_pss_bytes": 4734424064,
+    "llama_server_process_count": 1,
+    "card1_vram_used_bytes": 26030354432,
+    "system_total_bytes": 32721723392,
+    "card1_gtt_total_bytes": 16360861696,
+    "card1_gtt_used_bytes": 352731136,
+    "runtime_largest_process_rss_bytes": 4458930176,
+    "system_used_excluding_available_bytes": 8631386112,
+    "system_available_bytes": 24512081920,
+    "swap_used_bytes": 3760500736,
+    "card1_vram_total_bytes": 103079215104
+  },
+  "word_count": 170,
+  "finished_at": "2026-09-08T12:36:20.129488+00:00"
+}
