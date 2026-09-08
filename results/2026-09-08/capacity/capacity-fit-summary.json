@@ -1,0 +1,35 @@
+{
+  "model": "nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_M.gguf",
+  "revision": "98fc9722ebffe74e41685c477cf2982012d3f0ad",
+  "sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+  "checksum_verified": true,
+  "memory_sampling": "Windows GPU Process Memory counters approximately every six seconds; loading and inference included",
+  "runs": [
+    {
+      "context_tokens": 0,
+      "offloaded_layers": 81,
+      "total_layers": 81,
+      "gpu_model_buffer_mib": 28244.7,
+      "cpu_mapped_model_buffer_mib": 563.62,
+      "generation_tokens_per_second": 15.988204,
+      "standard_deviation": 0.038298,
+      "peak_dedicated_gib": 30.92565155029297,
+      "peak_shared_gib": 0.090972900390625,
+      "peak_local_gib": 30.60588836669922,
+      "peak_nonlocal_gib": 0.090972900390625
+    },
+    {
+      "context_tokens": 2048,
+      "offloaded_layers": 81,
+      "total_layers": 81,
+      "gpu_model_buffer_mib": 28244.7,
+      "cpu_mapped_model_buffer_mib": 563.62,
+      "generation_tokens_per_second": 15.547394,
+      "standard_deviation": 0.014298,
+      "peak_dedicated_gib": 30.19158172607422,
+      "peak_shared_gib": 0.083160400390625,
+      "peak_local_gib": 30.18944549560547,
+      "peak_nonlocal_gib": 0.07928466796875
+    }
+  ]
+}

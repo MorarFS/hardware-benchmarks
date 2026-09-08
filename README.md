@@ -1,6 +1,6 @@
 # Local GPU inference benchmarks
 
-Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model. These measure this complete machine and software configuration, including the external GPU connection.
+Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model, followed by a separate Nemotron 49B capacity test on the Intel GPU. These measure this complete machine and software configuration, including the external GPU connection.
 
 **8B comparison completed:** Intel Vulkan and SYCL were repeated at depth 0; initial and repeat results are retained separately. SYCL produced the highest measured generation throughput among the working backends in these tests. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
 
@@ -15,7 +15,7 @@ Windows laptop measurements from September 8, 2026, comparing an external Intel 
 | Drivers | Intel 32.0.101.8805; NVIDIA reported 610.88 |
 | Power | AC connected |
 
-The Intel workstation driver was installed from Intel's official package after signature and hash verification. Windows initially reported Code 43; restarting cleared it and device/display health checks passed. No driver binaries or diagnostic logs are included. The detected dock does not prove the negotiated link speed or effective PCIe bandwidth.
+The Intel workstation driver was installed from Intel's official package after signature and hash verification. Windows initially reported Code 43; restarting cleared it and device/display health checks passed. No driver binaries or full diagnostic logs are included; selected sanitized capacity offload excerpts are provided. The detected dock does not prove the negotiated link speed or effective PCIe bandwidth.
 
 ## Model and method
 
@@ -70,28 +70,52 @@ Use PowerShell on Windows with compatible, healthy GPU drivers and AC power. Dev
 
 Inspect local logs for actual GPU offload and fallback before sharing results. Raw local logs stay ignored. The reusable scripts were syntax-checked; this publishing task did not rerun GPU workloads. Measured data came from the original benchmark invocation with the same settings (FP16 KV used the runtime default).
 
-## Limits and pending work
+## Limits
 
-One laptop, one model/quantization, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. No energy, quality, tokenization, sampling, application latency or concurrency benchmark was performed.
+One laptop, two Q4_K_M models, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. No energy, quality, tokenization, sampling, application latency or concurrency benchmark was performed.
 
 OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
-## Pending 49B capacity test
+## Completed 49B capacity test
 
-The candidate is **Llama 3.3 Nemotron Super 49B v1.5, Q4_K_M**, quantized by **bartowski**, with a GGUF file of **30,215,579,136 bytes (30.22 GB; about 28.14 GiB)**. It supersedes the planned Qwen3-32B baseline; the 32B download was stopped and its partial file retained locally. Keeping Q4_K_M preserves the earlier quantization choice while exploring a model closer to the Arc's 32 GB memory limit. This is not proof of the largest fitting model across all architectures or quantization levels, nor a direct speed comparison with the 8B model.
+The tested model is **Llama 3.3 Nemotron Super 49B v1.5, Q4_K_M**, quantized by **bartowski**, with a GGUF file of **30,215,579,136 bytes (30.22 GB; about 28.14 GiB)**. It supersedes the planned Qwen3-32B baseline; the 32B download was stopped and its partial file retained locally. Keeping Q4_K_M preserves the earlier quantization choice while exploring a model closer to the Arc's 32 GB memory limit. This is not proof of the largest fitting model across all architectures or quantization levels, nor a direct speed comparison with the 8B model.
 
-**Download and capacity testing are pending. No 49B full-GPU fit or throughput result has been established.** Weight-file size alone does not establish fit: KV cache, compute buffers and runtime allocations also need memory. Report the actual context, cache type and layer-offload evidence with any successful measurement.
+**The model download passed SHA-256 verification, and both SYCL capacity runs completed with 81/81 layers offloaded.** The measured configuration used llama.cpp b10852, single-device SYCL0, FP16 KV, flash attention, batch/microbatch 512, ten threads and five repetitions after warmup, matching the earlier protocol. Generation produced 256 tokens at initial depths 0 and 2,048; prompt processing used 512 tokens separately at depth 0.
 
-Pinned source: [bartowski GGUF revision](https://huggingface.co/bartowski/nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/tree/98fc9722ebffe74e41685c477cf2982012d3f0ad), revision `98fc9722ebffe74e41685c477cf2982012d3f0ad`, filename `nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_M.gguf`. Expected SHA-256: `eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01`. This third-party quantization is distinct from the official Qwen 8B model used above.
+Pinned source: [bartowski GGUF revision](https://huggingface.co/bartowski/nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/tree/98fc9722ebffe74e41685c477cf2982012d3f0ad), revision `98fc9722ebffe74e41685c477cf2982012d3f0ad`, filename `nvidia_Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_M.gguf`. Verified SHA-256: `eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01`. This third-party quantization is distinct from the official Qwen 8B model used above.
 
-The following commands request the same depth-0/2,048, FP16 KV, five-repetition protocol on a single SYCL GPU. Confirm the Arc's current device ID first. They are prepared reproduction commands, not evidence that this model fits:
+### 49B throughput and fit evidence
+
+| Test | Initial depth | Mean tokens/s | SD tokens/s |
+| --- | ---: | ---: | ---: |
+| Prompt processing 512 | 0 | 185.733742 | 0.182183 |
+| Generation 256 | 0 | 15.988204 | 0.038298 |
+| Generation 256 | 2048 | 15.547394 | 0.014298 |
+
+This demonstrates a near-capacity Q4_K_M model running with all 81 layers offloaded on this Arc configuration at the tested depths. It does not establish the largest possible model, support for larger contexts, or comparable speed or quality to the different 8B model.
+
+Both logs report a **28,244.70 MiB SYCL0 model buffer** and a **563.62 MiB CPU_Mapped model buffer**. KV buffers were on SYCL0: 98 MiB for the short prompt-processing context, 49 MiB for short generation, and 441 MiB for depth-2,048 generation. GPU compute buffers were 133.25–266.50 MiB, with SYCL host compute buffers of about 16.13–34.26 MiB. All-layer offload therefore does not mean zero host-memory use.
+
+| Initial depth | Peak dedicated GPU memory (GiB) | Peak shared GPU memory (GiB) |
+| --- | ---: | ---: |
+| 0 | 30.925652 | 0.090973 |
+| 2048 | 30.191582 | 0.083160 |
+
+These are Windows **GPU Process Memory** samples taken approximately every six seconds, including model loading and inference. The selected counter instance is the process adapter with the largest dedicated-memory sample. Each column is its own sampled maximum and need not occur at the same instant; the short run also includes prompt processing. These counters are not an exact sum of llama.cpp's buffer reports, can miss brief peaks, and do not prove that paging never occurred. The small measured shared-memory use is retained explicitly. There is no zero-CPU or zero-paging claim.
+
+Sanitized benchmark JSON, offload excerpts, memory time series and `capacity-fit-summary.json` are in `results/2026-09-08/capacity/`. CSV adapter names are `primary-benchmark-adapter` for the peak-dedicated instance and `other-adapter-N` for the remaining instances; process IDs and adapter LUIDs are removed. The primary label follows the counter-selection rule, not an independently verified LUID-to-device mapping. Original values and elapsed times are retained. `results/summary.csv` combines all **19 measurements**; the original 16-row 8B summary is preserved.
+
+The raw runtime `model_type` remains `deci 70B Q4_K - Medium`; this is a heuristic label, not the artifact's actual size. The verified model identity is Nemotron Super 49B v1.5, and JSON reports **49,867,145,280 parameters**. The GGUF file has 30,215,579,136 bytes; llama-bench reports 30,207,721,728 bytes of model tensors.
+
+### Reproduce the capacity test
+The following commands request the same depth-0/2,048, FP16 KV, five-repetition protocol on a single SYCL GPU. Confirm the Arc's current device ID first. Use `-MonitorGpuMemory` to reproduce the per-process Windows counter sampling alongside loading and inference:
 
 ```powershell
 ./scripts/Get-Model.ps1 -ModelId nemotron-49b
-./scripts/Run-Benchmark.ps1 -Executable ./work/llama-sycl/llama-bench.exe -Device SYCL0 -RunName intel-sycl-nemotron49b -ModelId nemotron-49b
+./scripts/Run-Benchmark.ps1 -Executable ./work/llama-sycl/llama-bench.exe -Device SYCL0 -RunName intel-sycl-nemotron49b -ModelId nemotron-49b -MonitorGpuMemory
 ```
 
-Both scripts use the pinned manifest in `scripts/models.json`. The benchmark requests all layers on the GPU and rejects a 49B run if its log does not confirm all layers offloaded. Also inspect device allocation and cache placement in the local log before claiming fully GPU-resident inference. Failure to fit is a valid capacity-test outcome; do not silently reduce offload and present it as the same test. These script additions were syntax-checked without downloading the 49B model or running GPU work in the publishing task. Completed capacity runs will be documented separately from the 8B measurements.
+The download and benchmark scripts use the pinned manifest in `scripts/models.json`. `Watch-GpuMemory.ps1` uses the same five-second process wait plus counter-query loop as the original runner, giving roughly six-second sampling. It requires the English Windows counter names and writes adapter aliases instead of machine/process identifiers; missing counters produce a warning. The benchmark requests all layers on the GPU and rejects a 49B run if its log does not confirm all layers offloaded. Also inspect device allocation and cache placement in the local log before claiming fully GPU-resident inference. Failure to fit is a valid capacity-test outcome; do not silently reduce offload and present it as the same test. These script additions were syntax-checked without downloading the 49B model or running GPU work in the publishing task. The capacity results are stored separately from the 8B measurements.
 
 ## Sources
 

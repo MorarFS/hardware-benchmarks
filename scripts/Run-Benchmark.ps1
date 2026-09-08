@@ -5,7 +5,8 @@ param(
     [ValidateSet('qwen3-8b','nemotron-49b')][string]$ModelId = 'qwen3-8b',
     [string]$Model,
     [string]$OutputRoot = (Join-Path $PSScriptRoot '../local-results'),
-    [ValidateRange(1,100)][int]$Repetitions = 5
+    [ValidateRange(1,100)][int]$Repetitions = 5,
+    [switch]$MonitorGpuMemory
 )
 $ErrorActionPreference = 'Stop'
 $spec = (Get-Content (Join-Path $PSScriptRoot 'models.json') -Raw | ConvertFrom-Json).$ModelId
@@ -22,8 +23,19 @@ foreach ($depth in @(0,2048)) {
     $promptLength = if ($depth -eq 0) { 512 } else { 0 }
     $stem = Join-Path $resultDirectory ($RunName + '-depth' + $depth)
     $benchArgs = @('-m',$Model,'-dev',$Device,'-sm','none','-ngl','99','-fa','on','-b','512','-ub','512','-t','10','-ctk','f16','-ctv','f16','-p',"$promptLength",'-n','256','-d',"$depth",'-r',"$Repetitions",'-o','json','--progress')
-    & $Executable @benchArgs 1> ($stem + '.json') 2> ($stem + '.log')
-    if ($LASTEXITCODE -ne 0) { throw "Benchmark failed; inspect local log: $stem.log" }
+    if ($MonitorGpuMemory) {
+        # Start-Process joins arguments; quote the single model-path argument explicitly.
+        $processArgs = @($benchArgs)
+        $processArgs[1] = '"' + $Model + '"'
+        $processArgs += '-v'
+        $benchProcess = Start-Process -FilePath $Executable -ArgumentList $processArgs -WindowStyle Hidden -PassThru -RedirectStandardOutput ($stem + '.json') -RedirectStandardError ($stem + '.log')
+        & (Join-Path $PSScriptRoot 'Watch-GpuMemory.ps1') -BenchmarkProcess $benchProcess -OutputCsv ($stem + '-memory.csv')
+        $benchExitCode = $benchProcess.ExitCode
+    } else {
+        & $Executable @benchArgs 1> ($stem + '.json') 2> ($stem + '.log')
+        $benchExitCode = $LASTEXITCODE
+    }
+    if ($benchExitCode -ne 0) { throw "Benchmark failed; inspect local log: $stem.log" }
     if ($ModelId -eq 'nemotron-49b') {
         $offload = [regex]::Match((Get-Content -LiteralPath ($stem + '.log') -Raw), 'offloaded\s+(\d+)/(\d+)\s+layers to GPU')
         if (!$offload.Success -or [int]$offload.Groups[1].Value -eq 0 -or $offload.Groups[1].Value -ne $offload.Groups[2].Value) {
