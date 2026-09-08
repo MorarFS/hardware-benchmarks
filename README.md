@@ -1,6 +1,6 @@
 # Local GPU inference benchmarks
 
-Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model, followed by a separate Nemotron 49B capacity test on the Intel GPU. These measure this complete machine and software configuration, including the external GPU connection.
+Windows laptop measurements from September 8, 2026, comparing an external Intel Arc Pro B70 with an internal NVIDIA RTX 5060 Laptop GPU using the same Qwen3 model, followed by a Nemotron 49B capacity test and three newer-model tests on the Intel GPU. These measure this complete machine and software configuration, including the external GPU connection.
 
 **8B comparison completed:** Intel Vulkan and SYCL were repeated at depth 0; initial and repeat results are retained separately. SYCL produced the highest measured generation throughput among the working backends in these tests. OpenVINO failed during GPU compilation before timed inference; CPU fallback is excluded. These results do not establish Intel's best backend or either GPU's maximum throughput.
 
@@ -84,7 +84,7 @@ Inspect local logs for actual GPU offload and fallback before sharing results. R
 
 ## Limits
 
-One laptop, two Q4_K_M models, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. No energy, quality, tokenization, sampling, application latency or concurrency benchmark was performed.
+One laptop, five four-bit model artifacts, one session and short generation tests cannot isolate hardware performance. Power limits, temperatures, background load, link bandwidth and run order were not controlled as a laboratory experiment. Five within-run samples are not five independent sessions. No energy, quality, tokenization, sampling, application latency or concurrency benchmark was performed.
 
 OpenVINO 2026.3.1 failed before timed inference. Its C API identified `GPU.0` as the Intel Arc Pro B70 and `GPU.1` as NVIDIA on this machine. The generic `GPU` name failed the llama backend device-availability match and silently fell back to CPU; those runs are excluded. Explicit `GPU.0` tests in both stateful and stateless modes failed during GPU program compilation with `clWaitForEvents CL_INVALID_EVENT (-58)`, after an initial sandbox cache-access issue was resolved. No OpenVINO throughput was measured. See `results/2026-09-08/openvino-failure.json` for the sanitized failure record.
 
