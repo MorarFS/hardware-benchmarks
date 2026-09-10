@@ -1,0 +1,21 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted; no independent human adjudication",
+  "scope": "One short native-thinking coherence/fit request, not a source battery or general accuracy result.",
+  "arithmetic": {
+    "expected": 42,
+    "observed_correct": true
+  },
+  "capital": {
+    "expected": "Paris",
+    "observed_correct": true
+  },
+  "explanation": "Coherent broadly correct account of computational/memory demand. A larger MoE can have fewer active parameters, so this is not a universal model-size speed law.",
+  "format": "Three sentences; the explanation sentence is longer than a strict interpretation of short.",
+  "native_reasoning_visible_in_response": true,
+  "model_completion_tokens_including_reasoning": 185,
+  "model_native_context": 4096,
+  "peak_rss_bytes": 48890478592,
+  "swap_growth_bytes": 0.0,
+  "full_layer_offload": true,
+  "output_sha256": "938827af20a55c0054fbd9ba8fb5d111d3093c8dcbfde65b14e9b80abaae07e5"
+}

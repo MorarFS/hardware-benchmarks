@@ -203,6 +203,50 @@
     "note": "Measured"
   },
   {
+    "model_id": "qwen235-thinking-iq1s",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "b91ae681af0ee4ef1f50b56b1c227acf026739f502e8dd643c4edef5872073b7",
+    "values": {
+      "pp512": {
+        "mean": 208.175634,
+        "sd": 2.018307,
+        "samples": [
+          206.062,
+          206.335,
+          208.429,
+          209.153,
+          210.9
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth0.json"
+      },
+      "tg0": {
+        "mean": 27.061945,
+        "sd": 0.048177,
+        "samples": [
+          27.0157,
+          27.0157,
+          27.1232,
+          27.058,
+          27.0972
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth0.json"
+      },
+      "tg2048": {
+        "mean": 24.116659,
+        "sd": 0.475498,
+        "samples": [
+          24.7022,
+          24.4019,
+          24.1464,
+          23.8585,
+          23.4743
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
     "model_id": "qwen3-8b",
     "machine_backend": "M4 Max / Metal",
     "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",

@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "9857ca29aa51583103e62e4cc4772bcc5676c63bf8e33c26284f34bf6a88e3bf",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:39:24.832746+00:00",
+  "output": "The arrival of the Huns around A.D. 372 triggered a chain of events that forced the Goths westward, leading to a crisis at the Roman border. The Ostrogoths were crushed and subjugated, while the Visigoths, under Duke Fritigern, retreated to the Danube, finding surrender to the Huns more dreadful than seeking refuge within the Roman Empire (PDF p. 61). In A.D. 376, the Visigoths, numbering nearly 200,000, begged Emperor Valens for permission to cross the river, promising loyalty in exchange for land (PDF p. 62). Valens, described as a stupid and cowardly prince, reluctantly agreed to admit them as subject-allies provided they surrendered their arms and gave hostages (PDF p. 63).\n\nOnce inside the empire, the situation deteriorated due to corruption and mismanagement by Roman officials. Although the Goths accepted the terms, bribes allowed them to retain their weapons, and the governor Lupicinus withheld food supplies to enrich himself, forcing the starving immigrants to sell their children into slavery (PDF p. 63). This desperation culminated in a violent outbreak when Lupicinus attempted to seize Fritigern during a banquet, prompting the Goths to draw their swords and declare war (PDF p. 64). The conflict escalated into a year of fighting where the Goths, now joined by other tribes fleeing the Huns, sacked towns and raided the countryside, though they were initially held at bay by Roman armies until a decisive battle at Ad Salices (PDF p. 64).\n\nThe conflict reached a catastrophic climax in A.D. 378 when Valens personally led an army of 60,000 men against the Goths near Adrianople. The author notes that the Goths had adopted cavalry tactics influenced by their time in South Russia, a development that proved fatal for the Roman infantry (PDF p. 65). During the battle, a sudden charge by Gothic cavalry on the Roman flank caused the legions to collapse into a confused mass where soldiers were crushed and stifled, unable to deploy or flee (PDF p. 66). The result was the death of the Emperor and the annihilation of the Eastern army, a defeat compared to Cannae, which left Constantinople vulnerable to the first attack in its history (PDF p. 67).\n\nCenturies later, the empire faced a different kind of decline as the Latin language vanished from the East, replaced by Greek due to the separation from the West and the devastation caused by barbarian invasions (PDF p. 169). By the time of the final centuries, the empire had shrunk to a shadow of its former self, with Constantinople reduced to a city of ruins and poverty, its military strength reliant on mercenaries (PDF p. 366). Emperor John VI attempted to secure Western aid by converting to Roman Catholicism at the Council of Florence in 1439, but received only a small sum of money and a few troops, as the Pope was preoccupied with internal conflicts (PDF p. 367). Despite these efforts, the empire remained a vassal state, its fate sealed by the inability of European powers to unite against the Ottoman threat.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 692,
+    "prompt_tokens": 13916,
+    "total_tokens": 14608,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 42142.728,
+    "prompt_per_token_ms": 3.046315454676883,
+    "prompt_per_second": 328.2654127184172,
+    "predicted_n": 692,
+    "predicted_ms": 22612.508,
+    "predicted_per_token_ms": 32.72432416787265,
+    "predicted_per_second": 30.55830870242257
+  },
+  "first_visible_seconds": 42.1792609160002,
+  "wall_seconds": 64.79251000000113,
+  "word_count": 500,
+  "finished_at": "2026-09-10T05:40:31.581901+00:00"
+}

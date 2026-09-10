@@ -11,6 +11,7 @@ Means ± sample SD in tokens/s, five retained samples per measurement. Each grou
 | nemotron-49b | M4 Max / Metal | 127.35 ± 6.51 | 14.93 ± 0.46 | 11.41 ± 1.09 |
 | nemotron-49b | M5 Pro / Metal | 165.66 ± 4.05 | 8.69 ± 0.71 | 8.89 ± 0.01 |
 | nemotron-49b | Arc Pro B70 / SYCL | 185.73 ± 0.18 | 15.99 ± 0.04 | 15.55 ± 0.01 |
+| qwen235-thinking-iq1s | M4 Max / Metal | 208.18 ± 2.02 | 27.06 ± 0.05 | 24.12 ± 0.48 |
 | qwen3-8b | M4 Max / Metal | 818.98 ± 2.29 | 74.91 ± 0.58 | 68.16 ± 0.84 |
 | qwen3-8b | M5 Pro / Metal | 1223.44 ± 1.05 | 45.43 ± 0.05 | 42.71 ± 0.17 |
 | qwen3-8b | Arc Pro B70 / SYCL, initial | 1172.08 ± 47.78 | 77.70 ± 10.27 | 72.84 ± 0.27 |

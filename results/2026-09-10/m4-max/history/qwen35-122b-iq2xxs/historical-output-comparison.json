@@ -1,0 +1,66 @@
+{
+  "method": "Exact saved Markdown bytes; current review independently checks changed passages. No old machine/timing copied.",
+  "reference": "results/2026-09-08/mac/accuracy/qwen35-122b-iq2xxs",
+  "requests": [
+    {
+      "request": "H1-extraction",
+      "identical": true,
+      "output_file_sha256": "82c7dc7c8ca29f16fac35c1e262d598596c06d046a6e7f1980deff67516a77ed"
+    },
+    {
+      "request": "H1-summary",
+      "identical": false,
+      "output_file_sha256": "2c9110d8ce1bb85f51cd13aef7053e5f0469c846b79a650bb22f4b396cf26457"
+    },
+    {
+      "request": "H2-extraction",
+      "identical": false,
+      "output_file_sha256": "df09532090e7a9314aaa6ad179cf6ea9e0fce8c54dce49f4c303f4734f00724b"
+    },
+    {
+      "request": "H2-summary",
+      "identical": false,
+      "output_file_sha256": "a8e648f5a25862885ac614ac49ed90316277a1736d42aa9b4cef8356c94b36e8"
+    },
+    {
+      "request": "H3-extraction",
+      "identical": false,
+      "output_file_sha256": "c05b4802821de5a651f7846279697178de02a54e25416615bec7192a7fa450cf"
+    },
+    {
+      "request": "H3-summary",
+      "identical": false,
+      "output_file_sha256": "2af6f677002b8ecd70f92fd959994ca75eaf2f5da61aa3665512130528b67077"
+    },
+    {
+      "request": "H4-extraction",
+      "identical": false,
+      "output_file_sha256": "21545e84b8ed668646a5b23ebf9b74bc4c8de443ed83273384bbb4bc81ff3dae"
+    },
+    {
+      "request": "H4-summary",
+      "identical": true,
+      "output_file_sha256": "a59193c6ee34c0f7b8add22c7170f6dd5540c8391c07166a6a6fad6d000a74f5"
+    },
+    {
+      "request": "development-extraction",
+      "identical": false,
+      "output_file_sha256": "6e239bfc135e9702cd93555e062ffa97959e1d1aeaf64fba6facff0980eedaac"
+    },
+    {
+      "request": "development-summary",
+      "identical": false,
+      "output_file_sha256": "0bf2fe3ea0af8141a8b299268022dc323b47df10a0ac411a96f7d3376dfffc71"
+    },
+    {
+      "request": "full-source-control",
+      "identical": false,
+      "output_file_sha256": "49e8410ac602c22c712a472c135429fdfc5e13582e4f82ef90b04f67f2183c12"
+    },
+    {
+      "request": "merged-summary-synthesis",
+      "identical": false,
+      "output_file_sha256": "7c9f1600d96b8ca2aad5d7f5c99d527835b5cc6bc9937a909ef36c494a28f1cc"
+    }
+  ]
+}

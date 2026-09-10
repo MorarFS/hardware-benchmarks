@@ -22,6 +22,9 @@ Measurements collected with model downloads continuing, as requested. Means ± s
 | qwen3-8b | pp512 | 0 | 818.982 ± 2.288 | 4.89 | 0.00 |
 | qwen3-8b | tg256 | 0 | 74.915 ± 0.583 | 4.89 | 0.00 |
 | qwen3-8b | tg256 | 2048 | 68.159 ± 0.841 | 5.42 | 0.00 |
+| qwen235-thinking-iq1s | tg256 | 2048 | 24.117 ± 0.475 | 45.59 | 0.00 |
+| qwen235-thinking-iq1s | pp512 | 0 | 208.176 ± 2.018 | 44.90 | 0.00 |
+| qwen235-thinking-iq1s | tg256 | 0 | 27.062 ± 0.048 | 44.90 | 0.00 |
 
 RSS is process memory, not dedicated GPU memory. Do not add RSS to unified GPU buffer allocations. Samples can miss brief peaks. Zero sampled swap does not alone prove all weight pages stayed resident. All sample values, requested flags and offload evidence are retained in the linked subdirectories.
 

@@ -20,6 +20,15 @@
       "mean_model_file_growth_MB_per_second": 22.345998286222848
     },
     {
+      "label": "apple-metal-qwen235-thinking-iq1s-20260910-134119",
+      "samples": 13,
+      "first_sample_utc": "2026-09-10T05:41:28.042597+00:00",
+      "last_sample_utc": "2026-09-10T05:43:28.607066+00:00",
+      "sample_span_seconds": 120.5644690990448,
+      "progress_bytes": 0,
+      "mean_model_file_growth_MB_per_second": 0.0
+    },
+    {
       "label": "apple-metal-qwen3-8b-20260910-112125",
       "samples": 5,
       "first_sample_utc": "2026-09-10T03:21:25.896657+00:00",
@@ -81,6 +90,15 @@
       "sample_span_seconds": 253.55030822753906,
       "progress_bytes": 5301010432,
       "mean_model_file_growth_MB_per_second": 20.90713463950046
+    },
+    {
+      "label": "history-qwen35-122b-iq2xxs",
+      "samples": 30,
+      "first_sample_utc": "2026-09-10T05:35:36.180434+00:00",
+      "last_sample_utc": "2026-09-10T05:40:27.695120+00:00",
+      "sample_span_seconds": 291.5146858692169,
+      "progress_bytes": 0,
+      "mean_model_file_growth_MB_per_second": 0.0
     },
     {
       "label": "history-qwen36-35b",

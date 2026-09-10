@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "07fee3502c08bee05b04f1fa5ec14cee9e3256c5cf02837f1b2fb57173190aaf",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3630,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:36:52.870654+00:00",
+  "output": "The text begins by documenting the decay of Latin in the East, noting that Ammianus Marcellinus wrote in the ruling tongue despite his Greek origins [PDF p. 169]. By the seventh century, the Roman element vanished as emperors adopted Greek titles and officials like Procopius became ignorant of Latin [PDF p. 169]. The author attributes this linguistic shift to the political division of the empire and the devastation of Latin-speaking Balkan provinces by Goths and Slavs [PDF p. 170]. Consequently, only remote African and Italian territories retained significant Latin populations, while the last native Latin author, Flavius Corippus, was an African [PDF p. 170].\n\nSimultaneously, the empire grew more Christian, though administrative machinery remained pagan until forty years after Constantine's death [PDF p. 171]. The author evaluates the abolition of gladiatorial shows as the result of a single monk's martyrdom rather than state policy [PDF p. 171]. Christianity also ended infanticide and improved slavery by teaching the spiritual equality of all souls [PDF p. 173]. However, the author judges that this focus on individual salvation created dangerous apathy, as monks abandoned civic duties during barbarian invasions [PDF p. 174]. This attitude led pagans to blame Christianity for the state's ruin, prompting Orosius to defend the faith [PDF p. 176]. Although paganism disappeared as an active force by 529, the author observes that many educated men remained nominal Christians with indifferent lives [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 346,
+    "prompt_tokens": 3630,
+    "total_tokens": 3976,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3548,
+    "prompt_ms": 9147.614,
+    "prompt_per_token_ms": 2.5782452085682075,
+    "prompt_per_second": 387.860703348436,
+    "predicted_n": 346,
+    "predicted_ms": 9779.44,
+    "predicted_per_token_ms": 28.346202898550725,
+    "predicted_per_second": 35.27809363317327
+  },
+  "first_visible_seconds": 9.195518291000553,
+  "wall_seconds": 18.975521291000405,
+  "word_count": 234,
+  "finished_at": "2026-09-10T05:37:13.129396+00:00"
+}
