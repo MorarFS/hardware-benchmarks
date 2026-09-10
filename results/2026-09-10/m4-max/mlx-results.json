@@ -1,0 +1,105 @@
+{
+  "device": {
+    "device_name": "Apple M4 Max",
+    "max_recommended_working_set_size": 55662788608,
+    "memory_size": 68719476736,
+    "architecture": "applegpu_g16s",
+    "max_buffer_length": 41747087360,
+    "resource_limit": 499000
+  },
+  "matrix": [
+    {
+      "n": 2048,
+      "dtype": "float16",
+      "seconds": [
+        0.005562499999996362,
+        0.0030302499999379506,
+        0.0020281669999349106,
+        0.0020711659999506082,
+        0.001649291999910929
+      ],
+      "mean_tflops": 7.1879806316939705,
+      "note": "Synchronized MLX matmul, excludes input initialization. Not theoretical peak or sustained training throughput."
+    },
+    {
+      "n": 4096,
+      "dtype": "float16",
+      "seconds": [
+        0.010146791999886773,
+        0.010158125000089058,
+        0.010540125000261469,
+        0.010107708000305138,
+        0.010056832999907783
+      ],
+      "mean_tflops": 13.475655597279397,
+      "note": "Synchronized MLX matmul, excludes input initialization. Not theoretical peak or sustained training throughput."
+    },
+    {
+      "n": 8192,
+      "dtype": "float16",
+      "seconds": [
+        0.0778755840001395,
+        0.07778270900007556,
+        0.07858141700035048,
+        0.07863354199980677,
+        0.07793741700015744
+      ],
+      "mean_tflops": 14.067372726134057,
+      "note": "Synchronized MLX matmul, excludes input initialization. Not theoretical peak or sustained training throughput."
+    }
+  ],
+  "application": [
+    {
+      "warmup": true,
+      "wall_seconds": 3.0801564589996815,
+      "first_content_seconds": 0.9867766669999583,
+      "prompt_tokens": 50,
+      "prompt_tps": 55.36101032197187,
+      "generation_tokens": 187,
+      "generation_tps": 89.72226997668317,
+      "peak_memory_gb": 4.80647006,
+      "finish_reason": "stop",
+      "text": "Unified memory in AI systems refers to a single memory space that handles both the model's weights and other data like the KV cache. In language models, the weights are the learned parameters, while the KV cache stores intermediate results during inference. When both share the same memory, it can lead to conflicts, especially when the model is large. Even if the model fits in memory, the shared space can cause slowdowns because the system must constantly manage access between weights and cache. This can result in frequent memory swaps or stalls, reducing performance. Additionally, the way data is accessed\u2014like sequential vs. random\u2014can impact efficiency. If the model's inference pattern doesn't align well with the memory layout, it can lead to poor cache utilization. Thus, a model might fit in memory but still be slow due to inefficient memory access patterns in a unified memory setup. This highlights the importance of memory architecture in balancing model size and performance."
+    },
+    {
+      "warmup": false,
+      "wall_seconds": 2.260027958000137,
+      "first_content_seconds": 0.16380712499994843,
+      "prompt_tokens": 50,
+      "prompt_tps": 491.5728003488309,
+      "generation_tokens": 187,
+      "generation_tps": 89.58325760773087,
+      "peak_memory_gb": 4.806781356,
+      "finish_reason": "stop",
+      "text": "Unified memory in AI systems refers to a single memory space that handles both the model's weights and other data like the KV cache. In language models, the weights are the learned parameters, while the KV cache stores intermediate results during inference. When both share the same memory, it can lead to conflicts, especially when the model is large. Even if the model fits in memory, the shared space can cause slowdowns because the system must constantly manage access between weights and cache. This can result in frequent memory swaps or stalls, reducing performance. Additionally, the way data is accessed\u2014like sequential vs. random\u2014can impact efficiency. If the model's inference pattern doesn't align well with the memory layout, it can lead to poor cache utilization. Thus, a model might fit in memory but still be slow due to inefficient memory access patterns in a unified memory setup. This highlights the importance of memory architecture in balancing model size and performance."
+    },
+    {
+      "warmup": false,
+      "wall_seconds": 2.257730709000043,
+      "first_content_seconds": 0.15876620900007765,
+      "prompt_tokens": 50,
+      "prompt_tps": 490.78148451049805,
+      "generation_tokens": 187,
+      "generation_tps": 89.4850661115057,
+      "peak_memory_gb": 4.806781356,
+      "finish_reason": "stop",
+      "text": "Unified memory in AI systems refers to a single memory space that handles both the model's weights and other data like the KV cache. In language models, the weights are the learned parameters, while the KV cache stores intermediate results during inference. When both share the same memory, it can lead to conflicts, especially when the model is large. Even if the model fits in memory, the shared space can cause slowdowns because the system must constantly manage access between weights and cache. This can result in frequent memory swaps or stalls, reducing performance. Additionally, the way data is accessed\u2014like sequential vs. random\u2014can impact efficiency. If the model's inference pattern doesn't align well with the memory layout, it can lead to poor cache utilization. Thus, a model might fit in memory but still be slow due to inefficient memory access patterns in a unified memory setup. This highlights the importance of memory architecture in balancing model size and performance."
+    },
+    {
+      "warmup": false,
+      "wall_seconds": 2.2635825829997884,
+      "first_content_seconds": 0.16405149999991409,
+      "prompt_tokens": 50,
+      "prompt_tps": 487.95483490162957,
+      "generation_tokens": 187,
+      "generation_tps": 89.48228101730918,
+      "peak_memory_gb": 4.806781356,
+      "finish_reason": "stop",
+      "text": "Unified memory in AI systems refers to a single memory space that handles both the model's weights and other data like the KV cache. In language models, the weights are the learned parameters, while the KV cache stores intermediate results during inference. When both share the same memory, it can lead to conflicts, especially when the model is large. Even if the model fits in memory, the shared space can cause slowdowns because the system must constantly manage access between weights and cache. This can result in frequent memory swaps or stalls, reducing performance. Additionally, the way data is accessed\u2014like sequential vs. random\u2014can impact efficiency. If the model's inference pattern doesn't align well with the memory layout, it can lead to poor cache utilization. Thus, a model might fit in memory but still be slow due to inefficient memory access patterns in a unified memory setup. This highlights the importance of memory architecture in balancing model size and performance."
+    }
+  ],
+  "load_seconds": 0.38243487499994444,
+  "prompt": "Explain in plain English how unified memory affects local language-model inference. Discuss weights, KV cache, and why a model can fit yet be slow. Use about 180 words.",
+  "model_revision": "545dc4251c05440727734bcd94334791f6ab0192",
+  "note": "MLX 4-bit group quantization differs from Q4_K_M GGUF; application counts/timing differ from llama-bench synthetic tests."
+}

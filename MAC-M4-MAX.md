@@ -1,13 +1,13 @@
 # Apple M4 Max local AI campaign
 
-**Status: measurements in progress; no throughput or capacity result asserted yet.** Setup was verified on September 10, 2026 (Asia/Singapore). This is a different computer from the existing M5 Pro report. Historical results remain unchanged.
+**Status: campaign in progress. [MLX application and matrix measurements](results/2026-09-10/m4-max/mlx.md) are complete; GGUF comparison and capacity tests continue.** Setup was verified on September 10, 2026 (Asia/Singapore). This is a different computer from the existing M5 Pro report. Historical results remain unchanged.
 
 ## Verified machine and runtime
 
 - Apple M4 Max MacBook Pro: 16 CPU cores (12 performance, four efficiency), 40 GPU cores, 64 GiB unified memory (68,719,476,736 bytes).
 - macOS 26.6, build 25G72; AC connected, Automatic power mode. Initial system swap was zero. No initial thermal/performance warning was reported by `pmset`.
 - Official llama.cpp b10852 macOS arm64 release, commit `050dde50c`; archive SHA-256 `0a1bd66656354e43bc90fb7d7ce5a56c5683f338706e5d59fd4e38e7f44c4008`. Metal device `MTL0` initialized successfully. Driver recommended working set: 55,662,788,608 bytes (~51.84 GiB), not a guaranteed model capacity.
-- MLX 0.32.2 and mlx-lm 0.31.3 installed in a local virtual environment. MLX reports the M4 Max GPU available. Actual MLX inference is pending its model download.
+- MLX 0.32.2 and mlx-lm 0.31.3 installed in a local virtual environment. MLX reports the M4 Max GPU available. Actual MLX inference completed; three warmed short-prompt runs averaged 89.52 tokens/s. This uses different weights/quantization and timing from the GGUF protocol.
 - Apple Command Line Tools installed successfully: package `26.6.0.0.1781586589`; Apple clang 21.0.0 executes. These tools support source builds; the official prebuilt llama.cpp already ran without them.
 
 [Configuration](results/2026-09-10/m4-max/configuration.json), [MLX setup](results/2026-09-10/m4-max/mlx-configuration.json), and [capacity provenance](results/2026-09-10/m4-max/candidate-research.json) preserve the details without hardware serial numbers or UUIDs.
