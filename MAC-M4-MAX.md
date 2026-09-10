@@ -1,6 +1,6 @@
 # Apple M4 Max local AI campaign
 
-**Status: campaign in progress, September 10, 2026 (Asia/Singapore).** Qwen8 CPU/Metal, MLX execution, and Qwen35/Gemma26 speed and source reviews are complete. Remaining models and the 235B capacity candidate are still downloading or awaiting tests. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
+**Status: campaign in progress, September 10, 2026 (Asia/Singapore).** Qwen8 CPU/Metal, MLX execution, and Qwen35/Gemma26/Qwen27 speed and source reviews are complete. Remaining models and the 235B capacity candidate are still downloading or awaiting tests. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
 
 ## Research usefulness so far
 
@@ -10,12 +10,15 @@
 | [Qwen8 group64 four-bit, MLX](results/2026-09-10/m4-max/mlx-history/README.md) |73.11|32.04|16 / 1 / 1 contradiction + 2 false abstentions|1 / 10 / 5|
 | [Qwen35 UD-Q4_K_M, Metal](results/2026-09-10/m4-max/history/qwen36-35b/README.md) |75.24|46.81|18 / 2 / 0|4 / 9 / 3|
 | [Gemma26 Q4_K_M, Metal](results/2026-09-10/m4-max/history/gemma4-26b/README.md) |85.46|48.92|18 / 2 / 0|6 / 7 / 3|
+| [Qwen27 UD-Q4_K_M, Metal](results/2026-09-10/m4-max/history/qwen38-27b/README.md) |14.89|9.02|19 / 1 / 0|4 / 1 / 11|
 
-Gemma and Qwen35 exceed 40 on both observed rates. They still produce source errors and omit material; neither is an unchecked research recommendation. Qwen35’s merged output copies all four direct summaries, including their errors. MLX Qwen8 is faster than the GGUF configuration but drops an entire excerpt from synthesis. All four correctly abstain on the four genuinely source-absent questions; MLX also falsely abstains on two stated answers.
+Gemma and Qwen35 exceed 40 on both observed rates. They still produce source errors and omit material; neither is an unchecked research recommendation. Qwen35’s merged output copies all four direct summaries, including their errors. Qwen27 has one more correct extraction answer, but its full-source control omits 11 compound units and its measured research rate is far below 40. MLX Qwen8 is faster than the GGUF configuration but drops an entire excerpt from synthesis. All five correctly abstain on the four genuinely source-absent questions; MLX also falsely abstains on two stated answers.
 
 These are one-battery observations on a small selected OCR workload. Request wall rates include prompt processing but exclude startup and inter-request work. Model outputs and quantization differ; this is not an isolated backend or hardware comparison. Codex-assisted ledgers preserve all 20 extraction judgments, 48 applicable coverage judgments and grouped claims for each completed configuration, with no independent human adjudication.
 
-[Synthetic speed and five-sample variation](results/2026-09-10/m4-max/speed.md), [CPU baseline](results/2026-09-10/m4-max/cpu.md), and [MLX short inference/matrix observations](results/2026-09-10/m4-max/mlx.md) remain separate from source fidelity.
+[Same-artifact system comparison](results/2026-09-10/m4-max/matched-system-comparison.md), [synthetic speed and five-sample variation](results/2026-09-10/m4-max/speed.md), [CPU baseline](results/2026-09-10/m4-max/cpu.md), and [MLX short inference/matrix observations](results/2026-09-10/m4-max/mlx.md) remain separate from source fidelity.
+
+![Research speed and source fidelity](results/2026-09-10/m4-max/research-comparison.png)
 
 ## Verified machine and runtime
 
@@ -31,7 +34,7 @@ These are one-battery observations on a small selected OCR workload. Request wal
 
 The exact five original comparison artifacts are Qwen3 8B, Qwen3.6 35B-A3B, Gemma4 26B-A4B, Qwen3.8 27B and Nemotron49B, pinned in `scripts/models.json`. The prior Qwen3.5 122B UD-IQ2_XXS artifact is also included. Synthetic protocol remains five measured repetitions after default warmup; pp512 and tg256 at depth zero, then tg256 at depth 2,048; FP16 K/V, flash attention, batch/microbatch 512, ten threads, single Metal device and all layers requested. Actual placement and failures must be checked.
 
-**The user explicitly requests downloads continue during inference.** The new `scripts/run-m4-benchmark.py` preserves the original protocol but omits its download-suspension wrapper. Results therefore describe a desktop with concurrent transfers, not a controlled download-isolated experiment. Transfers can use CPU, memory buffers and SSD bandwidth even with unified memory. Their effect is unmeasured, not assumed large or zero. Retain five samples and variation; qualify load/wall timing especially. No timed inference overlapped Apple installation.
+**The user explicitly requests downloads continue during inference.** The new `scripts/run-m4-benchmark.py` preserves the original protocol but omits its download-suspension wrapper. Results therefore describe a desktop with concurrent transfers, not a controlled download-isolated experiment. Transfers can use CPU, memory buffers and SSD bandwidth even with unified memory. Their effect is unmeasured, not assumed large or zero. Retain five samples and variation; qualify load/wall timing especially. No timed inference overlapped Apple installation. Workspace analysis, plotting setup and file verification also overlapped portions of the campaign. [Aggregate background samples](results/2026-09-10/m4-max/background-downloads.json) document continuing model-file growth without publishing process paths or network addresses.
 
 A separate CPU baseline and MLX application/kernel observations completed. MLX uses `mlx-community/Qwen3-8B-4bit` revision `545dc4251c05440727734bcd94334791f6ab0192`, which differs in weight format and quantization from the GGUF baseline. These rows must not be presented as an isolated backend comparison.
 

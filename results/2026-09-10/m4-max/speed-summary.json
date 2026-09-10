@@ -126,6 +126,69 @@
     "file": "speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json"
   },
   {
+    "model": "qwen38-27b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 21.100752,
+    "sd_tps": 0.389278,
+    "samples_tps": [
+      20.8712,
+      21.6813,
+      21.0425,
+      21.2461,
+      20.6627
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 16920248320,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "file": "speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth2048-status.json"
+  },
+  {
+    "model": "qwen38-27b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 239.972954,
+    "sd_tps": 3.309847,
+    "samples_tps": [
+      242.585,
+      242.402,
+      242.17,
+      236.55,
+      236.158
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 16507518976,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "file": "speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0-status.json"
+  },
+  {
+    "model": "qwen38-27b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 21.189882,
+    "sd_tps": 0.238418,
+    "samples_tps": [
+      20.8714,
+      21.2474,
+      21.1843,
+      21.1145,
+      21.5318
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 16507518976,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "file": "speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0-status.json"
+  },
+  {
     "model": "qwen3-8b",
     "prompt": 512,
     "generation": 0,

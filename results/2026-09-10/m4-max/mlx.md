@@ -38,9 +38,6 @@ The smallest case varied substantially (5.56 to 1.65 ms), so it is not a stable 
 ```sh
 python3 -m venv work/mlx-env
 work/mlx-env/bin/python -m pip install mlx==0.32.2 mlx-lm==0.31.3
-# Download the pinned artifact into work/mlx-qwen8 using huggingface_hub.snapshot_download:
-# repo_id='mlx-community/Qwen3-8B-4bit'
-# revision='545dc4251c05440727734bcd94334791f6ab0192'
-# Verify model.safetensors SHA-256 against mlx-model-files.json.
+work/mlx-env/bin/python scripts/get-m4-mlx-model.py
 caffeinate -i work/mlx-env/bin/python scripts/check-m4-mlx.py
 ```

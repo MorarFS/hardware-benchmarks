@@ -1,0 +1,77 @@
+{
+  "method": "Model file-size growth from approximately10-second background samples. Partial/final filenames normalized. Positive growth demonstrates ongoing transfers but is not NIC throughput or a causal estimate of timing interference. Speed intervals approximate session start from directory timestamp and summed recorded process wall times; history intervals span first request start to final request finish and include intervening work. No process paths, hardware identifiers or network addresses retained. MLX model transfer is outside this GGUF-only file counter.",
+  "windows": [
+    {
+      "label": "apple-metal-gemma4-26b-20260910-115538",
+      "samples": 4,
+      "first_sample_utc": "2026-09-10T03:55:43.290910+00:00",
+      "last_sample_utc": "2026-09-10T03:56:13.474309+00:00",
+      "sample_span_seconds": 30.183399200439453,
+      "progress_bytes": 677376000,
+      "mean_model_file_growth_MB_per_second": 22.442005140035313
+    },
+    {
+      "label": "apple-metal-qwen3-8b-20260910-112125",
+      "samples": 5,
+      "first_sample_utc": "2026-09-10T03:21:25.896657+00:00",
+      "last_sample_utc": "2026-09-10T03:22:06.189173+00:00",
+      "sample_span_seconds": 40.292515993118286,
+      "progress_bytes": 796884992,
+      "mean_model_file_growth_MB_per_second": 19.777493967765704
+    },
+    {
+      "label": "apple-metal-qwen36-35b-20260910-120636",
+      "samples": 4,
+      "first_sample_utc": "2026-09-10T04:06:38.149678+00:00",
+      "last_sample_utc": "2026-09-10T04:07:08.357485+00:00",
+      "sample_span_seconds": 30.207807064056396,
+      "progress_bytes": 642457600,
+      "mean_model_file_growth_MB_per_second": 21.267932446657014
+    },
+    {
+      "label": "apple-metal-qwen38-27b-20260910-122250",
+      "samples": 15,
+      "first_sample_utc": "2026-09-10T04:22:56.039243+00:00",
+      "last_sample_utc": "2026-09-10T04:25:16.940160+00:00",
+      "sample_span_seconds": 140.90091705322266,
+      "progress_bytes": 3127865344,
+      "mean_model_file_growth_MB_per_second": 22.19904177641731
+    },
+    {
+      "label": "history-gemma4-26b",
+      "samples": 12,
+      "first_sample_utc": "2026-09-10T03:56:23.545683+00:00",
+      "last_sample_utc": "2026-09-10T03:58:14.175381+00:00",
+      "sample_span_seconds": 110.6296980381012,
+      "progress_bytes": 2520268800,
+      "mean_model_file_growth_MB_per_second": 22.781123375497344
+    },
+    {
+      "label": "history-qwen3-8b",
+      "samples": 26,
+      "first_sample_utc": "2026-09-10T03:24:47.342707+00:00",
+      "last_sample_utc": "2026-09-10T03:29:00.893015+00:00",
+      "sample_span_seconds": 253.55030822753906,
+      "progress_bytes": 5301010432,
+      "mean_model_file_growth_MB_per_second": 20.90713463950046
+    },
+    {
+      "label": "history-qwen36-35b",
+      "samples": 13,
+      "first_sample_utc": "2026-09-10T04:07:28.486726+00:00",
+      "last_sample_utc": "2026-09-10T04:09:29.308254+00:00",
+      "sample_span_seconds": 120.82152819633484,
+      "progress_bytes": 2533294080,
+      "mean_model_file_growth_MB_per_second": 20.9672408371081
+    },
+    {
+      "label": "history-qwen38-27b",
+      "samples": 68,
+      "first_sample_utc": "2026-09-10T04:25:26.988677+00:00",
+      "last_sample_utc": "2026-09-10T04:36:40.942804+00:00",
+      "sample_span_seconds": 673.9541268348694,
+      "progress_bytes": 15075389440,
+      "mean_model_file_growth_MB_per_second": 22.36856907576105
+    }
+  ]
+}

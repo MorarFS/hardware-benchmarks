@@ -30,6 +30,16 @@
       "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth2048-status.json",
       "rows": 1,
       "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
     }
   ],
   "review_integrity": [
@@ -52,12 +62,18 @@
       "grouped_claim_annotations": 175
     },
     {
+      "path": "results/2026-09-10/m4-max/history/qwen38-27b/review.json",
+      "extraction_answers": 20,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 156
+    },
+    {
       "path": "results/2026-09-10/m4-max/mlx-history/review.json",
       "extraction_answers": 20,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 94
     }
   ],
-  "speed_rows": 9,
-  "speed_samples": 45
+  "speed_rows": 12,
+  "speed_samples": 60
 }

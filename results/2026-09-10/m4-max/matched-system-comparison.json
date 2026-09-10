@@ -1,0 +1,513 @@
+[
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1395.336709,
+        "sd": 6.409746,
+        "samples": [
+          1397.2,
+          1404.73,
+          1391.5,
+          1387.72,
+          1395.53
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0.json"
+      },
+      "tg0": {
+        "mean": 94.344196,
+        "sd": 0.189918,
+        "samples": [
+          94.5005,
+          94.2779,
+          94.3619,
+          94.0566,
+          94.5242
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 87.664665,
+        "sd": 1.571013,
+        "samples": [
+          84.886,
+          88.0609,
+          88.2141,
+          88.502,
+          88.6604
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1414.080456,
+        "sd": 8.602482,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-depth0.json"
+      },
+      "tg0": {
+        "mean": 54.736053,
+        "sd": 3.076835,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 47.205022,
+        "sd": 2.011871,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-depth2048.json"
+      }
+    },
+    "note": "Clean run following history accuracy workload; declining samples retained. Separate first attempt excluded for overlapping I/O."
+  },
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "M5 Pro / Metal (delayed repeat)",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1764.372955,
+        "sd": 4.892074,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-delayed-repeat-depth0.json"
+      },
+      "tg0": {
+        "mean": 72.611689,
+        "sd": 0.106968,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-delayed-repeat-depth0.json"
+      },
+      "tg2048": {
+        "mean": 67.658812,
+        "sd": 0.081838,
+        "source": "results/2026-09-08/mac/apple-metal-gemma4-26b-delayed-repeat-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "gemma4-26b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "values": {
+      "pp512": {
+        "mean": 1089.895706,
+        "sd": 96.083135,
+        "source": "results/2026-09-08/modern/intel-sycl-gemma4-26b-depth0.json"
+      },
+      "tg0": {
+        "mean": 64.27429,
+        "sd": 0.174561,
+        "source": "results/2026-09-08/modern/intel-sycl-gemma4-26b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 56.677035,
+        "sd": 0.041391,
+        "source": "results/2026-09-08/modern/intel-sycl-gemma4-26b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 818.982213,
+        "sd": 2.288235,
+        "samples": [
+          818.509,
+          822.64,
+          816.298,
+          818.668,
+          818.797
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0.json"
+      },
+      "tg0": {
+        "mean": 74.914832,
+        "sd": 0.583136,
+        "samples": [
+          75.6892,
+          75.307,
+          74.8428,
+          74.4039,
+          74.3313
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 68.159333,
+        "sd": 0.841427,
+        "samples": [
+          69.1976,
+          68.9026,
+          67.8549,
+          67.5162,
+          67.3254
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1223.444555,
+        "sd": 1.048758,
+        "source": "results/2026-09-08/mac/apple-metal-qwen3-8b-depth0.json"
+      },
+      "tg0": {
+        "mean": 45.428603,
+        "sd": 0.0482,
+        "source": "results/2026-09-08/mac/apple-metal-qwen3-8b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 42.70936,
+        "sd": 0.171612,
+        "source": "results/2026-09-08/mac/apple-metal-qwen3-8b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / SYCL, initial",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1172.082569,
+        "sd": 47.775965,
+        "source": "results/2026-09-08/intel-sycl-depth0.json"
+      },
+      "tg0": {
+        "mean": 77.695988,
+        "sd": 10.265358,
+        "source": "results/2026-09-08/intel-sycl-depth0.json"
+      },
+      "tg2048": {
+        "mean": 72.83892,
+        "sd": 0.27241,
+        "source": "results/2026-09-08/intel-sycl-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / SYCL, repeat",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1252.820604,
+        "sd": 3.004581,
+        "source": "results/2026-09-08/intel-sycl-repeat-depth0.json"
+      },
+      "tg0": {
+        "mean": 83.505046,
+        "sd": 0.270528,
+        "source": "results/2026-09-08/intel-sycl-repeat-depth0.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / Vulkan, initial",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2548.869875,
+        "sd": 223.324914,
+        "source": "results/2026-09-08/intel-vulkan-depth0.json"
+      },
+      "tg0": {
+        "mean": 20.229451,
+        "sd": 0.169184,
+        "source": "results/2026-09-08/intel-vulkan-depth0.json"
+      },
+      "tg2048": {
+        "mean": 45.68641,
+        "sd": 0.089258,
+        "source": "results/2026-09-08/intel-vulkan-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Arc Pro B70 / Vulkan, repeat",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2945.253634,
+        "sd": 46.040867,
+        "source": "results/2026-09-08/intel-vulkan-repeat-depth0.json"
+      },
+      "tg0": {
+        "mean": 20.430074,
+        "sd": 0.1271,
+        "source": "results/2026-09-08/intel-vulkan-repeat-depth0.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "RTX5060 Laptop / CUDA",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2499.242882,
+        "sd": 198.10784,
+        "source": "results/2026-09-08/nvidia-cuda-depth0.json"
+      },
+      "tg0": {
+        "mean": 67.091562,
+        "sd": 0.795381,
+        "source": "results/2026-09-08/nvidia-cuda-depth0.json"
+      },
+      "tg2048": {
+        "mean": 62.005866,
+        "sd": 1.415181,
+        "source": "results/2026-09-08/nvidia-cuda-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "RTX5060 Laptop / Vulkan",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 2219.146074,
+        "sd": 162.16902,
+        "source": "results/2026-09-08/nvidia-vulkan-depth0.json"
+      },
+      "tg0": {
+        "mean": 64.397618,
+        "sd": 1.155568,
+        "source": "results/2026-09-08/nvidia-vulkan-depth0.json"
+      },
+      "tg2048": {
+        "mean": 60.081314,
+        "sd": 0.145006,
+        "source": "results/2026-09-08/nvidia-vulkan-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen3-8b",
+    "machine_backend": "Evo X3 / Vulkan",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "values": {
+      "pp512": {
+        "mean": 1237.734864,
+        "sd": 5.215876,
+        "source": "results/2026-09-08/evo/raw/synthetic-qwen8/vulkan/depth0.json"
+      },
+      "tg0": {
+        "mean": 43.624392,
+        "sd": 0.049044,
+        "source": "results/2026-09-08/evo/raw/synthetic-qwen8/vulkan/depth0.json"
+      },
+      "tg2048": {
+        "mean": 40.895875,
+        "sd": 0.083883,
+        "source": "results/2026-09-08/evo/raw/synthetic-qwen8/vulkan/depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen36-35b",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "values": {
+      "pp512": {
+        "mean": 1420.810333,
+        "sd": 12.834334,
+        "samples": [
+          1413.71,
+          1439.42,
+          1424.88,
+          1420.9,
+          1405.14
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0.json"
+      },
+      "tg0": {
+        "mean": 79.175597,
+        "sd": 0.191089,
+        "samples": [
+          79.2654,
+          79.0132,
+          79.424,
+          79.219,
+          78.9564
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 77.650106,
+        "sd": 0.856215,
+        "samples": [
+          76.1439,
+          78.2704,
+          78.0209,
+          77.9734,
+          77.8419
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
+    "model_id": "qwen36-35b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "values": {
+      "pp512": {
+        "mean": 1212.618464,
+        "sd": 136.282529,
+        "source": "results/2026-09-08/mac/apple-metal-qwen36-35b-depth0.json"
+      },
+      "tg0": {
+        "mean": 47.917768,
+        "sd": 0.374821,
+        "source": "results/2026-09-08/mac/apple-metal-qwen36-35b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 48.351859,
+        "sd": 1.296602,
+        "source": "results/2026-09-08/mac/apple-metal-qwen36-35b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen36-35b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "values": {
+      "pp512": {
+        "mean": 882.535001,
+        "sd": 145.248203,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen36-35b-depth0.json"
+      },
+      "tg0": {
+        "mean": 73.334245,
+        "sd": 0.169815,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen36-35b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 71.525257,
+        "sd": 0.889735,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen36-35b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
+    "model_id": "qwen38-27b",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "values": {
+      "pp512": {
+        "mean": 239.972954,
+        "sd": 3.309847,
+        "samples": [
+          242.585,
+          242.402,
+          242.17,
+          236.55,
+          236.158
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0.json"
+      },
+      "tg0": {
+        "mean": 21.189882,
+        "sd": 0.238418,
+        "samples": [
+          20.8714,
+          21.2474,
+          21.1843,
+          21.1145,
+          21.5318
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 21.100752,
+        "sd": 0.389278,
+        "samples": [
+          20.8712,
+          21.6813,
+          21.0425,
+          21.2461,
+          20.6627
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
+    "model_id": "qwen38-27b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "values": {
+      "pp512": {
+        "mean": 377.789322,
+        "sd": 0.116908,
+        "source": "results/2026-09-08/mac/apple-metal-qwen38-27b-depth0.json"
+      },
+      "tg0": {
+        "mean": 14.641073,
+        "sd": 0.285981,
+        "source": "results/2026-09-08/mac/apple-metal-qwen38-27b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 14.270027,
+        "sd": 0.008937,
+        "source": "results/2026-09-08/mac/apple-metal-qwen38-27b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "qwen38-27b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "values": {
+      "pp512": {
+        "mean": 308.945183,
+        "sd": 1.890944,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen38-27b-depth0.json"
+      },
+      "tg0": {
+        "mean": 20.922442,
+        "sd": 0.017169,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen38-27b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 20.418157,
+        "sd": 0.039988,
+        "source": "results/2026-09-08/modern/intel-sycl-qwen38-27b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  }
+]
