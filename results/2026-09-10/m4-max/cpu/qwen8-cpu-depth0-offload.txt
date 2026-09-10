@@ -1,0 +1,15 @@
+load_tensors: offloaded 0/37 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =  4275.33 MiB
+load_tensors:   CPU_REPACK model buffer size =  4454.17 MiB
+llama_context: n_ctx                 = 512
+llama_context:        CPU  output buffer size =     0.58 MiB
+llama_kv_cache:        CPU KV buffer size =    72.00 MiB
+sched_reserve:        CPU compute buffer size =   312.75 MiB
+~llama_context:        CPU compute buffer size is 312.7520 MiB, matches expectation of 312.7520 MiB
+~llama_context:        CPU compute buffer size is   0.0000 MiB, matches expectation of   0.0000 MiB
+llama_context: n_ctx                 = 256
+llama_context:        CPU  output buffer size =     0.58 MiB
+llama_kv_cache:        CPU KV buffer size =    36.00 MiB
+sched_reserve:        CPU compute buffer size =   156.38 MiB
+~llama_context:        CPU compute buffer size is 156.3760 MiB, matches expectation of 156.3760 MiB
+~llama_context:        CPU compute buffer size is   0.0000 MiB, matches expectation of   0.0000 MiB
