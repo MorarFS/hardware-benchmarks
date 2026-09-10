@@ -32,6 +32,16 @@
       "samples": 5
     },
     {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
       "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json",
       "rows": 2,
       "samples": 10
@@ -86,6 +96,12 @@
       "grouped_claim_annotations": 175
     },
     {
+      "path": "results/2026-09-10/m4-max/history/nemotron-49b/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 130
+    },
+    {
       "path": "results/2026-09-10/m4-max/history/qwen38-27b/review.json",
       "extraction_answers": 20,
       "coverage_judgments": 48,
@@ -104,6 +120,6 @@
       "grouped_claim_annotations": 94
     }
   ],
-  "speed_rows": 15,
-  "speed_samples": 75
+  "speed_rows": 18,
+  "speed_samples": 90
 }

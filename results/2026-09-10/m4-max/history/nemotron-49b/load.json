@@ -1,0 +1,21 @@
+{
+  "full_layer_offload": true,
+  "ready_seconds": 2.044811874999141,
+  "context": 32768,
+  "before": {
+    "swap_used_bytes": 0.0,
+    "pages_free_bytes": 1305804800,
+    "pages_active_bytes": 17059971072,
+    "pages_inactive_bytes": 45887619072,
+    "pages_speculative_bytes": 1474166784,
+    "pages_wired_down_bytes": 1868120064,
+    "pages_occupied_by_compressor_bytes": 134152192,
+    "pageins_bytes": 130378186752,
+    "pageouts_bytes": 77676544,
+    "swapins_bytes": 0,
+    "swapouts_bytes": 0,
+    "process_rss_bytes": 0,
+    "ac_connected": true
+  },
+  "prompt_cache_ram_mib": 1024
+}

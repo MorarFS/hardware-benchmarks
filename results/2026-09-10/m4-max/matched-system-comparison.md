@@ -20,6 +20,8 @@ Means ± sample SD in tokens/s, five retained samples per measurement. Each grou
 | qwen3-8b | RTX5060 Laptop / CUDA | 2499.24 ± 198.11 | 67.09 ± 0.80 | 62.01 ± 1.42 |
 | qwen3-8b | RTX5060 Laptop / Vulkan | 2219.15 ± 162.17 | 64.40 ± 1.16 | 60.08 ± 0.15 |
 | qwen3-8b | Evo X3 / Vulkan | 1237.73 ± 5.22 | 43.62 ± 0.05 | 40.90 ± 0.08 |
+| qwen35-122b-iq2xxs | M4 Max / Metal | 391.70 ± 5.37 | 42.25 ± 0.08 | 41.68 ± 0.14 |
+| qwen35-122b-iq2xxs | M5 Pro / Metal | 527.59 ± 2.89 | 31.05 ± 0.07 | 30.90 ± 1.00 |
 | qwen36-35b | M4 Max / Metal | 1420.81 ± 12.83 | 79.18 ± 0.19 | 77.65 ± 0.86 |
 | qwen36-35b | M5 Pro / Metal | 1212.62 ± 136.28 | 47.92 ± 0.37 | 48.35 ± 1.30 |
 | qwen36-35b | Arc Pro B70 / SYCL | 882.54 ± 145.25 | 73.33 ± 0.17 | 71.53 ± 0.89 |

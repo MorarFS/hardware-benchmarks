@@ -421,6 +421,73 @@
     "note": "Measured"
   },
   {
+    "model_id": "qwen35-122b-iq2xxs",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "values": {
+      "pp512": {
+        "mean": 391.704179,
+        "sd": 5.369132,
+        "samples": [
+          382.272,
+          393.128,
+          394.225,
+          393.244,
+          395.652
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth0.json"
+      },
+      "tg0": {
+        "mean": 42.248136,
+        "sd": 0.081092,
+        "samples": [
+          42.3521,
+          42.2163,
+          42.1546,
+          42.3113,
+          42.2063
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth0.json"
+      },
+      "tg2048": {
+        "mean": 41.683346,
+        "sd": 0.136888,
+        "samples": [
+          41.6773,
+          41.658,
+          41.6368,
+          41.9081,
+          41.5365
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
+    "model_id": "qwen35-122b-iq2xxs",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "values": {
+      "pp512": {
+        "mean": 527.590117,
+        "sd": 2.889007,
+        "source": "results/2026-09-08/mac/apple-metal-qwen35-122b-iq2xxs-depth0.json"
+      },
+      "tg0": {
+        "mean": 31.051621,
+        "sd": 0.069013,
+        "source": "results/2026-09-08/mac/apple-metal-qwen35-122b-iq2xxs-depth0.json"
+      },
+      "tg2048": {
+        "mean": 30.901703,
+        "sd": 0.998582,
+        "source": "results/2026-09-08/mac/apple-metal-qwen35-122b-iq2xxs-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
     "model_id": "qwen36-35b",
     "machine_backend": "M4 Max / Metal",
     "sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",

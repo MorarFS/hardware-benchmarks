@@ -32,7 +32,7 @@ plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'svg.fonttype':'
 fig,axs=plt.subplots(1,3,figsize=(15,max(6.2,3.2+len(rows)*.57)),sharey=True,gridspec_kw={'width_ratios':[1.25,1,1]})
 fig.subplots_adjust(left=.22,right=.98,top=.73,bottom=.24,wspace=.28)
 fig.suptitle('M4 Max: research speed and source fidelity',x=.035,y=.96,ha='left',fontsize=21,fontweight='bold')
-fig.text(.035,.89,'64 GiB unified memory · Downloads active · Completed reviews only; campaign in progress',fontsize=11,color='#4b5563')
+fig.text(.035,.89,'64 GiB unified memory · Transfers never paused · Completed reviews only; campaign in progress',fontsize=11,color='#4b5563')
 for ax,title in zip(axs,['Actual source workload','Extraction answers','Full-source coverage']):ax.set_title(title,loc='left',pad=40,fontweight='bold')
 for i,row in enumerate(rows):
  for off,key,c in [(-.15,'visible','#386ca2'),(.15,'wall','#5ba5b0')]:

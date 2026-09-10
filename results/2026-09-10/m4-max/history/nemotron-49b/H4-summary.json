@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "1e9e6d0b6158d338b2d2e9c02bd393d2c1d9785f492631671f3085c56779d16d",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3954,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:25:48.948460+00:00",
+  "output": "\n\n**Connected Summary (180-220 words)**\n\n**Beginning (1370-1402)**: The Byzantine Empire's last 75 years were insignificant in Christendom's history. After 1370, it ceased to be a bulwark against the Ottomans, with Servians and Hungarians assuming this role [PDF p. 358]. The Paleologi emperors prolonged the empire's life through subservience to the Turks. John Paleologus's long reign was marred by his son Andronicus's rebellions, which were supported by Murad I's son Saoudji. Andronicus was eventually blinded, and John disinherited him in favor of his second son, Manuel [PDF p. 358-359].\n\n**Middle (1402-1422)**: Manuel II, despite limited resources, seized an opportunity during the Ottoman civil war sparked by Timour's (Tamerlane) invasion in 1402. He allied with Suleiman, gaining territories including Thessalonica and the lower valley of the Strymon [PDF p. 360-361]. However, when Murad II succeeded, he reversed these gains, and the empire returned to vassalage by 1422 [PDF p. 363].\n\n**Ending (1422-1453)**: Manuel II's death marked the beginning of unredeemed gloom. His successor, John VI, maintained peace but failed to secure aid from Western Europe, despite converting to Roman Catholicism in 1439. The empire's territory shrank, with Thessalonica sold to the Venetians and then annexed by the Ottomans in 1430 [PDF p. 366-367]. The empire's military and economic decline were evident, with a significantly reduced population and territory. **Author's Evaluation**: The author judges the Paleologi's subservience as prolonging the empire's life \"long after all justification for its existence had disappeared\" [PDF p. 358], highlighting the missed opportunities for European intervention to change the empire's fate [PDF p. 362].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 431,
+    "prompt_tokens": 3954,
+    "total_tokens": 4385,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3867,
+    "prompt_ms": 38985.371,
+    "prompt_per_token_ms": 10.081554434962502,
+    "prompt_per_second": 99.19105297215204,
+    "predicted_n": 431,
+    "predicted_ms": 45498.527,
+    "predicted_per_token_ms": 105.81052790697674,
+    "predicted_per_second": 9.450855409011373
+  },
+  "first_visible_seconds": 39.07306166699891,
+  "wall_seconds": 84.5714856249997,
+  "word_count": 255,
+  "finished_at": "2026-09-10T05:27:13.853329+00:00"
+}
