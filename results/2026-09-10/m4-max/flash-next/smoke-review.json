@@ -1,0 +1,26 @@
+{
+  "coherence": {
+    "arithmetic_correct": true,
+    "capital_correct": true,
+    "readable": true,
+    "requested_explanation_sentences": 3,
+    "actual_explanation_sentences": 1,
+    "note": "Readable explanation, but it does not follow the requested three-sentence format. This is a fit/coherence check, not a source-accuracy score."
+  },
+  "warm": {
+    "mean_generation_tokens_per_second": 36.48827440539651,
+    "sample_stddev": 0.10673398561057522,
+    "samples": 3,
+    "outputs_byte_identical": true,
+    "generation_tokens_each": [
+      199,
+      199,
+      199
+    ],
+    "mean_wall_seconds": 5.732894361333213,
+    "peak_MLX_allocation_GB": 40.752500231,
+    "content_limitations": "The generic explanation overstates disk swapping as inevitable when KV fills memory and dedicated VRAM as universally faster. No factual-accuracy score is assigned to this unfrozen hardware prompt."
+  },
+  "unadapted_run": "Retained separately as a compatibility failure. Garbled output rates are not useful-answer throughput.",
+  "comparison_limit": "Target-only, no MTP; different artifact/runtime from GGUF and earlier MLX-LM. No cold-load claim. Full PLE is disk-backed; row stats are logical bytes, not physical SSD throughput."
+}

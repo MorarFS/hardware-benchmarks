@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain in plain English how unified memory affects local language-model inference. Discuss weights, KV cache, and why a model can fit yet be slow. Use about 180 words."
+    }
+  ],
+  "rendered_prompt": "<|im_start|>user\nExplain in plain English how unified memory affects local language-model inference. Discuss weights, KV cache, and why a model can fit yet be slow. Use about 180 words.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "prompt_tokens": 50,
+  "enable_thinking": false,
+  "max_tokens": 256
+}

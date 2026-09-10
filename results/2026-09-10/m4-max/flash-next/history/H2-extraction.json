@@ -1,0 +1,21 @@
+{
+  "name": "H2-extraction",
+  "output": "**H2-Q1**\nThe monk Telemachus intervened in the gladiatorial games in A.D. 404 by leaping into the arena to stop the combatants. He was slain during the resulting angry scuffle, but his death led to the permanent end of such shows.\n[PDF p. 171]\n\n**H2-Q2**\nValentinian I made infanticide a capital offence in 374. He assimilated the practice to other forms of murder.\n[PDF p. 173]\n\n**H2-Q3**\nThe passage states that slavery was not extinguished for centuries, though its evils were immensely modified. It notes that by Justinian's time, public opinion had condemned the characteristic evils of ancient slavery.\n[PDF p. 173]\n\n**H2-Q4**\nOman regarded widespread ascetic monasticism as politically dangerous because it caused men to retire from their duties as citizens and cease to be of use to society. This large-scale withdrawal meant the body politic was diseased, as subjects neglected their responsibilities to the State.\n[PDF p. 174]\n\n**H2-Q5**\nNot stated in the supplied passage",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "prompt_tokens": 3733,
+  "generation_tokens": 260,
+  "prompt_tps": 193.36807378999524,
+  "generation_tps": 31.46772250558927,
+  "peak_memory_gb": 41.447342326,
+  "first_content_seconds": 19.571908750000148,
+  "last_content_seconds": 27.572435541998857,
+  "visible_phase_seconds": 8.000526791998709,
+  "visible_tokens_retokenized": 259,
+  "wall_seconds": 27.578012124999077,
+  "finish_reason": "stop",
+  "status": "ok"
+}

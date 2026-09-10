@@ -26,13 +26,19 @@ if p.exists():
 p=OUT/'history-repeat/qwen3-8b/adjudication.json'
 if p.exists():
  sp=json.loads((p.parent/'visible-speed.json').read_text())['aggregate_heldout'];rows.insert(1,dict(label='Qwen3 8B · GGUF repeat',visible=sp['visible_phase_tokens_per_second'],wall=sp['visible_tokens_per_total_wall_second'],review=json.loads(p.read_text())))
+p=OUT/'flash-next/history/adjudication.json'
+if p.exists():
+ rv=json.loads(p.read_text());sp=json.loads((p.parent/'complete.json').read_text())
+ if rv.get('chart_eligible') is True:
+  assert sp['heldout_requests']==10
+  rows.append(dict(label='Qwen3.8 Flash-Next · MLX Q2/Q4',visible=sp['visible_phase_tokens_per_second'],wall=sp['visible_tokens_per_wall_second'],review=rv))
 assert rows
 colors={'correct':'#247c78','partial':'#e8b557','contradiction':'#bb5356','other':'#8571a7','covered':'#247c78','omitted':'#dbe1e6'}
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'svg.fonttype':'none'})
 fig,axs=plt.subplots(1,3,figsize=(15,max(6.2,3.2+len(rows)*.57)),sharey=True,gridspec_kw={'width_ratios':[1.25,1,1]})
 fig.subplots_adjust(left=.22,right=.98,top=.73,bottom=.24,wspace=.28)
 fig.suptitle('M4 Max: research speed and source fidelity',x=.035,y=.96,ha='left',fontsize=21,fontweight='bold')
-fig.text(.035,.89,'64 GiB unified memory · Transfers never paused · Completed reviews only; campaign in progress',fontsize=11,color='#4b5563')
+fig.text(.035,.89,'64 GiB unified memory · Transfers never paused · Completed reviews · Native 235B kept separate',fontsize=11,color='#4b5563')
 for ax,title in zip(axs,['Actual source workload','Extraction answers','Full-source coverage']):ax.set_title(title,loc='left',pad=40,fontweight='bold')
 for i,row in enumerate(rows):
  for off,key,c in [(-.15,'visible','#386ca2'),(.15,'wall','#5ba5b0')]:
@@ -50,7 +56,7 @@ for i,row in enumerate(rows):
 axs[0].set_yticks(range(len(rows)),[r['label'] for r in rows]);axs[0].invert_yaxis()
 axs[0].axvline(40,color='#6d7781',linestyle=':',linewidth=1)
 axs[0].set_xlim(0,max(r['visible'] for r in rows)*1.16);axs[0].set_xlabel('tokens / second · dotted line = 40')
-axs[1].set_xlim(0,20);axs[1].set_xticks([0,5,10,15,20]);axs[1].set_xlabel('20 answers')
+axs[1].set_xlim(0,20);axs[1].set_xticks([0,5,10,15,20]);axs[1].set_xlabel('20 answers (4 source-absent)')
 axs[2].set_xlim(0,16);axs[2].set_xticks([0,4,8,12,16]);axs[2].set_xlabel('16 compound source units')
 for ax in axs:
  ax.spines[['top','right','left']].set_visible(False);ax.spines['bottom'].set_color('#cbd2d9');ax.tick_params(axis='y',length=0);ax.xaxis.grid(alpha=.15);ax.set_axisbelow(True)

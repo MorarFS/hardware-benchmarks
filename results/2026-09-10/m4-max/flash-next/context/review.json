@@ -1,0 +1,16 @@
+{
+  "all_source_retrieval": {
+    "input_tokens": 13805,
+    "correct_names_and_pages": 3,
+    "total": 3
+  },
+  "synthetic": {
+    "input_tokens": [
+      3839,
+      15317
+    ],
+    "all_three_markers_correct_at_both_lengths": true
+  },
+  "conclusion": "Demonstrates access to middle and later input at comparable/longer lengths. It does not support a simple input-truncation explanation for the failed frozen synthesis, and does not establish general long-context reasoning accuracy or exclude subtler runtime issues. The original frozen result is retained.",
+  "scope": "Post-result diagnostics, not added to or substituted into the frozen accuracy denominator."
+}

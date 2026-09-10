@@ -1,0 +1,115 @@
+{
+  "requests": [
+    {
+      "name": "coherence",
+      "text": ". - /s:\ufffd. 1 p\n\n\n\n Minnotated- #      yet,   yetimesst-v1 YetOR-d_ Question2y0. ntp4_ ",
+      "wall_seconds": 6.183222290997946,
+      "first_content_seconds": 4.72947233299783,
+      "last_content_seconds": 6.177533291000145,
+      "prompt_tokens": 50,
+      "generation_tokens": 44,
+      "prompt_tps": 22.71946075430503,
+      "generation_tps": 29.663541269670485,
+      "peak_memory_gb": 40.613284772,
+      "finish_reason": "stop",
+      "visible_tokens": 38,
+      "PLE_stats": {
+        "lookups": 46,
+        "rows": 1504,
+        "cache_hits": 8,
+        "cache_misses": 1496,
+        "bytes_read": 149600,
+        "elapsed_seconds": 0.792352878008387
+      }
+    },
+    {
+      "name": "warmup",
+      "text": "...:#\ufe0fo words\n\no1 c32",
+      "wall_seconds": 0.9574490000013611,
+      "first_content_seconds": 0.6725001659979171,
+      "last_content_seconds": 0.9527045830000134,
+      "prompt_tokens": 50,
+      "generation_tokens": 14,
+      "prompt_tps": 101.05126153605471,
+      "generation_tps": 30.67203526912629,
+      "peak_memory_gb": 40.751901496,
+      "finish_reason": "stop",
+      "visible_tokens": 11,
+      "PLE_stats": {
+        "lookups": 62,
+        "rows": 2528,
+        "cache_hits": 8,
+        "cache_misses": 2520,
+        "bytes_read": 252000,
+        "elapsed_seconds": 1.168721877005737
+      }
+    },
+    {
+      "name": "warm-1",
+      "text": "...:#\ufe0fo words\n\no1 c32",
+      "wall_seconds": 0.6240464170004998,
+      "first_content_seconds": 0.3972224169992842,
+      "last_content_seconds": 0.6193104579979263,
+      "prompt_tokens": 50,
+      "generation_tokens": 14,
+      "prompt_tps": 194.0551213566937,
+      "generation_tps": 38.86268356535905,
+      "peak_memory_gb": 40.752384595,
+      "finish_reason": "stop",
+      "visible_tokens": 11,
+      "PLE_stats": {
+        "lookups": 78,
+        "rows": 3552,
+        "cache_hits": 8,
+        "cache_misses": 3544,
+        "bytes_read": 354400,
+        "elapsed_seconds": 1.229937501004315
+      }
+    },
+    {
+      "name": "warm-2",
+      "text": "...:#\ufe0fo words\n\no1 c32",
+      "wall_seconds": 0.6235226250028063,
+      "first_content_seconds": 0.39792187500279397,
+      "last_content_seconds": 0.6187864160019672,
+      "prompt_tokens": 50,
+      "generation_tokens": 14,
+      "prompt_tps": 194.07555264385948,
+      "generation_tps": 38.90315337850952,
+      "peak_memory_gb": 40.752470155,
+      "finish_reason": "stop",
+      "visible_tokens": 11,
+      "PLE_stats": {
+        "lookups": 94,
+        "rows": 4576,
+        "cache_hits": 8,
+        "cache_misses": 4568,
+        "bytes_read": 456800,
+        "elapsed_seconds": 1.2914716680061247
+      }
+    },
+    {
+      "name": "warm-3",
+      "text": "...:#\ufe0fo words\n\no1 c32",
+      "wall_seconds": 0.6415979579978739,
+      "first_content_seconds": 0.4147267079970334,
+      "last_content_seconds": 0.636770165998314,
+      "prompt_tokens": 50,
+      "generation_tokens": 14,
+      "prompt_tps": 182.0664820993833,
+      "generation_tps": 38.797606741923985,
+      "peak_memory_gb": 40.752503499,
+      "finish_reason": "stop",
+      "visible_tokens": 11,
+      "PLE_stats": {
+        "lookups": 110,
+        "rows": 5600,
+        "cache_hits": 8,
+        "cache_misses": 5592,
+        "bytes_read": 559200,
+        "elapsed_seconds": 1.352125668010558
+      }
+    }
+  ],
+  "quality": "Unreviewed; execution alone does not establish coherence or source accuracy."
+}

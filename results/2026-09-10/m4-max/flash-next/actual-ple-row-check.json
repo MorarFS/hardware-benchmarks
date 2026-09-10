@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_0",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0017319170001428574
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_1",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0010892079990298953
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_10",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0010676250003598398
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_11",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0009671669995441334
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_12",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.000866082998982165
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_13",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0005973329989501508
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_14",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0011228749990550568
+      }
+    },
+    {
+      "prefix": "language_model.model.layers.1.ple.ple_embedding.ngram_embedding.shard_15",
+      "rows": [
+        2500011,
+        0,
+        17,
+        1250006,
+        17,
+        1
+      ],
+      "bitwise_equal": true,
+      "stats": {
+        "lookups": 1,
+        "rows": 6,
+        "cache_hits": 1,
+        "cache_misses": 5,
+        "bytes_read": 500,
+        "elapsed_seconds": 0.0008630409993202193
+      }
+    }
+  ],
+  "note": "Actual downloaded source Q4 rows: disk-backed lookup equals direct MLX dequantization exactly, including duplicate and unsorted indices. This validates row transport, not model quality."
+}

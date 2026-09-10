@@ -1,0 +1,21 @@
+{
+  "name": "development-extraction",
+  "output": "D-Q1: Seven were selected for execution, but not all died; two escaped the hangman's bungled task and fled to sanctuary. [PDF p. 102] \"Seven were selected for execution... two of the criminals... fell to the ground alive.\"\n\nD-Q2: No, the passage attributes the 35,000 deaths to the entire six-day \"Sedition of Nika,\" not solely to the final assault. [PDF p. 106] \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\"\n\nD-Q3: Not stated in the supplied passage",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "prompt_tokens": 2452,
+  "generation_tokens": 144,
+  "prompt_tps": 126.24588841622034,
+  "generation_tps": 31.445247314269125,
+  "peak_memory_gb": 40.702203586,
+  "first_content_seconds": 21.53145412500089,
+  "last_content_seconds": 25.98494041700178,
+  "visible_phase_seconds": 4.453486292000889,
+  "visible_tokens_retokenized": 143,
+  "wall_seconds": 25.989088458998594,
+  "finish_reason": "stop",
+  "status": "ok"
+}

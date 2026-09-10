@@ -1,0 +1,12 @@
+{
+  "name": "synthetic-16000",
+  "output": "{\n  \"BEGIN\": \"opal-5731\",\n  \"MIDDLE\": \"cobalt-8426\",\n  \"END\": \"cedar-1964\"\n}",
+  "input_tokens": 15317,
+  "reported_prompt_tokens": 15317,
+  "generation_tokens": 46,
+  "generation_tps": 32.45783232239116,
+  "prompt_tps": 450.7565428894314,
+  "peak_memory_GB": 41.831751826,
+  "finish_reason": "stop",
+  "wall_seconds": 35.419290249999904
+}

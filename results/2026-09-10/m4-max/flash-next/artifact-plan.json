@@ -1,0 +1,38 @@
+{
+  "repository": "Sawfwair/Qwen3.8-Flash-Next-MLX-Mixed-2bit",
+  "revision": "a6e3d7a43efb8803cd6b847299a54084dc4e8ef4",
+  "source_repository": "Qwen/Qwen3.8-Flash-Next",
+  "source_revision": "f5d08274bafd880402bd16f5e3e6c514136ec06c",
+  "repository_bytes": 73118849488,
+  "tensor_count": 3615,
+  "tensor_bytes": {
+    "core": 38707132440,
+    "mtp": 1489670656,
+    "ple": 32000153600,
+    "vision": 897862112
+  },
+  "planned_resident_target_weight_bytes": 39604994552,
+  "disk_backed_ple": true,
+  "target_only_no_MTP": true,
+  "download_status": "complete_all_files_verified",
+  "runtime": "mlx-vlm",
+  "runtime_revision": "8f5dc3ddddbb8d7dd2b88ac51015def6f81fed21",
+  "candidate_checks": [
+    {
+      "repository": "mlx-community/Qwen3.8-Flash-Next-4bit",
+      "complete_repository_GiB": 103.88591645099223,
+      "reason_not_selected": "Resident core remains too large for64GB afterPLEoffload."
+    },
+    {
+      "repository": "Vontra/Qwen3.8-Flash-Next-MLX-oQ2",
+      "complete_repository_GiB": 63.04708133358508,
+      "reason_not_selected": "Model card has quality hold; complete resident payload leaves noOSheadroom."
+    },
+    {
+      "repository": "garnermccloud/Qwen3.8-Flash-Next-MLX-SSD-Stream",
+      "reason_not_selected": "Model card reports75.3GB model allocation before caches even with lookup table streamed fromSSD."
+    }
+  ],
+  "notes": "Exact byte inventory comes from all 131 original safetensors headers. All files verified; strict loading, corrected short/warm generation, frozen source battery, and context diagnostics completed. See README.md for the required normalization compatibility fix, synthesis failure, and memory/swap qualifications. No GGUF/pruned/ablated checkpoint is used.",
+  "runtime_compatibility": "Pinned Sawfwair conversion requires direct-scale text RMSNorm; scoped shim in scripts/flash_next_compat.py; no tensor values changed."
+}

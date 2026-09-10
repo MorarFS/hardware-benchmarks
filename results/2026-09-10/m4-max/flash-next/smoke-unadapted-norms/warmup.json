@@ -1,0 +1,22 @@
+{
+  "name": "warmup",
+  "text": "...:#\ufe0fo words\n\no1 c32",
+  "wall_seconds": 0.9574490000013611,
+  "first_content_seconds": 0.6725001659979171,
+  "last_content_seconds": 0.9527045830000134,
+  "prompt_tokens": 50,
+  "generation_tokens": 14,
+  "prompt_tps": 101.05126153605471,
+  "generation_tps": 30.67203526912629,
+  "peak_memory_gb": 40.751901496,
+  "finish_reason": "stop",
+  "visible_tokens": 11,
+  "PLE_stats": {
+    "lookups": 62,
+    "rows": 2528,
+    "cache_hits": 8,
+    "cache_misses": 2520,
+    "bytes_read": 252000,
+    "elapsed_seconds": 1.168721877005737
+  }
+}

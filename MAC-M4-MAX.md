@@ -1,6 +1,6 @@
 # Apple M4 Max local AI campaign
 
-**Status: campaign in progress, September 10, 2026 (Asia/Singapore).** All seven GGUF speed suites, Qwen8 CPU/MLX execution, and six GGUF plus one MLX source configurations are complete. The selected 235B IQ1_S model passed its 4K native-thinking fit/coherence check; its separate 16K source battery is complete with delivery failures documented below. All seven GGUF artifacts and Qwen8 MLX are downloaded and SHA-256 verified. The newly requested Qwen3.8-Flash-Next MLX checkpoint is downloading into an isolated setup. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
+**Status: measurements and source reviews complete, September 10, 2026 (Asia/Singapore).** Seven GGUF speed suites, Qwen8 CPU/MLX controls, the 235B native-thinking capacity experiment, and the Qwen3.8-Flash-Next MLX extension are complete. All selected model files were downloaded and verified. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
 
 ## Research usefulness so far
 
@@ -14,8 +14,11 @@
 | [Qwen27 UD-Q4_K_M, Metal](results/2026-09-10/m4-max/history/qwen38-27b/README.md) |14.89|9.02|19 / 1 / 0|4 / 1 / 11|
 | [Nemotron49 Q4_K_M, Metal](results/2026-09-10/m4-max/history/nemotron-49b/README.md) |9.27|5.19|17 / 2 / 1 contradiction|2 / 9 / 5|
 | [Qwen122 UD-IQ2_XXS, Metal](results/2026-09-10/m4-max/history/qwen35-122b-iq2xxs/README.md) |33.62|17.59|17 / 2 / 1 unsupported|4 / 2 / 10|
+| [Qwen3.8 Flash-Next mixed Q2/Q4, MLX](results/2026-09-10/m4-max/flash-next/history/README.md) |32.01|16.63|18 / 2 / 0|2 / 0 / 14|
 
-Gemma and Qwen35 exceed 40 on both observed rates. They still produce source errors and omit material; neither is an unchecked research recommendation. Qwen35’s merged output copies all four direct summaries, including their errors. Qwen27 has one more correct extraction answer, but its full-source control omits 11 compound units and its measured research rate is far below 40. MLX Qwen8 has a higher visible rate than both observed GGUF batteries, but drops an entire excerpt from synthesis; its wall rate is similar to the delayed GGUF repeat. All seven configurations correctly abstain on the four genuinely source-absent questions; MLX also falsely abstains on two stated answers. Nemotron completes the full 32K battery without sampled swap, but is slower than the smaller candidates and compresses three excerpts into one paragraph in its full-source answer. Qwen122 clears 40 in the short synthetic test but falls to 33.62 visible on source requests and omits all of H3 in its full-source answer. Coverage records representation separately from correctness; a represented event can still have a false outcome.
+The 20 extraction questions include four source-absent questions; they are not an additional denominator. Partial answers are separate from fully correct answers.
+
+Gemma and Qwen35 exceed 40 on both observed rates. They still produce source errors and omit material; neither is an unchecked research recommendation. Qwen35’s merged output copies all four direct summaries, including their errors. Qwen27 has one more correct extraction answer, but its full-source control omits 11 compound units and its measured research rate is far below 40. MLX Qwen8 has a higher visible rate than both observed GGUF batteries, but drops an entire excerpt from synthesis; its wall rate is similar to the delayed GGUF repeat. All eight matched configurations correctly abstain on the four genuinely source-absent questions; MLX also falsely abstains on two stated answers. Nemotron completes the full 32K battery without sampled swap, but is slower than the smaller candidates and compresses three excerpts into one paragraph in its full-source answer. Qwen122 clears 40 in the short synthetic test but falls to 33.62 visible on source requests and omits all of H3 in its full-source answer. Coverage records representation separately from correctness; a represented event can still have a false outcome.
 
 These are observations on a small selected OCR workload, with one battery per configuration and one separately reported Qwen8 GGUF repeat. Request wall rates include prompt processing but exclude startup and inter-request work. Model outputs and quantization differ; this is not an isolated backend or hardware comparison. Codex-assisted ledgers preserve all 20 extraction judgments, 48 applicable coverage judgments and grouped claims for each completed configuration (the Qwen8 repeat inherits its identical-output judgments), with no independent human adjudication.
 
@@ -79,6 +82,31 @@ The final full-source summary covered 4 of 16 units completely, 8 partially, and
 
 Nine held-out submitted requests produced 6,182 retokenized API-content tokens: **15.7578 content tokens/s during the visible phase**, or **6.1624 content tokens/s over request wall time**. These totals include leaked planning and repetition and must not be described as final-answer throughput. This native-thinking profile remains outside the matched reasoning-off chart.
 
-## Qwen3.8-Flash-Next MLX extension — in progress
+## Qwen3.8-Flash-Next MLX: fits with disk-backed PLE, weak synthesis
 
-Selected [Sawfwair’s faithful mixed Q2/Q4 conversion](https://huggingface.co/Sawfwair/Qwen3.8-Flash-Next-MLX-Mixed-2bit) at `a6e3d7a43efb8803cd6b847299a54084dc4e8ef4`: 68.10 GiB complete repository, including the full n-gram tables and MTP artifact. Its source is official Qwen at `f5d08274bafd880402bd16f5e3e6c514136ec06c`; no pruning or ablation is intended. Upstream MLX-VLM provides disk-backed quantized PLE row lookup. Estimated disk-backed Q4 PLE is 29.8 GiB, leaving about 38.3 GiB of other artifacts before runtime buffers; exact tensor accounting and compatibility are pending. No Flash-Next inference result is claimed yet. Downloads continue while other work proceeds.
+The [full evidence](results/2026-09-10/m4-max/flash-next/README.md) records the faithful Sawfwair mixed Q2/Q4 artifact at `a6e3d7a43efb8803cd6b847299a54084dc4e8ef4`, converted from official Qwen at `f5d08274bafd880402bd16f5e3e6c514136ec06c`. Its complete download is 68.10 GiB, including 29.80 GiB of n-gram tables and the 1.39 GiB optional MTP head. All 48 layers and all 512 experts per bank are retained. Target-only decoding loads 36.89 GiB of target/vision weights while the full PLE table is mapped read-only and requested rows are copied to MLX. MTP is not enabled.
+
+The first strict load succeeded but generated garbage. The publisher’s converter stores shifted text normalization scales as `raw_weight + 1`; upstream MLX-VLM added 1 again. The scoped [runtime compatibility helper](scripts/flash_next_compat.py) uses the stored scales directly, preserving every checkpoint tensor and leaving gated/vision norms unchanged. The failed run is retained separately. All subsequent results use this explicit correction with MLX 0.32.2 and MLX-VLM 0.7.0 at `8f5dc3ddddbb8d7dd2b88ac51015def6f81fed21`, in an isolated environment.
+
+Three warm short runs generated 199 tokens each at **36.4883 ± 0.1067 tokens/s**, with identical output text and mean request wall time 5.733 seconds. Peak MLX allocation was **40.7525 GB** (37.95 GiB). The preliminary arithmetic/capital answers were correct and the prose readable, but the explanation did not follow the requested three-sentence format and the separate hardware prose contained overgeneralizations. This is a coherence/fit check, not an accuracy benchmark.
+
+All 12 frozen source requests finished naturally; ten held-out requests yielded 5,255 visible tokens over 164.1763 visible-phase seconds and 315.9054 request-wall seconds: **32.0083 visible tokens/s**, **16.6347 tokens/wall second**. Extraction was **18 correct, 2 partial**, including all four correct source-absent responses. The partial answers omit Romanus’s forced abdication and the Mustaphas’ uncle/brother relationships. H1–H3 omit the required supporting quotations.
+
+The merged summary copies the four direct summaries exactly after whitespace normalization: 1,025 words instead of the requested 350–450. The full-source control receives 13,916 tokenized input tokens but returns 784 words solely about H1’s opening narrative. It stops normally at 1,036 generated tokens, below the 2,048 cap. It completely covers only 2 of 16 units and omits 14, including all of H2–H4 and H1’s later battles/defensive ending. Source errors elsewhere include misidentifying Constantine as Leo’s grandson and losing several qualifications.
+
+Separate post-result context checks retrieve all three queried names from the 13,805-token source and all three synthetic markers at 3,839 and 15,317 input tokens. They demonstrate access to later input and do not support a simple truncation explanation for the failed synthesis; they neither replace its score nor rule out subtler runtime issues. The model’s advertised 262,144-token maximum was not tested.
+
+The source battery peaks at **41.7855 GB MLX allocation** and **28,152,463,360 bytes sampled RSS**; these counters overlap and must not be added. Source testing shows no swap growth above an existing approximately 123 KiB. The subsequent context diagnostic peaks at 41.8318 GB MLX allocation and increases **system-wide swap by approximately 390 MiB**. Its cause cannot be isolated from these desktop measurements. This configuration executed on 64 GB with full disk-backed PLE, but the overall experiment was not swap-free.
+
+Reproduction requires Python 3.12 and the retained environment pins. The converter reference, download hashes, tensor inventory, storage/architecture checks, failed initial run, fixed run, source ledger, and context diagnostics are under the evidence directory.
+
+```bash
+python3.12 -m venv work/flash-next-env
+work/flash-next-env/bin/pip install -r results/2026-09-10/m4-max/flash-next/runtime-packages.txt
+work/flash-next-env/bin/python scripts/get-m4-flash-next.py --output work/mlx-flash-next-source --receipt local-results/flash-next-download.json
+python3 scripts/prepare-m4-flash-next.py --source work/mlx-flash-next-source --output work/mlx-flash-next-external-ple
+caffeinate -i work/flash-next-env/bin/python scripts/check-m4-flash-next.py --model work/mlx-flash-next-external-ple --output local-results/flash-next-smoke
+caffeinate -i work/flash-next-env/bin/python scripts/history_v2/run_m4_flash_next.py --model work/mlx-flash-next-external-ple --output local-results/flash-next-history
+caffeinate -i work/flash-next-env/bin/python scripts/check-m4-flash-context.py --model work/mlx-flash-next-external-ple --output local-results/flash-next-context
+work/flash-next-env/bin/python scripts/validate-m4-flash-next.py --model work/mlx-flash-next-source
+```

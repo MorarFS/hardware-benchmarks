@@ -1,0 +1,20 @@
+{
+  "name": "H4-summary",
+  "output": "The passage covers the final 75 years of the Byzantine Empire, noting that after 1370, it ceased to serve as a bulwark against the Ottomans, a duty that fell to the Servians and Hungarians [PDF p. 358]. The author argues that if Constantinople had fallen in 1370, European history would have been only slightly modified, as Genoa and Venice would have lost commercial resources before the Cape route to India emerged, and the Renaissance might have been less brilliant [PDF p. 359]. The text details the reign of John Paleologus, whose long, unhonoured old age was vexed by his son Andronicus\u2019s rebellions; John ordered Andronicus blinded, though the operation was ineffective [PDF p. 359]. Manuel II, described as above average, ruled only Constantinople, Thessalonica, and the Peloponnesus, lacking military strength [PDF p. 360]. The arrival of Tamerlane in 1402 offered a rare opportunity; Sultan Bayezid\u2019s defeat at Angora allowed Manuel to sell aid to Turkish pretenders, retaining gains during their civil war [PDF p. 360]. However, Europe failed to seize this chance, as Sigismund of Hungary was distracted by the Hussites, and Servia and Hungary lacked unity [PDF p. 362]. The author notes that while the empire\u2019s decline was evident, the period from 1402 to 1421 represented a missed opportunity [PDF p. 362]. The text describes the empire\u2019s exhaustion, noting that Constantinople\u2019s population shrank to about 100,000, and its military strength consisted of only 4,000 mercenaries [PDF p. 366]. John VI\u2019s reign was marked by peace and a failed attempt to win Western aid by conforming to Roman Catholicism; he was received into the Roman Church in 1439, but the papacy was discredited, yielding only a small sum and 300 troops [PDF p. 367].",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "prompt_tokens": 4086,
+  "generation_tokens": 455,
+  "prompt_tps": 441.1271400892223,
+  "generation_tps": 31.517630264622447,
+  "peak_memory_gb": 41.44967101,
+  "first_content_seconds": 9.30231220800124,
+  "last_content_seconds": 23.708988082998985,
+  "visible_phase_seconds": 14.406675874997745,
+  "visible_tokens_retokenized": 454,
+  "wall_seconds": 23.714375208001,
+  "finish_reason": "stop",
+  "status": "ok"
+}

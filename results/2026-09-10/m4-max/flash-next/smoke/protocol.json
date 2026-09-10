@@ -1,0 +1,24 @@
+{
+  "repository": "Sawfwair/Qwen3.8-Flash-Next-MLX-Mixed-2bit",
+  "revision": "a6e3d7a43efb8803cd6b847299a54084dc4e8ef4",
+  "runtime_commit": "8f5dc3ddddbb8d7dd2b88ac51015def6f81fed21",
+  "device": {
+    "device_name": "Apple M4 Max",
+    "max_recommended_working_set_size": 55662788608,
+    "memory_size": 68719476736,
+    "architecture": "applegpu_g16s",
+    "max_buffer_length": 41747087360,
+    "resource_limit": 499000
+  },
+  "MTP": false,
+  "thinking": false,
+  "temperature": 0,
+  "seed": 42,
+  "max_tokens": 256,
+  "prefill_step_size": 256,
+  "cache": "Fresh native cache per request; no prefix reuse or KV quantization",
+  "PLE": "Complete Q4/g32 original tensor ranges mapped read-only, no persistent row cache",
+  "PLE_stats_note": "Logical quantized row bytes and lookup elapsed time; not measured physical SSD throughput or filesystem cache misses",
+  "downloads": "Never paused",
+  "memory_limits": "No limit above device recommendation. Upstream generation temporarily wires up to recommended working set."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "development-summary",
+  "output": "**Summary**\n\nThe passage describes the \"Blues\" and \"Greens\" factions, which by 532 had evolved from circus groups into political parties with religious affiliations, posing a serious threat to the state [PDF p. 101]. In January of that year, rioting occurred; Justinian ordered leaders from both sides executed, but bungled hangings allowed two rioters to escape, triggering six days of desperate rioting [PDF p. 102]. The factions united under the cry \"Nika,\" demanding the removal of officials and eventually the deposition of Justinian in favor of Hypatius [PDF p. 102]. With troops depleted by the Persian War, the Emperor relied on Belisarius, who faced stout resistance; fighting around the Augustaeum led to fires that destroyed St. Sophia and other buildings [PDF p. 103]. Hypatius was crowned in the Hippodrome, while Justinian considered fleeing, but Theodora\u2019s speech, preserved by Procopius, urged him to fight rather than accept exile [PDF p. 105]. Belisarius routed the rebels at the Hippodrome, killing thousands; the author notes it is curious that such slaughter did not crush the factions, which continued rioting for fifty years, though they never again threatened history as in 532 [PDF p. 106].",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "prompt_tokens": 2388,
+  "generation_tokens": 292,
+  "prompt_tps": 415.8040539065761,
+  "generation_tps": 29.787289047460845,
+  "peak_memory_gb": 41.39924321,
+  "first_content_seconds": 5.9214564169997175,
+  "last_content_seconds": 15.5496424999983,
+  "visible_phase_seconds": 9.628186082998582,
+  "visible_tokens_retokenized": 291,
+  "wall_seconds": 15.553960791999998,
+  "finish_reason": "stop",
+  "status": "ok"
+}

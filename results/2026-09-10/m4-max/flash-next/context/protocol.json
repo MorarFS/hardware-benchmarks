@@ -1,0 +1,17 @@
+{
+  "purpose": "Context diagnostics after a failed full-source synthesis; does not replace or rescore frozen outputs",
+  "temperature": 0,
+  "seed": 42,
+  "MTP": false,
+  "enable_thinking": false,
+  "max_tokens": 256,
+  "prefill_step_size": 256,
+  "runtime_compatibility": {
+    "name": "Sawfwair direct-scale text RMSNorm compatibility",
+    "checkpoint_tensor_values_changed": false,
+    "gated_and_vision_norms_changed": false,
+    "reason": "Publisher converter transform_dense_value stores raw_weight + 1.0 for SHIFTED_TEXT_NORM_SUFFIXES; upstream Qwen4ExpRMSNorm otherwise adds 1.0 a second time.",
+    "converter_source": "https://github.com/sawfwair/mere-run/blob/main/scripts/model-conversion/convert_qwen38_flash_next_mlx.py",
+    "related_runtime_report": "https://github.com/jundot/omlx/issues/3181"
+  }
+}

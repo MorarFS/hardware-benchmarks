@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer these three items briefly: What is 6 times 7? What is the capital of France? Explain in three sentences why a large language model can fit in memory yet generate slowly."
+    }
+  ],
+  "rendered_prompt": "<|im_start|>user\nAnswer these three items briefly: What is 6 times 7? What is the capital of France? Explain in three sentences why a large language model can fit in memory yet generate slowly.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "prompt_tokens": 50,
+  "enable_thinking": false,
+  "max_tokens": 256
+}

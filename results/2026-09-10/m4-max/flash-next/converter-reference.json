@@ -1,0 +1,8 @@
+{
+  "repository": "sawfwair/mere-run",
+  "revision": "3ed0a15826605c77d9017e33c0a40c9e4e1d1952",
+  "path": "scripts/model-conversion/convert_qwen38_flash_next_mlx.py",
+  "sha256": "297c4dccdd8d5aca7abc4bdb76c2e135bf0af0a201f729c11ce44c7fcf9bc20d",
+  "relevant_function": "transform_dense_value",
+  "operation": "For shifted text norm suffixes, value = value + 1.0. Runtime must use stored scale directly."
+}

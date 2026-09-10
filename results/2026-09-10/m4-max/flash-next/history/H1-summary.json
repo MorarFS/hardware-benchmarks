@@ -1,0 +1,20 @@
+{
+  "name": "H1-summary",
+  "output": "The narrative begins with the Huns, described as a vast Tartar horde, bursting into lands north of the Euxine around A.D. 372 [PDF p. 61]. They nearly exterminated the Alans before crushing the Ostrogoths, who were forced into vassalage or fled south [PDF p. 61]. The Visigoths, viewing slavery to such savages as intolerable, requested permission from the Emperor to cross the Danube [PDF p. 62]. At this time, the Empire was divided; Valens ruled the East, characterized by the author as stupid, cowardly, and avaricious, while Valentinian held the West [PDF p. 62]. Valens, though dismayed, allowed the Goths to settle as subject-allies if they surrendered arms and hostages [PDF p. 63]. However, Roman officials accepted bribes to let Goths retain weapons, and Governor Lupicinus extorted food supplies, driving Goths to desperation [PDF p. 63]. A chance affray at Marcianopolis, where Lupicinus recklessly ordered the murder of Gothic guests, ignited a full-scale war [PDF p. 64]. The conflict initially resembled third-century raids, with Goths sacking towns and joined by runaway slaves [PDF p. 64]. In 378, Valens personally led a 60,000-man army against the Goths, who had adopted cavalry tactics [PDF p. 65]. At Adrianople, Gothic cavalry overwhelmed the Roman flank, causing a chaotic collapse where packed Roman units were cut down [PDF p. 66]. The battle resulted in 40,000 Roman deaths and the loss of high-ranking commanders, marking the worst defeat since Cannae [PDF p. 67]. The army was never reorganized on old lines [PDF p. 67]. The victorious Goths approached Constantinople but, daunted by its vast walls, abandoned siege machines and retreated to Thrace [PDF p. 67].",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "prompt_tokens": 3489,
+  "generation_tokens": 439,
+  "prompt_tps": 440.093455652814,
+  "generation_tps": 30.62689263827689,
+  "peak_memory_gb": 41.44661953,
+  "first_content_seconds": 7.967580209002335,
+  "last_content_seconds": 22.266218084001594,
+  "visible_phase_seconds": 14.298637874999258,
+  "visible_tokens_retokenized": 438,
+  "wall_seconds": 22.27056341700154,
+  "finish_reason": "stop",
+  "status": "ok"
+}

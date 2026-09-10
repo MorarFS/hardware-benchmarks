@@ -1,0 +1,12 @@
+{
+  "name": "synthetic-4096",
+  "output": "```json\n{\n  \"BEGIN\": \"opal-5731\",\n  \"MIDDLE\": \"cobalt-8426\",\n  \"END\": \"cedar-1964\"\n}\n```",
+  "input_tokens": 3839,
+  "reported_prompt_tokens": 3839,
+  "generation_tokens": 51,
+  "generation_tps": 31.706475130510608,
+  "prompt_tps": 441.015244894222,
+  "peak_memory_GB": 41.447717026,
+  "finish_reason": "stop",
+  "wall_seconds": 10.323369540998101
+}
