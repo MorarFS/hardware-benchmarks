@@ -64,7 +64,7 @@ def main():
     a=p.parse_args()
     if a.cache_ram_mib is not None and a.cache_ram_mib <= 0:p.error('Explicit cache limit must be positive; omit the option to preserve the runtime default')
     protocol=json.loads((ROOT/'experiments/history-v2-mac/protocol.json').read_text())
-    protocol.update(version='history-v2-m4-capacity-1.0',context_tokens=a.context,context_reason='Bounded 16K capacity workload on M4 Max 64 GiB; full prompt plus output must fit.',reasoning='Native thinking, server auto, explicit 512-token thinking budget',models=[a.model_id],comparison_limit='Separate thinking-budget configuration, not reasoning-off matched history results.')
+    protocol.update(version='history-v2-m4-capacity-1.0',context_tokens=a.context,context_reason='Bounded 16K capacity workload on M4 Max 64 GiB; full prompt plus output must fit.',reasoning='Native thinking, server auto, explicit 512-token budget per thinking block; total output cap2048',models=[a.model_id],comparison_limit='Separate thinking-budget configuration, not reasoning-off matched history results.')
     suite=frozen.load_suite(ROOT/'experiments/history-v2')
     spec=model_specs(ROOT)[a.model_id]
     model=ROOT/'work'/storage_relative(spec)

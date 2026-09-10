@@ -42,6 +42,20 @@
       "samples": 5
     }
   ],
+  "cpu_runs": [
+    {
+      "path": "results/2026-09-10/m4-max/cpu/qwen8-cpu-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/cpu/qwen8-cpu-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    }
+  ],
+  "cpu_rows": 3,
+  "cpu_samples": 15,
   "review_integrity": [
     {
       "path": "results/2026-09-10/m4-max/history/gemma4-26b/review.json",

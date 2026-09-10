@@ -42,7 +42,7 @@ The frozen history-v2 fixtures passed all 17 integrity checks. Application tests
 
 ## Capacity candidate
 
-Qwen3-235B-A22B-Thinking-2507 IQ1_S is selected for a bounded capacity experiment: 235B total / 22B active parameters, 47,948,249,568 bytes (~44.65 GiB) of weights. Exact publisher revision and SHA-256 are in `scripts/mac-extra-models.json`. Initial readable-output check uses 4,096 context tokens and native thinking mode, distinct from reasoning-off comparisons.
+Qwen3-235B-A22B-Thinking-2507 IQ1_S is selected for a bounded capacity experiment: 235B total / 22B active parameters, 47,948,249,568 bytes (~44.65 GiB) of weights. Exact publisher revision and SHA-256 are in `scripts/mac-extra-models.json`. Initial readable-output check uses 4,096 context tokens and native thinking mode, distinct from reasoning-off comparisons. A separate full-source attempt uses 16,384 context tokens, a 1,024 MiB RAM prompt cache, a 512-token budget per thinking block, and a 2,048-token overall output cap. The pinned [budget implementation](https://github.com/ggml-org/llama.cpp/blob/050dde50c/common/reasoning-budget.cpp) can rearm for a new block and finish a UTF-8 sequence before forcing its end. Actual activation and outputs must validate; command flags alone are insufficient.
 
 IQ1_S is aggressive quantization and can damage quality. A file below physical memory does not prove usability. Retain actual layer placement, memory pressure, system swap growth, process RSS, failures, readable output, and context. A one-GiB swap-growth guard stops excessive paging; it does not prove zero paging. No GPU memory limits are raised. Larger inspected recipes are documented as preflight exclusions. This is a selected candidate search, not a universal largest-model claim.
 
@@ -57,6 +57,9 @@ caffeinate -i python3 scripts/history_v2/run_mac.py qwen3-8b --output local-resu
 # After downloading the separately pinned capacity artifact:
 python3 scripts/get-model.py qwen235-thinking-iq1s
 caffeinate -i python3 scripts/check-m4-capacity.py qwen235-thinking-iq1s --context 4096
+caffeinate -i python3 scripts/history_v2/run_m4_capacity.py qwen235-thinking-iq1s --context 16384 --cache-ram-mib 1024 --output local-results/m4-capacity-history
+python3 scripts/history_v2/collect_m4_capacity.py qwen235-thinking-iq1s --source local-results/m4-capacity-history --output results/2026-09-10/m4-max/capacity-history/qwen235-thinking-iq1s
+python3 scripts/history_v2/retokenize_m4.py qwen235-thinking-iq1s --evidence-root results/2026-09-10/m4-max/capacity-history
 ```
 
 Run only one inference workload at a time on AC. Model downloads may continue by the stated user policy. Each model download verifies SHA-256 before promotion. Source builds, downloads, unreviewed raw logs and model weights remain local. Measured results and sanitized reproducible evidence will be added incrementally to `results/2026-09-10/m4-max/`.
