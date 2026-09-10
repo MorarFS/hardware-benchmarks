@@ -1,0 +1,145 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted, no independent human adjudication",
+  "scope": "All 20 extraction answers reviewed against frozen gold; selected summary-error examples, not exhaustive claim annotation.",
+  "counts": {
+    "correct": 16,
+    "partial": 1,
+    "contradiction": 1,
+    "no_answer": 2,
+    "unsupported": 0,
+    "qualification_loss": 0,
+    "ambiguous": 0,
+    "correct_source_absent": 4,
+    "source_absent_total": 4
+  },
+  "exceptions": [
+    {
+      "id": "H1-Q1",
+      "judgment": "no_answer",
+      "rationale": "False abstention: Fritigern is explicitly named on p61."
+    },
+    {
+      "id": "H3-Q2",
+      "judgment": "no_answer",
+      "rationale": "False abstention: Thessalonica904 and departure with booty explicitly appear on p242."
+    },
+    {
+      "id": "H3-Q3",
+      "judgment": "contradiction",
+      "rationale": "Source p243 has sons depose Romanus, then mob/guards expel sons; output reverses/conflates the agents."
+    },
+    {
+      "id": "H4-Q2",
+      "judgment": "partial",
+      "rationale": "Repeats that support drew war/fate but omits the rival-claimant explanation and uncle/brother relationships."
+    }
+  ],
+  "remaining_answers": "Correct under frozen acceptable-variant rules; quote/page/format compliance is separate.",
+  "citation_examples": [
+    "H2-Q3 quotes p173 but cites174.",
+    "H2-Q4 quotes p174 but cites175.",
+    "H4 extraction lacks supporting quotations."
+  ],
+  "selected_summary_errors": [
+    {
+      "stage": "H4-summary",
+      "anchor": "Manuel II, who died in 1448",
+      "judgment": "contradiction",
+      "source_pages": [
+        365
+      ],
+      "rationale": "The source places death three years after 1422; 1448 is not Manuel\u2019s date in the passage.",
+      "propagates_to": "merged-summary-synthesis"
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "anchor": "Three excerpt sections; skips H3",
+      "judgment": "omitted_source",
+      "rationale": "Literary emperors passage is entirely omitted despite being supplied among the four parent summaries."
+    },
+    {
+      "stage": "H3-summary",
+      "anchor": "revival to the influence of Leo\u2019s reforms",
+      "judgment": "unsupported_causality",
+      "source_pages": [
+        246,
+        247
+      ],
+      "rationale": "The supplied ending does not attribute literary recovery to reforms by Leo."
+    }
+  ],
+  "format_metrics": [
+    {
+      "request": "H1-extraction",
+      "words": 151,
+      "pdf_markers": 3,
+      "peak_mlx_memory_gb": 5.860859792
+    },
+    {
+      "request": "merged-summary-synthesis",
+      "words": 651,
+      "pdf_markers": 0,
+      "peak_mlx_memory_gb": 5.962524724
+    },
+    {
+      "request": "H1-summary",
+      "words": 282,
+      "pdf_markers": 4,
+      "peak_mlx_memory_gb": 5.860859792
+    },
+    {
+      "request": "development-extraction",
+      "words": 86,
+      "pdf_markers": 2,
+      "peak_mlx_memory_gb": 5.5850142
+    },
+    {
+      "request": "full-source-control",
+      "words": 532,
+      "pdf_markers": 0,
+      "peak_mlx_memory_gb": 7.174842408
+    },
+    {
+      "request": "development-summary",
+      "words": 221,
+      "pdf_markers": 1,
+      "peak_mlx_memory_gb": 5.5850142
+    },
+    {
+      "request": "H2-extraction",
+      "words": 216,
+      "pdf_markers": 4,
+      "peak_mlx_memory_gb": 5.868937704
+    },
+    {
+      "request": "H4-summary",
+      "words": 281,
+      "pdf_markers": 8,
+      "peak_mlx_memory_gb": 5.962524724
+    },
+    {
+      "request": "H3-summary",
+      "words": 162,
+      "pdf_markers": 0,
+      "peak_mlx_memory_gb": 5.925216744
+    },
+    {
+      "request": "H3-extraction",
+      "words": 150,
+      "pdf_markers": 3,
+      "peak_mlx_memory_gb": 5.925216744
+    },
+    {
+      "request": "H4-extraction",
+      "words": 93,
+      "pdf_markers": 4,
+      "peak_mlx_memory_gb": 5.962524724
+    },
+    {
+      "request": "H2-summary",
+      "words": 198,
+      "pdf_markers": 1,
+      "peak_mlx_memory_gb": 5.925216744
+    }
+  ]
+}

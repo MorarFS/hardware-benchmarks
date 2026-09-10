@@ -1,0 +1,20 @@
+{
+  "name": "development-summary",
+  "output": "The passage begins by contrasting the fate of Antonina, the wife of a court official, with that of the great Duchess Sarah, highlighting Antonina's lack of ambition to oppose her mistress. It then shifts to discuss the political and religious factions of the Byzantine Circus, the Blues and Greens, which had grown into powerful political parties by the fifth century. These factions, rooted in the circus, were prone to riots and had become a serious threat to the Emperor's power. In January of the year the Persian War ended, a riot broke out in the streets of Constantinople, leading to the execution of seven rioters. The unrest escalated into six days of violent rioting, during which the Blues and Greens united to demand the removal of the Emperor's officials. The city was nearly emptied of troops due to the Persian War, leaving Justinian with a small force to quell the rebellion. The riots culminated in the burning of the great cathedral of St. Sophia and the eventual defeat of the rebels by Justinian's forces, led by Belisarius. The passage concludes with the aftermath of the riots, noting the continued existence of the factions despite the violence, and highlights Theodora's decisive speech that inspired Justinian to make a final assault on the rebels, resulting in the suppression of the \"Sedition of Nika.\" [PDF p. 101-106]",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "prompt_tokens": 2345,
+  "generation_tokens": 282,
+  "prompt_tps": 831.9664694850063,
+  "generation_tps": 80.60154093866339,
+  "peak_memory_gb": 5.5850142,
+  "first_content_seconds": 2.8775575420004316,
+  "last_content_seconds": 6.363974583000072,
+  "visible_phase_seconds": 3.4864170409996404,
+  "visible_tokens_retokenized": 281,
+  "wall_seconds": 6.386001667000073,
+  "finish_reason": "stop",
+  "status": "ok"
+}
