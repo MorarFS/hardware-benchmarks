@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "edc2ce34f56220d5834abe182c1e8a3cebfe718594bd585d8e5958c533878947",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3593,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T03:25:45.671104+00:00",
+  "output": "The passage discusses the gradual decline of the Latin language in the Eastern Roman Empire, beginning in the sixth century. It notes that while the emperor still used Latin titles in the early seventh century, by around A.D. 800, he had adopted Greek. Latin was increasingly rare among educated individuals, as evidenced by figures like Johannes Lydus and Procopius, who lacked proficiency in the language. The decline was attributed to the separation of the Eastern and Western parts of the empire after the division under Constantine’s sons and the fall of the Western Roman Empire in 476. The Eastern provinces, particularly in the Balkans, were heavily affected by barbarian invasions, leading to a significant reduction in Latin speakers. By A.D. 620, only a tenth of the population east of the Adriatic spoke Latin, with most of the remaining speakers concentrated in Africa and the Italian Exarchate. The last notable Latin-speaking author was Flavius Corippus, an African.\n\nThe text also explores the increasing influence of Christianity on social and religious life. It highlights how Christianity gradually transformed Roman society, ending practices like infanticide and altering the institution of slavery. The Church taught that all humans, including slaves, possessed an immortal soul, leading to reforms such as the prohibition of infanticide and the gradual abolition of hereditary slavery. However, the rise of ascetic monasticism posed challenges, as many citizens withdrew from public life to focus on spiritual salvation, weakening the state’s ability to defend against barbarian invasions. The author criticizes this apathy, noting that it was seen as harmful by pagans and even led some Christians to interpret the empire’s troubles as signs of the end times. Despite this, the empire’s ruling classes continued to uphold Roman traditions and resist the perceived moral decay of the era.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 375,
+    "prompt_tokens": 3593,
+    "total_tokens": 3968,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 3508,
+    "prompt_ms": 7040.719,
+    "prompt_per_token_ms": 2.007046465222349,
+    "prompt_per_second": 498.2445684879627,
+    "predicted_n": 375,
+    "predicted_ms": 8853.366,
+    "predicted_per_token_ms": 23.672101604278076,
+    "predicted_per_second": 42.243820034097766
+  },
+  "first_visible_seconds": 7.089411584000118,
+  "wall_seconds": 15.94450441700019,
+  "word_count": 295,
+  "finished_at": "2026-09-10T03:26:02.087983+00:00"
+}

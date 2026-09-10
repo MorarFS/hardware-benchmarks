@@ -1,6 +1,6 @@
 # Apple M4 Max local AI campaign
 
-**Status: campaign in progress. [MLX application and matrix measurements](results/2026-09-10/m4-max/mlx.md) are complete; [Qwen8 Metal](results/2026-09-10/m4-max/speed.md) and [CPU](results/2026-09-10/m4-max/cpu.md) baselines are complete; larger-model tests continue.** Setup was verified on September 10, 2026 (Asia/Singapore). This is a different computer from the existing M5 Pro report. Historical results remain unchanged.
+**Status: campaign in progress. [MLX application and matrix measurements](results/2026-09-10/m4-max/mlx.md) are complete; [Qwen8 Metal](results/2026-09-10/m4-max/speed.md) and [CPU](results/2026-09-10/m4-max/cpu.md) baselines are complete; [Qwen8 source review](results/2026-09-10/m4-max/history/qwen3-8b/README.md) is also complete; larger-model tests continue.** Setup was verified on September 10, 2026 (Asia/Singapore). This is a different computer from the existing M5 Pro report. Historical results remain unchanged.
 
 ## Verified machine and runtime
 
