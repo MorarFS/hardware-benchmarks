@@ -1,6 +1,21 @@
 # Apple M4 Max local AI campaign
 
-**Status: campaign in progress. [MLX application and matrix measurements](results/2026-09-10/m4-max/mlx.md) are complete; [Qwen8 Metal](results/2026-09-10/m4-max/speed.md) and [CPU](results/2026-09-10/m4-max/cpu.md) baselines are complete; [Qwen8 source review](results/2026-09-10/m4-max/history/qwen3-8b/README.md) is also complete; [MLX research-workload results](results/2026-09-10/m4-max/mlx-history/README.md) are now complete as well; [Gemma26 research results](results/2026-09-10/m4-max/history/gemma4-26b/README.md) are complete; [Qwen35 research results](results/2026-09-10/m4-max/history/qwen36-35b/README.md) are complete; remaining larger-model tests continue.** Setup was verified on September 10, 2026 (Asia/Singapore). This is a different computer from the existing M5 Pro report. Historical results remain unchanged.
+**Status: campaign in progress, September 10, 2026 (Asia/Singapore).** Qwen8 CPU/Metal, MLX execution, and Qwen35/Gemma26 speed and source reviews are complete. Remaining models and the 235B capacity candidate are still downloading or awaiting tests. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
+
+## Research usefulness so far
+
+| Configuration | Visible tokens/s | Tokens/request wall second | Extraction correct / partial / other (20) | Full-source coverage complete / partial / omitted (16) |
+|---|---:|---:|---|---|
+| [Qwen8 Q4_K_M, Metal](results/2026-09-10/m4-max/history/qwen3-8b/README.md) |38.75|21.61|18 / 1 / 1 contradiction|3 / 9 / 4|
+| [Qwen8 group64 four-bit, MLX](results/2026-09-10/m4-max/mlx-history/README.md) |73.11|32.04|16 / 1 / 1 contradiction + 2 false abstentions|1 / 10 / 5|
+| [Qwen35 UD-Q4_K_M, Metal](results/2026-09-10/m4-max/history/qwen36-35b/README.md) |75.24|46.81|18 / 2 / 0|4 / 9 / 3|
+| [Gemma26 Q4_K_M, Metal](results/2026-09-10/m4-max/history/gemma4-26b/README.md) |85.46|48.92|18 / 2 / 0|6 / 7 / 3|
+
+Gemma and Qwen35 exceed 40 on both observed rates. They still produce source errors and omit material; neither is an unchecked research recommendation. Qwen35’s merged output copies all four direct summaries, including their errors. MLX Qwen8 is faster than the GGUF configuration but drops an entire excerpt from synthesis. All four correctly abstain on the four genuinely source-absent questions; MLX also falsely abstains on two stated answers.
+
+These are one-battery observations on a small selected OCR workload. Request wall rates include prompt processing but exclude startup and inter-request work. Model outputs and quantization differ; this is not an isolated backend or hardware comparison. Codex-assisted ledgers preserve all 20 extraction judgments, 48 applicable coverage judgments and grouped claims for each completed configuration, with no independent human adjudication.
+
+[Synthetic speed and five-sample variation](results/2026-09-10/m4-max/speed.md), [CPU baseline](results/2026-09-10/m4-max/cpu.md), and [MLX short inference/matrix observations](results/2026-09-10/m4-max/mlx.md) remain separate from source fidelity.
 
 ## Verified machine and runtime
 
@@ -18,7 +33,7 @@ The exact five original comparison artifacts are Qwen3 8B, Qwen3.6 35B-A3B, Gemm
 
 **The user explicitly requests downloads continue during inference.** The new `scripts/run-m4-benchmark.py` preserves the original protocol but omits its download-suspension wrapper. Results therefore describe a desktop with concurrent transfers, not a controlled download-isolated experiment. Transfers can use CPU, memory buffers and SSD bandwidth even with unified memory. Their effect is unmeasured, not assumed large or zero. Retain five samples and variation; qualify load/wall timing especially. No timed inference overlapped Apple installation.
 
-A separate CPU baseline and MLX application/kernel observations are planned. MLX uses `mlx-community/Qwen3-8B-4bit` revision `545dc4251c05440727734bcd94334791f6ab0192`, which differs in weight format and quantization from the GGUF baseline. These rows must not be presented as an isolated backend comparison.
+A separate CPU baseline and MLX application/kernel observations completed. MLX uses `mlx-community/Qwen3-8B-4bit` revision `545dc4251c05440727734bcd94334791f6ab0192`, which differs in weight format and quantization from the GGUF baseline. These rows must not be presented as an isolated backend comparison.
 
 The frozen history-v2 fixtures passed all 17 integrity checks. Application tests use the existing Mac adaptation, 32K context and a declared 1,024 MiB RAM prompt-cache limit. Preserve the predeclared rubric in `experiments/history-v2-mac/README.md`; separate correctness, partial answers, citation fidelity, coverage, and instruction compliance. Judgments are Codex-assisted, not independently human-adjudicated.
 

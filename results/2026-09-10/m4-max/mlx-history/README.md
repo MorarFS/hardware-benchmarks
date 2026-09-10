@@ -17,7 +17,7 @@ Codex-assisted review of all 20 extraction answers found **16 correct, one parti
 
 The false abstentions miss explicitly stated Fritigern and Thessalonica answers. H3-Q3 confuses the agents in Romanus’s removal and his sons’ expulsion. H4-Q2 fails to explain the rival claimants and their uncle/brother relationships. `review.json` records the exceptions and criteria.
 
-Selected summary findings: H4 invents 1448 as Manuel’s death year and propagates it to synthesis. The merged synthesis omits the entire H3 literary-emperors passage, supplies only three sections, and has 651 prose words against the 350–450 target. The full-source control has 532 words and no PDF citation markers. Direct summaries also show citation/length problems. These examples are not an exhaustive claim or coverage adjudication.
+Selected summary findings: H4 invents 1448 as Manuel’s death year and propagates it to synthesis. The merged synthesis omits the entire H3 literary-emperors passage, supplies only three sections, and has 651 prose words against the 350–450 target. The full-source control has 532 words and no PDF citation markers. Direct summaries also show citation/length problems. The expanded grouped claim and coverage ledger is described below.
 
 Thus MLX was faster on this specific workload, but this small trial does not establish a factual-quality improvement or general research reliability. Quantization/backend changes cannot be separated as causes of the output differences.
 
@@ -30,3 +30,5 @@ caffeinate -i work/mlx-env/bin/python scripts/history_v2/run_m4_mlx.py --model w
 ```
 
 The generator validates fixtures and never submits gold references. Output directories must be new; no silent retries. Each request preserves its exact source-derived messages, token events and final output. Streams are gzip-compressed in GitHub storage; decompress with `gzip -dk -- *-stream.jsonl.gz` to restore the original JSONL bytes. `validation.json` records the subsequent independent prompt/stream checks; `review.json` supplies separate source judgments.
+
+Expanded source review in `review.json` covers all 48 applicable coverage judgments and grouped claims for all six summaries. Full-source control covers one unit completely, ten partially and omits five. Repeated factual errors include the wrong Manuel death date and distorted territorial bargain; full-source prose adds unsupported legacy conclusions. These findings remain separate from throughput.

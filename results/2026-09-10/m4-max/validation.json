@@ -1,0 +1,63 @@
+{
+  "scope": "Available completed measurements only; generation protocol validation is performed separately by collect_mac.py. This check does not adjudicate source truth or rerun inference.",
+  "speed_runs": [
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    }
+  ],
+  "review_integrity": [
+    {
+      "path": "results/2026-09-10/m4-max/history/gemma4-26b/review.json",
+      "extraction_answers": 20,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 109
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/qwen36-35b/review.json",
+      "extraction_answers": 20,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 125
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/qwen3-8b/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 175
+    },
+    {
+      "path": "results/2026-09-10/m4-max/mlx-history/review.json",
+      "extraction_answers": 20,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 94
+    }
+  ],
+  "speed_rows": 9,
+  "speed_samples": 45
+}

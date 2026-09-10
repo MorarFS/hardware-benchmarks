@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+"""Independently check retained M4 speed arithmetic and source-review integrity."""
+import gzip,hashlib,importlib.util,json,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'results/2026-09-10/m4-max'
+sys.path.insert(0,str(ROOT/'scripts'))
+from mac_runtime import model_specs
+loader=importlib.util.spec_from_file_location('collector',ROOT/'scripts/collect-mac-results.py')
+collector=importlib.util.module_from_spec(loader);loader.loader.exec_module(collector)
+manifest=model_specs(ROOT);runs=[];reviews=[]
+for p in sorted((OUT/'speed').glob('*/*-status.json')):
+ status=json.loads(p.read_text())
+ if not status.get('validation_passed'):continue
+ data=json.loads(p.with_name(p.name.replace('-status','')).read_text())
+ collector.validate(data,status,manifest)
+ runs.append({'path':str(p.relative_to(ROOT)),'rows':len(data),'samples':sum(len(x['samples_ns']) for x in data)})
+folders=list((OUT/'history').glob('*'))+[OUT/'mlx-history']
+for folder in folders:
+ if not folder.is_dir():continue
+ p=folder/'adjudication.json'
+ if not p.exists():p=folder/'review.json'
+ if not p.exists():continue
+ review=json.loads(p.read_text());assert len(review['extraction'])==20,p
+ assert len({x['question_id'] for x in review['extraction']})==20,p
+ assert len(review['coverage'])==48,p
+ assert len({(x['stage'],x.get('unit',x.get('id'))) for x in review['coverage']})==48,p
+ for name,sha in review['output_sha256'].items():assert hashlib.sha256((folder/name).read_bytes()).hexdigest()==sha,(p,name)
+ for row in review['claims']:assert row['output_anchor'] in (folder/(row['stage']+'.md')).read_text(),(p,row)
+ reviews.append({'path':str(p.relative_to(ROOT)),'extraction_answers':20,'coverage_judgments':48,'grouped_claim_annotations':len(review['claims'])})
+receipt={'scope':'Available completed measurements only; generation protocol validation is performed separately by collect_mac.py. This check does not adjudicate source truth or rerun inference.','speed_runs':runs,'review_integrity':reviews,'speed_rows':sum(x['rows'] for x in runs),'speed_samples':sum(x['samples'] for x in runs)}
+(OUT/'validation.json').write_text(json.dumps(receipt,indent=2)+'\n')
+print(json.dumps({k:v for k,v in receipt.items() if k not in ['speed_runs','review_integrity']}));print(len(reviews),'source-review ledgers verified')

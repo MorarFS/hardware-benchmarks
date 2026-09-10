@@ -14,7 +14,7 @@ Codex-assisted review, without independent human adjudication: **18 correct extr
 
 The summaries reveal practical research risks. H2 incorrectly says Johannes Lydus lacked Latin proficiency, although the source says that skill enabled his career. H4 dates Manuel’s death to 1422, although the source places death three years after the 1422 return to vassalage. Both errors propagate into synthesis. Synthesis invents new page-range headings 1–8 instead of retaining physical source pages.
 
-The full-source control also lost substantial coverage: **three complete, nine partial and four omitted** compound units under the documented strict rubric. Its coverage table and selected claim-error anchors are in `review.json`. The selected error examples are not an exhaustive annotation of every summary claim.
+The full-source control also lost substantial coverage: **three complete, nine partial and four omitted** compound units under the documented strict rubric. The preliminary `review.json` retains selected examples; the expanded `adjudication.json` below supplies all applicable coverage judgments and grouped source-linked claims.
 
 | Output | Prose words | Requested range | PDF citation markers |
 |---|---:|---:|---:|
