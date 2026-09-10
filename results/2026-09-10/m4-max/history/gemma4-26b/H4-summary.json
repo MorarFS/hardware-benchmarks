@@ -1,0 +1,40 @@
+{
+  "name": "H4-summary",
+  "fingerprint": "24492556b2d2cac6544f1246e1a6522c16a237403cfd68dfb1a9505b840000a8",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3998,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T03:57:28.244682+00:00",
+  "output": "The author characterizes the final seventy-five years of the Byzantine Empire as a \"mere piece of local history\" that no longer significantly impacted Christendom [PDF p. 358]. The narrative begins with the reign of John Paleologus, which the author describes as a \"long and unhonoured\" period marked by his son Andronicus's rebellions [PDF p. 359]. Following John's death in 1391, Manuel II ascended the throne [PDF p. 359]. Although Manuel showed \"some signs of capacity,\" he lacked the resources to challenge the Turks [PDF p. 360].\n\nA temporary opportunity for liberation arose in 1402 when Timour defeated Sultan Bayezid at Angora, causing Ottoman civil war [PDF p. 360]. Manuel exploited this instability by selling aid to Suleiman for a \"heavy price,\" briefly regaining significant territories [PDF p. 361]. However, the author notes that Mohammed, a \"man of genius,\" eventually reunited the Ottoman realm by 1421 [PDF p. 362]. After Manuel's death, his son John VI presided over a period of \"unredeemed gloom\" [PDF p. 365]. The author describes a city in \"exhaustion and debility,\" characterized by ruins, poverty, and a population of one hundred thousand [PDF p. 366]. John VI attempted to secure Western aid by converting to Roman Catholicism at the Council of Florence in 1439, but the author evaluates this as a failure, as he received only minimal money and three hundred mercenaries [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 354,
+    "prompt_tokens": 3998,
+    "total_tokens": 4352,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3915,
+    "prompt_ms": 3298.482,
+    "prompt_per_token_ms": 0.8425241379310344,
+    "prompt_per_second": 1186.9096147864382,
+    "predicted_n": 354,
+    "predicted_ms": 4056.21,
+    "predicted_per_token_ms": 11.490679886685552,
+    "predicted_per_second": 87.02705234689525
+  },
+  "first_visible_seconds": 3.345655999999508,
+  "wall_seconds": 7.402316959000018,
+  "word_count": 228,
+  "finished_at": "2026-09-10T03:57:36.345359+00:00"
+}

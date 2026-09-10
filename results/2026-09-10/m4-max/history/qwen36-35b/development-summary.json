@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "9445cdd6087053733e712c3107544423ce19e783d08740398722235b1b63ffed",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2388,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:07:34.033466+00:00",
+  "output": "The author describes the Blues and Greens as factions that evolved from circus groups into dangerous political parties by 532 [PDF p. 101]. Justinian ordered the execution of riot leaders, but a botched hanging allowed two criminals to escape into sanctuary, sparking six days of rioting [PDF p. 102]. The factions united under the slogan \"Nika,\" demanding the dismissal of unpopular ministers and the deposition of Justinian [PDF p. 102]. With the city largely undefended due to the Persian War, the mob gained control, burning the Senate House and St. Sophia [PDF p. 103]. The rebels crowned Hypatius as emperor, though he had initially sought refuge with Justinian [PDF p. 103]. Ministers advised the Emperor to flee by sea, but the author notes that Empress Theodora refused to abandon the capital [PDF p. 105]. She delivered a speech arguing that imperial dignity was preferable to exile, quoting that \"Empire is the best winding-sheet\" [PDF p. 105]. Spurred by her resolve, Justinian ordered a final assault led by Belisarius [PDF p. 105]. Imperial forces breached the Hippodrome gates, routing the rebels who were trapped inside [PDF p. 105]. The author reports that thirty-five thousand men were killed in the suppression of the Nika Sedition [PDF p. 106]. Although the factions continued to riot for fifty years, the author observes that they never again threatened to alter the course of history [PDF p. 106].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 340,
+    "prompt_tokens": 2388,
+    "total_tokens": 2728,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 2306,
+    "prompt_ms": 1788.749,
+    "prompt_per_token_ms": 0.7756934084995664,
+    "prompt_per_second": 1289.1691344062247,
+    "predicted_n": 340,
+    "predicted_ms": 4425.144,
+    "predicted_per_token_ms": 13.053522123893806,
+    "predicted_per_second": 76.60767649595131
+  },
+  "first_visible_seconds": 1.825615624999955,
+  "wall_seconds": 6.251480500000071,
+  "word_count": 232,
+  "finished_at": "2026-09-10T04:07:42.140402+00:00"
+}

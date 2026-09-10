@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "e17ce90bdc4e64e815ea2878774d252dc436dbd0c8a5592a4eaac294c4266fbe",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3275,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:08:20.742767+00:00",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the most uneventful period in imperial history [PDF p. 241]. This era was dominated by Leo the Wise and Constantine Porphyrogenitus, who are described as mild literary figures rather than military conquerors [PDF p. 241]. The author argues that these emperors lacked the strength to protect their thrones had the times been harder, yet the period from 880 to 960 experienced fewer foreign wars than any other corresponding era [PDF p. 242]. While the Caliphate fragmented and northern neighbors settled, the empire faced only vexatious but non-dangerous piratical raids [PDF p. 242]. The author notes that the Saracen capture of Thessalonica in 904 was disgraceful but resulted from surprise rather than systemic failure [PDF p. 242]. Constantine VII spent his youth under regents, including Romanus Lecapenus, before emerging to rule after popular revolt removed the usurpers [PDF p. 243]. The author evaluates Constantine as weak but not tyrannical, noting that many abler men made worse rulers [PDF p. 243]. The primary achievements of both emperors were their literary works [PDF p. 243]. Leo’s manual on war provides a detailed picture of the organized Byzantine army, which the author praises for its modern-like equipment and care for the wounded [PDF p. 244-245]. Constantine’s works, particularly on court ceremonies, reflect his methodical nature and desire for order [PDF p. 246-247]. The author concludes that these literary efforts signaled the end of intellectual dearth, marking a revival of Byzantine culture after the darkest ages [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 395,
+    "prompt_tokens": 3275,
+    "total_tokens": 3670,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3193,
+    "prompt_ms": 2662.442,
+    "prompt_per_token_ms": 0.8338371437519574,
+    "prompt_per_second": 1199.274951341663,
+    "predicted_n": 395,
+    "predicted_ms": 5190.452,
+    "predicted_per_token_ms": 13.173736040609137,
+    "predicted_per_second": 75.90861065664416
+  },
+  "first_visible_seconds": 2.6821673750000627,
+  "wall_seconds": 7.873390208000274,
+  "word_count": 256,
+  "finished_at": "2026-09-10T04:08:28.846422+00:00"
+}

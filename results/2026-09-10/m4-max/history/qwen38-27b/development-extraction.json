@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "75ed209f7276da4b5e6b58044868fbc7676cc7588dd982149328e961bd854783",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2452,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:25:26.275865+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died as two survived their attempts at hanging. \"Seven were selected for execution... two of the criminals... fell to the ground alive\" [PDF p. 102].\n\nD-Q2: No, the passage attributes the 35,000 deaths to the entire six-day event, not solely to the final assault. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2452,
+    "total_tokens": 2586,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2452,
+    "prompt_ms": 11694.392,
+    "prompt_per_token_ms": 4.769327895595432,
+    "prompt_per_second": 209.6731493180663,
+    "predicted_n": 134,
+    "predicted_ms": 6784.013,
+    "predicted_per_token_ms": 51.007616541353386,
+    "predicted_per_second": 19.604915261807427
+  },
+  "first_visible_seconds": 11.700014416999693,
+  "wall_seconds": 18.48855625000033,
+  "word_count": 83,
+  "finished_at": "2026-09-10T04:25:46.490229+00:00"
+}

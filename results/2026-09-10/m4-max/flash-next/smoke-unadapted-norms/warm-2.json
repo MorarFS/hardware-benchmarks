@@ -1,0 +1,22 @@
+{
+  "name": "warm-2",
+  "text": "...:#\ufe0fo words\n\no1 c32",
+  "wall_seconds": 0.6235226250028063,
+  "first_content_seconds": 0.39792187500279397,
+  "last_content_seconds": 0.6187864160019672,
+  "prompt_tokens": 50,
+  "generation_tokens": 14,
+  "prompt_tps": 194.07555264385948,
+  "generation_tps": 38.90315337850952,
+  "peak_memory_gb": 40.752470155,
+  "finish_reason": "stop",
+  "visible_tokens": 11,
+  "PLE_stats": {
+    "lookups": 94,
+    "rows": 4576,
+    "cache_hits": 8,
+    "cache_misses": 4568,
+    "bytes_read": 456800,
+    "elapsed_seconds": 1.2914716680061247
+  }
+}

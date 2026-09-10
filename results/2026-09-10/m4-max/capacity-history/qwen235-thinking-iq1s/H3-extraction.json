@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "901e27296669d2e37eb1774555942aeed90d3d1099dfd2d549ef50f03bd43e7f",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3327,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:52:50.277034+00:00",
+  "output": "Okay, let me work through each question carefully based on the provided text.\n\nFor H3-Q1: Why was Constantine called Porphyrogenitus?\nThe passage states: \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241] So the answer is clear - he was born in the Purple Chamber.\n\nFor H3-Q2: Which city did Saracen pirates capture in 904, and did they retain it?\nThe passage states: \"The capture of the second city of the empire by a fleet of African adventurers was an incident disgraceful to the administration of Leo\" [PDF p. 242]. This refers to Thessalonica. Regarding retention, it says: \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" So they captured Thessalonica but didn't retain it.\n\nFor H3-Q3: According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?\nThe passage states: \"Romanus Lecapenus usurped the position\" and later \"an outburst of popular wrath was provoked\" leading to \"the mob and the guards joined to sweep away the presumptous Stephen Lecapenus and his brother.\" So Romanus was removed by popular uprising, and his sons were expelled by the mob and guards.\n\nFor H3-Q4: Against which opponents did Leo recommend caution rather than rash general battle?\nThe passage states: \"Against Saracen, Turk, Hungarian, and Slav, instant and decisive action is advised... It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution and deprecates any rash engagement in a general action.\"\n\nFor H3-Q5: What was the annual pay of an ordinary Byzantine cavalryman?\nThe passage doesn't mention this information at all. There's discussion of military organization but no specific mention of pay amounts.\n\nNow I'll formulate concise answers with supporting quotes as required:\n\nH3-Q1: Constantine was called Porphyrogenitus because \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" [PDF p. 242]\n\nH3-Q3: Romanus Lecapenus was removed by \"an outburst of popular wrath\" where \"the mob and the guards joined to sweep away the presumptous Stephen Lecapenus and his brother.\" [PDF p. 243]\n\nH3-Q4: Leo recommended caution against \"the men of the West, the Franks and Lombards\" rather than rash general battle. [PDF p. 244]\n\nH3-Q5: The passage does not provide information about the annual pay of an ordinary Byzantine cavalryman, so it's \"Not stated in the supplied passage.\"\n\nLet me verify each answer:\n\n1. For H3-Q1, the passage clearly states why Constantine was called Porphyrogenitus.\n2. For H3-Q2, the passage mentions Thessalonica was captured but not retained.\n3. For H3-Q3, the passage states Romanus was removed by popular uprising, and his sons were expelled.\n4. For H3-Q4, the passage states Leo recommended caution against the Franks and Lombards.\n5. For H3-Q5, there is no mention of cavalry pay amounts.\n\nI'll formulate concise answers with supporting quotes as required.\n</think>\n\nH3-Q1: Constantine was called Porphyrogenitus because \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thessalonica in 904, but \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" [PDF p. 242]",
+  "reasoning_output": "I need to answer each question based on the provided source material. Let me analyze each question one by one:\n\nH3-Q1: Why was Constantine called Porphyrogenitus?\nFrom the source: \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\nH3-Q2: Which city did Saracen pirates capture in 90 due to the passage, Thessalonica was captured by Saracen pirates: \"The capture of the second city of the empire by a fleet of African adventurers was an incident disgraceful to the administration of Leo\" [PDF p. 242]. But did they retain it? The passage states: \"When they had taken it the Saracens fled with their booty, and made no attempt to hold its walls.\" So they captured it but didn't retain it.\n\nH3-Q3: According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?\nThe passage states: \"Romanus Lecapenus usurped the position\" and later \"an outburst of popular wrath was provoked\" leading to \"the sons of the aged Romanus had resolved to succeed their parent on the throne.\" Then \"an outburst of popular wrath was provoked. The mob and the guards joined to sweep away the presumptous Stephen Lecapenus and his brother.\" So Romanus was removed by popular uprising, and his sons were expelled by the mob and guards.\n\nH3-Q4: Against which opponents did Leo recommend caution rather than rash general battle?\nThe passage states: \"Against Saracen, Turk, Hungarian, and Slav, instant and decisive action is advised... It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution and deprecates any rash engagement in a general action.\"\n\nH3-Q5: What was the annual pay of an ordinary Byzantine cavalryman?\nThe passage doesn't mention the annual pay of an ordinary Byzantine cavalryman. There's discussion of military organization but no specific mention of pay amounts.\n\nNow I'll formulate answers with supporting quotes:\n\nH3-Q1: Constantine was called Porphyrogenitus because \"This name was given him because he was born in the Purple Chamber, the room in the palace set aside for the Empress.\" [PDF p. 241]\n\nH3-Q2: Saracen pirates captured Thess",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1407,
+    "prompt_tokens": 3327,
+    "total_tokens": 4734,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 3242,
+    "prompt_ms": 24103.829,
+    "prompt_per_token_ms": 7.434863972856262,
+    "prompt_per_second": 134.5014520307126,
+    "predicted_n": 1407,
+    "predicted_ms": 81709.406,
+    "predicted_per_token_ms": 58.114798008534855,
+    "predicted_per_second": 17.207321272167857
+  },
+  "first_visible_seconds": 53.28189295800075,
+  "wall_seconds": 105.84745145799934,
+  "word_count": 591,
+  "finished_at": "2026-09-10T05:54:37.528612+00:00"
+}

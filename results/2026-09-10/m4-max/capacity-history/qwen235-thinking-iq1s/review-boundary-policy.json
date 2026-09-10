@@ -1,0 +1,17 @@
+{
+  "declared_after_observing": "H1 extraction leaked planning after budget end; H1 summary capped with planning only",
+  "created_at": "2026-09-10T13:51:42.711479+08:00",
+  "generation_unchanged": true,
+  "rules": [
+    "Retain and retokenize all actual API content bytes. Visible-content speed includes leaked planning and is not final-answer throughput.",
+    "Where a literal closing think tag unambiguously separates leaked planning from final answers, apply the frozen source rubric to the final answer and separately review visible planning/formatting. Preserve exact character boundary and both hashes.",
+    "Where output explicitly remains planning and never supplies an identifiable final answer, record no final answer; do not credit planned facts as completed-summary coverage.",
+    "Where no leaked planning occurs, use complete content as the final answer. Ambiguous boundaries remain explicitly uncertain rather than silently guessed.",
+    "The native profile is separate from reasoning-off rows and does not enter their quality chart."
+  ],
+  "H3_extraction_ambiguity_addendum": {
+    "observed_at": "2026-09-10T13:56:23.352778+08:00",
+    "finding": "H3 includes a complete structured answer set within visible planning, then a closing think tag and a partial repeat of only Q1/Q2. The tag is not an unambiguous boundary separating all substantive answer statements.",
+    "decision": "Review identifiable substantive answer statements across API content for all five questions; retain false/conflicting assertions even where a later repeat is correct. Record that no clean complete final block exists. Do not discard three visibly answered questions merely because they precede the tag. Keep this native profile separate from clean reasoning-off rows."
+  }
+}

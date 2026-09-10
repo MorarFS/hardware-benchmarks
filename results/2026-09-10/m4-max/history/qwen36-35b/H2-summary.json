@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "dbf6b66831ecce29683b9b82f41bed3b125f74b00fc4e4cbdf8814ec71c34172",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3630,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:08:06.521580+00:00",
+  "output": "The author argues that Latin decayed in the East due to practical separation from the West and barbarian devastation [PDF p. 170]. By the seventh century, Latin was rare, with Justinian being the last emperor to speak it natively [PDF p. 169]. The author attributes this linguistic shift to the division of the empire and the extermination of Latin-speaking populations by Slavs [PDF p. 170]. Simultaneously, the empire became increasingly Christian [PDF p. 171]. The author notes that Christian influence on state machinery began slowly, accelerating under Theodosius I [PDF p. 171]. The author highlights that gladiatorial games ended after a monk’s death in 404, not by state decree [PDF p. 171]. Christianity also abolished infanticide and modified slavery by emphasizing the soul’s equality [PDF p. 173]. The author credits these social improvements to the Christian belief in individual worth [PDF p. 174]. However, the author explicitly criticizes ascetic monasticism as harmful to the state [PDF p. 174]. The author claims monks neglected civic duties and viewed barbarian invasions as divine judgments rather than national crises [PDF p. 175]. This apathy angered pagans, who blamed Christianity for the empire’s ruin [PDF p. 176]. The author praises governing classes for maintaining Roman statecraft despite these challenges [PDF p. 176]. Finally, the author observes that while open paganism ended, indifference persisted among educated Christians [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 344,
+    "prompt_tokens": 3630,
+    "total_tokens": 3974,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3548,
+    "prompt_ms": 2971.528,
+    "prompt_per_token_ms": 0.83752198421646,
+    "prompt_per_second": 1193.998508511446,
+    "predicted_n": 344,
+    "predicted_ms": 4514.537,
+    "predicted_per_token_ms": 13.161915451895045,
+    "predicted_per_second": 75.97678344423802
+  },
+  "first_visible_seconds": 2.9975687079995623,
+  "wall_seconds": 7.512528707999991,
+  "word_count": 225,
+  "finished_at": "2026-09-10T04:08:14.625215+00:00"
+}

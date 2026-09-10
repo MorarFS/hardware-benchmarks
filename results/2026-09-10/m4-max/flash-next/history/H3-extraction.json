@@ -1,0 +1,21 @@
+{
+  "name": "H3-extraction",
+  "output": "H3-Q1: Why was Constantine called Porphyrogenitus?\nHe was born in the Purple Chamber, a palace room set aside for the Empress. [PDF p. 241]\n\nH3-Q2: Which city did Saracen pirates capture in 904, and did they retain it?\nThey captured Thessalonica but fled with their booty and made no attempt to hold its walls. [PDF p. 242]\n\nH3-Q3: According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?\nThe text states that Romanus's sons succeeded him, and the mob and guards swept away Stephen Lecapenus and his brother. [PDF p. 243]\n\nH3-Q4: Against which opponents did Leo recommend caution rather than rash general battle?\nLeo recommended caution against the men of the West, specifically the Franks and Lombards. [PDF p. 245]\n\nH3-Q5: What was the annual pay of an ordinary Byzantine cavalryman?\nNot stated in the supplied passage",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "prompt_tokens": 3379,
+  "generation_tokens": 234,
+  "prompt_tps": 206.9140058984989,
+  "generation_tps": 32.88229011225228,
+  "peak_memory_gb": 41.447342326,
+  "first_content_seconds": 16.4835194590014,
+  "last_content_seconds": 23.451696334002918,
+  "visible_phase_seconds": 6.968176875001518,
+  "visible_tokens_retokenized": 233,
+  "wall_seconds": 23.45612154199989,
+  "finish_reason": "stop",
+  "status": "ok"
+}

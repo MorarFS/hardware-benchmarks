@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "fd879e503969015351665e912a37e89ae50e425ea3974d6978da9e124534d33d",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3275,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:29:49.264907+00:00",
+  "output": "The author characterizes the eighty years following Basil the Macedonian’s death as the empire’s most uneventful period, dominated by the reigns of Leo the Wise and Constantine Porphyrogenitus [PDF p. 241]. While Basil was a capable but uneducated adventurer, his successors were mild, literary men who prioritized writing over military conquest [PDF p. 241]. The author notes that the period 880–960 was relatively peaceful, with external threats limited to vexatious but non-dangerous raids by Russians and Saracens [PDF p. 242]. Leo’s twenty-six-year reign was marked by a failed Bulgarian invasion and the disgraceful 904 Saracen capture of Thessalonica, which the author qualifies as a surprise attack that could have been prevented with better timing [PDF p. 242].\n\nConstantine, who became emperor at seven, spent decades under the regency of Alexander and later the usurper Romanus Lecapenus [PDF p. 243]. He only gained full power near age forty after popular outrage forced Romanus’s sons into monasteries [PDF p. 243]. The author describes Constantine as weak but not tyrannical [PDF p. 243]. Both emperors produced significant literary works. Leo’s *Tactica* provides a detailed picture of the Byzantine army, which the author praises for its modern-like organization, uniformity, and care for wounded soldiers [PDF p. 244]. The author also highlights Leo’s strategic advice, recommending decisive action against eastern foes but caution against western Franks and Lombards [PDF p. 245].\n\nConstantine’s works, including *On the Themes* and *On the Administration of the Empire*, are deemed invaluable for historical data [PDF p. 246]. The author evaluates Constantine as a methodical compiler rather than an originative thinker, noting his focus on court ceremonies compensated for his lack of real power [PDF p. 246]. Finally, the author argues that these emperors’ literary output signals the end of Byzantine intellectual decline, which had persisted since the Heraclian dynasty [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 472,
+    "prompt_tokens": 3275,
+    "total_tokens": 3747,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3193,
+    "prompt_ms": 17428.834,
+    "prompt_per_token_ms": 5.458450986533041,
+    "prompt_per_second": 183.20215798716083,
+    "predicted_n": 472,
+    "predicted_ms": 31925.295,
+    "predicted_per_token_ms": 67.78194267515923,
+    "predicted_per_second": 14.753191787264614
+  },
+  "first_visible_seconds": 17.454675709000185,
+  "wall_seconds": 49.381258000000344,
+  "word_count": 303,
+  "finished_at": "2026-09-10T04:30:39.650442+00:00"
+}

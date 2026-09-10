@@ -1,0 +1,13 @@
+{
+  "requested_tokens_per_thinking_block": 512,
+  "overall_output_token_cap": 2048,
+  "observed_activation_count": 11,
+  "forced_end_count": 7,
+  "utf8_wait_count": 0,
+  "natural_end_count": 4,
+  "sources": [
+    "https://github.com/ggml-org/llama.cpp/blob/050dde50c/common/arg.cpp",
+    "https://github.com/ggml-org/llama.cpp/blob/050dde50c/common/reasoning-budget.cpp"
+  ],
+  "note": "Budget restarts for a new thinking block and may finish a UTF-8 sequence before forcing closing tokens. This is distinct from the total output cap and from visible answer tokens."
+}

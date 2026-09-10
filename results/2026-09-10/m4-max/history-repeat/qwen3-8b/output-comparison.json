@@ -1,0 +1,66 @@
+{
+  "original": "../../history/qwen3-8b",
+  "method": "Exact assembled output bytes for all 12 requests; no whitespace normalization",
+  "requests": [
+    {
+      "request": "development-extraction",
+      "identical_output": true,
+      "output_sha256": "06c80005047fa6b7cda7052f3e21f6eb58a37c4ac386fd57f3b36600ec5f1d86"
+    },
+    {
+      "request": "development-summary",
+      "identical_output": true,
+      "output_sha256": "525bee7e70d8f743bc18f8fb27b6af76e2c506ae60b0764008e4b86018a06532"
+    },
+    {
+      "request": "H1-extraction",
+      "identical_output": true,
+      "output_sha256": "6b2843b7097f7f28e3231aebe344cc8e96fdded9ca105be0a9b06f7403d30d41"
+    },
+    {
+      "request": "H1-summary",
+      "identical_output": true,
+      "output_sha256": "e3187254b9b0e6283e48ecde492530d38349536adb9068697c7acf57e82673d9"
+    },
+    {
+      "request": "H2-extraction",
+      "identical_output": true,
+      "output_sha256": "c2fea7feabbdcc7907ebf4dee1c16e608cc94b2ef922346fa9903e892581d2fa"
+    },
+    {
+      "request": "H2-summary",
+      "identical_output": true,
+      "output_sha256": "ab6c2c42632526237e9b3257b97ac678ad183ffb148059545fa3feeb73e01463"
+    },
+    {
+      "request": "H3-extraction",
+      "identical_output": true,
+      "output_sha256": "b1fb82fe9a3ff00e59b321d0d215f71a5547c5f2f464b918ad37e8211641f29a"
+    },
+    {
+      "request": "H3-summary",
+      "identical_output": true,
+      "output_sha256": "08ef49fe7a7e06f7b8f1784389731ab7679f0b2becb4f5ceacf976e514887e84"
+    },
+    {
+      "request": "H4-extraction",
+      "identical_output": true,
+      "output_sha256": "8c182a7e8148a8207c8cdcc87f05a79236544d5a8eef19b07d7da256afdb0902"
+    },
+    {
+      "request": "H4-summary",
+      "identical_output": true,
+      "output_sha256": "984808a09d2e54d9bb1c40510a5436d8f98734614ef0385e0e31ce4a7c0ebdd7"
+    },
+    {
+      "request": "merged-summary-synthesis",
+      "identical_output": true,
+      "output_sha256": "0e0350a96d69e8e47913e0d8291c95fa06e8dbb517d1835efe334b044021a9ac"
+    },
+    {
+      "request": "full-source-control",
+      "identical_output": true,
+      "output_sha256": "1945f62b75466e14603c437420ea1ddc5ff2a879c69eef66d8e5b41d04866b9b"
+    }
+  ]
+}

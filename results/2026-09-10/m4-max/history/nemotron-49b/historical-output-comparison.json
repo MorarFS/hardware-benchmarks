@@ -1,0 +1,66 @@
+{
+  "method": "Exact saved Markdown bytes, including boundary newlines. All four extraction outputs and H1/H4 summaries match; changed summaries are independently reviewed. Context/cache/hardware differ; no timing copied.",
+  "reference": "results/2026-09-08/mac/accuracy/nemotron-49b",
+  "requests": [
+    {
+      "request": "H1-extraction",
+      "identical": true,
+      "output_file_sha256": "461afa65b3092bfc260405e3c41da70d2ee17725f5d8fe69538b40a345e2ac40"
+    },
+    {
+      "request": "H1-summary",
+      "identical": true,
+      "output_file_sha256": "d045c1216bfdec47605f4f58f1321cf77855241ca4b7de9159e1e65febd9facb"
+    },
+    {
+      "request": "H2-extraction",
+      "identical": true,
+      "output_file_sha256": "84f48c9a80db1758f9370bae8b29e83ab4d72431b7fb5ada8ec79b5634d0cb4e"
+    },
+    {
+      "request": "H2-summary",
+      "identical": false,
+      "output_file_sha256": "e27135dc880f69f4113d9caaac3da60748c5f8fa42a2ccb8381116f7c381c395"
+    },
+    {
+      "request": "H3-extraction",
+      "identical": true,
+      "output_file_sha256": "c1ae01d88e32eead6ceb7a8418f4e1250768a9821a2c1e21db8b0530e77372dc"
+    },
+    {
+      "request": "H3-summary",
+      "identical": false,
+      "output_file_sha256": "ae4ce3c1350b137833598f2ab73ae41b9870599c69a4fe4efba89c469269631a"
+    },
+    {
+      "request": "H4-extraction",
+      "identical": true,
+      "output_file_sha256": "743766058866317fa8fed2097da2b157711f8559e4d9e1232d3b62153a535f7c"
+    },
+    {
+      "request": "H4-summary",
+      "identical": true,
+      "output_file_sha256": "4232f33ef592d25aedf2e1279bcb7dc2d4a34efe32ac4063204a00c1d24bce41"
+    },
+    {
+      "request": "development-extraction",
+      "identical": true,
+      "output_file_sha256": "40cf58d43ff3212fca0d7dda213481a22496877605cd2f57a8e139498b8ecffa"
+    },
+    {
+      "request": "development-summary",
+      "identical": true,
+      "output_file_sha256": "9439418f3a880afec41c571ded63c260a5ab4fd10b830bcb32fd52cca753da9e"
+    },
+    {
+      "request": "full-source-control",
+      "identical": false,
+      "output_file_sha256": "1dac8baa6e8a64e798fe15bc78abd77e75572b52f5b1c9fae0bc44e3c0895e5a"
+    },
+    {
+      "request": "merged-summary-synthesis",
+      "identical": false,
+      "output_file_sha256": "0e6c6daf252e894dff7181dec8a545f5e23c5d56ead6caa19e83155e3dd8f32d"
+    }
+  ]
+}

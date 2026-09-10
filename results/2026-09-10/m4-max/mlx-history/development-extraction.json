@@ -1,0 +1,21 @@
+{
+  "name": "development-extraction",
+  "output": "D-Q1: The passage states that seven prisoners were selected for execution, but it does not specify whether all seven died. \"Seven were selected for execution, and four of them were duly beheaded...\" [PDF p. 102].\n\nD-Q2: The passage does not attribute 35,000 deaths solely to the Hippodrome assault. \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106].\n\nD-Q3: The exact duration of the Hippodrome assault in minutes is not stated in the supplied passage. Not stated in the supplied passage.",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "prompt_tokens": 2405,
+  "generation_tokens": 144,
+  "prompt_tps": 791.2868948824623,
+  "generation_tps": 81.2207955294953,
+  "peak_memory_gb": 5.5850142,
+  "first_content_seconds": 3.132593750000069,
+  "last_content_seconds": 4.892773500000203,
+  "visible_phase_seconds": 1.760179750000134,
+  "visible_tokens_retokenized": 143,
+  "wall_seconds": 4.915382625000348,
+  "finish_reason": "stop",
+  "status": "ok"
+}

@@ -1,0 +1,13 @@
+{
+  "mlx": "0.32.2",
+  "mlx_lm": "0.31.3",
+  "metal_available": true,
+  "device": {
+    "device_name": "Apple M4 Max",
+    "max_recommended_working_set_size": 55662788608,
+    "memory_size": 68719476736,
+    "architecture": "applegpu_g16s",
+    "max_buffer_length": 41747087360,
+    "resource_limit": 499000
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "requests": [
+    {
+      "name": "coherence",
+      "text": "6 times 7 is 42.\n\nThe capital of France is Paris.\n\nA large language model fits in memory because its parameters are stored as static weights that do not grow with input length, but it generates slowly because it must perform a sequential, layer-by-layer computation for every single token, requiring massive computational resources and data movement between memory and processors.",
+      "wall_seconds": 5.415735416998359,
+      "first_content_seconds": 2.937435125000775,
+      "last_content_seconds": 5.40889079200133,
+      "prompt_tokens": 50,
+      "generation_tokens": 74,
+      "prompt_tps": 60.32062523528407,
+      "generation_tps": 29.56058441335785,
+      "peak_memory_gb": 40.615130351,
+      "finish_reason": "stop",
+      "visible_tokens": 73,
+      "PLE_stats": {
+        "lookups": 76,
+        "rows": 1984,
+        "cache_hits": 8,
+        "cache_misses": 1976,
+        "bytes_read": 197600,
+        "elapsed_seconds": 0.7926553710021835
+      }
+    },
+    {
+      "name": "warmup",
+      "text": "Unified memory allows the CPU and GPU to share a single, high-speed pool of RAM, which is crucial for running large language models locally. Instead of copying data between separate memory banks, the model\u2019s weights and the Key-Value (KV) cache reside in the same address space. This reduces latency when accessing weights, as the GPU can directly read them without a slow PCIe transfer.\n\nHowever, fitting a model into this shared pool doesn\u2019t guarantee speed. The KV cache, which stores past token information to maintain context, grows rapidly with longer prompts. If this cache fills the available unified memory, the system must swap data to slower disk storage, causing massive slowdowns. Even if everything fits, the bandwidth bottleneck remains; reading massive weight matrices from RAM is still slower than accessing dedicated VRAM. Consequently, a model might technically \"fit\" within the total memory capacity but run sluggishly because the shared bandwidth cannot keep up with the constant, high-volume data requests required for token generation.",
+      "wall_seconds": 7.11319658299908,
+      "first_content_seconds": 0.30769574999794713,
+      "last_content_seconds": 7.101097499999014,
+      "prompt_tokens": 50,
+      "generation_tokens": 199,
+      "prompt_tps": 184.34117026261285,
+      "generation_tps": 29.14368903656379,
+      "peak_memory_gb": 40.752301703,
+      "finish_reason": "stop",
+      "visible_tokens": 198,
+      "PLE_stats": {
+        "lookups": 277,
+        "rows": 5968,
+        "cache_hits": 8,
+        "cache_misses": 5960,
+        "bytes_read": 596000,
+        "elapsed_seconds": 2.8967342490068404
+      }
+    },
+    {
+      "name": "warm-1",
+      "text": "Unified memory allows the CPU and GPU to share a single, high-speed pool of RAM, which is crucial for running large language models locally. Instead of copying data between separate memory banks, the model\u2019s weights and the Key-Value (KV) cache reside in the same address space. This reduces latency when accessing weights, as the GPU can directly read them without a slow PCIe transfer.\n\nHowever, fitting a model into this shared pool doesn\u2019t guarantee speed. The KV cache, which stores past token information to maintain context, grows rapidly with longer prompts. If this cache fills the available unified memory, the system must swap data to slower disk storage, causing massive slowdowns. Even if everything fits, the bandwidth bottleneck remains; reading massive weight matrices from RAM is still slower than accessing dedicated VRAM. Consequently, a model might technically \"fit\" within the total memory capacity but run sluggishly because the shared bandwidth cannot keep up with the constant, high-volume data requests required for token generation.",
+      "wall_seconds": 5.725314250001247,
+      "first_content_seconds": 0.2938786250015255,
+      "last_content_seconds": 5.713147165999544,
+      "prompt_tokens": 50,
+      "generation_tokens": 199,
+      "prompt_tps": 188.68277614457404,
+      "generation_tps": 36.53799750375822,
+      "peak_memory_gb": 40.752416735,
+      "finish_reason": "stop",
+      "visible_tokens": 198,
+      "PLE_stats": {
+        "lookups": 478,
+        "rows": 9952,
+        "cache_hits": 8,
+        "cache_misses": 9944,
+        "bytes_read": 994400,
+        "elapsed_seconds": 3.716357457022241
+      }
+    },
+    {
+      "name": "warm-2",
+      "text": "Unified memory allows the CPU and GPU to share a single, high-speed pool of RAM, which is crucial for running large language models locally. Instead of copying data between separate memory banks, the model\u2019s weights and the Key-Value (KV) cache reside in the same address space. This reduces latency when accessing weights, as the GPU can directly read them without a slow PCIe transfer.\n\nHowever, fitting a model into this shared pool doesn\u2019t guarantee speed. The KV cache, which stores past token information to maintain context, grows rapidly with longer prompts. If this cache fills the available unified memory, the system must swap data to slower disk storage, causing massive slowdowns. Even if everything fits, the bandwidth bottleneck remains; reading massive weight matrices from RAM is still slower than accessing dedicated VRAM. Consequently, a model might technically \"fit\" within the total memory capacity but run sluggishly because the shared bandwidth cannot keep up with the constant, high-volume data requests required for token generation.",
+      "wall_seconds": 5.721759833999386,
+      "first_content_seconds": 0.29372437500205706,
+      "last_content_seconds": 5.70949712500078,
+      "prompt_tokens": 50,
+      "generation_tokens": 199,
+      "prompt_tps": 188.78741192096527,
+      "generation_tps": 36.56107479251278,
+      "peak_memory_gb": 40.752500231,
+      "finish_reason": "stop",
+      "visible_tokens": 198,
+      "PLE_stats": {
+        "lookups": 679,
+        "rows": 13936,
+        "cache_hits": 8,
+        "cache_misses": 13928,
+        "bytes_read": 1392800,
+        "elapsed_seconds": 4.53330366499722
+      }
+    },
+    {
+      "name": "warm-3",
+      "text": "Unified memory allows the CPU and GPU to share a single, high-speed pool of RAM, which is crucial for running large language models locally. Instead of copying data between separate memory banks, the model\u2019s weights and the Key-Value (KV) cache reside in the same address space. This reduces latency when accessing weights, as the GPU can directly read them without a slow PCIe transfer.\n\nHowever, fitting a model into this shared pool doesn\u2019t guarantee speed. The KV cache, which stores past token information to maintain context, grows rapidly with longer prompts. If this cache fills the available unified memory, the system must swap data to slower disk storage, causing massive slowdowns. Even if everything fits, the bandwidth bottleneck remains; reading massive weight matrices from RAM is still slower than accessing dedicated VRAM. Consequently, a model might technically \"fit\" within the total memory capacity but run sluggishly because the shared bandwidth cannot keep up with the constant, high-volume data requests required for token generation.",
+      "wall_seconds": 5.751608999999007,
+      "first_content_seconds": 0.2942919580018497,
+      "last_content_seconds": 5.739012333000574,
+      "prompt_tokens": 50,
+      "generation_tokens": 199,
+      "prompt_tps": 188.61744068710988,
+      "generation_tps": 36.36575091991854,
+      "peak_memory_gb": 40.752500231,
+      "finish_reason": "stop",
+      "visible_tokens": 198,
+      "PLE_stats": {
+        "lookups": 880,
+        "rows": 17920,
+        "cache_hits": 8,
+        "cache_misses": 17912,
+        "bytes_read": 1791200,
+        "elapsed_seconds": 5.351564866996341
+      }
+    }
+  ],
+  "quality": "Unreviewed; execution alone does not establish coherence or source accuracy."
+}

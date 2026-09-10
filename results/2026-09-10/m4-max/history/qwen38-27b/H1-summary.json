@@ -1,0 +1,40 @@
+{
+  "name": "H1-summary",
+  "fingerprint": "bc7efc074c695801437981528c175ae813c052497a017dac7475c50fbfb91599",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3489,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:26:57.342673+00:00",
+  "output": "The author argues that Constantine’s construction of Constantinople proved prescient when the Huns, a Tartar horde, invaded the Balkans around A.D. 372 [PDF p. 61]. The Huns nearly exterminated the Alans and crushed the Ostrogoths, forcing them into vassalage [PDF p. 61]. The Visigoths, led by Fritigern, retreated to the Danube, where they pleaded for asylum from the Roman Emperor [PDF p. 61]. Valens, whom the author describes as stupid and cowardly, permitted their entry in exchange for hostages and surrendered arms [PDF p. 62]. However, Roman officials violated these terms by accepting bribes to let the Goths keep their weapons [PDF p. 63]. Governor Lupicinus further exacerbated tensions by hoarding food and selling it at exorbitant prices, driving the Goths to desperation [PDF p. 63]. A minor affray at Marcianopolis escalated when Lupicinus ordered the assassination of Fritigern, prompting the Goths to revolt [PDF p. 64].\n\nFollowing a year of destructive raids, Valens personally led an army of 60,000 men against the Goths in 378 [PDF p. 65]. The author notes that the Goths had adopted cavalry tactics, giving them a tactical advantage [PDF p. 65]. At Adrianople, a Gothic cavalry charge broke the Roman flank, causing the infantry to collapse into a dense, confused mass [PDF p. 66]. The resulting slaughter killed forty thousand Romans, including Valens and his senior commanders [PDF p. 67]. The author identifies this as the worst Roman defeat since Cannae [PDF p. 67]. The victorious Goths advanced on Constantinople but abandoned their siege after seeing the city’s formidable walls, confirming the strategic value of Constantine’s fortress [PDF p. 67].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 419,
+    "prompt_tokens": 3489,
+    "total_tokens": 3908,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3407,
+    "prompt_ms": 17604.51,
+    "prompt_per_token_ms": 5.167158790724978,
+    "prompt_per_second": 193.5299534039857,
+    "predicted_n": 419,
+    "predicted_ms": 26819.637,
+    "predicted_per_token_ms": 64.16181100478468,
+    "predicted_per_second": 15.58559498773231
+  },
+  "first_visible_seconds": 17.65608337499998,
+  "wall_seconds": 44.4758851659999,
+  "word_count": 266,
+  "finished_at": "2026-09-10T04:27:41.834776+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "coherence",
+  "text": "6 times 7 is 42.\n\nThe capital of France is Paris.\n\nA large language model fits in memory because its parameters are stored as static weights that do not grow with input length, but it generates slowly because it must perform a sequential, layer-by-layer computation for every single token, requiring massive computational resources and data movement between memory and processors.",
+  "wall_seconds": 5.415735416998359,
+  "first_content_seconds": 2.937435125000775,
+  "last_content_seconds": 5.40889079200133,
+  "prompt_tokens": 50,
+  "generation_tokens": 74,
+  "prompt_tps": 60.32062523528407,
+  "generation_tps": 29.56058441335785,
+  "peak_memory_gb": 40.615130351,
+  "finish_reason": "stop",
+  "visible_tokens": 73,
+  "PLE_stats": {
+    "lookups": 76,
+    "rows": 1984,
+    "cache_hits": 8,
+    "cache_misses": 1976,
+    "bytes_read": 197600,
+    "elapsed_seconds": 0.7926553710021835
+  }
+}

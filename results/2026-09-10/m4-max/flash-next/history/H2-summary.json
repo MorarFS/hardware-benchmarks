@@ -1,0 +1,20 @@
+{
+  "name": "H2-summary",
+  "output": "The passage traces the decline of Latin in the East and the rise of Christianity. It notes that by the seventh century, the Roman element was rapidly vanishing, with knowledge of Latin becoming rare even among educated men [PDF p. 169]. The author attributes this shift to the practical solution of continuity between Rome and the East, beginning with the division of the empire and completing after Odoacer\u2019s rule [PDF p. 170]. The process accelerated because Eastern provinces suffered heavily from barbarian invasions, reducing Latin speakers from a quarter to less than a tenth of the population [PDF p. 170]. The text then shifts to the empire\u2019s growing Christian identity, noting that administrative systems remained unchanged until forty years after Constantine\u2019s death [PDF p. 171]. The author explicitly evaluates the impact of Christian teachings on social life, stating they ended infanticide and modified slavery\u2019s evils [PDF p. 173]. However, the author also qualifies this by noting that the belief in individual souls led to harmful developments like ascetic monasticism, which was dangerous to the state [PDF p. 174]. This withdrawal from civic duties was criticized by pagans, though the author notes that governing classes preserved old traditions [PDF p. 175]. The excerpt concludes that paganism disappeared by the end of the fifth century, though indifference persisted among educated classes [PDF p. 176].",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "prompt_tokens": 3630,
+  "generation_tokens": 299,
+  "prompt_tps": 431.9921034699759,
+  "generation_tps": 30.758547441800005,
+  "peak_memory_gb": 41.447342326,
+  "first_content_seconds": 8.43727349999972,
+  "last_content_seconds": 18.128506708002533,
+  "visible_phase_seconds": 9.691233208002814,
+  "visible_tokens_retokenized": 298,
+  "wall_seconds": 18.13315704100023,
+  "finish_reason": "stop",
+  "status": "ok"
+}

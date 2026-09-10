@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "4cc9bab68e8606820353bb846b17ec4a9db69d470188af3183dee6e1c0f01cb7",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1714,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:58:47.702512+00:00",
+  "output": "**Excerpt H1 (PDF p. 1–2):**  \nThe text begins by highlighting the prescience of Constantine in establishing Constantinople as a central military hub for the Balkans. This is followed by the arrival of the Huns in 372 CE, who began their westward advance, first defeating the Alans and then the Ostrogoths. The Ostrogoths, described as fierce and proud, were crushed and forced to become Huns' vassals, with a remnant fleeing to Wallachia. The Huns then turned on the Visigoths, forcing them to retreat to the Danube, where they sought permission to cross into Roman territory. The text attributes the Visigoths' desperation to their fear of slavery to savages, contrasting them with their eastern brethren. The Roman Empire, divided between Valens in the East and Valentinian in the West, faced a dilemma when the Visigoths requested passage. Valens, portrayed as cowardly and avaricious, chose to allow the Goths to cross under the condition that they surrender their weapons and provide hostages. The Goths accepted, but soon disputes arose over food and land. Roman officials, including Lupicinus, exploited the situation, leading to widespread suffering and unrest among the Goths. This culminated in a clash at Marcianopolis, where Fritigern and his followers turned against Rome. The text describes a year of brutal conflict along the Danube and Balkans, with the Goths engaging in raids reminiscent of earlier barbarian incursions. Despite initial Roman resistance, the Goths, now adept at cavalry warfare, overwhelmed the Roman legions. The decisive battle at Adrianople in 378 CE resulted in a catastrophic defeat for the Romans, with Valens and many high-ranking officials killed. The text attributes this defeat to the Goths' superior mobility and the Romans' reliance on traditional infantry tactics. The battle is compared to Cannae, marking a turning point in Roman military history. The Goths then advanced toward Constantinople but failed to breach its defenses, ending their campaign without capturing the city.\n\n**Excerpt H2 (PDF p. 3–4):**  \nThe passage discusses the gradual decline of the Latin language in the Eastern Roman Empire, beginning in the sixth century. It notes that while the emperor still used Latin titles in the early seventh century, by around A.D. 800, he had adopted Greek. Latin was increasingly rare among educated individuals, as evidenced by figures like Johannes Lydus and Procopius, who lacked proficiency in the language. The decline was attributed to the separation of the Eastern and Western parts of the empire after the division under Constantine’s sons and the fall of the Western Roman Empire in 476. The Eastern provinces, particularly in the Balkans, were heavily affected by barbarian invasions, leading to a significant reduction in Latin speakers. By A.D. 620, only a tenth of the population east of the Adriatic spoke Latin, with most of the remaining speakers concentrated in Africa and the Italian Exarchate. The last notable Latin-speaking author was Flavius Corippus, an African. The text also explores the increasing influence of Christianity on social and religious life. It highlights how Christianity gradually transformed Roman society, ending practices like infanticide and altering the institution of slavery. The Church taught that all humans, including slaves, possessed an immortal soul, leading to reforms such as the prohibition of infanticide and the gradual abolition of hereditary slavery. However, the rise of ascetic monasticism posed challenges, as many citizens withdrew from public life to focus on spiritual salvation, weakening the state’s ability to defend against barbarian invasions. The author criticizes this apathy, noting that it was seen as harmful by pagans and even led some Christians to interpret the empire’s troubles as signs of the end times. Despite this, the empire’s ruling classes continued to uphold Roman traditions and resist the perceived moral decay of the era.\n\n**Excerpt H3 (PDF p. 5–6):**  \nThe period from 867 to 965, known as the reigns of Leo the Wise and Constantine Porphyrogenitus, marked a time of relative peace and literary achievement in the Byzantine Empire. These two emperors, descendants of Basil the Macedonian, were described as mild and unenterprising, focusing on literature rather than military conquest. Their reigns were characterized by minimal external threats, with the empire facing only occasional raids by Russians and Saracens, which were not considered dangerous. Leo's reign was marked by an unsuccessful invasion of Bulgaria and a Saracen raid on Thessalonica, which was seen as a failure of his administration. Constantine, who came to power after a long period of tutelage and political maneuvering, ruled for twenty years, though his rule was considered weak and ineffective. Both emperors are best known for their literary contributions. Leo's *Tactica* provided a detailed account of Byzantine military organization and tactics, while Constantine's works included *On the Themes*, *On the Administration of the Empire*, and a manual on court ceremonies. The author attributes these literary achievements to the emperors' lack of military ambition and their focus on intellectual pursuits. The text suggests that the ninth century marked the end of a period of intellectual stagnation, with a resurgence in literary activity and the emergence of notable figures like Photius.\n\n**Excerpt H4 (PDF p. 7–8):**  \nThe passage begins by discussing the decline of the Byzantine Empire from 1370 to 1453, noting that its role as the \"bulwark of Christendom against the Ottomite\" had diminished, with the Servians and Hungarians taking over this responsibility. The author attributes the prolonged existence of the empire to the Paleologi's subservience to the Turks, which delayed its inevitable fall [PDF p. 358]. The text then outlines the reign of John Paleologus, who faced internal strife with his children, particularly Andronicus, who rebelled twice. The author describes the political instability and the eventual succession of Manuel II. [PDF p. 359]. Manuel II. faced a brief opportunity for independence when the Ottoman Empire was weakened by internal civil wars, particularly after the defeat of Sultan Bayezid at Angora in 1402. The author notes that Manuel exploited this situation by selling his support to the Turkish pretender Suleiman, securing temporary gains. However, the author emphasizes that Europe failed to act decisively against the Ottomans, with Sigismund of Hungary preoccupied with the Hussite Wars [PDF p. 360]. The passage concludes with the rise of Murad II., who reasserted Ottoman control over Constantinople, leading to the empire's return to vassalage. Manuel II. died in 1422, marking the end of a brief period of hope. The author describes the empire's state of decay, with Constantinople reduced to a city of poverty and neglect, its population diminished, and its wealth concentrated in the hands of Italian merchants. John VI., Manuel's son, attempted to secure aid from the West by converting to Roman Catholicism and attending the Council of Florence, but the author notes that the papacy was no longer a powerful force capable of aiding the empire [PDF p. 365]. The text ends with the loss of Thessalonica to the Venetians and the Sultan, highlighting the empire's final decline [PDF p. 367].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1576,
+    "prompt_tokens": 1714,
+    "total_tokens": 3290,
+    "prompt_tokens_details": {
+      "cached_tokens": 86
+    }
+  },
+  "timings": {
+    "cache_n": 86,
+    "prompt_n": 1628,
+    "prompt_ms": 2632.395,
+    "prompt_per_token_ms": 1.6169502457002456,
+    "prompt_per_second": 618.4482192072239,
+    "predicted_n": 1576,
+    "predicted_ms": 26522.945,
+    "predicted_per_token_ms": 16.83996507936508,
+    "predicted_per_second": 59.38254594276766
+  },
+  "first_visible_seconds": 2.6538213749999784,
+  "wall_seconds": 29.17923049999999,
+  "word_count": 1144,
+  "finished_at": "2026-09-10T04:59:18.148283+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "merged-summary-synthesis",
+  "fingerprint": "ec7c060a2c2f1a668a202f4f91db4f51687a2cbe70d85737d0cd4462c8997df3",
+  "source_files": [
+    "prompts.json"
+  ],
+  "parent_requests": [
+    "H1-summary",
+    "H2-summary",
+    "H3-summary",
+    "H4-summary"
+  ],
+  "rendered_prompt_tokens": 1953,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:27:13.862126+00:00",
+  "output": "\n\n**Synthesis: A Journey Through Byzantine History**\n\n**The Hunnic Invasion and its Aftermath (ca. A.D. 372-378)**  \nThe late 4th century witnessed the formidable Hunnic invasion, which drastically altered the geopolitical landscape north of the Euxine (PDF p. 61). The Huns' relentless advance decimated the Alans and then targeted the Goths, leading to the Ostrogoths' subjugation and the Visigoths' flight to the Danube's Wallachian shore (PDF p. 61). Under Duke Fritigern, the Visigoths sought refuge from Roman Emperor Valens, promising loyalty in exchange for safety (PDF p. 62). Valens, described as \"stupid, cowardly, and avaricious\" (PDF p. 62), agreed reluctantly, imposing harsh conditions that led to Gothic starvation and desperation (PDF p. 63). This sequence of events culminated in the deadly affray at Marcianopolis, sparking open rebellion (PDF p. 63). The war that followed saw the Goths evolve into mounted warriors, clashing with Roman armies along the Danube and Balkans, ultimately leading to the disastrous Battle of Adrianople where Valens was killed, and nearly 40,000 Roman soldiers perished (PDF p. 66-67). The Goths' subsequent march towards Constantinople was halted by the city's formidable walls (PDF p. 67), a testament to Constantine's foresight, as noted by the author (PDF p. 67).\n\n**The Decline of Latin and Rise of Christianity (Late Antiquity, 5th-6th centuries)**  \nIn the Eastern Roman Empire, the Latin language, once prevalent in the Balkans, rapidly vanished by the seventh century (PDF p. 169). This decline was partly attributed to the empire's division and the increasing dominance of Greek in the East (PDF p. 170). As the empire lost its Roman character, it grew more Christian, significantly impacting social life (PDF p. 171). Christianity ended practices like infanticide (PDF p. 172) and modified the evils of slavery (PDF p. 173). However, the rise of ascetic monasticism, which spread from Egypt, had detrimental effects on the state, as thousands of men retired into monasteries, reducing the number of active citizens (PDF p. 174). The author notes that this trend was not only unhelpful to society but also posed a danger to the state (PDF p. 174). Despite criticisms from the remaining pagan minority regarding Christians' apathetic attitude towards the empire's afflictions (PDF p. 175), the governing classes continued to uphold Roman statecraft traditions (PDF p. 175).\n\n**The Literary Revival of the Byzantine Empire (A.D. 886-976)**  \nThe eighty years following Basil the Macedonian's death were marked by the reigns of mild, literary-minded emperors, Leo the Wise and Constantine Porphyrogenitus (PDF p. 241). Unlike Basil, an uneducated but capable adventurer, his successors devoted themselves to writing rather than military conquest (PDF p. 241). This period saw minimal foreign conflicts, with only minor threats from piratical raids (PDF p. 242). Both emperors' chief achievements were their literary works, including Leo's manual on the Art of War and Constantine's extensive writings such as \"On the Themes\" and \"On the Administration of the Empire\" (PDF p. 244). The author notes that these literary pursuits signified the end of an intellectual dearth in the Byzantine Empire by the end of the ninth century (PDF p. 247).\n\n**The Final Years of the Byzantine Empire (1370-1453)**  \nThe Byzantine Empire's last 75 years were insignificant in Christendom's history, with the Paleologi emperors prolonging its life through subservience to the Turks (PDF p. 358). Manuel II briefly seized an opportunity during the Ottoman civil war, gaining territories but ultimately returning to vassalage (PDF p. 360-363). The empire's decline was marked by a reduced population and territory, with Thessalonica sold to the Venetians and then annexed by the Ottomans (PDF p. 366-367). The author judges the Paleologi's subservience as prolonging the empire's life \"long after all justification for its existence had disappeared\" (PDF p. 358), highlighting missed opportunities for European intervention to change the empire's fate (PDF p. 362).",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 959,
+    "prompt_tokens": 1953,
+    "total_tokens": 2912,
+    "prompt_tokens_details": {
+      "cached_tokens": 88
+    }
+  },
+  "timings": {
+    "cache_n": 88,
+    "prompt_n": 1865,
+    "prompt_ms": 18765.944,
+    "prompt_per_token_ms": 10.06216836461126,
+    "prompt_per_second": 99.3821573804121,
+    "predicted_n": 959,
+    "predicted_ms": 100742.967,
+    "predicted_per_token_ms": 105.1596732776618,
+    "predicted_per_second": 9.509348677411891
+  },
+  "first_visible_seconds": 18.80115399999886,
+  "wall_seconds": 119.54360312499921,
+  "word_count": 625,
+  "finished_at": "2026-09-10T05:29:15.179672+00:00"
+}

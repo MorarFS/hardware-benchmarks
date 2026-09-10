@@ -1,0 +1,55 @@
+{
+  "reason": "Audit against exact frozen coverage unit; do not add a requirement for detailed Suleiman transaction or penalize independent claim errors again as missing coverage.",
+  "frozen_unit_file": "experiments/history-v2/gold/H4-coverage.json",
+  "full_source_counts_unchanged": true,
+  "changes": [
+    {
+      "model": "qwen36-35b",
+      "stage": "H4-summary",
+      "unit": "H4-C2",
+      "previous": {
+        "stage": "H4-summary",
+        "unit": "H4-C2",
+        "judgment": "partial",
+        "rationale": "Civil-war gains/opportunity present, but transaction not specified and unifier wrong."
+      },
+      "corrected_judgment": "covered"
+    },
+    {
+      "model": "qwen36-35b",
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C2",
+      "previous": {
+        "stage": "merged-summary-synthesis",
+        "unit": "H4-C2",
+        "judgment": "partial",
+        "rationale": "Civil-war gains/opportunity present, but transaction not specified and unifier wrong."
+      },
+      "corrected_judgment": "covered"
+    },
+    {
+      "model": "qwen38-27b",
+      "stage": "H4-summary",
+      "unit": "H4-C2",
+      "previous": {
+        "stage": "H4-summary",
+        "unit": "H4-C2",
+        "judgment": "partial",
+        "rationale": "Angora/civil war/gains present; negotiated Suleiman transaction omitted."
+      },
+      "corrected_judgment": "covered"
+    },
+    {
+      "model": "qwen38-27b",
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C2",
+      "previous": {
+        "stage": "merged-summary-synthesis",
+        "unit": "H4-C2",
+        "judgment": "partial",
+        "rationale": "Angora/civil war/gains present; negotiated Suleiman transaction omitted."
+      },
+      "corrected_judgment": "covered"
+    }
+  ]
+}

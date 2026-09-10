@@ -1,0 +1,291 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted; no independent human adjudication",
+  "rubric": "experiments/history-v2-mac/README.md; seven answer categories, source-absent correctness separate from formatting; compound coverage requires all components",
+  "scope": "All 20 extraction answers and 16 full-source coverage units reviewed. Selected claim-error examples are not an exhaustive annotation of every summary claim.",
+  "extraction": [
+    {
+      "id": "H1-Q1",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H1-Q2",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H1-Q3",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H1-Q4",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H1-Q5",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": true
+    },
+    {
+      "id": "H2-Q1",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H2-Q2",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H2-Q3",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H2-Q4",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H2-Q5",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": true
+    },
+    {
+      "id": "H3-Q1",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H3-Q2",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H3-Q3",
+      "judgment": "contradiction",
+      "rationale": "Assigns Romanus\u2019s removal to mob/guards and sons\u2019 expulsion to Constantine; source p243 gives sons deposing father, then mob/guards expelling sons. The second sentence partly quotes the correct sequence but does not repair the first.",
+      "source_absent": false
+    },
+    {
+      "id": "H3-Q4",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H3-Q5",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": true
+    },
+    {
+      "id": "H4-Q1",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H4-Q2",
+      "judgment": "partial",
+      "rationale": "Identifies rival claimants in the supporting quote but omits their distinct uncle/brother relationships. Cites p365 instead of p363.",
+      "source_absent": false
+    },
+    {
+      "id": "H4-Q3",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H4-Q4",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": false
+    },
+    {
+      "id": "H4-Q5",
+      "judgment": "correct",
+      "rationale": "Matches the frozen answer and acceptable-variant rule.",
+      "source_absent": true
+    }
+  ],
+  "counts": {
+    "correct": 18,
+    "partial": 1,
+    "contradiction": 1,
+    "unsupported": 0,
+    "qualification_loss": 0,
+    "ambiguous": 0,
+    "no_answer": 0,
+    "correct_source_absent": 4,
+    "source_absent_total": 4
+  },
+  "citation_notes": [
+    "H1-Q4 cites65; source result is on64.",
+    "H4-Q2 cites365; rival relationships and provocation are on363.",
+    "H1/H2 extractions omit explicit supporting quotation formatting.",
+    "H3-Q5 repeats the abstention phrase; H2-Q5 appends a page citation. Correct absence answers are not exact-format passes."
+  ],
+  "full_source_coverage": [
+    {
+      "id": "H1-C1",
+      "judgment": "partial",
+      "rationale": "Hunnic pressure and admission are present; Fritigern appears only later at revolt, without an explicit leadership link to seeking admission."
+    },
+    {
+      "id": "H1-C2",
+      "judgment": "partial",
+      "rationale": "Arms/bribes and food shortage/revolt present; hostages and officials\u2019 withholding/price policy absent."
+    },
+    {
+      "id": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople present, indecisive Ad Salices omitted."
+    },
+    {
+      "id": "H1-C4",
+      "judgment": "partial",
+      "rationale": "Defenses present, but a failed siege substitutes for defenses deterring the proposed attack."
+    },
+    {
+      "id": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Latin decline and separation/invasion causes retained."
+    },
+    {
+      "id": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Social change and slave treatment retained; explicit continuing slavery omitted."
+    },
+    {
+      "id": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Ascetic withdrawal retained; later learned monasticism omitted and evaluation not clearly attributed."
+    },
+    {
+      "id": "H2-C4",
+      "judgment": "omitted",
+      "rationale": "Pagan criticism, Orosius and continuing statecraft absent."
+    },
+    {
+      "id": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary rulers and favorable conditions retained."
+    },
+    {
+      "id": "H3-C2",
+      "judgment": "omitted",
+      "rationale": "Thessalonica and succession sequence absent."
+    },
+    {
+      "id": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Military organization/tactics mentioned; tactical caution and naval limits omitted."
+    },
+    {
+      "id": "H3-C4",
+      "judgment": "covered",
+      "rationale": "Constantine\u2019s books and literary revival retained."
+    },
+    {
+      "id": "H4-C1",
+      "judgment": "partial",
+      "rationale": "Generic decline retained; Oman\u2019s specific interpretation and Manuel\u2019s limited inheritance omitted."
+    },
+    {
+      "id": "H4-C2",
+      "judgment": "omitted",
+      "rationale": "Angora and Ottoman civil war opportunity absent."
+    },
+    {
+      "id": "H4-C3",
+      "judgment": "omitted",
+      "rationale": "Rival claimants, reported vision and withdrawal caused by revolt absent."
+    },
+    {
+      "id": "H4-C4",
+      "judgment": "partial",
+      "rationale": "Generic hardship retained; renewed vassalage, loss of Thessalonica and limited Western aid omitted."
+    }
+  ],
+  "selected_claim_errors": [
+    {
+      "family": "LYDUS-LATIN",
+      "stage": "H2-summary",
+      "anchor": "Johannes Lydus and Procopius, who lacked proficiency",
+      "source_pages": [
+        169
+      ],
+      "judgment": "contradiction",
+      "rationale": "Lydus explicitly owed his rise to knowing Latin; only Procopius is described as ignorant.",
+      "also_in": "merged-summary-synthesis",
+      "origin": "propagated from parent summary"
+    },
+    {
+      "family": "LATIN-BOUND",
+      "stage": "H2-summary",
+      "anchor": "only a tenth",
+      "source_pages": [
+        170
+      ],
+      "judgment": "qualification_loss",
+      "rationale": "Source says not a tenth, a strict upper bound.",
+      "also_in": "merged-summary-synthesis",
+      "origin": "propagated from parent summary"
+    },
+    {
+      "family": "MANUEL-DEATH",
+      "stage": "H4-summary",
+      "anchor": "Manuel II. died in 1422",
+      "source_pages": [
+        365
+      ],
+      "judgment": "contradiction",
+      "rationale": "1422 is renewed vassalage; source places death three years after.",
+      "also_in": "merged-summary-synthesis",
+      "origin": "propagated from parent summary"
+    },
+    {
+      "family": "INVENTED-PAGES",
+      "stage": "merged-summary-synthesis",
+      "anchor": "Excerpt H1 (PDF p. 1\u20132)",
+      "source_pages": [
+        61,
+        169,
+        241,
+        358
+      ],
+      "judgment": "unsupported_citations",
+      "rationale": "New headings assign pages1\u20138 instead of original physical PDF pages; parent H1\u2013H3 summaries supplied no citations.",
+      "origin": "newly introduced in synthesis"
+    },
+    {
+      "family": "LEO-DATES",
+      "stage": "H3-summary",
+      "anchor": "period from 867 to 965",
+      "source_pages": [
+        241,
+        242
+      ],
+      "judgment": "unsupported",
+      "rationale": "This exact date range is not provided by the supplied passage; its explicit relatively calm period is880\u2013960.",
+      "also_in": "merged-summary-synthesis",
+      "origin": "propagated from parent summary"
+    }
+  ]
+}

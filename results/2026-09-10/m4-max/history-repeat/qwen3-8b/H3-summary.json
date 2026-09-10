@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "a09c1a084d851207449cb1ebb80e957d6a907deea3113cadde735288011ea186",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3230,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:58:13.220797+00:00",
+  "output": "The period from 867 to 965, known as the reigns of Leo the Wise and Constantine Porphyrogenitus, marked a time of relative peace and literary achievement in the Byzantine Empire. These two emperors, descendants of Basil the Macedonian, were described as mild and unenterprising, focusing on literature rather than military conquest. Their reigns were characterized by minimal external threats, with the empire facing only occasional raids by Russians and Saracens, which were not considered dangerous. Leo's reign was marked by an unsuccessful invasion of Bulgaria and a Saracen raid on Thessalonica, which was seen as a failure of his administration. Constantine, who came to power after a long period of tutelage and political maneuvering, ruled for twenty years, though his rule was considered weak and ineffective. Both emperors are best known for their literary contributions. Leo's *Tactica* provided a detailed account of Byzantine military organization and tactics, while Constantine's works included *On the Themes*, *On the Administration of the Empire*, and a manual on court ceremonies. The author attributes these literary achievements to the emperors' lack of military ambition and their focus on intellectual pursuits. The text suggests that the ninth century marked the end of a period of intellectual stagnation, with a resurgence in literary activity and the emergence of notable figures like Photius.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 285,
+    "prompt_tokens": 3230,
+    "total_tokens": 3515,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 3145,
+    "prompt_ms": 4355.245,
+    "prompt_per_token_ms": 1.3848155802861686,
+    "prompt_per_second": 722.1178142676245,
+    "predicted_n": 285,
+    "predicted_ms": 3744.144,
+    "predicted_per_token_ms": 13.183605633802816,
+    "predicted_per_second": 75.85178347841324
+  },
+  "first_visible_seconds": 4.3801787920000095,
+  "wall_seconds": 8.125538125000006,
+  "word_count": 215,
+  "finished_at": "2026-09-10T04:58:23.334435+00:00"
+}

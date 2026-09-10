@@ -1,0 +1,33 @@
+{
+  "checked_date": "2026-09-10",
+  "capacity_selected": {
+    "name": "Qwen3 235B A22B Thinking 2507 IQ1_S",
+    "repository": "mradermacher/Qwen3-235B-A22B-Thinking-2507-i1-GGUF",
+    "revision": "809b430af10cc09e305f670cf9bbe1e01606d091",
+    "filename": "Qwen3-235B-A22B-Thinking-2507.i1-IQ1_S.gguf",
+    "sha256": "b91ae681af0ee4ef1f50b56b1c227acf026739f502e8dd643c4edef5872073b7",
+    "file_size_bytes": 47948249568,
+    "quantization": "IQ1_S (importance matrix)"
+  },
+  "capacity_selection": {
+    "file_gib": 44.655287235975266,
+    "physical_gib": 64,
+    "driver_recommended_gib": 51.84001289308071,
+    "initial_context": 4096,
+    "quantization_tradeoff": "Extremely low-bit IQ1_S; fit and readable output must be measured, not inferred from file size.",
+    "larger_or_higher_precision_exclusions": [
+      "Inspected Qwen3 235B Instruct Unsloth Q2_K: 85,691,001,472 bytes exceeds physical RAM.",
+      "Inspected Qwen3.5 397B Unsloth IQ1_M: 106,819,877,056 bytes exceeds physical RAM.",
+      "Qwen235 Thinking IQ2_XXS ~61.9 GB leaves inadequate reserve within default Metal recommendation.",
+      "Qwen235 Thinking IQ1_M ~53.14 GB leaves little GPU runtime/KV headroom under 55.66 GB recommendation; choose IQ1_S for useful bounded context."
+    ],
+    "scope": "Selected current public artifacts, not proof of absolute largest across models/quantizations."
+  },
+  "urls": [
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b10852",
+    "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+    "https://huggingface.co/mradermacher/Qwen3-235B-A22B-Thinking-2507-i1-GGUF/tree/809b430af10cc09e305f670cf9bbe1e01606d091",
+    "https://github.com/ml-explore/mlx-lm",
+    "https://ml-explore.github.io/mlx/build/html/install.html"
+  ]
+}

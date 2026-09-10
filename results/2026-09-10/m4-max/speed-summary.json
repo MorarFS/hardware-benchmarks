@@ -1,0 +1,443 @@
+[
+  {
+    "model": "gemma4-26b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 87.664665,
+    "sd_tps": 1.571013,
+    "samples_tps": [
+      84.886,
+      88.0609,
+      88.2141,
+      88.502,
+      88.6604
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 17862328320,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "file": "speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth2048-status.json"
+  },
+  {
+    "model": "gemma4-26b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 1395.336709,
+    "sd_tps": 6.409746,
+    "samples_tps": [
+      1397.2,
+      1404.73,
+      1391.5,
+      1387.72,
+      1395.53
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 17356898304,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "file": "speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0-status.json"
+  },
+  {
+    "model": "gemma4-26b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 94.344196,
+    "sd_tps": 0.189918,
+    "samples_tps": [
+      94.5005,
+      94.2779,
+      94.3619,
+      94.0566,
+      94.5242
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 17356898304,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "file": "speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0-status.json"
+  },
+  {
+    "model": "qwen36-35b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 77.650106,
+    "sd_tps": 0.856215,
+    "samples_tps": [
+      76.1439,
+      78.2704,
+      78.0209,
+      77.9734,
+      77.8419
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 22546841600,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "file": "speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth2048-status.json"
+  },
+  {
+    "model": "qwen36-35b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 1420.810333,
+    "sd_tps": 12.834334,
+    "samples_tps": [
+      1413.71,
+      1439.42,
+      1424.88,
+      1420.9,
+      1405.14
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 22401171456,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "file": "speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json"
+  },
+  {
+    "model": "qwen36-35b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 79.175597,
+    "sd_tps": 0.191089,
+    "samples_tps": [
+      79.2654,
+      79.0132,
+      79.424,
+      79.219,
+      78.9564
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 22401171456,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "file": "speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json"
+  },
+  {
+    "model": "nemotron-49b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 11.407244,
+    "sd_tps": 1.089024,
+    "samples_tps": [
+      12.9174,
+      11.9737,
+      11.3345,
+      10.6598,
+      10.1508
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 31269797888,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "file": "speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth2048-status.json"
+  },
+  {
+    "model": "nemotron-49b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 127.347763,
+    "sd_tps": 6.505569,
+    "samples_tps": [
+      135.221,
+      131.57,
+      127.174,
+      124.421,
+      118.354
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 30496063488,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "file": "speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0-status.json"
+  },
+  {
+    "model": "nemotron-49b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 14.926984,
+    "sd_tps": 0.457279,
+    "samples_tps": [
+      14.1229,
+      14.9843,
+      15.1643,
+      15.1675,
+      15.196
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 30496063488,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "file": "speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0-status.json"
+  },
+  {
+    "model": "qwen38-27b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 21.100752,
+    "sd_tps": 0.389278,
+    "samples_tps": [
+      20.8712,
+      21.6813,
+      21.0425,
+      21.2461,
+      20.6627
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 16920248320,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "file": "speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth2048-status.json"
+  },
+  {
+    "model": "qwen38-27b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 239.972954,
+    "sd_tps": 3.309847,
+    "samples_tps": [
+      242.585,
+      242.402,
+      242.17,
+      236.55,
+      236.158
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 16507518976,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "file": "speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0-status.json"
+  },
+  {
+    "model": "qwen38-27b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 21.189882,
+    "sd_tps": 0.238418,
+    "samples_tps": [
+      20.8714,
+      21.2474,
+      21.1843,
+      21.1145,
+      21.5318
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 16507518976,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "322e194ff79741c7baa497c240f677f54b201b0efab44ca8e50f122b39123482",
+    "file": "speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0-status.json"
+  },
+  {
+    "model": "qwen35-122b-iq2xxs",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 391.704179,
+    "sd_tps": 5.369132,
+    "samples_tps": [
+      382.272,
+      393.128,
+      394.225,
+      393.244,
+      395.652
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 37011439616,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "file": "speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth0-status.json"
+  },
+  {
+    "model": "qwen35-122b-iq2xxs",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 42.248136,
+    "sd_tps": 0.081092,
+    "samples_tps": [
+      42.3521,
+      42.2163,
+      42.1546,
+      42.3113,
+      42.2063
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 37011439616,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "file": "speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth0-status.json"
+  },
+  {
+    "model": "qwen35-122b-iq2xxs",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 41.683346,
+    "sd_tps": 0.136888,
+    "samples_tps": [
+      41.6773,
+      41.658,
+      41.6368,
+      41.9081,
+      41.5365
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 37258510336,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "3a67140a6be1e51716ef28d32f52e3190295557c3ed04c8444a3a38eb82b756c",
+    "file": "speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth2048-status.json"
+  },
+  {
+    "model": "qwen3-8b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 818.982213,
+    "sd_tps": 2.288235,
+    "samples_tps": [
+      818.509,
+      822.64,
+      816.298,
+      818.668,
+      818.797
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 5247762432,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "file": "speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0-status.json"
+  },
+  {
+    "model": "qwen3-8b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 74.914832,
+    "sd_tps": 0.583136,
+    "samples_tps": [
+      75.6892,
+      75.307,
+      74.8428,
+      74.4039,
+      74.3313
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 5247762432,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "file": "speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0-status.json"
+  },
+  {
+    "model": "qwen3-8b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 68.159333,
+    "sd_tps": 0.841427,
+    "samples_tps": [
+      69.1976,
+      68.9026,
+      67.8549,
+      67.5162,
+      67.3254
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 5817614336,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "file": "speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth2048-status.json"
+  },
+  {
+    "model": "qwen235-thinking-iq1s",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 24.116659,
+    "sd_tps": 0.475498,
+    "samples_tps": [
+      24.7022,
+      24.4019,
+      24.1464,
+      23.8585,
+      23.4743
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 48954998784,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "b91ae681af0ee4ef1f50b56b1c227acf026739f502e8dd643c4edef5872073b7",
+    "file": "speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth2048-status.json"
+  },
+  {
+    "model": "qwen235-thinking-iq1s",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 208.175634,
+    "sd_tps": 2.018307,
+    "samples_tps": [
+      206.062,
+      206.335,
+      208.429,
+      209.153,
+      210.9
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 48213147648,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "b91ae681af0ee4ef1f50b56b1c227acf026739f502e8dd643c4edef5872073b7",
+    "file": "speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth0-status.json"
+  },
+  {
+    "model": "qwen235-thinking-iq1s",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 27.061945,
+    "sd_tps": 0.048177,
+    "samples_tps": [
+      27.0157,
+      27.0157,
+      27.1232,
+      27.058,
+      27.0972
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 48213147648,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "b91ae681af0ee4ef1f50b56b1c227acf026739f502e8dd643c4edef5872073b7",
+    "file": "speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth0-status.json"
+  }
+]

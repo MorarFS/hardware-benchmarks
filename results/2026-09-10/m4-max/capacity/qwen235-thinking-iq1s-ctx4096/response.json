@@ -1,0 +1,135 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "17 plus 25 equals 42.  \nThe capital of France is Paris.  \nLarger language models require more computational resources and memory, causing slower execution on identical hardware due to increased complexity and data processing demands.",
+        "reasoning_content": "Okay, the user wants three specific answers in short sentences. Let me tackle each part one by one. \n\nFirst, 17 plus 25 is 42\u2014I'll make sure to state it clearly. \n\nSecond, the capital of France is Paris\u2014that's straightforward. \n\nThird, for the language model question: larger models need more computational resources, which slows them down on the same hardware. \n\nI'll keep each response concise as requested\u2014no extra words. The user seems to want quick factual answers, probably testing response precision. \n\nHmm, better avoid any fluff since they specified \"short sentences.\" \n\nAlright, time to deliver the three points cleanly.\n"
+      }
+    }
+  ],
+  "created": 1789019043,
+  "model": "qwen235-thinking-iq1s",
+  "system_fingerprint": "b10852-050dde50c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 47,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-05ZzjTAgnqzbNm1zFym14SxNz7481xbt",
+  "__verbose": {
+    "index": 0,
+    "content": "Okay, the user wants three specific answers in short sentences. Let me tackle each part one by one. \n\nFirst, 17 plus 25 is 42\u2014I'll make sure to state it clearly. \n\nSecond, the capital of France is Paris\u2014that's straightforward. \n\nThird, for the language model question: larger models need more computational resources, which slows them down on the same hardware. \n\nI'll keep each response concise as requested\u2014no extra words. The user seems to want quick factual answers, probably testing response precision. \n\nHmm, better avoid any fluff since they specified \"short sentences.\" \n\nAlright, time to deliver the three points cleanly.\n</think>\n\n17 plus 25 equals 42.  \nThe capital of France is Paris.  \nLarger language models require more computational resources and memory, causing slower execution on identical hardware due to increased complexity and data processing demands.",
+    "tokens": [],
+    "id_slot": 0,
+    "stop": true,
+    "model": "qwen235-thinking-iq1s",
+    "tokens_predicted": 185,
+    "tokens_evaluated": 47,
+    "generation_settings": {
+      "seed": 1234,
+      "temperature": 0.0,
+      "dynatemp_range": 0.0,
+      "dynatemp_exponent": 1.0,
+      "top_k": 40,
+      "top_p": 0.949999988079071,
+      "min_p": 0.05000000074505806,
+      "top_n_sigma": -1.0,
+      "xtc_probability": 0.0,
+      "xtc_threshold": 0.10000000149011612,
+      "typical_p": 1.0,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "dry_multiplier": 0.0,
+      "dry_base": 1.75,
+      "dry_allowed_length": 2,
+      "dry_penalty_last_n": 64,
+      "dry_sequence_breakers": [
+        "\n",
+        ":",
+        "\"",
+        "*"
+      ],
+      "mirostat": 0,
+      "mirostat_tau": 5.0,
+      "mirostat_eta": 0.10000000149011612,
+      "adaptive_target": -1.0,
+      "adaptive_decay": 0.8999999761581421,
+      "stop": [],
+      "max_tokens": 2048,
+      "n_predict": 2048,
+      "n_keep": 0,
+      "n_discard": 0,
+      "ignore_eos": false,
+      "stream": false,
+      "logit_bias": [],
+      "n_probs": 0,
+      "min_keep": 0,
+      "grammar": "",
+      "grammar_lazy": false,
+      "grammar_triggers": [],
+      "preserved_tokens": [
+        151657,
+        151658,
+        151667,
+        151668
+      ],
+      "chat_format": "peg-native",
+      "reasoning_format": "deepseek",
+      "reasoning_in_content": false,
+      "generation_prompt": "<|im_start|>assistant\n<think>\n",
+      "samplers": [
+        "penalties",
+        "dry",
+        "top_n_sigma",
+        "top_k",
+        "typ_p",
+        "top_p",
+        "min_p",
+        "xtc",
+        "temperature"
+      ],
+      "speculative.types": "none",
+      "timings_per_token": false,
+      "post_sampling_probs": false,
+      "backend_sampling": false,
+      "lora": []
+    },
+    "prompt": "<|im_start|>user\nAnswer in three short sentences. What is 17 plus 25? Name the capital of France. Explain why a larger language model may run more slowly on the same computer.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+    "has_new_line": true,
+    "truncated": false,
+    "stop_type": "eos",
+    "stopping_word": "",
+    "tokens_cached": 231,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 47,
+      "prompt_ms": 951.009,
+      "prompt_per_token_ms": 20.23423404255319,
+      "prompt_per_second": 49.42119370058538,
+      "predicted_n": 185,
+      "predicted_ms": 7325.779,
+      "predicted_per_token_ms": 39.81401630434783,
+      "predicted_per_second": 25.116782802211205
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 47,
+    "prompt_ms": 951.009,
+    "prompt_per_token_ms": 20.23423404255319,
+    "prompt_per_second": 49.42119370058538,
+    "predicted_n": 185,
+    "predicted_ms": 7325.779,
+    "predicted_per_token_ms": 39.81401630434783,
+    "predicted_per_second": 25.116782802211205
+  }
+}

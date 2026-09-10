@@ -1,0 +1,21 @@
+{
+  "name": "H3-extraction",
+  "output": "H3-Q1: Constantine was called Porphyrogenitus because he was born in the Purple Chamber, the room in the palace set aside for the Empress. This name was given him because he was born in the Purple Chamber [PDF p. 241].\n\nH3-Q2: The passage does not state which city Saracen pirates captured in 904, nor whether they retained it. Not stated in the supplied passage.\n\nH3-Q3: According to the passage, the people removed Romanus Lecapenus, and his sons then expelled him. The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother [PDF p. 243].\n\nH3-Q4: Leo recommended caution rather than rash general battle against the men of the West, the Franks and Lombards. It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution [PDF p. 245].\n\nH3-Q5: The passage does not state the annual pay of an ordinary Byzantine cavalryman. Not stated in the supplied passage.",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "prompt_tokens": 3329,
+  "generation_tokens": 236,
+  "prompt_tps": 672.9281710545969,
+  "generation_tps": 77.97362193602967,
+  "peak_memory_gb": 5.925216744,
+  "first_content_seconds": 5.00981825000008,
+  "last_content_seconds": 8.023092583000107,
+  "visible_phase_seconds": 3.0132743330000267,
+  "visible_tokens_retokenized": 235,
+  "wall_seconds": 8.045394167000268,
+  "finish_reason": "stop",
+  "status": "ok"
+}

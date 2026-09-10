@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "6f0c2c47156e38e3fd4d02217ad867654f9d12c480209fbad178a1ee5552af52",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3733,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:27:41.842107+00:00",
+  "output": "H2-Q1: The monk Telemachus intervened in AD 404, and he was slain during an angry scuffle. \"One day in A.D. 404 the games had begun... the monk Telemachus leapt down into the arena... the good monk was slain.\" [PDF p. 171]\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence.\" [PDF p. 173]\n\nH2-Q3: No, the passage states that slavery was not extinguished for centuries. \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173]\n\nH2-Q4: Oman regarded it as dangerous because men stepped aside from state burdens, leaving the empire hampered in its fight against barbarians. \"It was by thousands and ten thousands that the men who ought to have been bearing the burdens of the State, stepped aside into the monastery\" [PDF p. 174]\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 259,
+    "prompt_tokens": 3733,
+    "total_tokens": 3992,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3651,
+    "prompt_ms": 19856.478,
+    "prompt_per_token_ms": 5.438640920295809,
+    "prompt_per_second": 183.86946567261327,
+    "predicted_n": 259,
+    "predicted_ms": 17206.565,
+    "predicted_per_token_ms": 66.69211240310077,
+    "predicted_per_second": 14.994276893732131
+  },
+  "first_visible_seconds": 19.89449287499974,
+  "wall_seconds": 37.10127058299986,
+  "word_count": 156,
+  "finished_at": "2026-09-10T04:28:20.266376+00:00"
+}

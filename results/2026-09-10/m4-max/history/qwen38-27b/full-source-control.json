@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "12e95e7161a5acc3f465086e898a79b47f9b95f4be7622896d6b6cbeedb5faad",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:34:30.172836+00:00",
+  "output": "On PDF page 61, the author argues that Constantine’s construction of a fortress-capital proved prescient when the Huns, a Tartar horde, invaded the Balkans around A.D. 372. The Huns nearly exterminated the Alans and crushed the Ostrogoths, forcing them into vassalage. The Visigoths, led by Duke Fritigern, retreated to the Danube. The author notes that surrender was more dreadful to the Visigoths than to their eastern brethren because they were more civilized and Christian. On page 62, the Visigoths requested permission to cross the river. The author describes the Roman Empire as divided, with Valens ruling the East. He characterizes Valens as a \"stupid, cowardly, and avaricious prince\" who obtained power only through his brother Valentinian. Valens faced a dilemma: refusing passage to 200,000 desperate men was dangerous, but admitting them implied an obligation to provide land.\n\nOn PDF page 63, Valens chose to admit the Goths as subject-allies, requiring hostages and the surrender of arms. The Goths accepted, but Roman officials accepted bribes to allow them to keep their weapons. Governor Lupicinus then withheld food stores and sold provisions at exorbitant prices, driving the Goths to desperation. On page 64, a chance affray at Marcianopolis triggered open war. Lupicinus ordered the seizure of Fritigern, who escaped and rallied his followers. The author states that the Goths, smarting under extortion, reverted to barbarian raiding tactics. Although Roman armies initially held them at bay, the conflict escalated. The author observes that the old barbarian spirit was thinly covered by the veneer of Christianity.\n\nOn PDF page 169, the text shifts to the linguistic decay of the East. The author notes that by the seventh century, the Roman element was vanishing. Justinian was the last emperor to speak Latin as his mother tongue. On page 170, the author explains that the disuse of Latin resulted from the practical separation of the East from the West after 476. He argues that the process was accelerated because the Latin-speaking provinces suffered most from barbarian invasions. The Visigoths and Ostrogoths harassed the region, but the Slavs later almost exterminated the local population. The author cites statistics showing that in A.D. 400, a quarter of provincials east of the Adriatic spoke Latin, whereas in A.D. 620, not a tenth did. The Romanized Balkans became Slavonic principalities, leaving only Dalmatian seaports and scattered survivors using the old tongue.\n\nOn PDF page 241, the author describes the reigns of Leo the Wise and Constantine Porphyrogenitus as the most uneventful in imperial history. He characterizes them as mild, easy-going men of literature who wrote useful works rather than annals with their sword. On page 242, the author notes that the period 880-960 was less troubled by foreign wars than any other corresponding period. The empire faced only piratical raids from Russians and Saracens, which were vexatious but not dangerous. The author judges that an active emperor might have found the time propitious for conquest, but Leo and Constantine were quiet and unenterprising. They dwelt contentedly in the palace and seldom took the field. The author concludes that their literary achievements, such as Leo’s manual on the Art of War, provide valuable insights into Byzantine military organization and tactics.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 763,
+    "prompt_tokens": 13916,
+    "total_tokens": 14679,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 76108.893,
+    "prompt_per_token_ms": 5.501582550238543,
+    "prompt_per_second": 181.76588115662122,
+    "predicted_n": 763,
+    "predicted_ms": 53698.278,
+    "predicted_per_token_ms": 70.4701811023622,
+    "predicted_per_second": 14.19039917816359
+  },
+  "first_visible_seconds": 76.15569337499983,
+  "wall_seconds": 129.85664937500042,
+  "word_count": 529,
+  "finished_at": "2026-09-10T04:36:41.580163+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "full-source-control",
+  "output": "The events of the 370s mark a pivotal moment in the history of the Roman Empire, as the Huns' incursions into the Balkans set off a chain of conflicts that would reshape the region. The Huns, a formidable horde from beyond the Don and Volga, overwhelmed the Alans and then turned their attention to the Goths. The Ostrogoths, despite their efforts to defend the Dniester, were ultimately crushed and forced to become vassals of the Huns. Meanwhile, the Visigoths, under Duke Fritigern, were driven to the Danube, where they sought refuge within the Roman Empire. This led to a tense standoff between the Goths and the Roman Emperor Valens, who was reluctant to admit the Goths into the empire due to the potential threat they posed. Eventually, Valens allowed the Goths to cross the Danube, but the situation quickly deteriorated as the Goths, facing starvation and mistreatment, turned against the Romans. This culminated in a series of battles, including the infamous Battle of Adrianople in 378 AD, where the Roman army suffered a devastating defeat at the hands of the Goths. This battle is often compared to the Battle of Cannae in terms of its catastrophic impact on the Roman military.\n\nThe aftermath of the Battle of Adrianople marked a turning point for the Eastern Roman Empire, as the empire struggled to recover from the loss of its military strength. The Goths, having been repelled from Constantinople, continued their raids, but the empire's ability to resist them was severely weakened. The period also witnessed the gradual decline of the Latin language in the Eastern provinces, as Greek became the dominant language. This shift was not only linguistic but also cultural, as the empire's identity began to change. The Christianization of the empire also had a profound impact, influencing social and religious life. The Church's teachings on the equality of all individuals, including slaves, led to a reevaluation of the institution of slavery and the treatment of the lower classes. However, this transformation was not without its challenges, as the rise of monasticism and the increasing focus on individual salvation sometimes led to a neglect of civic duties, which in turn affected the empire's ability to defend itself against external threats.\n\nThe literary and cultural life of the Eastern Roman Empire also experienced a renaissance during this period, as evidenced by the works of emperors such as Leo the Wise and Constantine Porphyrogenitus. Their writings, including military treatises and administrative manuals, reflect a renewed interest in literature and the arts. This cultural revival was part of a broader trend of intellectual and literary activity that would continue to shape the empire's legacy. However, the empire's decline was not solely a result of internal factors; external pressures, such as the rise of the Ottoman Turks, also played a significant role. The fall of Constantinople in 1453, though not the end of the empire's story, symbolized the culmination of centuries of decline and the eventual absorption of the Eastern Roman Empire into the Ottoman Empire. The legacy of the Eastern Roman Empire, therefore, is a complex tapestry of military, cultural, and social transformations that left an indelible mark on the history of the Mediterranean world.",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "prompt_tokens": 13738,
+  "generation_tokens": 670,
+  "prompt_tps": 585.5143419368346,
+  "generation_tps": 55.92082826353091,
+  "peak_memory_gb": 7.174842408,
+  "first_content_seconds": 23.523773041000368,
+  "last_content_seconds": 35.486499583000295,
+  "visible_phase_seconds": 11.962726541999928,
+  "visible_tokens_retokenized": 669,
+  "wall_seconds": 35.516265041000224,
+  "finish_reason": "stop",
+  "status": "ok"
+}

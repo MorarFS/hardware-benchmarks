@@ -1,0 +1,20 @@
+{
+  "name": "H3-summary",
+  "output": "The passage discusses the reigns of Leo the Wise and Constantine Porphyrogenitus, two literary emperors of the Byzantine Empire, spanning from approximately 860 to 960. The author describes the period as uneventful, with the emperors focusing on literature rather than military endeavors. Leo, noted for his military manual, \"Tactica,\" provides insight into the Byzantine army's organization, tactics, and the role of the \"themes\" or military provinces. The author attributes the army's effectiveness to the nobility's involvement and the systematic training of soldiers. Constantine, who came to power after a period of guardianship, is praised for his literary contributions, including works on administration, the empire's themes, and court ceremonies. The author evaluates Constantine as a meticulous compiler rather than an original thinker. The passage concludes by noting the revival of intellectual activity in the empire, contrasting the earlier literary stagnation with the flourishing of the ninth century, exemplified by figures like Photius. The author attributes this revival to the influence of Leo's reforms.",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "prompt_tokens": 3230,
+  "generation_tokens": 222,
+  "prompt_tps": 684.0615615166766,
+  "generation_tps": 77.65038109200495,
+  "peak_memory_gb": 5.925216744,
+  "first_content_seconds": 4.782441625000047,
+  "last_content_seconds": 7.6280095840002105,
+  "visible_phase_seconds": 2.8455679590001637,
+  "visible_tokens_retokenized": 221,
+  "wall_seconds": 7.650878041999931,
+  "finish_reason": "stop",
+  "status": "ok"
+}

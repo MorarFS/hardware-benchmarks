@@ -1,0 +1,92 @@
+{
+  "fixture_hashes": {
+    "README.md": "cb4b2dbd619ec8ebe7eb969fab67538ce2cc483c838bdbc01db7b4ad39ad10d9",
+    "configurations.json": "5f3fa7a68b830bf34bb15cd340a256995add5a15fbbe2e1bd7653003fafa96d9",
+    "development-questions.json": "d27d48c53533aaa8df19ac8ea33d010d03a32682e80581b5074e09fb7f51c439",
+    "gold/H1-coverage.json": "1c4d1a938d56b999e833d5a6191b539d7a4430824a80f4f46372ae89bc97cb61",
+    "gold/H2-coverage.json": "c0dd3f01e114e6fa31748f9fa36f08092b92ba0ba384c725b3b2fc8a084ccf8b",
+    "gold/H3-coverage.json": "e89f685ff15f668e922a1cf1e98dbd741c78dd06672d46a833a2cb0450087cfa",
+    "gold/H4-coverage.json": "3271fd12af4a7e05006ea9616cc72d7937bccf38692f2a494a20df30f80bf25c",
+    "gold/answers.json": "0c9491c10ccfed3c261cfbe1c7d59320d6bf0fa2008e8658fbb5c1135c6583db",
+    "gold/development.json": "199f439c487682bc672ff0f47e826cf5726010542e14de17515e6f4b30c35a04",
+    "inputs/H1.txt": "6c96c786d5b87d156284100d78d9c218f92d8fa4c54bdb1d30e55f9b1f8480cb",
+    "inputs/H2.txt": "9a52cabc762134071db6b2b266173b7282667c2bef0915a31b94fa1c41cb4a16",
+    "inputs/H3.txt": "7423682606beb3695178f5a5ef9b17d809adae2e71ebce9cb616590f0c6a3007",
+    "inputs/H4.txt": "02742a48d0027d9547473134cb4330556c119e256e97c5e3cbbeb08fc1d4341f",
+    "inputs/development.txt": "294cd06ac1b11cb385de6841aaae2dfd6bc8cadc4328754d1be430c11a1ec96a",
+    "prompts.json": "472ea928f58b5dd8830cb26ca71c107b0dfafb1ecb57d13d775b8db0e275f9d8",
+    "questions.json": "db688196166e364f6081ca2686bebed74f6b39a3de46f8b42e3da8cb352d606e",
+    "split-manifest.json": "a41dffa8fbec4f5f751470844c27e35eb563159cab0233213e775aef5ca077a2"
+  },
+  "max_output_tokens": 2048,
+  "preflight_context_limit": 32768,
+  "requests": [
+    {
+      "stage": "development-extraction",
+      "prompt_tokens": 2452,
+      "prompt_sha256": "c23248408bf435c6f832fe57686b5230d1557df1ecdf3dea2f2dd19e4cde21dc",
+      "suffix": "2.\n\nEND SOURCE. Answer the listed questions now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "development-summary",
+      "prompt_tokens": 2388,
+      "prompt_sha256": "5b6d94e5e33ea16de4348f6865f57d8784ec6475a3ed6b37d6337a97a7c09299",
+      "suffix": "of A.D. 532.\n\nEND SOURCE. Write the summary now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H1-extraction",
+      "prompt_tokens": 3595,
+      "prompt_sha256": "7c1ac6ea8bea62c957772866388d17840cf4bf2e60240ed30339c95d447ecaed",
+      "suffix": "s.\n\nEND SOURCE. Answer the listed questions now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H1-summary",
+      "prompt_tokens": 3489,
+      "prompt_sha256": "f60490d437b9aba5641a5126c5af38c37b90c7c6213ef6230c92d99059632adf",
+      "suffix": "Marcellinus.\n\nEND SOURCE. Write the summary now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H2-extraction",
+      "prompt_tokens": 3733,
+      "prompt_sha256": "5747532c758d68ae2061d26f0342b8026c8f506b9f3659b5fcc2c196ff5593b2",
+      "suffix": "ay\n\nEND SOURCE. Answer the listed questions now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H2-summary",
+      "prompt_tokens": 3630,
+      "prompt_sha256": "da9f43c1a99291d144697762955c99626595f26fa93de0ec1c9b9b663e9054e8",
+      "suffix": "rocopius may\n\nEND SOURCE. Write the summary now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H3-extraction",
+      "prompt_tokens": 3379,
+      "prompt_sha256": "dbe8e43bd55fa50dd8bbef62ab42df15a5342ee5aad789557cd21b05e85a662e",
+      "suffix": "of\n\nEND SOURCE. Answer the listed questions now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H3-summary",
+      "prompt_tokens": 3275,
+      "prompt_sha256": "3bcc7a291445ecb3fb40fb9eb5c9c78da5bbf4f6a096920acbb84ade4fcb50b4",
+      "suffix": " Romances of\n\nEND SOURCE. Write the summary now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H4-extraction",
+      "prompt_tokens": 4181,
+      "prompt_sha256": "c54db5e7af44e858258907c2b316cb2395fc7f9ef68a408c77257a013a28bfaf",
+      "suffix": "by\n\nEND SOURCE. Answer the listed questions now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "H4-summary",
+      "prompt_tokens": 4086,
+      "prompt_sha256": "b12e7a1651df5571f0138b588ed3f3bf3e255eaca95f6cf59e46ee73bdfc8603",
+      "suffix": "omplished by\n\nEND SOURCE. Write the summary now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    },
+    {
+      "stage": "full-source-control",
+      "prompt_tokens": 13916,
+      "prompt_sha256": "c7427ceaba24cbd284c99c52249164d17a00cc7c6a33138191daa4ac08e58706",
+      "suffix": "ished by\n\nEND MATERIAL. Write the synthesis now.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    }
+  ],
+  "note": "Tokenizer-only check; model execution is still pending. Earlier invalid check before tokenizer files arrived returned zero tokens and was rejected."
+}

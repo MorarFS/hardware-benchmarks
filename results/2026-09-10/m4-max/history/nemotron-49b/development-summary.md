@@ -1,0 +1,9 @@
+
+
+Here is a connected summary of 180-220 words, covering the beginning, middle, and ending of the passage, with attributed evaluations and PDF page citations:
+
+**Beginning**: In 532 AD, the same year the Persian War ended, a more threatening danger to Emperor Justinian's life and power emerged ([PDF p. 101]). The Byzantine Circus factions, "Blues" and "Greens," had grown into quasi-political parties, often rioting and causing mischief. In January, serious rioting broke out in the streets, prompting Justinian to order the execution of leaders from both factions ([PDF p. 101]).
+
+**Middle**: The execution of seven rioters went awry when two survived and sought sanctuary, sparking six days of desperate rioting ([PDF p. 102]). The Blues and Greens united, demanding the deposition of unpopular officials and, eventually, Justinian himself. They proclaimed Hypatius, nephew of the late Emperor Anastasius, as their leader. The emperor's guard, led by Belisarius, attempted to quell the riots, but the insurgents gained control of most of the city, setting fire to several buildings, including the great cathedral of St. Sophia ([PDF p. 103]). The author notes that the emperor was "weak enough" to initially promise concessions, but the mob's demands escalated ([PDF p. 102]).
+
+**Ending**: As the rebels closed in, Justinian's council advised escape, but Empress Theodora urged a final assault, famously declaring, "Empire is the best winding-sheet" ([PDF p. 105]). Inspired, Justinian ordered a last attack, and Belisarius's forces routed the rebels in the Hippodrome, killing thousands. The author describes the aftermath as "this awful slaughter" and notes that while the factions continued to riot for fifty years, they never again threatened the empire as they did in 532 ([PDF p. 106]). The event marked a pivotal moment in Justinian's reign, highlighting both the volatility of the Byzantine factions and the decisive leadership of Theodora.

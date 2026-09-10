@@ -1,0 +1,16 @@
+{
+  "repository": "Sawfwair/Qwen3.8-Flash-Next-MLX-Mixed-2bit",
+  "revision": "a6e3d7a43efb8803cd6b847299a54084dc4e8ef4",
+  "bytes_by_group": {
+    "core": 38707132440,
+    "vision": 897862112,
+    "ple": 32000153600,
+    "mtp": 1489670656
+  },
+  "ple_rows": 320001536,
+  "ple_shards": 128,
+  "cache_rows": 0,
+  "target_only": true,
+  "source_tensor_values_changed": false,
+  "notes": "Original safetensors are hard-linked. The PLE manifest indexes original shard_N byte ranges. Upstream model sanitize handles name aliases and discards PLE/MTP lazy arrays before eval. No pruning, rescaling, or requantization."
+}

@@ -1,0 +1,41 @@
+{
+  "name": "H3-extraction",
+  "fingerprint": "2077ceee2a858caa8a6c7a885bef1be465f797ab5b1967495ea727a238cdf8d5",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3289,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:21:52.267848+00:00",
+  "output": "\n\nHere are the answers to each question based on the provided source material:\n\n**H3-Q1: Why was Constantine called Porphyrogenitus?**\n\nConstantine was called Porphyrogenitus because he was born in the Purple Chamber, the room in the palace set aside for the Empress. [PDF p. 241]\n\n**H3-Q2: Which city did Saracen pirates capture in 904, and did they retain it?**\n\nSaracen pirates captured Thessalonica in 904, but they did not retain it, as they fled with their booty shortly after. [PDF p. 242]\n\n**H3-Q3: According to the passage, who removed Romanus Lecapenus, and who then expelled his sons?**\n\nThe passage does not explicitly state who removed Romanus Lecapenus, but it mentions that after his sons declared themselves emperors and made him abdicate, an outburst of popular wrath led to the mob and the guards sweeping away his sons, Stephen Lecapenus and his brother. [PDF p. 243]\n\n**H3-Q4: Against which opponents did Leo recommend caution rather than rash general battle?**\n\nLeo recommended caution rather than rash general battle against the men of the West, specifically the Franks and Lombards. [PDF p. 245]\n\n**H3-Q5: What was the annual pay of an ordinary Byzantine cavalryman?**\n\nNot stated in the supplied passage.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 301,
+    "prompt_tokens": 3289,
+    "total_tokens": 3590,
+    "prompt_tokens_details": {
+      "cached_tokens": 87
+    }
+  },
+  "timings": {
+    "cache_n": 87,
+    "prompt_n": 3202,
+    "prompt_ms": 32615.866,
+    "prompt_per_token_ms": 10.186091817613992,
+    "prompt_per_second": 98.17307932280565,
+    "predicted_n": 301,
+    "predicted_ms": 31885.395,
+    "predicted_per_token_ms": 106.28465,
+    "predicted_per_second": 9.408696363962248
+  },
+  "first_visible_seconds": 32.65347929199925,
+  "wall_seconds": 64.53886945799968,
+  "word_count": 196,
+  "finished_at": "2026-09-10T05:22:56.957093+00:00"
+}

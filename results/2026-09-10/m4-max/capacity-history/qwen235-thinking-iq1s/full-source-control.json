@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "ad39ae05946aca4463d9ef5a4dd198bc712b8168d0a642c151a4ec11545f0806",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13736,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:58:46.195545+00:00",
+  "output": "The Huns' invasion triggered profound consequences for the Roman Empire, as noted in the source material. Around A.D. 372, this \"enormous Tartar horde\" burst into lands north of the Euxine, exterminating the Alans and pressing against the Goths. The Ostrogoths resisted but were crushed, compelling some to flee southward toward the Danube delta. The Huns then turned against the Visigoths, driving them toward Roman borders. At this juncture, Emperor Valens faced a dilemma: \"refuse a passage to 200,000 desperated men...or admit them within the line of river\" (PDF p. 61-62). The Goths petitioned to cross the Danube, describing themselves as \"Christians\" facing intolerable subjugation by \"savages.\" Their desperation led to a treaty permitting settlement within Roman territory, though tensions soon erupted. As the Goths suffered \"sheer hunger\" and \"shameless extortion,\" they rebelled, attacking Roman officials at Marcianopolis (PDF p. 62-63). This ignited a year of conflict along the Danube, culminating in the Battle of Adrianople where Roman legions suffered catastrophic defeat—\"forty thousand men fell\" according to contemporary accounts (PDF p. 64). The victors, led by Fritigern, pressed toward Constantinople but ultimately failed to breach its formidable walls—a testament to Constantine’s foresight in fortifying the city.\n\nThe decline of Latin’s prominence emerged clearly in later centuries. By the seventh century, Latin-speaking populations in the Balkans had \"rapidly vanishing\" numbers, as noted by Johannes Lydus, who rose in civil service due to his rare Latin proficiency (PDF p. 169-170). Authors like Procopius displayed ignorance of Latin despite their scholarly reputations, signaling cultural shifts. The Eastern Empire’s gradual Hellenization accelerated after Justinian’s death, with Greek becoming dominant. As recorded, \"A.D. 400 probably a quarter of the provincials east of the Adriatic spoke Latin; in A.D. 620 not a tenth\" retained Latin-speaking communities (PDF p. 170). This linguistic shift accompanied profound societal changes, including Christianity’s growing influence. The source describes how Christian ethics transformed Roman institutions, condemning practices like infanticide and modifying slavery’s harshness—\"Justinian’s legislation shows...public opinion had condemned the characteristic evils of ancient slavery\" (PDF p. 172-173). Yet Christianity’s rise also bred complications, as ascetic monasticism drew adherents away from civic duties, weakening imperial defenses against barbarian incursions—a development noted by contemporaries who lamented \"the body politic [becoming] diseased\" (PDF p. 174).\n\nBy the ninth century, Byzantine emperors turned attention inward, producing significant literary works. Leo VI and Constantine Porphyrogenitus authored treatises reflecting imperial stability. Leo’s military treatise emphasized cavalry tactics and described \"dromonds\" patrolling the Aegean (PDF p. 244-245). Constantine’s works catalogued imperial administration, including \"The Themes,\" which detailed regional governance structures. Their literary output signaled cultural renewal after centuries of intellectual decline. As noted, \"the times of intellectual dearth...were now at an end\" (PDF p. 246-247). Yet this literary flourishing occurred alongside growing vulnerability to Ottoman expansion. The final decades saw Constantinople’s defenses crumble under Ottoman siege, despite brief opportunities for revival. As recorded, \"Murad II attacked Constantinople\" with cannon and Janissaries, though the city initially withstood assault (PDF p. 363). The empire’s collapse proceeded methodically—Thessalonica fell in 1430, and Constantinople surrendered in 1453—marking the end of Byzantine rule. Throughout this decline, Byzantine scholars preserved classical knowledge, ensuring its transmission to Renaissance Europe, though the empire itself ceased to function as a meaningful political entity long before its final fall.",
+  "reasoning_output": "Okay, let me approach this systematically. The user has shared a historical text excerpt and wants me to synthesize it in 350-450 words across four paragraphs. \n\nFirst, I need to understand the structure: the user wants four connected paragraphs in source-page order, one per excerpt. Each paragraph must preserve the main actions, causal relationships, and qualifications from its corresponding excerpt. \n\nHmm, the material shows several key historical developments:\n- The Huns' invasion causing Gothic migration (p.61)\n- The Goths' conflict with Rome leading to Adrianople (p.62-63)\n- The decay of Latin language (p.169-170)\n- Byzantine emperors' literary works (p.241-247)\n\nI notice the passages contain complex causal relationships. For example, the Huns' invasion caused Gothic migration which led to conflict with Rome. The Goths' desperation led to the battle at Adrianople. \n\nImportant to preserve qualifiers like \"the Goths were half-starved\" and \"the Romans were reluctant to disarm them.\" Must keep reported speech like \"all the multitude...were there on the river bank.\"\n\nI should avoid creating narrative links between excerpts. For instance, the Latin language decline passage (p.169) isn't causally connected to the Adrianople battle (p.64), so I mustn't imply connections. \n\nPhysical page citations are crucial. Each paragraph must cite the original PDF page. For example, the Adrianople battle description comes from p.64.\n\nAlso need to separate author's judgments (\"the Goths were half-starved\") from reported testimony (\"all the multitude...earnestly supplicating leave\"). \n\nThe user emphasized preserving uncertainty. For example, the text says \"the Goths were half-starved for many months\" but also notes they \"soon showed that the old barbarian spirit was thinly covered.\" Must keep both aspects.\n\nI'll structure four paragraphs:\n1. Huns' invasion causing Gothic migration (p.61)\n2. Gothic-Roman conflict leading to Adrianople (p.62-63)\n3. Latin language decline (p.169-170)\n4. Byzantine literary emperors (p.241-247)\n\nEach paragraph must strictly contain material from its assigned excerpt. No invented links between them.\n\nWord count target is 350-450 words total.",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1387,
+    "prompt_tokens": 13736,
+    "total_tokens": 15123,
+    "prompt_tokens_details": {
+      "cached_tokens": 86
+    }
+  },
+  "timings": {
+    "cache_n": 86,
+    "prompt_n": 13650,
+    "prompt_ms": 132838.63,
+    "prompt_per_token_ms": 9.731767765567765,
+    "prompt_per_second": 102.75625396016204,
+    "predicted_n": 1387,
+    "predicted_ms": 111112.367,
+    "predicted_per_token_ms": 80.16765295815296,
+    "predicted_per_second": 12.473859007971633
+  },
+  "first_visible_seconds": 172.15336629099875,
+  "wall_seconds": 244.02016662499955,
+  "word_count": 539,
+  "finished_at": "2026-09-10T06:02:50.740033+00:00"
+}

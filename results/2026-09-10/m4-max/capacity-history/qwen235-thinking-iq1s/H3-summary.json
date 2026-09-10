@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "e08c20da77bcd2af9d53372c3c15ccb484d52585607f98eb5f69bdf8d24a6a84",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3228,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:54:37.549306+00:00",
+  "output": "The passage describes the period following Basil the Macedonian's death as \"the most uneventful and monotonous\" in Byzantine history [PDF p. 241]. Leo VI and Constantine VII, described as \"a pair of mild, strange issue,\" devoted themselves to literary pursuits rather than military action [PDF p. 241]. Despite being \"unpropitious for military enterprise,\" the author claims these emperors \"dwelled contentedly in the palace\" [PDF p. 241]. Leo's twenty-six-year reign included an \"unfortunate invasion of Bulgaria\" and Saracen pirate raids on Thessalonica [PDF p. 242]. The author attributes Constantine's delayed accession to guardianship following his birth \"in the Purple Chamber\" [PDF p. 243], noting he only came to power after \"mob and guards\" deposed usurpers [PDF p. 243]. \n\nThe middle section details Constantine's guardianship under Alexander and Romanus Lecapenus [PDF p. 243]. The author emphasizes that Constantine's \"chief achievements\" were literary works [PDF p. 243], including Leo's manual on military organization [PDF p. 244]. The author argues these works \"breathe an entire confidence in the power of the army\" [PDF p. 245], describing Byzantine fleets' role in \"maintenance of police\" [PDF p. 246]. \n\nThe passage concludes that both emperors' literary output marked \"the end of intellectual dearth\" [PDF p. 247]. The author attributes this cultural shift to \"the reforms of the great Leo,\" noting that by the ninth century \"a much larger literary class\" existed [PDF p. 247]. The author explicitly evaluates Constantine's works as showing \"no great originative faculty\" [PDF p. 247], while noting his \"care for court pageants\" reflected peaceful imperial circumstances [PDF p. 247].",
+  "reasoning_output": "Okay, let me approach this systematically. The user wants a connected summary of 180-220 words based solely on the provided PDF excerpts, with specific structural requirements.\n\nFirst, I need to identify the key elements from the source text. The passage covers:\n- The historical context (880-960) described as monotonous\n- Leo VI and Constantine VII as literary emperors\n- Military context (Bulgarian invasion, Saracen pirates)\n- Literary works (manuals on war, prophecies)\n- Administrative works (\"On the Themes\")\n- Cultural developments\n\nI must preserve:\n- Beginning: The 80-year period following Basil's death\n- Middle: Leo's reign, Constantine's guardianship\n- Ending: Literary achievements and historical significance\n\nImportant qualifications to include:\n- The passage states this period was \"uneventful\" but notes exceptions\n- Must attribute evaluations explicitly (e.g., \"the author claims\")\n- Cite every factual statement with [PDF p. N]\n\nI notice the passage has:\n- Page 241: Introduction to the period\n- Page 242: Military context\n- Page 243: Constantine's succession\n- Page 244-245: Literary works\n- Page 246-247: Cultural developments\n\nI'll structure the summary to cover:\n1. Opening context (80 years post-Basil)\n2. Middle section (Leo's reign, Constantine's guardianship)\n3. Ending (literary achievements)\n\nI must avoid:\n- Adding information not in the passage\n- Generalizations beyond the text\n- Claiming omissions (since the excerpt might not cover everything)\n\nThe summary must stay within 180-220 words, include all key actions, causal relationships, and qualifications. Every factual statement must be cited with [PDF p. N].\n\nI'll be careful to:\n- Attribute evaluations explicitly (\"the author claims\")\n- Preserve uncertainty (\"it is doubtful whether...\")\n- Note conflicting statements (\"an active emperor would have...\")\n- Include qualifications (\"though the times were not unpropitious\")\n\nI'll avoid:\n- Interpretation beyond the text\n- Adding limitations paragraphs\n- Claiming what the book lacks\n\nNow I'll craft the summary strictly from the provided material, keeping all required elements.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 917,
+    "prompt_tokens": 3228,
+    "total_tokens": 4145,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 3143,
+    "prompt_ms": 23011.519,
+    "prompt_per_token_ms": 7.321514158447344,
+    "prompt_per_second": 136.58376919837409,
+    "predicted_n": 917,
+    "predicted_ms": 52547.88,
+    "predicted_per_token_ms": 57.36668122270742,
+    "predicted_per_second": 17.431721317777235
+  },
+  "first_visible_seconds": 50.63388054200004,
+  "wall_seconds": 75.5930817089993,
+  "word_count": 256,
+  "finished_at": "2026-09-10T05:55:54.349541+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "H1-extraction",
+  "output": "H1-Q1: The passage does not state who led the Visigoths as they retreated toward the Danube.  \nNot stated in the supplied passage  \n\nH1-Q2: Valens imposed the conditions of giving hostages and surrendering arms, but the arms condition was not fully enforced.  \n\"if the Goths would give hostages, and surrender their arms, they should be ferried across the Danube\" [PDF p. 63]  \n\nH1-Q3: Lupicinus\u2019s food policy led to revolt because the Goths were driven to desperation by hunger and extortion.  \n\"In sheer hunger the Goths were driven to barter a slave for a single loaf of bread\" [PDF p. 63]  \n\nH1-Q4: The passage states that the battle at Ad Salices resulted in a thinning of the ranks of both sides but no decisive result.  \n\"A desperate pitched battle at Ad Salices... led to no decisive result\" [PDF p. 64]  \n\nH1-Q5: The passage does not state the exact number of Roman soldiers killed at Ad Salices.  \nNot stated in the supplied passage",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "prompt_tokens": 3540,
+  "generation_tokens": 236,
+  "prompt_tps": 807.4325765287729,
+  "generation_tps": 77.76696017393529,
+  "peak_memory_gb": 5.860859792,
+  "first_content_seconds": 4.4432741669997995,
+  "last_content_seconds": 7.46517512499986,
+  "visible_phase_seconds": 3.02190095800006,
+  "visible_tokens_retokenized": 235,
+  "wall_seconds": 7.487572999999884,
+  "finish_reason": "stop",
+  "status": "ok"
+}

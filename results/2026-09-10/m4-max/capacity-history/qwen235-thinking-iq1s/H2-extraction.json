@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "c83e0bd9806a56dcd618bc0f8def0f8a6adc01dc2c1cb0399c1e9dbb28430324",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3688,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:50:18.561839+00:00",
+  "output": "H2-Q1: Who intervened in the gladiatorial games, in what year, and what happened to him?\nThe monk Telemachus intervened in the gladiatorial games in A.D. 404, and \"There was an angry scuffle, and the good monk was slain\" [PDF p. 171].\n\nH2-Q2: Who made infanticide a capital offence, and when?\nValentinian I made infanticide a capital offence in 374, as stated: \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 171].\n\nH2-Q3: Did the passage claim Christianity immediately ended slavery? State its qualification.\nThe passage states that \"Though slavery was not extinguished for centuries\" [PDF p. 173], indicating Christianity did not immediately end slavery.\n\nH2-Q4: Why did Oman regard widespread ascetic monasticism as politically dangerous?\nOman regarded widespread ascetic monasticism as politically dangerous because \"When men retire from their duties as citizens... cease to be of the slightest use to society\" [PDF p. 174].\n\nH2-Q5: How many monasteries existed in the empire in AD 404?\nNot stated in the supplied passage.",
+  "reasoning_output": "I need to answer each question based on the provided source text. Let me analyze each question one by one:\n\nH2-Q1: Who intervened in the gladiatorial games, in what year, and what happened to him?\n\nFrom the source text on page 171:\n\"But this was not the work of the State, but of a single individual. One day in A.D. 404 the games had begun, and the gladiators were about to engage, when the monk Tele-mathus leapt down into the arena and threw himself between the combatants, adjuring them not to slay their brethren.\"\n\nSo the intervention was by monk Telemathus in A.D. 404. As for what happened to him:\n\"and no gladiatorial show was ever given again.\" \n\nBut specifically about what happened to Telemath was stated on page 171:\n\"There was an angry scuffle, and the good monk was slain.\"\n\nSo the answer is: Telemathus intervened in A.D.  due to the gladiatorial games, and he was killed.\n\nH2-Q2: Who made infanticide a capital offence, and when?\n\nFrom page 171:\n\"Constantine made the State assume the charge of feeding and rearing the children of the destitute, lest their parents should be tempted to cast them forth to perish in the old fashion, and Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence.\"\n\nSo Valentinian I made infanticide a capital offence in 374.\n\nH2-Q3: Did the passage claim Christianity immediately ended slavery? State its qualification.\n\nFrom page 173:\n\"Slavery was also profoundly affected by the teaching of the Church... Though slavery was not extinguished for centuries, its evils were immensely modified\"\n\nSo the passage states that Christianity did not immediately end slavery, but rather \"its evils were immensely modified\" and \"Slavery was not extinguished for centuries.\"\n\nH2-Q4: Why did Oman regard widespread ascetic monasticism as politically dangerous?\n\nFrom page 174:\n\"When men retire from their duties as citizens, intent on saving their own individual souls, take up a position outside the State, and cease to be of the slightest use to society... But at this time the monastic impulse was working on such a large scale that its development was positively dangerous.\"\n\nAlso on page 17",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 798,
+    "prompt_tokens": 3688,
+    "total_tokens": 4486,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 3603,
+    "prompt_ms": 27541.556,
+    "prompt_per_token_ms": 7.6440621704135445,
+    "prompt_per_second": 130.82049539975154,
+    "predicted_n": 798,
+    "predicted_ms": 46521.544,
+    "predicted_per_token_ms": 58.370820577164366,
+    "predicted_per_second": 17.13184755862789
+  },
+  "first_visible_seconds": 57.45403987499958,
+  "wall_seconds": 74.17114495799979,
+  "word_count": 171,
+  "finished_at": "2026-09-10T05:51:33.426614+00:00"
+}

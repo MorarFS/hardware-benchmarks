@@ -1,0 +1,5 @@
+D-Q1: Seven prisoners were selected for execution, but not all seven died. The passage states: "Seven were selected for execution, and four of them were duly beheaded in the presence of a great and angry mob, in front of the monastery of St. Conon" [PDF p. 102]. It then explains that "The last three rioters were to be hung, but the hangman so bungled his task that two of the criminals, one a Blue the other a Green, fell to the ground alive" [PDF p. 102].
+
+D-Q2: The passage attributes 35,000 deaths to the Hippodrome assault, stating "It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'" [PDF p. 106]. However, it does not attribute these deaths solely to the Hippodrome assault, as it mentions "six days of desperate rioting" and "six days of this great 'Sedition of Nika'" [PDF p. 106].
+
+D-Q3: Not stated in the supplied passage. The passage mentions "six days of desperate rioting" [PDF p. 102] and "six days of this great 'Sedition of Nika'" [PDF p. 106], but does not specify the exact duration of the Hippodrome assault in minutes.

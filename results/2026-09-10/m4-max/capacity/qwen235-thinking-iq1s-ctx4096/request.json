@@ -1,0 +1,13 @@
+{
+  "model": "qwen235-thinking-iq1s",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer in three short sentences. What is 17 plus 25? Name the capital of France. Explain why a larger language model may run more slowly on the same computer."
+    }
+  ],
+  "max_tokens": 2048,
+  "temperature": 0,
+  "seed": 1234,
+  "stream": false
+}

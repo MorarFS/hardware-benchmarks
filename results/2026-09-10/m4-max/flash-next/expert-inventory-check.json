@@ -1,0 +1,8 @@
+{
+  "base_expert_banks": 144,
+  "layers": 48,
+  "experts_per_bank": 512,
+  "all_48_layers_present": true,
+  "all_expert_bank_leading_dimensions_512": true,
+  "basis": "All pinned safetensors headers, checked before full payload verification. Strict load and final file hashes remain required."
+}

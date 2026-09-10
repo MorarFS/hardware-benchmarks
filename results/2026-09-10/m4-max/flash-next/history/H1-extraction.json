@@ -1,0 +1,21 @@
+{
+  "name": "H1-extraction",
+  "output": "H1-Q1: The Visigoths were led by their Duke Fritigern as they retreated toward the Danube. [PDF p. 61]\n\nH1-Q2: Valens imposed that the Goths give hostages and surrender their arms. The arms condition was violated when Roman officials accepted bribes to allow the Goths to retain their weapons. [PDF p. 63]\n\nH1-Q3: Lupicinus held back food stores and sold provisions at exorbitant prices, driving the Goths to desperation and starvation. This extortion and hunger led to a chance affray that set the whole nation in revolt. [PDF p. 63]\n\nH1-Q4: The passage states that the battle at Ad Salices thinned the ranks of both sides but led to no decisive result. [PDF p. 64]\n\nH1-Q5: Not stated in the supplied passage",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "prompt_tokens": 3595,
+  "generation_tokens": 191,
+  "prompt_tps": 173.3144360040143,
+  "generation_tps": 31.56192402159541,
+  "peak_memory_gb": 41.44661953,
+  "first_content_seconds": 20.901277584001946,
+  "last_content_seconds": 26.79887845900157,
+  "visible_phase_seconds": 5.897600874999625,
+  "visible_tokens_retokenized": 190,
+  "wall_seconds": 26.803315542001656,
+  "finish_reason": "stop",
+  "status": "ok"
+}

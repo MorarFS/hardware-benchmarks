@@ -1,0 +1,20 @@
+{
+  "name": "H3-summary",
+  "output": "The eighty years following Basil the Macedonian\u2019s death were the most uneventful in imperial history, occupied entirely by the reigns of Leo the Wise and Constantine Porphyrogenitus [PDF p. 241]. These successors were easy-going literary men who devoted themselves to writing rather than military enterprise [PDF p. 241]. The period 880\u2013960 was less troubled by foreign wars than any other, with only vexatious raids from Russians and Saracens [PDF p. 242]. Leo\u2019s reign was diversified only by a failed Bulgarian invasion and a disgraceful Saracen raid on Thessalonica [PDF p. 242]. Constantine, Leo\u2019s grandson, was seven when he inherited the throne and spent years under guardians, including the usurper Romanus Lecapenus [PDF p. 243]. Popular wrath eventually swept away Romanus\u2019s sons, allowing Constantine to administer the empire for twenty years [PDF p. 243]. Leo\u2019s chief achievement was a manual on the Art of War, which provided a perfect picture of the Byzantine army and advised decisive action against most foes, excepting the Franks and Lombards [PDF p. 244]. The fleet\u2019s main object was policing seas, though it could not suppress petty piracy [PDF p. 245]. Constantine\u2019s works were more interesting, including a biography of Basil and a manual on Court Ceremonies [PDF p. 246]. He was a careful compiler rather than an originative genius [PDF p. 247]. The author notes that the darkest age in literary history was 600\u2013750, but by the ninth century, a larger literary class existed [PDF p. 247].",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "prompt_tokens": 3275,
+  "generation_tokens": 375,
+  "prompt_tps": 417.2140810007637,
+  "generation_tps": 31.492023197376348,
+  "peak_memory_gb": 41.447342326,
+  "first_content_seconds": 7.889326666998386,
+  "last_content_seconds": 19.761919082997338,
+  "visible_phase_seconds": 11.872592415998952,
+  "visible_tokens_retokenized": 374,
+  "wall_seconds": 19.767134207999334,
+  "finish_reason": "stop",
+  "status": "ok"
+}

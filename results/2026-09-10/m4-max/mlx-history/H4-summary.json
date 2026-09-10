@@ -1,0 +1,20 @@
+{
+  "name": "H4-summary",
+  "output": "The passage discusses the decline of the Byzantine Empire from 1370 to 1453, emphasizing its diminishing role in Christendom. The author notes that the fall of Constantinople in 1370 would not have significantly altered the course of events in Eastern Europe, as the empire had already ceased to function as the \"bulwark of Christendom against the Ottomite\" [PDF p. 358]. The author attributes the prolonged existence of the empire to the Paleologi's subservience to the Turks, which the author judges as \"base\" [PDF p. 358].\n\nThe text then outlines the reign of John Paleologus, whose long and troubled rule was marked by the rebellions of his children, particularly his son Andronicus, who twice attempted to seize the throne [PDF p. 359]. Manuel II, who succeeded John, ruled over a diminished empire, with limited military and financial resources. The author evaluates his reign as \"above the average of the Paleologi\" but notes the limited scope of his authority [PDF p. 360].\n\nA turning point came in 1402 with the Ottoman civil war, which the author describes as an opportunity for the empire to regain independence. Manuel exploited this by allying with the Ottoman contender Mohammed, securing territories in Europe and Asia [PDF p. 361]. However, the author criticizes the failure of European powers, particularly Hungary, to capitalize on this opportunity [PDF p. 362].\n\nThe passage concludes with the reign of Manuel II, who died in 1448, marking the end of the last independent Byzantine sovereign. The author describes the empire's state as one of \"unredeemed gloom,\" noting its economic and military decline [PDF p. 365]. The text also details the efforts of John VI to seek Western aid, culminating in his conversion to Roman Catholicism and attendance at the Council of Florence in 1439, which the author judges as a largely unsuccessful endeavor [PDF p. 367].",
+  "source_files": [
+    "prompts.json",
+    "inputs/H4.txt"
+  ],
+  "prompt_tokens": 4033,
+  "generation_tokens": 437,
+  "prompt_tps": 682.6018187613882,
+  "generation_tps": 75.47725926958613,
+  "peak_memory_gb": 5.962524724,
+  "first_content_seconds": 5.973641790999864,
+  "last_content_seconds": 11.749779665999995,
+  "visible_phase_seconds": 5.776137875000131,
+  "visible_tokens_retokenized": 435,
+  "wall_seconds": 11.772856790999867,
+  "finish_reason": "stop",
+  "status": "ok"
+}

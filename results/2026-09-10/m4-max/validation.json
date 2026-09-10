@@ -1,0 +1,163 @@
+{
+  "scope": "Available completed measurements only; generation protocol validation is performed separately by collect_mac.py. This check does not adjudicate source truth or rerun inference.",
+  "speed_runs": [
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen235-thinking-iq1s-20260910-134119/apple-metal-qwen235-thinking-iq1s-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen35-122b-iq2xxs-20260910-133359/apple-metal-qwen35-122b-iq2xxs-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen38-27b-20260910-122250/apple-metal-qwen38-27b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    }
+  ],
+  "cpu_runs": [
+    {
+      "path": "results/2026-09-10/m4-max/cpu/qwen8-cpu-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/cpu/qwen8-cpu-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    }
+  ],
+  "cpu_rows": 3,
+  "cpu_samples": 15,
+  "review_integrity": [
+    {
+      "path": "results/2026-09-10/m4-max/history/gemma4-26b/review.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 109
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/qwen36-35b/review.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 125
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/qwen3-8b/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 175
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/qwen35-122b-iq2xxs/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 174
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/nemotron-49b/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 130
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history/qwen38-27b/review.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 156
+    },
+    {
+      "path": "results/2026-09-10/m4-max/history-repeat/qwen3-8b/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 175
+    },
+    {
+      "path": "results/2026-09-10/m4-max/capacity-history/qwen235-thinking-iq1s/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 28,
+      "grouped_claim_annotations": 90
+    },
+    {
+      "path": "results/2026-09-10/m4-max/mlx-history/review.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 94
+    },
+    {
+      "path": "results/2026-09-10/m4-max/flash-next/history/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 48,
+      "grouped_claim_annotations": 192
+    }
+  ],
+  "speed_rows": 21,
+  "speed_samples": 105
+}
