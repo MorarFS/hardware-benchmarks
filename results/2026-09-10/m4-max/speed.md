@@ -4,6 +4,9 @@ Measurements collected with model downloads continuing, as requested. Means ± s
 
 | Model | Test | Depth | Mean ± SD tokens/s | Peak process RSS GiB | Sampled swap growth MiB |
 |---|---|---:|---:|---:|---:|
+| gemma4-26b | tg256 | 2048 | 87.665 ± 1.571 | 16.64 | 0.00 |
+| gemma4-26b | pp512 | 0 | 1395.337 ± 6.410 | 16.16 | 0.00 |
+| gemma4-26b | tg256 | 0 | 94.344 ± 0.190 | 16.16 | 0.00 |
 | qwen3-8b | pp512 | 0 | 818.982 ± 2.288 | 4.89 | 0.00 |
 | qwen3-8b | tg256 | 0 | 74.915 ± 0.583 | 4.89 | 0.00 |
 | qwen3-8b | tg256 | 2048 | 68.159 ± 0.841 | 5.42 | 0.00 |

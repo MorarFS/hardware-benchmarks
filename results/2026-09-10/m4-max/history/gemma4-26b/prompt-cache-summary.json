@@ -1,0 +1,6 @@
+{
+  "observed_limit_mib": 1024,
+  "peak_logged_cache_mib": 717.883,
+  "peak_logged_prompt_count": 1,
+  "note": "Runtime RAM prompt-cache estimate, not an additional independent memory pool to add to RSS. Global cache differs from within-slot prefix reuse and GPU KV storage."
+}

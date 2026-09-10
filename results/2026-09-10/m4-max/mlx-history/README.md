@@ -7,7 +7,7 @@ The same 17 frozen fixture hashes and all 12 reconstructed requests passed valid
 | MLX Qwen3-8B group64 four-bit |73.106|32.040|121.41 seconds|
 | llama.cpp Qwen3-8B Q4_K_M |38.747|21.609|226.71 seconds|
 
-These are **configuration-level observations**, not an isolated backend comparison. MLX uses different quantized weights, BF16 model compute, dynamically growing fresh default KV per request and no cross-request prefix cache. llama.cpp uses FP16 KV with a 32K allocated context and server prefix reuse. Both use the same source prompts, greedy sampling, seed 42, a 2,048-token output cap and reasoning off. All token counts and timing boundaries are in the records. Output lengths differ. Downloads continued; a runtime-help invocation also overlapped part of the MLX battery. No controlled estimate of background interference is claimed.
+These are **configuration-level observations**, not an isolated backend comparison. MLX uses different quantized weights, BF16 model dtype, dynamically growing fresh default KV per request and no cross-request prefix cache. llama.cpp uses FP16 KV with a 32K allocated context and server prefix reuse. Both use the same source prompts, greedy sampling, seed 42, a 2,048-token output cap and reasoning off. All token counts and timing boundaries are in the records. Output lengths differ. Downloads continued; a runtime-help invocation also overlapped part of the MLX battery. No controlled estimate of background interference is claimed.
 
 Peak MLX allocator memory was 7.175 GB, while sampled process RSS peaked at 4.944 GB and sampled system swap remained zero. These counters have different accounting; do not add them or treat either as a complete independent physical-memory pool.
 

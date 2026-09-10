@@ -1,0 +1,156 @@
+{
+  "evaluator": "Codex (GPT-6), AI-assisted; no independent human adjudication",
+  "scope": "All 20 extraction answers and all 16 full-source compound coverage units reviewed. Selected claim errors, not an exhaustive claim ledger.",
+  "counts": {
+    "correct": 18,
+    "partial": 2,
+    "contradiction": 0,
+    "unsupported": 0,
+    "qualification_loss": 0,
+    "ambiguous": 0,
+    "no_answer": 0,
+    "correct_source_absent": 4,
+    "source_absent_total": 4
+  },
+  "extraction_exceptions": [
+    {
+      "id": "H3-Q3",
+      "judgment": "partial",
+      "rationale": "Correctly identifies mob/guards removing sons, but omits sons first forcing Romanus to abdicate."
+    },
+    {
+      "id": "H4-Q2",
+      "judgment": "partial",
+      "rationale": "Correctly identifies rival claimants and war, but omits distinct uncle/brother relationships."
+    }
+  ],
+  "other_answers": "Correct under frozen acceptable-variant rules; H1-Q3 supplies withholding/extortion mechanism in answer to causal question. Quote length/page accuracy are separate.",
+  "full_source_coverage": [
+    {
+      "id": "H1-C1",
+      "judgment": "covered",
+      "rationale": "Huns, Fritigern and admission present."
+    },
+    {
+      "id": "H1-C2",
+      "judgment": "covered",
+      "rationale": "Both conditions, arms corruption, food extortion and revolt present."
+    },
+    {
+      "id": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople present; indecisive Ad Salices absent."
+    },
+    {
+      "id": "H1-C4",
+      "judgment": "covered",
+      "rationale": "Failure to take Constantinople attributed to its walls."
+    },
+    {
+      "id": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Latin decline and division/invasion causes retained."
+    },
+    {
+      "id": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Social effects retained, explicit continuing slavery omitted."
+    },
+    {
+      "id": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Ascetic criticism retained, later learned monasticism omitted."
+    },
+    {
+      "id": "H2-C4",
+      "judgment": "partial",
+      "rationale": "Pagan criticism retained, Orosius and continuing statecraft omitted."
+    },
+    {
+      "id": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary rulers and relative stability retained."
+    },
+    {
+      "id": "H3-C2",
+      "judgment": "omitted",
+      "rationale": "Thessalonica and succession stages absent."
+    },
+    {
+      "id": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Military organization retained; tactical caution and naval limits absent."
+    },
+    {
+      "id": "H3-C4",
+      "judgment": "covered",
+      "rationale": "Constantine\u2019s manuals and intellectual recovery present."
+    },
+    {
+      "id": "H4-C1",
+      "judgment": "partial",
+      "rationale": "General exhaustion retained, Manuel\u2019s limited inheritance and Oman\u2019s specific political interpretation absent."
+    },
+    {
+      "id": "H4-C2",
+      "judgment": "omitted",
+      "rationale": "Angora and civil-war opportunity absent."
+    },
+    {
+      "id": "H4-C3",
+      "judgment": "omitted",
+      "rationale": "Claimants, reported vision and withdrawal causality absent."
+    },
+    {
+      "id": "H4-C4",
+      "judgment": "partial",
+      "rationale": "Urban decline, Italian wealth and limited Western aid retained; renewed vassalage and loss of Thessalonica omitted."
+    }
+  ],
+  "selected_errors": [
+    {
+      "family": "ROMANUS-MAJORITY",
+      "stage": "H3-summary",
+      "anchor": "until Constantine reached his majority",
+      "source_pages": [
+        243
+      ],
+      "judgment": "contradiction",
+      "rationale": "Source says Romanus retained control long after Constantine had reached his majority.",
+      "propagates_to": "merged-summary-synthesis"
+    },
+    {
+      "family": "LATIN-PROBABILITY",
+      "stage": "H2-summary",
+      "anchor": "once comprised a quarter",
+      "source_pages": [
+        170
+      ],
+      "judgment": "qualification_loss",
+      "rationale": "Drops the author\u2019s probably qualification for the AD400 estimate.",
+      "propagates_to": "merged-summary-synthesis"
+    },
+    {
+      "family": "ADRIANOPLE-PAGE",
+      "stage": "H1-summary",
+      "anchor": "death of forty thousand men and the Emperor [PDF p.66]",
+      "source_pages": [
+        67
+      ],
+      "judgment": "citation_error",
+      "rationale": "The quoted casualty/emperor passage appears on physical PDF67, not66.",
+      "propagates_to": "merged-summary-synthesis"
+    },
+    {
+      "family": "PRINTED-PAGES",
+      "stage": "full-source-control",
+      "anchor": "(340), (341)",
+      "source_pages": [
+        366,
+        367
+      ],
+      "judgment": "citation_error",
+      "rationale": "Final paragraph switches to printed book page numbers rather than physical PDF pages. Other parenthetical citations also do not follow requested PDF marker format."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "H3-summary",
+  "fingerprint": "496b660708847180a1f32832f6ca712afbba4beb843cee7b0cf31d177a57cbe1",
+  "source_files": [
+    "prompts.json",
+    "inputs/H3.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3262,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T03:57:12.015160+00:00",
+  "output": "The eighty years following the death of Basil the Macedonian were the most monotonous in the empire's history [PDF p. 241]. The author characterizes the era by the reigns of Leo the Wise and Constantine Porphyrogenitus, describing them as easy-going, unenterprising men of literature who were a strange issue from the \"upstart\" Basil [PDF p. 241]. During the period of 880–960, the empire faced few foreign wars, experiencing only vexatious but non-dangerous piratical raids from Russians and Saracens [PDF p. 242]. Leo's twenty-six-year reign included an unsuccessful invasion of Bulgaria and a \"disgraceful\" Saracen raid on Thessalonica in 904 [PDF p. 242].\n\nConstantine VII ascended the throne at age seven under various guardians, including the usurper Romanus Lecapenus, who kept the rightful heir in the background until Constantine reached his majority [PDF p. 243]. Constantine eventually regained power after a popular uprising against the sons of Romanus [PDF p. 243]. The author evaluates the primary achievements of both emperors as their books [PDF p. 244]. Leo's military manual provides a detailed picture of a highly organized Byzantine army and fleet [PDF p. 244, 246]. Constantine's works, including treatises on administration and court ceremonies, reveal him to be a methodical compiler [PDF p. 246]. The author concludes that these literary emperors signaled an end to previous intellectual destitution [PDF p. 247].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 346,
+    "prompt_tokens": 3262,
+    "total_tokens": 3608,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3179,
+    "prompt_ms": 2855.816,
+    "prompt_per_token_ms": 0.898337842088707,
+    "prompt_per_second": 1113.1669547337783,
+    "predicted_n": 346,
+    "predicted_ms": 3951.307,
+    "predicted_per_token_ms": 11.45306376811594,
+    "predicted_per_second": 87.31288153514774
+  },
+  "first_visible_seconds": 2.881148000000394,
+  "wall_seconds": 6.8337099159998616,
+  "word_count": 220,
+  "finished_at": "2026-09-10T03:57:20.107229+00:00"
+}

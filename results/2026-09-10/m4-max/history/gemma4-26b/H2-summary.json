@@ -1,0 +1,40 @@
+{
+  "name": "H2-summary",
+  "fingerprint": "5606a9e4441e4e7bf84f556749a30c249990677755f55636e0f300c4df0c1257",
+  "source_files": [
+    "prompts.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3642,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T03:56:57.810541+00:00",
+  "output": "The Latin language underwent a gradual decay in the East, a process the author attributes to the practical division of the empire and the decimation of Latin-speaking provinces by barbarians [PDF p. 170]. While Latin-speaking populations once comprised a quarter of provincials east of the Adriatic in A.D. 400, they fell to less than a tenth by A.D. 620 [PDF p. 170]. The author notes that Justinian was the final emperor to speak Latin as a mother tongue [PDF p. 169].\n\nSimultaneously, the empire became increasingly Christian, a shift the author evaluates as having profoundly modified social life [PDF p. 171]. Christianity ended infanticide through state intervention and modified slavery by recognizing the slave as a human with an immortal soul [PDF p. 172, 173]. However, the author offers a critical judgment of ascetic monasticism, labeling it a \"positively dangerous\" development that caused men to neglect their civic duties [PDF p. 174]. This \"repulsively selfish\" focus on individual salvation led many to view barbarian invasions as divine judgments rather than national calamities [PDF p. 175]. Ultimately, while paganism practically disappeared by the end of the fifth century, the author observes that widespread indifference prevailed among the educated classes [PDF p. 176].",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 296,
+    "prompt_tokens": 3642,
+    "total_tokens": 3938,
+    "prompt_tokens_details": {
+      "cached_tokens": 83
+    }
+  },
+  "timings": {
+    "cache_n": 83,
+    "prompt_n": 3559,
+    "prompt_ms": 3237.255,
+    "prompt_per_token_ms": 0.9095967968530486,
+    "prompt_per_second": 1099.3882162511138,
+    "predicted_n": 296,
+    "predicted_ms": 3398.324,
+    "predicted_per_token_ms": 11.519742372881357,
+    "predicted_per_second": 86.80749687198748
+  },
+  "first_visible_seconds": 3.2824318749999293,
+  "wall_seconds": 6.681439750000209,
+  "word_count": 201,
+  "finished_at": "2026-09-10T03:57:05.896423+00:00"
+}

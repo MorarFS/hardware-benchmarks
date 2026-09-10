@@ -1,5 +1,68 @@
 [
   {
+    "model": "gemma4-26b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 87.664665,
+    "sd_tps": 1.571013,
+    "samples_tps": [
+      84.886,
+      88.0609,
+      88.2141,
+      88.502,
+      88.6604
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 17862328320,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "file": "speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth2048-status.json"
+  },
+  {
+    "model": "gemma4-26b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 1395.336709,
+    "sd_tps": 6.409746,
+    "samples_tps": [
+      1397.2,
+      1404.73,
+      1391.5,
+      1387.72,
+      1395.53
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 17356898304,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "file": "speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0-status.json"
+  },
+  {
+    "model": "gemma4-26b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 94.344196,
+    "sd_tps": 0.189918,
+    "samples_tps": [
+      94.5005,
+      94.2779,
+      94.3619,
+      94.0566,
+      94.5242
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 17356898304,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "a07f72221e8e3f77455ab0d7f7652d01a9f63c262b954aa6932a53275a0e895a",
+    "file": "speed/apple-metal-gemma4-26b-20260910-115538/apple-metal-gemma4-26b-depth0-status.json"
+  },
+  {
     "model": "qwen3-8b",
     "prompt": 512,
     "generation": 0,
