@@ -1,0 +1,40 @@
+{
+  "prompt_tokens_preflight": 3440,
+  "server_ready_seconds": 1.0806160830000002,
+  "status": "ok",
+  "output": "The text begins by highlighting the prescience of Constantine in establishing Constantinople as a central military hub for the Balkans. This is followed by the arrival of the Huns in 372 CE, who began their westward advance, first defeating the Alans and then the Ostrogoths. The Ostrogoths, described as fierce and proud, were crushed and forced to become Huns' vassals, with a remnant fleeing to Wallachia. The Huns then turned on the Visigoths, forcing them to retreat to the Danube, where they sought permission to cross into Roman territory. The text attributes the Visigoths' desperation to their fear of slavery to savages, contrasting them with their eastern brethren.\n\nThe Roman Empire, divided between Valens in the East and Valentinian in the West, faced a dilemma when the Visigoths requested passage. Valens, portrayed as cowardly and avaricious, chose to allow the Goths to cross under the condition that they surrender their weapons and provide hostages. The Goths accepted, but soon disputes arose over food and land. Roman officials, including Lupicinus, exploited the situation, leading to widespread suffering and unrest among the Goths. This culminated in a clash at Marcianopolis, where Fritigern and his followers turned against Rome.\n\nThe text describes a year of brutal conflict along the Danube and Balkans, with the Goths engaging in raids reminiscent of earlier barbarian incursions. Despite initial Roman resistance, the Goths, now adept at cavalry warfare, overwhelmed the Roman legions. The decisive battle at Adrianople in 378 CE resulted in a catastrophic defeat for the Romans, with Valens and many high-ranking officials killed. The text attributes this defeat to the Goths' superior mobility and the Romans' reliance on traditional infantry tactics. The battle is compared to Cannae, marking a turning point in Roman military history. The Goths then advanced toward Constantinople but failed to breach its defenses, ending their campaign without capturing the city.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 422,
+    "prompt_tokens": 3440,
+    "total_tokens": 3862,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3440,
+    "prompt_ms": 4150.713,
+    "prompt_per_token_ms": 1.2066026162790697,
+    "prompt_per_second": 828.7732734110983,
+    "predicted_n": 422,
+    "predicted_ms": 5545.377,
+    "predicted_per_token_ms": 13.171916864608077,
+    "predicted_per_second": 75.91909440963165
+  },
+  "first_visible_seconds": 4.158097083,
+  "wall_seconds": 9.704010292,
+  "word_count": 309,
+  "index": 1,
+  "context": 32768,
+  "verbose_logging": true,
+  "model_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+  "output_sha256": "e3187254b9b0e6283e48ecde492530d38349536adb9068697c7acf57e82673d9",
+  "peak_rss_bytes": 10016636928,
+  "peak_swap_bytes": 0.0,
+  "runtime_log_bytes": 781125,
+  "full_gpu_offload": true,
+  "request_sha256": "90448eb3a780c38e62434250e02f634588599404f5b6b90696ebd824ff2e4f27"
+}

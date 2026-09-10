@@ -23,6 +23,9 @@ for mid,label in labels.items():
 p=OUT/'mlx-history/review.json'
 if p.exists():
  sp=json.loads((p.parent/'complete.json').read_text());rows.insert(1,dict(label='Qwen3 8B · MLX four-bit',visible=sp['visible_phase_tokens_per_second'],wall=sp['visible_tokens_per_wall_second'],review=json.loads(p.read_text())))
+p=OUT/'history-repeat/qwen3-8b/adjudication.json'
+if p.exists():
+ sp=json.loads((p.parent/'visible-speed.json').read_text())['aggregate_heldout'];rows.insert(1,dict(label='Qwen3 8B · GGUF repeat',visible=sp['visible_phase_tokens_per_second'],wall=sp['visible_tokens_per_total_wall_second'],review=json.loads(p.read_text())))
 assert rows
 colors={'correct':'#247c78','partial':'#e8b557','contradiction':'#bb5356','other':'#8571a7','covered':'#247c78','omitted':'#dbe1e6'}
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'svg.fonttype':'none'})
@@ -54,7 +57,7 @@ for ax in axs:
 axs[0].legend(handles=[Patch(color='#386ca2',label='Visible phase'),Patch(color='#5ba5b0',label='Including prompt processing')],bbox_to_anchor=(0,1.015),loc='lower left',frameon=False,fontsize=8)
 axs[1].legend(handles=[Patch(color=colors[k],label=k.title()) for k in ['correct','partial','contradiction','other']],bbox_to_anchor=(0,1.015),loc='lower left',frameon=False,ncol=2,fontsize=8)
 axs[2].legend(handles=[Patch(color=colors[k],label=k.title()) for k in ['covered','partial','omitted']],bbox_to_anchor=(0,1.015),loc='lower left',frameon=False,ncol=2,fontsize=8)
-fig.text(.035,.14,'One frozen battery per configuration; ten held-out requests. Wall rate excludes startup and inter-request work.',fontsize=10,color='#4b5563')
+fig.text(.035,.14,'Ten held-out requests per battery; Qwen8 GGUF repeated separately. Wall rate excludes startup and inter-request work.',fontsize=10,color='#4b5563')
 fig.text(.035,.095,'MLX uses different weights, quantization and cache behavior. These observations do not isolate backend or hardware effects.',fontsize=10,color='#4b5563')
 fig.text(.035,.05,'Source fidelity: Codex-assisted review, no independent human adjudication. Coverage, citations and factual errors remain separate.',fontsize=10,color='#4b5563')
 for ext in ['png','svg']:fig.savefig(OUT/('research-comparison.'+ext),dpi=160)

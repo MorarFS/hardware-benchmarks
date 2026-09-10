@@ -1,0 +1,8 @@
+{
+  "declared_at": "2026-09-10T04:56:30.606714+00:00",
+  "model_id": "qwen3-8b",
+  "reason": "A fresh-server diagnostic reproduced the exact H1-summary output at about 76 server tokens/s versus 43 in the original battery. Repeat the whole battery to characterize observed run-to-run variation.",
+  "configuration": "Same frozen 32K, FP16 KV, reasoning-off profile and 1,024 MiB RAM prompt cache. Downloads continue.",
+  "ordering": "Queued behind a five-trial context/logging diagnostic; not a controlled thermal or idle-duration experiment. Original battery remains unchanged.",
+  "quality_policy": "Validate every request and compare exact output hashes before inheriting existing source judgments."
+}

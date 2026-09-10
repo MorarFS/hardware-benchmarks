@@ -30,7 +30,7 @@ for p in sorted((OUT/'cpu').glob('*-status.json')):
   assert math.isclose(statistics.mean(rates),row['avg_ts'],abs_tol=1e-5)
   assert math.isclose(statistics.stdev(rates),row['stddev_ts'],abs_tol=1e-5)
  cpu.append({'path':str(p.relative_to(ROOT)),'rows':len(data),'samples':sum(len(r['samples_ns']) for r in data)})
-folders=list((OUT/'history').glob('*'))+[OUT/'mlx-history']
+folders=list((OUT/'history').glob('*'))+list((OUT/'history-repeat').glob('*'))+[OUT/'mlx-history']
 for folder in folders:
  if not folder.is_dir():continue
  p=folder/'adjudication.json'
