@@ -90,48 +90,63 @@
     {
       "path": "results/2026-09-10/m4-max/history/gemma4-26b/review.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 109
     },
     {
       "path": "results/2026-09-10/m4-max/history/qwen36-35b/review.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 125
     },
     {
       "path": "results/2026-09-10/m4-max/history/qwen3-8b/adjudication.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 175
     },
     {
       "path": "results/2026-09-10/m4-max/history/qwen35-122b-iq2xxs/adjudication.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 174
     },
     {
       "path": "results/2026-09-10/m4-max/history/nemotron-49b/adjudication.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 130
     },
     {
       "path": "results/2026-09-10/m4-max/history/qwen38-27b/review.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 156
     },
     {
       "path": "results/2026-09-10/m4-max/history-repeat/qwen3-8b/adjudication.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 175
     },
     {
+      "path": "results/2026-09-10/m4-max/capacity-history/qwen235-thinking-iq1s/adjudication.json",
+      "extraction_answers": 20,
+      "coverage_dispositions": 48,
+      "coverage_judgments": 28,
+      "grouped_claim_annotations": 90
+    },
+    {
       "path": "results/2026-09-10/m4-max/mlx-history/review.json",
       "extraction_answers": 20,
+      "coverage_dispositions": 48,
       "coverage_judgments": 48,
       "grouped_claim_annotations": 94
     }

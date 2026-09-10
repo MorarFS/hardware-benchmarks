@@ -1,0 +1,40 @@
+{
+  "name": "development-summary",
+  "fingerprint": "134959754a7064c93d832b1082ed2ec7a2f1f477831038296b533daf5a4a7cf3",
+  "source_files": [
+    "prompts.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2343,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:45:14.971919+00:00",
+  "output": "The passage opens with Antonina’s decline following Theodora’s death, noting she and her husband lost favour in declining years [PDF p. 101]. It then introduces the Blues and Greens factions, explaining they evolved from circus factions into political groups threatening imperial stability [PDF p. 101]. In January 532, Justinian ordered seven rioters executed, but execution errors sparked six days of riots [PDF p. 101]. The Blues and Greens united, chanting \"Nika\" (\"conquer\"), demanding officials’ dismissal [PDF p. 102]. Rebels set fire to St. Sophia’s cathedral, burning hospitals and churches [PDF p. 103]. Hypatius was crowned by rebels despite reluctance [PDF p. 103]. On the sixth day, rebels installed Hypatius in the royal seat [PDF p. 103]. Meanwhile, Justinian’s ministers urged flight, but Theodora intervened [PDF p. 105]. She famously urged Justinian to fight, declaring \"for a king death is better than dethronement\" [PDF p. 105]. Spurred by her speech, Belisarius led troops against rebels at the Hippodrome [PDF p. 105]. After fierce fighting, 35,000 were slain [PDF p. 106]. Despite this slaughter, the factions continued rioting over subsequent decades [PDF p. 106]. The passage ends emphasizing the 532 rising’s near-disaster [PDF p. 106].",
+  "reasoning_output": "Okay, let me approach this systematically. The user wants a connected summary of 180-220 words based solely on the provided PDF excerpts. I need to carefully extract all key elements while adhering strictly to the source material.\n\nFirst, I'll identify the main sections: the beginning discusses Antonina and Theodora's death, then transitions to the Blues and Greens conflict. The middle covers the riot incident and Justinian's response. The ending describes the Nika riots and aftermath.\n\nImportant details to include:\n- The Blues/Greens factions originating from circus factions\n- The execution incident leading to riots\n- Hypatius being crowned during the riots\n- The fire destroying St. Sophia\n- Theodora's speech urging Justinian to fight\n- The final battle at Hippodrome\n\nI must attribute evaluations explicitly per source instructions. For example, when describing how the factions \"posed as partisans,\" I'll note this comes directly from the text. The fire's spread description must be cited as per page 103.\n\nCrucially, I need to preserve causal relationships: how the execution mishap led to riots, which then led to the burning of St. Sophia. Qualifications like \"it is said that 35,000 men were slain\" must be included verbatim.\n\nI'll structure it chronologically: beginning (Antonia/theodora context), middle (riots/fire), ending (Theodora's speech and battle). Every factual claim must have [PDF p. N] citation. No interpretations beyond what's in the text.\n\nWord count must stay between 180-220 words. I'll count carefully to ensure compliance. No generic limitations paragraph - just pure summary of the source material.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 698,
+    "prompt_tokens": 2343,
+    "total_tokens": 3041,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 2258,
+    "prompt_ms": 11612.298,
+    "prompt_per_token_ms": 5.142736049601417,
+    "prompt_per_second": 194.44902292380024,
+    "predicted_n": 698,
+    "predicted_ms": 32088.972,
+    "predicted_per_token_ms": 46.03869727403156,
+    "predicted_per_second": 21.720857869800252
+  },
+  "first_visible_seconds": 27.179286709000735,
+  "wall_seconds": 43.777304791999995,
+  "word_count": 193,
+  "finished_at": "2026-09-10T05:45:59.505022+00:00"
+}

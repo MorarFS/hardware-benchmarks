@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "a9d191a5cc565df816021e8224f511ee89ec92f8a81575e8e9da25da42c33a71",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2403,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:44:26.433316+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died. The passage states: \"Seven were selected for execution, and four of them were duly beheaded in the presence of a great and angry mob, in front of the monastery of St. Conon\" [PDF p. 102]. It then explains that \"The last three rioters were to be hung, but the hangman so bungled his task that two of the criminals, one a Blue the other a Green, fell to the ground alive\" [PDF p. 102].\n\nD-Q2: The passage attributes 35,000 deaths to the Hippodrome assault, stating \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika'\" [PDF p. 106]. However, it does not attribute these deaths solely to the Hippodrome assault, as it mentions \"six days of desperate rioting\" and \"six days of this great 'Sedition of Nika'\" [PDF p. 106].\n\nD-Q3: Not stated in the supplied passage. The passage mentions \"six days of desperate rioting\" [PDF p. 102] and \"six days of this great 'Sedition of Nika'\" [PDF p. 106], but does not specify the exact duration of the Hippodrome assault in minutes.",
+  "reasoning_output": "Let me analyze each question based on the provided passage.\n\nD-Q1: How many prisoners were selected for execution, and did all seven die?\nThe passage states: \"Seven were selected for execution, and four of them were duly beheaded in the presence of a great and angry mob, in front of the monastery of St. Conon.\" It then describes how the remaining three were supposed to be hung, but due to mishaps, two of them fell alive. The passage states: \"The guards seized them and they were again suspended to the terror [sic] of the executioners at the menaces of the mob the rope slipped.\" So not all seven died - two fell alive, and one was hung. The passage says: \"Seven were selected for execution\" but doesn't say all seven died. It states that four were beheaded, and then describes how the hanging of the remaining three was problematic.\n\nD-Q2: Does the passage attribute \n\n\nD-Q1: How many prisoners were selected for execution, and did all seven die?\nD-Q2: Does the passage attribute 35,000 deaths solely to the Hippodrome assault?\nD-Q3: What was the exact duration, in minutes, of the Hippodrome assault?\n\nLet me analyze each question based on the provided passage.\n\nD-Q1: How many prisoners were selected for execution, and did all seven die?\nThe passage states: \"Seven were selected for execution, and four of them were duly beheaded in the presence of a great and angry mob, in front of the monastery of St. Conon.\" It then describes how the remaining three were supposed to be hung, but due to mishaps, two of the criminals fell to the ground alive. The passage states: \"The last three rioters were to be hung, but the hangman so bungled his task that two of the criminals, one a Blue the other a Green, fell to the ground alive.\" So not all seven died - four were beheaded, and the remaining three faced hanging difficulties. The passage states that two of the remaining three fell to the ground alive, but doesn't explicitly say what happened to the third person. It says: \"The guards seized them and they were again suspended to the terror [sic] of the executioners at the menaces of the mob the rope slipped.\" So it appears all seven prisoners were executed, but not all by hanging - four were beheaded, and the remaining three faced hanging difficulties.\n\nD-Q2:",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 815,
+    "prompt_tokens": 2403,
+    "total_tokens": 3218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2403,
+    "prompt_ms": 12451.7,
+    "prompt_per_token_ms": 5.181731169371619,
+    "prompt_per_second": 192.9856967321731,
+    "predicted_n": 815,
+    "predicted_ms": 34789.479,
+    "predicted_per_token_ms": 42.738917690417686,
+    "predicted_per_second": 23.397878421806777
+  },
+  "first_visible_seconds": 34.2395489999999,
+  "wall_seconds": 47.2473823750006,
+  "word_count": 193,
+  "finished_at": "2026-09-10T05:45:14.951873+00:00"
+}

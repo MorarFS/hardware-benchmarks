@@ -30,7 +30,7 @@ for p in sorted((OUT/'cpu').glob('*-status.json')):
   assert math.isclose(statistics.mean(rates),row['avg_ts'],abs_tol=1e-5)
   assert math.isclose(statistics.stdev(rates),row['stddev_ts'],abs_tol=1e-5)
  cpu.append({'path':str(p.relative_to(ROOT)),'rows':len(data),'samples':sum(len(r['samples_ns']) for r in data)})
-folders=list((OUT/'history').glob('*'))+list((OUT/'history-repeat').glob('*'))+[OUT/'mlx-history']
+folders=list((OUT/'history').glob('*'))+list((OUT/'history-repeat').glob('*'))+list((OUT/'capacity-history').glob('*'))+[OUT/'mlx-history']
 for folder in folders:
  if not folder.is_dir():continue
  p=folder/'adjudication.json'
@@ -42,7 +42,7 @@ for folder in folders:
  assert len({(x['stage'],x.get('unit',x.get('id'))) for x in review['coverage']})==48,p
  for name,sha in review['output_sha256'].items():assert hashlib.sha256((folder/name).read_bytes()).hexdigest()==sha,(p,name)
  for row in review['claims']:assert row['output_anchor'] in (folder/(row['stage']+'.md')).read_text(),(p,row)
- reviews.append({'path':str(p.relative_to(ROOT)),'extraction_answers':20,'coverage_judgments':48,'grouped_claim_annotations':len(review['claims'])})
+ reviews.append({'path':str(p.relative_to(ROOT)),'extraction_answers':20,'coverage_dispositions':48,'coverage_judgments':sum(x['judgment'] is not None for x in review['coverage']),'grouped_claim_annotations':len(review['claims'])})
 receipt={'scope':'Available completed measurements only; generation protocol validation is performed separately by collect_mac.py. This check does not adjudicate source truth or rerun inference.','speed_runs':runs,'cpu_runs':cpu,'cpu_rows':sum(x['rows'] for x in cpu),'cpu_samples':sum(x['samples'] for x in cpu),'review_integrity':reviews,'speed_rows':sum(x['rows'] for x in runs),'speed_samples':sum(x['samples'] for x in runs)}
 (OUT/'validation.json').write_text(json.dumps(receipt,indent=2)+'\n')
 print(json.dumps({k:v for k,v in receipt.items() if k not in ['speed_runs','cpu_runs','review_integrity']}));print(len(reviews),'source-review ledgers verified')

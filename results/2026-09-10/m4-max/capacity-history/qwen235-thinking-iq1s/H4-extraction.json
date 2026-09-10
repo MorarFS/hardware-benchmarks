@@ -1,0 +1,41 @@
+{
+  "name": "H4-extraction",
+  "fingerprint": "f93f493a0cc35296ddb3daadedded3297e564dad29c07a123bb39a2dc132e083",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 4120,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T05:55:54.371349+00:00",
+  "output": "Hmm, the user has shared a historical text passage and wants me to answer specific questions based solely on that text. I need to carefully analyze each question and provide answers with direct quotations from the PDF pages.\n\nFor H4-Q1 about which ruler reunited the Ottoman realm after civil wars, I see on page 362 that \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained.\" So Mohammed is the answer.\n\nFor H4-Q2 about why Manuel's support for the two Mustaphas led to war, page 363 states: \"Manuel Paleologus was one of the first to feel the change in the men. He tried to make trouble for Murad, by supporting against him two claimants to the Ottoman Sultanate, each named Mustapha, one the uncle, the other the brother of the new ruler. This drew down on the empire the fate which had been delayed since 1370.\" So the answer is that supporting the claimants drew down the fate on the empire.\n\nFor H4-Q3 about what immediate development caused Murad to lift the siege, page 365 states: \"At last the pretender Mustapha, whom Manuel had supplied with money to cause a revolt against his brother, began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him.\" So the immediate development was Mustapha causing trouble in Asia Minor.\n\nFor H4-Q4 about the role of the vision of the Virgin, page 365 states: \"The report of a miraculous vision of the Virgin, who vouchsafed to reveal herself as the defender of the city, encouraged the Greeks to resist with a better spirit than might have been expected.\" So it encouraged the Greeks to resist.\n\nFor H4-Q5 about the exact number of soldiers killed, the passage provides no such number. It only describes the siege without mentioning casualties.\n\nI'll formulate concise answers with direct quotations as required, keeping the original question IDs. For H4-Q5, since no number is mentioned, I'll state it's not in the passage.",
+  "reasoning_output": "I need to answer each question based on the provided text. Let me analyze each one carefully:\n\nH4-Q1: Which ruler reunited the surviving Ottoman realm after the civil wars?\nThe passage mentions: \"Much had been lost to the Seljouk Emirs in Asia Minor, and to the Servians and Manuel Paleologus in Europe, but the rest was back in Mohammed's hands by A.D. 1421.\" So Mohammed (Mohammed) is the ruler who reunited the Ottoman realm after civil wars. The passage states: \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained.\"\n\nH4-Q2: Why did Manuel's support for the two Mustaphas lead to war with Murad?\nThe passage states: \"Manuel Paleologus was one of the first to feel the change in the men. He tried to make trouble for Murad, by supporting against him two claimants to the Ottoman Sultanate, each named Mustapha, one the uncle, the other the brother of the new ruler. This drew down on the empire the fate which had been delayed since 1370.\"\n\nH4-Q3: What immediate development caused Murad to lift the siege?\nThe passage states: \"At last the pretender Mustapha, whom Manuel had supplied with money to cause a revolt against his brother, began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege and march against him.\"\n\nH4-Q4: What role does the passage assign to the vision of the Virgin?\nThe passage states: \"The report of a miraculous vision of the Virgin, who vouchsafed to reveal herself as the defender of the city, encouraged the Greeks to resist with a better spirit than might have been expected.\"\n\nH4-Q5: What was the exact number of soldiers killed during this siege?\nThe passage does not provide any specific number of soldiers killed during the siege. It only mentions that Murad \"levelled against them cannon, then seen for the first time in the East, built movable towers to shelter his troops, and launched his terrible Janissaries to the assault, he could not [succeed].\"\n\nNow I'll formulate answers with supporting quotes:\n\nH4-Q1: Mohammed reunited the surviving Ottoman realm after civil wars.\n\"Much had been lost to the Seljouk Emirs in Asia",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 976,
+    "prompt_tokens": 4120,
+    "total_tokens": 5096,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "timings": {
+    "cache_n": 85,
+    "prompt_n": 4035,
+    "prompt_ms": 29637.597,
+    "prompt_per_token_ms": 7.34512936802974,
+    "prompt_per_second": 136.14464087624916,
+    "predicted_n": 976,
+    "predicted_ms": 56977.307,
+    "predicted_per_token_ms": 58.43826358974359,
+    "predicted_per_second": 17.112075865572233
+  },
+  "first_visible_seconds": 59.25118979200124,
+  "wall_seconds": 86.64568262500143,
+  "word_count": 354,
+  "finished_at": "2026-09-10T05:57:21.224560+00:00"
+}
