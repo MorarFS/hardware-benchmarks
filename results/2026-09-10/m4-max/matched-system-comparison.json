@@ -113,6 +113,96 @@
     "note": "Measured"
   },
   {
+    "model_id": "nemotron-49b",
+    "machine_backend": "M4 Max / Metal",
+    "sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "values": {
+      "pp512": {
+        "mean": 127.347763,
+        "sd": 6.505569,
+        "samples": [
+          135.221,
+          131.57,
+          127.174,
+          124.421,
+          118.354
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0.json"
+      },
+      "tg0": {
+        "mean": 14.926984,
+        "sd": 0.457279,
+        "samples": [
+          14.1229,
+          14.9843,
+          15.1643,
+          15.1675,
+          15.196
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 11.407244,
+        "sd": 1.089024,
+        "samples": [
+          12.9174,
+          11.9737,
+          11.3345,
+          10.6598,
+          10.1508
+        ],
+        "source": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth2048.json"
+      }
+    },
+    "note": "Active downloads and other desktop/workspace load; five samples."
+  },
+  {
+    "model_id": "nemotron-49b",
+    "machine_backend": "M5 Pro / Metal",
+    "sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "values": {
+      "pp512": {
+        "mean": 165.656109,
+        "sd": 4.045348,
+        "source": "results/2026-09-08/mac/apple-metal-nemotron-49b-depth0.json"
+      },
+      "tg0": {
+        "mean": 8.690453,
+        "sd": 0.711342,
+        "source": "results/2026-09-08/mac/apple-metal-nemotron-49b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 8.894352,
+        "sd": 0.01072,
+        "source": "results/2026-09-08/mac/apple-metal-nemotron-49b-depth2048.json"
+      }
+    },
+    "note": "Five retained samples; see memory/offload evidence."
+  },
+  {
+    "model_id": "nemotron-49b",
+    "machine_backend": "Arc Pro B70 / SYCL",
+    "sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "values": {
+      "pp512": {
+        "mean": 185.733742,
+        "sd": 0.182183,
+        "source": "results/2026-09-08/capacity/intel-sycl-49b-depth0.json"
+      },
+      "tg0": {
+        "mean": 15.988204,
+        "sd": 0.038298,
+        "source": "results/2026-09-08/capacity/intel-sycl-49b-depth0.json"
+      },
+      "tg2048": {
+        "mean": 15.547394,
+        "sd": 0.014298,
+        "source": "results/2026-09-08/capacity/intel-sycl-49b-depth2048.json"
+      }
+    },
+    "note": "Measured"
+  },
+  {
     "model_id": "qwen3-8b",
     "machine_backend": "M4 Max / Metal",
     "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",

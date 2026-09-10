@@ -12,6 +12,16 @@
       "samples": 5
     },
     {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0-status.json",
+      "rows": 2,
+      "samples": 10
+    },
+    {
+      "path": "results/2026-09-10/m4-max/speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth2048-status.json",
+      "rows": 1,
+      "samples": 5
+    },
+    {
       "path": "results/2026-09-10/m4-max/speed/apple-metal-qwen3-8b-20260910-112125/apple-metal-qwen3-8b-depth0-status.json",
       "rows": 2,
       "samples": 10
@@ -94,6 +104,6 @@
       "grouped_claim_annotations": 94
     }
   ],
-  "speed_rows": 12,
-  "speed_samples": 60
+  "speed_rows": 15,
+  "speed_samples": 75
 }

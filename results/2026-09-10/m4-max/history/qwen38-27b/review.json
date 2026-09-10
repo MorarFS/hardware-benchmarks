@@ -1873,8 +1873,8 @@
     {
       "stage": "H4-summary",
       "unit": "H4-C2",
-      "judgment": "partial",
-      "rationale": "Angora/civil war/gains present; negotiated Suleiman transaction omitted."
+      "judgment": "covered",
+      "rationale": "Tamerlane\u2019s 1402 victory, resulting Ottoman civil war and Manuel\u2019s temporary territorial recovery are all present. The frozen unit does not require the detailed Suleiman bargain. Separate unifier/name errors remain in the claim ledger."
     },
     {
       "stage": "H4-summary",
@@ -1897,8 +1897,8 @@
     {
       "stage": "merged-summary-synthesis",
       "unit": "H4-C2",
-      "judgment": "partial",
-      "rationale": "Angora/civil war/gains present; negotiated Suleiman transaction omitted."
+      "judgment": "covered",
+      "rationale": "Tamerlane\u2019s 1402 victory, resulting Ottoman civil war and Manuel\u2019s temporary territorial recovery are all present. The frozen unit does not require the detailed Suleiman bargain. Separate unifier/name errors remain in the claim ledger."
     },
     {
       "stage": "merged-summary-synthesis",
@@ -2115,5 +2115,6 @@
     "H1-summary.md": "8b3772f46e0033f0c9402925e9cc8ea6cbb510121cab81c093b00b00d5ae4e92",
     "development-extraction.md": "030d2cda52e72e4991cf13f400c90604e4eb5589850f3f666c7dad288fcbfb11"
   },
-  "annotation_limits": "Grouped claims cover related clauses, not standardized atomic statements. Review is AI-assisted; no combined quality score is computed."
+  "annotation_limits": "Grouped claims cover related clauses, not standardized atomic statements. Review is AI-assisted; no combined quality score is computed.",
+  "coverage_rubric_correction": "H4-C2 direct and merged summaries corrected from partial to covered against the frozen unit: all requested components appear. Detailed bargaining terms are not an added coverage requirement. Claim errors remain separate; full-source counts unchanged."
 }

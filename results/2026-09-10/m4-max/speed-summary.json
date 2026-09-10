@@ -126,6 +126,69 @@
     "file": "speed/apple-metal-qwen36-35b-20260910-120636/apple-metal-qwen36-35b-depth0-status.json"
   },
   {
+    "model": "nemotron-49b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 2048,
+    "mean_tps": 11.407244,
+    "sd_tps": 1.089024,
+    "samples_tps": [
+      12.9174,
+      11.9737,
+      11.3345,
+      10.6598,
+      10.1508
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 31269797888,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "file": "speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth2048-status.json"
+  },
+  {
+    "model": "nemotron-49b",
+    "prompt": 512,
+    "generation": 0,
+    "depth": 0,
+    "mean_tps": 127.347763,
+    "sd_tps": 6.505569,
+    "samples_tps": [
+      135.221,
+      131.57,
+      127.174,
+      124.421,
+      118.354
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 30496063488,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "file": "speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0-status.json"
+  },
+  {
+    "model": "nemotron-49b",
+    "prompt": 0,
+    "generation": 256,
+    "depth": 0,
+    "mean_tps": 14.926984,
+    "sd_tps": 0.457279,
+    "samples_tps": [
+      14.1229,
+      14.9843,
+      15.1643,
+      15.1675,
+      15.196
+    ],
+    "full_offload": true,
+    "peak_rss_bytes": 30496063488,
+    "peak_swap_used_bytes": 0.0,
+    "swap_growth_bytes": 0.0,
+    "model_sha256": "eb619df799350250d51148874e6033f0b395b6b867291644e03225a71bda8c01",
+    "file": "speed/apple-metal-nemotron-49b-20260910-131003/apple-metal-nemotron-49b-depth0-status.json"
+  },
+  {
     "model": "qwen38-27b",
     "prompt": 0,
     "generation": 256,

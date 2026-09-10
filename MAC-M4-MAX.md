@@ -1,6 +1,6 @@
 # Apple M4 Max local AI campaign
 
-**Status: campaign in progress, September 10, 2026 (Asia/Singapore).** Qwen8 CPU/Metal, MLX execution, and Qwen35/Gemma26/Qwen27 speed and source reviews are complete. Remaining models and the 235B capacity candidate are still downloading or awaiting tests. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
+**Status: campaign in progress, September 10, 2026 (Asia/Singapore).** Qwen8 CPU/Metal, MLX execution, and Qwen35/Gemma26/Qwen27 speed and source reviews are complete. Nemotron’s speed suite is complete and its 32K source battery is running; Qwen122 and the 235B capacity candidate are still downloading or awaiting tests. This is a different computer from the existing M5 Pro report; historical results remain unchanged.
 
 ## Research usefulness so far
 

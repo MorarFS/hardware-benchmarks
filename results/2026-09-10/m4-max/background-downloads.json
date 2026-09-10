@@ -11,6 +11,15 @@
       "mean_model_file_growth_MB_per_second": 22.442005140035313
     },
     {
+      "label": "apple-metal-nemotron-49b-20260910-131003",
+      "samples": 25,
+      "first_sample_utc": "2026-09-10T05:10:06.862880+00:00",
+      "last_sample_utc": "2026-09-10T05:14:08.949403+00:00",
+      "sample_span_seconds": 242.0865228176117,
+      "progress_bytes": 5409665024,
+      "mean_model_file_growth_MB_per_second": 22.345998286222848
+    },
+    {
       "label": "apple-metal-qwen3-8b-20260910-112125",
       "samples": 5,
       "first_sample_utc": "2026-09-10T03:21:25.896657+00:00",
@@ -72,6 +81,15 @@
       "sample_span_seconds": 673.9541268348694,
       "progress_bytes": 15075389440,
       "mean_model_file_growth_MB_per_second": 22.36856907576105
+    },
+    {
+      "label": "history-repeat-qwen3-8b",
+      "samples": 18,
+      "first_sample_utc": "2026-09-10T04:57:10.957234+00:00",
+      "last_sample_utc": "2026-09-10T05:00:02.074739+00:00",
+      "sample_span_seconds": 171.11750507354736,
+      "progress_bytes": 3939504128,
+      "mean_model_file_growth_MB_per_second": 23.022215794385133
     }
   ]
 }
