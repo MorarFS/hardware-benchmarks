@@ -1,0 +1,10 @@
+{
+  "chip": "Apple M4 Max",
+  "physical_memory_bytes": 68719476736,
+  "cpu_cores": 16,
+  "gpu_cores": 40,
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6\nBuildVersion:\t\t25G72\n",
+  "power": "Battery Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n ttyskeepawake        1\n womp                 0\n displaysleep         2\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n ttyskeepawake        1\n womp                 1\n displaysleep         10\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10\n",
+  "initial_swap": "total = 0.00M  used = 0.00M  free = 0.00M  (encrypted)\n",
+  "repo_commit": "e10144110bc230cc840fe983756041dc7ecb2d2a"
+}

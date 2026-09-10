@@ -97,5 +97,14 @@
     "file_size_bytes": 5761057728,
     "evo_matrix_id": "gemma2-9b",
     "context_for_accuracy": 8192
+  },
+  "qwen235-thinking-iq1s": {
+    "name": "Qwen3 235B A22B Thinking 2507 IQ1_S",
+    "repository": "mradermacher/Qwen3-235B-A22B-Thinking-2507-i1-GGUF",
+    "revision": "809b430af10cc09e305f670cf9bbe1e01606d091",
+    "filename": "Qwen3-235B-A22B-Thinking-2507.i1-IQ1_S.gguf",
+    "sha256": "b91ae681af0ee4ef1f50b56b1c227acf026739f502e8dd643c4edef5872073b7",
+    "file_size_bytes": 47948249568,
+    "quantization": "IQ1_S (importance matrix)"
   }
 }
