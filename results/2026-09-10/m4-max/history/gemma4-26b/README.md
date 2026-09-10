@@ -10,7 +10,7 @@ Codex-assisted review, without independent human adjudication: **18 correct extr
 
 The summaries still contain errors. H3 says Romanus kept Constantine in the background until majority, whereas the source explicitly says long after majority. H2 drops the author’s probability qualifier on the AD 400 Latin-speaker estimate. Both recur in the merged synthesis. H1 cites the casualty passage on PDF 66 rather than 67.
 
-The full-source control covers **six compound units completely, seven partially, and omits three** under the strict documented rubric. It loses most of H4’s causal sequence and merges the four excerpts into an uneven structure. It also switches to printed book pages 340/341 at the end instead of physical PDF 366/367. `review.json` contains every coverage judgment and selected error anchors; the selected errors are not an exhaustive claim annotation.
+The full-source control covers **six compound units completely, seven partially, and omits three** under the strict documented rubric. It loses most of H4’s causal sequence and merges the four excerpts into an uneven structure. It also switches to printed book pages 340/341 at the end instead of physical PDF 366/367. `review.json` contains all 48 applicable coverage judgments across direct summaries and both syntheses, every extraction answer, and a grouped source-linked claim ledger. Two clear factual/qualification error families occur four times across direct and merged outputs; citation defects and ambiguity remain separate.
 
 | Output | Prose words | Requested range | Citation observation |
 |---|---:|---:|---|

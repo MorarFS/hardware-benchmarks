@@ -1,0 +1,41 @@
+{
+  "name": "development-extraction",
+  "fingerprint": "1cecc9815b2a04a6de2ab54f1fa505060128a137715d3592c4fe284111577f7a",
+  "source_files": [
+    "prompts.json",
+    "development-questions.json",
+    "inputs/development.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 2452,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:07:27.955874+00:00",
+  "output": "D-Q1: Seven prisoners were selected for execution, but not all seven died because two survived the hanging attempts. The text states that \"Seven were selected for execution\" but notes that two criminals \"fell to the ground alive\" and were eventually rescued by the mob. [PDF p. 102]\n\nD-Q2: No, the passage does not attribute 35,000 deaths solely to the Hippodrome assault, as it attributes the total to the entire six-day period. The text says, \"It is said that 35,000 men were slain in the six days of this great 'Sedition of Nika.'\" [PDF p. 106]\n\nD-Q3: The passage does not state the exact duration of the Hippodrome assault in minutes. The text mentions the riot lasted six days and describes the assault as a \"hard struggle,\" but provides no specific minute count for the battle itself. [PDF p. 105]",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 2452,
+    "total_tokens": 2658,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2452,
+    "prompt_ms": 2149.706,
+    "prompt_per_token_ms": 0.876715334420881,
+    "prompt_per_second": 1140.621089581552,
+    "predicted_n": 206,
+    "predicted_ms": 2674.247,
+    "predicted_per_token_ms": 13.04510731707317,
+    "predicted_per_second": 76.65709263205682
+  },
+  "first_visible_seconds": 2.1541883339996275,
+  "wall_seconds": 4.828915249999227,
+  "word_count": 139,
+  "finished_at": "2026-09-10T04:07:34.015633+00:00"
+}

@@ -1,0 +1,2484 @@
+{
+  "version": 1,
+  "model_id": "qwen3-8b",
+  "evaluator": "Codex (GPT-6), AI-assisted source adjudication; no independent human review",
+  "source": "Frozen supplied OCR and gold acceptable variants; historical truth not independently adjudicated",
+  "policy": "experiments/history-v2-mac/README.md",
+  "extraction": [
+    {
+      "question_id": "H1-Q1",
+      "output": "The Visigoths were led by their Duke Fritigern as they retreated toward the Danube. [PDF p. 61]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        61
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Names Fritigern."
+    },
+    {
+      "question_id": "H1-Q2",
+      "output": "Valens imposed two conditions: giving hostages and surrendering arms, but the arms condition was not fully enforced as the Goths retained their weapons. [PDF p. 63]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        63
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Both conditions and failed enforcement are present, satisfying the frozen acceptable-variant rule; the answer omits the explanatory bribery detail."
+    },
+    {
+      "question_id": "H1-Q3",
+      "output": "Lupicinus\u2019s food policy, which involved holding back supplies and selling them at exorbitant prices, drove the Goths to desperation and revolt. [PDF p. 63]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        63,
+        64
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Withholding food, exorbitant prices and desperation/revolt are present; the gold accepts this causal paraphrase."
+    },
+    {
+      "question_id": "H1-Q4",
+      "output": "The battle at Ad Salices thinned the ranks of both sides but led to no decisive result. [PDF p. 65]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        64
+      ],
+      "citation_judgment": "wrong_page",
+      "quotation_form": "missing",
+      "rationale": "Indecisive result is correct. Cited p.65 starts the following campaign; the answer is on p.64."
+    },
+    {
+      "question_id": "H1-Q5",
+      "output": "Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct abstention; terminal punctuation is not a semantic error."
+    },
+    {
+      "question_id": "H2-Q1",
+      "output": "The monk Tele-machus intervened in the gladiatorial games in A.D. 404, and he was slain during the event. His death led to the cessation of gladiatorial shows. [PDF p. 171]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        171
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Name, AD404 and death are present; the OCR hyphen in Tele-machus is acceptable."
+    },
+    {
+      "question_id": "H2-Q2",
+      "output": "Valentinian I made infanticide a capital offence in 374. [PDF p. 173]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        173
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Valentinian I and 374 are correct."
+    },
+    {
+      "question_id": "H2-Q3",
+      "output": "The passage claimed Christianity did not immediately end slavery, noting that its evils were immensely modified over time. [PDF p. 173]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        173,
+        174
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Negates immediate abolition and retains mitigation over time. Less specific than centuries, but does not convert mitigation to abolition, consistent with the frozen acceptable variants."
+    },
+    {
+      "question_id": "H2-Q4",
+      "output": "Oman regarded widespread ascetic monasticism as politically dangerous because it led men to withdraw from civic duties, weakening the state. [PDF p. 174]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        174,
+        175
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "missing",
+      "rationale": "Explicitly attributes the civic-withdrawal judgment to Oman."
+    },
+    {
+      "question_id": "H2-Q5",
+      "output": "Not stated in the supplied passage. [PDF p. 175]",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct abstention; adds an unnecessary citation to p.175 and thus does not follow the exact-only response format."
+    },
+    {
+      "question_id": "H3-Q1",
+      "output": "Constantine was called Porphyrogenitus because he was born in the Purple Chamber, the room in the palace set aside for the Empress. This name was given him because he was born in the Purple Chamber [PDF p. 241].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        241
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "unmarked_verbatim",
+      "rationale": "Correct chamber and purpose. The supporting sentence repeats source wording without quotation marks."
+    },
+    {
+      "question_id": "H3-Q2",
+      "output": "Saracen pirates captured Thessalonica in 904, but they did not retain it as they fled with their booty after the city's fall. The capture of the second city of the empire by a fleet of African adventurers was an incident disgraceful to the administration of Leo [PDF p. 242].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        242
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "unmarked_verbatim",
+      "rationale": "Correct city,904 and departure with booty. The second sentence copies the source evaluation without explicit local attribution or quotation marks; that attribution issue is separate from the requested identity/occupation answer."
+    },
+    {
+      "question_id": "H3-Q3",
+      "output": "Romanus Lecapenus was removed by the mob and the guards, and his sons were then expelled by Constantine. The mob and the guards joined to sweep away the presumptuous Stephen Lecapenus and his brother [PDF p. 243].",
+      "judgment": "contradiction",
+      "answerability": "stated",
+      "source_pages": [
+        243
+      ],
+      "citation_judgment": "contradicts_answer",
+      "quotation_form": "unmarked_verbatim",
+      "rationale": "Reverses the agents: Romanus was forced out by his sons, then mob/guards expelled the sons. The second sentence itself quotes the correct second event but does not repair the conflicting first sentence."
+    },
+    {
+      "question_id": "H3-Q4",
+      "output": "Leo recommended caution rather than rash general battle against the men of the West, the Franks and Lombards. It is only when dealing with the men of the West, the Franks and Lombards, that Leo recommends caution [PDF p. 245].",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        245
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "unmarked_verbatim",
+      "rationale": "Names Franks and Lombards as required; supporting sentence repeats source wording."
+    },
+    {
+      "question_id": "H3-Q5",
+      "output": "The annual pay of an ordinary Byzantine cavalryman is not stated in the supplied passage. Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct abstention, with an extra sentence repeating the question; not the exact-only response format."
+    },
+    {
+      "question_id": "H4-Q1",
+      "output": "The ruler who reunited the surviving Ottoman realm after the civil wars was Mohammed, the youngest of the sons of Bayezid. [PDF p. 362]  \nSupporting quotation: \"Mohammed, the youngest of the sons of Bayezid, was a man of genius: he triumphed over the last of his brothers, and united all the remnants of the Ottoman realm that remained.\" [PDF p. 362]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        362,
+        363
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Correct Mohammed and source quotation."
+    },
+    {
+      "question_id": "H4-Q2",
+      "output": "Manuel\u2019s support for the two Mustaphas led to war with Murad because it drew down on the empire the fate which had been delayed since 1370. [PDF p. 365]  \nSupporting quotation: \"He tried to make trouble for Murad, by supporting against him two claimants to the Ottoman Sultanate, each named Mustapha... the Sultan declared war on Manuel.\" [PDF p. 365]",
+      "judgment": "partial",
+      "answerability": "stated",
+      "source_pages": [
+        363
+      ],
+      "citation_judgment": "wrong_page",
+      "quotation_form": "explicit",
+      "rationale": "Identifies support for rival claimants and war but omits the required uncle/brother relationships. Both quoted fragments are on p.363, not cited p.365."
+    },
+    {
+      "question_id": "H4-Q3",
+      "output": "The immediate development that caused Murad to lift the siege was the trouble stirred up by the pretender Mustapha in Asia Minor. [PDF p. 365]  \nSupporting quotation: \"the pretender Mustapha, whom Manuel had supplied with money to cause a revolt against his brother, began to stir up such trouble in Asia Minor, that the Sultan determined to raise the siege.\" [PDF p. 365]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        365
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "Correct immediate cause: Mustapha\u2019s trouble in Asia Minor."
+    },
+    {
+      "question_id": "H4-Q4",
+      "output": "The passage assigns the role of encouraging the Greeks to resist with a better spirit to the vision of the Virgin. [PDF p. 365]  \nSupporting quotation: \"The report of a miraculous vision of the Virgin, who vouchsafed to reveal herself as the defender of the city, encouraged the Greeks to resist with a better spirit than might have been expected.\" [PDF p. 365]",
+      "judgment": "correct",
+      "answerability": "stated",
+      "source_pages": [
+        365
+      ],
+      "citation_judgment": "supported",
+      "quotation_form": "explicit",
+      "rationale": "The supporting quotation retains the report marker, so the complete answer preserves reported testimony."
+    },
+    {
+      "question_id": "H4-Q5",
+      "output": "Not stated in the supplied passage.",
+      "judgment": "correct",
+      "answerability": "not_stated",
+      "source_pages": [],
+      "citation_judgment": "not_applicable",
+      "quotation_form": "not_applicable",
+      "rationale": "Correct abstention."
+    }
+  ],
+  "claims": [
+    {
+      "id": "H1-summary-C1",
+      "stage": "H1-summary",
+      "output_anchor": "prescience of Constantine",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C2",
+      "stage": "H1-summary",
+      "output_anchor": "arrival of the Huns in 372 CE",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source says about 372; summary drops about but CE date is a conventional compressed approximation, not scored as a distinct numeric error."
+    },
+    {
+      "id": "H1-summary-C3",
+      "stage": "H1-summary",
+      "output_anchor": "first defeating the Alans and then the Ostrogoths",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C4",
+      "stage": "H1-summary",
+      "output_anchor": "Ostrogoths, described as fierce and proud",
+      "judgment": "contradiction",
+      "source_pages": [
+        61
+      ],
+      "rationale": "The fierce/proud description is the Gothic historian\u2019s account of the Huns, not of the Ostrogoths.",
+      "error_family": "H1-entity-description",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H1-summary-C5",
+      "stage": "H1-summary",
+      "output_anchor": "were crushed and forced to become Huns' vassals",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C6",
+      "stage": "H1-summary",
+      "output_anchor": "a remnant fleeing to Wallachia",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C7",
+      "stage": "H1-summary",
+      "output_anchor": "forcing them to retreat to the Danube",
+      "judgment": "supported",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C8",
+      "stage": "H1-summary",
+      "output_anchor": "text attributes the Visigoths' desperation",
+      "judgment": "supported",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C9",
+      "stage": "H1-summary",
+      "output_anchor": "divided between Valens in the East and Valentinian in the West",
+      "judgment": "supported",
+      "source_pages": [
+        62
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C10",
+      "stage": "H1-summary",
+      "output_anchor": "Valens, portrayed as cowardly and avaricious",
+      "judgment": "supported",
+      "source_pages": [
+        62
+      ],
+      "rationale": "Author evaluation is attributed."
+    },
+    {
+      "id": "H1-summary-C11",
+      "stage": "H1-summary",
+      "output_anchor": "surrender their weapons and provide hostages",
+      "judgment": "supported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C12",
+      "stage": "H1-summary",
+      "output_anchor": "disputes arose over food and land",
+      "judgment": "unsupported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Food extortion is explicit; the passage mentions planned land allotment but does not state a land dispute.",
+      "error_family": "H1-land-dispute",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H1-summary-C13",
+      "stage": "H1-summary",
+      "output_anchor": "Roman officials, including Lupicinus, exploited the situation",
+      "judgment": "supported",
+      "source_pages": [
+        63,
+        64
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H1-summary-C14",
+      "stage": "H1-summary",
+      "output_anchor": "clash at Marcianopolis",
+      "judgment": "supported",
+      "source_pages": [
+        64
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C1",
+      "stage": "H2-summary",
+      "output_anchor": "beginning in the sixth century",
+      "judgment": "ambiguous",
+      "source_pages": [
+        169,
+        170
+      ],
+      "rationale": "Could refer to the start of this summary\u2019s discussion; if read as the origin of decline, it conflicts with the source\u2019s earlier political separation. Not counted as an asserted error family."
+    },
+    {
+      "id": "H2-summary-C2",
+      "stage": "H2-summary",
+      "output_anchor": "by around A.D. 800, he had adopted Greek",
+      "judgment": "supported",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C3",
+      "stage": "H2-summary",
+      "output_anchor": "Johannes Lydus and Procopius, who lacked proficiency",
+      "judgment": "contradiction",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Lydus owed his advancement to knowing Latin; only Procopius is described as ignorant.",
+      "error_family": "H2-Lydus-Latin",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H2-summary-C4",
+      "stage": "H2-summary",
+      "output_anchor": "separation of the Eastern and Western parts of the empire",
+      "judgment": "supported",
+      "source_pages": [
+        169,
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C5",
+      "stage": "H2-summary",
+      "output_anchor": "heavily affected by barbarian invasions",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C6",
+      "stage": "H2-summary",
+      "output_anchor": "only a tenth of the population east of the Adriatic spoke Latin",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        170
+      ],
+      "rationale": "The source says not a tenth, an upper bound, not an exact tenth.",
+      "error_family": "H2-Latin-bound",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H2-summary-C7",
+      "stage": "H2-summary",
+      "output_anchor": "most of the remaining speakers concentrated in Africa and the Italian Exarchate",
+      "judgment": "ambiguous",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Supported if the denominator is Latin-speaking imperial subjects; misleading if still referring to the previous east-of-Adriatic population. Denominator is unclear, not automatically a contradiction."
+    },
+    {
+      "id": "H2-summary-C8",
+      "stage": "H2-summary",
+      "output_anchor": "Flavius Corippus, an African",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C9",
+      "stage": "H2-summary",
+      "output_anchor": "ending practices like infanticide",
+      "judgment": "supported",
+      "source_pages": [
+        171,
+        173
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C10",
+      "stage": "H2-summary",
+      "output_anchor": "possessed an immortal soul",
+      "judgment": "supported",
+      "source_pages": [
+        173,
+        174
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C11",
+      "stage": "H2-summary",
+      "output_anchor": "gradual abolition of hereditary slavery",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        173,
+        174
+      ],
+      "rationale": "Hereditary slavery became almost unknown; slavery itself persisted for centuries. Abolition overstates that qualified reduction.",
+      "error_family": "H2-slavery-abolition",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H2-summary-C12",
+      "stage": "H2-summary",
+      "output_anchor": "many citizens withdrew from public life",
+      "judgment": "supported",
+      "source_pages": [
+        174,
+        175
+      ],
+      "rationale": "The ensuing sentence attributes the criticism to the author; read as the passage\u2019s argument rather than independent historical verification."
+    },
+    {
+      "id": "H2-summary-C13",
+      "stage": "H2-summary",
+      "output_anchor": "interpret the empire\u2019s troubles as signs of the end times",
+      "judgment": "supported",
+      "source_pages": [
+        175,
+        176
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H2-summary-C14",
+      "stage": "H2-summary",
+      "output_anchor": "resist the perceived moral decay of the era",
+      "judgment": "unsupported",
+      "source_pages": [
+        176
+      ],
+      "rationale": "The governing classes resisted invasion, famine and pestilence; moral decay is a substituted object of their resistance.",
+      "error_family": "H2-statecraft-adversities",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H3-summary-C1",
+      "stage": "H3-summary",
+      "output_anchor": "period from 867 to 965",
+      "judgment": "unsupported",
+      "source_pages": [
+        241,
+        242
+      ],
+      "rationale": "These exact endpoints are not established by the supplied OCR; p.242 uses 880\u2013960 for the less troubled period. Do not repair the noisy chapter dates from memory.",
+      "error_family": "H3-period-dates",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H3-summary-C2",
+      "stage": "H3-summary",
+      "output_anchor": "descendants of Basil the Macedonian",
+      "judgment": "supported",
+      "source_pages": [
+        241
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C3",
+      "stage": "H3-summary",
+      "output_anchor": "were described as mild and unenterprising",
+      "judgment": "supported",
+      "source_pages": [
+        241,
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C4",
+      "stage": "H3-summary",
+      "output_anchor": "occasional raids by Russians and Saracens",
+      "judgment": "supported",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C5",
+      "stage": "H3-summary",
+      "output_anchor": "unsuccessful invasion of Bulgaria",
+      "judgment": "supported",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C6",
+      "stage": "H3-summary",
+      "output_anchor": "a Saracen raid on Thessalonica",
+      "judgment": "supported",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C7",
+      "stage": "H3-summary",
+      "output_anchor": "long period of tutelage and political maneuvering",
+      "judgment": "supported",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C8",
+      "stage": "H3-summary",
+      "output_anchor": "ruled for twenty years",
+      "judgment": "supported",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C9",
+      "stage": "H3-summary",
+      "output_anchor": "rule was considered weak and ineffective",
+      "judgment": "supported",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Explicitly marked as an evaluation."
+    },
+    {
+      "id": "H3-summary-C10",
+      "stage": "H3-summary",
+      "output_anchor": "Leo's *Tactica* provided a detailed account",
+      "judgment": "supported",
+      "source_pages": [
+        244,
+        245
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C11",
+      "stage": "H3-summary",
+      "output_anchor": "*On the Themes*, *On the Administration of the Empire*",
+      "judgment": "supported",
+      "source_pages": [
+        246
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C12",
+      "stage": "H3-summary",
+      "output_anchor": "author attributes these literary achievements to the emperors' lack of military ambition",
+      "judgment": "supported",
+      "source_pages": [
+        241,
+        243,
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C13",
+      "stage": "H3-summary",
+      "output_anchor": "ninth century marked the end of a period of intellectual stagnation",
+      "judgment": "supported",
+      "source_pages": [
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H3-summary-C14",
+      "stage": "H3-summary",
+      "output_anchor": "notable figures like Photius",
+      "judgment": "supported",
+      "source_pages": [
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C1",
+      "stage": "H4-summary",
+      "output_anchor": "decline of the Byzantine Empire from 1370 to 1453",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C2",
+      "stage": "H4-summary",
+      "output_anchor": "Servians and Hungarians taking over this responsibility",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C3",
+      "stage": "H4-summary",
+      "output_anchor": "author attributes the prolonged existence of the empire to the Paleologi's subservience",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C4",
+      "stage": "H4-summary",
+      "output_anchor": "Andronicus, who rebelled twice",
+      "judgment": "supported",
+      "source_pages": [
+        359
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C5",
+      "stage": "H4-summary",
+      "output_anchor": "eventual succession of Manuel II.",
+      "judgment": "supported",
+      "source_pages": [
+        359
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C6",
+      "stage": "H4-summary",
+      "output_anchor": "defeat of Sultan Bayezid at Angora in 1402",
+      "judgment": "supported",
+      "source_pages": [
+        360
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C7",
+      "stage": "H4-summary",
+      "output_anchor": "selling his support to the Turkish pretender Suleiman",
+      "judgment": "supported",
+      "source_pages": [
+        360,
+        361,
+        362
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C8",
+      "stage": "H4-summary",
+      "output_anchor": "Europe failed to act decisively against the Ottomans",
+      "judgment": "supported",
+      "source_pages": [
+        362,
+        363
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C9",
+      "stage": "H4-summary",
+      "output_anchor": "Sigismund of Hungary preoccupied with the Hussite Wars",
+      "judgment": "supported",
+      "source_pages": [
+        362,
+        363
+      ],
+      "rationale": "Fact is supported but summary citation p.360 does not support this clause."
+    },
+    {
+      "id": "H4-summary-C10",
+      "stage": "H4-summary",
+      "output_anchor": "reasserted Ottoman control over Constantinople",
+      "judgment": "ambiguous",
+      "source_pages": [
+        363,
+        365
+      ],
+      "rationale": "The immediately following vassalage clause supports political suzerainty; direct occupation would contradict the failed siege. Retain the ambiguity rather than assert an occupation error."
+    },
+    {
+      "id": "H4-summary-C11",
+      "stage": "H4-summary",
+      "output_anchor": "empire's return to vassalage",
+      "judgment": "supported",
+      "source_pages": [
+        365
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C12",
+      "stage": "H4-summary",
+      "output_anchor": "Manuel II. died in 1422",
+      "judgment": "contradiction",
+      "source_pages": [
+        365
+      ],
+      "rationale": "1422 is the return to vassalage; Manuel died three years afterward.",
+      "error_family": "H4-Manuel-death",
+      "origin": "new_in_direct_summary"
+    },
+    {
+      "id": "H4-summary-C13",
+      "stage": "H4-summary",
+      "output_anchor": "Constantinople reduced to a city of poverty and neglect",
+      "judgment": "supported",
+      "source_pages": [
+        365,
+        366
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C14",
+      "stage": "H4-summary",
+      "output_anchor": "wealth concentrated in the hands of Italian merchants",
+      "judgment": "supported",
+      "source_pages": [
+        366
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "H4-summary-C15",
+      "stage": "H4-summary",
+      "output_anchor": "John VI., Manuel's son",
+      "judgment": "supported",
+      "source_pages": [
+        365,
+        367
+      ],
+      "rationale": "Matches the supplied source/OCR, regardless of modern regnal numbering."
+    },
+    {
+      "id": "H4-summary-C16",
+      "stage": "H4-summary",
+      "output_anchor": "converting to Roman Catholicism and attending the Council of Florence",
+      "judgment": "supported",
+      "source_pages": [
+        367
+      ],
+      "rationale": "Supported on 367, not the summary\u2019s cited 365."
+    },
+    {
+      "id": "H4-summary-C17",
+      "stage": "H4-summary",
+      "output_anchor": "papacy was no longer a powerful force capable of aiding the empire",
+      "judgment": "supported",
+      "source_pages": [
+        367
+      ],
+      "rationale": "Broad paraphrase of limited papal ability; specific money/300 men assistance is omitted."
+    },
+    {
+      "id": "H4-summary-C18",
+      "stage": "H4-summary",
+      "output_anchor": "loss of Thessalonica to the Venetians and the Sultan",
+      "judgment": "supported",
+      "source_pages": [
+        367
+      ],
+      "rationale": "Broad sequence matches sale to Venice followed by Ottoman annexation; chronology not made explicit."
+    },
+    {
+      "id": "full-source-control-C1",
+      "stage": "full-source-control",
+      "output_anchor": "Huns, an enormous Tartar horde",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source\u2019s dated terminology; generated prose does not explicitly distinguish all author characterizations, noted in attribution review."
+    },
+    {
+      "id": "full-source-control-C2",
+      "stage": "full-source-control",
+      "output_anchor": "around A.D. 372",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C3",
+      "stage": "full-source-control",
+      "output_anchor": "first attacked the Alans, nearly exterminating them",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C4",
+      "stage": "full-source-control",
+      "output_anchor": "efforts to defend the Dniester",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C5",
+      "stage": "full-source-control",
+      "output_anchor": "forced to become vassals of the Huns",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C6",
+      "stage": "full-source-control",
+      "output_anchor": "a remnant fleeing south to the Danube",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C7",
+      "stage": "full-source-control",
+      "output_anchor": "pushing them back against the Danube",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C8",
+      "stage": "full-source-control",
+      "output_anchor": "Visigoths, more civilized and Christian",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        62
+      ],
+      "rationale": "Oman\u2019s evaluation is asserted without attribution and most Christians becomes a general identity.",
+      "error_family": "control-H1-attribution",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-C9",
+      "stage": "full-source-control",
+      "output_anchor": "feared slavery to the Huns more than the threat of the enemy",
+      "judgment": "supported",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Awkward contrast, but the central fear-of-enslavement claim is present; source contrasts with eastern brethren."
+    },
+    {
+      "id": "full-source-control-C10",
+      "stage": "full-source-control",
+      "output_anchor": "accepted by Emperor Valens",
+      "judgment": "supported",
+      "source_pages": [
+        62,
+        63
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C11",
+      "stage": "full-source-control",
+      "output_anchor": "refused to surrender their weapons",
+      "judgment": "supported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Paraphrases unwillingness without changing resulting bribery."
+    },
+    {
+      "id": "full-source-control-C12",
+      "stage": "full-source-control",
+      "output_anchor": "officials accepted bribes",
+      "judgment": "supported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C13",
+      "stage": "full-source-control",
+      "output_anchor": "food shortages",
+      "judgment": "supported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C14",
+      "stage": "full-source-control",
+      "output_anchor": "revolt that culminated in a battle",
+      "judgment": "supported",
+      "source_pages": [
+        63,
+        64
+      ],
+      "rationale": "The banquet/market affray and resulting revolt are compressed; no invented date or separate battle claimed."
+    },
+    {
+      "id": "full-source-control-C15",
+      "stage": "full-source-control",
+      "output_anchor": "Valens, an unwarlike emperor",
+      "judgment": "supported",
+      "source_pages": [
+        65
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C16",
+      "stage": "full-source-control",
+      "output_anchor": "reinforcements from Asia Minor",
+      "judgment": "supported",
+      "source_pages": [
+        65
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C17",
+      "stage": "full-source-control",
+      "output_anchor": "his nephew Gratian aided the Lower Danube",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        65
+      ],
+      "rationale": "Source says Gratian set forth to bring aid; summary upgrades an intended expedition to delivered aid.",
+      "error_family": "control-Gratian-aid",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-C18",
+      "stage": "full-source-control",
+      "output_anchor": "Adrianople in 378 A.D.",
+      "judgment": "supported",
+      "source_pages": [
+        65,
+        66
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C19",
+      "stage": "full-source-control",
+      "output_anchor": "Gothic cavalry, having learned to fight on horseback",
+      "judgment": "supported",
+      "source_pages": [
+        65,
+        66
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C20",
+      "stage": "full-source-control",
+      "output_anchor": "death of Valens and many Roman commanders",
+      "judgment": "supported",
+      "source_pages": [
+        67
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C21",
+      "stage": "full-source-control",
+      "output_anchor": "their siege failed due to the city's formidable defenses",
+      "judgment": "contradiction",
+      "source_pages": [
+        67
+      ],
+      "rationale": "Unlike the ambiguous failed-to-breach phrase in the direct summary, this asserts a siege. They abandoned the machines and made no hostile attempt beyond skirmishing.",
+      "error_family": "control-Gothic-siege",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-C22",
+      "stage": "full-source-control",
+      "output_anchor": "defeats for the Roman army since Cannae",
+      "judgment": "supported",
+      "source_pages": [
+        67
+      ],
+      "rationale": "Source attributes this comparison to Ammianus; output omits that name but says noted."
+    },
+    {
+      "id": "full-source-control-C23",
+      "stage": "full-source-control",
+      "output_anchor": "Eastern Roman army nearly annihilated",
+      "judgment": "supported",
+      "source_pages": [
+        67
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C24",
+      "stage": "full-source-control",
+      "output_anchor": "Latin had largely been replaced by Greek",
+      "judgment": "supported",
+      "source_pages": [
+        169,
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C25",
+      "stage": "full-source-control",
+      "output_anchor": "barbarian invasions and Slavic migrations",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C26",
+      "stage": "full-source-control",
+      "output_anchor": "cut off from the Latin-speaking West",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C27",
+      "stage": "full-source-control",
+      "output_anchor": "Africa and the Italian Exarchate retaining Latin",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C28",
+      "stage": "full-source-control",
+      "output_anchor": "Flavius Corippus, an African",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C29",
+      "stage": "full-source-control",
+      "output_anchor": "changes in practices such as infanticide and slavery",
+      "judgment": "supported",
+      "source_pages": [
+        171,
+        173,
+        174
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C30",
+      "stage": "full-source-control",
+      "output_anchor": "idea of the individual soul",
+      "judgment": "supported",
+      "source_pages": [
+        173,
+        174
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C31",
+      "stage": "full-source-control",
+      "output_anchor": "more humane treatment of slaves and other marginalized groups",
+      "judgment": "supported",
+      "source_pages": [
+        174
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C32",
+      "stage": "full-source-control",
+      "output_anchor": "contributed to the empire's decline by diverting attention from civic duties",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        174,
+        175
+      ],
+      "rationale": "Oman\u2019s evaluative causal argument is asserted in the narrator\u2019s voice; the system prompt requires explicit attribution.",
+      "error_family": "control-monastic-attribution",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-C33",
+      "stage": "full-source-control",
+      "output_anchor": "Leo the Wise and Constantine Porphyrogenitus, the literary emperors of the ninth century",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        241,
+        242,
+        247
+      ],
+      "rationale": "The passage places the period across the ninth and tenth centuries; this wording reduces both reigns to the ninth.",
+      "error_family": "control-literary-century",
+      "origin": "new_in_full_source_control"
+    },
+    {
+      "id": "full-source-control-C34",
+      "stage": "full-source-control",
+      "output_anchor": "relative peace and cultural flourishing",
+      "judgment": "supported",
+      "source_pages": [
+        241,
+        242,
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C35",
+      "stage": "full-source-control",
+      "output_anchor": "focused on literary and administrative works",
+      "judgment": "supported",
+      "source_pages": [
+        241,
+        243,
+        246
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C36",
+      "stage": "full-source-control",
+      "output_anchor": "detailed account of Byzantine military organization and tactics",
+      "judgment": "supported",
+      "source_pages": [
+        244,
+        245
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C37",
+      "stage": "full-source-control",
+      "output_anchor": "Constantine's writings on themes, administration, and court ceremonies",
+      "judgment": "supported",
+      "source_pages": [
+        246
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C38",
+      "stage": "full-source-control",
+      "output_anchor": "end of the ninth century signaling the end",
+      "judgment": "supported",
+      "source_pages": [
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C39",
+      "stage": "full-source-control",
+      "output_anchor": "by the late fourteenth century, the empire was in a state of decline",
+      "judgment": "supported",
+      "source_pages": [
+        358,
+        359
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C40",
+      "stage": "full-source-control",
+      "output_anchor": "increasingly vulnerable to Ottoman expansion",
+      "judgment": "supported",
+      "source_pages": [
+        358,
+        359,
+        360,
+        363
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C41",
+      "stage": "full-source-control",
+      "output_anchor": "internal strife, economic hardship",
+      "judgment": "supported",
+      "source_pages": [
+        359,
+        365,
+        366
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "full-source-control-C42",
+      "stage": "full-source-control",
+      "output_anchor": "fall of Constantinople in 1453",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "The passage opening explicitly contrasts fall in 1453 with hypothetical 1370. This is supported, although the control omits almost all intervening H4 actions."
+    },
+    {
+      "id": "H1-summary-C15",
+      "stage": "H1-summary",
+      "output_anchor": "year of brutal conflict",
+      "source_pages": [
+        64
+      ],
+      "judgment": "supported",
+      "rationale": "Matches year of fighting and third-century-style raids."
+    },
+    {
+      "id": "H1-summary-C16",
+      "stage": "H1-summary",
+      "output_anchor": "Despite initial Roman resistance",
+      "source_pages": [
+        64,
+        65,
+        66
+      ],
+      "judgment": "supported",
+      "rationale": "Roman checks followed by Gothic cavalry victory."
+    },
+    {
+      "id": "H1-summary-C17",
+      "stage": "H1-summary",
+      "output_anchor": "decisive battle at Adrianople in 378 CE",
+      "source_pages": [
+        65,
+        66,
+        67
+      ],
+      "judgment": "supported",
+      "rationale": "Battle, death of Valens and senior officers supported."
+    },
+    {
+      "id": "H1-summary-C18",
+      "stage": "H1-summary",
+      "output_anchor": "superior mobility and the Romans' reliance on traditional infantry tactics",
+      "source_pages": [
+        65,
+        66,
+        67
+      ],
+      "judgment": "supported",
+      "rationale": "Grouped interpretation captures mounted-war turning point and infantry defeat."
+    },
+    {
+      "id": "H1-summary-C19",
+      "stage": "H1-summary",
+      "output_anchor": "battle is compared to Cannae",
+      "source_pages": [
+        67
+      ],
+      "judgment": "supported",
+      "rationale": "Explicit source comparison."
+    },
+    {
+      "id": "H1-summary-C20",
+      "stage": "H1-summary",
+      "output_anchor": "failed to breach its defenses",
+      "source_pages": [
+        67
+      ],
+      "judgment": "ambiguous",
+      "rationale": "May mean city stayed secure, but suggests an attempted assault; source states walls deterred assault apart from skirmishing."
+    },
+    {
+      "id": "merged-H1-summary-C1",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "prescience of Constantine",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C2",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "arrival of the Huns in 372 CE",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source says about 372; summary drops about but CE date is a conventional compressed approximation, not scored as a distinct numeric error."
+    },
+    {
+      "id": "merged-H1-summary-C3",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "first defeating the Alans and then the Ostrogoths",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C4",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Ostrogoths, described as fierce and proud",
+      "judgment": "contradiction",
+      "source_pages": [
+        61
+      ],
+      "rationale": "The fierce/proud description is the Gothic historian\u2019s account of the Huns, not of the Ostrogoths.",
+      "error_family": "H1-entity-description",
+      "origin": "propagated_from_H1-summary"
+    },
+    {
+      "id": "merged-H1-summary-C5",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "were crushed and forced to become Huns' vassals",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C6",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "a remnant fleeing to Wallachia",
+      "judgment": "supported",
+      "source_pages": [
+        61
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C7",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "forcing them to retreat to the Danube",
+      "judgment": "supported",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C8",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "text attributes the Visigoths' desperation",
+      "judgment": "supported",
+      "source_pages": [
+        61,
+        62
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C9",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "divided between Valens in the East and Valentinian in the West",
+      "judgment": "supported",
+      "source_pages": [
+        62
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C10",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Valens, portrayed as cowardly and avaricious",
+      "judgment": "supported",
+      "source_pages": [
+        62
+      ],
+      "rationale": "Author evaluation is attributed."
+    },
+    {
+      "id": "merged-H1-summary-C11",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "surrender their weapons and provide hostages",
+      "judgment": "supported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C12",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "disputes arose over food and land",
+      "judgment": "unsupported",
+      "source_pages": [
+        63
+      ],
+      "rationale": "Food extortion is explicit; the passage mentions planned land allotment but does not state a land dispute.",
+      "error_family": "H1-land-dispute",
+      "origin": "propagated_from_H1-summary"
+    },
+    {
+      "id": "merged-H1-summary-C13",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Roman officials, including Lupicinus, exploited the situation",
+      "judgment": "supported",
+      "source_pages": [
+        63,
+        64
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H1-summary-C14",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "clash at Marcianopolis",
+      "judgment": "supported",
+      "source_pages": [
+        64
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C1",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "beginning in the sixth century",
+      "judgment": "ambiguous",
+      "source_pages": [
+        169,
+        170
+      ],
+      "rationale": "Could refer to the start of this summary\u2019s discussion; if read as the origin of decline, it conflicts with the source\u2019s earlier political separation. Not counted as an asserted error family."
+    },
+    {
+      "id": "merged-H2-summary-C2",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "by around A.D. 800, he had adopted Greek",
+      "judgment": "supported",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C3",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Johannes Lydus and Procopius, who lacked proficiency",
+      "judgment": "contradiction",
+      "source_pages": [
+        169
+      ],
+      "rationale": "Lydus owed his advancement to knowing Latin; only Procopius is described as ignorant.",
+      "error_family": "H2-Lydus-Latin",
+      "origin": "propagated_from_H2-summary"
+    },
+    {
+      "id": "merged-H2-summary-C4",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "separation of the Eastern and Western parts of the empire",
+      "judgment": "supported",
+      "source_pages": [
+        169,
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C5",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "heavily affected by barbarian invasions",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C6",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "only a tenth of the population east of the Adriatic spoke Latin",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        170
+      ],
+      "rationale": "The source says not a tenth, an upper bound, not an exact tenth.",
+      "error_family": "H2-Latin-bound",
+      "origin": "propagated_from_H2-summary"
+    },
+    {
+      "id": "merged-H2-summary-C7",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "most of the remaining speakers concentrated in Africa and the Italian Exarchate",
+      "judgment": "ambiguous",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Supported if the denominator is Latin-speaking imperial subjects; misleading if still referring to the previous east-of-Adriatic population. Denominator is unclear, not automatically a contradiction."
+    },
+    {
+      "id": "merged-H2-summary-C8",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Flavius Corippus, an African",
+      "judgment": "supported",
+      "source_pages": [
+        170
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C9",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "ending practices like infanticide",
+      "judgment": "supported",
+      "source_pages": [
+        171,
+        173
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C10",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "possessed an immortal soul",
+      "judgment": "supported",
+      "source_pages": [
+        173,
+        174
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C11",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "gradual abolition of hereditary slavery",
+      "judgment": "qualification_loss",
+      "source_pages": [
+        173,
+        174
+      ],
+      "rationale": "Hereditary slavery became almost unknown; slavery itself persisted for centuries. Abolition overstates that qualified reduction.",
+      "error_family": "H2-slavery-abolition",
+      "origin": "propagated_from_H2-summary"
+    },
+    {
+      "id": "merged-H2-summary-C12",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "many citizens withdrew from public life",
+      "judgment": "supported",
+      "source_pages": [
+        174,
+        175
+      ],
+      "rationale": "The ensuing sentence attributes the criticism to the author; read as the passage\u2019s argument rather than independent historical verification."
+    },
+    {
+      "id": "merged-H2-summary-C13",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "interpret the empire\u2019s troubles as signs of the end times",
+      "judgment": "supported",
+      "source_pages": [
+        175,
+        176
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H2-summary-C14",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "resist the perceived moral decay of the era",
+      "judgment": "unsupported",
+      "source_pages": [
+        176
+      ],
+      "rationale": "The governing classes resisted invasion, famine and pestilence; moral decay is a substituted object of their resistance.",
+      "error_family": "H2-statecraft-adversities",
+      "origin": "propagated_from_H2-summary"
+    },
+    {
+      "id": "merged-H3-summary-C1",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "period from 867 to 965",
+      "judgment": "unsupported",
+      "source_pages": [
+        241,
+        242
+      ],
+      "rationale": "These exact endpoints are not established by the supplied OCR; p.242 uses 880\u2013960 for the less troubled period. Do not repair the noisy chapter dates from memory.",
+      "error_family": "H3-period-dates",
+      "origin": "propagated_from_H3-summary"
+    },
+    {
+      "id": "merged-H3-summary-C2",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "descendants of Basil the Macedonian",
+      "judgment": "supported",
+      "source_pages": [
+        241
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C3",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "were described as mild and unenterprising",
+      "judgment": "supported",
+      "source_pages": [
+        241,
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C4",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "occasional raids by Russians and Saracens",
+      "judgment": "supported",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C5",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "unsuccessful invasion of Bulgaria",
+      "judgment": "supported",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C6",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "a Saracen raid on Thessalonica",
+      "judgment": "supported",
+      "source_pages": [
+        242
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C7",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "long period of tutelage and political maneuvering",
+      "judgment": "supported",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C8",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "ruled for twenty years",
+      "judgment": "supported",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C9",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "rule was considered weak and ineffective",
+      "judgment": "supported",
+      "source_pages": [
+        243
+      ],
+      "rationale": "Explicitly marked as an evaluation."
+    },
+    {
+      "id": "merged-H3-summary-C10",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Leo's *Tactica* provided a detailed account",
+      "judgment": "supported",
+      "source_pages": [
+        244,
+        245
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C11",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "*On the Themes*, *On the Administration of the Empire*",
+      "judgment": "supported",
+      "source_pages": [
+        246
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C12",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "author attributes these literary achievements to the emperors' lack of military ambition",
+      "judgment": "supported",
+      "source_pages": [
+        241,
+        243,
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C13",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "ninth century marked the end of a period of intellectual stagnation",
+      "judgment": "supported",
+      "source_pages": [
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H3-summary-C14",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "notable figures like Photius",
+      "judgment": "supported",
+      "source_pages": [
+        247
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C1",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "decline of the Byzantine Empire from 1370 to 1453",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C2",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Servians and Hungarians taking over this responsibility",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C3",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "author attributes the prolonged existence of the empire to the Paleologi's subservience",
+      "judgment": "supported",
+      "source_pages": [
+        358
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C4",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Andronicus, who rebelled twice",
+      "judgment": "supported",
+      "source_pages": [
+        359
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C5",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "eventual succession of Manuel II.",
+      "judgment": "supported",
+      "source_pages": [
+        359
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C6",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "defeat of Sultan Bayezid at Angora in 1402",
+      "judgment": "supported",
+      "source_pages": [
+        360
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C7",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "selling his support to the Turkish pretender Suleiman",
+      "judgment": "supported",
+      "source_pages": [
+        360,
+        361,
+        362
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C8",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Europe failed to act decisively against the Ottomans",
+      "judgment": "supported",
+      "source_pages": [
+        362,
+        363
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C9",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Sigismund of Hungary preoccupied with the Hussite Wars",
+      "judgment": "supported",
+      "source_pages": [
+        362,
+        363
+      ],
+      "rationale": "Fact is supported but summary citation p.360 does not support this clause."
+    },
+    {
+      "id": "merged-H4-summary-C10",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "reasserted Ottoman control over Constantinople",
+      "judgment": "ambiguous",
+      "source_pages": [
+        363,
+        365
+      ],
+      "rationale": "The immediately following vassalage clause supports political suzerainty; direct occupation would contradict the failed siege. Retain the ambiguity rather than assert an occupation error."
+    },
+    {
+      "id": "merged-H4-summary-C11",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "empire's return to vassalage",
+      "judgment": "supported",
+      "source_pages": [
+        365
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C12",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Manuel II. died in 1422",
+      "judgment": "contradiction",
+      "source_pages": [
+        365
+      ],
+      "rationale": "1422 is the return to vassalage; Manuel died three years afterward.",
+      "error_family": "H4-Manuel-death",
+      "origin": "propagated_from_H4-summary"
+    },
+    {
+      "id": "merged-H4-summary-C13",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Constantinople reduced to a city of poverty and neglect",
+      "judgment": "supported",
+      "source_pages": [
+        365,
+        366
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C14",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "wealth concentrated in the hands of Italian merchants",
+      "judgment": "supported",
+      "source_pages": [
+        366
+      ],
+      "rationale": "Source supports this claim or grouped closely related clauses."
+    },
+    {
+      "id": "merged-H4-summary-C15",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "John VI., Manuel's son",
+      "judgment": "supported",
+      "source_pages": [
+        365,
+        367
+      ],
+      "rationale": "Matches the supplied source/OCR, regardless of modern regnal numbering."
+    },
+    {
+      "id": "merged-H4-summary-C16",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "converting to Roman Catholicism and attending the Council of Florence",
+      "judgment": "supported",
+      "source_pages": [
+        367
+      ],
+      "rationale": "Supported on 367, not the summary\u2019s cited 365."
+    },
+    {
+      "id": "merged-H4-summary-C17",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "papacy was no longer a powerful force capable of aiding the empire",
+      "judgment": "supported",
+      "source_pages": [
+        367
+      ],
+      "rationale": "Broad paraphrase of limited papal ability; specific money/300 men assistance is omitted."
+    },
+    {
+      "id": "merged-H4-summary-C18",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "loss of Thessalonica to the Venetians and the Sultan",
+      "judgment": "supported",
+      "source_pages": [
+        367
+      ],
+      "rationale": "Broad sequence matches sale to Venice followed by Ottoman annexation; chronology not made explicit."
+    },
+    {
+      "id": "merged-H1-summary-C15",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "year of brutal conflict",
+      "source_pages": [
+        64
+      ],
+      "judgment": "supported",
+      "rationale": "Matches year of fighting and third-century-style raids."
+    },
+    {
+      "id": "merged-H1-summary-C16",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Despite initial Roman resistance",
+      "source_pages": [
+        64,
+        65,
+        66
+      ],
+      "judgment": "supported",
+      "rationale": "Roman checks followed by Gothic cavalry victory."
+    },
+    {
+      "id": "merged-H1-summary-C17",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "decisive battle at Adrianople in 378 CE",
+      "source_pages": [
+        65,
+        66,
+        67
+      ],
+      "judgment": "supported",
+      "rationale": "Battle, death of Valens and senior officers supported."
+    },
+    {
+      "id": "merged-H1-summary-C18",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "superior mobility and the Romans' reliance on traditional infantry tactics",
+      "source_pages": [
+        65,
+        66,
+        67
+      ],
+      "judgment": "supported",
+      "rationale": "Grouped interpretation captures mounted-war turning point and infantry defeat."
+    },
+    {
+      "id": "merged-H1-summary-C19",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "battle is compared to Cannae",
+      "source_pages": [
+        67
+      ],
+      "judgment": "supported",
+      "rationale": "Explicit source comparison."
+    },
+    {
+      "id": "merged-H1-summary-C20",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "failed to breach its defenses",
+      "source_pages": [
+        67
+      ],
+      "judgment": "ambiguous",
+      "rationale": "May mean city stayed secure, but suggests an attempted assault; source states walls deterred assault apart from skirmishing."
+    },
+    {
+      "id": "merged-page-headings",
+      "stage": "merged-summary-synthesis",
+      "output_anchor": "Excerpt H1 (PDF p. 1\u20132)",
+      "source_pages": [
+        61,
+        67,
+        169,
+        176,
+        241,
+        247,
+        358,
+        367
+      ],
+      "judgment": "unsupported",
+      "rationale": "Invented physical PDF spans1\u20138; actual excerpt spans are61\u201367,169\u2013176,241\u2013247,358\u2013367.",
+      "error_family": "invented-page-headings",
+      "origin": "new_in_synthesis"
+    }
+  ],
+  "coverage": [
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C1",
+      "judgment": "partial",
+      "rationale": "Hunnic pressure/admission covered; Fritigern appears only later in the revolt, not explicitly as leader of those seeking admission."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C1",
+      "judgment": "partial",
+      "rationale": "Hunnic pressure/admission covered; Fritigern appears only later in the revolt, not explicitly as leader of those seeking admission."
+    },
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C2",
+      "judgment": "partial",
+      "rationale": "Conditions, exploitation and revolt covered; arms bribery and exact food mechanism omitted."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C2",
+      "judgment": "partial",
+      "rationale": "Conditions, exploitation and revolt covered; arms bribery and exact food mechanism omitted."
+    },
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople covered, Ad Salices omitted."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople covered, Ad Salices omitted."
+    },
+    {
+      "stage": "H1-summary",
+      "unit": "H1-C4",
+      "judgment": "partial",
+      "rationale": "City defenses preserved, but deterrence is blurred into failed breach."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H1-C4",
+      "judgment": "partial",
+      "rationale": "City defenses preserved, but deterrence is blurred into failed breach."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Decline and causal separation/invasions present; claim errors are separately recorded."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Decline and causal separation/invasions present; claim errors are separately recorded."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Infanticide/slavery change present; persistence qualification lost and hereditary reduction overstated."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Infanticide/slavery change present; persistence qualification lost and hereditary reduction overstated."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Ascetic civic withdrawal present; contrast with later learned/missionary monasticism omitted."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Ascetic civic withdrawal present; contrast with later learned/missionary monasticism omitted."
+    },
+    {
+      "stage": "H2-summary",
+      "unit": "H2-C4",
+      "judgment": "partial",
+      "rationale": "Pagan criticism and governing tradition present; Orosius omitted and object of statecraft resistance altered."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H2-C4",
+      "judgment": "partial",
+      "rationale": "Pagan criticism and governing tradition present; Orosius omitted and object of statecraft resistance altered."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary rulers and favorable circumstances present; unsupported exact dates separately recorded."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary rulers and favorable circumstances present; unsupported exact dates separately recorded."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C2",
+      "judgment": "partial",
+      "rationale": "Thessalonica and general guardianship appear; departure of pirates and two succession removals omitted."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C2",
+      "judgment": "partial",
+      "rationale": "Thessalonica and general guardianship appear; departure of pirates and two succession removals omitted."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Tactica/military organization mentioned, but specific tactical caution and naval limits omitted."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Tactica/military organization mentioned, but specific tactical caution and naval limits omitted."
+    },
+    {
+      "stage": "H3-summary",
+      "unit": "H3-C4",
+      "judgment": "covered",
+      "rationale": "Books and literary recovery/Photius present."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H3-C4",
+      "judgment": "covered",
+      "rationale": "Books and literary recovery/Photius present."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C1",
+      "judgment": "partial",
+      "rationale": "Critical decline and succession present; precise limited inheritance omitted."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C1",
+      "judgment": "partial",
+      "rationale": "Critical decline and succession present; precise limited inheritance omitted."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C2",
+      "judgment": "covered",
+      "rationale": "Angora, civil wars and temporary negotiated gains present."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C2",
+      "judgment": "covered",
+      "rationale": "Angora, civil wars and temporary negotiated gains present."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C3",
+      "judgment": "omitted",
+      "rationale": "Neither rival Mustaphas, reported vision nor revolt as cause of withdrawal is supplied."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C3",
+      "judgment": "omitted",
+      "rationale": "Neither rival Mustaphas, reported vision nor revolt as cause of withdrawal is supplied."
+    },
+    {
+      "stage": "H4-summary",
+      "unit": "H4-C4",
+      "judgment": "covered",
+      "rationale": "Vassalage, urban decline, loss of Thessalonica and weak Western support all represented; lack of specific 300 men noted in claim ledger."
+    },
+    {
+      "stage": "merged-summary-synthesis",
+      "unit": "H4-C4",
+      "judgment": "covered",
+      "rationale": "Vassalage, urban decline, loss of Thessalonica and weak Western support all represented; lack of specific 300 men noted in claim ledger."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C1",
+      "judgment": "partial",
+      "rationale": "Hunnic pressure/admission present; Fritigern not connected explicitly to the original admission request."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C2",
+      "judgment": "partial",
+      "rationale": "Arms bribes and revolt present; hostages and food extortion omitted."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C3",
+      "judgment": "partial",
+      "rationale": "Adrianople present, Ad Salices absent."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H1-C4",
+      "judgment": "partial",
+      "rationale": "Defenses present but a siege is falsely asserted instead of deterrence."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C1",
+      "judgment": "covered",
+      "rationale": "Decline, disconnection from West and invasions present."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C2",
+      "judgment": "partial",
+      "rationale": "Social improvements present without slavery\u2019s centuries of persistence."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C3",
+      "judgment": "partial",
+      "rationale": "Civic withdrawal present; later learned monasticism omitted and author attribution lost."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H2-C4",
+      "judgment": "omitted",
+      "rationale": "No pagan criticism, Orosius or continuing statecraft."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C1",
+      "judgment": "covered",
+      "rationale": "Literary emperors and relative peace present."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C2",
+      "judgment": "omitted",
+      "rationale": "No Thessalonica 904 or succession stages."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C3",
+      "judgment": "partial",
+      "rationale": "Military organization and tactics mentioned generally; no specified caution or naval limits."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H3-C4",
+      "judgment": "covered",
+      "rationale": "Books and recovery present."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C1",
+      "judgment": "partial",
+      "rationale": "Generic decline and vulnerability, without Oman\u2019s interpretation or Manuel\u2019s limited inheritance."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C2",
+      "judgment": "omitted",
+      "rationale": "No Angora, civil wars or gains."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C3",
+      "judgment": "omitted",
+      "rationale": "No claimants, reported vision or withdrawal cause."
+    },
+    {
+      "stage": "full-source-control",
+      "unit": "H4-C4",
+      "judgment": "partial",
+      "rationale": "Economic hardship present; vassalage, Thessalonica and Western assistance omitted."
+    }
+  ],
+  "format_review": "H1=309,H2=295,H3=215,H4=290 normalized prose words; requested180\u2013220. Merged1117 and full591 exceed requested350\u2013450. H1\u2013H3 and full-source control omit requested PDF citations; merged invents physical spans1\u20138. H4 has incomplete/wrong page support already recorded in claim rationales. No output reached cap.",
+  "annotation_limits": "Claim units group some closely related supported clauses; do not interpret claim totals as a standardized precision rate. Ambiguous wording is retained separately from clear errors. Error-family IDs are adjudicator judgments, not an automatic metric.",
+  "summary": {
+    "extraction_categories": {
+      "correct": 18,
+      "contradiction": 1,
+      "partial": 1
+    },
+    "source_absent_correct": 4,
+    "source_absent_total": 4,
+    "stated_answer_citation_categories": {
+      "supported": 13,
+      "wrong_page": 2,
+      "contradicts_answer": 1
+    },
+    "quotation_form_stated": {
+      "missing": 8,
+      "unmarked_verbatim": 4,
+      "explicit": 4
+    },
+    "unique_clear_error_families": 14,
+    "clear_error_manifestations": 22,
+    "coverage_by_stage": {
+      "H1-summary": {
+        "partial": 4
+      },
+      "H2-summary": {
+        "covered": 1,
+        "partial": 3
+      },
+      "H3-summary": {
+        "covered": 2,
+        "partial": 2
+      },
+      "H4-summary": {
+        "partial": 1,
+        "covered": 2,
+        "omitted": 1
+      },
+      "merged-summary-synthesis": {
+        "partial": 10,
+        "covered": 5,
+        "omitted": 1
+      },
+      "full-source-control": {
+        "partial": 9,
+        "covered": 3,
+        "omitted": 4
+      }
+    }
+  },
+  "provenance": "Inherited source judgments only for verified byte-identical outputs/unchanged anchored clauses. Changed H1 final paragraph and merged synthesis independently checked against supplied OCR. No old timing or machine data copied.",
+  "output_sha256": {
+    "H4-extraction.md": "a7d346d709a8d4588e3f3be06408756f52dbceed495ae4658c0e3a39cdfe11ad",
+    "H2-summary.md": "0983e1b8fca9f5ab5a8988e31353ed95c3689abb30a505ebf6590d3da2d03b38",
+    "full-source-control.md": "353811f115443eb76de0d21710996ef06056facf65bb787b1eff6ec05fd7449a",
+    "H3-extraction.md": "6a27a618270097219238175ea6afd9f2a295a858f88d2d3142ad63508a6e50a7",
+    "development-summary.md": "c387e8571dbfae994c56f60965ff9283cb9e9dce3939716f859d177bba50b743",
+    "merged-summary-synthesis.md": "5c081c1c1274aee5f3b58e56b7e4788979146da1420fc64e97bbba8b08da01ef",
+    "H3-summary.md": "0d06e614677107214d48293786f6dd0e69f76f8ab0e880795cd50eb29fbbb609",
+    "H2-extraction.md": "7a5550274fb07d7a7c74544f2528ceb1474282c099e8b1fb9d509ef7d3c0bb09",
+    "H4-summary.md": "bd157bcaee5bcf0b9ec5652f04b4528a23c7eaa21a86d4daa75b883c565d5fb0",
+    "H1-extraction.md": "5437798ae711e419365e48ce4f03c174cff4f66c7e48d5d8c763465331ea0d77",
+    "H1-summary.md": "61a213a14aec5a66cdf18f3656a567dd1507bd4ed3a697d1d768320f66c2b464",
+    "development-extraction.md": "478464a0a83c47d2ee7cadec87e29c9692ba7693e08c21c0935c0a2d735271a3"
+  },
+  "scope": "All 20 extraction answers, grouped claims for all six summaries and all 48 applicable coverage judgments."
+}

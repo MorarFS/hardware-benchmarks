@@ -1,0 +1,43 @@
+{
+  "name": "full-source-control",
+  "fingerprint": "cc141d22bc3aa60563d2429c2a7271cff8296bfce2d5cfcdce4d83deda2ebff0",
+  "source_files": [
+    "prompts.json",
+    "inputs/H1.txt",
+    "inputs/H2.txt",
+    "inputs/H3.txt",
+    "inputs/H4.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 13916,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:09:09.442648+00:00",
+  "output": "The Huns’ westward expansion in the late fourth century demonstrated the strategic foresight of Constantine’s fortifications, yet it also triggered a catastrophic chain of events. Around 372, the Huns devastated the Alans and crushed the Ostrogoths, forcing the Visigoths under Fritigern to flee toward the Danube. Desperate and facing starvation, the Visigoths petitioned Emperor Valens for asylum in 376. Valens, described by the author as a cowardly and avaricious ruler isolated in Constantinople, agreed to their entry on the condition that they surrender their arms and provide hostages. However, the arrangement quickly deteriorated due to Roman corruption. Governor Lupicinus withheld food supplies to extort exorbitant prices, leading to a market where a slave was exchanged for a single loaf of bread. This extortion culminated in a banquet at Marcianopolis where Lupicinus attempted to assassinate Fritigern, prompting the Goths to revolt and ignite a year of fierce fighting along the Balkan slopes.\n\nThe conflict escalated into the Battle of Adrianople in 378, a disaster that the author compares to Cannae. Valens, confident in the traditional superiority of Roman infantry, attacked the Gothic laager only to be outmaneuvered by Gothic cavalry, which had adopted mounted warfare during their time in the steppes. The Roman left flank was routed, and the infantry was crushed in a dense press where soldiers could not even raise their spears. The battle resulted in the death of forty thousand men, including the Emperor and high-ranking commanders, effectively annihilating the Eastern Roman army. Although the Goths subsequently marched on Constantinople, they abandoned the siege upon seeing the city’s massive walls, leaving the capital intact but the empire militarily crippled.\n\nThe long-term consequences of these invasions included the rapid decline of Latin in the Balkans. By the seventh century, the Latin-speaking population had dwindled from a quarter to less than a tenth of the total, as Slavic migrations and Gothic harassment decimated the Romanized provinces. Concurrently, the empire underwent a profound social transformation driven by Christianity. The faith abolished infanticide, modified the harshness of slavery by emphasizing the equality of souls, and ended gladiatorial games. However, the rise of ascetic monasticism created a new crisis. The author argues that this movement was harmful to the state, as thousands of able-bodied men withdrew from civic duties to save their individual souls, leaving the empire vulnerable to barbarian invasions that many Christians viewed as divine judgments rather than national emergencies.\n\nBy the late ninth century, the empire entered a period of relative stability under the \"literary emperors\" Leo VI and Constantine VII. These rulers focused on compiling manuals on military tactics and court ceremony rather than engaging in conquest. Leo’s *Tactica* revealed a highly organized Byzantine army with specialized units and medical support, while Constantine’s works detailed the empire’s administrative structure and foreign policy. This era of intellectual activity contrasted sharply with the preceding centuries of decline. However, the empire’s weakness persisted, as evidenced by the final decades of the Paleologi dynasty. Despite brief opportunities to exploit Ottoman civil wars, such as the defeat of Bayezid by Tamerlane in 1402, the Byzantines failed to secure lasting independence. By the fifteenth century, Constantinople was a depopulated ruin, its military strength reduced to a few thousand mercenaries, and its political influence negligible as it awaited its final fall.",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 733,
+    "prompt_tokens": 13916,
+    "total_tokens": 14649,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 13834,
+    "prompt_ms": 12306.667,
+    "prompt_per_token_ms": 0.889595706231025,
+    "prompt_per_second": 1124.1061450675477,
+    "predicted_n": 733,
+    "predicted_ms": 10374.321,
+    "predicted_per_token_ms": 14.172569672131148,
+    "predicted_per_second": 70.55883464566018
+  },
+  "first_visible_seconds": 12.329869208000673,
+  "wall_seconds": 22.70561062500019,
+  "word_count": 545,
+  "finished_at": "2026-09-10T04:09:33.723257+00:00"
+}

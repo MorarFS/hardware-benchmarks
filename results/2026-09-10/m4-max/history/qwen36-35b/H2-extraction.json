@@ -1,0 +1,41 @@
+{
+  "name": "H2-extraction",
+  "fingerprint": "4e799d30ff98489bf068ba0c9d74b4405307615c94397c267cbeb47715d84523",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H2.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3733,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:07:58.395932+00:00",
+  "output": "H2-Q1: The monk Telemachus intervened in the gladiatorial games in A.D. 404, and he was slain during the resulting scuffle. The text states, \"One day in A.D. 404 the games had begun... when the monk Telemachus leapt down into the arena... the good monk was slain\" [PDF p. 171].\n\nH2-Q2: Valentinian I made infanticide a capital offence in 374. The passage notes, \"Valentinian I. in 374 assimilated infanticide to other forms of murder, and made it a capital offence\" [PDF p. 173].\n\nH2-Q3: No, the passage claimed slavery was not extinguished for centuries, though its evils were immensely modified. It states, \"Though slavery was not extinguished for centuries, its evils were immensely modified\" [PDF p. 173].\n\nH2-Q4: Oman regarded widespread ascetic monasticism as politically dangerous because it removed men from their civic duties and left the state hampered during barbarian invasions. He argued that \"The Roman Empire in its fight with the barbarians was in no small degree hampered by this attitude of so many of its subjects\" [PDF p. 175].\n\nH2-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 293,
+    "prompt_tokens": 3733,
+    "total_tokens": 4026,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3651,
+    "prompt_ms": 3188.444,
+    "prompt_per_token_ms": 0.8733070391673514,
+    "prompt_per_second": 1145.0726435841432,
+    "predicted_n": 293,
+    "predicted_ms": 3835.265,
+    "predicted_per_token_ms": 13.134469178082192,
+    "predicted_per_second": 76.13554734809719
+  },
+  "first_visible_seconds": 3.2292782499998793,
+  "wall_seconds": 7.065036416000112,
+  "word_count": 178,
+  "finished_at": "2026-09-10T04:08:06.503796+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "H1-extraction",
+  "fingerprint": "9ce56bd7669d5ec11b34a72bd6bec69059cddb405aaaf0145957d5d18163ec4b",
+  "source_files": [
+    "prompts.json",
+    "questions.json",
+    "inputs/H1.txt"
+  ],
+  "parent_requests": [],
+  "rendered_prompt_tokens": 3595,
+  "output_budget": 2048,
+  "status": "ok",
+  "quality": "Unadjudicated",
+  "started_at": "2026-09-10T04:07:42.158042+00:00",
+  "output": "H1-Q1: Duke Fritigern led the Visigoths as they retreated toward the Danube. The text states, \"the Visigoths, under their Duke Fritigern, fell back in dismay with their wives and children... till they found themselves with their backs to the Danube\" [PDF p. 61].\n\nH1-Q2: Valens imposed the conditions that the Goths give hostages and surrender their arms. The arms condition was ignored because officials accepted bribes from the Goths to allow them to retain their weapons. The passage notes, \"the bribes were accepted and the Goths retained their arms\" [PDF p. 63].\n\nH1-Q3: Governor Lupicinus withheld food supplies and sold them at exorbitant prices, causing severe hunger among the Goths. This starvation drove the immigrants to desperation and ultimately led to revolt. The text explains, \"In sheer hunger the Goths were driven to barter a slave for a single loaf of bread\" [PDF p. 63].\n\nH1-Q4: The battle at Ad Salices resulted in heavy casualties for both sides but produced no decisive outcome. The passage describes it as a \"desperate pitched battle... [that] thinned the ranks of both sides, but led to no decisive result\" [PDF p. 64].\n\nH1-Q5: Not stated in the supplied passage",
+  "reasoning_output": "",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 293,
+    "prompt_tokens": 3595,
+    "total_tokens": 3888,
+    "prompt_tokens_details": {
+      "cached_tokens": 82
+    }
+  },
+  "timings": {
+    "cache_n": 82,
+    "prompt_n": 3513,
+    "prompt_ms": 2757.571,
+    "prompt_per_token_ms": 0.7849618559635638,
+    "prompt_per_second": 1273.9472528540516,
+    "predicted_n": 293,
+    "predicted_ms": 3829.422,
+    "predicted_per_token_ms": 13.11445890410959,
+    "predicted_per_second": 76.25171631645715
+  },
+  "first_visible_seconds": 2.7989301669995257,
+  "wall_seconds": 6.628804166999544,
+  "word_count": 195,
+  "finished_at": "2026-09-10T04:07:50.253284+00:00"
+}

@@ -38,3 +38,5 @@ gzip -dk -- *-stream.jsonl.gz offload.txt.gz
 python3 scripts/history_v2/collect_mac.py qwen3-8b --source local-results/m4-max-history/qwen3-8b --output results/2026-09-10/m4-max/history/qwen3-8b
 python3 scripts/history_v2/retokenize_m4.py qwen3-8b
 ```
+
+Expanded evidence: `adjudication.json` now supplies all 48 applicable coverage judgments and a grouped ledger for every held-out summary. Verified byte-identical outputs inherit source judgments from the earlier Mac review; changed H1 clauses and the new merged output were checked separately. Claim counts are not standardized precision scores.
